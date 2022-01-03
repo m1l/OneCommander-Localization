@@ -10,7 +10,7 @@ to open these xlf files so they can be imported correctly.
 ## Translating
 After opening xlf file in MAT, switch to Strings tab and ignore the Messages tab.
 
-On some message boxes you may see tags like "<bpt id="1">&lt;b&gt;</bpt>"; please keep those and translate only text in and around it.
+On some message boxes you may see tags like &lt‎;b&gt‎; please keep those and translate only text in and around it.
 
 Keys can be sorted by "Translation state" column (third) to see first new or updated keys.
 Location of certain string in program can be determined from ID/Key name column. For example "resourcesettings" in ID columns are all from Settings dialog, and should be close to the actual order of the tabs and items in Settings, which might help with translating. Keys starting with DLG_ are dialog boxes, MSG_E are error notifications, _TT are tooltips, etc.
