@@ -1845,6 +1845,30 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="new">Icons</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
+        <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
+          <source>Wait for all items before showing context menu</source>
+          <target state="new">Wait for all items before showing context menu</target>
+        </trans-unit>
+        <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
+          <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
+          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
+        </trans-unit>
+        <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
+          <source>Switch to newly created tab on middle-click on folder</source>
+          <target state="new">Switch to newly created tab on middle-click on folder</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
+          <source>Open paths from external source in:</source>
+          <target state="new">Open paths from external source in:</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
+          <source>Existing tab</source>
+          <target state="new">Existing tab</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
+          <source>New tab</source>
+          <target state="new">New tab</target>
+        </trans-unit>
       </group>
     </body>
   </file>

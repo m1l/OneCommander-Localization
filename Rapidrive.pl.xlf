@@ -283,7 +283,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
-          <target state="translated">Wyklucz z obserwowania</target>
+          <target state="final">Wyklucz z obserwowania</target>
           <note from="MultilingualEditor" annotates="source" priority="4">Option in settings &gt; advanced</note>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywordsInfo" translate="yes" xml:space="preserve">
@@ -325,7 +325,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FolderIconOverrideInfo" translate="yes" xml:space="preserve">
           <source>Using anything except Windows Default will disable folder icon overlays</source>
-          <target state="final">Użycie czegokolwiek poza domyślnym zestawem ssytemu Windows spowoduje wyłączenie nakładek ikon folderów</target>
+          <target state="final">Użycie czegokolwiek poza domyślnym zestawem sytemu Windows spowoduje wyłączenie nakładek ikon folderów</target>
         </trans-unit>
         <trans-unit id="FolderIconsPack" translate="yes" xml:space="preserve">
           <source>Folder icons pack</source>
@@ -428,7 +428,7 @@ Wymagane ponowne uruchomienie programu</target>
         </trans-unit>
         <trans-unit id="IconsPackInfo" translate="yes" xml:space="preserve">
           <source>Icon packs contribute to program's overall memory use</source>
-          <target state="final">Pakiety ikon powoduję zwiększenie wykorzystania pamięci</target>
+          <target state="final">Pakiety ikon powodują zwiększenie wykorzystania pamięci</target>
         </trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
@@ -864,11 +864,11 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="final">Przełącz na pulpit wirtualny, na którym jest otwarty program One Commander</target>
+          <target state="final">przełączyć na pulpit wirtualny, na którym jest otwarty program One Commander</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
           <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="final">Przenieś One Commander na bieżący pulpit wirtualny</target>
+          <target state="final">przenieść One Commander na bieżący pulpit wirtualny</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -1047,39 +1047,63 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="new">Clear History on close</target>
+          <target state="final">Wyczyść historię przy zamykaniu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="new">Color luminosity</target>
+          <target state="final">Jasność kolorów</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
-          <target state="new">Color saturation</target>
+          <target state="final">Nasycenie kolorów</target>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="new">Max number of paths saved</target>
+          <target state="final">Maksymalna liczba zapisanych ścieżek</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="new">Icons</target>
+          <target state="final">Ikony</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
           <source>Open Recent Destinations flyout on file drag</source>
-          <target state="new">Open Recent Destinations flyout on file drag</target>
+          <target state="final">Wysuń panel ostatnich miejsc docelowych podczas przeciągania pliku</target>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="new">Show History pane in sidebar</target>
+          <target state="final">Pokaż panel historii na pasku bocznym</target>
         </trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
-          <target state="new">Show rename suggestions popup</target>
+          <target state="final">Pokaż podpowiedzi zmiany nazwy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user presses F2 to rename, suggestions will show for new name</note>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
+          <source>Open paths from external source in:</source>
+          <target state="new">Open paths from external source in:</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
+          <source>Existing tab</source>
+          <target state="new">Existing tab</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
+          <source>New tab</source>
+          <target state="new">New tab</target>
+        </trans-unit>
+        <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
+          <source>Switch to newly created tab on middle-click on folder</source>
+          <target state="new">Switch to newly created tab on middle-click on folder</target>
+        </trans-unit>
+        <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
+          <source>Wait for all items before showing context menu</source>
+          <target state="new">Wait for all items before showing context menu</target>
+        </trans-unit>
+        <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
+          <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
+          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
         </trans-unit>
       </group>
     </body>
@@ -1152,7 +1176,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
-          <target state="translated">Zmień widok</target>
+          <target state="final">Zmień widok</target>
         </trans-unit>
         <trans-unit id="ClipboardCopy_S" translate="yes" xml:space="preserve">
           <source>CTRL + C</source>
@@ -1192,7 +1216,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
-          <target state="needs-review-translation">Delete</target>
+          <target state="final">Delete</target>
         </trans-unit>
         <trans-unit id="Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete selected items</source>
@@ -1623,8 +1647,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardUsedByAnotherProcess" translate="yes" xml:space="preserve">
           <source>Error: program {0} is blocking Windows Clipboard</source>
-          <target state="needs-review-translation">Błąd: Schowek systemu Windows jest używany przez proces {0}</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Błąd: program {0} blokuje Schowek systemu Windows</target>
         </trans-unit>
         <trans-unit id="MSG_E_CommandShellOpenFail" translate="yes" xml:space="preserve">
           <source>Could not open {0} here</source>
@@ -2026,7 +2049,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
-          <target state="translated">Utwórz notatkę</target>
+          <target state="final">Utwórz notatkę</target>
         </trans-unit>
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
@@ -2512,42 +2535,42 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="new">History</target>
+          <target state="final">Historia</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="final">Wyczyść</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="new">Remove History pane</target>
+          <target state="final">Usuń panel historii</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="new">History pane is removed. It can be added again in Settings</target>
+          <target state="final">Panel historii zostanie usunięte. Można go ponownie dodać w Ustawieniach</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="new">Recent destinations</target>
+          <target state="final">Ostatnie miejsca docelowe</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="new">Names</target>
+          <target state="final">Nazwy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="new">Tags</target>
+          <target state="final">Etykiety</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="new">Enter folder name</target>
+          <target state="final">Wpisz nazwę folderu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
       </group>
@@ -2573,7 +2596,7 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         </trans-unit>
         <trans-unit id="OpensWebBrowser" translate="yes" xml:space="preserve">
           <source>Opens web browser</source>
-          <target state="translated">Otwiera przeglądarkę internetową</target>
+          <target state="final">Otwiera przeglądarkę internetową</target>
         </trans-unit>
         <trans-unit id="ProLicenseRequired" translate="yes" xml:space="preserve">
           <source>The Pro license is required for commercial use</source>
@@ -2659,7 +2682,7 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
           <source>Full version - PRO license</source>
-          <target state="new">Full version - PRO license</target>
+          <target state="final">Pełna wersja - licencja PRO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
       </group>
