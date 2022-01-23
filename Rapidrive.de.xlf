@@ -392,8 +392,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
           <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
-          <target state="needs-review-translation">Textauszüge für diese Dateitypen anzeigen (Datei Miniatur- + Detail-Ansicht)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Textauszüge für diese Dateitypen anzeigen (adaptive und Thumbs+Details Dateiansicht)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as ASCII/Plain-Text only</source>
@@ -1046,67 +1045,75 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
-          <target state="new">Use Mica window effect</target>
+          <target state="translated">Glimmereffekt verwenden</target>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="new">Max number of paths saved</target>
+          <target state="translated">Max. Anzahl gespeicherter Pfade</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="new">Show History pane in sidebar</target>
+          <target state="translated">Historie in der Seitenleiste anzeigen</target>
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="new">Clear History on close</target>
+          <target state="translated">Verlauf beim Schließen löschen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
           <source>Open Recent Destinations flyout on file drag</source>
-          <target state="new">Open Recent Destinations flyout on file drag</target>
+          <target state="translated">Flyout "Letzte Ziele" beim Ziehen der Datei öffnen</target>
         </trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
-          <target state="new">Show rename suggestions popup</target>
+          <target state="translated">Popup für Umbenennungsvorschläge anzeigen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user presses F2 to rename, suggestions will show for new name</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="new">Color luminosity</target>
+          <target state="translated">Farb-Leuchtkraft</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
-          <target state="new">Color saturation</target>
+          <target state="translated">Farbsättigung</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="new">Icons</target>
+          <target state="translated">Icons</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
-          <target state="new">Wait for all items before showing context menu</target>
+          <target state="translated">Auf alle Elemente warten, bevor Kontextmenü angezeigt wird</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
           <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
-          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
+          <target state="translated">Zeigt langsame Einträge aus dem SendTo-Untermenü an, aber das Öffnen des Menüs dauert länger oder friert ein, wenn die Send-to-Ziele langsam reagieren, daher ist es standardmäßig deaktiviert</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="new">Switch to newly created tab on middle-click on folder</target>
+          <target state="translated">Wechseln auf neu erstellte Registerkarte mit Mittelklick auf Ordner</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="new">Open paths from external source in:</target>
+          <target state="translated">Pfade von externer Quelle öffnen in:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab</source>
-          <target state="new">Existing tab</target>
+          <target state="translated">Vorhandener Tab</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="new">New tab</target>
+          <target state="translated">Neuer Tab</target>
+        </trans-unit>
+        <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
+          <source>Log detailed messages</source>
+          <target state="translated">Detaillierte Meldungen protokollieren</target>
+        </trans-unit>
+        <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
+          <source>For debugging purposes only. Program runs slower if enabled</source>
+          <target state="translated">Nur für Debugging-Zwecke. Das Programm läuft langsamer, wenn es aktiviert ist.</target>
         </trans-unit>
       </group>
     </body>
@@ -2302,8 +2309,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardUsedByAnotherProcess" translate="yes" xml:space="preserve">
           <source>Error: program {0} is blocking Windows Clipboard</source>
-          <target state="needs-review-translation">Fehler: Zwischenablage wird vom {0} Prozess verwendet</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Fehler: Programm {0} blockiert die Windows-Zwischenablage</target>
         </trans-unit>
         <trans-unit id="Menu_OpenCommandShell" translate="yes" xml:space="preserve">
           <source>Open in command shell</source>
@@ -2510,57 +2516,62 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="new">No WSL distros found. Make sure they are running</target>
+          <target state="translated">Keine WSL-Distributionen gefunden. Stellen Sie sicher, dass sie ausgeführt werden</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="new">Special folder</target>
+          <target state="translated">Sonderordner</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="Computer" translate="yes" xml:space="preserve">
           <source>Computer</source>
-          <target state="new">Computer</target>
+          <target state="translated">Computer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details</note>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="new">History</target>
+          <target state="translated">Verlauf</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="translated">Löschen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="new">Remove History pane</target>
+          <target state="translated">Verlaufsbereich entfernen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="new">History pane is removed. It can be added again in Settings</target>
+          <target state="translated">Verlaufsbereich entfernt. Es kann unter Einstellungen wieder hinzugefügt werden</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="new">Recent destinations</target>
+          <target state="translated">Jüngste Ziele</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="new">Names</target>
+          <target state="translated">Namen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="new">Tags</target>
+          <target state="translated">Tags</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="new">Enter folder name</target>
+          <target state="translated">Ordnernamen eingeben</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
+          <source>Destination program doesn't accept FileDrop package</source>
+          <target state="translated">Zielprogramm akzeptiert das FileDrop-Paket nicht</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
       </group>
     </body>
@@ -2786,7 +2797,7 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
           <source>Full version - PRO license</source>
-          <target state="new">Full version - PRO license</target>
+          <target state="translated">Vollversion - PRO-Lizenz</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
       </group>

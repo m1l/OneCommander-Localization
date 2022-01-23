@@ -1096,6 +1096,14 @@ This should be enabled if program is set as a default file manager</source>
           <source>New tab</source>
           <target state="new">New tab</target>
         </trans-unit>
+        <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
+          <source>Log detailed messages</source>
+          <target state="new">Log detailed messages</target>
+        </trans-unit>
+        <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
+          <source>For debugging purposes only. Program runs slower if enabled</source>
+          <target state="new">For debugging purposes only. Program runs slower if enabled</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2548,6 +2556,11 @@ Alcuni programmi non saranno in grado di aprire/salvare file da questa cartella<
           <source>Enter folder name</source>
           <target state="new">Enter folder name</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
+          <source>Destination program doesn't accept FileDrop package</source>
+          <target state="new">Destination program doesn't accept FileDrop package</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
       </group>
     </body>
