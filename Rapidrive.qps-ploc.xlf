@@ -1062,10 +1062,9 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">[DA36F][!!_Ẅĥéη ċĺôşîйģ тнê ĺáŝτ ẅįиðõŵ, ďõ ÿõµ ẁãйţ ţћé þřôģŕáм τõ <bpt id="1">&lt;B&gt;</bpt>ĸêèþ ѓùήήìήģ ìή τђê ьáċķĝѓõûήđ<ept id="1">&lt;/B&gt;</ept> (įċôη įή Ŝŷŝťęm Ťřáý) ƒôѓ ƒáŝťêř иę×ť šţãřт?_!!]</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
-          <source>You've changed name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation?&lt;br/&gt;Press <bpt id="2">&lt;i&gt;</bpt>No<ept id="2">&lt;/i&gt;</ept> to alwasy require explicitly confirming rename operation</source>
+          <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">[90E53][!!_Ŷõû'νę ċђáήģęď ήãmé ъùţ čľíĉќêð ôùţšíďê.<it id="1" pos="open">&lt;br&gt;</it>Ďô ŷòú ẁàήť τõ ãłẁâУŝ ŕęиãmę τĥê ƒîļê<it id="4" pos="close">&lt;/b&gt;</it> îή ţћíŝ śíťûãтįõи?<it id="2" pos="open">&lt;br&gt;</it>Ρѓêšš <it id="3" pos="open">&lt;i&gt;</it>Ñò<it id="5" pos="close">&lt;/i&gt;</it> ťó áľŵáşУ řéqµîřè è×рļįĉíтļУ ċõηƒìřмíиġ ѓęйâmę òþęŗáťįôи_!!]</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
-          <note from="MultilingualBuild" annotates="source" priority="2">Edit: issue with missing &lt;b&gt; corrected</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
@@ -1464,6 +1463,16 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Destination program doesn't accept FileDrop package</source>
           <target state="new">Destination program doesn't accept FileDrop package</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
+        </trans-unit>
+        <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
+          <source>Applying settings. Please wait...</source>
+          <target state="new">Applying settings. Please wait...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
+        </trans-unit>
+        <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
       </group>
     </body>
@@ -2301,8 +2310,8 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="new">Pixel-perfect layout</target>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
-          <source>Default ON. Makes lines sharper on non-HDPI screens. Program is more stable when Off, but icons and lines may not be as sharp.</source>
-          <target state="new">Default ON. Makes lines sharper on non-HDPI screens. Program is more stable when Off, but icons and lines may not be as sharp.</target>
+          <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
+          <target state="new">Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</target>
         </trans-unit>
         <trans-unit id="ComputerNameCustom" translate="yes" xml:space="preserve">
           <source>Custom alias</source>
@@ -2341,8 +2350,8 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="new">Auto-switch to thumbnail view</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
-          <source>Program will check a first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="new">Program will check a first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</target>
+          <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
+          <target state="new">Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandler" translate="yes" xml:space="preserve">
           <source>File operations handler</source>
@@ -2453,6 +2462,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
           <target state="new">This will not affect folder size display (it is provided by Windows)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
           <source>Show file attributes and synchronization state icons</source>
@@ -2581,6 +2591,100 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
           <source>For debugging purposes only. Program runs slower if enabled</source>
           <target state="new">For debugging purposes only. Program runs slower if enabled</target>
+        </trans-unit>
+        <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
+          <source>Make size over 1 GB more prominent with a color</source>
+          <target state="new">Make size over 1 GB more prominent with a color</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
+        </trans-unit>
+        <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
+          <source>Size shown in MB only, but MB text is not displayed</source>
+          <target state="new">Size shown in MB only, but MB text is not displayed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
+        </trans-unit>
+        <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
+          <source>Inherit files view</source>
+          <target state="new">Inherit files view</target>
+        </trans-unit>
+        <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
+          <source>Files view and sorting will be inherited from parent folder folder</source>
+          <target state="new">Files view and sorting will be inherited from parent folder folder</target>
+        </trans-unit>
+        <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
+          <source>Dialog connector</source>
+          <target state="new">Dialog connector</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
+        </trans-unit>
+        <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
+          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
+          <target state="new">The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</target>
+        </trans-unit>
+        <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
+          <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
+          <target state="new">Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</target>
+        </trans-unit>
+        <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
+          <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
+          <target state="new">This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dialog that opens when user clicks to download connector</note>
+        </trans-unit>
+        <trans-unit id="Download" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="new">Download</target>
+        </trans-unit>
+        <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
+          <source>Run on program start</source>
+          <target state="new">Run on program start</target>
+        </trans-unit>
+        <trans-unit id="RunNow" translate="yes" xml:space="preserve">
+          <source>Run now</source>
+          <target state="new">Run now</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
+        </trans-unit>
+        <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
+          <source>Show window name in Taskbar</source>
+          <target state="new">Show window name in Taskbar</target>
+        </trans-unit>
+        <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
+          <source>Color item background to tag color</source>
+          <target state="new">Color item background to tag color</target>
+        </trans-unit>
+        <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
+          <source>Item coloring</source>
+          <target state="new">Item coloring</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
+        </trans-unit>
+        <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
+          <source>Color tag</source>
+          <target state="new">Color tag</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
+        </trans-unit>
+        <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="new">None</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
+        </trans-unit>
+        <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
+          <source>Cancel rename</source>
+          <target state="new">Cancel rename</target>
+        </trans-unit>
+        <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Rename</target>
+        </trans-unit>
+        <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
+          <source>Clicking outside during rename operation should:</source>
+          <target state="new">Clicking outside during rename operation should:</target>
+        </trans-unit>
+        <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
+        </trans-unit>
+        <trans-unit id="DrivePaneTitleDisplay" translate="yes" xml:space="preserve">
+          <source>Drive pane title display</source>
+          <target state="new">Drive pane title display</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
       </group>
     </body>
@@ -3234,6 +3338,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Leave blank to keep the original extension</source>
           <target state="new">Leave blank to keep the original extension</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
+        </trans-unit>
+        <trans-unit id="ParentName" translate="yes" xml:space="preserve">
+          <source>Parent folder name</source>
+          <target state="new">Parent folder name</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
       </group>
     </body>
