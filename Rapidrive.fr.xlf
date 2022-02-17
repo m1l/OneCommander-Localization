@@ -220,7 +220,7 @@ La licence sera valide pour un nombre de 10 ordinateurs utilisés avec le même 
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
           <source>Full version - PRO license</source>
-          <target state="new">Full version - PRO license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Version complète - Licence PRO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
       </group>
@@ -1267,164 +1267,164 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="new">Max number of paths saved</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre maximal de chemins enregistrés</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="new">Show History pane in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher le volet Historique dans la barre latérale</target>
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="new">Clear History on close</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Effacer l’historique à la fermeture</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
           <source>Open Recent Destinations flyout on file drag</source>
-          <target state="new">Open Recent Destinations flyout on file drag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir le menu volant Destinations récentes sur le glissement de fichier</target>
         </trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
-          <target state="new">Show rename suggestions popup</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher les suggestions de renommage popup</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user presses F2 to rename, suggestions will show for new name</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="new">Color luminosity</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Luminosité des couleurs</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
-          <target state="new">Color saturation</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Saturation de la couleur</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="new">Icons</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Icônes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
-          <target state="new">Wait for all items before showing context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Attendez tous les éléments avant d’afficher le menu contextuel</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
           <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
-          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cela affichera les éléments lents du sous-menu SendTo, mais l’ouverture du menu prendra plus de temps ou provoquera un gel si les destinations d’envoi sont lentes à répondre, il est donc désactivé par défaut</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="new">Switch to newly created tab on middle-click on folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passez à l’onglet nouvellement créé sur le dossier avec le bouton central</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="new">Open paths from external source in:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir des chemins à partir d’une source externe dans :</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab</source>
-          <target state="new">Existing tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Onglet existant</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="new">New tab</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nouvel onglet</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
-          <target state="new">Log detailed messages</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Consigner les messages détaillés</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
           <source>For debugging purposes only. Program runs slower if enabled</source>
-          <target state="new">For debugging purposes only. Program runs slower if enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">À des fins de débogage uniquement. Le programme s’exécute plus lentement s’il est activé</target>
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="new">Make size over 1 GB more prominent with a color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rendre la taille supérieure à 1 Go plus visible avec une couleur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
-          <target state="new">Size shown in MB only, but MB text is not displayed</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taille affichée en Mo uniquement, mais le texte mo n’est pas affiché</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
-          <target state="new">Inherit files view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vue Hériter des fichiers</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="new">Files view and sorting will be inherited from parent folder folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">L’affichage et le tri des fichiers seront hérités du dossier parent</target>
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="new">Dialog connector</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Connecteur de boîte de dialogue</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="new">The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le connecteur One Commander est un utilitaire autonome expérimental permettant de connecter OC aux boîtes de dialogue Ouvrir et Enregistrer d’autres programmes. Une petite fenêtre apparaîtra sous une boîte de dialogue d’ouverture/enregistrement compatible pour vous permettre de définir son dossier sur le chemin ouvert dans One Commander. Il fonctionne indépendamment d’OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
-          <target state="new">Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Connecteur démarré. Pour tester, fermez cette fenêtre de paramètres, ouvrez le Bloc-notes, puis cliquez sur Fichier-&gt;Ouvrir pour le voir en action</target>
         </trans-unit>
         <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
           <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
-          <target state="new">This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cela téléchargera OneCommanderConnector.exe à partir de OneCommander.com site Web. Étant donné que cet utilitaire commence par une fenêtre invisible et surveille lorsqu’une fenêtre de dialogue Ouvrir ou Enregistrer s’ouvre, un logiciel antivirus peut se plaindre qu’il est suspect. C’est sûr, mais si vous avez des préoccupations, veuillez contacter le support.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog that opens when user clicks to download connector</note>
         </trans-unit>
         <trans-unit id="Download" translate="yes" xml:space="preserve">
           <source>Download</source>
-          <target state="new">Download</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Télécharger</target>
         </trans-unit>
         <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
           <source>Run on program start</source>
-          <target state="new">Run on program start</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Exécuter au démarrage du programme</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
-          <target state="new">Run now</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exécuter maintenant</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
         </trans-unit>
         <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
           <source>Show window name in Taskbar</source>
-          <target state="new">Show window name in Taskbar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher le nom de la fenêtre dans la barre des tâches</target>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="new">Color item background to tag color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Arrière-plan de l’élément de couleur pour baliser la couleur</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
-          <target state="new">Item coloring</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Coloration de l’article</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
-          <target state="new">Color tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Balise de couleur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="new">None</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aucun</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
-          <target state="new">Cancel rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Annuler l’attribution d’un nouveau nom</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Renommer</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
-          <target state="new">Clicking outside during rename operation should:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cliquer à l’extérieur pendant l’opération de renommage devrait :</target>
         </trans-unit>
         <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nom complet</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
         <trans-unit id="DrivePaneTitleDisplay" translate="yes" xml:space="preserve">
           <source>Drive pane title display</source>
-          <target state="new">Drive pane title display</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Affichage du titre du volet du lecteur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
       </group>
@@ -2846,57 +2846,57 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="new">History</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Historique</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Effacer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="new">Remove History pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volet Supprimer l’historique</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="new">History pane is removed. It can be added again in Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le volet Historique est supprimé. Il peut être ajouté à nouveau dans Paramètres</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="new">Recent destinations</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Destinations récentes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="new">Names</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Noms</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="new">Tags</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Balises</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="new">Enter folder name</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Entrez le nom du dossier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
-          <target state="new">Destination program doesn't accept FileDrop package</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le programme de destination n’accepte pas le package FileDrop</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
         <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
           <source>Applying settings. Please wait...</source>
-          <target state="new">Applying settings. Please wait...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Application des paramètres. Veuillez patienter...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="new">Not available</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Non disponible</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
       </group>
@@ -3330,7 +3330,7 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="new">Parent folder name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nom du dossier parent</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
       </group>

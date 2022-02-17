@@ -981,224 +981,224 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
           <source>Show file attributes and synchronization state icons</source>
-          <target state="new">Show file attributes and synchronization state icons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення атрибутів файлів і піктограм стану синхронізації</target>
         </trans-unit>
         <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
           <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="new">Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Потрібно відображати піктограми стану OneDrive, якщо ввімкнуто функцію "Файли на вимогу". Також відображає зашифровані та репаровані піктограми. Краща продуктивність при вимкнені.</target>
         </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
-          <target state="new">Scaled to fit preview pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Масштабований відповідно до області попереднього перегляду</target>
         </trans-unit>
         <trans-unit id="ImageScaleOriginal" translate="yes" xml:space="preserve">
           <source>Original size</source>
-          <target state="new">Original size</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Вихідний розмір</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationPerformance" translate="yes" xml:space="preserve">
           <source>Pixelated (better performance)</source>
-          <target state="new">Pixelated (better performance)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Піксельний (краща продуктивність)</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationQuality" translate="yes" xml:space="preserve">
           <source>Smooth (better quality)</source>
-          <target state="new">Smooth (better quality)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Гладкий (краща якість)</target>
         </trans-unit>
         <trans-unit id="HeaderPreviewPane" translate="yes" xml:space="preserve">
           <source>Preview pane</source>
-          <target state="new">Preview pane</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Область перегляду</target>
         </trans-unit>
         <trans-unit id="ImageScaleQuestion" translate="yes" xml:space="preserve">
           <source>Display small images</source>
-          <target state="new">Display small images</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення невеликих зображень</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationQuestion" translate="yes" xml:space="preserve">
           <source>Image scaling interpolation </source>
-          <target state="new">Image scaling interpolation </target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Інтерполяція масштабування зображення </target>
         </trans-unit>
         <trans-unit id="MetadataLineCount" translate="yes" xml:space="preserve">
           <source>Lines of text</source>
-          <target state="new">Lines of text</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Рядки тексту</target>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
-          <target state="new">Clear Windows thumbnail cache</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Очищення кеша ескізів Windows</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
-          <target state="new">Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перейдіть до завершення роботи explorer.exe, видаліть файли кешу мініатюр Windows і перезапустіть explorer.exe? Це призведе до припинення всіх поточних операцій з файлами!!!</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
-          <target state="new">Register 3ds Max thumbnail handler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Реєстрація обробника ескізів 3ds Max</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
-          <target state="new">Show Files View toolbar buttons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати кнопки панелі інструментів "Перегляд файлів"</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
-          <target state="new">Use Mica window effect</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання ефекту вікна слюди</target>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="new">Max number of paths saved</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Максимальна кількість збережених контурів</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="new">Show History pane in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відобразити область журналу на бічній панелі</target>
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="new">Clear History on close</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Очистити журнал під час закриття</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
           <source>Open Recent Destinations flyout on file drag</source>
-          <target state="new">Open Recent Destinations flyout on file drag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкриття спливаючого меню Останні призначення під час перетягування файлу</target>
         </trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
-          <target state="new">Show rename suggestions popup</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення спливаючих меню пропозицій щодо перейменування</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user presses F2 to rename, suggestions will show for new name</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="new">Color luminosity</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Яскравість кольору</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
-          <target state="new">Color saturation</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Насиченість кольорів</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="new">Icons</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Піктограми</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
-          <target state="new">Wait for all items before showing context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зачекайте, поки всі елементи перед відображенням контекстного меню</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
           <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
-          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Це покаже повільні елементи з підменю SendTo, але відкриття меню займе більше часу або призведе до заморожування, якщо відправлення до місця призначення повільно реагує, тому його вимкнено за замовчуванням</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="new">Switch to newly created tab on middle-click on folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перехід до новоствореної вкладки в папці з середньою кнопкою миші</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="new">Open paths from external source in:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкрити контури із зовнішнього джерела в:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab</source>
-          <target state="new">Existing tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Наявна вкладка</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="new">New tab</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Нова вкладка</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
-          <target state="new">Log detailed messages</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вхід докладних повідомлень</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
           <source>For debugging purposes only. Program runs slower if enabled</source>
-          <target state="new">For debugging purposes only. Program runs slower if enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тільки для налагодження. Програма працює повільніше, якщо ввімкнено</target>
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="new">Make size over 1 GB more prominent with a color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зробіть розмір понад 1 ГБ більш помітним за допомогою кольору</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
-          <target state="new">Size shown in MB only, but MB text is not displayed</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розмір, який відображається лише в МБ, але текст МБ не відображається</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
-          <target state="new">Inherit files view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Успадковувати подання файлів</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="new">Files view and sorting will be inherited from parent folder folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перегляд і сортування файлів буде успадковано з батьківської папки</target>
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="new">Dialog connector</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">З'єднувач діалогового вікна</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="new">The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander Connector - це експериментальна автономна утиліта, яка допомагає з'єднати OC з діалоговими вікнами відкриття та збереження інших програм. Невелике вікно з'явиться під сумісним діалоговим вікном відкриття/збереження, щоб ви дозволили вам встановити її теку на шлях, відкритий в One Commander. Він працює незалежно від OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
-          <target state="new">Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">З'єднувач почався. Щоб перевірити, закрийте це вікно налаштувань, відкрийте блокнот і натисніть кнопку Файл &gt;Відкрити, щоб побачити його в дії</target>
         </trans-unit>
         <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
           <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
-          <target state="new">This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Це завантажить OneCommanderConnector.exe з OneCommander.com веб-сайту. Оскільки ця утиліта починається з невидимого вікна та моніторів, коли відкриється діалогове вікно "Відкрити" або "Зберегти", антивірусне програмне забезпечення може скаржитися на підозрілість. Це безпечно, але якщо у вас є проблеми, будь ласка, зв'яжіться зі службою підтримки.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog that opens when user clicks to download connector</note>
         </trans-unit>
         <trans-unit id="Download" translate="yes" xml:space="preserve">
           <source>Download</source>
-          <target state="new">Download</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Завантажити</target>
         </trans-unit>
         <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
           <source>Run on program start</source>
-          <target state="new">Run on program start</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Запуск під час запуску програми</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
-          <target state="new">Run now</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Виконати зараз</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
         </trans-unit>
         <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
           <source>Show window name in Taskbar</source>
-          <target state="new">Show window name in Taskbar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати ім'я вікна на панелі завдань</target>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="new">Color item background to tag color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Колір тла елемента для кольору тегів</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
-          <target state="new">Item coloring</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розмальовка елемент</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
-          <target state="new">Color tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тег кольору</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="new">None</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Немає</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
-          <target state="new">Cancel rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Скасувати перейменування</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Перейменувати</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
-          <target state="new">Clicking outside during rename operation should:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Натискання назовні під час операції перейменування має:</target>
         </trans-unit>
         <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ім’я</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
         <trans-unit id="DrivePaneTitleDisplay" translate="yes" xml:space="preserve">
           <source>Drive pane title display</source>
-          <target state="new">Drive pane title display</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення заголовка області диска</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
       </group>
@@ -2588,84 +2588,84 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
-          <target state="new">File with this name already exists. Do you want to replace it?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Файл із таким іменем уже існує. Замінити його?</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="new">Getting Recycle Bin items...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отримання елементів кошика...</target>
         </trans-unit>
         <trans-unit id="MSG_E_ItemsUnavailable" translate="yes" xml:space="preserve">
           <source>Items unavailable</source>
-          <target state="new">Items unavailable</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Елементи недоступні</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="new">No WSL distros found. Make sure they are running</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дистрибутивів WSL не знайдено. Переконайтеся, що вони працюють</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="new">Special folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Спеціальна папка</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="Computer" translate="yes" xml:space="preserve">
           <source>Computer</source>
-          <target state="new">Computer</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Комп’ютер</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details</note>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="new">History</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Журнал</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Очистити</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="new">Remove History pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Область "Видалити журнал"</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="new">History pane is removed. It can be added again in Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Область журналу буде видалено. Його можна додати знову в налаштуваннях</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="new">Recent destinations</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Останні напрямки</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="new">Names</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Імена</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="new">Tags</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">теги</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="new">Enter folder name</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Введіть ім’я папки</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
-          <target state="new">Destination program doesn't accept FileDrop package</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Цільова програма не приймає пакет FileDrop</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
         <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
           <source>Applying settings. Please wait...</source>
-          <target state="new">Applying settings. Please wait...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Застосування налаштувань. Будь ласка, зачекай...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="new">Not available</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Недоступно</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
       </group>
@@ -2777,7 +2777,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
           <source>Full version - PRO license</source>
-          <target state="new">Full version - PRO license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повна версія - ЛІЦЕНЗІЯ PRO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
       </group>
@@ -3380,69 +3380,69 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="CaseExtension" translate="yes" xml:space="preserve">
           <source>Extension letter case</source>
-          <target state="new">Extension letter case</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Інцидент з листом розширення</target>
         </trans-unit>
         <trans-unit id="CaseFileName" translate="yes" xml:space="preserve">
           <source>File name letter case</source>
-          <target state="new">File name letter case</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Регістр літери імені файлу</target>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Опис</target>
         </trans-unit>
         <trans-unit id="ForcedExtension" translate="yes" xml:space="preserve">
           <source>Forced new file extension</source>
-          <target state="new">Forced new file extension</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Примусове нове розширення файлу</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ForcedExtension_TT" translate="yes" xml:space="preserve">
           <source>Leave blank to keep the original extension</source>
-          <target state="new">Leave blank to keep the original extension</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Залиште порожнім, щоб зберегти вихідне розширення</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="IgnoreCase" translate="yes" xml:space="preserve">
           <source>Ignore case</source>
-          <target state="new">Ignore case</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ігнорувати регістр</target>
         </trans-unit>
         <trans-unit id="Lowercase" translate="yes" xml:space="preserve">
           <source>lowercase</source>
-          <target state="new">lowercase</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">нижній регістр</target>
         </trans-unit>
         <trans-unit id="MSG_SameName" translate="yes" xml:space="preserve">
           <source>Same name</source>
-          <target state="new">Same name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Однойменне ім'я</target>
         </trans-unit>
         <trans-unit id="Presets" translate="yes" xml:space="preserve">
           <source>Presets</source>
-          <target state="new">Presets</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Збережені</target>
         </trans-unit>
         <trans-unit id="RegExWordToReplace" translate="yes" xml:space="preserve">
           <source>Word to replace or RegEx pattern</source>
-          <target state="new">Word to replace or RegEx pattern</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Word для заміни або шаблон RegEx</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RuleReplace" translate="yes" xml:space="preserve">
           <source>Replace</source>
-          <target state="new">Replace</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Замінити</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="SourceDir" translate="yes" xml:space="preserve">
           <source>Source folder of the file</source>
-          <target state="new">Source folder of the file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вихідна папка файлу</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="Unchanged" translate="yes" xml:space="preserve">
           <source>Unchanged</source>
-          <target state="new">Unchanged</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Без змін</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in dropdown</note>
         </trans-unit>
         <trans-unit id="Uppercase" translate="yes" xml:space="preserve">
           <source>UPPERCASE</source>
-          <target state="new">UPPERCASE</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ВЕРХНІЙ РЕГІСТР</target>
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="new">Parent folder name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ім'я батьківської папки</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
       </group>
