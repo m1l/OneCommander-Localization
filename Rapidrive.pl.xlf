@@ -40,8 +40,7 @@
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Program sprawdzi kilka pierwszych plików w folderze, a jeśli większość z nich to obrazy lub filmy, załaduje widok miniatur. Nie będzie to miało wpływu na widoki, które zostały już zapisane</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Program sprawdzi kilka pierwszych plików w folderze, a jeśli większość z nich to obrazy lub filmy, zmieni na widok miniatur. Nie będzie to miało wpływu na widoki, które zostały już zapisane</target>
         </trans-unit>
         <trans-unit id="ClipboardCheckText" translate="yes" xml:space="preserve">
           <source>Check and notify when there is text on clipboard</source>
@@ -820,13 +819,12 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="UseLayoutRounding" translate="yes" xml:space="preserve">
           <source>Pixel-perfect layout</source>
-          <target state="final">Pixel-perfect layout</target>
+          <target state="final">Poprawa wyświetalania</target>
           <note from="MultilingualEditor" annotates="source" priority="4">Not used anymore</note>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
           <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
-          <target state="needs-review-translation">Domyślnie WŁĄCZONE. Powoduje wyostrzenie linii na ekranach innych niż HDPI. Program pracuje stabilniej, gdy jest wyłączony, ale ikony i linie mogą nie być tak ostre.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Powoduje wyostrzenie linii na ekranach innych niż HDPI. Niezbędne przy 100% skali wyświetlania. Program pracuje stabilniej, gdy jest wyłączony, ale ikony i linie mogą nie być tak ostre. Domyślnie włączne.</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
           <source>Use old definition of Megabyte</source>
@@ -1118,97 +1116,109 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zwiększ widoczność rozmiaru powyżej 1 GB dzięki kolorowi</target>
+          <target state="final">Zwiększ widoczność, gdy rozmiar powyżej 1 GB, dzięki kolorowi</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Łącznik okna dialogowego</target>
+          <target state="final">Dialog connector</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">The "Dialog connector" name is temporarily left in the English version.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander Connector to eksperymentalne samodzielne narzędzie, które pomaga połączyć OC z systemowymi oknami dialogowymi Otwieranie i zapisywanie innych programów. Małe okno pojawi się pod zgodnym oknem dialogowym otwierania/zapisywania, aby umożliwić ustawienie folderu na ścieżkę otwartą w One Commander. Działa niezależnie od OC.</target>
+          <target state="final">One Commander Connector to eksperymentalne samodzielne narzędzie, które pomaga połączyć OC z systemowymi oknami dialogowymi "Otwórz" i "Zapisz" innych programów. Małe okno pojawi się pod zgodnym oknem dialogowym otwierania/zapisywania, aby umożliwić ustawienie folderu na ścieżkę otwartą w One Commander. Działa niezależnie od OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Łącznik uruchomiony. Aby przetestować, zamknij to okno ustawień, otwórz Notatnik, a następnie kliknij File-&gt;Open, aby zobaczyć go w akcji</target>
+          <target state="final">Dialog connector został uruchomiony. Aby przetestować, zamknij to okno ustawień, otwórz Notatnik, a następnie kliknij Plik-&gt;Otwórz, aby zobaczyć go w akcji</target>
+          <note from="MultilingualEditor" annotates="source" priority="4">The "Dialog connector" name is temporarily left in the English version.</note>
         </trans-unit>
         <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
           <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spowoduje to pobranie OneCommanderConnector.exe ze strony OneCommander.com. Ponieważ to narzędzie uruchamia się z niewidocznym oknem i monitoruje, kiedy otwiera się okno dialogowe Otwórz lub Zapisz, oprogramowanie antywirusowe może skarżyć się, że jest podejrzane. Jest to bezpieczne, ale jeśli masz wątpliwości, skontaktuj się z pomocą techniczną.</target>
+          <target state="final">Spowoduje to pobranie OneCommanderConnector.exe ze strony OneCommander.com. Ponieważ to narzędzie uruchamia się z niewidocznym oknem i monitoruje, kiedy otwiera się okno dialogowe Otwórz lub Zapisz, oprogramowanie antywirusowe może skarżyć się, że jest podejrzane. Jest to bezpieczne, ale jeśli masz wątpliwości, skontaktuj się z pomocą techniczną.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog that opens when user clicks to download connector</note>
         </trans-unit>
         <trans-unit id="Download" translate="yes" xml:space="preserve">
           <source>Download</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Pobierz</target>
+          <target state="final" state-qualifier="tm-suggestion">Pobierz</target>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozmiar wyświetlany tylko w MB, ale tekst MB nie jest wyświetlany</target>
+          <target state="final">Rozmiar wyświetlany tylko w MB, ale tekst "MB" nie jest wyświetlany</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Widok Dziedzicz pliki</target>
+          <target state="final">Dziedziczenie ustawień</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Widok i sortowanie plików będą dziedziczone z folderu nadrzędnego</target>
+          <target state="final">Widok oraz sposób sortowania plików będą dziedziczone z folderu nadrzędnego</target>
         </trans-unit>
         <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
           <source>Run on program start</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uruchom przy starcie programu</target>
+          <target state="final" state-qualifier="mt-suggestion">Uruchom przy starcie programu</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Uruchom teraz</target>
+          <target state="final" state-qualifier="tm-suggestion">Uruchom teraz</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
         </trans-unit>
         <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
           <source>Show window name in Taskbar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokaż nazwę okna na pasku zadań</target>
+          <target state="final" state-qualifier="mt-suggestion">Pokaż nazwę okna na pasku zadań</target>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kolor tła elementu do oznaczenia koloru</target>
+          <target state="final">Kolor tła elementu taki sam jak kolor etykiety</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kolorowanie elementów</target>
+          <target state="final" state-qualifier="mt-suggestion">Kolorowanie elementów</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Znacznik koloru</target>
+          <target state="final">Kolor etykiety</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Brak</target>
+          <target state="final" state-qualifier="tm-suggestion">Brak</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Anuluj zmianę nazwy</target>
+          <target state="final">anuluje zmianę nazwy</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Zmień nazwę</target>
+          <target state="final">zmienia nazwę</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kliknięcie na zewnątrz podczas operacji zmiany nazwy powinno:</target>
+          <target state="final">Kliknięcie na zewnątrz podczas operacji zmiany nazwy:</target>
         </trans-unit>
         <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Imię i nazwisko</target>
+          <target state="final">Nazwa</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
         <trans-unit id="DrivePaneTitleDisplay" translate="yes" xml:space="preserve">
           <source>Drive pane title display</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wyświetlanie tytułu panelu dysku</target>
+          <target state="final">Wyświetlanie nazwy dysku</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
+        </trans-unit>
+        <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
+          <source>Get recent menu items</source>
+          <target state="new">Get recent menu items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
+        </trans-unit>
+        <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
+          <source>File context menu needs to be opened at least once</source>
+          <target state="new">File context menu needs to be opened at least once</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
       </group>
     </body>
@@ -1447,8 +1457,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zmieniłeś nazwę, ale kliknąłeś na zewnątrz.&lt;br/&gt;Czy chcesz <bpt id="1">&lt;b&gt;</bpt>zawsze zmieniać nazwę pliku<ept id="1">&lt;/b&gt;</ept> w takiej sytuacji?&lt;br/&gt;Wybierz <bpt id="2">&lt;i&gt;</bpt>Nie<ept id="2">&lt;/i&gt;</ept> aby zawsze wymagać wyraźnego potwierdzenia operacji zmiany nazwy</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Zmieniłeś nazwę, ale kliknąłeś na zewnątrz.&lt;br/&gt;Czy chcesz <bpt id="1">&lt;b&gt;</bpt>zawsze zmieniać nazwę pliku<ept id="1">&lt;/b&gt;</ept> w takiej sytuacji zamiast anulować operację zmiany nazwy?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
@@ -1722,7 +1731,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="Menu_Tag" translate="yes" xml:space="preserve">
           <source>Tag (Color)</source>
-          <target state="final" state-qualifier="mt-suggestion">Znacznik (kolor)</target>
+          <target state="final">Etykieta (kolor)</target>
         </trans-unit>
         <trans-unit id="MSG_E_AccessDenied" translate="yes" xml:space="preserve">
           <source>Access denied</source>
@@ -2685,13 +2694,33 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         </trans-unit>
         <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
           <source>Applying settings. Please wait...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stosowanie ustawień. Czekaj...</target>
+          <target state="final" state-qualifier="mt-suggestion">Stosowanie ustawień. Czekaj...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Niedostępne</target>
+          <target state="final">Niedostępny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
+        </trans-unit>
+        <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
+          <source>Delete window {0}?</source>
+          <target state="new">Delete window {0}?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
+        </trans-unit>
+        <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
+          <source>Delete saved window</source>
+          <target state="new">Delete saved window</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
+        </trans-unit>
+        <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Rename</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
+          <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
+          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
       </group>
     </body>
@@ -3350,7 +3379,7 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nazwa folderu nadrzędnego</target>
+          <target state="final" state-qualifier="mt-suggestion">Nazwa folderu nadrzędnego</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
       </group>

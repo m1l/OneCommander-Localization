@@ -1427,6 +1427,16 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Affichage du titre du volet du lecteur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
+        <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
+          <source>Get recent menu items</source>
+          <target state="new">Get recent menu items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
+        </trans-unit>
+        <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
+          <source>File context menu needs to be opened at least once</source>
+          <target state="new">File context menu needs to be opened at least once</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2898,6 +2908,26 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
           <source>Not available</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Non disponible</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
+        </trans-unit>
+        <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
+          <source>Delete window {0}?</source>
+          <target state="new">Delete window {0}?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
+        </trans-unit>
+        <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
+          <source>Delete saved window</source>
+          <target state="new">Delete saved window</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
+        </trans-unit>
+        <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Rename</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
+          <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
+          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
       </group>
     </body>
