@@ -1205,13 +1205,21 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="new">Get recent menu items</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">获取最近的菜单项</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="new">File context menu needs to be opened at least once</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件上下文菜单需要至少打开一次</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="new">Mark recent files</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="new">Shows color indicator on files from current and last week</target>
         </trans-unit>
       </group>
     </body>
@@ -1429,9 +1437,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">图标包已更新。请在文件/文件夹图标包选择框中查看新条目</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
-          <target state="translated">文件扩展名发生变化。是否需要把<bpt id="1">&lt;B&gt;</bpt>原有拓展名添加回文件名<ept id="1">&lt;/B&gt;</ept> ，以便文件可以使用与原来相同的关联程序打开？</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">文件扩展名发生变化。是否需要把<bpt id="1">&lt;B&gt;</bpt>原有拓展名添加回文件名<ept id="1">&lt;/B&gt;</ept> ，以便文件可以使用与原来相同的关联程序打开？</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -2684,23 +2693,33 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="new">Delete window {0}?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">删除窗口{0}？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="new">Delete saved window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">删除已保存的窗口</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">重命名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">无法直接从回收站打开项目。首先将它们还原到原始文件夹。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">从选择中新建文件夹</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">创建和移动{0}文件</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>

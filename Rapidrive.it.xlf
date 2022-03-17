@@ -1211,6 +1211,14 @@ This should be enabled if program is set as a default file manager</source>
           <target state="new">File context menu needs to be opened at least once</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="new">Mark recent files</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="new">Shows color indicator on files from current and last week</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1378,7 +1386,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Usa i <it id="1" pos="open">&lt; &gt;</it> pulsanti su questo divisore per mostrare/nascondere i riquadri del browser</target>
+          <target state="translated">Usa i &lt; &gt; pulsanti su questo divisore per mostrare/nascondere i riquadri del browser</target>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -1427,9 +1435,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">Pacchetti di icone aggiornati. Cerca nuove voci nelle caselle di selezione del pacchetto di icone di file/cartelle</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
-          <target state="translated">L'estensione del file è diversa. Vuoi &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt;riaggiungere l'estensione originale&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; in modo che il file possa aprirsi con lo stesso programma associato?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">L'estensione del file è diversa. Vuoi &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt;riaggiungere l'estensione originale&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; in modo che il file possa aprirsi con lo stesso programma associato?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -1446,7 +1455,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hai cambiato nome ma hai fatto clic all'esterno. &lt;it id="1" pos="open"&gt;&lt;br&gt;&lt;/it&gt; Vuoi rinominare sempre il file&lt;it id="4" pos="close"&gt;&lt;/b&gt;&lt;/it&gt; in questa situazione? &lt;it id="2" pos="open"&gt;&lt;br&gt;&lt;/it&gt; Premere &lt;it id="3" pos="open"&gt;&lt;i&gt;&lt;/it&gt;No&lt;it id="5" pos="close"&gt;&lt;/i&gt;&lt;/it&gt; per richiedere sempre la conferma esplicita dell'operazione di ridenominazione</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hai cambiato nome ma hai fatto clic all'esterno. &lt;it id="1" pos="open"&gt;&lt;br/&gt;&lt;/it&gt; Vuoi rinominare sempre il file&lt;it id="4" pos="close"&gt;&lt;/b&gt;&lt;/it&gt; in questa situazione? &lt;it id="2" pos="open"&gt;&lt;br/&gt;&lt;/it&gt; Premere &lt;it id="3" pos="open"&gt;&lt;i&gt;&lt;/it&gt;No&lt;it id="5" pos="close"&gt;&lt;/i&gt;&lt;/it&gt; per richiedere sempre la conferma esplicita dell'operazione di ridenominazione</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
@@ -2697,6 +2706,16 @@ Alcuni programmi non saranno in grado di aprire/salvare file da questa cartella<
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
           <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="new">New folder from selection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="new">Create and move {0} files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>

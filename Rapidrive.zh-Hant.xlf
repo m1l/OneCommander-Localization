@@ -1983,6 +1983,14 @@ This should be enabled if program is set as a default file manager</target>
           <target state="new">File context menu needs to be opened at least once</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="new">Mark recent files</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="new">Shows color indicator on files from current and last week</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2234,9 +2242,9 @@ This should be enabled if program is set as a default file manager</target>
           <target state="new">Icon packs updated. Look for new entries in file/folder icon pack selection boxes</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
-          <target state="new">The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <target state="new">The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -3466,6 +3474,16 @@ Some programs won't be able to open/save files from this folder</target>
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
           <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="new">New folder from selection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="new">Create and move {0} files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>

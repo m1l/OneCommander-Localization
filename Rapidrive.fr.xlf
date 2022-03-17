@@ -1429,13 +1429,21 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="new">Get recent menu items</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obtenir des éléments de menu récents</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="new">File context menu needs to be opened at least once</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le menu contextuel du fichier doit être ouvert au moins une fois</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Marquer les fichiers récents</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Affiche l’indicateur de couleur sur les fichiers de la semaine en cours et de la semaine dernière</target>
         </trans-unit>
       </group>
     </body>
@@ -1452,22 +1460,22 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="AgeDayShort" translate="yes" xml:space="preserve">
           <source>d</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">j</target>
+          <target state="translated">J</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for day (ex: 1 d)</note>
         </trans-unit>
         <trans-unit id="AgeHourShort" translate="yes" xml:space="preserve">
           <source>h</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">l</target>
+          <target state="translated">H</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for hour (ex: 1 h 10')</note>
         </trans-unit>
         <trans-unit id="AgeMonthShort" translate="yes" xml:space="preserve">
           <source>M</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">L</target>
+          <target state="translated">M</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for month (ex: 1 M)</note>
         </trans-unit>
         <trans-unit id="AgeYearShort" translate="yes" xml:space="preserve">
           <source>y</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">O</target>
+          <target state="translated">A</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for year (ex: 1 y)</note>
         </trans-unit>
         <trans-unit id="AliasThisPC" translate="yes" xml:space="preserve">
@@ -1609,7 +1617,7 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilisez &lt;it id="1 » pos="open"&gt;&lt; &gt;&lt;/it&gt; boutons de ce diviseur pour afficher/masquer les volets du navigateur</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilisez &lt; &gt; boutons de ce diviseur pour afficher/masquer les volets du navigateur</target>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -1658,9 +1666,10 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Packs d’icônes mis à jour. Rechercher de nouvelles entrées dans les zones de sélection du pack d’icônes de fichier/dossier</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">L’extension de fichier est différente. Voulez-vous &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt;ajouter l’extension d’origine back&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; afin que le fichier puisse s’ouvrir avec le même programme associé?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -1677,8 +1686,7 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vous avez changé de nom mais cliqué à l’extérieur. &lt;it id="1 » pos="open"&gt;&lt;br&gt;&lt;/it&gt; Voulez-vous &lt;bpt id="2"&gt;&lt;b&gt;&lt;/bpt&gt;bastillement renommer le fichier&lt;ept id="2"&gt;&lt;/b&gt;&lt;/ept&gt; dans cette situation ? &lt;it id="3 » pos="open"&gt;&lt;br&gt;&lt;/it&gt; Appuyez sur &lt;bpt id="4"&gt;&lt;i&gt;&lt;/bpt&gt;No&lt;ept id="4"&gt;&lt;/i&gt;&lt;/ept&gt; pour toujours exiger une confirmation explicite de l’opération de renommage</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Vous avez modifié le nom de l’élément mais cliqué sur outside.&amp;lt;br/&amp;gt;Vous souhaitez &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;&lt;/bpt&gt;babasmodifier le fichier&amp;lt;ep id="1"&amp;gt;&amp;lt;/b&amp;gt;&lt;/ept&gt; dans cette situation au lieu d’annuler l’opération ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
@@ -1885,7 +1893,7 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTabOtherBrowser" translate="yes" xml:space="preserve">
           <source>New tab in other browser pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nouvel onglet dans le volet d’un autre navigateur</target>
+          <target state="translated">Ouvrir dans l'autre volet de l'explorateur</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window (soon)</source>
@@ -2911,23 +2919,33 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="new">Delete window {0}?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Supprimer la fenêtre {0}?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="new">Delete saved window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Supprimer la fenêtre enregistrée</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Renommer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Les éléments ne peuvent pas être ouverts directement à partir de la Corbeille. Restaurez-les d’abord dans le dossier d’origine.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nouveau dossier de la sélection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer et déplacer des fichiers {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>

@@ -1212,13 +1212,21 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="new">Get recent menu items</target>
+          <target state="translated">Letzte Menüpunkte abrufen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="new">File context menu needs to be opened at least once</target>
+          <target state="translated">Dateikontextmenü muss mindestens einmal geöffnet werden</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="new">Mark recent files</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="new">Shows color indicator on files from current and last week</target>
         </trans-unit>
       </group>
     </body>
@@ -1416,9 +1424,10 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Symbolpakete aktualisiert. Suchen Sie nach neuen Einträgen in den Auswahlfeldern für Datei-/Ordnersymbolpakete</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
-          <target state="translated">Die Dateiendung ist anders. Möchten Sie <bpt id="1">&lt;B&gt;</bpt>die ursprüngliche Endung wieder hinzufügen<ept id="1">&lt;/B&gt;</ept>, damit die Datei mit demselben zugehörigen Programm geöffnet werden kann?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">Die Dateiendung ist anders. Möchten Sie <bpt id="1">&lt;B&gt;</bpt>die ursprüngliche Endung wieder hinzufügen<ept id="1">&lt;/B&gt;</ept>, damit die Datei mit demselben zugehörigen Programm geöffnet werden kann?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -2689,23 +2698,33 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="new">Delete window {0}?</target>
+          <target state="translated">Fenster {0} löschen?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="new">Delete saved window</target>
+          <target state="translated">Gespeichertes Fenster löschen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="translated">Umbenennen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <target state="translated">Objekte können nicht direkt aus dem Papierkorb geöffnet werden. Stellen Sie sie zunächst im ursprünglichen Ordner wieder her.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="new">New folder from selection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="new">Create and move {0} files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>

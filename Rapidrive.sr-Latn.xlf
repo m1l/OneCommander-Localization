@@ -1049,9 +1049,10 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Upozorenje!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different. Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file can open with the same associated program?</source>
-          <target state="translated">Oznaka tipa datoteke je drugačija. Želite li da &lt;bpt id="1"&gt;&gt;&lt;B&gt;&lt;/bpt&gt;vratite originalnu oznaku tipa datoteke&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; kako bi datoteka mogla biti otvorena u uistom programu kao ranije?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back</note>
+          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">Oznaka tipa datoteke je drugačija. Želite li da &lt;bpt id="1"&gt;&gt;&lt;B&gt;&lt;/bpt&gt;vratite originalnu oznaku tipa datoteke&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; kako bi datoteka mogla biti otvorena u uistom programu kao ranije?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -1503,6 +1504,16 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
           <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
+        </trans-unit>
+        <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
+          <source>New folder from selection</source>
+          <target state="new">New folder from selection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
+        </trans-unit>
+        <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
+          <source>Create and move {0} files</source>
+          <target state="new">Create and move {0} files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
       </group>
     </body>
@@ -2726,6 +2737,14 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <source>File context menu needs to be opened at least once</source>
           <target state="new">File context menu needs to be opened at least once</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
+          <source>Mark recent files</source>
+          <target state="new">Mark recent files</target>
+        </trans-unit>
+        <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
+          <source>Shows color indicator on files from current and last week</source>
+          <target state="new">Shows color indicator on files from current and last week</target>
         </trans-unit>
       </group>
     </body>
