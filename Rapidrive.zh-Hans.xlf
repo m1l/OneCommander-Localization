@@ -644,8 +644,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">在崩溃时，窗口将显示您可以在哪里编写步骤来重现崩溃，以便可以在下一次更新中修复它</target>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
-          <source>Show file extension</source>
-          <target state="translated">显示文件扩展名</target>
+          <source>Show file extensions</source>
+          <target state="needs-review-translation">显示文件扩展名</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -656,12 +657,14 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">如果文件夹包含名为 folder.jpg, cover.jpg, background.jpg 或 front.jpg 的图片，则将其作为背景图片加载。适用于音乐专辑和电影海报</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder size</source>
-          <target state="translated" state-qualifier="mt-suggestion">显示文件夹大小</target>
+          <source>Show folder sizes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示文件夹大小</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size and is not always accurate but it is fast. Size format cannot be changed; Sorting folders by size is not supported</source>
-          <target state="translated">使用系统内置功能获得文件夹大小，并不总是准确，但它的速度很快。大小格式不能更改；不支持按大小对文件夹进行排序</target>
+          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
+          <target state="needs-review-translation">使用系统内置功能获得文件夹大小，并不总是准确，但它的速度很快。大小格式不能更改；不支持按大小对文件夹进行排序</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -720,8 +723,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">排序方式</target>
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
-          <source>Keep folders on top</source>
-          <target state="translated">总是将文件夹置顶</target>
+          <source>Keep folders above files</source>
+          <target state="needs-review-translation">总是将文件夹置顶</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -822,8 +826,10 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte</source>
-          <target state="translated">使用 Mebibyte</target>
+          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
+          <target state="needs-review-translation">使用 Mebibyte</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
           <source>Turn ON if you prefer using Mebibytes instead of Megabytes
@@ -1220,6 +1226,39 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
           <target state="new">Shows color indicator on files from current and last week</target>
+        </trans-unit>
+        <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
+          <source>Font stretch</source>
+          <target state="new">Font stretch</target>
+        </trans-unit>
+        <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
+          <source>Contracted</source>
+          <target state="new">Contracted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
+          <source>Expanded</source>
+          <target state="new">Expanded</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="new">Normal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
+          <source>Semi Contracted</source>
+          <target state="new">Semi Contracted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
+          <source>Semi Expanded</source>
+          <target state="new">Semi Expanded</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
+          <source>Learn how to create custom icon packs</source>
+          <target state="new">Learn how to create custom icon packs</target>
         </trans-unit>
       </group>
     </body>
@@ -2417,8 +2456,9 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">按类型排序（Z-A）</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders on top toggle</source>
-          <target state="translated">切换文件夹置顶</target>
+          <source>Keep folders above files (On/Off)</source>
+          <target state="needs-review-translation">切换文件夹置顶</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -2643,7 +2683,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">或 “清除</target>
+          <target state="translated">清除</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
@@ -2720,6 +2760,25 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Create and move {0} files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">创建和移动{0}文件</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
+        </trans-unit>
+        <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
+          <source>Changes in {0} drive</source>
+          <target state="new">Changes in {0} drive</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
+        </trans-unit>
+        <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
+          <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
+          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
+        </trans-unit>
+        <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
+          <source>Open with</source>
+          <target state="new">Open with</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
+        </trans-unit>
+        <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
+          <source>Finishing setup...</source>
+          <target state="new">Finishing setup...</target>
         </trans-unit>
       </group>
     </body>
@@ -2833,6 +2892,23 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">完整版 - 专业版许可证</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
+        <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
+          <source>Licensed to:</source>
+          <target state="new">Licensed to:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
+        </trans-unit>
+        <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
+          <source>Enter license</source>
+          <target state="new">Enter license</target>
+        </trans-unit>
+        <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
+          <source>Deactivate license</source>
+          <target state="new">Deactivate license</target>
+        </trans-unit>
+        <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
+          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2883,8 +2959,9 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">无法打开网站。 请在网页浏览器中手动打开</target>
         </trans-unit>
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
-          <source>Volume licenses available if purchased for domain:</source>
-          <target state="translated">如果为域购买，则可获得批量许可：</target>
+          <source>Volume licenses (10+) available if purchased for domain:</source>
+          <target state="needs-review-translation">如果为域购买，则可获得批量许可：</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AlreadyPurchased" translate="yes" xml:space="preserve">
           <source>Already purchased?</source>
@@ -2945,6 +3022,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
           <target state="translated">在商业环境中使用需要 Pro 许可证。&lt;br/&gt;请测试几天，但如果您觉得该程序有用，请从 Microsoft Store 购买许可证（通过“关于”对话框）</target>
+        </trans-unit>
+        <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
+          <source>More options</source>
+          <target state="new">More options</target>
         </trans-unit>
       </group>
     </body>

@@ -22,6 +22,8 @@ The keys can be sorted by "Translation state" column (third) to see new or updat
 
 Location of a certain string in program can be determined from ID/Key name column. For example "resourcesettings" in ID columns are all from Settings dialog, and should be close to the actual order of the tabs and items in Settings, which might help with translating. Keys name also give clues: the keys starting with DLG_ are dialog boxes, MSG_E are error notifications, _TT are tooltips, etc.
 
+Don't press Enter key in the translated text box as that will result in blank line in translation.
+
 Save often to avoid losing progress if there is a bug in MAT.
 
 The only way to see the results of translation is for these to be compiled into dll resources. Either submit pull request or send the translated xlf file to support@[program name].com

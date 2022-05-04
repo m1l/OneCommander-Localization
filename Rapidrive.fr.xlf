@@ -48,8 +48,9 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">4. Redémarrez le programme pour activer toutes les fonctionnalités</target>
         </trans-unit>
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
-          <source>Volume licenses available if purchased for domain:</source>
+          <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Licences en volume disponibles si elles sont achetées pour le domaine :</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AlreadyPurchased" translate="yes" xml:space="preserve">
           <source>Already purchased?</source>
@@ -110,6 +111,10 @@ La licence sera valide pour un nombre de 10 ordinateurs utilisés avec le même 
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">La licence Pro est requise pour une utilisation dans un cadre commercial.&lt;br/&gt;Veuillez la tester pendant quelques jours, mais si vous trouvez le programme utile, veuillez acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
+        </trans-unit>
+        <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
+          <source>More options</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Autres options</target>
         </trans-unit>
       </group>
     </body>
@@ -222,6 +227,23 @@ La licence sera valide pour un nombre de 10 ordinateurs utilisés avec le même 
           <source>Full version - PRO license</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Version complète - Licence PRO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
+        </trans-unit>
+        <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
+          <source>Licensed to:</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Licence accordée à :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
+        </trans-unit>
+        <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
+          <source>Enter license</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Entrez la licence</target>
+        </trans-unit>
+        <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
+          <source>Deactivate license</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Désactiver la licence</target>
+        </trans-unit>
+        <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Voulez-vous vraiment désactiver la licence ? Vous devrez entrer la clé de licence Pro pour l’activer à nouveau</target>
         </trans-unit>
       </group>
     </body>
@@ -880,8 +902,9 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">En cas de crash, une fenêtre montrera où vous pouvez écrire des étapes pour reproduire le crash afin qu’il puisse être corrigé dans la prochaine mise à jour</target>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
-          <source>Show file extension</source>
+          <source>Show file extensions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher l’extension de fichier</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -892,12 +915,14 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Si un dossier contient un fichier nommé dossier.jpg, couverture.jpg, arrière-plan.jpg ou avant.jpg, il sera chargé en tant qu’image d’arrière-plan. Utile pour les albums de musique et les affiches de films</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder size</source>
+          <source>Show folder sizes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher la taille du dossier</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size and is not always accurate but it is fast. Size format cannot be changed; Sorting folders by size is not supported</source>
+          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilise Windows Shell pour obtenir la taille du dossier et n’est pas toujours précis, mais il est rapide. Le format de taille ne peut pas être modifié; Le tri des dossiers par taille n’est pas pris en charge</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -956,8 +981,9 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Trier les éléments par</target>
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
-          <source>Keep folders on top</source>
+          <source>Keep folders above files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Gardez les dossiers en haut</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -1058,8 +1084,10 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte</source>
+          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Utiliser l’ancienne définition de Megabyte</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
           <source>Turn ON if you prefer using Mebibytes instead of Megabytes
@@ -1444,6 +1472,39 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Affiche l’indicateur de couleur sur les fichiers de la semaine en cours et de la semaine dernière</target>
+        </trans-unit>
+        <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
+          <source>Font stretch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Étirement de la police</target>
+        </trans-unit>
+        <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
+          <source>Contracted</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Contracté</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
+          <source>Expanded</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Développé</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Normale</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
+          <source>Semi Contracted</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Semi-contracté</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
+          <source>Semi Expanded</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Semi-étendu</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
+          <source>Learn how to create custom icon packs</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Découvrez comment créer des packs d’icônes personnalisés</target>
         </trans-unit>
       </group>
     </body>
@@ -2666,8 +2727,9 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Trie les éléments par type (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders on top toggle</source>
+          <source>Keep folders above files (On/Off)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Garder les dossiers sur la bascule supérieure</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -2946,6 +3008,25 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
           <source>Create and move {0} files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer et déplacer des fichiers {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
+        </trans-unit>
+        <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
+          <source>Changes in {0} drive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Changements dans le lecteur {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
+        </trans-unit>
+        <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
+          <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Actualiser le contenu (ce type de dossier ne peut pas être actualisé automatiquement)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
+        </trans-unit>
+        <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
+          <source>Open with</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ouvrir avec</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
+        </trans-unit>
+        <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
+          <source>Finishing setup...</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Finalisation de l'installation...</target>
         </trans-unit>
       </group>
     </body>

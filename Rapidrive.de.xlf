@@ -571,8 +571,9 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Von Windows abrufen</target>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
-          <source>Show file extension</source>
-          <target state="translated" state-qualifier="mt-suggestion">Dateiendung anzeigen</target>
+          <source>Show file extensions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dateiendung anzeigen</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -583,12 +584,14 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Enthält ein Ordner eine Datei namens folder.jpg, cover.jpg, background.jpg oder front.jpg, wird diese als Hintergrundbild geladen. Nützlich für Musikalben und Filmplakate</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder size</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ordnergröße anzeigen</target>
+          <source>Show folder sizes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ordnergröße anzeigen</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size and is not always accurate but it is fast. Size format cannot be changed; Sorting folders by size is not supported</source>
-          <target state="translated">Verwendet Windows Shell, um Ordnergröße zu ermitteln; ist nicht immer genau, aber schnell. Größenformat kann nicht geändert werden; Sortieren von Ordnern nach Größe wird nicht unterstützt.</target>
+          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
+          <target state="needs-review-translation">Verwendet Windows Shell, um Ordnergröße zu ermitteln; ist nicht immer genau, aber schnell. Größenformat kann nicht geändert werden; Sortieren von Ordnern nach Größe wird nicht unterstützt.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -648,8 +651,8 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Sortieren nach:</target>
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
-          <source>Keep folders on top</source>
-          <target state="translated">Ordner oben halten</target>
+          <source>Keep folders above files</source>
+          <target state="translated">Ordner über Dateien halten</target>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -733,8 +736,10 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Voreinstellung EIN.</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte</source>
-          <target state="translated" state-qualifier="mt-suggestion">Alte Definition von Megabyte verwenden</target>
+          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alte Definition von Megabyte verwenden</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
           <source>Turn ON if you prefer using Mebibytes instead of Megabytes
@@ -1222,11 +1227,44 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="new">Mark recent files</target>
+          <target state="translated">Neueste Dateien markieren</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="new">Shows color indicator on files from current and last week</target>
+          <target state="translated">Farbanzeige für Dateien aus der aktuellen und der letzten Woche</target>
+        </trans-unit>
+        <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
+          <source>Font stretch</source>
+          <target state="translated">Schriftweite</target>
+        </trans-unit>
+        <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
+          <source>Contracted</source>
+          <target state="translated">Schmal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
+          <source>Expanded</source>
+          <target state="translated">Breit</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="translated">Normal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
+          <source>Semi Contracted</source>
+          <target state="translated">Halbschmal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
+          <source>Semi Expanded</source>
+          <target state="translated">Halbbreit</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
+          <source>Learn how to create custom icon packs</source>
+          <target state="new">Learn how to create custom icon packs</target>
         </trans-unit>
       </group>
     </body>
@@ -1425,8 +1463,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation">Die Dateiendung ist anders. Möchten Sie <bpt id="1">&lt;B&gt;</bpt>die ursprüngliche Endung wieder hinzufügen<ept id="1">&lt;/B&gt;</ept>, damit die Datei mit demselben zugehörigen Programm geöffnet werden kann?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Die Dateierweiterung ist anders.&lt;br/&gt;Möchten Sie <bpt id="1">&lt;B&gt;</bpt>die ursprüngliche Erweiterung wieder hinzufügen,<ept id="1">&lt;/B&gt;</ept> damit die Datei mit demselben zugehörigen Programm geöffnet werden kann?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2327,8 +2364,8 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
           <target state="translated" state-qualifier="mt-suggestion">Sortiert Elemente nach Typ (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders on top toggle</source>
-          <target state="translated">Ordner oben halten (Umschalter)</target>
+          <source>Keep folders above files (On/Off)</source>
+          <target state="translated">Ordner über Dateien halten (Ein/Aus)</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -2718,13 +2755,32 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="new">New folder from selection</target>
+          <target state="translated">Neuer Ordner aus Auswahl</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
           <source>Create and move {0} files</source>
-          <target state="new">Create and move {0} files</target>
+          <target state="translated">Erstellen und Verschieben von {0} Dateien</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
+        </trans-unit>
+        <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
+          <source>Changes in {0} drive</source>
+          <target state="translated">Änderungen in {0} Laufwerk(en)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
+        </trans-unit>
+        <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
+          <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
+          <target state="translated">Inhalt aktualisieren (dieser Ordnertyp kann nicht automatisch aktualisiert werden)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
+        </trans-unit>
+        <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
+          <source>Open with</source>
+          <target state="translated">Öffnen mit</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
+        </trans-unit>
+        <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
+          <source>Finishing setup...</source>
+          <target state="new">Finishing setup...</target>
         </trans-unit>
       </group>
     </body>
@@ -2838,8 +2894,12 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
           <target state="translated">Der Kauf wurde nicht abgeschlossen. Sie können den Kauf jederzeit abschließen, wenn der Microsoft Store verfügbar ist.</target>
         </trans-unit>
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
-          <source>Volume licenses available if purchased for domain:</source>
-          <target state="translated">Volumenlizenzen sind verfügbar, wenn sie für eine Domain erworben werden:</target>
+          <source>Volume licenses (10+) available if purchased for domain:</source>
+          <target state="translated">Volumenlizenzen (10+) verfügbar, wenn sie für eine Domain erworben werden:</target>
+        </trans-unit>
+        <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
+          <source>More options</source>
+          <target state="translated">Mehr Optionen</target>
         </trans-unit>
       </group>
     </body>
@@ -2952,6 +3012,23 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
           <source>Full version - PRO license</source>
           <target state="translated">Vollversion - PRO-Lizenz</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
+        </trans-unit>
+        <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
+          <source>Licensed to:</source>
+          <target state="new">Licensed to:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
+        </trans-unit>
+        <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
+          <source>Enter license</source>
+          <target state="new">Enter license</target>
+        </trans-unit>
+        <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
+          <source>Deactivate license</source>
+          <target state="new">Deactivate license</target>
+        </trans-unit>
+        <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
+          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
         </trans-unit>
       </group>
     </body>

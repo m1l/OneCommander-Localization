@@ -227,8 +227,13 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <target state="translated" state-qualifier="mt-suggestion">De aankoop is niet voltooid. U kunt de aankoop voltooien wanneer de Microsoft Store beschikbaar is.</target>
         </trans-unit>
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
-          <source>Volume licenses available if purchased for domain:</source>
-          <target state="translated">Volumelicenties zijn beschikbaar indien aangeschaft voor domein:</target>
+          <source>Volume licenses (10+) available if purchased for domain:</source>
+          <target state="needs-review-translation">Volumelicenties zijn beschikbaar indien aangeschaft voor domein:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
+          <source>More options</source>
+          <target state="new">More options</target>
         </trans-unit>
       </group>
     </body>
@@ -341,6 +346,23 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <source>Full version - PRO license</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Volledige versie - PRO licentie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
+        </trans-unit>
+        <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
+          <source>Licensed to:</source>
+          <target state="new">Licensed to:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
+        </trans-unit>
+        <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
+          <source>Enter license</source>
+          <target state="new">Enter license</target>
+        </trans-unit>
+        <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
+          <source>Deactivate license</source>
+          <target state="new">Deactivate license</target>
+        </trans-unit>
+        <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
+          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
         </trans-unit>
       </group>
     </body>
@@ -1484,8 +1506,9 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated">Vereist om OneDrive-statuspictogrammen weer te geven wanneer Bestanden op aanvraag is ingeschakeld. Toont ook geencrypte en reparse pictogrammen. Betere prestaties wanneer uitgeschakeld.</target>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
-          <source>Show file extension</source>
-          <target state="translated" state-qualifier="mt-suggestion">Toon bestandsextensie</target>
+          <source>Show file extensions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toon bestandsextensie</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -1496,12 +1519,14 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="mt-suggestion">Als een map een bestand met de naam map bevat.jpg, omslag.jpg, achtergrond.jpg of front.jpg, wordt het geladen als achtergrondafbeelding. Handig voor muziekalbums en filmposters</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder size</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mapgrootte weergeven</target>
+          <source>Show folder sizes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapgrootte weergeven</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size and is not always accurate but it is fast. Size format cannot be changed; Sorting folders by size is not supported</source>
-          <target state="translated" state-qualifier="mt-suggestion">Gebruikt Windows Shell om mapgrootte te krijgen en is niet altijd nauwkeurig, maar het is snel. Formaat kan niet worden gewijzigd; Het sorteren van mappen op grootte wordt niet ondersteund</target>
+          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gebruikt Windows Shell om mapgrootte te krijgen en is niet altijd nauwkeurig, maar het is snel. Formaat kan niet worden gewijzigd; Het sorteren van mappen op grootte wordt niet ondersteund</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -1607,8 +1632,9 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="mt-suggestion">Items sorteren op</target>
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
-          <source>Keep folders on top</source>
-          <target state="translated" state-qualifier="mt-suggestion">Houd mappen bovenaan</target>
+          <source>Keep folders above files</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Houd mappen bovenaan</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -1709,8 +1735,10 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte</source>
-          <target state="translated" state-qualifier="mt-suggestion">Oude definitie van Megabyte gebruiken</target>
+          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oude definitie van Megabyte gebruiken</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
           <source>Turn ON if you prefer using Mebibytes instead of Megabytes
@@ -1996,6 +2024,39 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
           <target state="new">Shows color indicator on files from current and last week</target>
+        </trans-unit>
+        <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
+          <source>Font stretch</source>
+          <target state="new">Font stretch</target>
+        </trans-unit>
+        <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
+          <source>Contracted</source>
+          <target state="new">Contracted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
+          <source>Expanded</source>
+          <target state="new">Expanded</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="new">Normal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
+          <source>Semi Contracted</source>
+          <target state="new">Semi Contracted</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
+          <source>Semi Expanded</source>
+          <target state="new">Semi Expanded</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
+          <source>Learn how to create custom icon packs</source>
+          <target state="new">Learn how to create custom icon packs</target>
         </trans-unit>
       </group>
     </body>
@@ -3298,8 +3359,9 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <target state="translated" state-qualifier="mt-suggestion">Sorteert items op type (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders on top toggle</source>
-          <target state="translated">Houd mappen bovenaan schakelaar</target>
+          <source>Keep folders above files (On/Off)</source>
+          <target state="needs-review-translation">Houd mappen bovenaan schakelaar</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -3494,6 +3556,25 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <source>Create and move {0} files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} bestanden maken en verplaatsen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
+        </trans-unit>
+        <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
+          <source>Changes in {0} drive</source>
+          <target state="new">Changes in {0} drive</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
+        </trans-unit>
+        <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
+          <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
+          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
+        </trans-unit>
+        <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
+          <source>Open with</source>
+          <target state="new">Open with</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
+        </trans-unit>
+        <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
+          <source>Finishing setup...</source>
+          <target state="new">Finishing setup...</target>
         </trans-unit>
       </group>
     </body>
