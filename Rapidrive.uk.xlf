@@ -150,8 +150,9 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate $CurrentPath</note>
         </trans-unit>
         <trans-unit id="CommandShellInfo" translate="yes" xml:space="preserve">
-          <source>Choose between CMD, PowerShell, or Windows Terminal</source>
-          <target state="translated" state-qualifier="mt-suggestion">Вибір між CMD, PowerShell або терміналом Windows</target>
+          <source>Choose between CMD, PowerShell, Windows Terminal, or a custom command shell</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вибір між CMD, PowerShell або терміналом Windows</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
@@ -1219,44 +1220,92 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="new">Mark recent files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Позначення останніх файлів</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="new">Shows color indicator on files from current and last week</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення колірного індикатора для файлів з поточного та минулого тижня</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
-          <target state="new">Font stretch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розтягнути шрифт</target>
         </trans-unit>
         <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
           <source>Contracted</source>
-          <target state="new">Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Контракт</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
           <source>Expanded</source>
-          <target state="new">Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розширена</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
           <source>Normal</source>
-          <target state="new">Normal</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Нормальний</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
           <source>Semi Contracted</source>
-          <target state="new">Semi Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Напівконтрактований</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
           <source>Semi Expanded</source>
-          <target state="new">Semi Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Напіврозширюваний</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
           <source>Learn how to create custom icon packs</source>
-          <target state="new">Learn how to create custom icon packs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дізнайтеся, як створити настроювані пакети піктограм</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
+          <source>Hide last window instead of close</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Приховати останнє вікно замість закриття</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
+          <source>Opens the window instantly but uses more memory</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкриває вікно миттєво, але використовує більше пам'яті</target>
+        </trans-unit>
+        <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
+          <source>Exe path and arguments</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Exe-шлях і аргументи</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Темний</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Світлий</target>
+        </trans-unit>
+        <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
+          <source>Use system theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання системної теми</target>
+        </trans-unit>
+        <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
+          <source>Monitor for Windows theme changes to switch to a different theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Моніторинг змін теми Windows для переходу на іншу тему</target>
+        </trans-unit>
+        <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
+          <source>Open Recycle Bin in Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкриття кошика у провіднику</target>
+        </trans-unit>
+        <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
+          <source>Sliders auto-adjust range depending on the slider below it</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повзунки автоматично налаштовують діапазон залежно від повзунка під ним</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
+          <source>Columns smaller than the above value will collapse to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Стовпці, менші за наведене вище значення, згортаються до такої ширини:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
+          <source>If there isn't enough space, left-most columns will contract up to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Якщо бракує місця, більшість стовпців ліворуч стискатимуться до такої ширини:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
       </group>
     </body>
@@ -2759,22 +2808,36 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="new">Changes in {0} drive</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зміни в {0} диску</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Оновити вміст (цей тип папки не можна автоматично оновити)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="new">Open with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкрити за допомогою</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="new">Finishing setup...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завершення інсталяції...</target>
+        </trans-unit>
+        <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
+          <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows переспрямовує цю папку. Файли, збережені або відредаговані тут, можуть не відображатися за межами OneCommander. Це Windows накладені обмеження. Використовуйте автономну версію OneCommander для належного доступу до цієї папки.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
+          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows не підтримує скасування операцій із файлами за межами Провідника</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
+        </trans-unit>
+        <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
+          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
         </trans-unit>
       </group>
     </body>
@@ -2890,20 +2953,20 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
           <source>Licensed to:</source>
-          <target state="new">Licensed to:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ліцензовано для:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
-          <target state="new">Enter license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введіть ліцензію</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
-          <target state="new">Deactivate license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вимкнення ліцензії</target>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Справді вимкнути ліцензію? Вам потрібно буде ввести pro ліцензійний ключ, щоб активувати його знову</target>
         </trans-unit>
       </group>
     </body>
@@ -3021,7 +3084,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="new">More options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Додаткові параметри</target>
         </trans-unit>
       </group>
     </body>

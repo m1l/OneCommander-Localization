@@ -150,8 +150,9 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate $CurrentPath</note>
         </trans-unit>
         <trans-unit id="CommandShellInfo" translate="yes" xml:space="preserve">
-          <source>Choose between CMD, PowerShell, or Windows Terminal</source>
-          <target state="translated">在 CMD、PowerShell 和 Windows Terminal 之间进行选择</target>
+          <source>Choose between CMD, PowerShell, Windows Terminal, or a custom command shell</source>
+          <target state="needs-review-translation">在 CMD、PowerShell 和 Windows Terminal 之间进行选择</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
@@ -1221,44 +1222,92 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="new">Mark recent files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">标记最近打开的文件</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="new">Shows color indicator on files from current and last week</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示当前和上周文件的颜色指示器</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
-          <target state="new">Font stretch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">字体拉伸</target>
         </trans-unit>
         <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
           <source>Contracted</source>
-          <target state="new">Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">承包</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
           <source>Expanded</source>
-          <target state="new">Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">扩大</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
           <source>Normal</source>
-          <target state="new">Normal</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正常</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
           <source>Semi Contracted</source>
-          <target state="new">Semi Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">半合同</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
           <source>Semi Expanded</source>
-          <target state="new">Semi Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">半扩展</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
           <source>Learn how to create custom icon packs</source>
-          <target state="new">Learn how to create custom icon packs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">了解如何创建自定义图标包</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
+          <source>Hide last window instead of close</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">隐藏最后一个窗口而不是关闭</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
+          <source>Opens the window instantly but uses more memory</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">立即打开窗口，但占用更多内存</target>
+        </trans-unit>
+        <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
+          <source>Exe path and arguments</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">可执行路径和参数</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">黑暗</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">光</target>
+        </trans-unit>
+        <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
+          <source>Use system theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用系统主题</target>
+        </trans-unit>
+        <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
+          <source>Monitor for Windows theme changes to switch to a different theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">监视 Windows 主题更改以切换到其他主题</target>
+        </trans-unit>
+        <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
+          <source>Open Recycle Bin in Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在资源管理器中打开回收站</target>
+        </trans-unit>
+        <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
+          <source>Sliders auto-adjust range depending on the slider below it</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">滑块根据其下方的滑块自动调整范围</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
+          <source>Columns smaller than the above value will collapse to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">小于上述值的列将折叠为此宽度：</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
+          <source>If there isn't enough space, left-most columns will contract up to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">如果没有足够的空间，最左边的列将收缩到以下宽度：</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
       </group>
     </body>
@@ -2763,22 +2812,36 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="new">Changes in {0} drive</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}驱动器中的更改</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">刷新内容（此类型的文件夹无法自动刷新）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="new">Open with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">打开方式</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="new">Finishing setup...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正在完成设置...</target>
+        </trans-unit>
+        <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
+          <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows 正在重定向此文件夹。在此处保存或编辑的文件可能不会显示在 OneCommander 外部。这是 Windows 强加的限制。使用独立版本的OneCommander来正确访问此文件夹。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
+          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows 不支持在资源管理器外部撤消文件操作</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
+        </trans-unit>
+        <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
+          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
         </trans-unit>
       </group>
     </body>
@@ -2894,20 +2957,20 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
           <source>Licensed to:</source>
-          <target state="new">Licensed to:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">授权给：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
-          <target state="new">Enter license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">输入许可证</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
-          <target state="new">Deactivate license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">停用许可证</target>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否确实要停用许可证？您需要输入Pro许可证密钥才能再次激活它</target>
         </trans-unit>
       </group>
     </body>
@@ -3025,7 +3088,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="new">More options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">更多选择</target>
         </trans-unit>
       </group>
     </body>

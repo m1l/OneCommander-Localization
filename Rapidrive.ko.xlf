@@ -229,20 +229,20 @@
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
           <source>Licensed to:</source>
-          <target state="new">Licensed to:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">라이센스:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
-          <target state="new">Enter license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">라이센스 입력</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
-          <target state="new">Deactivate license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">라이센스 비활성화</target>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">라이선스를 비활성화하시겠습니까? 다시 활성화하려면 Pro 라이센스 키를 입력해야합니다.</target>
         </trans-unit>
       </group>
     </body>
@@ -360,7 +360,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="new">More options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">추가 옵션</target>
         </trans-unit>
       </group>
     </body>
@@ -961,8 +961,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate $CurrentPath</note>
         </trans-unit>
         <trans-unit id="CommandShellInfo" translate="yes" xml:space="preserve">
-          <source>Choose between CMD, PowerShell, or Windows Terminal</source>
-          <target state="translated" state-qualifier="mt-suggestion">CMD, PowerShell 또는 Windows 터미널 중에서 선택</target>
+          <source>Choose between CMD, PowerShell, Windows Terminal, or a custom command shell</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CMD, PowerShell 또는 Windows 터미널 중에서 선택</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
@@ -2018,44 +2019,92 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="new">Mark recent files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">최근 파일 표시</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="new">Shows color indicator on files from current and last week</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">현재 및 지난 주의 파일에 색상 표시기 표시</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
-          <target state="new">Font stretch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">글꼴 스트레치</target>
         </trans-unit>
         <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
           <source>Contracted</source>
-          <target state="new">Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">계약한</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
           <source>Expanded</source>
-          <target state="new">Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">확장</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
           <source>Normal</source>
-          <target state="new">Normal</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">보통</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
           <source>Semi Contracted</source>
-          <target state="new">Semi Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">세미 계약</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
           <source>Semi Expanded</source>
-          <target state="new">Semi Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">세미 확장</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
           <source>Learn how to create custom icon packs</source>
-          <target state="new">Learn how to create custom icon packs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용자 지정 아이콘 팩을 만드는 방법 알아보기</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
+          <source>Hide last window instead of close</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">닫는 대신 마지막 창 숨기기</target>
+        </trans-unit>
+        <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
+          <source>Opens the window instantly but uses more memory</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">창을 즉시 열지만 더 많은 메모리를 사용합니다.</target>
+        </trans-unit>
+        <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
+          <source>Exe path and arguments</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">exe 경로 및 인수</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">어둠</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">광</target>
+        </trans-unit>
+        <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
+          <source>Use system theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">시스템 테마 사용</target>
+        </trans-unit>
+        <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
+          <source>Monitor for Windows theme changes to switch to a different theme</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">다른 테마로 전환하기 위한 Windows 테마 변경 사항 모니터링</target>
+        </trans-unit>
+        <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
+          <source>Open Recycle Bin in Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">탐색기에서 휴지통 열기</target>
+        </trans-unit>
+        <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
+          <source>Sliders auto-adjust range depending on the slider below it</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">슬라이더는 아래의 슬라이더에 따라 범위를 자동으로 조정합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
+          <source>Columns smaller than the above value will collapse to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">위의 값보다 작은 열은 다음 너비로 축소됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
+          <source>If there isn't enough space, left-most columns will contract up to this width:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">공간이 충분하지 않으면 가장 왼쪽 열은 이 너비까지 축소됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
       </group>
     </body>
@@ -3558,22 +3607,36 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="new">Changes in {0} drive</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} 드라이브의 변경 사항</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">콘텐츠 새로 고침(이 폴더 유형은 자동 새로 고칠 수 없음)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="new">Open with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">함께 열기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="new">Finishing setup...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">설치 완료 중...</target>
+        </trans-unit>
+        <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
+          <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows에서 이 폴더를 리디렉션하고 있습니다. 여기에 저장되거나 편집 된 파일은 OneCommand 외부에 표시되지 않을 수 있습니다. 이것은 Windows에서 부과 한 제한 사항입니다. 이 폴더에 대한 적절한 액세스를 위해 OneCommander의 독립 실행형 버전을 사용하십시오.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
+          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows는 탐색기 외부에서 파일 작업 실행 취소를 지원하지 않습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
+        </trans-unit>
+        <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
+          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
         </trans-unit>
       </group>
     </body>
