@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" datatype="resx">
         <trans-unit id="CreditsAndContributors" translate="yes" xml:space="preserve">
           <source>Credits and contributors</source>
-          <target state="translated" state-qualifier="mt-suggestion">Créditos y colaboradores</target>
+          <target state="translated">Créditos y colaboradores</target>
         </trans-unit>
         <trans-unit id="Email" translate="yes" xml:space="preserve">
           <source>Email</source>
@@ -37,7 +37,7 @@
         </trans-unit>
         <trans-unit id="LicenseAgreement" translate="yes" xml:space="preserve">
           <source>License Agreement</source>
-          <target state="translated" state-qualifier="mt-suggestion">Acuerdo de licencia</target>
+          <target state="translated">Créditos y colaboradores</target>
         </trans-unit>
         <trans-unit id="NonCommercialUse" translate="yes" xml:space="preserve">
           <source>Non-commercial use</source>
@@ -45,7 +45,7 @@
         </trans-unit>
         <trans-unit id="OpensWebBrowser" translate="yes" xml:space="preserve">
           <source>Opens web browser</source>
-          <target state="translated" state-qualifier="mt-suggestion">Abre el navegador web</target>
+          <target state="translated">Abre el navegador web</target>
         </trans-unit>
         <trans-unit id="ProLicenseRequired" translate="yes" xml:space="preserve">
           <source>The Pro license is required for commercial use</source>
@@ -74,7 +74,7 @@
         </trans-unit>
         <trans-unit id="TabAbout" translate="yes" xml:space="preserve">
           <source>About</source>
-          <target state="translated" state-qualifier="mt-suggestion">Acerca de</target>
+          <target state="translated">Acerca de</target>
           <note from="MultilingualBuild" annotates="source" priority="2">AboutWindow Tab</note>
         </trans-unit>
         <trans-unit id="TabBackers" translate="yes" xml:space="preserve">
@@ -124,7 +124,7 @@
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="translated" state-qualifier="mt-suggestion">¿Está seguro de que desea desactivar la licencia? Deberá ingresar la clave de licencia Pro para activarla nuevamente</target>
+          <target state="translated">¿Está seguro de que desea desactivar la licencia? Deberá ingresar la clave de licencia Pro para activarla nuevamente</target>
         </trans-unit>
       </group>
     </body>
@@ -137,7 +137,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFVD.RESX" datatype="resx">
         <trans-unit id="ApplyToCurrent" translate="yes" xml:space="preserve">
           <source>Apply to current folder-pane and close (without saving)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Aplicar al panel de carpetas actual y cerrar (sin guardar)</target>
+          <target state="translated">Aplicar al panel de carpetas actual y cerrar (sin guardar)</target>
         </trans-unit>
         <trans-unit id="CustomHeight" translate="yes" xml:space="preserve">
           <source>Custom height</source>
@@ -177,7 +177,7 @@
         </trans-unit>
         <trans-unit id="ItemHeight" translate="yes" xml:space="preserve">
           <source>Item height</source>
-          <target state="translated">Altura del elemento</target>
+          <target state="translated">Altura elemento</target>
         </trans-unit>
         <trans-unit id="Load" translate="yes" xml:space="preserve">
           <source>Load</source>
@@ -230,7 +230,7 @@
         </trans-unit>
         <trans-unit id="UpdatePreview" translate="yes" xml:space="preserve">
           <source>Update preview</source>
-          <target state="translated" state-qualifier="mt-suggestion">Vista previa de la actualización</target>
+          <target state="translated">Vista previa de la actualización</target>
         </trans-unit>
         <trans-unit id="Width" translate="yes" xml:space="preserve">
           <source>Width</source>
@@ -242,7 +242,7 @@
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="translated" state-qualifier="mt-suggestion">Desplazamiento Y</target>
+          <target state="translated">Desplaz. Y</target>
         </trans-unit>
       </group>
     </body>
@@ -271,7 +271,7 @@
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
-          <target state="translated" state-qualifier="mt-suggestion">Gracias por la compra y el apoyo al desarrollo del programa. Reinicie el programa para habilitar todas las funciones</target>
+          <target state="translated">Gracias por la compra y el apoyo al desarrollo del programa. Reinicie el programa para habilitar todas las funciones</target>
         </trans-unit>
         <trans-unit id="GetOnMicrosoftStore" translate="yes" xml:space="preserve">
           <source>Get it on Microsoft Store</source>
@@ -372,12 +372,12 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" datatype="resx">
         <trans-unit id="AddRule" translate="yes" xml:space="preserve">
           <source>Add rule</source>
-          <target state="translated" state-qualifier="mt-suggestion">Agregar regla</target>
+          <target state="translated">Añadir regla</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule</note>
         </trans-unit>
         <trans-unit id="AddWatermark" translate="yes" xml:space="preserve">
           <source>Add watermark</source>
-          <target state="translated">Agregar marca de agua</target>
+          <target state="translated">Añadir marca de agua</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA files list watermark</note>
         </trans-unit>
         <trans-unit id="Cancel" translate="yes" xml:space="preserve">
@@ -437,7 +437,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ColumnOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="translated" state-qualifier="mt-suggestion">Operación</target>
+          <target state="translated">Operación</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnSource" translate="yes" xml:space="preserve">
@@ -452,11 +452,11 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ConvertHashtag" translate="yes" xml:space="preserve">
           <source>Convert # into sequential number starting at</source>
-          <target state="translated" state-qualifier="mt-suggestion">Convierta # en número secuencial a partir de</target>
+          <target state="translated">Convertir # en número secuencial a partir de</target>
         </trans-unit>
         <trans-unit id="ConvertHashtag_TT" translate="yes" xml:space="preserve">
           <source>Tip: To add 4 trailing zeros write #### in rule</source>
-          <target state="translated" state-qualifier="mt-suggestion">Consejo: Para agregar 4 ceros finales, escriba #### en la regla</target>
+          <target state="translated">Consejo: Para añadir 4 ceros finales, escriba #### en la regla</target>
         </trans-unit>
         <trans-unit id="DateTimeDay" translate="yes" xml:space="preserve">
           <source>Day</source>
@@ -489,12 +489,12 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DestinationFile" translate="yes" xml:space="preserve">
           <source>Output filename as result of folder and file rules</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nombre de archivo de salida como resultado de las reglas de carpeta y archivo</target>
+          <target state="translated">Nombre de archivo de salida como resultado de las reglas de carpeta y archivo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="DLG_Busy" translate="yes" xml:space="preserve">
           <source>Please wait operation to finish before adding new items</source>
-          <target state="translated" state-qualifier="mt-suggestion">Espere a que finalice la operación antes de agregar nuevos elementos</target>
+          <target state="translated">Espere a que finalice la operación antes de añadir nuevos elementos</target>
         </trans-unit>
         <trans-unit id="FileNamingRules" translate="yes" xml:space="preserve">
           <source>File naming rules</source>
@@ -552,7 +552,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="MSG_FolderNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains invalid characters</source>
-          <target state="translated" state-qualifier="mt-suggestion">El nombre de la carpeta contiene caracteres no válidos</target>
+          <target state="translated">El nombre de la carpeta contiene caracteres no válidos</target>
         </trans-unit>
         <trans-unit id="MSG_NotImage" translate="yes" xml:space="preserve">
           <source>Not image</source>
@@ -581,7 +581,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="translated">Renombrar</target>
+          <target state="translated">Cambiar nombre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation rename</note>
         </trans-unit>
         <trans-unit id="OperationRunScript" translate="yes" xml:space="preserve">
@@ -640,7 +640,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ReplaceInvalidChars" translate="yes" xml:space="preserve">
           <source>Replace invalid characters with</source>
-          <target state="translated" state-qualifier="mt-suggestion">Reemplace caracteres no válidos por</target>
+          <target state="translated" state-qualifier="mt-suggestion">Reemplazar caracteres no válidos por</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - follows with textbox</note>
         </trans-unit>
         <trans-unit id="Resize" translate="yes" xml:space="preserve">
@@ -766,7 +766,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="TT_ExampleOutput" translate="yes" xml:space="preserve">
           <source>Out</source>
-          <target state="translated">Afuera</target>
+          <target state="translated">Fuera</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Out: File Name</note>
         </trans-unit>
         <trans-unit id="TT_OriginalFilename" translate="yes" xml:space="preserve">
@@ -821,7 +821,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
-          <target state="translated" state-qualifier="mt-suggestion">Configuraciones raramente necesarias. ¡No cambies a menos que sea absolutamente necesario!</target>
+          <target state="translated">Configuraciones raramente necesarias. ¡No cambies a menos que sea absolutamente necesario!</target>
         </trans-unit>
         <trans-unit id="AlignCenter" translate="yes" xml:space="preserve">
           <source>Center</source>
@@ -853,7 +853,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="translated" state-qualifier="mt-suggestion">Borrar historial al cerrar</target>
+          <target state="translated">Borrar Historial al cerrar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
@@ -879,7 +879,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="translated" state-qualifier="mt-suggestion">Haz que el tamaño de más de 1 GB sea más prominente con un color</target>
+          <target state="translated">Hacer que el tamaño de más de 1 GB sea más prominente con un color</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
@@ -1030,7 +1030,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="CreateDefaultSidebarFoldersInfo" translate="yes" xml:space="preserve">
           <source>Creates favorites group with current username, and adds default folders such as Desktop, Documents, and the rest</source>
-          <target state="translated" state-qualifier="mt-suggestion">Crea un grupo de favoritos con el nombre de usuario actual y agrega carpetas predeterminadas como Escritorio, Documentos y el resto</target>
+          <target state="translated" state-qualifier="mt-suggestion">Crea un grupo de Favoritos con el nombre de usuario actual y agrega carpetas predeterminadas como Escritorio, Documentos y el resto</target>
         </trans-unit>
         <trans-unit id="CreateNewColumnsWithoutAnimating" translate="yes" xml:space="preserve">
           <source>Create New Columns without animating</source>
@@ -1104,7 +1104,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
           <source>Open in default program</source>
-          <target state="translated" state-qualifier="mt-suggestion">Abrir en el programa predeterminado</target>
+          <target state="translated">Abrir en el programa predeterminado</target>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveQuestion" translate="yes" xml:space="preserve">
           <source>Double-click on an archive should:</source>
@@ -1124,7 +1124,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DownloadIconPacksInfo" translate="yes" xml:space="preserve">
           <source>Downloads additional icons from onecommander.com if they are available. Check file icons dropdown after downloading.</source>
-          <target state="translated" state-qualifier="mt-suggestion">Descarga iconos adicionales de onecommander.com si están disponibles. Compruebe el menú desplegable de iconos de archivos después de la descarga.</target>
+          <target state="translated">Descarga iconos adicionales de onecommander.com si están disponibles. Compruebe el menú desplegable de iconos de archivos después de la descarga.</target>
         </trans-unit>
         <trans-unit id="DragDropBehaviorConsistent" translate="yes" xml:space="preserve">
           <source>Consistent: Drag always moves; Ctrl+Drag always copies</source>
@@ -1175,7 +1175,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="ExFileItemMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Mouse Over</source>
-          <target state="translated" state-qualifier="mt-suggestion">Elemento de archivo Ratón sobre</target>
+          <target state="translated">Al pasar el ratón sobre el elemento de archivo</target>
         </trans-unit>
         <trans-unit id="ExFileItemMouseSelected" translate="yes" xml:space="preserve">
           <source>File Item Selected</source>
@@ -1183,7 +1183,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="ExFileItemMouseSelectedMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Selected Mouse Over</source>
-          <target state="translated">Elemento de archivo seleccionado con el Ratón sobre</target>
+          <target state="translated">Al pasar el ratón sobre el elemento de archivo seleccionado</target>
         </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
@@ -1204,7 +1204,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
-          <target state="translated" state-qualifier="mt-suggestion">Vista de archivos predeterminada</target>
+          <target state="translated">Vista de archivos por defecto</target>
         </trans-unit>
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
@@ -1220,7 +1220,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="FolderIconOverride" translate="yes" xml:space="preserve">
           <source>Override all folder icons with:</source>
-          <target state="translated">Invalidar todos los iconos de carpeta con:</target>
+          <target state="translated">Anular todos los iconos de carpeta con:</target>
         </trans-unit>
         <trans-unit id="FolderIconOverrideInfo" translate="yes" xml:space="preserve">
           <source>Using anything except Windows Default will disable folder icon overlays</source>
@@ -1281,11 +1281,11 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="HeaderPreview" translate="yes" xml:space="preserve">
           <source>Preview window</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ventana de vista previa</target>
+          <target state="translated">Ventana de Vista previa</target>
         </trans-unit>
         <trans-unit id="HeaderPreviewPane" translate="yes" xml:space="preserve">
           <source>Preview pane</source>
-          <target state="translated" state-qualifier="mt-suggestion">Panel vista previa</target>
+          <target state="translated">Panel Vista previa</target>
         </trans-unit>
         <trans-unit id="HeaderSidebar" translate="yes" xml:space="preserve">
           <source>Sidebar</source>
@@ -1336,7 +1336,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="HotkeyVizorInfo" translate="yes" xml:space="preserve">
           <source>Disable this if you use VS Code (uses the same shortcut)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Deshabilite esto si usa VS Code (usa el mismo acceso directo)</target>
+          <target state="translated">Deshabilitar esto si usa VS Code (usa el mismo acceso directo)</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
@@ -1361,7 +1361,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
-          <target state="translated" state-qualifier="mt-suggestion">Importar favoritos desde V2</target>
+          <target state="translated" state-qualifier="mt-suggestion">Importar Favoritos desde V2</target>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
@@ -1378,7 +1378,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="KeepRunningInBackground" translate="yes" xml:space="preserve">
           <source>Keep running in background (Close to System Tray)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Siga ejecutándose en segundo plano (cerca de la bandeja del sistema)</target>
+          <target state="translated">Siguir ejecutándose en segundo plano (cerca de la bandeja del sistema)</target>
         </trans-unit>
         <trans-unit id="KeepRunningInBackgroundInfo" translate="yes" xml:space="preserve">
           <source>If On, program will stay in System Tray for faster next start.
@@ -1540,7 +1540,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
-          <target state="translated" state-qualifier="mt-suggestion">El botón de ubicación de la foto abre el navegador web con:</target>
+          <target state="translated">El botón de ubicación de la foto abre el navegador web con:</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1596,7 +1596,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="translated">Renombrar</target>
+          <target state="translated">Cambiar nombre</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
@@ -1717,7 +1717,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Show folder sizes</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mostrar tamaños de carpeta</target>
+          <target state="translated">Mostrar tamaños de carpeta</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
@@ -1741,7 +1741,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mostrar panel Historial en la barra lateral</target>
+          <target state="translated">Mostrar panel de Historial en la barra lateral</target>
         </trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
@@ -1797,7 +1797,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="SortDirection" translate="yes" xml:space="preserve">
           <source>Sort direction</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ordenar dirección</target>
+          <target state="translated">Ordenar dirección por</target>
         </trans-unit>
         <trans-unit id="SortFileDate" translate="yes" xml:space="preserve">
           <source>Date modified</source>
@@ -1841,11 +1841,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mantenga las carpetas por encima de los archivos</target>
+          <target state="translated">Mantener las carpetas por encima de los archivos</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">Cambie a la pestaña recién creada en la carpeta con el botón central</target>
+          <target state="translated">Cambiar a la pestaña recién creada en la carpeta con el botón central</target>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -2157,7 +2157,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. Replace all?</source>
-          <target state="translated">El archivo {0} ya existe en la carpeta de destino. ¿Reemplaza todo?</target>
+          <target state="translated">El archivo {0} ya existe en la carpeta de destino. ¿Reemplazar todo?</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -2189,7 +2189,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardCopy_S" translate="yes" xml:space="preserve">
           <source>CTRL + C</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + C</target>
+          <target state="translated">CTRL+C</target>
         </trans-unit>
         <trans-unit id="ClipboardCopy_TT" translate="yes" xml:space="preserve">
           <source>Copy to Clipboard</source>
@@ -2197,7 +2197,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardCut_S" translate="yes" xml:space="preserve">
           <source>CTRL + X</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + X</target>
+          <target state="translated">CTRL+X</target>
         </trans-unit>
         <trans-unit id="ClipboardCut_TT" translate="yes" xml:space="preserve">
           <source>Cut to Clipboard</source>
@@ -2205,7 +2205,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
           <source>CTRL + V</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + V</target>
+          <target state="translated">CTRL+V</target>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
           <source>Paste from Clipboard</source>
@@ -2351,7 +2351,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="translated">La extensión de archivo es differente.&lt;br/&gt;¿Desea <bpt id="1">&lt;B&gt;</bpt>volver a agregar la extensión original<ept id="1">&lt;/B&gt;</ept> para que el archivo se pueda abrir con el mismo programa asociado?</target>
+          <target state="translated">La extensión de archivo es differente.&lt;br/&gt;¿Desea <bpt id="1">&lt;B&gt;</bpt>volver a añadir la extensión original<ept id="1">&lt;/B&gt;</ept> para que el archivo se pueda abrir con el mismo programa asociado?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2365,7 +2365,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="translated">Al cerrar la última ventana, ¿desea que el programa siga <bpt id="1">&lt;B&gt;</bpt>manteniéndose en segundo plano<ept id="1">&lt;/B&gt;</ept> (icono en la bandeja del sistema) para un inicio más rápido?</target>
+          <target state="translated">Al cerrar la última ventana, ¿Desea que el programa siga <bpt id="1">&lt;B&gt;</bpt>manteniéndose en segundo plano<ept id="1">&lt;/B&gt;</ept> (icono en la bandeja del sistema) para un inicio más rápido?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
@@ -2503,11 +2503,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
-          <target state="translated">Letra de unidad para montar (ej. 'K')</target>
+          <target state="translated">Letra de unidad para montar (ejemplo: 'K')</target>
         </trans-unit>
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
-          <target state="translated">Ruta de red (ej. \\nombreDelEquipo\compartir)</target>
+          <target state="translated">Ruta de red (ejemplo: \\nombreDelEquipo\compartir)</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
@@ -2598,7 +2598,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nueva carpeta de la selección</target>
+          <target state="translated">Nueva carpeta a partir de la selección</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Menu_NewNote" translate="yes" xml:space="preserve">
@@ -2612,7 +2612,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_OpenIn" translate="yes" xml:space="preserve">
           <source>Open in...</source>
-          <target state="translated" state-qualifier="mt-suggestion">Abierto en...</target>
+          <target state="translated">Abrir en...</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -2628,7 +2628,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
-          <target state="translated" state-qualifier="mt-suggestion">Refrescar todo</target>
+          <target state="translated">Actualizar todo</target>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
@@ -2641,7 +2641,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_Rename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="translated">Renombrar</target>
+          <target state="translated">Cambiar nombre</target>
         </trans-unit>
         <trans-unit id="Menu_RenameMultiple" translate="yes" xml:space="preserve">
           <source>Rename with File Automator</source>
@@ -2665,7 +2665,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_SortByDate_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Newest first)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Fecha de modificación (la más reciente primero)</target>
+          <target state="translated">Fecha de modificación (más reciente primero)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Oldest first)</source>
@@ -2722,7 +2722,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardErrorShell" translate="yes" xml:space="preserve">
           <source>Error trying to add files to Windows Clipboard</source>
-          <target state="translated" state-qualifier="mt-suggestion">Error al intentar agregar archivos al Portapapeles de Windows</target>
+          <target state="translated">Error al intentar añadir archivos al Portapapeles de Windows</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error with copy or cut from context menu</note>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardImagePasteFailed" translate="yes" xml:space="preserve">
@@ -2776,7 +2776,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_DropContentFromOutlook" translate="yes" xml:space="preserve">
           <source>Invalid Outlook data. Are you using the latest Outlook? {0}</source>
-          <target state="translated" state-qualifier="mt-suggestion">Datos de Outlook no válidos. ¿Está utilizando la última versión de Outlook? {0}</target>
+          <target state="translated">Introduzca la licencia</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
@@ -2909,7 +2909,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedElevate" translate="yes" xml:space="preserve">
           <source>You will need to run program as Admin to complete this operation (Ctrl+Shift+F12)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Deberá ejecutar el programa como administrador para completar esta operación (Ctrl + Mayús + F12)</target>
+          <target state="translated">Deberá ejecutar el programa como administrador para completar esta operación (Ctrl+Mayús+F12)</target>
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedPathTooLong" translate="yes" xml:space="preserve">
           <source>Failed operation. Is path over the Windows' 260 character limit?</source>
@@ -2957,7 +2957,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasImage" translate="yes" xml:space="preserve">
           <source>Detected Image on Clipboard. Press CTRL + V to Paste as a new PNG file</source>
-          <target state="translated" state-qualifier="mt-suggestion">Imagen detectada en el Portapapeles. Presione CTRL + V para pegar como un nuevo archivo PNG</target>
+          <target state="translated">Imagen detectada en el Portapapeles. Presione CTRL+V para pegar como un nuevo archivo PNG</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasPath" translate="yes" xml:space="preserve">
           <source>New path on clipboard. Press Ctrl+Shift+T to open it in a new tab</source>
@@ -2965,7 +2965,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasText" translate="yes" xml:space="preserve">
           <source>Detected Text on Clipboard. Press CTRL + V to create a new TXT file with this text</source>
-          <target state="translated" state-qualifier="mt-suggestion">Texto detectado en el Portapapeles. Presione CTRL + V para crear un nuevo archivo TXT con este texto</target>
+          <target state="translated">Texto detectado en el Portapapeles. Presione CTRL+V para crear un nuevo archivo TXT con este texto</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardImagePasted" translate="yes" xml:space="preserve">
           <source>Created an image file: {0} from Clipboard data</source>
@@ -3017,7 +3017,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="translated">Se eliminar el Panel de Historial. Se puede agregar nuevamente en Configuración</target>
+          <target state="translated">Se eliminar el Panel de Historial. Se puede añadir nuevamente en Configuración</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_MonitoringDriveStopped" translate="yes" xml:space="preserve">
@@ -3107,7 +3107,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
-          <target state="translated" state-qualifier="mt-suggestion">Alt + Flecha izquierda</target>
+          <target state="translated">Alt+Flecha izquierda</target>
         </trans-unit>
         <trans-unit id="NavigateBackward_TT" translate="yes" xml:space="preserve">
           <source>Go back in tab history</source>
@@ -3115,7 +3115,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NavigateForward_S" translate="yes" xml:space="preserve">
           <source>Alt + Right arrow</source>
-          <target state="translated" state-qualifier="mt-suggestion">Alt + Flecha derecha</target>
+          <target state="translated">Alt+Flecha derecha</target>
         </trans-unit>
         <trans-unit id="NavigateForward_TT" translate="yes" xml:space="preserve">
           <source>Go forward in tab history</source>
@@ -3123,7 +3123,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NavigateUp_S" translate="yes" xml:space="preserve">
           <source>Backspace</source>
-          <target state="translated" state-qualifier="mt-suggestion">Retroceso</target>
+          <target state="translated">Retroceder</target>
         </trans-unit>
         <trans-unit id="NavigateUp_TT" translate="yes" xml:space="preserve">
           <source>Open parent folder</source>
@@ -3131,7 +3131,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
           <source>CTRL + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + N</target>
+          <target state="translated">CTRL+N</target>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
@@ -3139,7 +3139,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + MAYÚS + N</target>
+          <target state="translated">CTRL+MAYÚS+N</target>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
           <source>Create new folder</source>
@@ -3155,11 +3155,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewGroup_TT" translate="yes" xml:space="preserve">
           <source>Creates new Favorite group and adds current folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">Crea un nuevo grupo favorito y agrega la carpeta actual</target>
+          <target state="translated" state-qualifier="mt-suggestion">Crea un nuevo grupo de Favoritos y agrega la carpeta actual</target>
         </trans-unit>
         <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
           <source>ALT + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">ALT + N</target>
+          <target state="translated">ALT+N</target>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
@@ -3167,7 +3167,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
-          <target state="translated">CTRL + T para crear | CTRL + W para cerrar seleccionada | CTRL + TAB para cambiar a la siguiente pestaña</target>
+          <target state="translated">CTRL+T para crear | CTRL+W para cerrar seleccionada | CTRL+TAB para cambiar a la siguiente pestaña</target>
         </trans-unit>
         <trans-unit id="NewTab_TT" translate="yes" xml:space="preserve">
           <source>Create new tab</source>
@@ -3194,7 +3194,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="translated">Renombrar</target>
+          <target state="translated">Cambiar nombre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_TT" translate="yes" xml:space="preserve">
@@ -3246,7 +3246,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ctrl + Intro</target>
+          <target state="translated">Ctrl+Intro</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates and opens file in the default system program after cloning it</source>
@@ -3284,7 +3284,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ctrl + Intro</target>
+          <target state="translated">Ctrl+Intro</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and opens it</source>
@@ -3296,7 +3296,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_S" translate="yes" xml:space="preserve">
           <source>Shift + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mayús + Intro</target>
+          <target state="translated">Mayús+Intro</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and moves selected items in it</source>
@@ -3316,7 +3316,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
           <source>To add new line press Ctrl + Enter</source>
-          <target state="translated">Para agregar una nueva línea, presione Ctrl + Intro</target>
+          <target state="translated">Para añadir una nueva línea, presione Ctrl+Intro</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
@@ -3390,7 +3390,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="translated">Renombrar</target>
+          <target state="translated">Cambiar nombre</target>
         </trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Search</source>
@@ -3462,11 +3462,11 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="translated">Ordena los archivos por tamaño (el más grande primero); Las carpetas no están ordenadas</target>
+          <target state="translated">Ordena los archivos por tamaño (más grande primero); Las carpetas no están ordenadas</target>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="translated">Ordena los archivos por tamaño (el más pequeños primero); Las carpetas no están ordenadas</target>
+          <target state="translated">Ordena los archivos por tamaño (más pequeño primero); Las carpetas no están ordenadas</target>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -3511,7 +3511,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">SUGERENCIA: Usuario Ctrl + Rueda del mouse para cambiar el tamaño de la miniatura / elementos por columna</target>
+          <target state="translated">SUGERENCIA: Usuario Ctrl+Rueda del mouse para cambiar el tamaño de la miniatura / elementos por columna</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -3619,7 +3619,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
+          <target state="translated">El disco está lleno, por lo que no se pueden guardar los ajustes. Borre al menos algunos KB de espacio o vacíe la Papelera de reciclaje.&lt;br/&gt;¿Volver a intentar guardar la configuración?</target>
         </trans-unit>
       </group>
     </body>
