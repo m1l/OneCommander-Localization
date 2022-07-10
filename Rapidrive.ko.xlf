@@ -2106,6 +2106,24 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">공간이 충분하지 않으면 가장 왼쪽 열은 이 너비까지 축소됩니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일 이름 트리밍</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">끝</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">중간</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 가능한 공간에 맞지 않을 때 파일 이름을 트리밍할 위치를 결정합니다.</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2298,12 +2316,14 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">형식</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
-          <target state="translated">영역 나눔 화면의 ˄ ˅ 버튼을 사용하여 브라우저 창을 표시 및 숨기세요.</target>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">영역 나눔 화면의 ˄ ˅ 버튼을 사용하여 브라우저 창을 표시 및 숨기세요.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="translated">영역 나눔 화면의 <it id="1" pos="open">&lt; &gt;</it> 버튼을 통해 탐색 영역을 표시하거나 숨기세요.</target>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">영역 나눔 화면의 <it id="1" pos="open">&lt; &gt;</it> 버튼을 통해 탐색 영역을 표시하거나 숨기세요.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -3636,7 +3656,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">디스크가 꽉 찼으므로 설정을 저장할 수 없습니다. 최소 몇 KB의 공간 또는 빈 휴지통을 지웁니다. &lt;br/&gt;설정 저장을 다시 시도하시겠습니까?</target>
         </trans-unit>
       </group>
     </body>

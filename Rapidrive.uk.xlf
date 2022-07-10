@@ -1307,6 +1307,24 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Якщо бракує місця, більшість стовпців ліворуч стискатимуться до такої ширини:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обрізка імен файлів</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Кінець</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Середній</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Визначає, де буде обрізано ім'я файлу, якщо воно не може вмістити доступний простір</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1469,12 +1487,14 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="tm-suggestion">Тип</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Використовуйте кнопки ˄ ˅ на цьому роздільнику, щоб показати / приховати панелі браузера</target>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">Використовуйте кнопки ˄ ˅ на цьому роздільнику, щоб показати / приховати панелі браузера</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Використовуйте <it id="1" pos="open">&lt; &gt;</it> кнопки на цьому роздільнику, щоб показати / приховати панелі браузера</target>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">Використовуйте <it id="1" pos="open">&lt; &gt;</it> кнопки на цьому роздільнику, щоб показати / приховати панелі браузера</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2837,7 +2857,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Диск заповнений, тому налаштування не можна зберегти. Очистіть принаймні кілька КБ місця або пустий кошик. &lt;бр/&gt;Випадок збереження параметрів?</target>
         </trans-unit>
       </group>
     </body>

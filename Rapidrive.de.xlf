@@ -1315,6 +1315,24 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Ist der Platz nicht ausreichend, ziehen sich die Spalten ganz links bis zu dieser Breite zusammen:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="new">File name trimming</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="new">End</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="new">Middle</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="new">Determines where the file name will be trimmed when it cannot fit available space</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1457,12 +1475,14 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated" state-qualifier="tm-suggestion">Typ</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Schaltflächen ˄ ˅ auf dieser Unterteilung verwenden, um Fenster ein-/auszublenden</target>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">Schaltflächen ˄ ˅ auf dieser Unterteilung verwenden, um Fenster ein-/auszublenden</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="translated"> Schaltflächen <it id="1" pos="open">&lt; &gt;</it> auf dieser Unterteilung verwenden, um Fenster ein- und auszublenden</target>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation"> Schaltflächen <it id="1" pos="open">&lt; &gt;</it> auf dieser Unterteilung verwenden, um Fenster ein- und auszublenden</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>

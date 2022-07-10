@@ -1509,51 +1509,69 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         </trans-unit>
         <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
           <source>Hide last window instead of close</source>
-          <target state="new">Hide last window instead of close</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Masquer la dernière fenêtre au lieu de fermer</target>
         </trans-unit>
         <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
           <source>Opens the window instantly but uses more memory</source>
-          <target state="new">Opens the window instantly but uses more memory</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvre la fenêtre instantanément mais utilise plus de mémoire</target>
         </trans-unit>
         <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
           <source>Exe path and arguments</source>
-          <target state="new">Exe path and arguments</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chemin d’accès exe et arguments</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
-          <target state="new">Dark</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sombre</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
-          <target state="new">Light</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lumière</target>
         </trans-unit>
         <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
           <source>Use system theme</source>
-          <target state="new">Use system theme</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utiliser le thème système</target>
         </trans-unit>
         <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
           <source>Monitor for Windows theme changes to switch to a different theme</source>
-          <target state="new">Monitor for Windows theme changes to switch to a different theme</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Surveiller les modifications apportées au thème Windows pour passer à un autre thème</target>
         </trans-unit>
         <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
           <source>Open Recycle Bin in Explorer</source>
-          <target state="new">Open Recycle Bin in Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir la Corbeille dans l’Explorateur</target>
         </trans-unit>
         <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
           <source>Sliders auto-adjust range depending on the slider below it</source>
-          <target state="new">Sliders auto-adjust range depending on the slider below it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Les curseurs ajustent automatiquement la plage en fonction du curseur situé en dessous</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
           <source>Columns smaller than the above value will collapse to this width:</source>
-          <target state="new">Columns smaller than the above value will collapse to this width:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Les colonnes plus petites que la valeur ci-dessus se réduiront à cette largeur :</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
           <source>If there isn't enough space, left-most columns will contract up to this width:</source>
-          <target state="new">If there isn't enough space, left-most columns will contract up to this width:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">S’il n’y a pas assez d’espace, les colonnes les plus à gauche se contracteront jusqu’à cette largeur :</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Découpage du nom de fichier</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Milieu</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Détermine où le nom de fichier sera découpé lorsqu’il ne peut pas contenir l’espace disponible</target>
         </trans-unit>
       </group>
     </body>
@@ -1722,12 +1740,14 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Taper</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilisez les boutons ˄ ˅ de ce séparateur pour afficher/masquer les volets du navigateur</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilisez &lt; &gt; boutons de ce diviseur pour afficher/masquer les volets du navigateur</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -3079,17 +3099,17 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
         </trans-unit>
         <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
           <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
-          <target state="new">Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows redirige ce dossier. Les fichiers enregistrés ou modifiés ici peuvent ne pas s’afficher en dehors de OneCommander. Il s’agit de la limitation imposée par Windows. Utilisez la version autonome de OneCommander pour un accès approprié à ce dossier.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Windows doesn't support undoing file operations outside Explorer</source>
-          <target state="new">Windows doesn't support undoing file operations outside Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows ne prend pas en charge l’annulation des opérations de fichiers en dehors de l’Explorateur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le disque est plein, donc les paramètres ne peuvent pas être enregistrés. Videz au moins quelques Ko d’espace ou videz la Corbeille. &lt;br/&gt;Essayer d’enregistrer les paramètres ?</target>
         </trans-unit>
       </group>
     </body>

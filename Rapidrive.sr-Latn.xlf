@@ -1100,12 +1100,14 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovaj format putanje nije podržan</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Koristite ˄ ˅ na ovom razdelniku da biste prikazali/sakrili panele</target>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">Koristite ˄ ˅ na ovom razdelniku da biste prikazali/sakrili panele</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Koristite &lt;it id="1" pos="open"&gt; &gt;&lt; &gt;&lt;/it&gt; na ovom razdelniku da biste prikazali/sakrili panele</target>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
+          <target state="needs-review-translation">Koristite &lt;it id="1" pos="open"&gt; &gt;&lt; &gt;&lt;/it&gt; na ovom razdelniku da biste prikazali/sakrili panele</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Newest first)</source>
@@ -1342,212 +1344,212 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
         </trans-unit>
         <trans-unit id="AgeMinuteShort" translate="yes" xml:space="preserve">
           <source>min</source>
-          <target state="new">min</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">min</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Minute (ex: 1h 15min)</note>
         </trans-unit>
         <trans-unit id="AgeSecondShort" translate="yes" xml:space="preserve">
           <source>s</source>
-          <target state="new">s</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">s</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Second (ex: 30 s)</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="new">Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk jedinica {0} možda usporava računar (čeka da se probudi / okrene?)</target>
         </trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
-          <target state="new">Saving settings before closing...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čuvanje postavki pre zatvaranja...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Newest first)</source>
-          <target state="new">Date created (Newest first)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum kreiranja (prvi najnoviji)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Oldest first)</source>
-          <target state="new">Date created (Oldest first)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum kreiranja (najstarije prvo)</target>
         </trans-unit>
         <trans-unit id="ExpandColumn_TT" translate="yes" xml:space="preserve">
           <source>Temporarily expand column</source>
-          <target state="new">Temporarily expand column</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Privremeno razvijanje kolone</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="new">Ctrl + Enter</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_Clone_S" translate="yes" xml:space="preserve">
           <source>Enter</source>
-          <target state="new">Enter</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ući</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut key Enter</note>
         </trans-unit>
         <trans-unit id="JumplistCreateNewWindow" translate="yes" xml:space="preserve">
           <source>Create new window</source>
-          <target state="new">Create new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiraj novi prozor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistResetWindow" translate="yes" xml:space="preserve">
           <source>Center current window</source>
-          <target state="new">Center current window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Centralni trenutni prozor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistSavedWindows" translate="yes" xml:space="preserve">
           <source>Saved windows</source>
-          <target state="new">Saved windows</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačuvani prozori</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistActions" translate="yes" xml:space="preserve">
           <source>Actions</source>
-          <target state="new">Actions</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Radnje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardNoFiles" translate="yes" xml:space="preserve">
           <source>Clipboard doesn't contain files</source>
-          <target state="new">Clipboard doesn't contain files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ostava ne sadrži datoteke</target>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
-          <target state="new">File with this name already exists. Do you want to replace it?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteka sa ovim imenom već postoji. Želite li da je zamenite?</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="new">Getting Recycle Bin items...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dobijanje stavki korpe za otpatke...</target>
         </trans-unit>
         <trans-unit id="MSG_E_ItemsUnavailable" translate="yes" xml:space="preserve">
           <source>Items unavailable</source>
-          <target state="new">Items unavailable</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stavke nisu dostupne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="new">No WSL distros found. Make sure they are running</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WSL distros nije pronađen. Uverite se da beže</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="new">Special folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Posebna fascikla</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="Computer" translate="yes" xml:space="preserve">
           <source>Computer</source>
-          <target state="new">Computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Računar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details</note>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="new">History</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Istorija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opozovite izbor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="new">Remove History pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ukloni okno istorije</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="new">History pane is removed. It can be added again in Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Okno istorije je uklonjeno. Može se ponovo dodati u podešavanjima</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="new">Recent destinations</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nedavna odredišta</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="new">Names</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Imena</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="new">Tags</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oznake</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="new">Enter folder name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unesite ime fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
-          <target state="new">Destination program doesn't accept FileDrop package</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odredišni program ne prihvata FileDrop paket</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
         <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
           <source>Applying settings. Please wait...</source>
-          <target state="new">Applying settings. Please wait...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primena postavki. Molim te sačekaj...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="new">Not available</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nije dostupno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="new">Delete window {0}?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Želite li da izbrišete {0}?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="new">Delete saved window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izbriši sačuvani prozor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preimenujete</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="new">Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nije moguće otvoriti stavke direktno iz korpe za otpatke. Prvo ih vratite u originalnu fasciklu.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="new">New folder from selection</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nova fascikla iz selekcije</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
           <source>Create and move {0} files</source>
-          <target state="new">Create and move {0} files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiranje i premeštanje {0} datoteka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="new">Changes in {0} drive</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promene u {0} disk jedinici</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="new">Refresh content (this type of folder cannot be auto-refreshed)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Osveži sadržaj (nije moguće automatski osvežiti ovaj tip fascikle)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="new">Open with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori pomoću</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="new">Finishing setup...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dovršavanje instalacije...</target>
         </trans-unit>
         <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
           <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
-          <target state="new">Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows preusmerava ovu fasciklu. Datoteke sačuvane ili uređene ovde možda neće biti prikazuju izvan OneCommandera. Ovo je nametnuto ograničenje operativnog sistema Windows. Koristite samostalnu verziju OneCommandera za pravilan pristup ovoj fascikli.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Windows doesn't support undoing file operations outside Explorer</source>
-          <target state="new">Windows doesn't support undoing file operations outside Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows ne podržava opozivanje operacija datoteka izvan programa Explorer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="new">Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk je pun tako da nije moguće sačuvati postavke. Obriši najmanje nekoliko KB prostora ili praznu korpu za otpatke. &lt;br/&gt;Uhvaćivanja postavki čuvanja?</target>
         </trans-unit>
       </group>
     </body>
@@ -2449,423 +2451,441 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
         </trans-unit>
         <trans-unit id="AlignCenter" translate="yes" xml:space="preserve">
           <source>Center</source>
-          <target state="new">Center</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Centar</target>
         </trans-unit>
         <trans-unit id="AlignLeft" translate="yes" xml:space="preserve">
           <source>Left</source>
-          <target state="new">Left</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Levo</target>
         </trans-unit>
         <trans-unit id="AlignRight" translate="yes" xml:space="preserve">
           <source>Right</source>
-          <target state="new">Right</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Desno</target>
         </trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
-          <target state="new">Ascending</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rastući</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting direction</note>
         </trans-unit>
         <trans-unit id="SortDirDescending" translate="yes" xml:space="preserve">
           <source>Descending</source>
-          <target state="new">Descending</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opadajući</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting direction</note>
         </trans-unit>
         <trans-unit id="SortFileDate" translate="yes" xml:space="preserve">
           <source>Date modified</source>
-          <target state="new">Date modified</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum izmene</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileDateCreated" translate="yes" xml:space="preserve">
           <source>Date created</source>
-          <target state="new">Date created</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum kreiranja</target>
         </trans-unit>
         <trans-unit id="SortFileName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileSize" translate="yes" xml:space="preserve">
           <source>Size</source>
-          <target state="new">Size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličinu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileType" translate="yes" xml:space="preserve">
           <source>Type</source>
-          <target state="new">Type</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tip</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
-          <target state="new">Custom .pdf and .ai thumbnail extraction</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prilagođeno .pdf i .ai sličica</target>
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
-          <target state="new">Windows default</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podrazumevani windows</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
-          <target state="new">Show warning dialog when changing extension during rename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži dijalog upozorenja prilikom promene proširenja tokom preimenovanja</target>
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
-          <target state="new">Default files view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaz podrazumevanih datoteka</target>
         </trans-unit>
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
-          <target state="new">Thumbnail file view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaz datoteke sličica</target>
         </trans-unit>
         <trans-unit id="DateShownCreated" translate="yes" xml:space="preserve">
           <source>Date created</source>
-          <target state="new">Date created</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum kreiranja</target>
         </trans-unit>
         <trans-unit id="DateShownModified" translate="yes" xml:space="preserve">
           <source>Date modified (Windows default)</source>
-          <target state="new">Date modified (Windows default)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum izmene (podrazumevani Windows)</target>
         </trans-unit>
         <trans-unit id="DateShownQuestion" translate="yes" xml:space="preserve">
           <source>Date shown in list of files</source>
-          <target state="new">Date shown in list of files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum prikazan na listi datoteka</target>
         </trans-unit>
         <trans-unit id="ColumnWidthSmall" translate="yes" xml:space="preserve">
           <source>Columns small width</source>
-          <target state="new">Columns small width</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kolone male širine</target>
         </trans-unit>
         <trans-unit id="RestoreDefault" translate="yes" xml:space="preserve">
           <source>Restore to default</source>
-          <target state="new">Restore to default</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vrati na podrazumevane vrednosti</target>
         </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
-          <target state="new">Scrollbar style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stil trake za pomeranje</target>
         </trans-unit>
         <trans-unit id="SizeFormat" translate="yes" xml:space="preserve">
           <source>Size format</source>
-          <target state="new">Size format</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Format veličine</target>
         </trans-unit>
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
-          <target state="new">This will not affect folder size display (it is provided by Windows)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo neće uticati na prikaz veličine fascikle (obezbeđuje ga Windows)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
           <source>Show file attributes and synchronization state icons</source>
-          <target state="new">Show file attributes and synchronization state icons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži atribute datoteke i ikone stanja sinhronizacije</target>
         </trans-unit>
         <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
           <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="new">Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Potrebno je da prikažete oneDrive statusne ikone kada su datoteke na zahtev omogućene. Prikazuje i šifrovane ikone i ponovo papariše ikone. Bolje performanse kada si isključen.</target>
         </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
-          <target state="new">Scaled to fit preview pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podesi razmeru da bi se uklopilo u okno za pregled</target>
         </trans-unit>
         <trans-unit id="ImageScaleOriginal" translate="yes" xml:space="preserve">
           <source>Original size</source>
-          <target state="new">Original size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Originalna veličina</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationPerformance" translate="yes" xml:space="preserve">
           <source>Pixelated (better performance)</source>
-          <target state="new">Pixelated (better performance)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pikselizovano (bolje performanse)</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationQuality" translate="yes" xml:space="preserve">
           <source>Smooth (better quality)</source>
-          <target state="new">Smooth (better quality)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Glatko (kvalitetnije)</target>
         </trans-unit>
         <trans-unit id="HeaderPreviewPane" translate="yes" xml:space="preserve">
           <source>Preview pane</source>
-          <target state="new">Preview pane</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Okno za pregled</target>
         </trans-unit>
         <trans-unit id="ImageScaleQuestion" translate="yes" xml:space="preserve">
           <source>Display small images</source>
-          <target state="new">Display small images</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži male slike</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationQuestion" translate="yes" xml:space="preserve">
           <source>Image scaling interpolation </source>
-          <target state="new">Image scaling interpolation </target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skaliranje slike interpolacija </target>
         </trans-unit>
         <trans-unit id="MetadataLineCount" translate="yes" xml:space="preserve">
           <source>Lines of text</source>
-          <target state="new">Lines of text</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redovi teksta</target>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
-          <target state="new">Clear Windows thumbnail cache</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Brisanje Windows keša sličica</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
-          <target state="new">Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Želite li da nastavite sa .exe Explorer, izbrišete datoteke keširanja sličica operativnog sistema Windows, a zatim ponovo pokrenete Explorer.exe? Ovo će prekinuti sve tekuće operacije datoteka!!!</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
-          <target state="new">Register 3ds Max thumbnail handler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registrovanje 3ds Max rukovaoca sličnicama</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
-          <target state="new">Show Files View toolbar buttons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži dugmad trake sa alatkama "Prikaz datoteka"</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
-          <target state="new">Use Mica window effect</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Koristi efekat prozora Mica</target>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="new">Max number of paths saved</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksimalni broj sačuvanih putanja</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="new">Show History pane in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži okno istorije na bočnoj traci</target>
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="new">Clear History on close</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obriši istoriju izbliza</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
           <source>Open Recent Destinations flyout on file drag</source>
-          <target state="new">Open Recent Destinations flyout on file drag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvaranje nedavnih odredišta za prevlačenje datoteka</target>
         </trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
-          <target state="new">Show rename suggestions popup</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži iskačući meni predloga za preimenovanje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user presses F2 to rename, suggestions will show for new name</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="new">Color luminosity</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Osvetljenost boja</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
-          <target state="new">Color saturation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zasićenost bojama</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="new">Icons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ikone</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
-          <target state="new">Wait for all items before showing context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačekaj sve stavke pre prikazivanja kontekstualnog menija</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
           <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
-          <target state="new">This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo će pokazati spore stavke iz podmenija "SendTo", ali će otvaranje menija trajati duže ili izazvati zamrzavanje ako se odredišta za slanje sporo reaguju, tako da je podrazumevano isključena</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="new">Switch to newly created tab on middle-click on folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prebacivanje na novokreiranu karticu u fascikli srednjeg klika</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="new">Open paths from external source in:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori putanje iz spoljnog izvora u:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab</source>
-          <target state="new">Existing tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Postojeća kartica</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="new">New tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nova kartica</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
-          <target state="new">Log detailed messages</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Evidentiraj detaljne poruke</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
           <source>For debugging purposes only. Program runs slower if enabled</source>
-          <target state="new">For debugging purposes only. Program runs slower if enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Samo za otklanjanje grešaka. Program radi sporije ako je omogućen</target>
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="new">Make size over 1 GB more prominent with a color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Učinite veličinu preko 1 GB istaknutijom bojom</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
-          <target state="new">Size shown in MB only, but MB text is not displayed</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina prikazana samo u MB, ali tekst MB nije prikazan</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
-          <target state="new">Inherit files view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nasledi prikaz datoteka</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="new">Files view and sorting will be inherited from parent folder folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaz i sortiranje datoteka biće nasleđeni iz nadređene fascikle</target>
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="new">Dialog connector</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Linija spajanja dijaloga</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="new">The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander Connector je eksperimentalni samostalni uslužni program koji pomaže u povezivanju OC-a sa sistemom Open and Save dijaloga drugih programa. Mali prozor će se pojaviti ispod kompatibilnog dijaloga "Otvaranje/čuvanje" koji će vam dozvoliti da postavite njegovu fasciklu na putanju otvorenu u fascikli "Jedan komandant". Radi nezavisno od OC-a.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
-          <target state="new">Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Linija spajanja je pokrenuta. Da biste testirali, zatvorite ovaj prozor postavki, otvorite beležnicu, a zatim kliknite na dugme "Datoteka&gt;Otvorite da biste ga videli na delu</target>
         </trans-unit>
         <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
           <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
-          <target state="new">This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo će preuzeti OneCommanderConnector.exe sa OneCommander.com sajta. Pošto ovaj uslužni program počinje nevidljivim prozorom i monitorima kada se otvori prozor dijaloga "Otvaranje" ili "Čuvanje", antivirusni softver može da se žali da je sumnjiv. Bezbedno je, ali ako imate nedoumice, molimo vas da kontaktirate podrљku.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog that opens when user clicks to download connector</note>
         </trans-unit>
         <trans-unit id="Download" translate="yes" xml:space="preserve">
           <source>Download</source>
-          <target state="new">Download</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preuzimanje</target>
         </trans-unit>
         <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
           <source>Run on program start</source>
-          <target state="new">Run on program start</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokreni na programu pokreni</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
-          <target state="new">Run now</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trči odmah</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
         </trans-unit>
         <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
           <source>Show window name in Taskbar</source>
-          <target state="new">Show window name in Taskbar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži ime prozora na traci zadataka</target>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="new">Color item background to tag color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pozadina stavke boje za boju</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
-          <target state="new">Item coloring</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bojenje stavke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
-          <target state="new">Color tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oznaka boje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="new">None</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Niko</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
-          <target state="new">Cancel rename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otkaži preimenovanje</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preimenujete</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
-          <target state="new">Clicking outside during rename operation should:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klik napolju tokom operacije preimenovanja treba da:</target>
         </trans-unit>
         <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
         <trans-unit id="DrivePaneTitleDisplay" translate="yes" xml:space="preserve">
           <source>Drive pane title display</source>
-          <target state="new">Drive pane title display</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaz naslova okna disk jedinice</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="new">Get recent menu items</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dobijte nedavne stavke menija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="new">File context menu needs to be opened at least once</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kontekstualni meni datoteke mora da se otvori bar jednom</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="new">Mark recent files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Označavanje nedavnih datoteka</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="new">Shows color indicator on files from current and last week</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikazuje indikator boje na datotekama iz tekuće i prošle sedmice</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
-          <target state="new">Font stretch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Razvlačenje fonta</target>
         </trans-unit>
         <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
           <source>Contracted</source>
-          <target state="new">Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ugovoreno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchExpanded" translate="yes" xml:space="preserve">
           <source>Expanded</source>
-          <target state="new">Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proširene</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
           <source>Normal</source>
-          <target state="new">Normal</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Normalno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
           <source>Semi Contracted</source>
-          <target state="new">Semi Contracted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poluzaduženo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiExpanded" translate="yes" xml:space="preserve">
           <source>Semi Expanded</source>
-          <target state="new">Semi Expanded</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poluproseljeno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
           <source>Learn how to create custom icon packs</source>
-          <target state="new">Learn how to create custom icon packs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saznajte kako da kreirate prilagođene pakete ikona</target>
         </trans-unit>
         <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
           <source>Hide last window instead of close</source>
-          <target state="new">Hide last window instead of close</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sakrij poslednji prozor umesto zatvaranja</target>
         </trans-unit>
         <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
           <source>Opens the window instantly but uses more memory</source>
-          <target state="new">Opens the window instantly but uses more memory</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trenutno otvara prozor, ali koristi više memorije</target>
         </trans-unit>
         <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
           <source>Exe path and arguments</source>
-          <target state="new">Exe path and arguments</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Exe putanja i svađe</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
-          <target state="new">Dark</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mraиno</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
-          <target state="new">Light</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Svetlo</target>
         </trans-unit>
         <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
           <source>Use system theme</source>
-          <target state="new">Use system theme</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korišćenje sistemske teme</target>
         </trans-unit>
         <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
           <source>Monitor for Windows theme changes to switch to a different theme</source>
-          <target state="new">Monitor for Windows theme changes to switch to a different theme</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nadgledanje promena teme operativnog sistema Windows za prebacivanje na drugu temu</target>
         </trans-unit>
         <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
           <source>Open Recycle Bin in Explorer</source>
-          <target state="new">Open Recycle Bin in Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvaranje korpe za otpatke u programu Explorer</target>
         </trans-unit>
         <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
           <source>Sliders auto-adjust range depending on the slider below it</source>
-          <target state="new">Sliders auto-adjust range depending on the slider below it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klizači automatski podešavaju opseg u zavisnosti od klizača ispod njega</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
           <source>Columns smaller than the above value will collapse to this width:</source>
-          <target state="new">Columns smaller than the above value will collapse to this width:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kolone manje od gorenavedene vrednosti će se skupiti na ovu širinu:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
           <source>If there isn't enough space, left-most columns will contract up to this width:</source>
-          <target state="new">If there isn't enough space, left-most columns will contract up to this width:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ako nema dovoljno prostora, leva kolona će se ugovoriti do ove širine:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skraćivanje imena datoteke</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zavrљi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Srednje</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Određuje gde će ime datoteke biti skraćeno kada ne može da stane u raspoloživi prostor</target>
         </trans-unit>
       </group>
     </body>
@@ -2977,25 +2997,25 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
           <source>Full version - PRO license</source>
-          <target state="new">Full version - PRO license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Puna verzija - PRO licenca</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In about dialog</note>
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
           <source>Licensed to:</source>
-          <target state="new">Licensed to:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Licencirano za:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Future type of named licenses</note>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
-          <target state="new">Enter license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unesite licencu</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
-          <target state="new">Deactivate license</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deaktiviranje licence</target>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="new">Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Želite li zaista da deaktivirate licencu? Moraćete da unesete Ključ za pro licencu da biste ga ponovo aktivirali</target>
         </trans-unit>
       </group>
     </body>
@@ -3113,7 +3133,7 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="new">More options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Više opcija</target>
         </trans-unit>
       </group>
     </body>
@@ -3126,426 +3146,426 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" datatype="resx">
         <trans-unit id="RuleTypeDocument" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="new">Document</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dokument</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeImage" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">Image</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Slika</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeSimple" translate="yes" xml:space="preserve">
           <source>Simple</source>
-          <target state="new">Simple</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jednostavno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeVideo" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="new">Video</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Video zapis</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="AddWatermark" translate="yes" xml:space="preserve">
           <source>Add watermark</source>
-          <target state="new">Add watermark</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj vodeni žig</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA files list watermark</note>
         </trans-unit>
         <trans-unit id="ChangeColorProfile" translate="yes" xml:space="preserve">
           <source>Change Color Profile to</source>
-          <target state="new">Change Color Profile to</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promeni profil boja u</target>
         </trans-unit>
         <trans-unit id="ChangeDPI" translate="yes" xml:space="preserve">
           <source>Change DPI to</source>
-          <target state="new">Change DPI to</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promeni TPI u</target>
         </trans-unit>
         <trans-unit id="ChangeQuality" translate="yes" xml:space="preserve">
           <source>Change quality</source>
-          <target state="new">Change quality</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promena kvaliteta</target>
         </trans-unit>
         <trans-unit id="Resize" translate="yes" xml:space="preserve">
           <source>Resize</source>
-          <target state="new">Resize</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličinu</target>
         </trans-unit>
         <trans-unit id="ResizeFilter" translate="yes" xml:space="preserve">
           <source>Resize filter</source>
-          <target state="new">Resize filter</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Filter za veličinu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA; as in image interpolation filter</note>
         </trans-unit>
         <trans-unit id="ResizeInterpolation" translate="yes" xml:space="preserve">
           <source>Resize interpolation</source>
-          <target state="new">Resize interpolation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Resize interpolation</target>
         </trans-unit>
         <trans-unit id="ResizeMoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="new">More options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Više opcija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button to revel more resizing options</note>
         </trans-unit>
         <trans-unit id="ResizeShrinkOnly" translate="yes" xml:space="preserve">
           <source>Shrink only</source>
-          <target state="new">Shrink only</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Smanji samo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox to only make images smaller</note>
         </trans-unit>
         <trans-unit id="ScriptOptions" translate="yes" xml:space="preserve">
           <source>Script Options</source>
-          <target state="new">Script Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opcije skripte</target>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="new">Show shell output in Status area (otherwise CMD window will open)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži izlaz ljuske u oblasti statusa (u suprotnom otvoriće se CMD prozor)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
           <source>Uncheck if you want it to be cancelable. Press Ctrl+C in CMD window to cancel operation</source>
-          <target state="new">Uncheck if you want it to be cancelable. Press Ctrl+C in CMD window to cancel operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opozovite izbor u polju za potvrdu ako želite da se otkaže. Pritisnite kombinaciju tastera Ctrl+C u CMD prozoru da biste otkazali operaciju</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text tooltip</note>
         </trans-unit>
         <trans-unit id="Rotate" translate="yes" xml:space="preserve">
           <source>Rotate</source>
-          <target state="new">Rotate</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rotiraj</target>
         </trans-unit>
         <trans-unit id="AddRule" translate="yes" xml:space="preserve">
           <source>Add rule</source>
-          <target state="new">Add rule</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj pravilo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule</note>
         </trans-unit>
         <trans-unit id="ConvertHashtag" translate="yes" xml:space="preserve">
           <source>Convert # into sequential number starting at</source>
-          <target state="new">Convert # into sequential number starting at</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Konvertuj # u sekvencijalni broj počevši od</target>
         </trans-unit>
         <trans-unit id="ConvertHashtag_TT" translate="yes" xml:space="preserve">
           <source>Tip: To add 4 trailing zeros write #### in rule</source>
-          <target state="new">Tip: To add 4 trailing zeros write #### in rule</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Savet: Da biste dodali 4 nule na stazi pišite #### u pravilo</target>
         </trans-unit>
         <trans-unit id="FileNamingRules" translate="yes" xml:space="preserve">
           <source>File naming rules</source>
-          <target state="new">File naming rules</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pravila imenovanja datoteka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="FolderRules" translate="yes" xml:space="preserve">
           <source>Destination folder rules</source>
-          <target state="new">Destination folder rules</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pravila odredišne fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="FolderSameAsSource" translate="yes" xml:space="preserve">
           <source>Same as source folder</source>
-          <target state="new">Same as source folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Isto kao izvorna fascikla</target>
         </trans-unit>
         <trans-unit id="HeaderNaming" translate="yes" xml:space="preserve">
           <source>Naming</source>
-          <target state="new">Naming</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Imenovanja</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA control group header</note>
         </trans-unit>
         <trans-unit id="ReplaceInvalidChars" translate="yes" xml:space="preserve">
           <source>Replace invalid characters with</source>
-          <target state="new">Replace invalid characters with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zameni nevažeće znakove pomoću</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - follows with textbox</note>
         </trans-unit>
         <trans-unit id="ShowSourceAndDestColumns" translate="yes" xml:space="preserve">
           <source>Show Source and Destination columns in the files list</source>
-          <target state="new">Show Source and Destination columns in the files list</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži kolone izvora i odredišta na listi datoteka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="Cancel" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otkaži</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="new">Clear</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opozovite izbor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="ColumnDestination" translate="yes" xml:space="preserve">
           <source>Destination</source>
-          <target state="new">Destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odredište</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnErrors_TT" translate="yes" xml:space="preserve">
           <source>Number of errors. Click to sort.</source>
-          <target state="new">Number of errors. Click to sort.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Broj grešaka. Kliknite da biste sortirali.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnFile" translate="yes" xml:space="preserve">
           <source>File</source>
-          <target state="new">File</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnNewName" translate="yes" xml:space="preserve">
           <source>New file name</source>
-          <target state="new">New file name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Novo ime datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operacija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnSource" translate="yes" xml:space="preserve">
           <source>Source</source>
-          <target state="new">Source</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izvor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnStatus" translate="yes" xml:space="preserve">
           <source>Status</source>
-          <target state="new">Status</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Status</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="Preview" translate="yes" xml:space="preserve">
           <source>Preview</source>
-          <target state="new">Preview</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pregled</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="Process" translate="yes" xml:space="preserve">
           <source>Process</source>
-          <target state="new">Process</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proces</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="DateTimeDay" translate="yes" xml:space="preserve">
           <source>Day</source>
-          <target state="new">Day</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dan</target>
         </trans-unit>
         <trans-unit id="DateTimeHour" translate="yes" xml:space="preserve">
           <source>Hour</source>
-          <target state="new">Hour</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sat</target>
         </trans-unit>
         <trans-unit id="DateTimeMinute" translate="yes" xml:space="preserve">
           <source>Minute</source>
-          <target state="new">Minute</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minut</target>
         </trans-unit>
         <trans-unit id="DateTimeMonth" translate="yes" xml:space="preserve">
           <source>Month</source>
-          <target state="new">Month</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meseca</target>
         </trans-unit>
         <trans-unit id="DateTimeYear" translate="yes" xml:space="preserve">
           <source>Year</source>
-          <target state="new">Year</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Godine</target>
         </trans-unit>
         <trans-unit id="DestinationDir" translate="yes" xml:space="preserve">
           <source>Output folder defined by folder rules</source>
-          <target state="new">Output folder defined by folder rules</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izlazna fascikla definisana pravilima fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="DestinationFile" translate="yes" xml:space="preserve">
           <source>Output filename as result of folder and file rules</source>
-          <target state="new">Output filename as result of folder and file rules</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime izlazne datoteke kao rezultat pravila fascikle i datoteka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="DLG_Busy" translate="yes" xml:space="preserve">
           <source>Please wait operation to finish before adding new items</source>
-          <target state="new">Please wait operation to finish before adding new items</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačekajte da se operacija završi pre dodavanja novih stavki</target>
         </trans-unit>
         <trans-unit id="MSG_FileAlreadyExists" translate="yes" xml:space="preserve">
           <source>File with this name already exists</source>
-          <target state="new">File with this name already exists</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteka sa ovim imenom već postoji</target>
         </trans-unit>
         <trans-unit id="MSG_FileNameConflict" translate="yes" xml:space="preserve">
           <source>File name conflict</source>
-          <target state="new">File name conflict</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neusaglašenost imena datotek</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Another file name exists with this name (for Automator rename)</note>
         </trans-unit>
         <trans-unit id="MSG_FileNameConflict2" translate="yes" xml:space="preserve">
           <source>Another file will get the same name (check file name rules)</source>
-          <target state="new">Another file will get the same name (check file name rules)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Druga datoteka će dobiti isto ime (proverite pravila imena datoteke)</target>
         </trans-unit>
         <trans-unit id="MSG_FileNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>File contains invalid characters</source>
-          <target state="new">File contains invalid characters</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteka sadrži nevažeće znakove</target>
         </trans-unit>
         <trans-unit id="MSG_FolderNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains invalid characters</source>
-          <target state="new">Folder name contains invalid characters</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime fascikle sadrži nevažeće znakove</target>
         </trans-unit>
         <trans-unit id="MSG_NotImage" translate="yes" xml:space="preserve">
           <source>Not image</source>
-          <target state="new">Not image</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ne slika</target>
         </trans-unit>
         <trans-unit id="MSG_Processing" translate="yes" xml:space="preserve">
           <source>Processing...</source>
-          <target state="new">Processing...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrada...</target>
         </trans-unit>
         <trans-unit id="MSG_RunningScript" translate="yes" xml:space="preserve">
           <source>Running script...</source>
-          <target state="new">Running script...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokretanje skripte...</target>
         </trans-unit>
         <trans-unit id="MSG_RunScript" translate="yes" xml:space="preserve">
           <source>Run script</source>
-          <target state="new">Run script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokreni skriptu</target>
         </trans-unit>
         <trans-unit id="OperationConvert" translate="yes" xml:space="preserve">
           <source>Convert to</source>
-          <target state="new">Convert to</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Konvertuj u</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation Convert to JPG</note>
         </trans-unit>
         <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="new">Rename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preimenujete</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation rename</note>
         </trans-unit>
         <trans-unit id="OperationRunScript" translate="yes" xml:space="preserve">
           <source>Run script</source>
-          <target state="new">Run script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pokreni skriptu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation Run script operation</note>
         </trans-unit>
         <trans-unit id="RegExEndOfString" translate="yes" xml:space="preserve">
           <source>End of string</source>
-          <target state="new">End of string</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kraj niske</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExMatchNumbers" translate="yes" xml:space="preserve">
           <source>Match numbers</source>
-          <target state="new">Match numbers</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudaranje brojeva</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExMatchWord" translate="yes" xml:space="preserve">
           <source>Match word</source>
-          <target state="new">Match word</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podudaranje reči</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExReplacePattern" translate="yes" xml:space="preserve">
           <source>Replace pattern</source>
-          <target state="new">Replace pattern</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zameni šaru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip (NOT USED)</note>
         </trans-unit>
         <trans-unit id="RegExStartOfString" translate="yes" xml:space="preserve">
           <source>Start of string</source>
-          <target state="new">Start of string</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Početak niske</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="ResizeModeFitWithin" translate="yes" xml:space="preserve">
           <source>Fit within</source>
-          <target state="new">Fit within</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uklopi u</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeFixedHeight" translate="yes" xml:space="preserve">
           <source>Fixed height</source>
-          <target state="new">Fixed height</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fiksna visina</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeFixedWidth" translate="yes" xml:space="preserve">
           <source>Fixed width</source>
-          <target state="new">Fixed width</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fiksna širina</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeMinimumSize" translate="yes" xml:space="preserve">
           <source>Minimum size</source>
-          <target state="new">Minimum size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minimalna veličina</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="Result_Done" translate="yes" xml:space="preserve">
           <source>Done</source>
-          <target state="new">Done</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uradio</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation that is finished</note>
         </trans-unit>
         <trans-unit id="Result_OperationError" translate="yes" xml:space="preserve">
           <source>Error performing operation</source>
-          <target state="new">Error performing operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Greška pri izvršavanju operacije</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation</note>
         </trans-unit>
         <trans-unit id="Result_TaskCancelled" translate="yes" xml:space="preserve">
           <source>Task cancelled</source>
-          <target state="new">Task cancelled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zadatak je otkazan</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation</note>
         </trans-unit>
         <trans-unit id="SourceFile" translate="yes" xml:space="preserve">
           <source>Full path to file</source>
-          <target state="new">Full path to file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Puna putanja do datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="TT_Example" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Example: File Name</note>
         </trans-unit>
         <trans-unit id="TT_ExampleOutput" translate="yes" xml:space="preserve">
           <source>Out</source>
-          <target state="new">Out</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Napolje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Out: File Name</note>
         </trans-unit>
         <trans-unit id="TT_OriginalFilename" translate="yes" xml:space="preserve">
           <source>Original filename</source>
-          <target state="new">Original filename</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Originalno ime datoteke</target>
         </trans-unit>
         <trans-unit id="TT_PreviousRuleOutput" translate="yes" xml:space="preserve">
           <source>Output from previous rule</source>
-          <target state="new">Output from previous rule</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izlaz iz prethodnog pravila</target>
         </trans-unit>
         <trans-unit id="TT_SequentialNumber" translate="yes" xml:space="preserve">
           <source>Seqential number</source>
-          <target state="new">Seqential number</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sektijalni broj</target>
         </trans-unit>
         <trans-unit id="ColumnIsNameValid_TT" translate="yes" xml:space="preserve">
           <source>Name validity</source>
-          <target state="new">Name validity</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Validnost imena</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="Watermark_DragFilesHereOrPaste" translate="yes" xml:space="preserve">
           <source>Drag files here or paste with Ctrl+V</source>
-          <target state="new">Drag files here or paste with Ctrl+V</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prevucite datoteke ovde ili nalepite pomoću kombinacije tastera Ctrl+V</target>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opis</target>
         </trans-unit>
         <trans-unit id="Presets" translate="yes" xml:space="preserve">
           <source>Presets</source>
-          <target state="new">Presets</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predsetovi</target>
         </trans-unit>
         <trans-unit id="SourceDir" translate="yes" xml:space="preserve">
           <source>Source folder of the file</source>
-          <target state="new">Source folder of the file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izvorna fascikla datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="CaseExtension" translate="yes" xml:space="preserve">
           <source>Extension letter case</source>
-          <target state="new">Extension letter case</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predmet pisma proširenja</target>
         </trans-unit>
         <trans-unit id="CaseFileName" translate="yes" xml:space="preserve">
           <source>File name letter case</source>
-          <target state="new">File name letter case</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predmet pisma imena datoteke</target>
         </trans-unit>
         <trans-unit id="Unchanged" translate="yes" xml:space="preserve">
           <source>Unchanged</source>
-          <target state="new">Unchanged</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nepromenjena</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in dropdown</note>
         </trans-unit>
         <trans-unit id="Lowercase" translate="yes" xml:space="preserve">
           <source>lowercase</source>
-          <target state="new">lowercase</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Malih</target>
         </trans-unit>
         <trans-unit id="Uppercase" translate="yes" xml:space="preserve">
           <source>UPPERCASE</source>
-          <target state="new">UPPERCASE</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VELIKA SLOVA</target>
         </trans-unit>
         <trans-unit id="MSG_SameName" translate="yes" xml:space="preserve">
           <source>Same name</source>
-          <target state="new">Same name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Isto ime</target>
         </trans-unit>
         <trans-unit id="RuleReplace" translate="yes" xml:space="preserve">
           <source>Replace</source>
-          <target state="new">Replace</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zameni</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="IgnoreCase" translate="yes" xml:space="preserve">
           <source>Ignore case</source>
-          <target state="new">Ignore case</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zanemari slučaj</target>
         </trans-unit>
         <trans-unit id="RegExWordToReplace" translate="yes" xml:space="preserve">
           <source>Word to replace or RegEx pattern</source>
-          <target state="new">Word to replace or RegEx pattern</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Word će zameniti ili RegEx obrazac</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="ForcedExtension" translate="yes" xml:space="preserve">
           <source>Forced new file extension</source>
-          <target state="new">Forced new file extension</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prinudna nova oznaka tipa datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ForcedExtension_TT" translate="yes" xml:space="preserve">
           <source>Leave blank to keep the original extension</source>
-          <target state="new">Leave blank to keep the original extension</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ostavite prazno da biste zadržali originalnu ekstenziju</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="new">Parent folder name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime nadređene fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
       </group>
@@ -3559,112 +3579,112 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFVD.RESX" datatype="resx">
         <trans-unit id="CustomHeight" translate="yes" xml:space="preserve">
           <source>Custom height</source>
-          <target state="new">Custom height</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prilagođena visina</target>
         </trans-unit>
         <trans-unit id="Element" translate="yes" xml:space="preserve">
           <source>Element</source>
-          <target state="new">Element</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Element</target>
         </trans-unit>
         <trans-unit id="FitText" translate="yes" xml:space="preserve">
           <source>Fit text</source>
-          <target state="new">Fit text</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uklapanje teksta</target>
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
-          <target state="new">Height</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visina</target>
         </trans-unit>
         <trans-unit id="ItemHeight" translate="yes" xml:space="preserve">
           <source>Item height</source>
-          <target state="new">Item height</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visina artikla</target>
         </trans-unit>
         <trans-unit id="On" translate="yes" xml:space="preserve">
           <source>On</source>
-          <target state="new">On</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Na</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in state On/Off</note>
         </trans-unit>
         <trans-unit id="ResizeToVerifyRemovalOrder" translate="yes" xml:space="preserve">
           <source>Resize to verify Removal Order</source>
-          <target state="new">Resize to verify Removal Order</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Resize da biste proverili nalog za uklanjanje</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
-          <target state="new">Some elements are hidden due to available size (according to Removal Order)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neki elementi su skriveni zbog raspoložive veličine (u skladu sa nalogom za uklanjanje)</target>
         </trans-unit>
         <trans-unit id="UpdatePreview" translate="yes" xml:space="preserve">
           <source>Update preview</source>
-          <target state="new">Update preview</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ažuriranje pregleda</target>
         </trans-unit>
         <trans-unit id="Width" translate="yes" xml:space="preserve">
           <source>Width</source>
-          <target state="new">Width</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Širina</target>
         </trans-unit>
         <trans-unit id="XOffset" translate="yes" xml:space="preserve">
           <source>X offset</source>
-          <target state="new">X offset</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">X pomak</target>
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="new">Y offset</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Y pomak</target>
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
-          <target state="new">If you are using Thumbnail, make it the same height</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ako koristite sličicu, neka bude iste visine</target>
         </trans-unit>
         <trans-unit id="ElementAlign" translate="yes" xml:space="preserve">
           <source>Element align</source>
-          <target state="new">Element align</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poravnavanje elemenata</target>
         </trans-unit>
         <trans-unit id="FVDWindowTitle" translate="yes" xml:space="preserve">
           <source>File view designer</source>
-          <target state="new">File view designer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dizajner prikaza datoteke</target>
         </trans-unit>
         <trans-unit id="Icon" translate="yes" xml:space="preserve">
           <source>Icon</source>
-          <target state="new">Icon</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ikonu</target>
         </trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
-          <target state="new">Min.Width</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Min.širina</target>
         </trans-unit>
         <trans-unit id="Padding" translate="yes" xml:space="preserve">
           <source>Padding</source>
-          <target state="new">Padding</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tapaciranje</target>
         </trans-unit>
         <trans-unit id="RemovalOrder" translate="yes" xml:space="preserve">
           <source>Removal order</source>
-          <target state="new">Removal order</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nalog za uklanjanje</target>
         </trans-unit>
         <trans-unit id="TextAlign" translate="yes" xml:space="preserve">
           <source>Text align</source>
-          <target state="new">Text align</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poravnavanje teksta</target>
         </trans-unit>
         <trans-unit id="Thumbnail" translate="yes" xml:space="preserve">
           <source>Thumbnail</source>
-          <target state="new">Thumbnail</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sličicu</target>
         </trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
-          <target state="new">Edited view:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uređeni prikaz:</target>
         </trans-unit>
         <trans-unit id="ApplyToCurrent" translate="yes" xml:space="preserve">
           <source>Apply to current folder-pane and close (without saving)</source>
-          <target state="new">Apply to current folder-pane and close (without saving)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Primeni na trenutno okno fascikle i zatvori (bez čuvanja)</target>
         </trans-unit>
         <trans-unit id="Load" translate="yes" xml:space="preserve">
           <source>Load</source>
-          <target state="new">Load</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Učita</target>
         </trans-unit>
         <trans-unit id="Save" translate="yes" xml:space="preserve">
           <source>Save</source>
-          <target state="new">Save</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačuvaj</target>
         </trans-unit>
         <trans-unit id="SaveAs" translate="yes" xml:space="preserve">
           <source>Save as</source>
-          <target state="new">Save as</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačuvaj kao</target>
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="new">Save as a custom View name to prevent restoring default views when program updates</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sačuvaj kao prilagođeno ime prikaza da bi se sprečilo vraćanje podrazumevanih prikaza prilikom ažuriranja programa</target>
         </trans-unit>
       </group>
     </body>

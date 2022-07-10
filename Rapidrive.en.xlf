@@ -1091,12 +1091,14 @@ Some programs won't be able to open/save files from this folder</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">This path format is not supported</target>
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use ˄ ˅ buttons on this divider to show/hide browser panes</source>
+          <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Use ˄ ˅ buttons on this divider to show/hide browser panes</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
-          <source>Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</source>
+          <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Use <it id="1" pos="open">&lt; &gt;</it> buttons on this divider to show/hide browser panes</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Newest first)</source>
@@ -2852,6 +2854,24 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <source>If there isn't enough space, left-most columns will contract up to this width:</source>
           <target state="new">If there isn't enough space, left-most columns will contract up to this width:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
+          <source>File name trimming</source>
+          <target state="new">File name trimming</target>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
+          <source>End</source>
+          <target state="new">End</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
+          <source>Middle</source>
+          <target state="new">Middle</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
+          <source>Determines where the file name will be trimmed when it cannot fit available space</source>
+          <target state="new">Determines where the file name will be trimmed when it cannot fit available space</target>
         </trans-unit>
       </group>
     </body>
