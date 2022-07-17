@@ -898,11 +898,13 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <source>Left</source>
           <target state="translated">Links
 </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Left</note>
         </trans-unit>
         <trans-unit id="AlignRight" translate="yes" xml:space="preserve">
           <source>Right</source>
           <target state="translated">Rechts
 </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
@@ -1332,6 +1334,47 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
           <source>Determines where the file name will be trimmed when it cannot fit available space</source>
           <target state="new">Determines where the file name will be trimmed when it cannot fit available space</target>
+        </trans-unit>
+        <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
+          <source>Clears Windows global thumbnail cache (for Explorer also)</source>
+          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+        </trans-unit>
+        <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
+          <source>File name maximum lines</source>
+          <target state="new">File name maximum lines</target>
+        </trans-unit>
+        <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
+          <source>For Grid view</source>
+          <target state="new">For Grid view</target>
+        </trans-unit>
+        <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
+          <source>Open Office files through Explorer</source>
+          <target state="new">Open Office files through Explorer</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
+          <source>Show Scripts button</source>
+          <target state="new">Show Scripts button</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
+          <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
+          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
+          <source>Know the scripts you are running! Security risk!</source>
+          <target state="new">Know the scripts you are running! Security risk!</target>
+        </trans-unit>
+        <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
+          <source>Use external One Commander updater program instead of PowerShell script</source>
+          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+        </trans-unit>
+        <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
+          <source>Enable Explorer Preview (Shell File Preview)</source>
+          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+        </trans-unit>
+        <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
+          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
+          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
         </trans-unit>
       </group>
     </body>
@@ -3545,6 +3588,10 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
           <source>Parent folder name</source>
           <target state="translated">Übergeordneter Ordnername</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
+        </trans-unit>
+        <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Operation</target>
         </trans-unit>
       </group>
     </body>

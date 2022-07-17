@@ -395,7 +395,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ChangeColorProfile" translate="yes" xml:space="preserve">
           <source>Change Color Profile to</source>
-          <target state="translated">Correo electrónico</target>
+          <target state="translated">Cambiar perfil de color a</target>
         </trans-unit>
         <trans-unit id="ChangeDPI" translate="yes" xml:space="preserve">
           <source>Change DPI to</source>
@@ -548,7 +548,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="MSG_FileNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>File contains invalid characters</source>
-          <target state="translated">La primera versión de este programa ha sido financiada gracias a estos 406 patrocinadores de Kickstarter (nombres que se muestran en el perfil de Kickstarter):</target>
+          <target state="translated">El archivo contiene caracteres no válidos</target>
         </trans-unit>
         <trans-unit id="MSG_FolderNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains invalid characters</source>
@@ -615,12 +615,12 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="RegExMatchNumbers" translate="yes" xml:space="preserve">
           <source>Match numbers</source>
-          <target state="translated" state-qualifier="mt-suggestion">Números de coincidencia</target>
+          <target state="translated" state-qualifier="mt-suggestion">Coincidencia de números</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExMatchWord" translate="yes" xml:space="preserve">
           <source>Match word</source>
-          <target state="translated" state-qualifier="mt-suggestion">Palabra de coincidencia</target>
+          <target state="translated" state-qualifier="mt-suggestion">Coincidencia de palabra</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExReplacePattern" translate="yes" xml:space="preserve">
@@ -794,6 +794,10 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <source>Drag files here or paste with Ctrl+V</source>
           <target state="translated" state-qualifier="mt-suggestion">Arrastre archivos aquí o pegue con Ctrl+V</target>
         </trans-unit>
+        <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Operation</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -830,10 +834,12 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         <trans-unit id="AlignLeft" translate="yes" xml:space="preserve">
           <source>Left</source>
           <target state="translated" state-qualifier="mt-suggestion">Izquierda</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Left</note>
         </trans-unit>
         <trans-unit id="AlignRight" translate="yes" xml:space="preserve">
           <source>Right</source>
           <target state="translated" state-qualifier="mt-suggestion">Derecha</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
@@ -1306,7 +1312,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="HeaderUIProperties" translate="yes" xml:space="preserve">
           <source>UI properties</source>
-          <target state="translated" state-qualifier="mt-suggestion">Propiedades de la interfaz de usuario</target>
+          <target state="translated" state-qualifier="mt-suggestion">Propiedades Interfaz de Usuario</target>
         </trans-unit>
         <trans-unit id="HeaderVisibility" translate="yes" xml:space="preserve">
           <source>Visibility</source>
@@ -1333,7 +1339,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="HotkeyVizor" translate="yes" xml:space="preserve">
           <source>Use global hotkey Ctrl+` to show docked program window</source>
-          <target state="translated">Utilizar la tecla de acceso rápido global Ctrl+` para mostrar la ventana del programa acoplado</target>
+          <target state="translated">Usar la tecla de acceso rápido global Ctrl+` para mostrar la ventana del programa acoplado</target>
         </trans-unit>
         <trans-unit id="HotkeyVizorInfo" translate="yes" xml:space="preserve">
           <source>Disable this if you use VS Code (uses the same shortcut)</source>
@@ -1384,7 +1390,7 @@ Se requiere reiniciar el programa</target>
         <trans-unit id="KeepRunningInBackgroundInfo" translate="yes" xml:space="preserve">
           <source>If On, program will stay in System Tray for faster next start.
 This should be enabled if program is set as a default file manager</source>
-          <target state="translated" state-qualifier="mt-suggestion">Si está activado, el programa permanecerá en la bandeja del sistema para un inicio más rápido.
+          <target state="translated" state-qualifier="mt-suggestion">Si está Activado, el programa permanecerá en la bandeja del sistema para un inicio más rápido.
 Esto debería habilitarse si el programa está configurado como un administrador de archivos predeterminado</target>
         </trans-unit>
         <trans-unit id="Language" translate="yes" xml:space="preserve">
@@ -1533,11 +1539,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mapas de Bing</target>
+          <target state="translated" state-qualifier="mt-suggestion">Bing Maps</target>
         </trans-unit>
         <trans-unit id="PhotoLocationOptGoogle" translate="yes" xml:space="preserve">
           <source>Google Maps</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mapas de Google</target>
+          <target state="translated" state-qualifier="mt-suggestion">Google Maps</target>
         </trans-unit>
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
@@ -1784,7 +1790,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePointsInfo" translate="yes" xml:space="preserve">
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
-          <target state="translated" state-qualifier="mt-suggestion">Use esto solo si sabe que tiene puntos de repetición cíclicos que resultarían en una búsqueda interminable. Verificar esto interrumpirá la búsqueda de unidades en la nube, ya que dependen de puntos de repetición</target>
+          <target state="translated" state-qualifier="mt-suggestion">Usar esto solo si sabe que tiene puntos de repetición cíclicos que resultarían en una búsqueda interminable. Verificar esto interrumpirá la búsqueda de unidades en la nube, ya que dependen de puntos de repetición</target>
         </trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
@@ -1830,7 +1836,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
           <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Si está activado: incluso si ordena los archivos por fecha, las carpetas permanecerán ordenadas por nombre</target>
+          <target state="translated" state-qualifier="mt-suggestion">Si está ACTIVADO: incluso si ordena los archivos por fecha, las carpetas permanecerán ordenadas por nombre</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
@@ -1992,11 +1998,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
-          <target state="translated" state-qualifier="mt-suggestion">Registrar la tecla de acceso rápido Win+E</target>
+          <target state="translated" state-qualifier="mt-suggestion">Registrar tecla de acceso rápido Win+E</target>
         </trans-unit>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
-          <target state="translated" state-qualifier="mt-suggestion">Anular el registro de la tecla de acceso rápido</target>
+          <target state="translated" state-qualifier="mt-suggestion">Anular el registro de tecla de acceso rápido</target>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
           <source>This works only on a few versions of Windows 10</source>
@@ -2008,7 +2014,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
           <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="translated">Llevar One Commander al escritorio virtual actual</target>
+          <target state="translated">Llevar One Commander al Escritorio Virtual actual</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -2097,21 +2103,62 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
           <source>File name trimming</source>
-          <target state="new">File name trimming</target>
+          <target state="translated">Recorte de nombre de archivo</target>
         </trans-unit>
         <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
           <source>End</source>
-          <target state="new">End</target>
+          <target state="translated">Final</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in position - at the end</note>
         </trans-unit>
         <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
           <source>Determines where the file name will be trimmed when it cannot fit available space</source>
-          <target state="new">Determines where the file name will be trimmed when it cannot fit available space</target>
+          <target state="translated">Determina dónde se recortará el nombre del archivo cuando no quepa en el espacio disponible</target>
         </trans-unit>
         <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
           <source>Middle</source>
-          <target state="new">Middle</target>
+          <target state="translated">Medio</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
+        </trans-unit>
+        <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
+          <source>Clears Windows global thumbnail cache (for Explorer also)</source>
+          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+        </trans-unit>
+        <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
+          <source>File name maximum lines</source>
+          <target state="new">File name maximum lines</target>
+        </trans-unit>
+        <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
+          <source>For Grid view</source>
+          <target state="new">For Grid view</target>
+        </trans-unit>
+        <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
+          <source>Open Office files through Explorer</source>
+          <target state="new">Open Office files through Explorer</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
+          <source>Show Scripts button</source>
+          <target state="new">Show Scripts button</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
+          <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
+          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+        </trans-unit>
+        <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
+          <source>Know the scripts you are running! Security risk!</source>
+          <target state="new">Know the scripts you are running! Security risk!</target>
+        </trans-unit>
+        <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
+          <source>Use external One Commander updater program instead of PowerShell script</source>
+          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+        </trans-unit>
+        <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
+          <source>Enable Explorer Preview (Shell File Preview)</source>
+          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+        </trans-unit>
+        <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
+          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
+          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
         </trans-unit>
       </group>
     </body>
@@ -2172,7 +2219,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Archive_Extracting" translate="yes" xml:space="preserve">
           <source>Extracting {0}</source>
-          <target state="translated" state-qualifier="mt-suggestion">Extracción de {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Extrayendo {0}</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. Replace all?</source>
@@ -2259,7 +2306,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="CursorMoveExtra" translate="yes" xml:space="preserve">
           <source>hold CTRL to Copy</source>
-          <target state="translated">mantenga presionada la tecla CTRL para copiar</target>
+          <target state="translated">mantenga presionada CTRL para copiar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text showing as part afer Move: Move | hold CTRL to Copy</note>
         </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
@@ -2272,7 +2319,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DetailsAccessed" translate="yes" xml:space="preserve">
           <source>Accessed</source>
-          <target state="translated" state-qualifier="mt-suggestion">Acceder</target>
+          <target state="translated" state-qualifier="mt-suggestion">Accedido</target>
         </trans-unit>
         <trans-unit id="DetailsAge" translate="yes" xml:space="preserve">
           <source>Age</source>
@@ -2316,12 +2363,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilice los botones ˄ ˅ de este divisor para mostrar/ocultar los paneles del navegador</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Usar los botones ︿ ﹀ en este divisor para mostrar/ocultar los paneles del navegador</target>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="translated">Use el botón <it id="1" pos="open">&lt; &gt;</it> en este divisor para mostrar/ocultar los paneles del navegador</target>
+          <target state="translated">Usar los botones ❮ ❯ en este divisor para mostrar/ocultar los paneles del navegador</target>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2345,7 +2391,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">Los programas portátiles necesitan un acceso de escritura en sus propias carpetas para que no puedan estar en la carpeta "Archivos de programa". Mueva toda la carpeta a una <bpt id="1">&lt;b&gt;</bpt>carpeta que no es del sistema<ept id="1">&lt;/b&gt;</ept> y ejecútela de nuevo</target>
+          <target state="translated">Los programas portátiles necesitan un acceso de escritura en sus propias carpetas para que no puedan estar en la carpeta "Program Files". Mueva toda la carpeta a una <bpt id="1">&lt;b&gt;</bpt>carpeta que no es del sistema<ept id="1">&lt;/b&gt;</ept> y ejecútela de nuevo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2569,7 +2615,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_CopyToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Copy to the opposite browser pane</source>
-          <target state="translated" state-qualifier="mt-suggestion">Copiar en el panel opuesto del explorador</target>
+          <target state="translated" state-qualifier="mt-suggestion">Copiar en el panel opuesto del Explorador</target>
         </trans-unit>
         <trans-unit id="Menu_CreateFileTemplate" translate="yes" xml:space="preserve">
           <source>Create file template</source>
@@ -2581,11 +2627,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveDown" translate="yes" xml:space="preserve">
           <source>Move down</source>
-          <target state="translated" state-qualifier="mt-suggestion">Desplazar hacia abajo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Mover hacia abajo</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveUp" translate="yes" xml:space="preserve">
           <source>Move up</source>
-          <target state="translated" state-qualifier="mt-suggestion">Desplazar hacia arriba</target>
+          <target state="translated" state-qualifier="mt-suggestion">Mover hacia arriba</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Rename" translate="yes" xml:space="preserve">
           <source>Rename Group</source>
@@ -2602,7 +2648,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_MoveToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Move to the opposite browser pane</source>
-          <target state="translated" state-qualifier="mt-suggestion">Desplazarse al panel opuesto del explorador</target>
+          <target state="translated" state-qualifier="mt-suggestion">Desplazarse al panel opuesto del Explorador</target>
         </trans-unit>
         <trans-unit id="Menu_New" translate="yes" xml:space="preserve">
           <source>New...</source>
@@ -2627,7 +2673,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_OpenCommandShell" translate="yes" xml:space="preserve">
           <source>Open in command shell</source>
-          <target state="translated">Abrir en el shell de comandos</target>
+          <target state="translated">Abrir en shell de comandos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Opens submenu with CMD, Powershell, Terminal</note>
         </trans-unit>
         <trans-unit id="Menu_OpenIn" translate="yes" xml:space="preserve">
@@ -2640,7 +2686,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTabOtherBrowser" translate="yes" xml:space="preserve">
           <source>New tab in other browser pane</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nueva pestaña en otro panel del explorador</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nueva pestaña en otro panel del Explorador</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window (soon)</source>
@@ -2868,7 +2914,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
-          <target state="translated">No se ha podido marcar/desmarcar la nota {0}</target>
+          <target state="translated">No se ha podido Marcar/Desmarcar la nota {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_OpeningMixedTypeItems" translate="yes" xml:space="preserve">
           <source>Can't open multiple items if one or more folders are selected</source>
@@ -2918,7 +2964,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
-          <target state="translated" state-qualifier="mt-suggestion">Error al obtener elementos de la papelera de reciclaje. Haga clic con el botón derecho en la papelera de reciclaje en la barra lateral y haga clic en Abrir</target>
+          <target state="translated" state-qualifier="mt-suggestion">Error al obtener elementos de la Papelera de reciclaje. Haga clic con el botón derecho en la Papelera de reciclaje en la barra lateral y haga clic en Abrir</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
@@ -2967,7 +3013,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_CannotFitBothBrowsers" translate="yes" xml:space="preserve">
           <source>Can't fit both browsers at this window size. Switching to single browser view</source>
-          <target state="translated" state-qualifier="mt-suggestion">No se pueden ajustar a ambos navegadores en este tamaño de ventana. Cambio a una vista de explorador único</target>
+          <target state="translated" state-qualifier="mt-suggestion">No se pueden ajustar a ambos navegadores en este tamaño de ventana. Cambio a una vista de Explorador único</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardCopy" translate="yes" xml:space="preserve">
           <source>Selection copied to Windows Clipboard</source>
@@ -3108,7 +3154,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForPortableVersion" translate="yes" xml:space="preserve">
           <source>New version is available. Press UPDATE button in the top-right corner</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nueva versión está disponible. Presione el botón ACTUALIZAR en la esquina superior derecha</target>
+          <target state="translated" state-qualifier="mt-suggestion">La nueva versión está disponible. Presione el botón ACTUALIZAR en la esquina superior derecha</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
           <source>Update available. You can update through Microsoft Store</source>
@@ -3533,7 +3579,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">SUGERENCIA: Usar Ctrl+Rueda del ratón para cambiar el tamaño de la miniatura/elementos por columna</target>
+          <target state="translated">CONSEJO: Usar Ctrl+Rueda del ratón para cambiar el tamaño de la miniatura/elementos por columna</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -3541,7 +3587,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="TIP_WindowSelect" translate="yes" xml:space="preserve">
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
-          <target state="translated">SUGERENCIA: Puede dibujar la ventana de selección manteniendo presionado el botón central del ratón sin necesidad de usar espacio vacío</target>
+          <target state="translated">CONSEJO: Puede dibujar la ventana de selección manteniendo presionado el botón central del ratón sin necesidad de usar espacio vacío</target>
         </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
@@ -3575,7 +3621,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="translated">Obtener elementos de la papelera de reciclaje...</target>
+          <target state="translated">Obtener elementos de la Papelera de reciclaje...</target>
         </trans-unit>
         <trans-unit id="Watermark_InvalidFolderCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains characters unsupported by Windows</source>
@@ -3587,7 +3633,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccessTryElevating" translate="yes" xml:space="preserve">
           <source>No access. Try restarting as Admin (Ctrl+Shift+F12)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Sin acceso. Intente reiniciar como administrador (Ctrl+Mayús+F12)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Sin acceso. Intente reiniciar como Administrador (Ctrl+Mayús+F12)</target>
         </trans-unit>
         <trans-unit id="Watermark_NoFilesFound" translate="yes" xml:space="preserve">
           <source>No matching items found</source>
@@ -3604,7 +3650,7 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="Watermark_SearchingShares" translate="yes" xml:space="preserve">
           <source>Searching shares...</source>
-          <target state="translated" state-qualifier="mt-suggestion">Buscando acciones...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Búsqueda de recursos compartidos...</target>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>

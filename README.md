@@ -3,11 +3,11 @@ These are localization files for One Commander file manager.
 
 If your 2-letter language code is not available please contact support@[program name].com and a machine-translated base-file will be provided for an easier start.
 
-Please don't use code editor for editing these - use a free Microsoft's Multilingual app toolkit 4.0 Editor (MAT)
+Use a free Microsoft's Multilingual app toolkit 4.0 Editor (MAT): 
 
 https://developer.microsoft.com/en-us/windows/downloads/multilingual-app-toolkit/
 
-to open these xlf files so I can re-import them correctly.
+to open these xlf files so I can re-import them correctly. Please don't use code editor
 
 ## Downloading
 Method 1: Click green Code button > Download Zip; extract everything
@@ -26,6 +26,6 @@ Don't press Enter key in the translated text box as that will result in blank li
 
 Save often to avoid losing progress if there is a bug in MAT.
 
-The only way to see the results of translation is for these to be compiled into dll resources. Either submit pull request or send the translated xlf file to support@[program name].com
+The only way to see the results of translation is to compile xlf into dll by the developer. Submit either a pull request or send the translated xlf file to support@[program name].com
 
-Some languages are already maintained by contributors listed in the About dialog and are updated at their schedule. Please contact support or file an issue here before working on a translation because someone might be already working that particualar language and this would avoid doing a duplicate work. 
+Some languages are already maintained by contributors listed in the About dialog and are updated at their schedule. Please contact support or file an issue here before working on a translation because someone might be already working on that particualar language and this would avoid doing a duplicate work. 
