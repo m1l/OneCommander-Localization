@@ -800,6 +800,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Operation</source>
           <target state="new">Operation</target>
         </trans-unit>
+        <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
+          <source>Invalid RegEx syntax</source>
+          <target state="new">Invalid RegEx syntax</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1312,8 +1316,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">마지막에</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
-          <source>New tab should be placed:</source>
-          <target state="translated">새 탭을 배치할 위치:</target>
+          <source>Middle-click on a folder opens a new tab:</source>
+          <target state="needs-review-translation">새 탭을 배치할 위치:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -2170,6 +2175,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
           <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
+          <source>Show a dialog to confirm running script</source>
+          <target state="new">Show a dialog to confirm running script</target>
+        </trans-unit>
+        <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
+          <source>File name position in Grid view</source>
+          <target state="new">File name position in Grid view</target>
         </trans-unit>
       </group>
     </body>
@@ -3081,8 +3094,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">새 버전을 사용할 수 있습니다. 오른쪽 상단 모서리에 있는 업데이트 버튼을 누릅니다.</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
-          <source>Update available. You can update through Microsoft Store</source>
-          <target state="translated" state-qualifier="mt-suggestion">업데이트를 사용할 수 있습니다. Microsoft 스토어를 통해 업데이트할 수 있습니다.</target>
+          <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">업데이트를 사용할 수 있습니다. Microsoft 스토어를 통해 업데이트할 수 있습니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
@@ -3704,6 +3719,16 @@ Some programs won't be able to open/save files from this folder</source>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">디스크가 꽉 찼으므로 설정을 저장할 수 없습니다. 최소 몇 KB의 공간 또는 빈 휴지통을 지웁니다. &lt;br/&gt;설정 저장을 다시 시도하시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
+          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
+        </trans-unit>
+        <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
+          <source>Scripts</source>
+          <target state="new">Scripts</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
       </group>
     </body>

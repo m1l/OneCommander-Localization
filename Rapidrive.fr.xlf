@@ -735,8 +735,9 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">À la fin</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
-          <source>New tab should be placed:</source>
+          <source>Middle-click on a folder opens a new tab:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Un nouvel onglet doit être placé :</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1615,6 +1616,14 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
           <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
+          <source>Show a dialog to confirm running script</source>
+          <target state="new">Show a dialog to confirm running script</target>
+        </trans-unit>
+        <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
+          <source>File name position in Grid view</source>
+          <target state="new">File name position in Grid view</target>
         </trans-unit>
       </group>
     </body>
@@ -2498,8 +2507,10 @@ Cela doit être activé si le programme est défini comme gestionnaire de fichie
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Une nouvelle version est disponible. Appuyez sur le bouton UPDATE dans le coin supérieur droit</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
-          <source>Update available. You can update through Microsoft Store</source>
+          <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mise à jour disponible. Vous pouvez effectuer une mise à jour via le Microsoft Store</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
@@ -3154,6 +3165,16 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Le disque est plein, donc les paramètres ne peuvent pas être enregistrés. Videz au moins quelques Ko d’espace ou videz la Corbeille. &lt;br/&gt;Essayer d’enregistrer les paramètres ?</target>
         </trans-unit>
+        <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
+          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
+        </trans-unit>
+        <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
+          <source>Scripts</source>
+          <target state="new">Scripts</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3591,6 +3612,10 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
           <target state="new">Operation</target>
+        </trans-unit>
+        <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
+          <source>Invalid RegEx syntax</source>
+          <target state="new">Invalid RegEx syntax</target>
         </trans-unit>
       </group>
     </body>

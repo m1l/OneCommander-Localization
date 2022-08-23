@@ -217,7 +217,7 @@
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="final">Ważne: Jest to <bpt id="1">&lt;b&gt;</bpt>funkcja eksperymentalna<ept id="1">&lt;/b&gt;</ept>, która ingeruje w rejestr systemowy, aby One Commander był domyślnym menedżerem plików i programem obsługi folderów (za wyjątkiem okien dialogowych Otwórz/Zapisz). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Spowoduje ona, że przestaniesz używać Eksploratora plików Windows<ept id="2">&lt;/b&gt;</ept> - nawet po kliknięciu folderu w Eksploratorze plików otworzy się One Commander. &lt;br/&gt;Będziesz trzeba <bpt id="3">&lt;b&gt;</bpt>wyrejestrować One Commander'a<ept id="3">&lt;/b&gt;</ept>, jeśli zostanie on przeniesiony lub odinstalowany (odinstalowanie nie odwróci tych zmian)!&lt;br/&gt;Umożliwi to również działanie w tle w celu szybszego otwierania okien.&lt;br/&gt;Czy jesteś absolutnie pewien, że chcesz kontynuować i wiesz, jak przywrócić rejestr samodzielnie, jeśli coś się nie powiedzie (brak wsparcia w przypadku potrzeby przywrócenia rejestru)?</target>
+          <target state="final">Ważne: Jest to <bpt id="1">&lt;b&gt;</bpt>funkcja eksperymentalna<ept id="1">&lt;/b&gt;</ept>, która ingeruje w rejestr systemowy, aby One Commander był domyślnym menedżerem plików i programem obsługi folderów (za wyjątkiem okien dialogowych Otwórz/Zapisz). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Spowoduje ona, że przestaniesz używać Eksploratora plików Windows<ept id="2">&lt;/b&gt;</ept> – nawet po kliknięciu folderu w Eksploratorze plików otworzy się One Commander. &lt;br/&gt;Będzie trzeba <bpt id="3">&lt;b&gt;</bpt>wyrejestrować One Commander’a<ept id="3">&lt;/b&gt;</ept>, jeśli zostanie on przeniesiony lub odinstalowany (odinstalowanie nie odwróci tych zmian)!&lt;br/&gt;Umożliwi to również działanie w tle w celu szybszego otwierania okien.&lt;br/&gt;Czy jesteś absolutnie pewien, że chcesz kontynuować i wiesz, jak przywrócić rejestr samodzielnie, jeśli coś się nie powiedzie (brak wsparcia w przypadku potrzeby przywrócenia rejestru)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -481,8 +481,9 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
           <target state="final">Na końcu</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
-          <source>New tab should be placed:</source>
-          <target state="final">Nowa zakładka zostanie umieszczona:</target>
+          <source>Middle-click on a folder opens a new tab:</source>
+          <target state="needs-review-translation">Nowa zakładka zostanie umieszczona:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1323,7 +1324,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
           <source>Determines where the file name will be trimmed when it cannot fit available space</source>
-          <target state="final">Określa miejsce przycięcia nazwy pliku, gdy nie mieści się ona w dostępnym miejscu</target>
+          <target state="final">Określa miejsce przycięcia nazwy pliku, gdy nie mieści się ona w dostępnym polu</target>
         </trans-unit>
         <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
           <source>Middle</source>
@@ -1332,44 +1333,52 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+          <target state="final">Wyczyść globalną pamięć podręczną miniatur systemu Windows (również dla Eksploratora)</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="new">File name maximum lines</target>
+          <target state="final">Maksymalna liczba linii nazwy pliku</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view</source>
-          <target state="new">For Grid view</target>
+          <target state="final">Dla widoku siatki</target>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
-          <target state="new">Open Office files through Explorer</target>
+          <target state="final">Otwieranie plików Office za pomocą Eksploratora</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source>Show Scripts button</source>
-          <target state="new">Show Scripts button</target>
+          <target state="final">Pokaż przycisk skryptów</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
-          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <target state="final">Przykłady znajdują się w folderze \Resources\Scripts\. Użytkownicy PRO mogą mieć więcej niż 8 skryptów.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
-          <target state="new">Know the scripts you are running! Security risk!</target>
+          <target state="final">Czy znasz skrypty, które uruchamiasz? Ryzyko bezpieczeństwa!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+          <target state="final">Użyj zewnętrznego programu aktualizującego One Commander zamiast skryptu PowerShell</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
-          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+          <target state="final">Włącz Podgląd Eksploratora (Shell File Preview)</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+          <target state="final">Umożliwia podgląd plików pakietu Microsoft Office i niektórych innych formatów w oknie podglądu (otwieranym spacją), ale ze względu na lukę w zabezpieczeniach Podglądu Eksploratora dla plików Office jest to domyślnie wyłączone. Włączasz na własne ryzyko! Wymagany restart.</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
+          <source>Show a dialog to confirm running script</source>
+          <target state="new">Show a dialog to confirm running script</target>
+        </trans-unit>
+        <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
+          <source>File name position in Grid view</source>
+          <target state="new">File name position in Grid view</target>
         </trans-unit>
       </group>
     </body>
@@ -2249,8 +2258,10 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
           <target state="final">Dostępna jest nowa wersja. Naciśnij przycisk UPDATE w prawym górnym rogu</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
-          <source>Update available. You can update through Microsoft Store</source>
-          <target state="final">Dostępna jest aktualizacja. Aktualizację można przeprowadzić w sklepie Microsoft Store</target>
+          <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
+          <target state="needs-review-translation">Dostępna jest aktualizacja. Aktualizację można przeprowadzić w sklepie Microsoft Store</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
@@ -2915,6 +2926,16 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
           <target state="final">Dysk jest pełny, więc ustawienia nie mogą być zapisane. Zwolnij przynajmniej kilka KB miejsca lub opróżnij Kosz. &lt;br/&gt;Ponowić próbę zapisania ustawień?</target>
+        </trans-unit>
+        <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
+          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
+        </trans-unit>
+        <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
+          <source>Scripts</source>
+          <target state="new">Scripts</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
       </group>
     </body>
@@ -3599,7 +3620,11 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="final">Operacja</target>
+        </trans-unit>
+        <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
+          <source>Invalid RegEx syntax</source>
+          <target state="new">Invalid RegEx syntax</target>
         </trans-unit>
       </group>
     </body>

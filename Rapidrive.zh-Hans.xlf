@@ -481,8 +481,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">在标签组最后</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
-          <source>New tab should be placed:</source>
-          <target state="translated">新标签页应放置在：</target>
+          <source>Middle-click on a folder opens a new tab:</source>
+          <target state="needs-review-translation">新标签页应放置在：</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1370,6 +1371,14 @@ This should be enabled if program is set as a default file manager</source>
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
           <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
         </trans-unit>
+        <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
+          <source>Show a dialog to confirm running script</source>
+          <target state="new">Show a dialog to confirm running script</target>
+        </trans-unit>
+        <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
+          <source>File name position in Grid view</source>
+          <target state="new">File name position in Grid view</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2242,8 +2251,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">新版本可用。请按右上角的更新按钮</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
-          <source>Update available. You can update through Microsoft Store</source>
-          <target state="translated">更新可用。您可以通过微软商店进行更新</target>
+          <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
+          <target state="needs-review-translation">更新可用。您可以通过微软商店进行更新</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
@@ -2905,6 +2916,16 @@ Some programs won't be able to open/save files from this folder</source>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">磁盘已满，因此无法保存设置。清除至少几 KB 的空间或空的回收站。&lt;br/&gt;重试保存设置？</target>
+        </trans-unit>
+        <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
+          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
+        </trans-unit>
+        <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
+          <source>Scripts</source>
+          <target state="new">Scripts</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
       </group>
     </body>
@@ -3590,6 +3611,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
           <target state="new">Operation</target>
+        </trans-unit>
+        <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
+          <source>Invalid RegEx syntax</source>
+          <target state="new">Invalid RegEx syntax</target>
         </trans-unit>
       </group>
     </body>

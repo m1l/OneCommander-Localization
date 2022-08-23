@@ -141,7 +141,7 @@
         </trans-unit>
         <trans-unit id="CustomHeight" translate="yes" xml:space="preserve">
           <source>Custom height</source>
-          <target state="translated" state-qualifier="mt-suggestion">Altura personalizada</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alt. personalizada</target>
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
@@ -157,7 +157,7 @@
         </trans-unit>
         <trans-unit id="ElementAlign" translate="yes" xml:space="preserve">
           <source>Element align</source>
-          <target state="translated" state-qualifier="mt-suggestion">Alineación de elementos</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alineación elementos</target>
         </trans-unit>
         <trans-unit id="FitText" translate="yes" xml:space="preserve">
           <source>Fit text</source>
@@ -169,7 +169,7 @@
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
-          <target state="translated" state-qualifier="mt-suggestion">Altura</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alto</target>
         </trans-unit>
         <trans-unit id="Icon" translate="yes" xml:space="preserve">
           <source>Icon</source>
@@ -177,7 +177,7 @@
         </trans-unit>
         <trans-unit id="ItemHeight" translate="yes" xml:space="preserve">
           <source>Item height</source>
-          <target state="translated">Altura elemento</target>
+          <target state="translated">Alt. elemento</target>
         </trans-unit>
         <trans-unit id="Load" translate="yes" xml:space="preserve">
           <source>Load</source>
@@ -185,7 +185,7 @@
         </trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
-          <target state="translated" state-qualifier="mt-suggestion">Min.Ancho</target>
+          <target state="translated" state-qualifier="mt-suggestion">Ancho Min.</target>
         </trans-unit>
         <trans-unit id="On" translate="yes" xml:space="preserve">
           <source>On</source>
@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="SaveAs" translate="yes" xml:space="preserve">
           <source>Save as</source>
-          <target state="translated" state-qualifier="mt-suggestion">Guardar como</target>
+          <target state="translated" state-qualifier="mt-suggestion">G.como</target>
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
@@ -238,11 +238,11 @@
         </trans-unit>
         <trans-unit id="XOffset" translate="yes" xml:space="preserve">
           <source>X offset</source>
-          <target state="translated">Desplaz. X</target>
+          <target state="translated">Despl. X</target>
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="translated">Desplaz. Y</target>
+          <target state="translated">Despl. Y</target>
         </trans-unit>
       </group>
     </body>
@@ -372,7 +372,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" datatype="resx">
         <trans-unit id="AddRule" translate="yes" xml:space="preserve">
           <source>Add rule</source>
-          <target state="translated">Añadir regla</target>
+          <target state="translated">Añadir</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule</note>
         </trans-unit>
         <trans-unit id="AddWatermark" translate="yes" xml:space="preserve">
@@ -522,7 +522,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="HeaderNaming" translate="yes" xml:space="preserve">
           <source>Naming</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nombramiento</target>
+          <target state="translated" state-qualifier="mt-suggestion">Denominación</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA control group header</note>
         </trans-unit>
         <trans-unit id="IgnoreCase" translate="yes" xml:space="preserve">
@@ -796,7 +796,11 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="translated">Operación</target>
+        </trans-unit>
+        <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
+          <source>Invalid RegEx syntax</source>
+          <target state="new">Invalid RegEx syntax</target>
         </trans-unit>
       </group>
     </body>
@@ -859,7 +863,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="translated">Borrar Historial al cerrar</target>
+          <target state="translated">Borrar historial al cerrar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
@@ -898,7 +902,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelay" translate="yes" xml:space="preserve">
           <source>Expand delay (ms)</source>
-          <target state="translated">Expandir retraso (ms)</target>
+          <target state="translated">Retardo expansión (ms)</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelayInfo" translate="yes" xml:space="preserve">
           <source>When cursor enters a folder column, program will wait for:</source>
@@ -906,7 +910,8 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ColumnAdvancedDuration" translate="yes" xml:space="preserve">
           <source>Expand duration (ms)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Expandir duración (ms)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Expandir duración (ms)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDurationInfo" translate="yes" xml:space="preserve">
           <source>and then animate expanding the column for:</source>
@@ -926,7 +931,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
-          <target state="translated">Alineación del panel de columnas en diseño de columnas</target>
+          <target state="translated">Alineación del panel de Columnas en Diseño de Columnas</target>
         </trans-unit>
         <trans-unit id="ColumnAlignDefaultLeft" translate="yes" xml:space="preserve">
           <source>Default Left</source>
@@ -1095,8 +1100,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Importante: Este es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de One Commander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar).&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá One Commander. &lt;br/&gt;Necesitaras <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> si alguna vez mueve o elimina One Commander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también permitirá la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (sin soporte en caso de recuperación)?
-br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de One Commander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar).&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá One Commander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> si alguna vez mueve o elimina One Commander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también permitirá la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (sin soporte en caso de recuperación)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1106,7 +1110,7 @@ br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaura
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is unregistering it from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que One Commander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es cancelar el registro de One Commander o ejecutar el script de registro desde la carpeta One Commander (la desinstalación de OC no lo cambiará automáticamente). ¿Proceder?</target>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que One Commander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es cancelar el registro de One Commander o ejecutar el script de registro desde la carpeta One Commander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1211,15 +1215,15 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
-          <target state="translated">Vista de archivos predeterminada</target>
+          <target state="translated">Vista archivos por defecto</target>
         </trans-unit>
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
-          <target state="translated" state-qualifier="mt-suggestion">Vista de archivo en miniatura</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vista archivo en miniatura</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Solucione el retraso del lápiz óptico (rompe el doble toque de la pantalla táctil para abrirlo)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Solucionar el retraso del lápiz óptico (rompe el doble toque de la pantalla táctil para abrirlo)</target>
         </trans-unit>
         <trans-unit id="FixStylusLagInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. If ON there will be no lag with graphic tablets, Wacom or Microsoft Surface stylus, but it will also disable double-tap (touchscreen) to open files (you would then need to use Single Click to Open folders option, and to open files by long-tap and Open from context menu). This is due to a bug in Microsoft WPF. Program restart required</source>
@@ -1385,7 +1389,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="KeepRunningInBackground" translate="yes" xml:space="preserve">
           <source>Keep running in background (Close to System Tray)</source>
-          <target state="translated">Siguir ejecutándose en segundo plano (cerca de la bandeja del sistema)</target>
+          <target state="translated">Seguir ejecutándose en segundo plano (cerca de la bandeja del sistema)</target>
         </trans-unit>
         <trans-unit id="KeepRunningInBackgroundInfo" translate="yes" xml:space="preserve">
           <source>If On, program will stay in System Tray for faster next start.
@@ -1442,8 +1446,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated" state-qualifier="mt-suggestion">Al final</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
-          <source>New tab should be placed:</source>
-          <target state="translated" state-qualifier="mt-suggestion">Se debe colocar una nueva pestaña:</target>
+          <source>Middle-click on a folder opens a new tab:</source>
+          <target state="translated" state-qualifier="mt-suggestion">Hacer clic con el botón central en una carpeta abre una nueva pestaña:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1607,7 +1611,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
-          <target state="translated">Hacer clic fuera durante la operación de cambio de nombre debería:</target>
+          <target state="translated">Al hacer clic fuera del elemento durante la operación de cambio de nombre debería:</target>
         </trans-unit>
         <trans-unit id="RenderingHardware" translate="yes" xml:space="preserve">
           <source>Hardware (DirectX)</source>
@@ -1712,7 +1716,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
-          <target state="translated" state-qualifier="mt-suggestion">Botones de la barra de herramientas Mostrar vista de archivos</target>
+          <target state="translated" state-qualifier="mt-suggestion">Mostrar los botones de la barra de herramientas de la vista de archivos</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -2121,44 +2125,52 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+          <target state="translated">Borra la memoria caché global de miniaturas de Windows (también para Explorer)</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="new">File name maximum lines</target>
+          <target state="translated">Líneas máximas nombre archivo</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view</source>
-          <target state="new">For Grid view</target>
+          <target state="translated">Para la vista de cuadrícula</target>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
-          <target state="new">Open Office files through Explorer</target>
+          <target state="translated">Abrir archivos de Office a través de Explorer</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source>Show Scripts button</source>
-          <target state="new">Show Scripts button</target>
+          <target state="translated">Mostrar Botón Scripts</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
-          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <target state="translated">Consulte la carpeta \Resources\Scripts\ para ver ejemplos. Los usuarios PRO pueden tener más de 8 scripts.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
-          <target state="new">Know the scripts you are running! Security risk!</target>
+          <target state="translated">¡Conozca los scripts que está ejecutando! ¡Riesgo de seguridad!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+          <target state="translated">Usar el programa de actualización externo One Commander en lugar del script de PowerShell</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
-          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+          <target state="translated">Habilitar la vista previa del explorador (vista previa del archivo Shell)</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+          <target state="translated">Esto habilita una vista previa de Microsoft Office y algunos formatos adicionales en la ventana de vista previa (que se abre con la barra espaciadora), pero debido a una vulnerabilidad de seguridad de la vista previa del Explorador de archivos de Office, está desactivada de forma predeterminada. Habilite bajo su propio riesgo! Reinicio requerido.</target>
+        </trans-unit>
+        <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
+          <source>File name position in Grid view</source>
+          <target state="new">File name position in Grid view</target>
+        </trans-unit>
+        <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
+          <source>Show a dialog to confirm running script</source>
+          <target state="new">Show a dialog to confirm running script</target>
         </trans-unit>
       </group>
     </body>
@@ -2255,7 +2267,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardCopy_S" translate="yes" xml:space="preserve">
           <source>CTRL + C</source>
-          <target state="translated">CTRL+C</target>
+          <target state="translated">Ctrl+C</target>
         </trans-unit>
         <trans-unit id="ClipboardCopy_TT" translate="yes" xml:space="preserve">
           <source>Copy to Clipboard</source>
@@ -2263,7 +2275,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardCut_S" translate="yes" xml:space="preserve">
           <source>CTRL + X</source>
-          <target state="translated">CTRL+X</target>
+          <target state="translated">Ctrl+X</target>
         </trans-unit>
         <trans-unit id="ClipboardCut_TT" translate="yes" xml:space="preserve">
           <source>Cut to Clipboard</source>
@@ -2271,7 +2283,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
           <source>CTRL + V</source>
-          <target state="translated">CTRL+V</target>
+          <target state="translated">Ctrl+V</target>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
           <source>Paste from Clipboard</source>
@@ -2306,7 +2318,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="CursorMoveExtra" translate="yes" xml:space="preserve">
           <source>hold CTRL to Copy</source>
-          <target state="translated">mantenga presionada CTRL para copiar</target>
+          <target state="translated">mantenga presionada Ctrl para copiar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text showing as part afer Move: Move | hold CTRL to Copy</note>
         </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
@@ -2405,7 +2417,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">Para cerrar One Commander por completo, <bpt id="1">&lt;B&gt;</bpt>mantenga presionada la tecla CTRL mientras hace clic en el botón Cerrar<ept id="1">&lt;/B&gt;</ept>, o haga clic con el botón secundario en el icono One Commander en la bandeja del sistema (junto al reloj) y seleccione <bpt id="2">&lt;i&gt;</bpt>Salir<ept id="2">&lt;/i&gt;</ept></target>
+          <target state="translated">Para cerrar One Commander por completo, <bpt id="1">&lt;B&gt;</bpt>mantenga presionada la tecla Ctrl mientras hace clic en el botón Cerrar<ept id="1">&lt;/B&gt;</ept>, o haga clic con el botón secundario en el icono One Commander en la bandeja del sistema (junto al reloj) y seleccione <bpt id="2">&lt;i&gt;</bpt>Salir<ept id="2">&lt;/i&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2422,12 +2434,12 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
-          <target state="translated" state-qualifier="mt-suggestion">Esta ruta no existe. ¿Eliminarlo?</target>
+          <target state="translated" state-qualifier="mt-suggestion">Esta ruta no existe. ¿Desea eliminarla?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="translated">Esta función solo está disponible en la versión Pro. <bpt id="1">&lt;b&gt;</bpt> ¿Obtiene la versión Pro ahora?<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="translated">Esta función solo está disponible en la versión Pro. <bpt id="1">&lt;b&gt;</bpt>¿Obtener la versión Pro ahora?<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
@@ -2452,7 +2464,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
-          <target state="translated" state-qualifier="mt-suggestion">\ o Alt+D</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alt+D</target>
         </trans-unit>
         <trans-unit id="EditPath_TT" translate="yes" xml:space="preserve">
           <source>Edit path</source>
@@ -2623,7 +2635,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Delete" translate="yes" xml:space="preserve">
           <source>Delete group</source>
-          <target state="translated" state-qualifier="mt-suggestion">Eliminar grupo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Eliminar Grupo</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveDown" translate="yes" xml:space="preserve">
           <source>Move down</source>
@@ -2635,7 +2647,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Rename" translate="yes" xml:space="preserve">
           <source>Rename Group</source>
-          <target state="translated" state-qualifier="mt-suggestion">Cambiar nombre de grupo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Cambiar nombre de Grupo</target>
         </trans-unit>
         <trans-unit id="Menu_MapNetDrive" translate="yes" xml:space="preserve">
           <source>Map network drive</source>
@@ -2648,7 +2660,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_MoveToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Move to the opposite browser pane</source>
-          <target state="translated" state-qualifier="mt-suggestion">Desplazarse al panel opuesto del Explorador</target>
+          <target state="translated" state-qualifier="mt-suggestion">Mover al panel opuesto del Explorador</target>
         </trans-unit>
         <trans-unit id="Menu_New" translate="yes" xml:space="preserve">
           <source>New...</source>
@@ -2673,7 +2685,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_OpenCommandShell" translate="yes" xml:space="preserve">
           <source>Open in command shell</source>
-          <target state="translated">Abrir en shell de comandos</target>
+          <target state="translated">Abrir en Shell de comandos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Opens submenu with CMD, Powershell, Terminal</note>
         </trans-unit>
         <trans-unit id="Menu_OpenIn" translate="yes" xml:space="preserve">
@@ -2698,7 +2710,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="translated">Eliminar Panel de Historial</target>
+          <target state="translated">Eliminar el panel de Historial</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemovePath" translate="yes" xml:space="preserve">
@@ -2871,7 +2883,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_FolderDoesNotExist" translate="yes" xml:space="preserve">
           <source>Folder doesn't exist {0}</source>
-          <target state="translated" state-qualifier="mt-suggestion">La carpeta no existe {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">La carpeta {0} no existe</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInName" translate="yes" xml:space="preserve">
           <source>Invalid name {0}; contains unsupported characters for Windows</source>
@@ -2879,7 +2891,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInPath" translate="yes" xml:space="preserve">
           <source>Invalid path {0}; contains unsupported characters for Windows</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ruta de acceso no válida {0}; contiene caracteres no compatibles con Windows</target>
+          <target state="translated" state-qualifier="mt-suggestion">Ruta de acceso {0} no válida; contiene caracteres no compatibles con Windows</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidDriveLetter" translate="yes" xml:space="preserve">
           <source>Invalid drive letter</source>
@@ -3025,7 +3037,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasImage" translate="yes" xml:space="preserve">
           <source>Detected Image on Clipboard. Press CTRL + V to Paste as a new PNG file</source>
-          <target state="translated">Imagen detectada en el Portapapeles. Presione CTRL+V para pegar como un nuevo archivo PNG</target>
+          <target state="translated">Imagen detectada en el Portapapeles. Presione Ctrl+V para pegar como un nuevo archivo PNG</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasPath" translate="yes" xml:space="preserve">
           <source>New path on clipboard. Press Ctrl+Shift+T to open it in a new tab</source>
@@ -3033,7 +3045,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasText" translate="yes" xml:space="preserve">
           <source>Detected Text on Clipboard. Press CTRL + V to create a new TXT file with this text</source>
-          <target state="translated">Texto detectado en el Portapapeles. Presione CTRL+V para crear un nuevo archivo TXT con este texto</target>
+          <target state="translated">Texto detectado en el Portapapeles. Presione Ctrl+V para crear un nuevo archivo TXT con este texto</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardImagePasted" translate="yes" xml:space="preserve">
           <source>Created an image file: {0} from Clipboard data</source>
@@ -3081,11 +3093,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_FileOpened" translate="yes" xml:space="preserve">
           <source>File opened</source>
-          <target state="translated" state-qualifier="mt-suggestion">Archivo abierto</target>
+          <target state="translated" state-qualifier="mt-suggestion">Abriendo archivo</target>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="translated">Se eliminar el Panel de Historial. Se puede añadir nuevamente en Configuración</target>
+          <target state="translated">Se elimina el panel de Historial. Se puede añadir nuevamente en Configuración</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_MonitoringDriveStopped" translate="yes" xml:space="preserve">
@@ -3154,15 +3166,16 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForPortableVersion" translate="yes" xml:space="preserve">
           <source>New version is available. Press UPDATE button in the top-right corner</source>
-          <target state="translated" state-qualifier="mt-suggestion">La nueva versión está disponible. Presione el botón ACTUALIZAR en la esquina superior derecha</target>
+          <target state="translated" state-qualifier="mt-suggestion">Una nueva versión está disponible. Presione el botón ACTUALIZAR en la esquina superior derecha</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
-          <source>Update available. You can update through Microsoft Store</source>
+          <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
           <target state="translated" state-qualifier="mt-suggestion">Actualización disponible. Puedes actualizar a través de Microsoft Store</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
-          <target state="translated" state-qualifier="mt-suggestion">Descargando la última versión de OneCommander.com...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Descargando la última versión desde OneCommander.com...</target>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
@@ -3199,7 +3212,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
           <source>CTRL + N</source>
-          <target state="translated">CTRL+N</target>
+          <target state="translated">Ctrl+N</target>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
@@ -3207,7 +3220,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
-          <target state="translated">CTRL+MAYÚS+N</target>
+          <target state="translated">Ctrl+Mayús+N</target>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
           <source>Create new folder</source>
@@ -3215,11 +3228,11 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewGroup" translate="yes" xml:space="preserve">
           <source>New group</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nuevo grupo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nuevo Grupo</target>
         </trans-unit>
         <trans-unit id="NewGroup_Title" translate="yes" xml:space="preserve">
           <source>New Group name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nuevo nombre de grupo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nuevo nombre de Grupo</target>
         </trans-unit>
         <trans-unit id="NewGroup_TT" translate="yes" xml:space="preserve">
           <source>Creates new Favorite group and adds current folder</source>
@@ -3227,7 +3240,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
           <source>ALT + N</source>
-          <target state="translated">ALT+N</target>
+          <target state="translated">Alt+N</target>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
@@ -3235,7 +3248,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
-          <target state="translated">CTRL+T para crear | CTRL+W para cerrar seleccionada | CTRL+TAB para cambiar a la siguiente pestaña</target>
+          <target state="translated">Ctrl+T para crear | Ctrl+W para cerrar seleccionada | Ctrl+TAB para cambiar a la siguiente pestaña</target>
         </trans-unit>
         <trans-unit id="NewTab_TT" translate="yes" xml:space="preserve">
           <source>Create new tab</source>
@@ -3688,6 +3701,16 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
           <target state="translated">El disco está lleno, por lo que no se pueden guardar los ajustes. Borre al menos algunos KB de espacio o vacíe la Papelera de reciclaje.&lt;br/&gt;¿Volver a intentar guardar la configuración?</target>
+        </trans-unit>
+        <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
+          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
+        </trans-unit>
+        <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
+          <source>Scripts</source>
+          <target state="new">Scripts</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
       </group>
     </body>
