@@ -457,8 +457,9 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
-          <source>Comma separated; no '.'; example: txt,bat,md; Content as ASCII/Plain-Text only</source>
-          <target state="translated">使用英文逗号分隔；无“.”；示例：txt,bat,md；内容仅限 ASCII/纯文本</target>
+          <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
+          <target state="needs-review-translation">使用英文逗号分隔；无“.”；示例：txt,bat,md；内容仅限 ASCII/纯文本</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NEW" translate="yes" xml:space="preserve">
           <source>NEW</source>
@@ -498,8 +499,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">如果路径并非 C:\Users\你的用户名\OneDrive ，需要配置此项以启用额外的同步状态图标</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
-          <source>Open path:</source>
-          <target state="translated">打开路径：</target>
+          <source>Create a single tab and open path:</source>
+          <target state="needs-review-translation">打开路径：</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
@@ -1379,6 +1381,28 @@ This should be enabled if program is set as a default file manager</source>
           <source>File name position in Grid view</source>
           <target state="new">File name position in Grid view</target>
         </trans-unit>
+        <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
+          <source>Override file background color</source>
+          <target state="new">Override file background color</target>
+        </trans-unit>
+        <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
+          <source>Block window when Shell Context Menu is open</source>
+          <target state="new">Block window when Shell Context Menu is open</target>
+        </trans-unit>
+        <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
+          <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
+          <target state="new">Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
+        </trans-unit>
+        <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
+          <source>Email naming format (drag from Outlook)</source>
+          <target state="new">Email naming format (drag from Outlook)</target>
+        </trans-unit>
+        <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
+          <source>$SentOn will be replaced by date in this format:</source>
+          <target state="new">$SentOn will be replaced by date in this format:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1388,10 +1412,6 @@ This should be enabled if program is set as a default file manager</source>
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCES.RESX" datatype="resx">
-        <trans-unit id="About_TT" translate="yes" xml:space="preserve">
-          <source>About/Help</source>
-          <target state="translated" state-qualifier="mt-suggestion">关于/帮助</target>
-        </trans-unit>
         <trans-unit id="AgeDayShort" translate="yes" xml:space="preserve">
           <source>d</source>
           <target state="translated" state-qualifier="tm-suggestion">天</target>
@@ -1773,8 +1793,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="tm-suggestion">上移</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Rename" translate="yes" xml:space="preserve">
-          <source>Rename Group</source>
-          <target state="translated">重命名收藏夹组</target>
+          <source>Rename group</source>
+          <target state="needs-review-translation">重命名收藏夹组</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_MapNetDrive" translate="yes" xml:space="preserve">
           <source>Map network drive</source>
@@ -2488,6 +2509,7 @@ Some programs won't be able to open/save files from this folder</source>
         <trans-unit id="Preview_TextTrimmed" translate="yes" xml:space="preserve">
           <source>Preview trimmed to first {0}K characters</source>
           <target state="translated">预览前 {0}K 字符片段</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">K as in thousand</note>
         </trans-unit>
         <trans-unit id="ProgramCrashed" translate="yes" xml:space="preserve">
           <source>Program has crashed</source>
@@ -2926,6 +2948,124 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Scripts</source>
           <target state="new">Scripts</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
+          <source>Invalid name</source>
+          <target state="new">Invalid name</target>
+        </trans-unit>
+        <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
+          <source>Color Tag</source>
+          <target state="new">Color Tag</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
+        </trans-unit>
+        <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open in new window</source>
+          <target state="new">Open in new window</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
+        </trans-unit>
+        <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
+          <source>Drag within Favorites/Tabs to rearrange</source>
+          <target state="new">Drag within Favorites/Tabs to rearrange</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line1</note>
+        </trans-unit>
+        <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
+          <source>Drag outside of window to create a new window</source>
+          <target state="new">Drag outside of window to create a new window</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
+          <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
+          <target state="new">Rename failed. File might be opened in another program or user doesn't have access permissions.</target>
+        </trans-unit>
+        <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
+          <source>Photo date taken</source>
+          <target state="new">Photo date taken</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
+        </trans-unit>
+        <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
+          <source>Media duration</source>
+          <target state="new">Media duration</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
+        </trans-unit>
+        <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
+          <source>Media resolution</source>
+          <target state="new">Media resolution</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
+        </trans-unit>
+        <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
+          <target state="new">Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
+        </trans-unit>
+        <trans-unit id="About_TT" translate="yes" xml:space="preserve">
+          <source>About/Help</source>
+          <target state="new">About/Help</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
+          <source>Open shortcut destination</source>
+          <target state="new">Open shortcut destination</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
+          <source>Error getting shortcut destination</source>
+          <target state="new">Error getting shortcut destination</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
+          <source>Source program sent incomplete or corrupted file data</source>
+          <target state="new">Source program sent incomplete or corrupted file data</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
+        </trans-unit>
+        <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
+          <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
+          <target state="new">Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
+          <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
+          <target state="new">Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
+          <source>Network storage took {0} seconds to respond</source>
+          <target state="new">Network storage took {0} seconds to respond</target>
+        </trans-unit>
+        <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
+          <source>Waking disk up...</source>
+          <target state="new">Waking disk up...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
+        </trans-unit>
+        <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
+          <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
+          <target state="new">Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
+        </trans-unit>
+        <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
+          <source>Text/plain</source>
+          <target state="new">Text/plain</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
+          <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
+          <target state="new">File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
+          <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
+          <target state="new">File is in use by another process.&lt;br/&gt;Retry operation?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
+        </trans-unit>
+        <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
+          <source>Size in MiB</source>
+          <target state="new">Size in MiB</target>
+        </trans-unit>
+        <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
+          <source>Calculating...</source>
+          <target state="new">Calculating...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
+        </trans-unit>
+        <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
+          <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
         </trans-unit>
       </group>
     </body>
