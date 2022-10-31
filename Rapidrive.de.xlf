@@ -213,8 +213,7 @@
           <source>Inconsistent File Explorer way
 Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same drive. Shift+Drag to move to another drive.</source>
           <target state="translated">Uneinheitliche Datei-Explorer Vorgehensweise
-Ziehen verschiebt bei gleichem Laufwerk, sonst kopieren. STRG+Ziehen kopiert bei gleichem Laufwerk. UMSCHALT+Ziehen verschiebt auf ein anderes Laufwerk.
-</target>
+Ziehen verschiebt bei gleichem Laufwerk, sonst kopieren. STRG+Ziehen kopiert bei gleichem Laufwerk. UMSCHALT+Ziehen verschiebt auf ein anderes Laufwerk.</target>
         </trans-unit>
         <trans-unit id="DragDropBehaviorQuestion" translate="yes" xml:space="preserve">
           <source>Drag and Drop behavior:</source>
@@ -234,8 +233,7 @@ Ziehen verschiebt bei gleichem Laufwerk, sonst kopieren. STRG+Ziehen kopiert bei
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
           <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="translated">Kontextmenüpunkte mit diesen Wörtern oder Volltext werden ausgeschlossen; Komma getrennt; kein Leerzeichen nach dem Komma; die vorausgefüllten Wörter/Befehle werden von One Commander nicht unterstützt
-</target>
+          <target state="translated">Kontextmenüpunkte mit diesen Wörtern oder Volltext werden ausgeschlossen; Komma getrennt; kein Leerzeichen nach dem Komma; die vorausgefüllten Wörter/Befehle werden von One Commander nicht unterstützt</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -271,8 +269,7 @@ Ziehen verschiebt bei gleichem Laufwerk, sonst kopieren. STRG+Ziehen kopiert bei
         </trans-unit>
         <trans-unit id="FixStylusLagInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. If ON there will be no lag with graphic tablets, Wacom or Microsoft Surface stylus, but it will also disable double-tap (touchscreen) to open files (you would then need to use Single Click to Open folders option, and to open files by long-tap and Open from context menu). This is due to a bug in Microsoft WPF. Program restart required</source>
-          <target state="translated">Voreinstellung AUS. Wenn EIN, keine Verzögerung bei Grafiktabletts, Wacom- oder Microsoft Surface-Stiften, aber es wird auch das Doppltippen (Touchscreen) zum Öffnen von Dateien deaktiviert (Sie müssten dann Einzelklick zum Öffnen von Dateien und zum Öffnen von Dateien durch langes Tippen und Öffnen aus dem Kontextmenü verwenden). Dies ist ein Fehler in Microsoft WPF. Neustart des Programms erforderlich
- </target>
+          <target state="translated">Voreinstellung AUS. Wenn EIN, keine Verzögerung bei Grafiktabletts, Wacom- oder Microsoft Surface-Stiften, aber es wird auch das Doppltippen (Touchscreen) zum Öffnen von Dateien deaktiviert (Sie müssten dann Einzelklick zum Öffnen von Dateien und zum Öffnen von Dateien durch langes Tippen und Öffnen aus dem Kontextmenü verwenden). Dies ist ein Fehler in Microsoft WPF. Neustart des Programms erforderlich </target>
         </trans-unit>
         <trans-unit id="FolderIconOverride" translate="yes" xml:space="preserve">
           <source>Override all folder icons with:</source>
@@ -396,8 +393,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komma getrennt; kein '.'; Beispiel: txt,bat,md; Inhalt nur als ASCII/Nur-Text</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated" state-qualifier="mt-suggestion">Komma getrennt; kein '.'; Beispiel: txt,bat,md; Inhalt nur als ASCII/Nur-Text</target>
         </trans-unit>
         <trans-unit id="NEW" translate="yes" xml:space="preserve">
           <source>NEW</source>
@@ -421,8 +417,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
           <source>Middle-click on a folder opens a new tab:</source>
-          <target state="needs-review-translation">Neue Registerkarte sollte erstellt werden:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Neue Registerkarte durch Mittelklick:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -438,8 +433,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
-          <target state="needs-review-translation">Pfad öffnen:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Registerkarte erstellen und Pfad öffnen:</target>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
@@ -508,6 +502,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="PreviewWindowOptQuicklook" translate="yes" xml:space="preserve">
           <source>QuickLook (must be manually installed)</source>
           <target state="translated" state-qualifier="mt-suggestion">QuickLook (muss manuell installiert werden)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PreviewWindowQuestion" translate="yes" xml:space="preserve">
           <source>Preview window</source>
@@ -627,8 +622,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePointsInfo" translate="yes" xml:space="preserve">
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
-          <target state="translated">Option nur verwenden, wenn Sie zyklische Wiederholungspunkte haben, die zu einer nicht endenden Suche führen würden.. Aktivierung dieser Option verhindert das Durchsuchen von Cloud-Laufwerken.
-</target>
+          <target state="translated">Option nur verwenden, wenn Sie zyklische Wiederholungspunkte haben, die zu einer nicht endenden Suche führen würden.. Aktivierung dieser Option verhindert das Durchsuchen von Cloud-Laufwerken.</target>
         </trans-unit>
         <trans-unit id="SortDirection" translate="yes" xml:space="preserve">
           <source>Sort direction</source>
@@ -754,8 +748,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="translated">Voreinstellung AUS. Einschalten, wenn Programme, die früher Ablageoperationen von OC akzeptiert haben, keine Dateien mehr annehmen. Informieren Sie uns bitte, wenn ein Programm Probleme mit Drop-Operationen hat. Das Einfügen von Seiten in Acrobat funktioniert bekanntermaßen mit beiden nicht.
-</target>
+          <target state="translated">Voreinstellung AUS. Einschalten, wenn Programme, die früher Ablageoperationen von OC akzeptiert haben, keine Dateien mehr annehmen. Informieren Sie uns bitte, wenn ein Programm Probleme mit Drop-Operationen hat. Das Einfügen von Seiten in Acrobat funktioniert bekanntermaßen mit beiden nicht.</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>One Commander Settings</source>
@@ -768,10 +761,12 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
           <target state="translated" state-qualifier="mt-suggestion">Registrierung des Hotkeys aufheben</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
-          <source>This works only on a few versions of Windows 10</source>
-          <target state="translated">Dies funktioniert nur bei wenigen Versionen von Windows 10</target>
+          <source>This works only on some versions of Windows</source>
+          <target state="needs-review-translation">Dies funktioniert nur bei wenigen Versionen von Windows 10</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where One Commander is open</source>
@@ -805,14 +800,12 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="translated">Möchten Sie <bpt id="1">&lt;b&gt;</bpt>das Programm jetzt neu starten<ept id="1">&lt;/b&gt;</ept>, um alle Änderungen zu übernehmen? Dadurch werden alle von One Commander eingeleiteten Operationen abgebrochen.
-</target>
+          <target state="translated">Möchten Sie <bpt id="1">&lt;b&gt;</bpt>das Programm jetzt neu starten<ept id="1">&lt;/b&gt;</ept>, um alle Änderungen zu übernehmen? Dadurch werden alle von One Commander eingeleiteten Operationen abgebrochen.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is unregistering it from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die die Windows-Registrierung bearbeitet, um den Windows Datei-Explorer Win+E Hotkey vollständig zu ersetzen. Diese Registryänderung bewirkt, dass One Commander beim Anklicken der Explorer-Verknüpfung geöffnet wird, deaktiviert aber nicht die Navigation im Explorer.  Die einzige Möglichkeit, dies rückgängig zu machen, ist die Aufhebung der Registrierung in One Commander oder die Ausführung des Registry-Skripts im One Commander-Ordner (die Deinstallation von OC ändert dies nicht automatisch). Weitermachen?
-</target>
+          <target state="translated">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die die Windows-Registrierung bearbeitet, um den Windows Datei-Explorer Win+E Hotkey vollständig zu ersetzen. Diese Registryänderung bewirkt, dass One Commander beim Anklicken der Explorer-Verknüpfung geöffnet wird, deaktiviert aber nicht die Navigation im Explorer.  Die einzige Möglichkeit, dies rückgängig zu machen, ist die Aufhebung der Registrierung in One Commander oder die Ausführung des Registry-Skripts im One Commander-Ordner (die Deinstallation von OC ändert dies nicht automatisch). Weitermachen?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="HeaderContextMenu" translate="yes" xml:space="preserve">
@@ -841,8 +834,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="ComputerNameInfo" translate="yes" xml:space="preserve">
           <source>This is the name of the first column pane that contains drives list. Machine name can be changed in Windows Settings</source>
-          <target state="translated">Name der ersten Spalte, welche die Laufwerksliste enthält. Maschinenname kann in den Windows-Einstellungen geändert werden
-</target>
+          <target state="translated">Name der ersten Spalte, welche die Laufwerksliste enthält. Maschinenname kann in den Windows-Einstellungen geändert werden</target>
         </trans-unit>
         <trans-unit id="ComputerNameMachineName" translate="yes" xml:space="preserve">
           <source>Machine name</source>
@@ -894,14 +886,12 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="AlignLeft" translate="yes" xml:space="preserve">
           <source>Left</source>
-          <target state="translated">Links
-</target>
+          <target state="translated">Links</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Left</note>
         </trans-unit>
         <trans-unit id="AlignRight" translate="yes" xml:space="preserve">
           <source>Right</source>
-          <target state="translated">Rechts
-</target>
+          <target state="translated">Rechts</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
@@ -940,10 +930,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
-          <target state="translated">Warndialog beim Ändern der Erweiterung beim Umbenennen anzeigen
-
-
-</target>
+          <target state="translated">Warndialog beim Ändern der Erweiterung beim Umbenennen anzeigen</target>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -1343,8 +1330,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="translated">Dies ermöglicht eine Vorschau von Microsoft Office und einigen zusätzlichen Formaten im Vorschaufenster (geöffnet mit der Leertaste), aber aufgrund einer Sicherheitslücke in der Explorer-Vorschau von Office-Dateien ist dies standardmäßig deaktiviert. Aktivieren auf eigene Gefahr! Neustart erforderlich.
-</target>
+          <target state="translated">Dies ermöglicht eine Vorschau von Microsoft Office und einigen zusätzlichen Formaten im Vorschaufenster (geöffnet mit der Leertaste), aber aufgrund einer Sicherheitslücke in der Explorer-Vorschau von Office-Dateien ist dies standardmäßig deaktiviert. Aktivieren auf eigene Gefahr! Neustart erforderlich.</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
@@ -1389,21 +1375,80 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="new">Block window when Shell Context Menu is open</target>
+          <target state="translated">Fenster blockieren, wenn Shell-Kontextmenü geöffnet ist</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="new">Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</target>
+          <target state="translated">Verhindert versehentliche Interaktion beim Verlassen des Kontextmenüs.. Nötig, wenn eine der oben genannten Ein-Klick-Interaktionen aktiviert ist</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
-          <target state="new">Email naming format (drag from Outlook)</target>
+          <target state="translated">E-Mail-Namensgebung (aus Outlook übernehmen)</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
-          <target state="new">$SentOn will be replaced by date in this format:</target>
+          <target state="translated">$SentOn wird durch ein Datum in diesem Format ersetzt:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="new">Action</target>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
+          <source>Capture</source>
+          <target state="new">Capture</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="new">Key</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="new">Original</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
+        </trans-unit>
+        <trans-unit id="Changed" translate="yes" xml:space="preserve">
+          <source>Changed</source>
+          <target state="new">Changed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
+          <source>Conflict with</source>
+          <target state="new">Conflict with</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
+          <source>Shortcut Editor</source>
+          <target state="new">Shortcut Editor</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
+          <source>Use custom shortcuts</source>
+          <target state="new">Use custom shortcuts</target>
+        </trans-unit>
+        <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
+          <source>(Must be installed and running)</source>
+          <target state="new">(Must be installed and running)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
+          <source>Press a desired key combination to capture it</source>
+          <target state="new">Press a desired key combination to capture it</target>
+        </trans-unit>
+        <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
+          <source>Add "Open in One Commander" context menu</source>
+          <target state="new">Add "Open in One Commander" context menu</target>
+        </trans-unit>
+        <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
+          <source>Open in {0}</source>
+          <target state="new">Open in {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
         </trans-unit>
       </group>
     </body>
@@ -1616,8 +1661,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="translated">Sie haben den Namen geändert, aber außerhalb geklickt. &lt;br/&gt;Möchten Sie die Datei in dieser Situation <bpt id="1">&lt;b&gt;</bpt>immer umbenennen<ept id="1">&lt;/b&gt;</ept> &lt;br/&gt; oder soll der Vorgang abgebrochen werden?
-</target>
+          <target state="translated">Sie haben den Namen geändert, aber außerhalb geklickt. &lt;br/&gt;Möchten Sie die Datei in dieser Situation <bpt id="1">&lt;b&gt;</bpt>immer umbenennen<ept id="1">&lt;/b&gt;</ept> &lt;br/&gt; oder soll der Vorgang abgebrochen werden?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
@@ -1756,8 +1800,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Rename" translate="yes" xml:space="preserve">
           <source>Rename group</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gruppe umbenennen</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated" state-qualifier="tm-suggestion">Gruppe umbenennen</target>
         </trans-unit>
         <trans-unit id="Menu_MapNetDrive" translate="yes" xml:space="preserve">
           <source>Map network drive</source>
@@ -1952,8 +1995,9 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <note from="MultilingualBuild" annotates="source" priority="2">Error when user tried to open folder that doens't exist (by entering path, or starting with command line switch)</note>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
-          <source>Multiple connections to a server from the same computer with different usernames are not allowed</source>
-          <target state="translated">Mehrere Verbindungen zu einem Server vom selben Computer mit verschiedenen Benutzernamen sind nicht erlaubt</target>
+          <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
+          <target state="needs-review-translation">Mehrere Verbindungen zu einem Server vom selben Computer mit verschiedenen Benutzernamen sind nicht erlaubt</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
@@ -1988,8 +2032,9 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated" state-qualifier="mt-suggestion">Dieses Pfadformat wird nicht unterstützt</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
-          <source>http(s) and (s)ftp are not supported. Enter \\hostname\</source>
-          <target state="translated" state-qualifier="mt-suggestion">http(s) und (s)ftp werden nicht unterstützt. Geben Sie \\Hostname\ ein.</target>
+          <source>http(s) and (s)ftp are not supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">http(s) und (s)ftp werden nicht unterstützt. Geben Sie \\Hostname\ ein.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -2193,8 +2238,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
           <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Update verfügbar. Sie können über den Microsoft Store aktualisieren</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Update verfügbar. Sie können über den Microsoft Store aktualisieren, indem Sie auf Bibliothek und Updates abrufen klicken</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
@@ -2658,9 +2702,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="Menu_CopyOrMoveToRecent" translate="yes" xml:space="preserve">
           <source>Copy/Move to recent destination</source>
-          <target state="translated">Kopieren/Verschieben zum letzten Ziel
-
-</target>
+          <target state="translated">Kopieren/Verschieben zum letzten Ziel</target>
         </trans-unit>
         <trans-unit id="Menu_Move" translate="yes" xml:space="preserve">
           <source>Move</source>
@@ -3014,54 +3056,107 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="new">Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</target>
+          <target state="translated">Festplatte im Ruhezustand. Der Zugriff auf einen beliebigen Ordner auf der Festplatte kann das Programm für einige Sekunden einfrieren, bis die Festplatte aufwacht und antwortet.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="new">Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</target>
+          <target state="translated">Datenträger war wegen der Ruhezustandseinstellungen von Windows-Energieplan für {0} Sekunden nicht verfügbar</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="new">Network storage took {0} seconds to respond</target>
+          <target state="translated">Netzwerkspeicher antwortete nach {0} Sekunden</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="new">Waking disk up...</target>
+          <target state="translated">Festplatte aufwecken...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="new">Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</target>
+          <target state="translated">Ändern Sie die Ruhezustandsverzögerung für Festplatten im Windows-Energieplan, wenn dies zu oft passiert und Sie ausbremst</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="new">Text/plain</target>
+          <target state="translated">Klartext</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</target>
+          <target state="translated">Datei wird verwendet von {0}.&lt;br/&gt;({1})&lt;br/&gt;Vorgang wiederholen?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by another process.&lt;br/&gt;Retry operation?</target>
+          <target state="translated">Datei wird von einem anderen Prozess verwendet.&lt;br/&gt;Vorgang wiederholen?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="new">Size in MiB</target>
+          <target state="translated">Größe in MiB</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
-          <target state="new">Calculating...</target>
+          <target state="translated">Berechnen...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
+          <target state="translated">Die Ordnergröße kann nur für Ordner berechnet werden, die den gesamten Baum von Ordnern und Dateien enthalten und von Windows indiziert wurden.</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
+          <source>Alt</source>
+          <target state="new">Alt</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
+          <source>Ctrl</source>
+          <target state="new">Ctrl</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="new">Shift</target>
+        </trans-unit>
+        <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+        </trans-unit>
+        <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
+          <source>Current folder</source>
+          <target state="new">Current folder</target>
+        </trans-unit>
+        <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
+          <source>Desktop</source>
+          <target state="new">Desktop</target>
+        </trans-unit>
+        <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
+          <source>Parent folder</source>
+          <target state="new">Parent folder</target>
+        </trans-unit>
+        <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut or link</source>
+          <target state="new">Create shortcut or link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
+        </trans-unit>
+        <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut</source>
+          <target state="new">Shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
+          <source>Create in</source>
+          <target state="new">Create in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
+        </trans-unit>
+        <trans-unit id="Target" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="new">Target</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
+        </trans-unit>
+        <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut (.lnk)</source>
+          <target state="new">Shortcut (.lnk)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
       </group>
     </body>
@@ -3077,16 +3172,19 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
           <target state="translated">Bereits erworben?</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
-          <source>Anonymized Hardware ID:</source>
-          <target state="translated">Anonymisierte Hardware-ID:</target>
+          <source>Machine ID:</source>
+          <target state="needs-review-translation">Anonymisierte Hardware-ID:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
           <target state="translated">Klicken, um die Hardware-ID in die Zwischenablage zu kopieren und OneCommander.com zu öffnen.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
-          <source>Generating Anonymized Hardware ID... </source>
-          <target state="translated">Anonymisierte Hardware-ID generieren... </target>
+          <source>Generating Anonymized Machine ID... </source>
+          <target state="needs-review-translation">Anonymisierte Hardware-ID generieren... </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -3097,8 +3195,9 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
           <target state="translated">Im Microsoft Store erwerben</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
-          <source>License code:</source>
-          <target state="translated">Lizenzcode:</target>
+          <source>License key:</source>
+          <target state="needs-review-translation">Lizenzcode:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -3115,6 +3214,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         <trans-unit id="PortableLicenseInfo" translate="yes" xml:space="preserve">
           <source>The license is valid for this computer only</source>
           <target state="translated">Die Lizenz ist nur für diesen Computer gültig</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
           <source>One Commander is free for HOME use with a limited features set.
@@ -3131,10 +3231,12 @@ Für die kommerzielle Nutzung ist die PRO-Lizenz erforderlich, unabhängig davon
           <target state="translated">1. Öffnen Sie über die obige Schaltfläche die Kaufseite und fügen Sie die Hardware-ID ein (sie sollte sich bereits in der Zwischenablage befinden) und geben Sie Ihre E-Mail ein
 2. Nach Abschluss des Kaufs sollten Sie eine automatische E-Mail mit einem Aktivierungscode erhalten (überprüfen Sie auch den Spam)
 3. Fügen Sie die Lizenz aus der E-Mail in das nachstehende Feld ein</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
           <target state="translated">4. Programm neu starten, um alle Funktionen zu aktivieren</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
           <source>Error checking Microsoft Store</source>
@@ -3155,8 +3257,7 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
-          <target state="translated">Es konnte keine gültige Lizenz für das aktuelle Microsoft-Konto gefunden werden. Bitte überprüfen Sie Ihre E-Mail auf die ursprüngliche Kaufquittung und klicken Sie dann auf die Schaltfläche unten, um sich bei demselben Konto anzumelden, das für den Kauf der Lizenz verwendet wurde.
-</target>
+          <target state="translated">Es konnte keine gültige Lizenz für das aktuelle Microsoft-Konto gefunden werden. Bitte überprüfen Sie Ihre E-Mail auf die ursprüngliche Kaufquittung und klicken Sie dann auf die Schaltfläche unten, um sich bei demselben Konto anzumelden, das für den Kauf der Lizenz verwendet wurde.</target>
         </trans-unit>
         <trans-unit id="StoreOpen" translate="yes" xml:space="preserve">
           <source>Connect to Microsoft Store</source>
@@ -3181,6 +3282,18 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
           <target state="translated">Mehr Optionen</target>
+        </trans-unit>
+        <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
+          <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
+          <target state="new">Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</target>
+        </trans-unit>
+        <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
+          <source>Purchase on OneCommander.com</source>
+          <target state="new">Purchase on OneCommander.com</target>
+        </trans-unit>
+        <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
+          <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
+          <target state="new">The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</target>
         </trans-unit>
       </group>
     </body>

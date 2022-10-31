@@ -613,8 +613,9 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Error for MapNetDrive dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
-          <source>http(s) and (s)ftp are not supported. Enter \\hostname\</source>
-          <target state="translated">http(s) i (s)ftp nisu podržani. Unesi \\hostname\</target>
+          <source>http(s) and (s)ftp are not supported</source>
+          <target state="needs-review-translation">http(s) i (s)ftp nisu podržani. Unesi \\hostname\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -909,8 +910,9 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiran je predložak. Pritisnite kombinaciju tastera Ctrl+N bilo kada da biste je klonirali u trenutnu fasciklu</target>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
-          <source>Multiple connections to a server from the same computer with different usernames are not allowed</source>
+          <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Višestruke veze sa serverom sa istog računara sa različitim korisničkim imenom nisu dozvoljene</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PasswordProtectedNoPreview" translate="yes" xml:space="preserve">
           <source>Password protected file cannot be previewed</source>
@@ -1679,6 +1681,59 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
           <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
         </trans-unit>
+        <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
+          <source>Alt</source>
+          <target state="new">Alt</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
+          <source>Ctrl</source>
+          <target state="new">Ctrl</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="new">Shift</target>
+        </trans-unit>
+        <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+        </trans-unit>
+        <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
+          <source>Current folder</source>
+          <target state="new">Current folder</target>
+        </trans-unit>
+        <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
+          <source>Desktop</source>
+          <target state="new">Desktop</target>
+        </trans-unit>
+        <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
+          <source>Parent folder</source>
+          <target state="new">Parent folder</target>
+        </trans-unit>
+        <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut or link</source>
+          <target state="new">Create shortcut or link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
+        </trans-unit>
+        <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut</source>
+          <target state="new">Shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
+          <source>Create in</source>
+          <target state="new">Create in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
+        </trans-unit>
+        <trans-unit id="Target" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="new">Target</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
+        </trans-unit>
+        <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut (.lnk)</source>
+          <target state="new">Shortcut (.lnk)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2072,7 +2127,7 @@ Napomena: program svakako može nastaviti sa radom ako postoje aktivne operacije
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Prozor</target>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
-          <source>This works only on a few versions of Windows 10</source>
+          <source>This works only on some versions of Windows</source>
           <target state="needs-review-translation">Ovo možda neće funkcionisati na novim Windows Insider verzijama</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
@@ -2181,6 +2236,7 @@ Napomena: program svakako može nastaviti sa radom ako postoje aktivne operacije
         <trans-unit id="PreviewWindowOptQuicklook" translate="yes" xml:space="preserve">
           <source>QuickLook (must be manually installed)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">QuickLook (mora biti ručno instaliran)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PreviewWindowQuestion" translate="yes" xml:space="preserve">
           <source>Preview window</source>
@@ -2442,6 +2498,7 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
           <target state="translated">Poništavanje registracije prečice</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NEW" translate="yes" xml:space="preserve">
           <source>NEW</source>
@@ -3091,6 +3148,65 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="new">$SentOn will be replaced by date in this format:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
         </trans-unit>
+        <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="new">Action</target>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
+          <source>Capture</source>
+          <target state="new">Capture</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="new">Key</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="new">Original</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
+        </trans-unit>
+        <trans-unit id="Changed" translate="yes" xml:space="preserve">
+          <source>Changed</source>
+          <target state="new">Changed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
+          <source>Conflict with</source>
+          <target state="new">Conflict with</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
+          <source>Shortcut Editor</source>
+          <target state="new">Shortcut Editor</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
+          <source>Use custom shortcuts</source>
+          <target state="new">Use custom shortcuts</target>
+        </trans-unit>
+        <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
+          <source>(Must be installed and running)</source>
+          <target state="new">(Must be installed and running)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
+          <source>Press a desired key combination to capture it</source>
+          <target state="new">Press a desired key combination to capture it</target>
+        </trans-unit>
+        <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
+          <source>Add "Open in One Commander" context menu</source>
+          <target state="new">Add "Open in One Commander" context menu</target>
+        </trans-unit>
+        <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
+          <source>Open in {0}</source>
+          <target state="new">Open in {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3231,20 +3347,24 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" datatype="resx">
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
-          <source>Anonymized Hardware ID:</source>
-          <target state="translated">Anonimizirani hardver ID</target>
+          <source>Machine ID:</source>
+          <target state="needs-review-translation">Anonimizirani hardver ID</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kliknite da biste kopirali ID hardvera u ostavu i otvorili OneCommander.com</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
-          <source>Generating Anonymized Hardware ID... </source>
-          <target state="translated">Generisanje anonimnog hardver IDa</target>
+          <source>Generating Anonymized Machine ID... </source>
+          <target state="needs-review-translation">Generisanje anonimnog hardver IDa</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
-          <source>License code:</source>
-          <target state="translated">Kod licence:</target>
+          <source>License key:</source>
+          <target state="needs-review-translation">Kod licence:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart1" translate="yes" xml:space="preserve">
           <source>1. Using the above button open the purchase page and paste the Hardware ID (it should already be on clipboard) and enter your email
@@ -3253,10 +3373,12 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="translated">1. Pomoću gornjeg dugmeta otvorite stranicu za kupovinu i kopirajte ID hardvera (već bi trebalo da se nalazi u Clipboardu) i unesite email adresu
 2. Nakon završetka kupovine, trebalo bi da dobijete automatski email sa šifrom za aktivaciju (proverite i spam poštu)
 3. Kopirajte licencu iz mejla u polje ispod</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">4. Ponovo pokrenite program da biste aktivirali sve funkcije</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -3298,6 +3420,7 @@ Za komercijalnu upotrebu potrebna je PRO licenca, bez obzira na to da li su kori
         <trans-unit id="PortableLicenseInfo" translate="yes" xml:space="preserve">
           <source>The license is valid for this computer only</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Licenca važi samo za ovaj računar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
           <source>Error checking Microsoft Store</source>
@@ -3338,6 +3461,18 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Više opcija</target>
+        </trans-unit>
+        <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
+          <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
+          <target state="new">Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</target>
+        </trans-unit>
+        <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
+          <source>Purchase on OneCommander.com</source>
+          <target state="new">Purchase on OneCommander.com</target>
+        </trans-unit>
+        <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
+          <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
+          <target state="new">The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</target>
         </trans-unit>
       </group>
     </body>

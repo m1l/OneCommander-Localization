@@ -11,16 +11,19 @@
           <target state="translated">ซื้อแล้วใช่ไหม?</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
-          <source>Anonymized Hardware ID:</source>
-          <target state="translated">หมายเลขฮาร์ดแวร์:</target>
+          <source>Machine ID:</source>
+          <target state="needs-review-translation">หมายเลขฮาร์ดแวร์:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
           <target state="translated" state-qualifier="mt-suggestion">คลิกเพื่อคัดลอก 'หมายเลขฮาร์ดแวร์' ไปยังคลิปบอร์ดและเปิด OneCommander.com</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
-          <source>Generating Anonymized Hardware ID... </source>
-          <target state="translated">กําลังสร้างหมายเลขฮาร์ดแวร์... </target>
+          <source>Generating Anonymized Machine ID... </source>
+          <target state="needs-review-translation">กําลังสร้างหมายเลขฮาร์ดแวร์... </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -31,8 +34,9 @@
           <target state="translated">ดาวน์โหลดจากไมโครซอฟท์สโตร์</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
-          <source>License code:</source>
-          <target state="translated">รหัสใบอนุญาต:</target>
+          <source>License key:</source>
+          <target state="needs-review-translation">รหัสใบอนุญาต:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -49,6 +53,7 @@
         <trans-unit id="PortableLicenseInfo" translate="yes" xml:space="preserve">
           <source>The license is valid for this computer only</source>
           <target state="translated">สิทธิ์การใช้งานใช้ได้กับคอมพิวเตอร์เครื่องนี้เท่านั้น</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
           <source>One Commander is free for HOME use with a limited features set.
@@ -65,10 +70,12 @@ For commercial use, the PRO license is required, regardless if the user needs th
           <target state="translated">1. เมื่อกดปุ่มด้านบนนี้ จะคัดลอกรหัสฮาร์ดแวร์และเปิดเว็บไซต์ไปยังหน้าซื้อโปรแกรม โปรดวางรหัสฮาร์ดแวร์ในช่อง Hardware ID และกรอกอีเมลของคุณ
 2. หลังจากทําการซื้อเสร็จแล้ว คุณจะได้รับอีเมลอัตโนมัติพร้อมรหัสลิขสิทธิ์ (โปรดตรวจสอบกล่องสแปมด้วย)
 3. คัดลอกรหัสลิขสิทธิ์และวางในกล่องข้อความด้านล่าง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
           <target state="translated" state-qualifier="mt-suggestion">4. รีสตาร์ทโปรแกรมเพื่อเปิดใช้งานคุณสมบัติทั้งหมด</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
           <source>Error checking Microsoft Store</source>
@@ -114,6 +121,18 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัวเลือกเพิ่มเติม</target>
+        </trans-unit>
+        <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
+          <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
+          <target state="new">Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</target>
+        </trans-unit>
+        <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
+          <source>Purchase on OneCommander.com</source>
+          <target state="new">Purchase on OneCommander.com</target>
+        </trans-unit>
+        <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
+          <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
+          <target state="new">The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</target>
         </trans-unit>
       </group>
     </body>
@@ -1459,6 +1478,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PreviewWindowOptQuicklook" translate="yes" xml:space="preserve">
           <source>QuickLook (must be manually installed)</source>
           <target state="translated">QuickLook (ต้องติดตั้งด้วยตนเอง)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PreviewWindowQuestion" translate="yes" xml:space="preserve">
           <source>Preview window</source>
@@ -1838,10 +1858,12 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
           <target state="translated">ยกเลิกการลงทะเบียนปุ่มลัด</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
-          <source>This works only on a few versions of Windows 10</source>
-          <target state="translated" state-qualifier="mt-suggestion">ใช้งานได้กับ Windows 10 บางรุ่นเท่านั้น</target>
+          <source>This works only on some versions of Windows</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ใช้งานได้กับ Windows 10 บางรุ่นเท่านั้น</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where One Commander is open</source>
@@ -2204,6 +2226,65 @@ This should be enabled if program is set as a default file manager</source>
           <source>$SentOn will be replaced by date in this format:</source>
           <target state="new">$SentOn will be replaced by date in this format:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="new">Action</target>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
+          <source>Capture</source>
+          <target state="new">Capture</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="new">Key</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="new">Original</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
+        </trans-unit>
+        <trans-unit id="Changed" translate="yes" xml:space="preserve">
+          <source>Changed</source>
+          <target state="new">Changed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
+          <source>Conflict with</source>
+          <target state="new">Conflict with</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
+          <source>Shortcut Editor</source>
+          <target state="new">Shortcut Editor</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
+          <source>Use custom shortcuts</source>
+          <target state="new">Use custom shortcuts</target>
+        </trans-unit>
+        <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
+          <source>(Must be installed and running)</source>
+          <target state="new">(Must be installed and running)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
+          <source>Press a desired key combination to capture it</source>
+          <target state="new">Press a desired key combination to capture it</target>
+        </trans-unit>
+        <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
+          <source>Add "Open in One Commander" context menu</source>
+          <target state="new">Add "Open in One Commander" context menu</target>
+        </trans-unit>
+        <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
+          <source>Open in {0}</source>
+          <target state="new">Open in {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
         </trans-unit>
       </group>
     </body>
@@ -2917,8 +2998,9 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
-          <source>Multiple connections to a server from the same computer with different usernames are not allowed</source>
-          <target state="translated" state-qualifier="mt-suggestion">ไม่อนุญาตให้มีการเชื่อมต่อหลายรายการไปยังเซิร์ฟเวอร์จากคอมพิวเตอร์เครื่องเดียวกันที่มีชื่อผู้ใช้ต่างกัน</target>
+          <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่อนุญาตให้มีการเชื่อมต่อหลายรายการไปยังเซิร์ฟเวอร์จากคอมพิวเตอร์เครื่องเดียวกันที่มีชื่อผู้ใช้ต่างกัน</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
@@ -2953,8 +3035,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">ไม่รองรับรูปแบบพาธนี้</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
-          <source>http(s) and (s)ftp are not supported. Enter \\hostname\</source>
-          <target state="translated">ไม่รองรับ http(s) และ (s)ftp กรุณาใส่ชื่อ \\hostname\</target>
+          <source>http(s) and (s)ftp are not supported</source>
+          <target state="needs-review-translation">ไม่รองรับ http(s) และ (s)ftp กรุณาใส่ชื่อ \\hostname\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -3865,6 +3948,59 @@ Some programs won't be able to open/save files from this folder</source>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
           <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
+          <source>Alt</source>
+          <target state="new">Alt</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
+          <source>Ctrl</source>
+          <target state="new">Ctrl</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="new">Shift</target>
+        </trans-unit>
+        <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+        </trans-unit>
+        <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
+          <source>Current folder</source>
+          <target state="new">Current folder</target>
+        </trans-unit>
+        <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
+          <source>Desktop</source>
+          <target state="new">Desktop</target>
+        </trans-unit>
+        <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
+          <source>Parent folder</source>
+          <target state="new">Parent folder</target>
+        </trans-unit>
+        <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut or link</source>
+          <target state="new">Create shortcut or link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
+        </trans-unit>
+        <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut</source>
+          <target state="new">Shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
+          <source>Create in</source>
+          <target state="new">Create in</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
+        </trans-unit>
+        <trans-unit id="Target" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="new">Target</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
+        </trans-unit>
+        <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut (.lnk)</source>
+          <target state="new">Shortcut (.lnk)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
       </group>
     </body>

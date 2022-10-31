@@ -258,16 +258,19 @@
           <target state="translated">이미 구입했나요?</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
-          <source>Anonymized Hardware ID:</source>
-          <target state="translated">익명 하드웨어 ID:</target>
+          <source>Machine ID:</source>
+          <target state="needs-review-translation">익명 하드웨어 ID:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
           <target state="translated">하드웨어 ID를 복사한 뒤 OneCommander.com 사이트에 접속합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
-          <source>Generating Anonymized Hardware ID... </source>
-          <target state="translated">익명 하드웨어 ID 생성... </target>
+          <source>Generating Anonymized Machine ID... </source>
+          <target state="needs-review-translation">익명 하드웨어 ID 생성... </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -278,8 +281,9 @@
           <target state="translated">Microsoft Store 에서 받기</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
-          <source>License code:</source>
-          <target state="translated" state-qualifier="mt-suggestion">라이센스 코드:</target>
+          <source>License key:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">라이센스 코드:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -296,6 +300,7 @@
         <trans-unit id="PortableLicenseInfo" translate="yes" xml:space="preserve">
           <source>The license is valid for this computer only</source>
           <target state="translated">이 컴퓨터에 대해서만 라이센스가 유효합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
           <source>One Commander is free for HOME use with a limited features set.
@@ -312,10 +317,12 @@ For commercial use, the PRO license is required, regardless if the user needs th
           <target state="translated">1. 위의 버튼을 사용하여 구매 페이지를 열고 하드웨어 ID(클립보드에 복사한 뒤)를 붙여 넣은 다음 이메일을 입력하세요.
 2. 구매를 완료한 후 활성화 코드가 있는 자동응답 이메일을 받아야 합니다. (미수신시 스팸 확인)
 3. 아래 항목에 이메일로부터 받은 라이센스 정보를 붙여 넣습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
           <target state="translated">4. 모든 기능을 활성화하기 위해 프로그램을 다시 시작하세요.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
           <source>Error checking Microsoft Store</source>
@@ -361,6 +368,18 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">추가 옵션</target>
+        </trans-unit>
+        <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
+          <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows는 기본 웹 브라우저를 https://onecommander.com/license.html 것을 거부했습니다. 웹 브라우저를 수동으로 열고 컴퓨터 ID를 붙여 넣으십시오 (이미 클립 보드에 복사되어 붙여 넣을 준비가되었습니다).</target>
+        </trans-unit>
+        <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
+          <source>Purchase on OneCommander.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander.com 에서 구매</target>
+        </trans-unit>
+        <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
+          <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">입력한 라이선스 키가 이 컴퓨터 ID와 일치하지 않습니다. 다른 컴퓨터에 대한 Pro 라이선스를 구입하여 이 컴퓨터로 이동하려면 원래 구매 확인 이메일에 회신하고 위의 컴퓨터 ID를 포함합니다.</target>
         </trans-unit>
       </group>
     </body>
@@ -798,11 +817,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">수술</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
-          <target state="new">Invalid RegEx syntax</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">잘못된 정규식 구문</target>
         </trans-unit>
       </group>
     </body>
@@ -1405,6 +1424,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PreviewWindowOptQuicklook" translate="yes" xml:space="preserve">
           <source>QuickLook (must be manually installed)</source>
           <target state="translated">QuickLook (별도 설치 필요)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PreviewWindowQuestion" translate="yes" xml:space="preserve">
           <source>Preview window</source>
@@ -1747,9 +1767,10 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
           <target state="translated">단축키 등록 취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
-          <source>This works only on a few versions of Windows 10</source>
+          <source>This works only on some versions of Windows</source>
           <target state="needs-review-translation">Windows 인사이더 빌드 새 버전에서 작동하지 않을 수 있습니다.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
@@ -2139,74 +2160,133 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows 전역 축소판 캐시를 지웁니다(탐색기용).</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="new">File name maximum lines</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일 이름 최대 줄 수</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view</source>
-          <target state="new">For Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">그리드 보기의 경우</target>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
-          <target state="new">Open Office files through Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">탐색기를 통해 Office 파일 열기</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source>Show Scripts button</source>
-          <target state="new">Show Scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스크립트 보기 단추</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
-          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">예제는 \리소스\스크립트\ 폴더를 참조하세요. PRO 사용자는 8개 이상의 스크립트를 가질 수 있습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
-          <target state="new">Know the scripts you are running! Security risk!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">실행중인 스크립트를 알고 있습니다! 보안 위험!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PowerShell 스크립트 대신 외부 One Commander 업데이터 프로그램 사용</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
-          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">탐색기 미리 보기 사용(셸 파일 미리 보기)</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이렇게 하면 Microsoft Office 및 일부 추가 형식을 미리 볼 수 있는 미리 보기 창(스페이스바로 열림)에서 사용할 수 있지만 Office 파일 탐색기 미리 보기의 보안 취약성으로 인해 기본적으로 꺼져 있습니다. 자신의 책임하에 활성화하십시오! 다시 시작해야 합니다.</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
-          <target state="new">Show a dialog to confirm running script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스크립트 실행을 확인하는 대화 상자 표시</target>
         </trans-unit>
         <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
           <source>File name position in Grid view</source>
-          <target state="new">File name position in Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">그리드 보기의 파일 이름 위치</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
           <source>Override file background color</source>
-          <target state="new">Override file background color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일 배경색 재정의</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="new">Block window when Shell Context Menu is open</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">셸 상황에 맞는 메뉴가 열려 있을 때 창 차단</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="new">Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">상황에 맞는 메뉴를 닫을 때 우발적인 상호 작용을 방지합니다. 위의 단일 클릭 상호 작용 중 하나라도 활성화된 경우 필요합니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
-          <target state="new">Email naming format (drag from Outlook)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">전자 메일 이름 지정 형식(Outlook에서 끌기)</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
-          <target state="new">$SentOn will be replaced by date in this format:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">$SentOn는 다음 형식의 날짜로 대체됩니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">행동</target>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
+          <source>Capture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사로잡다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">열쇠</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">원문 언어</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
+        </trans-unit>
+        <trans-unit id="Changed" translate="yes" xml:space="preserve">
+          <source>Changed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">변경</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
+          <source>Conflict with</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">와 충돌</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">인상착의: __________</target>
+        </trans-unit>
+        <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
+          <source>Shortcut Editor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">단축키 편집기</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
+          <source>Use custom shortcuts</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용자 설정 단축키 사용</target>
+        </trans-unit>
+        <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
+          <source>(Must be installed and running)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">(설치 및 실행 중이어야 함)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
+          <source>Press a desired key combination to capture it</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">원하는 키 조합을 눌러 캡처합니다.</target>
+        </trans-unit>
+        <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
+          <source>Add "Open in One Commander" context menu</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">"한 사령관에서 열기" 상황에 맞는 메뉴 추가</target>
+        </trans-unit>
+        <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
+          <source>Open in {0}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}에서 영업 중</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
         </trans-unit>
       </group>
     </body>
@@ -2874,8 +2954,9 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Error when user tried to open folder that doens't exist (by entering path, or starting with command line switch)</note>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
-          <source>Multiple connections to a server from the same computer with different usernames are not allowed</source>
-          <target state="translated" state-qualifier="mt-suggestion">서로 다른 사용자 이름을 가진 동일한 컴퓨터에서 서버에 대한 여러 연결이 허용되지 않습니다.</target>
+          <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">서로 다른 사용자 이름을 가진 동일한 컴퓨터에서 서버에 대한 여러 연결이 허용되지 않습니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
@@ -2910,8 +2991,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">이 경로 형식은 지원되지 않습니다.</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
-          <source>http(s) and (s)ftp are not supported. Enter \\hostname\</source>
-          <target state="translated">http(s) 및 (s)ftp는 지원되지 않습니다. \\hostname\를 입력하세요.</target>
+          <source>http(s) and (s)ftp are not supported</source>
+          <target state="needs-review-translation">http(s) 및 (s)ftp는 지원되지 않습니다. \\hostname\를 입력하세요.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -3744,131 +3826,184 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">다음에 필요할 때 레이아웃, 위치 및 탭을 저장할 수 있도록 새 창에 이름을 지정하십시오.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="new">Scripts</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스크립트</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="new">Invalid name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">잘못된 이름</target>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="new">Color Tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">색상 태그</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
           <source>Open in new window</source>
-          <target state="new">Open in new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">새 창에서 열기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
           <source>Drag within Favorites/Tabs to rearrange</source>
-          <target state="new">Drag within Favorites/Tabs to rearrange</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">즐겨찾기/탭 내에서 드래그하여 재정렬</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line1</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
           <source>Drag outside of window to create a new window</source>
-          <target state="new">Drag outside of window to create a new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">창 밖으로 드래그하여 새 창 만들기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="new">Rename failed. File might be opened in another program or user doesn't have access permissions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이름 바꾸기에 실패했습니다. 파일이 다른 프로그램에서 열렸거나 사용자에게 액세스 권한이 없을 수 있습니다.</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="new">Photo date taken</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사진 촬영 날짜</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="new">Media duration</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">미디어 지속 시간</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="new">Media resolution</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">미디어 해상도</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="new">Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">메뉴 줄 아래의 정렬 옵션은 실제 파일 속성이 아닌 메타데이터 속성입니다. 이 정렬을<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> 사용하는 폴더 나 탭을 열 때 &amp;lt;bpt id = &amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id = &amp;gt;&amp;lt; / b&amp;gt;로 정렬하면 프로그램이 &amp;lt;bpt id = &amp;gt;&amp;lt;2"b&amp;gt;freeze&amp;lt;ept id = "2"&amp;gt;&amp;lt; / b&amp;gt;가됩니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
           <source>About/Help</source>
-          <target state="new">About/Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">정보/도움말</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="new">Open shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">바로 가기 대상 열기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="new">Error getting shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">바로 가기 대상을 가져오는 중 오류 발생</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="new">Source program sent incomplete or corrupted file data</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">소스 프로그램이 불완전하거나 손상된 파일 데이터를 보냈습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="new">Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">디스크가 절전 상태입니다. 폴더에 액세스하면 디스크가 깨어나 응답 할 때까지 몇 초 동안 프로그램이 정지 될 수 있습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="new">Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows 전원 관리 옵션 절전 설정으로 인해 디스크를 {0}초 동안 사용할 수 없습니다.</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="new">Network storage took {0} seconds to respond</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">네트워크 스토리지가 응답하는 데 {0}초가 걸렸습니다.</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="new">Waking disk up...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">디스크 깨우기 중...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="new">Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows 전원 관리 옵션에서 디스크의 절전 지연 변경 이 문제가 너무 자주 발생하여 속도가 느려집니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="new">Text/plain</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">텍스트/일반</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일이 {0}.&lt;br/&gt;({1})&lt;br/&gt;재시도 작업에서 사용 중입니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by another process.&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일이 다른 프로세스에서 사용 중입니다.&lt;br/&gt;재시도 작업?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="new">Size in MiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MiB 단위의 크기</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
-          <target state="new">Calculating...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">계산...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">폴더 크기는 액세스할 수 있는 폴더 및 파일의 전체 트리가 있고 Windows에서 인덱싱한 폴더에 대해서만 계산할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
+          <source>Alt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
+          <source>Ctrl</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">교대</target>
+        </trans-unit>
+        <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">바로 가기 만들기</target>
+        </trans-unit>
+        <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
+          <source>Current folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">현재 폴더</target>
+        </trans-unit>
+        <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
+          <source>Desktop</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">바탕 화면</target>
+        </trans-unit>
+        <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
+          <source>Parent folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">상위 폴더</target>
+        </trans-unit>
+        <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut or link</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">바로 가기 또는 링크 만들기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
+        </trans-unit>
+        <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">지름길</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
+          <source>Create in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">생성 위치</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
+        </trans-unit>
+        <trans-unit id="Target" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">과녁</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
+        </trans-unit>
+        <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut (.lnk)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">단축키 (.lnk)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
       </group>
     </body>

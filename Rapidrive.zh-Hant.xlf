@@ -258,16 +258,19 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">已購買？</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
-          <source>Anonymized Hardware ID:</source>
+          <source>Machine ID:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">匿名硬體 ID：</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">按兩下將硬體ID複製到剪貼板並打開 OneCommander.com</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
-          <source>Generating Anonymized Hardware ID... </source>
+          <source>Generating Anonymized Machine ID... </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">產生匿名硬體 ID...</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -278,8 +281,9 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">在微軟商店獲取</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
-          <source>License code:</source>
+          <source>License key:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">許可證代碼：</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -296,6 +300,7 @@
         <trans-unit id="PortableLicenseInfo" translate="yes" xml:space="preserve">
           <source>The license is valid for this computer only</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">許可證僅對此計算機有效</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
           <source>One Commander is free for HOME use with a limited features set.
@@ -312,10 +317,12 @@ For commercial use, the PRO license is required, regardless if the user needs th
           <target state="needs-review-translation" state-qualifier="mt-suggestion">1.使用上面的按鈕打開購買頁面並粘貼硬體ID（它應該已經在剪貼板上），然後輸入您的電子郵件
 2.完成購買后，您應該會收到一封包含啟動碼的自動電子郵件（也請檢查垃圾郵件）
 3. 將電子郵件中的許可證粘貼到下面的欄位中</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">4.重新啟動程式以啟動所有功能</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
           <source>Error checking Microsoft Store</source>
@@ -360,6 +367,18 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">更多選擇</target>
+        </trans-unit>
+        <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
+          <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows拒絕打開預設的Web瀏覽器 https://onecommander.com/license.html。請手動開啟網路瀏覽器並貼上機器 ID（它已經複製到剪貼簿上並準備貼上）</target>
+        </trans-unit>
+        <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
+          <source>Purchase on OneCommander.com</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander.com 購買</target>
+        </trans-unit>
+        <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
+          <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">輸入的許可證金鑰與此電腦 ID 不匹配。如果您購買了另一台計算機的 Pro 許可證並希望將其移動到這台電腦，請回復原始購買確認電子郵件並包含上面的電腦 ID。</target>
         </trans-unit>
       </group>
     </body>
@@ -796,11 +815,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">操作</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
-          <target state="new">Invalid RegEx syntax</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正則表達式語法無效</target>
         </trans-unit>
       </group>
     </body>
@@ -1456,6 +1475,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PreviewWindowOptQuicklook" translate="yes" xml:space="preserve">
           <source>QuickLook (must be manually installed)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">快速尋找（必須手動安裝 ）</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PreviewWindowQuestion" translate="yes" xml:space="preserve">
           <source>Preview window</source>
@@ -1829,10 +1849,12 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">註銷熱鍵</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
-          <source>This works only on a few versions of Windows 10</source>
+          <source>This works only on some versions of Windows</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">這僅適用於Windows 10的幾個版本</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where One Commander is open</source>
@@ -2127,74 +2149,133 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">清除 Windows 全域縮圖快取（也適用於資源管理員 ）</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="new">File name maximum lines</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔名最大行數</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view</source>
-          <target state="new">For Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">對於網格檢視</target>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
-          <target state="new">Open Office files through Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">通過資源管理器打開 Office 檔</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source>Show Scripts button</source>
-          <target state="new">Show Scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">“顯示腳本”按鈕</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
-          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">有關範例，請參閱 \資源\腳本\ 資料夾。PRO 用戶可以擁有8個以上的腳本。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
-          <target state="new">Know the scripts you are running! Security risk!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">瞭解您正在運行的腳本！安全隱患！</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用外部 One Commander 更新程式程式而不是 PowerShell 腳本</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
-          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">開啟資源管理器預覽（Shell 檔案預覽）</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這將在預覽視窗中預覽Microsoft Office和一些其他格式（使用空格鍵打開），但由於Office文件資源管理器預覽的安全漏洞，默認情況下處於關閉狀態。啟用風險自負！需要重新啟動。</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
-          <target state="new">Show a dialog to confirm running script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">顯示對話框以確認正在運行的腳本</target>
         </trans-unit>
         <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
           <source>File name position in Grid view</source>
-          <target state="new">File name position in Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">網格檢視中的檔名位置</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
           <source>Override file background color</source>
-          <target state="new">Override file background color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">覆蓋檔背景色</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="new">Block window when Shell Context Menu is open</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shell 上下文功能表打開時的阻止視窗</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="new">Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">防止在關閉上下文功能表時意外交互。如果啟用了上述任何按兩下交互，則需要它</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
-          <target state="new">Email naming format (drag from Outlook)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">電子郵件命名格式（從 Outlook 拖動）</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
-          <target state="new">$SentOn will be replaced by date in this format:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">$SentOn將以以下格式取代為日期：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">行動</target>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
+          <source>Capture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">捕獲</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">鑰匙</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
+        </trans-unit>
+        <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">源語言</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
+        </trans-unit>
+        <trans-unit id="Changed" translate="yes" xml:space="preserve">
+          <source>Changed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">改變</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
+          <source>Conflict with</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">與衝突</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+        </trans-unit>
+        <trans-unit id="Description" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">描述： __________</target>
+        </trans-unit>
+        <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
+          <source>Shortcut Editor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">快捷方式編輯器</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
+          <source>Use custom shortcuts</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用自定義快捷方式</target>
+        </trans-unit>
+        <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
+          <source>(Must be installed and running)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">（ 必須已安裝並執行 ）</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
+          <source>Press a desired key combination to capture it</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">按所需的組合鍵以捕獲它</target>
+        </trans-unit>
+        <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
+          <source>Add "Open in One Commander" context menu</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">添加“在一個指揮官中打開”上下文功能表</target>
+        </trans-unit>
+        <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
+          <source>Open in {0}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}開放</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
         </trans-unit>
       </group>
     </body>
@@ -2903,8 +2984,9 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
-          <source>Multiple connections to a server from the same computer with different usernames are not allowed</source>
+          <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">不允許從具有不同使用者名的同一台電腦到伺服器的多個連接</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
@@ -2939,8 +3021,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">不支援此路徑格式</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
-          <source>http(s) and (s)ftp are not supported. Enter \\hostname\</source>
+          <source>http(s) and (s)ftp are not supported</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">不支援 HTTP（s） 和 （s）ftp。輸入 \\主機名\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -3725,131 +3808,184 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">為新視窗命名以保存其佈局，位置和選項卡，以備下次需要時使用</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="new">Scripts</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">腳本</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="new">Invalid name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">名稱無效</target>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="new">Color Tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">顏色標籤</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
           <source>Open in new window</source>
-          <target state="new">Open in new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在新視窗中打開</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
           <source>Drag within Favorites/Tabs to rearrange</source>
-          <target state="new">Drag within Favorites/Tabs to rearrange</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在我的最愛/標籤內拖動以重新排列</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line1</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
           <source>Drag outside of window to create a new window</source>
-          <target state="new">Drag outside of window to create a new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">拖動到視窗外以創建新視窗</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="new">Rename failed. File might be opened in another program or user doesn't have access permissions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重新命名失敗。檔可能在另一個程式中打開，或者用戶沒有訪問許可權。</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="new">Photo date taken</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">拍攝日期</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="new">Media duration</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">媒體持續時間</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="new">Media resolution</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">媒體解析度</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="new">Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">功能表行下方的排序選項是元數據屬性，而不是實際文件屬性。按這些排序是 &amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;slow<it id="1" pos="close">&lt;/bpt&gt;</it>&amp;lt;ept<it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it> id=“1”&amp;gt;&amp;lt;/b&amp;gt;，並且會導致程式在打開使用此排序的文件夾或選項卡時&amp;lt;bpt id=“2”&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id=“2”&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it>。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
           <source>About/Help</source>
-          <target state="new">About/Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">關於/説明</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="new">Open shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">打開快捷方式目標</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="new">Error getting shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">獲取快捷方式目標時出錯</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="new">Source program sent incomplete or corrupted file data</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">原始程式發送的檔案資料不完整或損壞</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="new">Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">磁碟處於睡眠狀態。訪問其上的任何資料夾可能會凍結程式幾秒鐘，直到磁碟喚醒並回應。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="new">Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">由於 Windows 電源計劃睡眠設置，磁碟不可用 {0} 秒</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="new">Network storage took {0} seconds to respond</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">網路存儲需要 {0} 秒才能回應</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="new">Waking disk up...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正在喚醒磁碟...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="new">Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">變更 Windows 電源計畫中磁碟的睡眠延遲（如果這種情況發生得太頻繁並減慢您的速度）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="new">Text/plain</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">文字/純文字</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔正由 {0}.&lt;br/&gt;（{1}）&lt;br/&gt;重試操作使用？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by another process.&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔正被另一個進程使用。&lt;br/&gt;重試操作？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="new">Size in MiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">大小（以 MiB 為單位）</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
-          <target state="new">Calculating...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">計算。。。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">只能為具有可訪問的資料夾和文件的整個樹且 Windows 已為它們編制索引的資料夾計算資料夾大小</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
+          <source>Alt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">替代項</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
+          <source>Ctrl</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">按</target>
+        </trans-unit>
+        <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">轉變</target>
+        </trans-unit>
+        <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">創建快捷方式</target>
+        </trans-unit>
+        <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
+          <source>Current folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">當前資料夾</target>
+        </trans-unit>
+        <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
+          <source>Desktop</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">桌面</target>
+        </trans-unit>
+        <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
+          <source>Parent folder</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">父資料夾</target>
+        </trans-unit>
+        <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut or link</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">創建快捷方式或連結</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
+        </trans-unit>
+        <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">捷徑</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
+        </trans-unit>
+        <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
+          <source>Create in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">創建於</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
+        </trans-unit>
+        <trans-unit id="Target" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">目標</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
+        </trans-unit>
+        <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
+          <source>Shortcut (.lnk)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">快捷方式 （.lnk）</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
       </group>
     </body>
