@@ -106,6 +106,7 @@
         <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
           <source>CTRL + V</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">CTRL + V</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
           <source>Paste from Clipboard</source>
@@ -127,6 +128,7 @@
         <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
           <source>CTRL + N</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">CTRL + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
@@ -135,6 +137,7 @@
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">CTRL + SHIFT + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
           <source>Create new folder</source>
@@ -143,6 +146,7 @@
         <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
           <source>ALT + N</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ALT + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
@@ -187,6 +191,7 @@
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
           <target state="translated">CTRL + T za kreiranje jezička| CTRL + W da biste zatvorili trenutni | CTRL + TAB za prebacivanje na sledeći jezičak</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTab_TT" translate="yes" xml:space="preserve">
           <source>Create new tab</source>
@@ -195,6 +200,7 @@
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">\ ili Alt+D</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="EditPath_TT" translate="yes" xml:space="preserve">
           <source>Edit path</source>
@@ -1016,9 +1022,10 @@
           <target state="translated">Ovo nije važeći format datuma u .NET standardu. Originalni format je vraćen</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu One Commander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <target state="needs-review-translation">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu One Commander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
           <note from="MultilingualEditor" annotates="source" priority="4">test</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -1734,6 +1741,46 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <target state="new">Shortcut (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
+        <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
+          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
+        </trans-unit>
+        <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
+          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
+          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
+        </trans-unit>
+        <trans-unit id="Network" translate="yes" xml:space="preserve">
+          <source>Network</source>
+          <target state="new">Network</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
+        </trans-unit>
+        <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
+          <source>Hold Ctrl while pressing close button to close the program completely</source>
+          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
+          <source>Scan network</source>
+          <target state="new">Scan network</target>
+        </trans-unit>
+        <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
+          <source>Hide Networks group from sidebar</source>
+          <target state="new">Hide Networks group from sidebar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
+        </trans-unit>
+        <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
+          <source>Close other tabs</source>
+          <target state="new">Close other tabs</target>
+        </trans-unit>
+        <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
+          <source>Close tab</source>
+          <target state="new">Close tab</target>
+        </trans-unit>
+        <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
+          <source>Reopen closed tab</source>
+          <target state="new">Reopen closed tab</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2043,6 +2090,7 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
         <trans-unit id="ShowHiddenShortcut" translate="yes" xml:space="preserve">
           <source>Global shortcut: Ctrl+H</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Globalna prečica: Ctrl+H</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show system files and folders</source>
@@ -2164,6 +2212,7 @@ Napomena: program svakako može nastaviti sa radom ako postoje aktivne operacije
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
           <target state="translated">F10 (Ctrl za admin mod)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="CreateDefaultSidebarFolders" translate="yes" xml:space="preserve">
           <source>Create default sidebar folders</source>
@@ -3206,6 +3255,57 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <source>Open in {0}</source>
           <target state="new">Open in {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+        </trans-unit>
+        <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
+          <source>Download cloud files when previewing</source>
+          <target state="new">Download cloud files when previewing</target>
+        </trans-unit>
+        <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
+          <source>Get thumbnails of cloud files</source>
+          <target state="new">Get thumbnails of cloud files</target>
+        </trans-unit>
+        <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
+          <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
+          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+        </trans-unit>
+        <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
+          <source>Add to user PATH variable</source>
+          <target state="new">Add to user PATH variable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
+          <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
+          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
+          <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
+          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
+          <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
+          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+        </trans-unit>
+        <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
+          <source>Show Networks group in sidebar</source>
+          <target state="new">Show Networks group in sidebar</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
+          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
+          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+        </trans-unit>
+        <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
+          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+        </trans-unit>
+        <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
+          <source>Shift + Right Click always opens the full context menu</source>
+          <target state="new">Shift + Right Click always opens the full context menu</target>
+        </trans-unit>
+        <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
+          <source>Smooth scrolling with mouse wheel</source>
+          <target state="new">Smooth scrolling with mouse wheel</target>
         </trans-unit>
       </group>
     </body>

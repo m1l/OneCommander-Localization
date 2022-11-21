@@ -147,6 +147,7 @@
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
           <target state="translated">F10 (STRG zum Erhöhen)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ContextMenuItemExample" translate="yes" xml:space="preserve">
           <source>Example Menu Item</source>
@@ -603,6 +604,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="ShowHiddenShortcut" translate="yes" xml:space="preserve">
           <source>Global shortcut: Ctrl+H</source>
           <target state="translated">Globale Tastenkombination: STRG+H</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
@@ -765,8 +767,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
           <source>This works only on some versions of Windows</source>
-          <target state="needs-review-translation">Dies funktioniert nur bei wenigen Versionen von Windows 10</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Dies funktioniert nur bei einigen Versionen von Windows</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where One Commander is open</source>
@@ -1393,62 +1394,113 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
           <source>Action</source>
-          <target state="new">Action</target>
+          <target state="translated">Aktion</target>
         </trans-unit>
         <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
           <source>Capture</source>
-          <target state="new">Capture</target>
+          <target state="translated">Erfassen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
         </trans-unit>
         <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
           <source>Key</source>
-          <target state="new">Key</target>
+          <target state="translated">Taste</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
         </trans-unit>
         <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
           <source>Original</source>
-          <target state="new">Original</target>
+          <target state="translated">Original</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
         </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
-          <target state="new">Changed</target>
+          <target state="translated">Geändert</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
-          <target state="new">Conflict with</target>
+          <target state="translated">In Konflikt mit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
+          <target state="translated">Beschreibung</target>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcut Editor</source>
-          <target state="new">Shortcut Editor</target>
+          <target state="translated">Shortcut Editor</target>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
-          <target state="new">Use custom shortcuts</target>
+          <target state="translated">Eigene Shortcuts verwenden</target>
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
           <source>(Must be installed and running)</source>
-          <target state="new">(Must be installed and running)</target>
+          <target state="translated">(Muss installiert sein und laufen)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
         </trans-unit>
         <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
           <source>Press a desired key combination to capture it</source>
-          <target state="new">Press a desired key combination to capture it</target>
+          <target state="translated">Zum Erfassen gewünschte Tastenkombination drücken</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
           <source>Add "Open in One Commander" context menu</source>
-          <target state="new">Add "Open in One Commander" context menu</target>
+          <target state="translated">Kontextmenü "Öffnen in One Commander" hinzufügen</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
-          <target state="new">Open in {0}</target>
+          <target state="translated">Öffnen in {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+        </trans-unit>
+        <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
+          <source>Add to user PATH variable</source>
+          <target state="new">Add to user PATH variable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
+          <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
+          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
+          <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
+          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
+          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+        </trans-unit>
+        <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
+          <source>Get thumbnails of cloud files</source>
+          <target state="new">Get thumbnails of cloud files</target>
+        </trans-unit>
+        <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
+          <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
+          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+        </trans-unit>
+        <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
+          <source>Shift + Right Click always opens the full context menu</source>
+          <target state="new">Shift + Right Click always opens the full context menu</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
+          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
+          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+        </trans-unit>
+        <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
+          <source>Download cloud files when previewing</source>
+          <target state="new">Download cloud files when previewing</target>
+        </trans-unit>
+        <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
+          <source>Show Networks group in sidebar</source>
+          <target state="new">Show Networks group in sidebar</target>
+        </trans-unit>
+        <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
+          <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
+          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+        </trans-unit>
+        <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
+          <source>Smooth scrolling with mouse wheel</source>
+          <target state="new">Smooth scrolling with mouse wheel</target>
         </trans-unit>
       </group>
     </body>
@@ -1518,6 +1570,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
           <source>CTRL + V</source>
           <target state="translated">STRG + V</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
           <source>Paste from Clipboard</source>
@@ -1616,9 +1669,10 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
           <target state="translated">Dies ist kein gültiges Datumsformat im .NET Standard. Zurücksetzen auf Standardeinstellung</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">Portable Programme benötigen einen Schreibzugriff in ihren eigenen Ordnern, sie können also nicht im Ordner "Programme" liegen. Bitte verschieben Sie den gesamten Ordner in einen &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;nichtsystemordner&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; und führen Sie ihn erneut aus.</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <target state="needs-review-translation">Portable Programme benötigen einen Schreibzugriff in ihren eigenen Ordnern, sie können also nicht im Ordner "Programme" liegen. Bitte verschieben Sie den gesamten Ordner in einen &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;nichtsystemordner&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; und führen Sie ihn erneut aus.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
           <source>Please use only letters, numbers, and - or _</source>
@@ -1674,6 +1728,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
           <target state="translated" state-qualifier="mt-suggestion">\ oder ALT+D</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="EditPath_TT" translate="yes" xml:space="preserve">
           <source>Edit path</source>
@@ -1996,8 +2051,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
           <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
-          <target state="needs-review-translation">Mehrere Verbindungen zu einem Server vom selben Computer mit verschiedenen Benutzernamen sind nicht erlaubt</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Mehrere Verbindungen zu einem Server vom selben Computer mit verschiedenen Benutzernamen sind unter Windows nicht zulässig</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
@@ -2033,8 +2087,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
           <source>http(s) and (s)ftp are not supported</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">http(s) und (s)ftp werden nicht unterstützt. Geben Sie \\Hostname\ ein.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">http(s) und (s)ftp werden nicht unterstützt</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -2272,6 +2325,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
           <source>CTRL + N</source>
           <target state="translated">STRG + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
@@ -2280,6 +2334,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
           <target state="translated" state-qualifier="mt-suggestion">STRG + UMSCHALT + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
           <source>Create new folder</source>
@@ -2300,6 +2355,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
           <source>ALT + N</source>
           <target state="translated" state-qualifier="mt-suggestion">ALT + N</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
@@ -2308,6 +2364,7 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
           <target state="translated">STRG + T zum Erstellen | STRG + W zum Schließen der Auswahl | STRG + TAB zum Wechseln zur nächsten Registerkarte</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTab_TT" translate="yes" xml:space="preserve">
           <source>Create new tab</source>
@@ -3107,56 +3164,96 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
-          <target state="new">Alt</target>
+          <target state="translated">Alt</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
           <source>Ctrl</source>
-          <target state="new">Ctrl</target>
+          <target state="translated">Strg</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
           <source>Shift</source>
-          <target state="new">Shift</target>
+          <target state="translated">Umschalt</target>
         </trans-unit>
         <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="translated">Shortcut erstellen</target>
         </trans-unit>
         <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
           <source>Current folder</source>
-          <target state="new">Current folder</target>
+          <target state="translated">Aktueller Ordner</target>
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="new">Desktop</target>
+          <target state="translated">Desktop</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
-          <target state="new">Parent folder</target>
+          <target state="translated">Stammordner</target>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
-          <target state="new">Create shortcut or link</target>
+          <target state="translated">Shortcut oder Verknüpfung erstellen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
         </trans-unit>
         <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
           <source>Shortcut</source>
-          <target state="new">Shortcut</target>
+          <target state="translated">Shortcut</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
           <source>Create in</source>
-          <target state="new">Create in</target>
+          <target state="translated">Erstellen in</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
         </trans-unit>
         <trans-unit id="Target" translate="yes" xml:space="preserve">
           <source>Target</source>
-          <target state="new">Target</target>
+          <target state="translated">Ziel</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
         </trans-unit>
         <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
           <source>Shortcut (.lnk)</source>
-          <target state="new">Shortcut (.lnk)</target>
+          <target state="translated">Shortcut (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
+        </trans-unit>
+        <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
+          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
+        </trans-unit>
+        <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
+          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
+          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
+        </trans-unit>
+        <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
+          <source>Scan network</source>
+          <target state="new">Scan network</target>
+        </trans-unit>
+        <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
+          <source>Hide Networks group from sidebar</source>
+          <target state="new">Hide Networks group from sidebar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
+        </trans-unit>
+        <trans-unit id="Network" translate="yes" xml:space="preserve">
+          <source>Network</source>
+          <target state="new">Network</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
+        </trans-unit>
+        <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
+          <source>Hold Ctrl while pressing close button to close the program completely</source>
+          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+        </trans-unit>
+        <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
+          <source>Close other tabs</source>
+          <target state="new">Close other tabs</target>
+        </trans-unit>
+        <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
+          <source>Close tab</source>
+          <target state="new">Close tab</target>
+        </trans-unit>
+        <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
+          <source>Reopen closed tab</source>
+          <target state="new">Reopen closed tab</target>
         </trans-unit>
       </group>
     </body>
@@ -3173,8 +3270,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
           <source>Machine ID:</source>
-          <target state="needs-review-translation">Anonymisierte Hardware-ID:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Hardware-ID:</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
@@ -3183,8 +3279,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
           <source>Generating Anonymized Machine ID... </source>
-          <target state="needs-review-translation">Anonymisierte Hardware-ID generieren... </target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Anonymisierte Hardware-ID generieren... </target>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -3196,8 +3291,7 @@ Einige Programme können Dateien aus diesem Ordner nicht öffnen/speichern</targ
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
           <source>License key:</source>
-          <target state="needs-review-translation">Lizenzcode:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Lizenzschlüssel:</target>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -3285,15 +3379,15 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         </trans-unit>
         <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
           <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
-          <target state="new">Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</target>
+          <target state="translated">Windows weigert sich, den Standard-Webbrowser für https://onecommander.com/license.html zu öffnen. Bitte öffnen Sie den Webbrowser manuell und fügen Sie die Maschinen-ID ein (sie ist bereits in die Zwischenablage kopiert und bereit zum Einfügen)</target>
         </trans-unit>
         <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
           <source>Purchase on OneCommander.com</source>
-          <target state="new">Purchase on OneCommander.com</target>
+          <target state="translated">Auf OneCommander.com kaufen</target>
         </trans-unit>
         <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
-          <target state="new">The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</target>
+          <target state="translated">Der eingegebene Lizenzschlüssel stimmt nicht mit dieser Maschinen-ID überein. Wenn Sie eine Pro-Lizenz für einen anderen Computer erworben haben und diese auf diesen übertragen möchten, antworten Sie auf die ursprüngliche Kaufbestätigungs-E-Mail und geben Sie die oben angegebene Computer-ID an.</target>
         </trans-unit>
       </group>
     </body>
