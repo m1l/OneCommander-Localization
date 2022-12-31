@@ -259,8 +259,7 @@
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
           <source>Machine ID:</source>
-          <target state="needs-review-translation">익명 하드웨어 ID:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">하드웨어 ID:</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
@@ -269,8 +268,7 @@
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
           <source>Generating Anonymized Machine ID... </source>
-          <target state="needs-review-translation">익명 하드웨어 ID 생성... </target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">익명 하드웨어 ID 생성 중... </target>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
@@ -704,7 +702,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="translated">상태 영역에 쉘 출력 표시 (그렇지 않으면 CMD 창이 열립니다)</target>
+          <target state="translated">상태 영역에 셸 출력 표시 (그렇지 않으면 CMD 창이 열립니다)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
@@ -978,7 +976,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="CommandShell" translate="yes" xml:space="preserve">
           <source>Command shell</source>
-          <target state="translated" state-qualifier="mt-suggestion">명령 쉘</target>
+          <target state="translated">명령 셸</target>
         </trans-unit>
         <trans-unit id="CommandShellArgs" translate="yes" xml:space="preserve">
           <source>Arguments</source>
@@ -1116,7 +1114,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
-          <target state="translated">제외할 탐색기 메뉴 항목</target>
+          <target state="translated">제외된 Shell 컨텍스트 메뉴 항목</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
           <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
@@ -1934,8 +1932,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">외부 소스에서 열린 경로:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab</source>
+          <source>Existing tab with the same path</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">기존 탭</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -2005,6 +2004,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">색상 에 태그 색상 배경</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
@@ -2109,7 +2109,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">어둠</target>
+          <target state="translated">다크</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
@@ -2215,11 +2215,11 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">셸 상황에 맞는 메뉴가 열려 있을 때 창 차단</target>
+          <target state="translated">Shell 컨텍스트 메뉴가 열려 있을 때 창 차단</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">상황에 맞는 메뉴를 닫을 때 우발적인 상호 작용을 방지합니다. 위의 단일 클릭 상호 작용 중 하나라도 활성화된 경우 필요합니다.</target>
+          <target state="translated">컨텍스트 메뉴를 닫을 때 우발적인 상호 작용을 방지합니다. 위의 단일 클릭 상호 작용 중 하나라도 활성화된 경우 필요합니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
@@ -2283,63 +2283,100 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
           <source>Add "Open in One Commander" context menu</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">"한 사령관에서 열기" 상황에 맞는 메뉴 추가</target>
+          <target state="translated">컨텍스트 메뉴에 "OneCommander에서 열기" 추가</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}에서 영업 중</target>
+          <target state="translated">{0}에서 열기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="new">Download cloud files when previewing</target>
+          <target state="translated">미리보기 중 클라우드 파일 다운</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="new">Get thumbnails of cloud files</target>
+          <target state="translated">클라우드 파일의 썸네일 가져오기</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+          <target state="translated">이로 인해 클라우드 제공 업체 및 썸네일 핸들러에 따라 클라우드에서 파일이 다운로드 될 수 있습니다. (Onecommander Control 외부)</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="new">Add to user PATH variable</target>
+          <target state="translated">유저 PATH 변수 추가</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <target state="translated">PATH 환경 변수(사용자)에 프로그램 경로를 추가하여 커맨드 라인 어디에서나 시작될 수 있습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <target state="translated">환경 PATH가 추가되었습니다. 업데이트된 변수를 가져오려면 다른 프로그램을 다시 시작해야 할 수도 있습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+          <target state="translated">맞춤 단축키를 활성화하면 추가 단축키가 비활성화되고 사용자 정의 단축키만 사용됩니다.</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="new">Show Networks group in sidebar</target>
+          <target state="translated">사이드바에 네트워크 그룹 표시</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+          <target state="translated">설정 ❯ 창에서 네트워크 사이드바 그룹을 다시 활성화할 수 있습니다.</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+          <target state="translated">18pt보다 큰 글꼴 크기는 공식적으로 지원되지 않으며 일부 텍스트가 잘리거나 정렬되지 않은 것처럼 보일 수 있습니다. Windows 디스플레이 설정에서 배율을 변경하는 것이 추천되는 방식입니다.</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="new">Shift + Right Click always opens the full context menu</target>
+          <target state="translated">Shift + 우클릭으로 항상 전체 컨텍스트 메뉴 열기</target>
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="new">Smooth scrolling with mouse wheel</target>
+          <target state="translated">마우스 휠로 부드럽게 스크롤</target>
+        </trans-unit>
+        <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
+          <source>Failed to modify Windows Registry value</source>
+          <target state="translated">Windows 레지스트리 값을 수정하지 못했습니다.</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
+          <source>Force Microsoft 365/Office to save thumbnails in files</source>
+          <target state="translated">Microsoft 365/Office에서 미리 보기를 파일에 저장하도록 강제 적용</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
+          <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
+          <target state="translated">이것은 다음부터 각 Microsoft 365/Office 파일을 저장할 때 적용됩니다. 기존 파일에는 영향을 주지 않습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
+        </trans-unit>
+        <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
+          <source>Keyboard-focused element display style</source>
+          <target state="translated">키보드 중심 요소 표시 스타일</target>
+        </trans-unit>
+        <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
+          <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
+          <target state="translated">이 옵션을 사용하려면 Windows의 설정/개인 설정/색 에서 투명 효과를 켜세요.</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in menu</source>
+          <target state="translated">메뉴에서 아크릴 효과 사용</target>
+        </trans-unit>
+        <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
+          <source>Maximum file name length</source>
+          <target state="translated">최대 파일 이름 길이</target>
+        </trans-unit>
+        <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
+          <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
+          <target state="translated">다른 소프트웨어와의 최대 호환성을 위해 파일 이름 길이 제한 (Windows의 전체 경로 제한은 260자)</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
+          <source>Current tab</source>
+          <target state="new">Current tab</target>
         </trans-unit>
       </group>
     </body>
@@ -3823,7 +3860,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">창 {0} 삭제?</target>
+          <target state="translated">창 {0} 을 삭제할까요?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
@@ -3838,12 +3875,12 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">휴지통에서 직접 항목을 열 수 없습니다. 먼저 원래 폴더로 복원합니다.</target>
+          <target state="translated">휴지통에서 직접 항목을 열 수 없습니다. 원래 폴더로 먼저 복원하세요.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">선택에서 새 폴더</target>
+          <target state="translated">선택한 항목에서 새 폴더 생성</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
@@ -4067,43 +4104,77 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <target state="translated">일부 다른 소프트웨어가 OneCommander의 파일에 액세스하고 있어 프로그램이 충돌했습니다.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> 폴더는 OneCommander를 닫고 전체 프로그램 폴더를 다른 위치로 이동해야 하는 자동 파일 동기화 또는 클라우드 백업의 일부입니다. &lt;br/&gt;DLL이 로드되는 시점에 바이러스 백신이나 기타 보안 소프트웨어가 프로그램 폴더를 검사하면 충돌이 발생할 수도 있습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <target state="translated">OneCommander는 다음에 즉시 열 수 있도록 백그라운드에서 계속 실행됩니다 &lt;br/&gt;(설정 ❯ 창에서 변경할 수 있음)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="new">Network</target>
+          <target state="translated">네트워크</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+          <target state="translated">Ctrl 키를 누른 상태에서 닫기 버튼을 누르면 프로그램이 완전히 종료됩니다.</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="new">Scan network</target>
+          <target state="translated">네트워크 스캔</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="new">Hide Networks group from sidebar</target>
+          <target state="translated">사이드바에 네트워크 그룹 숨기기</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="new">Close other tabs</target>
+          <target state="translated">다른 탭 닫기</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="new">Close tab</target>
+          <target state="translated">탭 닫기</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
-          <target state="new">Reopen closed tab</target>
+          <target state="translated">닫은 탭 다시 열기</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
+          <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
+          <target state="translated">WMI 서비스가 실행되고 있지 않습니다. PC를 다시 시작할 때까지 USB 디스크 감지가 작동하지 않을 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
+          <source>Move to bottom</source>
+          <target state="translated">맨 아래로 이동</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
+          <source>Move to top</source>
+          <target state="translated">맨 위로 이동</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
+          <source>Message file name was too long. It was shortened to the value defined in settings.</source>
+          <target state="translated">메시지 파일 이름이 너무 깁니다. 설정에서 정의한 값으로 단축되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
+          <source>Path longer than Windows supported (260 characters)
+Some programs won't be able to open this file</source>
+          <target state="translated">Windows가 지원하는 경로보다 깁니다. (260자)
+일부 프로그램은 이 파일을 열 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
+          <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
+          <target state="translated">현재 WSL은 ReadDirectoryChangesW를 사용한 변경 사항 감시를 지원하지 않습니다. Microsoft의 수정을 기다리고 있습니다. 수동으로 새로 고침</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
+        </trans-unit>
+        <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
+          <source>Searching for Linux distros...</source>
+          <target state="translated">리눅스 배포판 검색 중...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
       </group>
     </body>

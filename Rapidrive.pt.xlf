@@ -1934,8 +1934,9 @@ Isso deve ser ativado se o programa for definido como um gerenciador de arquivos
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Abrir caminhos a partir de fonte externa em:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab</source>
+          <source>Existing tab with the same path</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Guia existente</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -2005,6 +2006,7 @@ Isso deve ser ativado se o programa for definido como um gerenciador de arquivos
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fundo de item de cor para marcar cor</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
@@ -2340,6 +2342,43 @@ Isso deve ser ativado se o programa for definido como um gerenciador de arquivos
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
           <target state="new">Smooth scrolling with mouse wheel</target>
+        </trans-unit>
+        <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
+          <source>Failed to modify Windows Registry value</source>
+          <target state="new">Failed to modify Windows Registry value</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
+          <source>Force Microsoft 365/Office to save thumbnails in files</source>
+          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
+          <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
+          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
+        </trans-unit>
+        <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
+          <source>Keyboard-focused element display style</source>
+          <target state="new">Keyboard-focused element display style</target>
+        </trans-unit>
+        <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
+          <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
+          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in menu</source>
+          <target state="new">Use acrylic effect in menu</target>
+        </trans-unit>
+        <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
+          <source>Maximum file name length</source>
+          <target state="new">Maximum file name length</target>
+        </trans-unit>
+        <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
+          <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
+          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
+          <source>Current tab</source>
+          <target state="new">Current tab</target>
         </trans-unit>
       </group>
     </body>
@@ -4106,6 +4145,40 @@ Alguns programas não serão capazes de abrir/salvar arquivos desta pasta</targe
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
           <target state="new">Reopen closed tab</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
+          <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
+          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
+          <source>Move to bottom</source>
+          <target state="new">Move to bottom</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
+          <source>Move to top</source>
+          <target state="new">Move to top</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
+          <source>Message file name was too long. It was shortened to the value defined in settings.</source>
+          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+        </trans-unit>
+        <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
+          <source>Path longer than Windows supported (260 characters)
+Some programs won't be able to open this file</source>
+          <target state="new">Path longer than Windows supported (260 characters)
+Some programs won't be able to open this file</target>
+        </trans-unit>
+        <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
+          <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
+          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
+        </trans-unit>
+        <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
+          <source>Searching for Linux distros...</source>
+          <target state="new">Searching for Linux distros...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
       </group>
     </body>
