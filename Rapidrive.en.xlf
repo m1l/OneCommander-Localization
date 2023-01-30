@@ -662,8 +662,9 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Extracting {0}</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. Replace all?</source>
+          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">File {0} already exists in the destination folder. Replace all?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -1805,6 +1806,53 @@ Some programs won't be able to open this file</target>
           <target state="new">Searching for Linux distros...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
+        <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
+          <source>Folder {0} not available (distro may not be running)</source>
+          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
+          <source>Error compressing file</source>
+          <target state="new">Error compressing file</target>
+        </trans-unit>
+        <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
+          <source>Archive name</source>
+          <target state="new">Archive name</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
+          <source>Remove scripts button</source>
+          <target state="new">Remove scripts button</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
+          <source>Open scripts folder</source>
+          <target state="new">Open scripts folder</target>
+        </trans-unit>
+        <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
+          <source>You can re-enable scripts button from Advanced Settings</source>
+          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+        </trans-unit>
+        <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
+          <source>Wrong password</source>
+          <target state="new">Wrong password</target>
+        </trans-unit>
+        <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
+          <source>Enter password</source>
+          <target state="new">Enter password</target>
+        </trans-unit>
+        <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
+          <source>Compress (zip)</source>
+          <target state="new">Compress (zip)</target>
+        </trans-unit>
+        <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
+          <source>Building files list...</source>
+          <target state="new">Building files list...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
+        </trans-unit>
+        <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
+          <source>Compressing file {0}/{1}...</source>
+          <target state="new">Compressing file {0}/{1}...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2104,6 +2152,7 @@ Some programs won't be able to open this file</target>
         <trans-unit id="HideTemporary" translate="yes" xml:space="preserve">
           <source>Hide temporary files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hide temporary files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -2618,8 +2667,9 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -2629,8 +2679,9 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is unregistering it from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is unregistering it from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="HeaderContextMenu" translate="yes" xml:space="preserve">
@@ -3364,6 +3415,26 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
           <target state="new">Current tab</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
+          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
+          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
+          <source>Show temporary files</source>
+          <target state="new">Show temporary files</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
+          <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
+          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
+          <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
+          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+        </trans-unit>
+        <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
+          <source>Reinstall</source>
+          <target state="new">Reinstall</target>
         </trans-unit>
       </group>
     </body>

@@ -106,7 +106,7 @@
         </trans-unit>
         <trans-unit id="WindowAbout" translate="yes" xml:space="preserve">
           <source>About / Help</source>
-          <target state="translated" state-qualifier="mt-suggestion">Acerca de y Ayuda</target>
+          <target state="translated">Acerca de / Ayuda</target>
           <note from="MultilingualBuild" annotates="source" priority="2">About window title</note>
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
@@ -1116,8 +1116,9 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <target state="translated">¿Proceder a terminar explorer.exe, eliminar los archivos de caché de miniaturas de Windows y luego reiniciar explorer.exe? ¡Esto terminará con todas las operaciones de archivo en curso!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de One Commander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar).&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá One Commander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> si alguna vez mueve o elimina One Commander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también permitirá la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (sin soporte en caso de recuperación)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de One Commander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar).&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá One Commander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> si alguna vez mueve o elimina One Commander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también permitirá la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (sin soporte en caso de recuperación)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1126,8 +1127,9 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is unregistering it from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que One Commander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es cancelar el registro de One Commander o ejecutar el script de registro desde la carpeta One Commander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que One Commander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es cancelar el registro de One Commander o ejecutar el script de registro desde la carpeta One Commander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1346,6 +1348,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         <trans-unit id="HideTemporary" translate="yes" xml:space="preserve">
           <source>Hide temporary files</source>
           <target state="translated" state-qualifier="mt-suggestion">Ocultar archivos temporales</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
@@ -1501,8 +1504,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab with the same path</source>
-          <target state="needs-review-translation">Pestaña existente</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Pestaña existente con la misma ruta</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -2276,91 +2278,111 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="new">Download cloud files when previewing</target>
+          <target state="translated">Descargar archivos en la nube al obtener una vista previa</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="new">Get thumbnails of cloud files</target>
+          <target state="translated">Obtener miniaturas de archivos en la nube</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+          <target state="translated">Esto puede hacer que los archivos se descarguen de la nube según el proveedor de la nube y el controlador de miniaturas (fuera del control de OneCommander)</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="new">Add to user PATH variable</target>
+          <target state="translated">Añadir a la variable PATH del usuario</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <target state="translated">Añade la ruta del programa a la variable de entorno PATH (usuario) para que pueda iniciarse desde cualquier lugar en la línea de comandos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <target state="translated">Entorno PATH añadido. Es posible que sea necesario reiniciar otros programas para obtener las variables actualizadas.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+          <target state="translated">Habilitar accesos directos personalizados desactivará accesos directos adicionales y usará solo los definidos por el usuario.</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="new">Show Networks group in sidebar</target>
+          <target state="translated">Mostrar el grupo Redes en la barra lateral</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+          <target state="translated">Puede volver a habilitar el grupo de la barra lateral Redes desde Configuración, pestaña Ventana</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+          <target state="translated">El tamaño de fuente superior a 18pt no se admite oficialmente y parte del texto puede aparecer recortado o desalineado. Cambiar la escala en la configuración de pantalla de Windows es la forma preferida de ampliar la interfaz de usuario</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="new">Shift + Right Click always opens the full context menu</target>
+          <target state="translated">Shift + Clic derecho siempre abre el menú contextual completo</target>
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="new">Smooth scrolling with mouse wheel</target>
+          <target state="translated">Desplazamiento suave con la rueda del ratón</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
-          <target state="new">Failed to modify Windows Registry value</target>
+          <target state="translated">Error al modificar el valor del Registro de Windows</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
+          <target state="translated">Obligar a Microsoft 365/Office a guardar miniaturas en archivos</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
+          <target state="translated">Esto tendrá efecto la próxima vez que se guarde cada archivo de Microsoft 365/Office. No afecta a los archivos existentes.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="new">Keyboard-focused element display style</target>
+          <target state="translated">Estilo de visualización de elementos centrados en el teclado</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
+          <target state="translated">Para usar esta opción, habilite Efectos de transparencia en Configuración/Personalización/Colores de Windows</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
-          <target state="new">Use acrylic effect in menu</target>
+          <target state="translated">Usar efecto acrílico en el menú</target>
         </trans-unit>
         <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
           <source>Maximum file name length</source>
-          <target state="new">Maximum file name length</target>
+          <target state="translated">Longitud máxima del nombre de archivo</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
+          <target state="translated">Limite la longitud del nombre del archivo para lograr la máxima compatibilidad con otro software (límite de ruta completa de 260 caracteres de Windows)</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
-          <target state="new">Current tab</target>
+          <target state="translated">Pestaña actual</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
+          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
+          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
+          <source>Show temporary files</source>
+          <target state="new">Show temporary files</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
+          <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
+          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
+          <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
+          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+        </trans-unit>
+        <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
+          <source>Reinstall</source>
+          <target state="new">Reinstall</target>
         </trans-unit>
       </group>
     </body>
@@ -2420,8 +2442,9 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated" state-qualifier="mt-suggestion">Extrayendo {0}</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. Replace all?</source>
-          <target state="translated">El archivo {0} ya existe en la carpeta de destino. ¿Reemplazar todo?</target>
+          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
+          <target state="needs-review-translation">El archivo {0} ya existe en la carpeta de destino. ¿Reemplazar todo?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -4116,37 +4139,84 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+          <target state="translated">El servicio WMI no se está ejecutando. Es posible que la detección de discos USB no funcione hasta que se reinicie la PC</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="new">Move to bottom</target>
+          <target state="translated">Mover al final</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="new">Move to top</target>
+          <target state="translated">Mover al principio</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+          <target state="translated">El nombre del archivo del mensaje era demasiado largo. Se acortó al valor definido en la configuración.</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="new">Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</target>
+          <target state="translated">Ruta más larga que la admitida por Windows (260 caracteres)
+Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
+          <target state="translated">Actualmente, WSL no admite la observación de cambios mediante ReadDirectoryChangesW. Esperando la solución de Microsoft. Actualizar manualmente</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
-          <target state="new">Searching for Linux distros...</target>
+          <target state="translated">Buscando distribuciones de Linux...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+        </trans-unit>
+        <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
+          <source>Folder {0} not available (distro may not be running)</source>
+          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
+          <source>Error compressing file</source>
+          <target state="new">Error compressing file</target>
+        </trans-unit>
+        <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
+          <source>Archive name</source>
+          <target state="new">Archive name</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
+          <source>Remove scripts button</source>
+          <target state="new">Remove scripts button</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
+          <source>Open scripts folder</source>
+          <target state="new">Open scripts folder</target>
+        </trans-unit>
+        <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
+          <source>You can re-enable scripts button from Advanced Settings</source>
+          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+        </trans-unit>
+        <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
+          <source>Wrong password</source>
+          <target state="new">Wrong password</target>
+        </trans-unit>
+        <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
+          <source>Enter password</source>
+          <target state="new">Enter password</target>
+        </trans-unit>
+        <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
+          <source>Compress (zip)</source>
+          <target state="new">Compress (zip)</target>
+        </trans-unit>
+        <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
+          <source>Building files list...</source>
+          <target state="new">Building files list...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
+        </trans-unit>
+        <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
+          <source>Compressing file {0}/{1}...</source>
+          <target state="new">Compressing file {0}/{1}...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
       </group>
     </body>
