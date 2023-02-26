@@ -92,7 +92,7 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">用戶手冊</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
+          <source>OneCommander uses following DLLs (Libraries)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">一個指揮官使用以下 DLL（庫）</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
@@ -303,7 +303,7 @@
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">一個指揮官是免費的家庭使用，具有有限的功能集。
@@ -922,7 +922,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="needs-review-translation" state-qualifier="mt-suggestion">觸發寬度</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
+          <source>OneCommander only expands columns smaller than this:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">一個指揮官只展開小於此的列：</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
@@ -1078,19 +1078,19 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="needs-review-translation" state-qualifier="mt-suggestion">繼續終止資源管理員.exe，刪除 Windows 縮略圖緩存檔，然後重新啟動資源管理員.exe？這將終止所有正在進行的檔案操作!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要說明：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，它將編輯註冊表以使 One Commander 成為預設的檔管理員和文件夾處理程式（無法替換打開/保存對話框）。&amp;lt;br/&amp;gt;&amp;lt;bpt id=“2”&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>這將使Windows文件資源管理器不可用&amp;lt;ept id=“2”&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - 即使按兩下檔資源管理器中的檔夾，一個指揮官也會打開。&amp;lt;br/&amp;gt;如果您<it id="5" pos="close">&lt;/bpt&gt;</it>移動或刪除一個指揮官（卸載它不會撤消更改），則需要&amp;lt;bpt id=“3”&amp;gt;&amp;lt;b&amp;gt;註銷它&amp;lt;ept id=“3”&amp;gt;&amp;lt;/b&amp;gt;<it id="6" pos="close">&lt;/ept&gt;</it>（卸載它不會撤消更改）！&amp;lt;br/&amp;gt;這也將允許在後台運行以加快窗口打開速度。&amp;lt;br/&amp;gt;您是否絕對確定要繼續操作，並且知道如何在出現故障時自行恢復註冊表（在恢復時不支援）？</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要說明：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，它將編輯註冊表以使 OneCommander 成為預設的檔管理員和文件夾處理程式（無法替換打開/保存對話框）。&amp;lt;br/&amp;gt;&amp;lt;bpt id=“2”&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>這將使Windows文件資源管理器不可用&amp;lt;ept id=“2”&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - 即使按兩下檔資源管理器中的檔夾，一個指揮官也會打開。&amp;lt;br/&amp;gt;如果您<it id="5" pos="close">&lt;/bpt&gt;</it>移動或刪除一個指揮官（卸載它不會撤消更改），則需要&amp;lt;bpt id=“3”&amp;gt;&amp;lt;b&amp;gt;註銷它&amp;lt;ept id=“3”&amp;gt;&amp;lt;/b&amp;gt;<it id="6" pos="close">&lt;/ept&gt;</it>（卸載它不會撤消更改）！&amp;lt;br/&amp;gt;這也將允許在後台運行以加快窗口打開速度。&amp;lt;br/&amp;gt;您是否絕對確定要繼續操作，並且知道如何在出現故障時自行恢復註冊表（在恢復時不支援）？</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即重新啟動程式&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以應用所有更改？&amp;lt;br/&amp;gt;這將取消由 One Commander 啟動的所有正在進行的操作</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即重新啟動程式&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以應用所有更改？&amp;lt;br/&amp;gt;這將取消由 OneCommander 啟動的所有正在進行的操作</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要提示：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> 它將編輯Windows註冊表以完全取代Windows文件資源管理器Win + E熱鍵。此註冊表更改將使「一個指揮官」在按兩下資源管理器快捷方式時打開，但不會禁用資源管理器中的導航。扭轉這種情況的唯一方法是從One Commander註銷它或從One Commander資料夾運行註冊表腳本（卸載OC不會自動更改它）。進行？</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要提示：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> 它將編輯Windows註冊表以完全取代Windows文件資源管理器Win + E熱鍵。此註冊表更改將使「一個指揮官」在按兩下資源管理器快捷方式時打開，但不會禁用資源管理器中的導航。扭轉這種情況的唯一方法是從OneCommander註銷它或從OneCommander資料夾運行註冊表腳本（卸載OC不會自動更改它）。進行？</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -1141,7 +1141,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="needs-review-translation" state-qualifier="mt-suggestion">排除的命令行管理程式上下文功能表項</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">包含這些動詞或全文的上下文功能表項將被排除在外;逗號分隔;逗號后沒有空格;一個指揮官不支援預先填充的動詞/命令</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
@@ -1832,8 +1832,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">使用舊的拖放系統</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">默認關閉。如果用於接受來自 OC 的刪除操作的程式停止接受檔，請打開。如果任何程式在放置操作方面存在問題，請報告。已知 Acrobat 頁面插入也不起作用。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -1844,7 +1846,7 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">窗口預設值</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
+          <source>OneCommander Settings</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">一個指揮官設置</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
@@ -1862,11 +1864,11 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">切換到打開一個指揮官的虛擬桌面</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">將一個指揮官帶到當前虛擬桌面</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
@@ -1966,8 +1968,8 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander 連接器是一個實驗性的獨立實用程式，可説明將 OC 與其他程式的系統“打開”和“保存”對話框連接。一個小視窗將出現在相容的打開/保存對話框下，可讓您將其資料夾設置為在One Commander中打開的路徑。它獨立於 OC 運行。</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander 連接器是一個實驗性的獨立實用程式，可説明將 OC 與其他程式的系統“打開”和“保存”對話框連接。一個小視窗將出現在相容的打開/保存對話框下，可讓您將其資料夾設置為在OneCommander中打開的路徑。它獨立於 OC 運行。</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -2184,8 +2186,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">瞭解您正在運行的腳本！安全隱患！</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用外部 One Commander 更新程式程式而不是 PowerShell 腳本</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用外部 OneCommander 更新程式程式而不是 PowerShell 腳本</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -2276,13 +2278,13 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">按所需的組合鍵以捕獲它</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
+          <source>Add "Open in OneCommander" context menu</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">添加“在一個指揮官中打開”上下文功能表</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}開放</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -2391,6 +2393,18 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
           <target state="new">Reinstall</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
         </trans-unit>
       </group>
     </body>
@@ -2630,7 +2644,7 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">找不到資料夾{0}</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">要完全關閉一個指揮官，&amp;lt;bpt id=“1”&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>單擊關閉按鈕時按住 CTRL&amp;lt;ept id=“1”&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，或右鍵單擊系統托盤中的一個指揮官圖示（時鐘旁邊），然後選擇&amp;lt;bpt id=“2”&amp;gt;&amp;lt;i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Exit&amp;lt;ept id=“2”&amp;gt;&amp;lt;/i&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
@@ -2664,8 +2678,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">您已更改專案名稱，但按兩下了 outside。&amp;lt;br/&amp;gt;在這種情況下，是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>alway 重命名檔&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>而不是取消操作？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">以管理員身份重新啟動程式？這將&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>清除所有正在進行的文件傳輸&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以及通過One Commander運行的其他進程</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">以管理員身份重新啟動程式？這將&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>清除所有正在進行的文件傳輸&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以及通過OneCommander運行的其他進程</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3689,12 +3703,18 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">大小</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">按大小對文件進行排序（最大優先）;資料夾未排序</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">按大小對文件進行排序（最小優先）;資料夾未排序</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -4230,6 +4250,46 @@ Some programs won't be able to open this file</target>
           <source>Compressing file {0}/{1}...</source>
           <target state="new">Compressing file {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>
     </body>

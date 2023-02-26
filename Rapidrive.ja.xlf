@@ -114,8 +114,8 @@
           <target state="final" state-qualifier="mt-suggestion">ユーザーマニュアル</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
-          <target state="final">One Commanderは、以下のライブラリを使用しています</target>
+          <source>OneCommander uses following DLLs (Libraries)</source>
+          <target state="final">OneCommanderは、以下のライブラリを使用しています</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
           <source>Website</source>
@@ -194,10 +194,10 @@
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="final">One Commanderは、機能限定版を私的に利用する場合は無料です。
+          <target state="final">OneCommanderは、機能限定版を私的に利用する場合は無料です。
 
 商用利用の場合、(設定画面で「PRO」と表示されている)追加機能が必要でなくてもPROライセンスが必要です。</target>
         </trans-unit>
@@ -962,8 +962,8 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="final">トリガー幅</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
-          <target state="final">One Commanderでは、次より小さい列のみを展開します:</target>
+          <source>OneCommander only expands columns smaller than this:</source>
+          <target state="final">OneCommanderでは、次より小さい列のみを展開します:</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -1142,8 +1142,8 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="final">One Commander Connectorは、他のプログラムでのWIndows既定の[開く]および[保存]ダイアログにOne Commander (OC)を接続するのに役立つ実験的なスタンドアロンユーティリティです。互換性のある[開く]および[保存]ダイアログの下に小さなウィンドウが表示され、そのフォルダをCで開いたパスに設定することができます。OC とは独立して実行されます。</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="final">OneCommander Connectorは、他のプログラムでのWIndows既定の[開く]および[保存]ダイアログにOneCommander (OC)を接続するのに役立つ実験的なスタンドアロンユーティリティです。互換性のある[開く]および[保存]ダイアログの下に小さなウィンドウが表示され、そのフォルダをCで開いたパスに設定することができます。OC とは独立して実行されます。</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -1169,19 +1169,19 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="final">explorer.exeを終了し、Windowsサムネイルキャッシュファイルを削除してから、explorer.exeを再起動しますか?これにより、進行中のすべてのファイル操作が終了します!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">重要: これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>で、レジストリを編集して One Commander をデフォルトのファイルマネージャおよびフォルダハンドラにします (開く/保存ダイアログを置き換えることはできません)。これにより、<bpt id="2">&lt;b&gt;</bpt>Windowsファイルエクスプローラーが使用できなくなり<bpt id="2">&lt;/b&gt;</bpt>、ファイルエクスプローラーでフォルダーをクリックしても、One Commanderが開きます。&lt;br/&gt;One Commanderを移動または削除する場合は<bpt id="3">&lt;b&gt;</bpt>登録解除<bpt id="3">&lt;/b&gt;</bpt>する必要があります(アンインストールしても変更は元に戻りません)!&lt;br/&gt;これにより、バックグラウンドでの実行も有効になり、ウィンドウをより速く開くことができます。&lt;br/&gt;何かが失敗した場合に自分でレジストリを復元する方法を知っていますか? 復旧をサポートすることはできません。本当に実行しますか?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">重要: これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>で、レジストリを編集して OneCommander をデフォルトのファイルマネージャおよびフォルダハンドラにします (開く/保存ダイアログを置き換えることはできません)。これにより、<bpt id="2">&lt;b&gt;</bpt>Windowsファイルエクスプローラーが使用できなくなり<bpt id="2">&lt;/b&gt;</bpt>、ファイルエクスプローラーでフォルダーをクリックしても、OneCommanderが開きます。&lt;br/&gt;OneCommanderを移動または削除する場合は<bpt id="3">&lt;b&gt;</bpt>登録解除<bpt id="3">&lt;/b&gt;</bpt>する必要があります(アンインストールしても変更は元に戻りません)!&lt;br/&gt;これにより、バックグラウンドでの実行も有効になり、ウィンドウをより速く開くことができます。&lt;br/&gt;何かが失敗した場合に自分でレジストリを復元する方法を知っていますか? 復旧をサポートすることはできません。本当に実行しますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="final">すべての変更を適用するため<bpt id="1">&lt;b&gt;</bpt>今すぐプログラムを再起動<ept id="1">&lt;/b&gt;</ept>しますか? &lt;br/&gt;これにより、One Commanderによって開始された進行中のすべての操作がキャンセルされます</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="final">すべての変更を適用するため<bpt id="1">&lt;b&gt;</bpt>今すぐプログラムを再起動<ept id="1">&lt;/b&gt;</ept>しますか? &lt;br/&gt;これにより、OneCommanderによって開始された進行中のすべての操作がキャンセルされます</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">重要:これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>であり、Windowsレジストリを編集してWindowsファイルエクスプローラーのWin+Eショートカットキーを完全に置き換えます。このレジストリの変更により、エクスプローラーのショートカットをクリックしたときにOne Commanderが開きますが、エクスプローラー内のナビゲーションは無効になりません。これを元に戻す唯一の方法は、One Commanderから登録を解除するか、One Commanderフォルダーからレジストリスクリプトを実行することです(One Commanderをアンインストールしても自動的には変更されません)。実行しますか?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation">重要:これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>であり、Windowsレジストリを編集してWindowsファイルエクスプローラーのWin+Eショートカットキーを完全に置き換えます。このレジストリの変更により、エクスプローラーのショートカットをクリックしたときにOneCommanderが開きますが、エクスプローラー内のナビゲーションは無効になりません。これを元に戻す唯一の方法は、OneCommanderから登録を解除するか、OneCommanderフォルダーからレジストリスクリプトを実行することです(OneCommanderをアンインストールしても自動的には変更されません)。実行しますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -1253,8 +1253,8 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="final" state-qualifier="mt-suggestion">除外されたシェルコンテキストメニュー項目</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="final">これらの動詞またはフルテキストを含む右クリックメニュー項目は除外されます。コンマ区切り、コンマの後のスペース不要。事前に入力された動詞/コマンドは、One Commanderではサポートされていません</target>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
+          <target state="final">これらの動詞またはフルテキストを含む右クリックメニュー項目は除外されます。コンマ区切り、コンマの後のスペース不要。事前に入力された動詞/コマンドは、OneCommanderではサポートされていません</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -1785,13 +1785,13 @@ This should be enabled if program is set as a default file manager</source>
           <target state="final" state-qualifier="mt-suggestion">3ds Max サムネイル ハンドラを登録する</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
-          <target state="final">「One Commanderで開く」を右クリックメニューに追加</target>
+          <source>Add "Open in OneCommander" context menu</source>
+          <target state="final">「OneCommanderで開く」を右クリックメニューに追加</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="final" state-qualifier="mt-suggestion">{0}で開く</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
@@ -2257,11 +2257,13 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">古いドラッグ&amp;ドロップを使用する</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="translated">デフォルト:オフ One Commander からのドロップ操作ができたプログラムがドロップを受け付けなくなった場合はオンにします。ドロップ操作に問題があるプログラムがあったら報告してください。Acrobatでのページ挿入はどちらでも機能しません。</target>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
+          <target state="needs-review-translation">デフォルト:オフ OneCommander からのドロップ操作ができたプログラムがドロップを受け付けなくなった場合はオンにします。ドロップ操作に問題があるプログラムがあったら報告してください。Acrobatでのページ挿入はどちらでも機能しません。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
           <target state="translated">PowerShell スクリプトの代わりに外部のOnc Commanderアップデーターを使用する</target>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
@@ -2289,8 +2291,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">Windowsの既定</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="translated">One Commanderの設定</target>
+          <source>OneCommander Settings</source>
+          <target state="translated">OneCommanderの設定</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -2306,12 +2308,12 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">これは、一部のバージョンのWindowsでのみ機能します</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="translated">One Commanderを開いている仮想デスクトップに切り替える</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="translated">OneCommanderを開いている仮想デスクトップに切り替える</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="translated">現在の仮想デスクトップにOne Commanderを移動する</target>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
+          <target state="translated">現在の仮想デスクトップにOneCommanderを移動する</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -2385,6 +2387,18 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
           <target state="new">Reinstall</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
         </trans-unit>
       </group>
     </body>
@@ -2680,8 +2694,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">フォルダ{0}が見つかりません</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">One Commanderを完全に閉じるには<bpt id="1">&lt;B&gt;</bpt>Ctrlキーを押しながら閉じるボタンをクリックするか<ept id="1">&lt;/B&gt;</ept>か、システムトレイ(時計の横)のOne Commanderアイコンを右クリックして、<bpt id="2">&lt;i&gt;</bpt>終了<ept id="2">&lt;/i&gt;</ept>を選択してください
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="translated">OneCommanderを完全に閉じるには<bpt id="1">&lt;B&gt;</bpt>Ctrlキーを押しながら閉じるボタンをクリックするか<ept id="1">&lt;/B&gt;</ept>か、システムトレイ(時計の横)のOneCommanderアイコンを右クリックして、<bpt id="2">&lt;i&gt;</bpt>終了<ept id="2">&lt;/i&gt;</ept>を選択してください
 
 </target>
         </trans-unit>
@@ -2738,8 +2752,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">名前を変更した後で外側をクリックしました。&lt;br/&gt;この場合に、操作をキャンセルするのではなく<bpt id="1">&lt;b&gt;</bpt>常に名前を変更する<ept id="1">&lt;/b&gt;</ept>ようにしますか?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="translated">管理者としてプログラムを再起動しますか?これにより<bpt id="1">&lt;b&gt;</bpt>進行中のすべてのファイル転送<ept id="1">&lt;/b&gt;</ept>およびOne Commanderを通して実行される他のプロセスがキャンセルされます</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="translated">管理者としてプログラムを再起動しますか?これにより<bpt id="1">&lt;b&gt;</bpt>進行中のすべてのファイル転送<ept id="1">&lt;/b&gt;</ept>およびOneCommanderを通して実行される他のプロセスがキャンセルされます</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3985,12 +3999,18 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">サイズ</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="translated">項目をサイズ順に並べ替え(降順); フォルダは並べ替えられません</target>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">項目をサイズ順に並べ替え(降順); フォルダは並べ替えられません</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="translated">項目をサイズ順に並べ替え(昇順); フォルダは並べ替えられません</target>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">項目をサイズ順に並べ替え(昇順); フォルダは並べ替えられません</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -4224,6 +4244,46 @@ Some programs won't be able to open this file</target>
           <source>Compressing file {0}/{1}...</source>
           <target state="new">Compressing file {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>
     </body>

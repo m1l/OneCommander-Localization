@@ -81,8 +81,8 @@
           <target state="translated">Ширина перемикача</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
-          <target state="translated">One Commander розширює лише ті стовпці, що менші за цей:</target>
+          <source>OneCommander only expands columns smaller than this:</source>
+          <target state="translated">OneCommander розширює лише ті стовпці, що менші за цей:</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -218,19 +218,19 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Важливо: Це <bpt id="1">&lt;b&gt;</bpt>експериментальна функція<ept id="1">&lt;/b&gt;</ept> яка буде редагувати ваш реєстр, щоб зробити One Commander типовим файловим менеджером і обробником папок (діалогові вікна "Відкрити / Зберегти" не можна замінити). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Це зробить Провідник файлів Windows непридатним<ept id="2">&lt;/b&gt;</ept> - навіть при натисканні папки у Файловому провіднику відкриється One Commander. &lt;br/&gt;Вам потрібно буде <bpt id="3">&lt;b&gt;</bpt>розреєструвати його<ept id="3">&lt;/b&gt;</ept> якщо ви коли-небудь перенесете або видалите One Commander (видалення його не відмінить зміни)!&lt;br /&gt;Це також ввімне роботу у фоновому режимі для швидшого відкриття вікна.&lt;br/&gt;Будьте абсолютно впевнені, що ви хочете продовжити, і ви знаєте, як відновити реєстр самостійно, якщо щось не вдасться (немає підтримки у випадку відновлення)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Важливо: Це <bpt id="1">&lt;b&gt;</bpt>експериментальна функція<ept id="1">&lt;/b&gt;</ept> яка буде редагувати ваш реєстр, щоб зробити OneCommander типовим файловим менеджером і обробником папок (діалогові вікна "Відкрити / Зберегти" не можна замінити). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Це зробить Провідник файлів Windows непридатним<ept id="2">&lt;/b&gt;</ept> - навіть при натисканні папки у Файловому провіднику відкриється OneCommander. &lt;br/&gt;Вам потрібно буде <bpt id="3">&lt;b&gt;</bpt>розреєструвати його<ept id="3">&lt;/b&gt;</ept> якщо ви коли-небудь перенесете або видалите OneCommander (видалення його не відмінить зміни)!&lt;br /&gt;Це також ввімне роботу у фоновому режимі для швидшого відкриття вікна.&lt;br/&gt;Будьте абсолютно впевнені, що ви хочете продовжити, і ви знаєте, як відновити реєстр самостійно, якщо щось не вдасться (немає підтримки у випадку відновлення)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="translated">Ви хочете <bpt id="1">&lt;b&gt;</bpt>перезапустити програму зараз<ept id="1">&lt;/b&gt;</ept> щоб застосувати всі зміни?&lt;br/&gt;Це скасує всі поточні операції, ініційовані One Commander</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="translated">Ви хочете <bpt id="1">&lt;b&gt;</bpt>перезапустити програму зараз<ept id="1">&lt;/b&gt;</ept> щоб застосувати всі зміни?&lt;br/&gt;Це скасує всі поточні операції, ініційовані OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">Важливо: Це <bpt id="1">&lt;b&gt;</bpt>експериментальна функція<ept id="1">&lt;/b&gt;</ept> який буде редагувати реєстр Windows, щоб повністю замінити Windows File Explorer на гарячу клавішу Win + E. Ця зміна реєстру буде відкривати One Commander після натискання ярлика Провідника, але не вимкне навігацію в Провіднику. Єдиний спосіб змінити це - скасувати реєстрацію від One Commander або запустити сценарій реєстру з папки One Commander (видалення OC не змінить його автоматично). Приступити?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation">Важливо: Це <bpt id="1">&lt;b&gt;</bpt>експериментальна функція<ept id="1">&lt;/b&gt;</ept> який буде редагувати реєстр Windows, щоб повністю замінити Windows File Explorer на гарячу клавішу Win + E. Ця зміна реєстру буде відкривати OneCommander після натискання ярлика Провідника, але не вимкне навігацію в Провіднику. Єдиний спосіб змінити це - скасувати реєстрацію від OneCommander або запустити сценарій реєстру з папки OneCommander (видалення OC не змінить його автоматично). Приступити?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -281,8 +281,8 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="translated" state-qualifier="mt-suggestion">Виключені елементи контекстного меню оболонки</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="translated">Елементи контекстного меню з цими дієсловами або повнотекстом будуть виключені; розділені комами; немає місця після коми; попередньо заповнені дієслова/команди не підтримуються One Commander</target>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
+          <target state="translated">Елементи контекстного меню з цими дієсловами або повнотекстом будуть виключені; розділені комами; немає місця після коми; попередньо заповнені дієслова/команди не підтримуються OneCommander</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -852,12 +852,14 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">Використання старої системи перетягування</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="translated">За замовчуванням вимкнено. Будь ласка, повідомте, якщо будь-яка програма має проблеми з падінням операцій. Відомо, що вставка сторінки Acrobat також не працює.</target>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
+          <target state="needs-review-translation">За замовчуванням вимкнено. Будь ласка, повідомте, якщо будь-яка програма має проблеми з падінням операцій. Відомо, що вставка сторінки Acrobat також не працює.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="translated">Параметри One Commander</target>
+          <source>OneCommander Settings</source>
+          <target state="translated">Параметри OneCommander</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -874,12 +876,12 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="translated">Перехід до віртуального робочого стола, де відкрито One Commander</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="translated">Перехід до віртуального робочого стола, де відкрито OneCommander</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="translated">Вивести One Commander на поточний віртуальний робочий стіл</target>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
+          <target state="translated">Вивести OneCommander на поточний віртуальний робочий стіл</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -1151,8 +1153,8 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander Connector - це експериментальна автономна утиліта, яка допомагає з'єднати OC з діалоговими вікнами відкриття та збереження інших програм. Невелике вікно з'явиться під сумісним діалоговим вікном відкриття/збереження, щоб ви дозволили вам встановити її теку на шлях, відкритий в One Commander. Він працює незалежно від OC.</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander Connector - це експериментальна автономна утиліта, яка допомагає з'єднати OC з діалоговими вікнами відкриття та збереження інших програм. Невелике вікно з'явиться під сумісним діалоговим вікном відкриття/збереження, щоб ви дозволили вам встановити її теку на шлях, відкритий в OneCommander. Він працює незалежно від OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -1369,8 +1371,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Знайте сценарії, які ви запускаєте! Ризик для безпеки!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання зовнішньої програми оновлення One Commander замість сценарію PowerShell</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання зовнішньої програми оновлення OneCommander замість сценарію PowerShell</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -1461,13 +1463,13 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Натисніть потрібну комбінацію клавіш, щоб захопити її</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
+          <source>Add "Open in OneCommander" context menu</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Додати контекстне меню "Відкрити в одному командирі"</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкрити у {0}</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -1576,6 +1578,18 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
           <target state="new">Reinstall</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
         </trans-unit>
       </group>
     </body>
@@ -1782,8 +1796,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">Папку {0} не знайдено</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">Щоб повністю закрити One Commander, <bpt id="1">&lt;B&gt;</bpt>утримуйте CTRL під час натискання кнопки закрити<ept id="1">&lt;/B&gt;</ept> або клацніть правою кнопкою миші піктограму One Commander у системному треї (поруч із годинником) і виберіть <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></target>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="translated">Щоб повністю закрити OneCommander, <bpt id="1">&lt;B&gt;</bpt>утримуйте CTRL під час натискання кнопки закрити<ept id="1">&lt;/B&gt;</ept> або клацніть правою кнопкою миші піктограму OneCommander у системному треї (поруч із годинником) і виберіть <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -1818,8 +1832,8 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="translated">Перезапустити програму від Адміністратора? Це <bpt id="1">&lt;b&gt;</bpt>відмінить всі поточні передачі файлів<ept id="1">&lt;/b&gt;</ept> та інші процеси, що проходять через One Commander</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="translated">Перезапустити програму від Адміністратора? Це <bpt id="1">&lt;b&gt;</bpt>відмінить всі поточні передачі файлів<ept id="1">&lt;/b&gt;</ept> та інші процеси, що проходять через OneCommander</target>
         </trans-unit>
         <trans-unit id="EditFileViews" translate="yes" xml:space="preserve">
           <source>Edit File Views</source>
@@ -2763,12 +2777,18 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated" state-qualifier="tm-suggestion">РОЗМІР</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="translated">Сортування файлів за розміром (перший найбільший); Папки не сортуються</target>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">Сортування файлів за розміром (перший найбільший); Папки не сортуються</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="translated">Сортує файли за розміром (спочатку найменший); Папки не сортуються</target>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">Сортує файли за розміром (спочатку найменший); Папки не сортуються</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -3423,6 +3443,46 @@ Some programs won't be able to open this file</target>
           <target state="new">Compressing file {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3518,8 +3578,8 @@ Some programs won't be able to open this file</target>
           <target state="translated" state-qualifier="mt-suggestion">Посібник користувача</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
-          <target state="translated">One Commander використовує наступні DLL-файли (бібліотеки)</target>
+          <source>OneCommander uses following DLLs (Libraries)</source>
+          <target state="translated">OneCommander використовує наступні DLL-файли (бібліотеки)</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
           <source>Website</source>
@@ -3611,10 +3671,10 @@ Some programs won't be able to open this file</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="translated">One Commander безкоштовний для домашнього використання з обмеженим набором функцій.
+          <target state="translated">OneCommander безкоштовний для домашнього використання з обмеженим набором функцій.
 
 Для комерційного використання потрібна ліцензія PRO, незалежно від того, чи потрібні користувачеві ці додаткові функції (позначені PRO в Налаштуваннях).</target>
         </trans-unit>

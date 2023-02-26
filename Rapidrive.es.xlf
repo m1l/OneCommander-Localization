@@ -97,8 +97,8 @@
           <target state="translated" state-qualifier="mt-suggestion">Manual de usuario</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
-          <target state="translated">One Commander utiliza las siguientes DLLs (Bibliotecas)</target>
+          <source>OneCommander uses following DLLs (Libraries)</source>
+          <target state="translated">OneCommander utiliza las siguientes DLLs (Bibliotecas)</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
           <source>Website</source>
@@ -300,10 +300,10 @@
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="translated" state-qualifier="mt-suggestion">One Commander es gratuito para uso HOME con un conjunto de características limitadas.
+          <target state="translated" state-qualifier="mt-suggestion">OneCommander es gratuito para uso HOME con un conjunto de características limitadas.
 
 Para uso comercial, se requiere la licencia PRO, independientemente de si el usuario necesita estas características adicionales (etiquetadas con PRO en Configuración).</target>
         </trans-unit>
@@ -942,8 +942,8 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <target state="translated" state-qualifier="mt-suggestion">Ancho del disparador</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
-          <target state="translated">One Commander solo expande columnas más pequeñas que esta:</target>
+          <source>OneCommander only expands columns smaller than this:</source>
+          <target state="translated">OneCommander solo expande columnas más pequeñas que esta:</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -1094,8 +1094,8 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="translated">One Commander Connector es una utilidad independiente experimental para ayudar a conectar OC con los cuadros de diálogo Abrir y Guardar del sistema de otros programas. Aparecerá una pequeña ventana debajo de un cuadro de diálogo abierto/guardado compatible que le permitirá configurar su carpeta en la ruta abierta en One Commander. Se ejecuta independientemente de OC.</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="translated">OneCommander Connector es una utilidad independiente experimental para ayudar a conectar OC con los cuadros de diálogo Abrir y Guardar del sistema de otros programas. Aparecerá una pequeña ventana debajo de un cuadro de diálogo abierto/guardado compatible que le permitirá configurar su carpeta en la ruta abierta en OneCommander. Se ejecuta independientemente de OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -1116,20 +1116,18 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <target state="translated">¿Proceder a terminar explorer.exe, eliminar los archivos de caché de miniaturas de Windows y luego reiniciar explorer.exe? ¡Esto terminará con todas las operaciones de archivo en curso!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de One Commander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar).&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá One Commander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> si alguna vez mueve o elimina One Commander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también permitirá la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (sin soporte en caso de recuperación)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez mueve o elimina OneCommander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="translated">¿Desea <bpt id="1">&lt;b&gt;</bpt>reiniciar el programa ahora<ept id="1">&lt;/b&gt;</ept> para aplicar todos los cambios?&lt;br/&gt;Esto cancelará todas las operaciones en curso iniciadas por One Commander</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="translated">¿Desea <bpt id="1">&lt;b&gt;</bpt>reiniciar el programa ahora<ept id="1">&lt;/b&gt;</ept> para aplicar todos los cambios?&lt;br/&gt;Esto cancelará todas las operaciones en curso iniciadas por OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que One Commander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es cancelar el registro de One Commander o ejecutar el script de registro desde la carpeta One Commander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que OneCommander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es desmarcando este botón de OneCommander o ejecutando el script de registro desde la carpeta OneCommander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1188,8 +1186,8 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
           <target state="translated">Elementos del menú contextual de Shell excluidos</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="translated" state-qualifier="mt-suggestion">Se excluirán los elementos del menú contextual con estos verbos o texto completo; separado por comas; sin espacio después de la coma; Los verbos/comandos rellenados previamente no son compatibles con One Commander</target>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
+          <target state="translated" state-qualifier="mt-suggestion">Se excluirán los elementos del menú contextual con estos verbos o texto completo; separado por comas; sin espacio después de la coma; Los verbos/comandos rellenados previamente no son compatibles con OneCommander</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -1999,8 +1997,10 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated" state-qualifier="mt-suggestion">Usar el antiguo sistema de arrastrar y soltar</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="translated">DESACTIVADO por defecto. Actívelo si los programas que solían aceptar operaciones de eliminación de OC dejaron de aceptar archivos. Informe si algún programa tiene problemas con las operaciones de entrega. Se sabe que en Acrobat la inserción de página no funciona con ninguno de los dos.</target>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
+          <target state="needs-review-translation">DESACTIVADO por defecto. Actívelo si los programas que solían aceptar operaciones de eliminación de OC dejaron de aceptar archivos. Informe si algún programa tiene problemas con las operaciones de entrega. Se sabe que en Acrobat la inserción de página no funciona con ninguno de los dos.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -2019,8 +2019,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated" state-qualifier="mt-suggestion">Windows predeterminado</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="translated" state-qualifier="mt-suggestion">Configuración de One Commander</target>
+          <source>OneCommander Settings</source>
+          <target state="translated" state-qualifier="mt-suggestion">Configuración de OneCommander</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -2036,12 +2036,12 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated">Esto funciona solo en algunas versiones de Windows</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="translated">Cambie a un escritorio virtual donde One Commander esté abierto</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="translated">Cambie a un escritorio virtual donde OneCommander esté abierto</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="translated">Llevar One Commander al Escritorio Virtual actual</target>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
+          <target state="translated">Llevar OneCommander al Escritorio Virtual actual</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -2176,8 +2176,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated">¡Conozca los scripts que está ejecutando! ¡Riesgo de seguridad!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="translated">Usar el programa de actualización externo One Commander en lugar del script de PowerShell</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="translated">Usar el programa de actualización externo OneCommander en lugar del script de PowerShell</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -2268,13 +2268,13 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated">Presione una combinación de teclas deseada para capturarla</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
-          <target state="translated">Agregar el menú contextual "Abrir en One Commander"</target>
+          <source>Add "Open in OneCommander" context menu</source>
+          <target state="translated">Agregar el menú contextual "Abrir en OneCommander"</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="translated">Abrir en {0}</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -2366,23 +2366,35 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+          <target state="translated">Se ha encontrado el archivo de configuración existente de la versión de Microsoft Store del programa.&lt;br/&gt;¿Desea importar todas las configuraciones a esta versión?</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
-          <target state="new">Show temporary files</target>
+          <target state="translated">Mostrar archivos temporales</target>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+          <target state="translated">Muestra archivos .tmp, archivos de oficina que comienzan con ~$, y archivos con atributo de archivo temporal</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+          <target state="translated">¿Quieres descargar la última versión y reinstalar? Los ajustes no se verán afectados.</target>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
-          <target state="new">Reinstall</target>
+          <target state="translated">Reinstalar</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
         </trans-unit>
       </group>
     </body>
@@ -2443,8 +2455,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
-          <target state="needs-review-translation">El archivo {0} ya existe en la carpeta de destino. ¿Reemplazar todo?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El archivo {0} ya existe en la carpeta de destino. &lt;br/&gt;¿Reemplazar todo?</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -2626,8 +2637,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated">Carpeta {0} no encontrada</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">Para cerrar One Commander por completo, <bpt id="1">&lt;B&gt;</bpt>mantenga presionada la tecla Ctrl mientras hace clic en el botón Cerrar<ept id="1">&lt;/B&gt;</ept>, o haga clic con el botón secundario en el icono One Commander en la bandeja del sistema (junto al reloj) y seleccione <bpt id="2">&lt;i&gt;</bpt>Salir<ept id="2">&lt;/i&gt;</ept></target>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="translated">Para cerrar OneCommander por completo, <bpt id="1">&lt;B&gt;</bpt>mantenga presionada la tecla Ctrl mientras hace clic en el botón Cerrar<ept id="1">&lt;/B&gt;</ept>, o haga clic con el botón secundario en el icono OneCommander en la bandeja del sistema (junto al reloj) y seleccione <bpt id="2">&lt;i&gt;</bpt>Salir<ept id="2">&lt;/i&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2660,8 +2671,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
           <target state="translated">Cambió el nombre del elemento pero hizo clic fuera.&lt;br/&gt;¿Desea cambiar <bpt id="1">&lt;b&gt;</bpt>siempre el nombre del archivo<ept id="1">&lt;/b&gt;</ept> en esta situación en lugar de cancelar la operación?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="translated">¿Reiniciar el programa como administrador? Esto <bpt id="1">&lt;b&gt;</bpt>cancelará todas las transferencias de archivos en curso<ept id="1">&lt;/b&gt;</ept> y otros procesos que se ejecutan a través de One Commander</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="translated">¿Reiniciar el programa como administrador? Esto <bpt id="1">&lt;b&gt;</bpt>cancelará todas las transferencias de archivos en curso<ept id="1">&lt;/b&gt;</ept> y otros procesos que se ejecutan a través de OneCommander</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3756,12 +3767,20 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
           <target state="translated" state-qualifier="mt-suggestion">TAMAÑO</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="translated">Ordena los archivos por tamaño (más grande primero); Las carpetas no están ordenadas</target>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">Ordena los archivos por tamaño (más grande primero); 
+          Las carpetas no están ordenadas</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="translated">Ordena los archivos por tamaño (más pequeño primero); Las carpetas no están ordenadas</target>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">Ordena los archivos por tamaño (más pequeño primero); 
+          Las carpetas no están ordenadas</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -4173,50 +4192,90 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <target state="translated">Carpeta {0} no disponible (es posible que la distribución no se esté ejecutando)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="new">Error compressing file</target>
+          <target state="translated">Error al comprimir archivo</target>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
-          <target state="new">Archive name</target>
+          <target state="translated">Nombre del archivo</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
-          <target state="new">Remove scripts button</target>
+          <target state="translated">Eliminar el botón de scripts</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="new">Open scripts folder</target>
+          <target state="translated">Abrir la carpeta de scripts</target>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+          <target state="translated">Puede volver a habilitar el botón de scripts desde Configuración avanzada</target>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
-          <target state="new">Wrong password</target>
+          <target state="translated">Contraseña incorrecta</target>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="new">Enter password</target>
+          <target state="translated">Introducir la contraseña</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
-          <target state="new">Compress (zip)</target>
+          <target state="translated">Comprimir (zip)</target>
         </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
-          <target state="new">Building files list...</target>
+          <target state="translated">Construyendo lista de archivos...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="new">Compressing file {0}/{1}...</target>
+          <target state="translated">Comprimir archivo {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>
     </body>

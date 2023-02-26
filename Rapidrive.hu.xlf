@@ -183,10 +183,10 @@
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="translated">A One Commander ingyenes otthoni használatra, korlátozott funkciókészlettel.
+          <target state="translated">A OneCommander ingyenes otthoni használatra, korlátozott funkciókészlettel.
 
 Kereskedelmi használatra a PRO-licenc szükséges, függetlenül attól, hogy a felhasználónak szüksége van-e ezekre a további funkciókra (a Beállításokban PRO címkével van ellátva).</target>
         </trans-unit>
@@ -365,7 +365,7 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Felhasználói kézikönyv</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
+          <source>OneCommander uses following DLLs (Libraries)</source>
           <target state="translated">Egy parancsnok a következő DLL-eket (könyvtárakat) használja</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
@@ -951,7 +951,7 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <target state="translated">Kioldó szélessége</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
+          <source>OneCommander only expands columns smaller than this:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Egy parancsnok csak ennél kisebb oszlopokat bővít:</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
@@ -1131,8 +1131,8 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A One Commander Connector egy kísérleti önálló segédprogram, amely segít összekapcsolni az OC-t más programok Megnyitás és Mentés párbeszédpaneljeivel. Egy kis ablak jelenik meg egy kompatibilis megnyitás / mentés párbeszédpanelen, amely lehetővé teszi, hogy a mappáját a One Commanderben megnyitott útvonalra állítsa be. Az OC-től függetlenül fut.</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A OneCommander Connector egy kísérleti önálló segédprogram, amely segít összekapcsolni az OC-t más programok Megnyitás és Mentés párbeszédpaneljeivel. Egy kis ablak jelenik meg egy kompatibilis megnyitás / mentés párbeszédpanelen, amely lehetővé teszi, hogy a mappáját a OneCommanderben megnyitott útvonalra állítsa be. Az OC-től függetlenül fut.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -1153,19 +1153,19 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Folytassa az Explorer leállításával.exe, törölje a Windows miniatűr gyorsítótár fájljait, majd indítsa újra az explorert.exe? Ez leállítja az összes folyamatban lévő fájlműveletet!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;kísérleti funkció&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely úgy szerkeszti a rendszerleíró adatbázist, hogy a One Commander legyen az alapértelmezett fájlkezelő és mappakezelő (a Megnyitás/Mentés párbeszédpanelek nem cserélhetők le). &amp;lt;br/&amp;gt;&amp;lt;bpt<it id="3" pos="close">&lt;/bpt&gt;</it> id="2"&amp;gt;&amp;lt;b&amp;gt;Ez használhatatlanná teszi a Windows File Explorert&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - még akkor is, ha a File Explorer egyik mappájára kattint, megnyílik a One Commander. &amp;lt;br/&amp;gt;Meg kell &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;törölnie kell a regisztrációt&amp;lt;ept id="3"&amp;gt;&amp;lt;/b<it id="6" pos="close">&lt;/ept&gt;</it>&amp;gt; ha valaha is áthelyezi vagy eltávolítja a One Commandert (az eltávolítása nem fogja visszavonni a változásokat)!&amp;lt;br/&amp;gt;Ez lehetővé teszi a háttérben való futtatást is a gyorsabb ablaknyitás érdekében.&amp;lt;br/&amp;gt;Teljesen biztos benne, hogy folytatni akarja, és tudja, hogyan állíthatja vissza önállóan a rendszerleíró adatbázist, ha valami nem sikerül (helyreállítás esetén nincs támogatás)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;kísérleti funkció&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely úgy szerkeszti a rendszerleíró adatbázist, hogy a OneCommander legyen az alapértelmezett fájlkezelő és mappakezelő (a Megnyitás/Mentés párbeszédpanelek nem cserélhetők le). &amp;lt;br/&amp;gt;&amp;lt;bpt<it id="3" pos="close">&lt;/bpt&gt;</it> id="2"&amp;gt;&amp;lt;b&amp;gt;Ez használhatatlanná teszi a Windows File Explorert&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - még akkor is, ha a File Explorer egyik mappájára kattint, megnyílik a OneCommander. &amp;lt;br/&amp;gt;Meg kell &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;törölnie kell a regisztrációt&amp;lt;ept id="3"&amp;gt;&amp;lt;/b<it id="6" pos="close">&lt;/ept&gt;</it>&amp;gt; ha valaha is áthelyezi vagy eltávolítja a OneCommandert (az eltávolítása nem fogja visszavonni a változásokat)!&amp;lt;br/&amp;gt;Ez lehetővé teszi a háttérben való futtatást is a gyorsabb ablaknyitás érdekében.&amp;lt;br/&amp;gt;Teljesen biztos benne, hogy folytatni akarja, és tudja, hogyan állíthatja vissza önállóan a rendszerleíró adatbázist, ha valami nem sikerül (helyreállítás esetén nincs támogatás)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Szeretnéd &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;restart program most&amp;lt;ept id="1"&amp;gt;&amp;lt;/b<it id="2" pos="close">&lt;/ept&gt;</it>&amp;gt; az összes változtatás alkalmazásához?&amp;lt;br/&amp;gt;Ez megszakítja az egyik parancsnok által kezdeményezett összes folyamatban lévő műveletet</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely a Windows rendszerleíró adatbázisát szerkeszti, hogy teljesen lecserélje a Windows File Explorer Win+E gyorsbillentyűt. Ez a rendszerleíró adatbázis-módosítás megnyitja a One Commandert, amikor az Explorer parancsikonra kattint, de nem tiltja le a navigációt az Intézőben. Ezt csak úgy lehet megfordítani, ha törli a regisztrációt a One Commanderből, vagy futtatja a rendszerleíró adatbázis szkriptet a One Commander mappából (az OC eltávolítása nem változtatja meg automatikusan). Halad?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely a Windows rendszerleíró adatbázisát szerkeszti, hogy teljesen lecserélje a Windows File Explorer Win+E gyorsbillentyűt. Ez a rendszerleíró adatbázis-módosítás megnyitja a OneCommandert, amikor az Explorer parancsikonra kattint, de nem tiltja le a navigációt az Intézőben. Ezt csak úgy lehet megfordítani, ha törli a regisztrációt a OneCommanderből, vagy futtatja a rendszerleíró adatbázis szkriptet a OneCommander mappából (az OC eltávolítása nem változtatja meg automatikusan). Halad?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -1237,8 +1237,8 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kizárt shell helyi menüelemek</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Az ilyen igékkel vagy teljes szöveggel rendelkező helyi menüelemek kizárásra kerülnek; vessző elválasztva; nincs szóköz a vessző után; az előre kitöltött igéket/parancsokat a One Commander nem támogatja</target>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Az ilyen igékkel vagy teljes szöveggel rendelkező helyi menüelemek kizárásra kerülnek; vessző elválasztva; nincs szóköz a vessző után; az előre kitöltött igéket/parancsokat a OneCommander nem támogatja</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -1753,13 +1753,13 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A 3ds Max bélyegképkezelő regisztrálása</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
+          <source>Add "Open in OneCommander" context menu</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Adja hozzá a "Megnyitás egy parancsnokban" helyi menüt</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megnyitás {0}</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
@@ -2217,12 +2217,14 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="translated">Használja a régi Drag&amp;Drop funkciót</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Alapértelmezett KI. Kapcsolja be, ha azok a programok, amelyek korábban eldobási műveleteket fogadtak el az OC-től, nem fogadtak fájlokat. Kérjük, jelentse, ha valamelyik programnak problémája van a lemorzsolódási műveletekkel. Az Acrobat oldalbeszúrással köztudottan egyikkel sem működik.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Külső One Commander frissítőprogram használata PowerShell-szkript helyett</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Külső OneCommander frissítőprogram használata PowerShell-szkript helyett</target>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -2249,8 +2251,8 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows alapértelmezett</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="translated">One Commander beállításai</target>
+          <source>OneCommander Settings</source>
+          <target state="translated">OneCommander beállításai</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -2266,11 +2268,11 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ez csak a Windows egyes verzióin működik</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Váltás virtuális asztalra, ahol a One Commander meg van nyitva</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Váltás virtuális asztalra, ahol a OneCommander meg van nyitva</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Egy parancsnok létrehozása az aktuális virtuális asztalra</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
@@ -2384,6 +2386,18 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
           <target state="new">Reinstall</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
         </trans-unit>
       </group>
     </body>
@@ -2674,8 +2688,8 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A mappa {0} nem található</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A One Commander teljes bezárásához tartsa<it id="1" pos="close">&lt;/bpt&gt;</it> lenyomva<it id="2" pos="close">&lt;/ept&gt;</it> a &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt; billentyűt, miközben a bezárás gombra kattint&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;, vagy kattintson a jobb gombbal a One Commander ikonra a Rendszertálcán (az óra mellett), és válassza a &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i lehetőséget&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A OneCommander teljes bezárásához tartsa<it id="1" pos="close">&lt;/bpt&gt;</it> lenyomva<it id="2" pos="close">&lt;/ept&gt;</it> a &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt; billentyűt, miközben a bezárás gombra kattint&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;, vagy kattintson a jobb gombbal a OneCommander ikonra a Rendszertálcán (az óra mellett), és válassza a &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i lehetőséget&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2723,8 +2737,8 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megváltoztatta az elem nevét, de az outside.&amp;lt;br/&amp;gt; gombra kattintott,<it id="1" pos="close">&lt;/bpt&gt;</it> és ebben a helyzetben a művelet megszakítása helyett &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;always átnevezi a fájlt&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> át?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indítsa újra a programot rendszergazdaként? Ez &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt; megszakítja az összes folyamatban lévő fájlátvitelt&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> és más, a One Commanderen keresztül futó folyamatot.</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indítsa újra a programot rendszergazdaként? Ez &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt; megszakítja az összes folyamatban lévő fájlátvitelt&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> és más, a OneCommanderen keresztül futó folyamatot.</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3952,12 +3966,18 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="needs-review-translation" state-qualifier="mt-suggestion">MÉRET</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="translated">A fájlokat méret szerint rendezi (először a legnagyobb); A mappák nem lesznek rendezve</target>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">A fájlokat méret szerint rendezi (először a legnagyobb); A mappák nem lesznek rendezve</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="translated">A fájlokat méret szerint rendezi (először a legkisebb); A mappák nem lesznek rendezve</target>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
+          <target state="needs-review-translation">A fájlokat méret szerint rendezi (először a legkisebb); A mappák nem lesznek rendezve</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -4219,6 +4239,46 @@ Some programs won't be able to open this file</target>
           <source>Compressing file {0}/{1}...</source>
           <target state="new">Compressing file {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>
     </body>

@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" datatype="resx">
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
           <source>Machine ID:</source>
-          <target state="translated">ID matériel anonymisé :</target>
+          <target state="final">ID matériel anonymisé :</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
@@ -67,10 +67,10 @@
           <target state="final">Obtenez-le depuis le Microsoft Store</target>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="needs-review-translation">One Commander est gratuit pour une utilisation personnelle à domicile, avec un ensemble de fonctionnalités limité.
+          <target state="needs-review-translation">OneCommander est gratuit pour une utilisation personnelle à domicile, avec un ensemble de fonctionnalités limité.
 
 Pour une utilisation commerciale ou professionnelle, la licence PRO est requise, que l’utilisateur ait besoin des fonctionnalités supplémentaires (étiquetées PRO dans les paramètres) ou non.</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
@@ -206,10 +206,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="SearchName" translate="yes" xml:space="preserve">
           <source>Search name</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nom de recherche</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
-          <note from="MultilingualEditor" annotates="source" priority="4">I didn't change the translation that seems OK, but could be also different depending on the context. I don't understand where and how this sentence is used... Please give me a context to check.</note>
-          <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment</note>
+          <target state="final">Rechercher un nom</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Textbox watermark in about dialog</note>
         </trans-unit>
         <trans-unit id="SettingsLocation" translate="yes" xml:space="preserve">
@@ -245,8 +242,8 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <target state="final">Manuel utilisateur</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
-          <target state="final">One Commander utilise les DLL (bibliothèques) suivantes :</target>
+          <source>OneCommander uses following DLLs (Libraries)</source>
+          <target state="final">OneCommander utilise les DLL (bibliothèques) suivantes :</target>
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
           <source>Website</source>
@@ -362,8 +359,8 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <target state="final">Largeur de déclenchement</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
-          <target state="final">One Commander n'expand que les colonnes plus petites que :</target>
+          <source>OneCommander only expands columns smaller than this:</source>
+          <target state="final">OneCommander n'expand que les colonnes plus petites que :</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -427,7 +424,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="CommandShellArgsInfo" translate="yes" xml:space="preserve">
           <source>$CurrentPath will be replaced with current path</source>
-          <target state="translated">$CurrentPath sera remplacé par le chemin actuel</target>
+          <target state="final">$CurrentPath sera remplacé par le chemin actuel</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate $CurrentPath</note>
         </trans-unit>
         <trans-unit id="CommandShellInfo" translate="yes" xml:space="preserve">
@@ -436,7 +433,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
-          <target state="translated" state-qualifier="mt-suggestion">F10 (Ctrl pour élever)</target>
+          <target state="final" state-qualifier="mt-suggestion">F10 (Ctrl pour élever)</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment</note>
           <note from="MultilingualEditor" annotates="source" priority="4">The translation is correct, but should be checked depending on the context if in use one day.</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment</note>
@@ -505,20 +502,18 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Important : Il s’agit d’une fonctionnalité &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;expérimentale&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; qui modifiera votre Registre pour faire de One Commander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;&lt;bpt id="2"&gt;&lt;b&gt;&lt;/bpt&gt;Cela rendra l’Explorateur de fichiers Windows inutilisable&lt;ept id="2"&gt;&lt;/b&gt;&lt;/ept&gt; - même en cliquant sur un dossier dans l’Explorateur de fichiers, One Commander s’ouvrira. &lt;br/&gt;Vous devrez &lt;bpt id="3"&gt;&lt;b&gt;&lt;/bpt&gt;le désinscrire&lt;ept id="3"&gt;&lt;/b&gt;&lt;/ept&gt; si jamais vous déplacez ou supprimez One Commander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="translated">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="final">Voulez-vous &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;redémarrer le programme maintenant&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; pour appliquer toutes les modifications ?&lt;br/&gt;Cela annulera toutes les opérations en cours initiées par One Commander.</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="final">Voulez-vous &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;redémarrer le programme maintenant&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; pour appliquer toutes les modifications ?&lt;br/&gt;Cela annulera toutes les opérations en cours initiées par OneCommander.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">Important : Il s’agit d’une fonctionnalité &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;expérimentale&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira One Commander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire de One Commander ou d’exécuter le script de registre à partir du dossier One Commander (la désinstallation d’OC ne le supprimera pas automatiquement). Voulez-vous procéder?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="translated">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira OneCommander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire de OneCommander ou d’exécuter le script de registre à partir du dossier OneCommander (la désinstallation d’OC ne le supprimera pas automatiquement). Voulez-vous procéder?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -568,8 +563,8 @@ Glisser déplace si dans le même lecteur, sinon copie. Ctrl+glisser pour copier
           <target state="final">Éléments du menu contextuel Shell exclus</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
-          <target state="final">Les éléments de menu contextuel avec ces verbes ou texte intégral seront exclus. Séparés par des virgules, pas d’espace après la virgule, les verbes/commandes pré-remplis ne sont pas pris en charge par One Commander.</target>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
+          <target state="final">Les éléments de menu contextuel avec ces verbes ou texte intégral seront exclus. Séparés par des virgules, pas d’espace après la virgule, les verbes/commandes pré-remplis ne sont pas pris en charge par OneCommander.</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
@@ -750,7 +745,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
           <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
-          <target state="translated">Afficher des extraits de texte pour ces types de fichiers (vue de fichier Miniatures + Détails)</target>
+          <target state="final">Afficher des extraits de texte pour ces types de fichiers (vue de fichier Miniatures + Détails)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
@@ -778,7 +773,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
           <source>Middle-click on a folder opens a new tab:</source>
-          <target state="translated">Clic milieu sur un dossier ouvre un nouvel onglet :</target>
+          <target state="final">Clic-milieu sur un dossier ouvre un nouvel onglet :</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1144,12 +1139,14 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Utiliser l’ancien système Glisser&amp;Déposer</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="final">Désactivé par défaut. A activer si les programmes qui acceptaient les opérations de dépose depuis OC ont cessé de les accepter. Veuillez signaler les programmes refusant les opérations de dépose. L’insertion de page Acrobat est connue pour ne pas fonctionner.</target>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
+          <target state="final">Désactivé par défaut. C'est pour glisser depuis OneCommander vers d'autres programmes.
+L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la place Combiner les fichiers, dans le menu contextuel.</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="final" state-qualifier="mt-suggestion">Paramètres One Commander</target>
+          <source>OneCommander Settings</source>
+          <target state="final" state-qualifier="mt-suggestion">Paramètres OneCommander</target>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -1165,12 +1162,12 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Cela ne fonctionne que sur certaines versions de Windows.</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="final" state-qualifier="mt-suggestion">Basculer vers un bureau virtuel où One Commander est ouvert</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="final" state-qualifier="mt-suggestion">Basculer vers un bureau virtuel où OneCommander est ouvert</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="final">Déplacer One Commander sur le bureau virtuel actuel</target>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
+          <target state="final">Déplacer OneCommander sur le bureau virtuel actuel</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -1391,8 +1388,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab with the same path</source>
-          <target state="needs-review-translation">Un onglet existant</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Onglet existant avec le même chemin</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -1430,8 +1426,8 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="final">Le connecteur One Commander est un utilitaire autonome expérimental permettant de connecter OC aux boîtes de dialogue Ouvrir et Enregistrer des autres programmes. Une petite fenêtre apparaîtra sous une boîte de dialogue d’ouverture/enregistrement compatible pour vous permettre de définir son dossier sur le chemin ouvert dans One Commander. Fonctionne indépendamment d’OC.</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="final">Le connecteur OneCommander est un utilitaire autonome expérimental permettant de connecter OC aux boîtes de dialogue Ouvrir et Enregistrer des autres programmes. Une petite fenêtre apparaîtra sous une boîte de dialogue d’ouverture/enregistrement compatible pour vous permettre de définir son dossier sur le chemin ouvert dans OneCommander. Fonctionne indépendamment d’OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -1461,7 +1457,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Arrière-plan de l’élément de couleur pour baliser la couleur</target>
+          <target state="final">Colorer l'arrière-plan de l'élément selon la couleur de balise</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment</note>
           <note from="MultilingualEditor" annotates="source" priority="4">Didn't find this one? Where is it on the settings dialog ?</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment</note>
@@ -1651,8 +1647,8 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Attention aux scripts que vous exécutez ! Risque de sécurité !</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="final">Utiliser un programme externe de mise à jour One Commander au lieu d’un script PowerShell</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="final">Utiliser un programme externe de mise à jour OneCommander au lieu d’un script PowerShell</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -1743,13 +1739,13 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Appuyez sur la combinaison de touches souhaitée pour la capturer</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
-          <target state="final">Ajouter le menu contextuel « Ouvrir dans One Commander »</target>
+          <source>Add "Open in OneCommander" context menu</source>
+          <target state="final">Ajouter le menu contextuel « Ouvrir dans OneCommander »</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="final">Ouvrir dans {0}</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -1804,60 +1800,73 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
-          <target state="new">Failed to modify Windows Registry value</target>
+          <target state="final">Echec de la modification de la valeur du Registre Windows</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
-        </trans-unit>
-        <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
-          <source>Keyboard-focused element display style</source>
-          <target state="new">Keyboard-focused element display style</target>
-        </trans-unit>
-        <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
-          <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
-        </trans-unit>
-        <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
-          <source>Maximum file name length</source>
-          <target state="new">Maximum file name length</target>
-        </trans-unit>
-        <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
-          <source>Current tab</source>
-          <target state="new">Current tab</target>
-        </trans-unit>
-        <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
-          <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
-        </trans-unit>
-        <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
-          <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
-        </trans-unit>
-        <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
-          <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
-        </trans-unit>
-        <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
-          <source>Use acrylic effect in menu</source>
-          <target state="new">Use acrylic effect in menu</target>
-        </trans-unit>
-        <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
-          <source>Show temporary files</source>
-          <target state="new">Show temporary files</target>
-        </trans-unit>
-        <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
-          <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+          <target state="final">Un fichier existant de paramètres de la version Microsoft Store du programme a été trouvé.&lt;br/&gt;Voulez-vous importer tous les paramètres dans cette version ?
+</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+          <target state="final">Voulez-vous télécharger la dernière version et réinstaller ? Les paramètres ne seront pas affectés.</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="final">Âge du fichier / date relative</target>
+        </trans-unit>
+        <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
+          <source>Keyboard-focused element display style</source>
+          <target state="final">Style d'affichage des éléments obtenant le focus par le clavier</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="final">Taille de police</target>
+        </trans-unit>
+        <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
+          <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
+          <target state="final">Limiter la longueur du nom de fichier pour une compatibilité maximum avec les autres programmes (limite Windows des 260 caractères pour le chemin complet)</target>
+        </trans-unit>
+        <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
+          <source>Maximum file name length</source>
+          <target state="final">Longueur maximum du nom de fichier</target>
+        </trans-unit>
+        <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
+          <source>Current tab</source>
+          <target state="final">Onglet courant</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
+          <source>Force Microsoft 365/Office to save thumbnails in files</source>
+          <target state="final">Forcer Microsoft 365/Office à enregistrer les miniatures dans les fichiers</target>
+        </trans-unit>
+        <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
+          <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
+          <target state="final">Cela prendra effet lors du prochain enregistrement de chaque fichier Microsoft 365/Office. Cela n'affecte pas les fichiers existants.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
-          <target state="new">Reinstall</target>
+          <target state="final">Réinstaller</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
+          <source>Show temporary files</source>
+          <target state="final">Afficher les fichiers temporaires</target>
+        </trans-unit>
+        <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
+          <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
+          <target state="final">Affiche les fichiers .tmp, les fichier Office commençant par ~$, et les fichiers avec l'attribut Temporaire</target>
+        </trans-unit>
+        <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
+          <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
+          <target state="final">Pour utiliser cette option activer Effets de transparence dans Windows : Paramètres/Personnalisation/Couleurs</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in menu</source>
+          <target state="final">Utiliser les effets Acrylic dans le menu</target>
+        </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="final">Voter sur UserVoice pour que l'équipe Acrobat corrige ceci</target>
         </trans-unit>
       </group>
     </body>
@@ -1903,8 +1912,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
-          <target state="needs-review-translation">Le fichier {0} existe déjà dans le dossier de destination. Remplacer tout ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le fichier {0} existe déjà dans le dossier de destination. &lt;br/&gt;Remplacer tout ?</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -2066,8 +2074,8 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Dossier {0} introuvable</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="final">Pour fermer complètement One Commander, <bpt id="1">&lt;B&gt;</bpt>tenez la touche CTRL tout en cliquant sur le bouton de fermeture <ept id="1">&lt;/B&gt;</ept> ou cliquez avec le bouton droit sur l’icône One Commander dans la barre d’état système (à côté de l’horloge), puis sélectionnez <bpt id="2">&lt;i&gt;</bpt>Quitter<ept id="2">&lt;/i&gt;</ept></target>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="final">Pour fermer complètement OneCommander, <bpt id="1">&lt;B&gt;</bpt>tenez la touche CTRL tout en cliquant sur le bouton de fermeture <ept id="1">&lt;/B&gt;</ept> ou cliquez avec le bouton droit sur l’icône OneCommander dans la barre d’état système (à côté de l’horloge), puis sélectionnez <bpt id="2">&lt;i&gt;</bpt>Quitter<ept id="2">&lt;/i&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2100,8 +2108,8 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
           <target state="final">Vous avez modifié le nom de l’élément mais cliqué en dehors du nom. Souhaitez-vous toujours <bpt id="1">&lt;b&gt;</bpt>renommer le fichier<ept id="1">&lt;/b&gt;</ept> dans cette situation au lieu d’annuler l’opération ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="final">Redémarrer le programme en tant qu’administrateur ? Cela <bpt id="1">&lt;b&gt;</bpt>annulera tous les transferts de fichiers en cours<ept id="1">&lt;/b&gt;</ept> et les autres processus s’exécutant via One Commander.</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="final">Redémarrer le programme en tant qu’administrateur ? Cela <bpt id="1">&lt;b&gt;</bpt>annulera tous les transferts de fichiers en cours<ept id="1">&lt;/b&gt;</ept> et les autres processus s’exécutant via OneCommander.</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3058,642 +3066,687 @@ Certains programmes ne pourront pas ouvrir/enregistrer des fichiers à partir de
           <target state="final" state-qualifier="tm-suggestion">TAILLE</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
-          <target state="final" state-qualifier="mt-suggestion">Trie les fichiers par taille (le plus grand en premier); Les dossiers ne sont pas triés</target>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
+          <target state="final">Trie les fichiers par taille (le plus grand en premier)
+Les dossiers ne sont pas triés</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trie les fichiers par taille (le plus petit en premier); Les dossiers ne sont pas triés</target>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
+          <target state="final">Trie les fichiers par taille (le plus petit en premier)
+Les dossiers ne sont pas triés</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">TAPER</target>
+          <target state="final">TYPE</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trie les éléments par type (A-Z)</target>
+          <target state="final" state-qualifier="mt-suggestion">Trie les éléments par type (A-Z)</target>
         </trans-unit>
         <trans-unit id="SortByType_Descending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (Z-A)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trie les éléments par type (Z-A)</target>
+          <target state="final" state-qualifier="mt-suggestion">Trie les éléments par type (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
           <source>Keep folders above files (On/Off)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Garder les dossiers sur la bascule supérieure</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Garder les dossiers en début de liste (On/Off)</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trier les fichiers</target>
+          <target state="final" state-qualifier="mt-suggestion">Trier les fichiers</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_Exit" translate="yes" xml:space="preserve">
           <source>Exit</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Quitter</target>
+          <target state="final" state-qualifier="tm-suggestion">Quitter</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_NewWindow" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nouvelle fenêtre</target>
+          <target state="final" state-qualifier="tm-suggestion">Nouvelle fenêtre</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_OpenLog" translate="yes" xml:space="preserve">
           <source>Open log</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir le journal</target>
+          <target state="final" state-qualifier="mt-suggestion">Ouvrir le journal</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_ShowWindow" translate="yes" xml:space="preserve">
           <source>Show last window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher la dernière fenêtre</target>
+          <target state="final" state-qualifier="mt-suggestion">Afficher la dernière fenêtre</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">CONSEIL: Ctrl de l’utilisateur + molette de la souris pour modifier la taille des vignettes / éléments par colonne</target>
+          <target state="final">CONSEIL: Utiliser Ctrl + Molette de la souris pour changer la taille des vignettes / éléments par colonne</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dans Aperçu, vous pouvez utiliser la molette de la souris pour zoomer, même lors de la prévisualisation d’une vidéo</target>
+          <target state="final">Dans l'Aperçu, vous pouvez utiliser la molette de la souris pour zoomer, même lors de la prévisualisation d’une vidéo</target>
         </trans-unit>
         <trans-unit id="TIP_WindowSelect" translate="yes" xml:space="preserve">
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">CONSEIL : Vous pouvez dessiner la fenêtre de sélection en maintenant le bouton central de la souris enfoncé sans avoir besoin d’utiliser de l’espace vide</target>
+          <target state="final" state-qualifier="mt-suggestion">CONSEIL : Vous pouvez dessiner la fenêtre de sélection en maintenant le bouton central de la souris enfoncé sans avoir besoin d’utiliser de l’espace vide</target>
         </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Déverrouiller</target>
+          <target state="final" state-qualifier="tm-suggestion">Déverrouiller</target>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mise à jour automatique vers la dernière version</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Installer la dernière mis à jour</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for update button on top-right corner</note>
         </trans-unit>
         <trans-unit id="Updating" translate="yes" xml:space="preserve">
           <source>Updating...</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">La mise à jour est en cours... Merci de patienter.</target>
+          <target state="final" state-qualifier="tm-suggestion">La mise à jour est en cours... Merci de patienter.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
         </trans-unit>
         <trans-unit id="Warning" translate="yes" xml:space="preserve">
           <source>Warning!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avertissement!</target>
+          <target state="final">Attention !</target>
         </trans-unit>
         <trans-unit id="Watermark_BitlockerLocked" translate="yes" xml:space="preserve">
           <source>Locked with BitLocker</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verrouillé avec BitLocker</target>
+          <target state="final" state-qualifier="mt-suggestion">Verrouillé avec BitLocker</target>
         </trans-unit>
         <trans-unit id="Watermark_DragFilesHere" translate="yes" xml:space="preserve">
           <source>Drag files here</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Faire glisser les fichiers ici</target>
+          <target state="final">Glisser les fichiers ici</target>
         </trans-unit>
         <trans-unit id="Watermark_Empty" translate="yes" xml:space="preserve">
           <source>Empty</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Vide</target>
+          <target state="final" state-qualifier="tm-suggestion">Vide</target>
         </trans-unit>
         <trans-unit id="Watermark_InvalidFolderCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains characters unsupported by Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le nom du dossier contient des caractères non pris en charge par Windows</target>
+          <target state="final" state-qualifier="mt-suggestion">Le nom du dossier contient des caractères non pris en charge par Windows</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccess" translate="yes" xml:space="preserve">
           <source>No access</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aucun accès</target>
+          <target state="final">Pas d'accès</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccessTryElevating" translate="yes" xml:space="preserve">
           <source>No access. Try restarting as Admin (Ctrl+Shift+F12)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pas d’accès. Essayez de redémarrer en tant qu’administrateur (Ctrl + Maj + F12)</target>
+          <target state="final">Pas d’accès. Essayez de redémarrer en tant qu’administrateur (Ctrl+Maj+F12)</target>
         </trans-unit>
         <trans-unit id="Watermark_NoFilesFound" translate="yes" xml:space="preserve">
           <source>No matching items found</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aucun élément correspondant</target>
+          <target state="final">Aucun élément correspondant trouvé</target>
         </trans-unit>
         <trans-unit id="Watermark_NoShares" translate="yes" xml:space="preserve">
           <source>No accessible shares found</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aucun partage accessible trouvé</target>
+          <target state="final" state-qualifier="mt-suggestion">Aucun partage accessible trouvé</target>
         </trans-unit>
         <trans-unit id="Watermark_SearchingShares" translate="yes" xml:space="preserve">
           <source>Searching shares...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Recherche de partages...</target>
+          <target state="final" state-qualifier="mt-suggestion">Recherche de partages...</target>
         </trans-unit>
         <trans-unit id="CursorCopy" translate="yes" xml:space="preserve">
           <source>COPY</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">COPIER</target>
+          <target state="final" state-qualifier="tm-suggestion">COPIER</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text</note>
         </trans-unit>
         <trans-unit id="CursorMove" translate="yes" xml:space="preserve">
           <source>MOVE</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">DÉPLACER</target>
+          <target state="final" state-qualifier="tm-suggestion">DÉPLACER</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text</note>
         </trans-unit>
         <trans-unit id="CursorMoveExtra" translate="yes" xml:space="preserve">
           <source>hold CTRL to Copy</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">maintenez la touche CTRL enfoncée pour copier</target>
+          <target state="final" state-qualifier="mt-suggestion">maintenez la touche CTRL enfoncée pour copier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text showing as part afer Move: Move | hold CTRL to Copy</note>
         </trans-unit>
         <trans-unit id="AgeMinuteShort" translate="yes" xml:space="preserve">
           <source>min</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">minute</target>
+          <target state="final">min</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Minute (ex: 1h 15min)</note>
         </trans-unit>
         <trans-unit id="AgeSecondShort" translate="yes" xml:space="preserve">
           <source>s</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">d</target>
+          <target state="final">s</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Second (ex: 30 s)</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Drive {0} pourrait ralentir votre ordinateur (en attendant de se réveiller / tourner?)</target>
+          <target state="final">Le lecteur {0} pourrait ralentir votre ordinateur (en attente de son réveil / sa rotation ?)</target>
         </trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enregistrement des paramètres avant la fermeture...</target>
+          <target state="final" state-qualifier="mt-suggestion">Enregistrement des paramètres avant la fermeture...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Newest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Date de création (la plus récente en premier)</target>
+          <target state="final" state-qualifier="mt-suggestion">Date de création (la plus récente en premier)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Oldest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Date de création (la plus ancienne en premier)</target>
+          <target state="final" state-qualifier="mt-suggestion">Date de création (la plus ancienne en premier)</target>
         </trans-unit>
         <trans-unit id="ExpandColumn_TT" translate="yes" xml:space="preserve">
           <source>Temporarily expand column</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Développer temporairement la colonne</target>
+          <target state="final" state-qualifier="mt-suggestion">Développer temporairement la colonne</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl + Entrée</target>
+          <target state="final" state-qualifier="mt-suggestion">Ctrl + Entrée</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_Clone_S" translate="yes" xml:space="preserve">
           <source>Enter</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Entrée</target>
+          <target state="final" state-qualifier="tm-suggestion">Entrée</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut key Enter</note>
         </trans-unit>
         <trans-unit id="JumplistCreateNewWindow" translate="yes" xml:space="preserve">
           <source>Create new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer une nouvelle fenêtre</target>
+          <target state="final" state-qualifier="mt-suggestion">Créer une nouvelle fenêtre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistResetWindow" translate="yes" xml:space="preserve">
           <source>Center current window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Centrer la fenêtre actuelle</target>
+          <target state="final" state-qualifier="mt-suggestion">Centrer la fenêtre actuelle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistSavedWindows" translate="yes" xml:space="preserve">
           <source>Saved windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fenêtres enregistrées</target>
+          <target state="final" state-qualifier="mt-suggestion">Fenêtres enregistrées</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistActions" translate="yes" xml:space="preserve">
           <source>Actions</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Opérations</target>
+          <target state="final">Actions</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardNoFiles" translate="yes" xml:space="preserve">
           <source>Clipboard doesn't contain files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le Presse-papiers ne contient pas de fichiers</target>
+          <target state="final" state-qualifier="mt-suggestion">Le Presse-papiers ne contient pas de fichiers</target>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le fichier portant ce nom existe déjà. Voulez-vous le remplacer?</target>
+          <target state="final">Un fichier portant ce nom existe déjà. Voulez-vous le remplacer ?</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obtention d’éléments de la Corbeille...</target>
+          <target state="final">Obtention du contenu de la Corbeille...</target>
         </trans-unit>
         <trans-unit id="MSG_E_ItemsUnavailable" translate="yes" xml:space="preserve">
           <source>Items unavailable</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Objets indisponibles</target>
+          <target state="final" state-qualifier="mt-suggestion">Objets indisponibles</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aucune distribution WSL trouvée. Assurez-vous qu’ils sont en cours d’exécution</target>
+          <target state="final">Aucune distribution WSL trouvée. Assurez-vous qu’elles sont en cours d’exécution</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dossier spécial</target>
+          <target state="final" state-qualifier="mt-suggestion">Dossier spécial</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="Computer" translate="yes" xml:space="preserve">
           <source>Computer</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ordinateur</target>
+          <target state="final" state-qualifier="tm-suggestion">Ordinateur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details</note>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Historique</target>
+          <target state="final" state-qualifier="tm-suggestion">Historique</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Effacer</target>
+          <target state="final" state-qualifier="tm-suggestion">Effacer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volet Supprimer l’historique</target>
+          <target state="final">Retirer le volet Historique</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le volet Historique est supprimé. Il peut être ajouté à nouveau dans Paramètres</target>
+          <target state="final">Le volet Historique a été retiré. Il peut être ajouté à nouveau depuis les Paramètres</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Destinations récentes</target>
+          <target state="final" state-qualifier="mt-suggestion">Destinations récentes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Noms</target>
+          <target state="final" state-qualifier="tm-suggestion">Noms</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Balises</target>
+          <target state="final" state-qualifier="tm-suggestion">Balises</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Entrez le nom du dossier</target>
+          <target state="final" state-qualifier="tm-suggestion">Entrez le nom du dossier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le programme de destination n’accepte pas le package FileDrop</target>
+          <target state="final">Le programme de destination n’accepte pas le paquet FileDrop</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
         <trans-unit id="ApplyingSettingsPleaseWait" translate="yes" xml:space="preserve">
           <source>Applying settings. Please wait...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Application des paramètres. Veuillez patienter...</target>
+          <target state="final" state-qualifier="mt-suggestion">Application des paramètres. Veuillez patienter...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Non disponible</target>
+          <target state="final" state-qualifier="tm-suggestion">Non disponible</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Supprimer la fenêtre {0}?</target>
+          <target state="final">Supprimer la fenêtre {0} ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Supprimer la fenêtre enregistrée</target>
+          <target state="final" state-qualifier="mt-suggestion">Supprimer la fenêtre enregistrée</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Renommer</target>
+          <target state="final" state-qualifier="tm-suggestion">Renommer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Les éléments ne peuvent pas être ouverts directement à partir de la Corbeille. Restaurez-les d’abord dans le dossier d’origine.</target>
+          <target state="final">Les éléments ne peuvent pas être ouverts directement depuis la Corbeille. Restaurez-les d’abord dans leur dossier d’origine.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nouveau dossier de la sélection</target>
+          <target state="final">Nouveau dossier à partir de la sélection</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
           <source>Create and move {0} files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer et déplacer des fichiers {0}</target>
+          <target state="final">Créer et déplacer les fichiers {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Changements dans le lecteur {0}</target>
+          <target state="final">Modifications dans le lecteur {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Actualiser le contenu (ce type de dossier ne peut pas être actualisé automatiquement)</target>
+          <target state="final" state-qualifier="mt-suggestion">Actualiser le contenu (ce type de dossier ne peut pas être actualisé automatiquement)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ouvrir avec</target>
+          <target state="final" state-qualifier="tm-suggestion">Ouvrir avec</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Finalisation de l'installation...</target>
+          <target state="final" state-qualifier="tm-suggestion">Finalisation de l'installation...</target>
         </trans-unit>
         <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
           <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows redirige ce dossier. Les fichiers enregistrés ou modifiés ici peuvent ne pas s’afficher en dehors de OneCommander. Il s’agit de la limitation imposée par Windows. Utilisez la version autonome de OneCommander pour un accès approprié à ce dossier.</target>
+          <target state="final" state-qualifier="mt-suggestion">Windows redirige ce dossier. Les fichiers enregistrés ou modifiés ici peuvent ne pas s’afficher en dehors de OneCommander. Il s’agit de la limitation imposée par Windows. Utilisez la version autonome de OneCommander pour un accès approprié à ce dossier.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Windows doesn't support undoing file operations outside Explorer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows ne prend pas en charge l’annulation des opérations de fichiers en dehors de l’Explorateur</target>
+          <target state="final">Windows ne prend pas en charge l’annulation des opérations de fichiers hors de l’Explorateur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le disque est plein, donc les paramètres ne peuvent pas être enregistrés. Videz au moins quelques Ko d’espace ou videz la Corbeille. &lt;br/&gt;Essayer d’enregistrer les paramètres ?</target>
+          <target state="final">Le disque est plein, les paramètres ne peuvent donc pas être enregistrés. Supprimez au moins quelques Ko d’espace ou videz la Corbeille. &lt;br/&gt;Réessayer d’enregistrer les paramètres ?</target>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Donnez un nom à une nouvelle fenêtre pour enregistrer sa mise en page, sa position et ses onglets pour la prochaine fois que vous en aurez besoin</target>
+          <target state="final">Nommez la nouvelle fenêtre pour enregistrer sa mise en page, sa position et ses onglets pour la prochaine fois que vous en aurez besoin</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Scripts</target>
+          <target state="final" state-qualifier="mt-suggestion">Scripts</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nom non valide</target>
+          <target state="final" state-qualifier="mt-suggestion">Nom non valide</target>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Balise de couleur</target>
+          <target state="final" state-qualifier="mt-suggestion">Balise de couleur</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
           <source>Open in new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir dans une nouvelle fenêtre</target>
+          <target state="final" state-qualifier="mt-suggestion">Ouvrir dans une nouvelle fenêtre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
           <source>Drag within Favorites/Tabs to rearrange</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Faites glisser dans les favoris/onglets pour réorganiser</target>
+          <target state="final">Glisser dans les Favoris/Onglets pour réorganiser</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line1</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
           <source>Drag outside of window to create a new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Faites glisser l’extérieur de la fenêtre pour créer une nouvelle fenêtre</target>
+          <target state="final">Glisser hors de la fenêtre pour créer une nouvelle fenêtre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Echec du renommage. Le fichier peut être ouvert dans un autre programme ou l’utilisateur n’a pas les autorisations d’accès.</target>
+          <target state="final">Echec du renommage. Le fichier est peut être ouvert dans un autre programme ou l’utilisateur n’a pas les autorisations d’accès.</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Date de prise de la photo</target>
+          <target state="final" state-qualifier="mt-suggestion">Date de prise de la photo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Durée du média</target>
+          <target state="final" state-qualifier="mt-suggestion">Durée du média</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Résolution des médias</target>
+          <target state="final">Résolution du média</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Les options de tri sous la ligne de menu sont les propriétés des métadonnées, et non les propriétés réelles du fichier. Le tri par ceux-ci est<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; et entraînera le programme à &amp;lt;bpt id="2"2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; lors de l’ouverture de dossiers ou d’onglets qui utilisent ce tri.</target>
+          <target state="final">Les options de tri sous la ligne de menu sont les propriétés métadata et pas les propriétés réelles des fichiers. Les utiliser pour trier est <bpt id="1">&lt;b&gt;</bpt>lent<ept id="1">&lt;/b&gt;</ept> et va provoquer le <bpt id="2">&lt;b&gt;</bpt>gel<ept id="2">&lt;/b&gt;</ept> du programme lors de l'ouverture de dossiers ou d'onglets utilisant ce type de tri.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
           <source>About/Help</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">À propos/Aide</target>
+          <target state="final" state-qualifier="mt-suggestion">À propos/Aide</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ouvrir la destination de raccourci</target>
+          <target state="final">Ouvrir la destination du raccourci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Erreur lors de l’obtention de la destination du raccourci</target>
+          <target state="final" state-qualifier="mt-suggestion">Erreur lors de l’obtention de la destination du raccourci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le programme source a envoyé des données de fichier incomplètes ou corrompues</target>
+          <target state="final" state-qualifier="mt-suggestion">Le programme source a envoyé des données de fichier incomplètes ou corrompues</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le disque est en veille. L’accès à n’importe quel dossier peut geler le programme pendant quelques secondes jusqu’à ce que le disque se réveille et réponde.</target>
+          <target state="final" state-qualifier="mt-suggestion">Le disque est en veille. L’accès à n’importe quel dossier peut geler le programme pendant quelques secondes jusqu’à ce que le disque se réveille et réponde.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le disque n’a pas été disponible pendant {0} secondes en raison des paramètres de veille du mode de gestion de l’alimentation Windows</target>
+          <target state="final" state-qualifier="mt-suggestion">Le disque n’a pas été disponible pendant {0} secondes en raison des paramètres de veille du mode de gestion de l’alimentation Windows</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le stockage réseau a pris {0} secondes pour répondre</target>
+          <target state="final" state-qualifier="mt-suggestion">Le stockage réseau a pris {0} secondes pour répondre</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disque de réveil...</target>
+          <target state="final">Réveil du disque...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modifier le délai de veille pour les disques dans le mode de gestion de l’alimentation Windows si cela se produit trop souvent et vous ralentit</target>
+          <target state="final">Modifier le délai de veille des disques dans le mode de gestion de l’alimentation Windows si cela se produit trop souvent et vous ralentit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Texte/brut</target>
+          <target state="final" state-qualifier="mt-suggestion">Texte/brut</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le fichier est en cours d’utilisation par l’opération {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry ?</target>
+          <target state="final">Le fichier est en cours d’utilisation par l’opération {0}.&lt;br/&gt;({1})&lt;br/&gt;Réessayer l'opération ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le fichier est en cours d’utilisation par un autre processus.&lt;br/&gt;Opération de nouvelle tentative ?</target>
+          <target state="final">Le fichier est en cours d’utilisation par un autre processus.&lt;br/&gt;Réessayer l'opération ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taille en MiB</target>
+          <target state="final">Taille en Mio</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Calculateur...</target>
+          <target state="final">Calcul en cours...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">La taille du dossier ne peut être calculée que pour les dossiers dont l’arborescence complète des dossiers et des fichiers est accessible et que Windows les a indexés</target>
+          <target state="final">La taille du dossier ne peut être calculée que pour les dossiers dont l’arborescence complète des dossiers et des fichiers est accessible, et que si Windows les a indexés</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt</target>
+          <target state="final" state-qualifier="mt-suggestion">Alt</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
           <source>Ctrl</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl</target>
+          <target state="final" state-qualifier="mt-suggestion">Ctrl</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
           <source>Shift</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Période de travail</target>
+          <target state="final">Maj</target>
         </trans-unit>
         <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer un raccourci</target>
+          <target state="final" state-qualifier="mt-suggestion">Créer un raccourci</target>
         </trans-unit>
         <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
           <source>Current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dossier actif</target>
+          <target state="final" state-qualifier="mt-suggestion">Dossier actif</target>
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bureau</target>
+          <target state="final" state-qualifier="mt-suggestion">Bureau</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dossier parent</target>
+          <target state="final" state-qualifier="mt-suggestion">Dossier parent</target>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer un raccourci ou un lien</target>
+          <target state="final" state-qualifier="mt-suggestion">Créer un raccourci ou un lien</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
         </trans-unit>
         <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
           <source>Shortcut</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raccourci</target>
+          <target state="final" state-qualifier="mt-suggestion">Raccourci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
           <source>Create in</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Créer dans</target>
+          <target state="final" state-qualifier="mt-suggestion">Créer dans</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
         </trans-unit>
         <trans-unit id="Target" translate="yes" xml:space="preserve">
           <source>Target</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cible</target>
+          <target state="final" state-qualifier="mt-suggestion">Cible</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
         </trans-unit>
         <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
           <source>Shortcut (.lnk)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raccourci (.lnk)</target>
+          <target state="final" state-qualifier="mt-suggestion">Raccourci (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <target state="final">Le programme a crashé parce qu'un autre logiciel est en train d'accéder aux fichiers de OneCommander.&lt;br/&gt;Si le dossier <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> fait partie d'une synchronisation automatisée de fichiers ou d'une sauvegarde cloud, vous allez devoir fermer Onecommander et déplacer tout le dossier du programme à un autre emplacement. &lt;br/&gt;Si un antivirus ou un autre logiciel de sécurité scanne le dossier du programme au moment du chargement des DLL, cela peut aussi causer un crash.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <target state="final">OneCommander va continuer à s'exécuter en arrière-plan, il pourra ainsi s'ouvrir instantanément la prochaine fois &lt;br/&gt;(cela peut être modifié dans Paramètres ❯ Fenêtre)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="new">Network</target>
+          <target state="final">Réseau</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+          <target state="final">Maintenez la touche Ctrl enfoncée en cliquant sur le bouton de fermeture pour fermer complètement le programme</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="new">Scan network</target>
+          <target state="final">Scanner le réseau</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="new">Hide Networks group from sidebar</target>
+          <target state="final">Cacher le groupe Réseau dans la barre latérale</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="new">Close other tabs</target>
+          <target state="final">Fermer les autres onglets</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="new">Close tab</target>
+          <target state="final">Fermer l'onglet</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
-          <target state="new">Reopen closed tab</target>
+          <target state="final">Rouvrir l'onglet fermé</target>
         </trans-unit>
-        <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
-          <source>Archive name</source>
-          <target state="new">Archive name</target>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="final">jour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
-        <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
-          <source>Move to bottom</source>
-          <target state="new">Move to bottom</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="final">jours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
-        <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
-          <source>Move to top</source>
-          <target state="new">Move to top</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="final">heure</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
         </trans-unit>
-        <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
-          <source>Error compressing file</source>
-          <target state="new">Error compressing file</target>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="final">heures</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
         </trans-unit>
-        <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
-          <source>Folder {0} not available (distro may not be running)</source>
-          <target state="new">Folder {0} not available (distro may not be running)</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="final">mois</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
-        <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
-          <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="final">mois</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
         </trans-unit>
-        <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
-          <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="final">année</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
-        <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
-          <source>Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</source>
-          <target state="new">Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</target>
-        </trans-unit>
-        <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
-          <source>Searching for Linux distros...</source>
-          <target state="new">Searching for Linux distros...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
-        </trans-unit>
-        <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
-          <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
-        </trans-unit>
-        <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
-          <source>Remove scripts button</source>
-          <target state="new">Remove scripts button</target>
-        </trans-unit>
-        <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
-          <source>Open scripts folder</source>
-          <target state="new">Open scripts folder</target>
-        </trans-unit>
-        <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
-          <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="new">You can re-enable scripts button from Advanced Settings</target>
-        </trans-unit>
-        <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
-          <source>Wrong password</source>
-          <target state="new">Wrong password</target>
-        </trans-unit>
-        <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
-          <source>Enter password</source>
-          <target state="new">Enter password</target>
-        </trans-unit>
-        <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
-          <source>Compress (zip)</source>
-          <target state="new">Compress (zip)</target>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="final">années</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
-          <target state="new">Building files list...</target>
+          <target state="final">Construction de la liste des fichiers...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="new">Compressing file {0}/{1}...</target>
+          <target state="final">Compression du fichier {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
+        </trans-unit>
+        <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
+          <source>Archive name</source>
+          <target state="final">Nom de l'archive</target>
+        </trans-unit>
+        <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
+          <source>Wrong password</source>
+          <target state="final">Mauvais mot de passe</target>
+        </trans-unit>
+        <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
+          <source>You can re-enable scripts button from Advanced Settings</source>
+          <target state="final">Vous pouvez réactiver le bouton Scripts depuis les paramètres avancés</target>
+        </trans-unit>
+        <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
+          <source>Enter password</source>
+          <target state="final">Entrer le mot de passe</target>
+        </trans-unit>
+        <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
+          <source>Compress (zip)</source>
+          <target state="final">Compresser (zip)</target>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
+          <source>Move to bottom</source>
+          <target state="final">Déplacer vers le bas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
+        </trans-unit>
+        <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
+          <source>Move to top</source>
+          <target state="final">Déplacer vers le haut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
+          <source>Remove scripts button</source>
+          <target state="final">Supprimer le bouton Scripts</target>
+        </trans-unit>
+        <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
+          <source>Open scripts folder</source>
+          <target state="final">Ouvrir le dossier des scripts</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
+          <source>Error compressing file</source>
+          <target state="final">Erreur lors de la compression de fichier</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
+          <source>Folder {0} not available (distro may not be running)</source>
+          <target state="final">Dossier {0} indisponible (la distribution ne fonctionne peut-être pas)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
+          <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
+          <target state="final">Le service WMI ne fonctionne pas. La détection des disques USB peut ne pas fonctionner jusqu'à ce que le PC soit redémarré.
+</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
+          <source>Message file name was too long. It was shortened to the value defined in settings.</source>
+          <target state="final">Le nom de fichier du message était trop long. Il a été raccourci à la valeur définie dans les paramètres.</target>
+        </trans-unit>
+        <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
+          <source>Path longer than Windows supported (260 characters)
+Some programs won't be able to open this file</source>
+          <target state="final">Chemin d'accès plus long que ce que prend en charge Windows (260 caractères).
+Certains programmes ne seront pas en mesure d'ouvrir ce fichier.</target>
+        </trans-unit>
+        <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
+          <source>Searching for Linux distros...</source>
+          <target state="final">Recherche des distributions Linux en cours...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+        </trans-unit>
+        <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
+          <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
+          <target state="final">Actuellement, WSL ne prend pas en charge la surveillance des changements à l'aide de ReadDirectoryChangesW. En attente d'un correctif de Microsoft. Rafraîchissez manuellement</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
       </group>
     </body>
@@ -3706,436 +3759,435 @@ Some programs won't be able to open this file</target>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" datatype="resx">
         <trans-unit id="RuleTypeDocument" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Référence</target>
+          <target state="final">Document</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeImage" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Processus</target>
+          <target state="final">Image</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeSimple" translate="yes" xml:space="preserve">
           <source>Simple</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Simple</target>
+          <target state="final" state-qualifier="tm-suggestion">Simple</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeVideo" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Vidéo</target>
+          <target state="final" state-qualifier="tm-suggestion">Vidéo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="AddWatermark" translate="yes" xml:space="preserve">
           <source>Add watermark</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajouter un filigrane</target>
+          <target state="final" state-qualifier="mt-suggestion">Ajouter un filigrane</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA files list watermark</note>
         </trans-unit>
         <trans-unit id="ChangeColorProfile" translate="yes" xml:space="preserve">
           <source>Change Color Profile to</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Modifier le profil colorimétrique en</target>
+          <target state="final" state-qualifier="mt-suggestion">Modifier le profil colorimétrique en</target>
         </trans-unit>
         <trans-unit id="ChangeDPI" translate="yes" xml:space="preserve">
           <source>Change DPI to</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Remplacez DPI par</target>
+          <target state="final">Modifier  les DPI en</target>
         </trans-unit>
         <trans-unit id="ChangeQuality" translate="yes" xml:space="preserve">
           <source>Change quality</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Changer la qualité</target>
+          <target state="final" state-qualifier="mt-suggestion">Changer la qualité</target>
         </trans-unit>
         <trans-unit id="Resize" translate="yes" xml:space="preserve">
           <source>Resize</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Redimensionner</target>
+          <target state="final" state-qualifier="tm-suggestion">Redimensionner</target>
         </trans-unit>
         <trans-unit id="ResizeFilter" translate="yes" xml:space="preserve">
           <source>Resize filter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redimensionner le filtre</target>
+          <target state="final" state-qualifier="mt-suggestion">Redimensionner le filtre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA; as in image interpolation filter</note>
         </trans-unit>
         <trans-unit id="ResizeInterpolation" translate="yes" xml:space="preserve">
           <source>Resize interpolation</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Interpolation de redimensionnement</target>
+          <target state="final" state-qualifier="mt-suggestion">Interpolation de redimensionnement</target>
         </trans-unit>
         <trans-unit id="ResizeMoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Autres options</target>
+          <target state="final" state-qualifier="tm-suggestion">Autres options</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button to revel more resizing options</note>
         </trans-unit>
         <trans-unit id="ResizeShrinkOnly" translate="yes" xml:space="preserve">
           <source>Shrink only</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rétrécir seulement</target>
+          <target state="final" state-qualifier="mt-suggestion">Rétrécir seulement</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox to only make images smaller</note>
         </trans-unit>
         <trans-unit id="ScriptOptions" translate="yes" xml:space="preserve">
           <source>Script Options</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Options de script</target>
+          <target state="final" state-qualifier="tm-suggestion">Options de script</target>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher la sortie du shell dans la zone État (sinon la fenêtre CMD s’ouvrira)</target>
+          <target state="final">Afficher les retours shell dans la zone d'état (sinon la fenêtre CMD s’ouvrira)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
           <source>Uncheck if you want it to be cancelable. Press Ctrl+C in CMD window to cancel operation</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Décochez si vous voulez qu’il soit annulable. Appuyez sur Ctrl+C dans la fenêtre CMD pour annuler l’opération</target>
+          <target state="final">Décochez si vous voulez que ce soit annulable. Appuyez sur Ctrl+C dans la fenêtre CMD pour annuler l’opération</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text tooltip</note>
         </trans-unit>
         <trans-unit id="Rotate" translate="yes" xml:space="preserve">
           <source>Rotate</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Faire pivoter</target>
+          <target state="final">Pivoter</target>
         </trans-unit>
         <trans-unit id="AddRule" translate="yes" xml:space="preserve">
           <source>Add rule</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ajouter une règle</target>
+          <target state="final" state-qualifier="tm-suggestion">Ajouter une règle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule</note>
         </trans-unit>
         <trans-unit id="ConvertHashtag" translate="yes" xml:space="preserve">
           <source>Convert # into sequential number starting at</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Convertir # en numéro séquentiel à partir de</target>
+          <target state="final">Convertir # en numéro séquentiel commençant à</target>
         </trans-unit>
         <trans-unit id="ConvertHashtag_TT" translate="yes" xml:space="preserve">
           <source>Tip: To add 4 trailing zeros write #### in rule</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Conseil : Pour ajouter 4 zéros de fin, écrivez #### dans la règle</target>
+          <target state="final" state-qualifier="mt-suggestion">Conseil : Pour ajouter 4 zéros de fin, écrivez #### dans la règle</target>
         </trans-unit>
         <trans-unit id="FileNamingRules" translate="yes" xml:space="preserve">
           <source>File naming rules</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Règles de dénomination des fichiers</target>
+          <target state="final">Règles de nommage des fichiers</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="FolderRules" translate="yes" xml:space="preserve">
           <source>Destination folder rules</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Règles de dossier de destination</target>
+          <target state="final" state-qualifier="mt-suggestion">Règles de dossier de destination</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="FolderSameAsSource" translate="yes" xml:space="preserve">
           <source>Same as source folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Identique au dossier source</target>
+          <target state="final" state-qualifier="mt-suggestion">Identique au dossier source</target>
         </trans-unit>
         <trans-unit id="HeaderNaming" translate="yes" xml:space="preserve">
           <source>Naming</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Dénomination</target>
+          <target state="final">Nommage</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA control group header</note>
         </trans-unit>
         <trans-unit id="ReplaceInvalidChars" translate="yes" xml:space="preserve">
           <source>Replace invalid characters with</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Remplacer les caractères non valides par</target>
+          <target state="final" state-qualifier="mt-suggestion">Remplacer les caractères non valides par</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - follows with textbox</note>
         </trans-unit>
         <trans-unit id="ShowSourceAndDestColumns" translate="yes" xml:space="preserve">
           <source>Show Source and Destination columns in the files list</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher les colonnes Source et Destination dans la liste des fichiers</target>
+          <target state="final" state-qualifier="mt-suggestion">Afficher les colonnes Source et Destination dans la liste des fichiers</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="Cancel" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Annuler</target>
+          <target state="final" state-qualifier="tm-suggestion">Annuler</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Effacer</target>
+          <target state="final" state-qualifier="tm-suggestion">Effacer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="ColumnDestination" translate="yes" xml:space="preserve">
           <source>Destination</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Destination</target>
+          <target state="final" state-qualifier="tm-suggestion">Destination</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnErrors_TT" translate="yes" xml:space="preserve">
           <source>Number of errors. Click to sort.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre d’erreurs. Cliquez pour trier.</target>
+          <target state="final" state-qualifier="mt-suggestion">Nombre d’erreurs. Cliquez pour trier.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnFile" translate="yes" xml:space="preserve">
           <source>File</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Fichier</target>
+          <target state="final" state-qualifier="tm-suggestion">Fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnNewName" translate="yes" xml:space="preserve">
           <source>New file name</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nom du nouveau fichier</target>
+          <target state="final" state-qualifier="tm-suggestion">Nom du nouveau fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Opération</target>
+          <target state="final" state-qualifier="tm-suggestion">Opération</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnSource" translate="yes" xml:space="preserve">
           <source>Source</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Journaux</target>
+          <target state="final">Source</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnStatus" translate="yes" xml:space="preserve">
           <source>Status</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">État</target>
+          <target state="final" state-qualifier="tm-suggestion">État</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="Preview" translate="yes" xml:space="preserve">
           <source>Preview</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aperçu</target>
+          <target state="final" state-qualifier="tm-suggestion">Aperçu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="Process" translate="yes" xml:space="preserve">
           <source>Process</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Processus</target>
+          <target state="final" state-qualifier="tm-suggestion">Processus</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="DateTimeDay" translate="yes" xml:space="preserve">
           <source>Day</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">JOUR</target>
+          <target state="final">Jour</target>
         </trans-unit>
         <trans-unit id="DateTimeHour" translate="yes" xml:space="preserve">
           <source>Hour</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">HEURE</target>
+          <target state="final">Heure</target>
         </trans-unit>
         <trans-unit id="DateTimeMinute" translate="yes" xml:space="preserve">
           <source>Minute</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">minute</target>
+          <target state="final">Minute</target>
         </trans-unit>
         <trans-unit id="DateTimeMonth" translate="yes" xml:space="preserve">
           <source>Month</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">mois</target>
+          <target state="final">Mois</target>
         </trans-unit>
         <trans-unit id="DateTimeYear" translate="yes" xml:space="preserve">
           <source>Year</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Année</target>
+          <target state="final" state-qualifier="tm-suggestion">Année</target>
         </trans-unit>
         <trans-unit id="DestinationDir" translate="yes" xml:space="preserve">
           <source>Output folder defined by folder rules</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dossier de sortie défini par des règles de dossier</target>
+          <target state="final">Dossier de sortie défini par les règles de dossier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="DestinationFile" translate="yes" xml:space="preserve">
           <source>Output filename as result of folder and file rules</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nom de fichier de sortie à la suite de règles de dossier et de fichier</target>
+          <target state="final">Nom de fichier de sortie résultant des règles de dossier et de fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="DLG_Busy" translate="yes" xml:space="preserve">
           <source>Please wait operation to finish before adding new items</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veuillez attendre la fin de l’opération avant d’ajouter de nouveaux éléments</target>
+          <target state="final" state-qualifier="mt-suggestion">Veuillez attendre la fin de l’opération avant d’ajouter de nouveaux éléments</target>
         </trans-unit>
         <trans-unit id="MSG_FileAlreadyExists" translate="yes" xml:space="preserve">
           <source>File with this name already exists</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Le fichier existe déjà</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Un fichier avec ce nom existe déjà</target>
         </trans-unit>
         <trans-unit id="MSG_FileNameConflict" translate="yes" xml:space="preserve">
           <source>File name conflict</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Conflit de nom de fichier</target>
+          <target state="final" state-qualifier="mt-suggestion">Conflit de nom de fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Another file name exists with this name (for Automator rename)</note>
         </trans-unit>
         <trans-unit id="MSG_FileNameConflict2" translate="yes" xml:space="preserve">
           <source>Another file will get the same name (check file name rules)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Un autre fichier obtiendra le même nom (vérifiez les règles de nom de fichier)</target>
+          <target state="final">Un autre fichier aura le même nom (vérifiez les règles de nom de fichier)</target>
         </trans-unit>
         <trans-unit id="MSG_FileNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>File contains invalid characters</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le fichier contient des caractères non valides</target>
+          <target state="final" state-qualifier="mt-suggestion">Le fichier contient des caractères non valides</target>
         </trans-unit>
         <trans-unit id="MSG_FolderNameInvalidCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains invalid characters</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le nom du dossier contient des caractères non valides</target>
+          <target state="final" state-qualifier="mt-suggestion">Le nom du dossier contient des caractères non valides</target>
         </trans-unit>
         <trans-unit id="MSG_NotImage" translate="yes" xml:space="preserve">
           <source>Not image</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pas d’image</target>
+          <target state="final">Pas une image</target>
         </trans-unit>
         <trans-unit id="MSG_Processing" translate="yes" xml:space="preserve">
           <source>Processing...</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Traitement en cours...</target>
+          <target state="final" state-qualifier="tm-suggestion">Traitement en cours...</target>
         </trans-unit>
         <trans-unit id="MSG_RunningScript" translate="yes" xml:space="preserve">
           <source>Running script...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Exécution d’un script...</target>
+          <target state="final">Exécution du script...</target>
         </trans-unit>
         <trans-unit id="MSG_RunScript" translate="yes" xml:space="preserve">
           <source>Run script</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exécuter le script</target>
+          <target state="final" state-qualifier="tm-suggestion">Exécuter le script</target>
         </trans-unit>
         <trans-unit id="OperationConvert" translate="yes" xml:space="preserve">
           <source>Convert to</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Convertir à l'échelle</target>
+          <target state="final">Convertir en</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation Convert to JPG</note>
         </trans-unit>
         <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Renommer</target>
+          <target state="final" state-qualifier="tm-suggestion">Renommer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation rename</note>
         </trans-unit>
         <trans-unit id="OperationRunScript" translate="yes" xml:space="preserve">
           <source>Run script</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exécuter le script</target>
+          <target state="final" state-qualifier="tm-suggestion">Exécuter le script</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation Run script operation</note>
         </trans-unit>
         <trans-unit id="RegExEndOfString" translate="yes" xml:space="preserve">
           <source>End of string</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fin de la chaîne</target>
+          <target state="final">Fin de chaîne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExMatchNumbers" translate="yes" xml:space="preserve">
           <source>Match numbers</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numéros de correspondance</target>
+          <target state="final">Correspondance des numéros</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExMatchWord" translate="yes" xml:space="preserve">
           <source>Match word</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mot de correspondance</target>
+          <target state="final">Correspondance des mots</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="RegExReplacePattern" translate="yes" xml:space="preserve">
           <source>Replace pattern</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Modèle de remplacement</target>
+          <target state="final" state-qualifier="tm-suggestion">Modèle de remplacement</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip (NOT USED)</note>
         </trans-unit>
         <trans-unit id="RegExStartOfString" translate="yes" xml:space="preserve">
           <source>Start of string</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Début de la chaîne</target>
+          <target state="final">Début de chaîne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="ResizeModeFitWithin" translate="yes" xml:space="preserve">
           <source>Fit within</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">S’intégrer dans</target>
+          <target state="final">S’intégre dans</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeFixedHeight" translate="yes" xml:space="preserve">
           <source>Fixed height</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hauteur fixe</target>
+          <target state="final" state-qualifier="mt-suggestion">Hauteur fixe</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeFixedWidth" translate="yes" xml:space="preserve">
           <source>Fixed width</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Largeur fixe</target>
+          <target state="final" state-qualifier="tm-suggestion">Largeur fixe</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeMinimumSize" translate="yes" xml:space="preserve">
           <source>Minimum size</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taille minimale</target>
+          <target state="final" state-qualifier="mt-suggestion">Taille minimale</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="Result_Done" translate="yes" xml:space="preserve">
           <source>Done</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Terminé</target>
+          <target state="final" state-qualifier="tm-suggestion">Terminé</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation that is finished</note>
         </trans-unit>
         <trans-unit id="Result_OperationError" translate="yes" xml:space="preserve">
           <source>Error performing operation</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Erreur durant l'exécution de l'opération</target>
+          <target state="final" state-qualifier="tm-suggestion">Erreur durant l'exécution de l'opération</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation</note>
         </trans-unit>
         <trans-unit id="Result_TaskCancelled" translate="yes" xml:space="preserve">
           <source>Task cancelled</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tâche annulée</target>
+          <target state="final" state-qualifier="tm-suggestion">Tâche annulée</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation</note>
         </trans-unit>
         <trans-unit id="SourceFile" translate="yes" xml:space="preserve">
           <source>Full path to file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chemin d’accès complet au fichier</target>
+          <target state="final" state-qualifier="mt-suggestion">Chemin d’accès complet au fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="TT_Example" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exemples</target>
+          <target state="final">Exemple</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Example: File Name</note>
         </trans-unit>
         <trans-unit id="TT_ExampleOutput" translate="yes" xml:space="preserve">
           <source>Out</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Arrière</target>
+          <target state="final">Résultat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Out: File Name</note>
         </trans-unit>
         <trans-unit id="TT_OriginalFilename" translate="yes" xml:space="preserve">
           <source>Original filename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Fichier d’origine</target>
+          <target state="final">Nom de fichier original</target>
         </trans-unit>
         <trans-unit id="TT_PreviousRuleOutput" translate="yes" xml:space="preserve">
           <source>Output from previous rule</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortie de la règle précédente</target>
+          <target state="final">Résultat de la règle précédente</target>
         </trans-unit>
         <trans-unit id="TT_SequentialNumber" translate="yes" xml:space="preserve">
           <source>Seqential number</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numéro seqential</target>
+          <target state="final">Numéro séquentiel</target>
         </trans-unit>
         <trans-unit id="ColumnIsNameValid_TT" translate="yes" xml:space="preserve">
           <source>Name validity</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Validité du nom</target>
+          <target state="final" state-qualifier="mt-suggestion">Validité du nom</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="Watermark_DragFilesHereOrPaste" translate="yes" xml:space="preserve">
           <source>Drag files here or paste with Ctrl+V</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Faites glisser les fichiers ici ou collez-les avec Ctrl+V</target>
+          <target state="final">Glisser les fichiers ici ou collez-les avec Ctrl+V</target>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Désignation</target>
+          <target state="final">Description</target>
         </trans-unit>
         <trans-unit id="Presets" translate="yes" xml:space="preserve">
           <source>Presets</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Préréglages</target>
+          <target state="final" state-qualifier="tm-suggestion">Préréglages</target>
         </trans-unit>
         <trans-unit id="SourceDir" translate="yes" xml:space="preserve">
           <source>Source folder of the file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dossier source du fichier</target>
+          <target state="final" state-qualifier="mt-suggestion">Dossier source du fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="CaseExtension" translate="yes" xml:space="preserve">
           <source>Extension letter case</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cas de lettre d’extension</target>
+          <target state="final">Casse de lettre d’extension</target>
         </trans-unit>
         <trans-unit id="CaseFileName" translate="yes" xml:space="preserve">
           <source>File name letter case</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Casse de lettre de nom de fichier</target>
+          <target state="final" state-qualifier="mt-suggestion">Casse de lettre de nom de fichier</target>
         </trans-unit>
         <trans-unit id="Unchanged" translate="yes" xml:space="preserve">
           <source>Unchanged</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Inchangé</target>
+          <target state="final" state-qualifier="tm-suggestion">Inchangé</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in dropdown</note>
         </trans-unit>
         <trans-unit id="Lowercase" translate="yes" xml:space="preserve">
           <source>lowercase</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">minuscules</target>
+          <target state="final" state-qualifier="tm-suggestion">minuscules</target>
         </trans-unit>
         <trans-unit id="Uppercase" translate="yes" xml:space="preserve">
           <source>UPPERCASE</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">MAJUSCULES</target>
+          <target state="final" state-qualifier="tm-suggestion">MAJUSCULES</target>
         </trans-unit>
         <trans-unit id="MSG_SameName" translate="yes" xml:space="preserve">
           <source>Same name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Même nom</target>
+          <target state="final" state-qualifier="mt-suggestion">Même nom</target>
         </trans-unit>
         <trans-unit id="RuleReplace" translate="yes" xml:space="preserve">
           <source>Replace</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Remplacer</target>
+          <target state="final" state-qualifier="tm-suggestion">Remplacer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="IgnoreCase" translate="yes" xml:space="preserve">
           <source>Ignore case</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ignorer la casse</target>
+          <target state="final" state-qualifier="tm-suggestion">Ignorer la casse</target>
         </trans-unit>
         <trans-unit id="RegExWordToReplace" translate="yes" xml:space="preserve">
           <source>Word to replace or RegEx pattern</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Word à remplacer ou modèle RegEx</target>
+          <target state="final">Mot à remplacer ou modèle RegEx</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA - in Regex tooltip</note>
         </trans-unit>
         <trans-unit id="ForcedExtension" translate="yes" xml:space="preserve">
           <source>Forced new file extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nouvelle extension de fichier forcée</target>
+          <target state="final" state-qualifier="mt-suggestion">Nouvelle extension de fichier forcée</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ForcedExtension_TT" translate="yes" xml:space="preserve">
           <source>Leave blank to keep the original extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laisser vide pour conserver l’extension d’origine</target>
+          <target state="final" state-qualifier="mt-suggestion">Laisser vide pour conserver l’extension d’origine</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nom du dossier parent</target>
+          <target state="final" state-qualifier="mt-suggestion">Nom du dossier parent</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opération</target>
+          <target state="final" state-qualifier="mt-suggestion">Opération</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Syntaxe RegEx non valide</target>
+          <target state="final" state-qualifier="mt-suggestion">Syntaxe RegEx non valide</target>
         </trans-unit>
       </group>
     </body>
@@ -4148,112 +4200,112 @@ Some programs won't be able to open this file</target>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFVD.RESX" datatype="resx">
         <trans-unit id="CustomHeight" translate="yes" xml:space="preserve">
           <source>Custom height</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hauteur personnalisée</target>
+          <target state="final" state-qualifier="tm-suggestion">Hauteur personnalisée</target>
         </trans-unit>
         <trans-unit id="Element" translate="yes" xml:space="preserve">
           <source>Element</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Élément</target>
+          <target state="final" state-qualifier="tm-suggestion">Élément</target>
         </trans-unit>
         <trans-unit id="FitText" translate="yes" xml:space="preserve">
           <source>Fit text</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ajuster le texte</target>
+          <target state="final" state-qualifier="tm-suggestion">Ajuster le texte</target>
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hauteur</target>
+          <target state="final" state-qualifier="tm-suggestion">Hauteur</target>
         </trans-unit>
         <trans-unit id="ItemHeight" translate="yes" xml:space="preserve">
           <source>Item height</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hauteur de l’article</target>
+          <target state="final">Hauteur de l’élément</target>
         </trans-unit>
         <trans-unit id="On" translate="yes" xml:space="preserve">
           <source>On</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Activé</target>
+          <target state="final" state-qualifier="tm-suggestion">Activé</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in state On/Off</note>
         </trans-unit>
         <trans-unit id="ResizeToVerifyRemovalOrder" translate="yes" xml:space="preserve">
           <source>Resize to verify Removal Order</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redimensionner pour vérifier l’ordre de suppression</target>
+          <target state="final">Redimensionner pour vérifier l’ordre de retrait</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Certains éléments sont masqués en raison de la taille disponible (selon l’ordre de suppression)</target>
+          <target state="final">Certains éléments sont masqués en raison de la taille disponible (selon l’ordre de retrait)</target>
         </trans-unit>
         <trans-unit id="UpdatePreview" translate="yes" xml:space="preserve">
           <source>Update preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aperçu de la mise à jour</target>
+          <target state="final">Mise à jour de l'Aperçu</target>
         </trans-unit>
         <trans-unit id="Width" translate="yes" xml:space="preserve">
           <source>Width</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Largeur</target>
+          <target state="final" state-qualifier="tm-suggestion">Largeur</target>
         </trans-unit>
         <trans-unit id="XOffset" translate="yes" xml:space="preserve">
           <source>X offset</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Décalage X</target>
+          <target state="final" state-qualifier="mt-suggestion">Décalage X</target>
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Décalage Y</target>
+          <target state="final" state-qualifier="mt-suggestion">Décalage Y</target>
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Si vous utilisez La vignette, faites-la à la même hauteur</target>
+          <target state="final">Si vous utilisez les Miniatures, faites-les à la même hauteur</target>
         </trans-unit>
         <trans-unit id="ElementAlign" translate="yes" xml:space="preserve">
           <source>Element align</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alignement des éléments</target>
+          <target state="final" state-qualifier="mt-suggestion">Alignement des éléments</target>
         </trans-unit>
         <trans-unit id="FVDWindowTitle" translate="yes" xml:space="preserve">
           <source>File view designer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Concepteur de vues de fichiers</target>
+          <target state="final" state-qualifier="mt-suggestion">Concepteur de vues de fichiers</target>
         </trans-unit>
         <trans-unit id="Icon" translate="yes" xml:space="preserve">
           <source>Icon</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Icône</target>
+          <target state="final">Icone</target>
         </trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Min.Largeur</target>
+          <target state="final">Largeur mini</target>
         </trans-unit>
         <trans-unit id="Padding" translate="yes" xml:space="preserve">
           <source>Padding</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Remplissage</target>
+          <target state="final" state-qualifier="tm-suggestion">Remplissage</target>
         </trans-unit>
         <trans-unit id="RemovalOrder" translate="yes" xml:space="preserve">
           <source>Removal order</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mesure de renvoi</target>
+          <target state="final">Ordre de retrait</target>
         </trans-unit>
         <trans-unit id="TextAlign" translate="yes" xml:space="preserve">
           <source>Text align</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alignement du texte</target>
+          <target state="final" state-qualifier="mt-suggestion">Alignement du texte</target>
         </trans-unit>
         <trans-unit id="Thumbnail" translate="yes" xml:space="preserve">
           <source>Thumbnail</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Miniature</target>
+          <target state="final" state-qualifier="tm-suggestion">Miniature</target>
         </trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vue modifiée :</target>
+          <target state="final" state-qualifier="mt-suggestion">Vue modifiée :</target>
         </trans-unit>
         <trans-unit id="ApplyToCurrent" translate="yes" xml:space="preserve">
           <source>Apply to current folder-pane and close (without saving)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Appliquer au volet de dossier actuel et fermer (sans enregistrer)</target>
+          <target state="final" state-qualifier="mt-suggestion">Appliquer au volet de dossier actuel et fermer (sans enregistrer)</target>
         </trans-unit>
         <trans-unit id="Load" translate="yes" xml:space="preserve">
           <source>Load</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Charger</target>
+          <target state="final" state-qualifier="tm-suggestion">Charger</target>
         </trans-unit>
         <trans-unit id="Save" translate="yes" xml:space="preserve">
           <source>Save</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Enregistrer</target>
+          <target state="final" state-qualifier="tm-suggestion">Enregistrer</target>
         </trans-unit>
         <trans-unit id="SaveAs" translate="yes" xml:space="preserve">
           <source>Save as</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enregistrer sous</target>
+          <target state="final" state-qualifier="mt-suggestion">Enregistrer sous</target>
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enregistrer en tant que nom d’affichage personnalisé pour empêcher la restauration des affichages par défaut lors des mises à jour du programme</target>
+          <target state="final" state-qualifier="mt-suggestion">Enregistrer en tant que nom d’affichage personnalisé pour empêcher la restauration des affichages par défaut lors des mises à jour du programme</target>
         </trans-unit>
       </group>
     </body>

@@ -338,12 +338,18 @@
           <target state="needs-review-translation" state-qualifier="tm-suggestion">VELIČINA</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Largest first); Folders are not sorted</source>
+          <source>Sorts files by size (Largest first)
+Folders can't be sorted</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortira datoteke po veličini (najveća prva); Fascikle nisu sortirane</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
-          <source>Sorts files by size (Smallest first); Folders are not sorted</source>
+          <source>Sorts files by size (Smallest first)
+Folders can't be sorted</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortira datoteke po veličini (najmanja prva); Fascikle nisu sortirane</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
@@ -1024,7 +1030,7 @@
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="needs-review-translation">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu One Commander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
+          <target state="needs-review-translation">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu OneCommander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
           <note from="MultilingualEditor" annotates="source" priority="4">test</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -1039,8 +1045,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fascikla {0} nije pronađena</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close One Commander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the One Commander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">Da biste potpuno zatvorili One Commander, držite taster Ctrl dok pritiskate dugme za zatvaranje, ili kliknite desnim tasterom miša na ikonu "One Commander" u System Tray (pored sata), a zatim izaberite opciju za izlaženje</target>
+          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
+          <target state="translated">Da biste potpuno zatvorili OneCommander, držite taster Ctrl dok pritiskate dugme za zatvaranje, ili kliknite desnim tasterom miša na ikonu "OneCommander" u System Tray (pored sata), a zatim izaberite opciju za izlaženje</target>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">
           <source>Icon packs updated. Look for new entries in file/folder icon pack selection boxes</source>
@@ -1084,8 +1090,8 @@
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through One Commander</source>
-          <target state="translated">Želite li ponovo pokrenuti program kao administrator? Ovo će &lt;bpt id="1&gt;&lt;b&gt;&lt;/bpt&gt;obustaviti sve tekući operacije nad datotekama&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; koje su pokrenute iz One Commandera</target>
+          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
+          <target state="translated">Želite li ponovo pokrenuti program kao administrator? Ovo će &lt;bpt id="1&gt;&lt;b&gt;&lt;/bpt&gt;obustaviti sve tekući operacije nad datotekama&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; koje su pokrenute iz OneCommandera</target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -1863,6 +1869,46 @@ Some programs won't be able to open this file</target>
           <target state="new">Compressing file {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
+        <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
+          <source>day</source>
+          <target state="new">day</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
+        </trans-unit>
+        <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="new">days</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
+          <source>hour</source>
+          <target state="new">hour</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
+        </trans-unit>
+        <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
+          <source>hours</source>
+          <target state="new">hours</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
+          <source>month</source>
+          <target state="new">month</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
+        </trans-unit>
+        <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
+          <source>months</source>
+          <target state="new">months</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
+        </trans-unit>
+        <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="new">year</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
+        </trans-unit>
+        <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
+          <source>years</source>
+          <target state="new">years</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2116,8 +2162,8 @@ Some programs won't be able to open this file</target>
           <target state="translated">Širina na koju reaguje</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
-          <source>One Commander only expands columns smaller than this:</source>
-          <target state="translated">One Commander da širi samo kolone manje od:</target>
+          <source>OneCommander only expands columns smaller than this:</source>
+          <target state="translated">OneCommander da širi samo kolone manje od:</target>
         </trans-unit>
         <trans-unit id="ColumnMinimumWidth" translate="yes" xml:space="preserve">
           <source>Columns minimum width</source>
@@ -2263,12 +2309,12 @@ Napomena: program svakako može nastaviti sa radom ako postoje aktivne operacije
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
-          <source>Switch to a Virtual Desktop where One Commander is open</source>
-          <target state="translated">Prebaci virtuelnu radnu površinu na onu na kojoj je otvoren One Commander</target>
+          <source>Switch to a Virtual Desktop where OneCommander is open</source>
+          <target state="translated">Prebaci virtuelnu radnu površinu na onu na kojoj je otvoren OneCommander</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
-          <source>Bring One Commander to the current Virtual Desktop</source>
-          <target state="translated">Dovede One Commander na trenutnu virtuelnu radnu površinu</target>
+          <source>Bring OneCommander to the current Virtual Desktop</source>
+          <target state="translated">Dovede OneCommander na trenutnu virtuelnu radnu površinu</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
@@ -2543,7 +2589,7 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="translated">Sakrivene stavke kontekstualnog menija</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
-          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by One Commander</source>
+          <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
           <target state="translated">Stavke kontekstualnog menija sa ovim komandama ili celim tekstom biće sakrivene; odvojeno zarezom; nema razmaka posle zareza; unapred upisne komande nisu podrzane</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
@@ -2620,8 +2666,10 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="translated">Koristi stari Drag&amp;Drop sistem prevlačenja</target>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
-          <source>Default OFF. Turn on if programs that used to accept drop operations from OC stopped accepting files. Please report if any program has issues with drop operations. Acrobat page-insert is known not to work with either.</source>
-          <target state="translated">Preporuka: isključeno. Uključite ako su programi koji su nekada prihvatali operacije prevlačenja iz OC-a prestali da prihvataju datoteke. Javite se ako neki program ima problema sa operacijama prevlačenja. Poznato je da Acrobat Reader Page Insert funkcija radi ni sa jednom od ovih opcija</target>
+          <source>Default OFF. This is for dragging from OneCommander to other programs. 
+Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
+          <target state="needs-review-translation">Preporuka: isključeno. Uključite ako su programi koji su nekada prihvatali operacije prevlačenja iz OC-a prestali da prihvataju datoteke. Javite se ako neki program ima problema sa operacijama prevlačenja. Poznato je da Acrobat Reader Page Insert funkcija radi ni sa jednom od ovih opcija</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
@@ -2645,8 +2693,8 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="translated">Prilikom pada programa prozor će se otvoriti nudeći da napišete korake za reprodukciju greške kako bih mogao popraviti grečku u sledećoj verziji</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
-          <source>One Commander Settings</source>
-          <target state="translated">Podešavanja One Commandera</target>
+          <source>OneCommander Settings</source>
+          <target state="translated">Podešavanja OneCommandera</target>
         </trans-unit>
         <trans-unit id="HeaderTheme" translate="yes" xml:space="preserve">
           <source>Theme</source>
@@ -2679,20 +2727,20 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make One Commander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the One Commander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove One Commander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Vaćno! Ovo je eksperimentalna opcija koja će izmeniti Windows Registry da učini One Commander glavnom menadžerom datoteka. Open i Save dijalozi će ostati isti jer se ne mogu izmeniti. Ovo će isto tako učiniti da Windowsov File Explorer postane beskoristan, jer će klik na fasciklu u Exploreru otvarati One Commander. Ako ikad budete pomerali ili deinstalirali One Commander, moraćete poničtiti onvu registraciju dugmetom iz ovog istog prozora (brisanje programa neće automatski ovo izmeniti). U isto vreme, ova opcija će uključiti opciju da OC nastavi raditi u pozadini pri zatavaranju. Da li ste apsolutno sigurni da želite da nastavite sa ovom opcijom (osposobljavanje sistema u slučaju da nešto ne radi nije podržano od autora)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Vaćno! Ovo je eksperimentalna opcija koja će izmeniti Windows Registry da učini OneCommander glavnom menadžerom datoteka. Open i Save dijalozi će ostati isti jer se ne mogu izmeniti. Ovo će isto tako učiniti da Windowsov File Explorer postane beskoristan, jer će klik na fasciklu u Exploreru otvarati OneCommander. Ako ikad budete pomerali ili deinstalirali OneCommander, moraćete poničtiti onvu registraciju dugmetom iz ovog istog prozora (brisanje programa neće automatski ovo izmeniti). U isto vreme, ova opcija će uključiti opciju da OC nastavi raditi u pozadini pri zatavaranju. Da li ste apsolutno sigurni da želite da nastavite sa ovom opcijom (osposobljavanje sistema u slučaju da nešto ne radi nije podržano od autora)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by One Commander</source>
-          <target state="needs-review-translation">Da li želite da automatski ugasite i ponovi pokrenete ovaj program da bi primenili sve izmene? Ovo će isto da prekine sve operacije započete iz One Commandera.</target>
+          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation">Da li želite da automatski ugasite i ponovi pokrenete ovaj program da bi primenili sve izmene? Ovo će isto da prekine sve operacije započete iz OneCommandera.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make One Commander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from One Commander or running the registry script from One Commander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">Važno! Ovo je eksperimentalna funkcija koja će da izmeni Windows Registry da preuzme registraciju od Windows File Explorera i da registruje Win+E kao prečicu za otvaranje One Commandera. Potvrdite ako želite da nastavite sa ovom izmenom.</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <target state="needs-review-translation">Važno! Ovo je eksperimentalna funkcija koja će da izmeni Windows Registry da preuzme registraciju od Windows File Explorera i da registruje Win+E kao prečicu za otvaranje OneCommandera. Potvrdite ako želite da nastavite sa ovom izmenom.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -3024,8 +3072,8 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
-          <source>The One Commander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in One Commander. It runs independently from OC.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">One Commander Connector je eksperimentalni samostalni uslužni program koji pomaže u povezivanju OC-a sa sistemom Open and Save dijaloga drugih programa. Mali prozor će se pojaviti ispod kompatibilnog dijaloga "Otvaranje/čuvanje" koji će vam dozvoliti da postavite njegovu fasciklu na putanju otvorenu u fascikli "Jedan komandant". Radi nezavisno od OC-a.</target>
+          <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander Connector je eksperimentalni samostalni uslužni program koji pomaže u povezivanju OC-a sa sistemom Open and Save dijaloga drugih programa. Mali prozor će se pojaviti ispod kompatibilnog dijaloga "Otvaranje/čuvanje" koji će vam dozvoliti da postavite njegovu fasciklu na putanju otvorenu u fascikli "Jedan komandant". Radi nezavisno od OC-a.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -3242,8 +3290,8 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="new">Know the scripts you are running! Security risk!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
-          <source>Use external One Commander updater program instead of PowerShell script</source>
-          <target state="new">Use external One Commander updater program instead of PowerShell script</target>
+          <source>Use external OneCommander updater program instead of PowerShell script</source>
+          <target state="new">Use external OneCommander updater program instead of PowerShell script</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -3334,13 +3382,13 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="new">Press a desired key combination to capture it</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
-          <source>Add "Open in One Commander" context menu</source>
-          <target state="new">Add "Open in One Commander" context menu</target>
+          <source>Add "Open in OneCommander" context menu</source>
+          <target state="new">Add "Open in OneCommander" context menu</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
           <target state="new">Open in {0}</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in One Commander or in File Explorer</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -3450,6 +3498,18 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <source>Reinstall</source>
           <target state="new">Reinstall</target>
         </trans-unit>
+        <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
+          <source>Vote on UserVoice for Acrobat team to fix this</source>
+          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+        </trans-unit>
+        <trans-unit id="FontSize" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="new">Font size</target>
+        </trans-unit>
+        <trans-unit id="FileAge" translate="yes" xml:space="preserve">
+          <source>File age / relative date</source>
+          <target state="new">File age / relative date</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3525,8 +3585,8 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Korisničko uputstvo</target>
         </trans-unit>
         <trans-unit id="UsingDlls" translate="yes" xml:space="preserve">
-          <source>One Commander uses following DLLs (Libraries)</source>
-          <target state="translated">One Commander koristi sledeće DLL-ove (biblioteke)</target>
+          <source>OneCommander uses following DLLs (Libraries)</source>
+          <target state="translated">OneCommander koristi sledeće DLL-ove (biblioteke)</target>
         </trans-unit>
         <trans-unit id="LicenseAgreement" translate="yes" xml:space="preserve">
           <source>License Agreement</source>
@@ -3649,10 +3709,10 @@ Prevlačenje premešta datoteke ako je ista disk jedinica, u suprotnom kopira. C
           <target state="translated">Kupi u Microsoft Store</target>
         </trans-unit>
         <trans-unit id="ProLicenseInfo" translate="yes" xml:space="preserve">
-          <source>One Commander is free for HOME use with a limited features set.
+          <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="translated">One Commander je besplatan za kućnu upotrebu sa ograničenim skupom funkcija.
+          <target state="translated">OneCommander je besplatan za kućnu upotrebu sa ograničenim skupom funkcija.
 
 Za komercijalnu upotrebu potrebna je PRO licenca, bez obzira na to da li su korisniku potrebne ove dodatne funkcije (označene sa PRO u podešavanjima).</target>
         </trans-unit>
