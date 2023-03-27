@@ -1569,344 +1569,344 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="new">Give new window a name to save its layout, position and tabs for the next time you need it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dajte novom prozoru ime da biste sačuvali njegov raspored, položaj i kartice za sledeći put kada vam zatreba</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="new">Scripts</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skripte</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="new">Invalid name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nevažeće ime</target>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="new">Color Tag</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oznaka boje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
           <source>Open in new window</source>
-          <target state="new">Open in new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori u novom prozoru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
           <source>Drag within Favorites/Tabs to rearrange</source>
-          <target state="new">Drag within Favorites/Tabs to rearrange</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prevucite u okviru omiljenih lokacija/kartica da biste prerasporedili</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line1</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
           <source>Drag outside of window to create a new window</source>
-          <target state="new">Drag outside of window to create a new window</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prevucite izvan prozora da biste kreirali novi prozor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="new">Rename failed. File might be opened in another program or user doesn't have access permissions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preimenovanje nije uspelo. Datoteka je možda otvorena u drugom programu ili korisnik nema dozvole za pristup.</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="new">Photo date taken</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum fotografisanja snimljen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="new">Media duration</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trajanje medija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="new">Media resolution</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rezolucija medija</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="new">Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opcije sortiranja ispod linije menija su svojstva metapodataka, a ne stvarna svojstva datoteke. Sortiranje po &amp;lt;bpt id="1&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>sledak&amp;lt;ept id="1&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> i prouzrokovaće &amp;lt; &amp;lt; programabpt id="2"&amp;gt; &amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>freeze&amp;lt;ept id="2"&amp;gt; &amp;gt;&amp;lt;/b&amp;gt; prilikom otvaranja fascikli<it id="4" pos="close">&lt;/ept&gt;</it> ili kartica koje koriste ovo sortiranje.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
           <source>About/Help</source>
-          <target state="new">About/Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Osnovni podaci o/pomoći</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="new">Open shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvaranje odredišta prečice</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="new">Error getting shortcut destination</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Greška pri dobijanju odredišta prečice</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="new">Source program sent incomplete or corrupted file data</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izvorni program je poslao nepotpune ili oštećene podatke datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="new">Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk je u stanju spavanja. Pristup bilo kojoj fascikli na njemu može zamrznuti program na nekoliko sekundi dok se disk ne probudi i ne odgovori.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="new">Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk nije bio dostupan {0} sekundi zbog postavki spavanja Windows plana napajanja</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="new">Network storage took {0} seconds to respond</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mrežnom skladištu je trebalo {0} sekundi da odgovori</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="new">Waking disk up...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Buđenje diska...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="new">Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promena kašnjenja spavanja za diskove u Windows planu napajanja ako se to dešava prečesto i usporava vas</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="new">Text/plain</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tekst/čisti tekst</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteku koristi operacija {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="new">File is in use by another process.&lt;br/&gt;Retry operation?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datoteku koristi druga operacija procesa.&lt;br/&gt;Retri?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="new">Size in MiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina u miB-u</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
-          <target state="new">Calculating...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izračunavanje...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="new">Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina fascikle se može izračunati samo za fascikle koje imaju celo stablo fascikli i datoteka kojima se može pristupiti, a Windows ih je indeksirao</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
-          <target state="new">Alt</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
           <source>Ctrl</source>
-          <target state="new">Ctrl</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
           <source>Shift</source>
-          <target state="new">Shift</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shift</target>
         </trans-unit>
         <trans-unit id="CreateShortcutTitle" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiraj prečicu</target>
         </trans-unit>
         <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
           <source>Current folder</source>
-          <target state="new">Current folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trenutna fascikla</target>
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="new">Desktop</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Radne površine</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
-          <target state="new">Parent folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nadređena fascikla</target>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
-          <target state="new">Create shortcut or link</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiranje prečice ili veze</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
         </trans-unit>
         <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
           <source>Shortcut</source>
-          <target state="new">Shortcut</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prečicu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
           <source>Create in</source>
-          <target state="new">Create in</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreiraj u</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
         </trans-unit>
         <trans-unit id="Target" translate="yes" xml:space="preserve">
           <source>Target</source>
-          <target state="new">Target</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meta</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
         </trans-unit>
         <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
           <source>Shortcut (.lnk)</source>
-          <target state="new">Shortcut (.lnk)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prečica (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Program je pao jer neki drugi softver pristupa Datotekamanderovih datoteka.&amp;lt;br/&amp;gt;Ako je &amp;lt;bpt id="1&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; fascikla je deo automatizovane sinhronizacije datoteka ili rezervne<it id="2" pos="close">&lt;/ept&gt;</it> kopije u oblaku koja će vam biti potrebna da zatvorite OneCommander i premestite celu fasciklu &amp;lt;br/&amp;gt;Akad antivirusni ili drugi bezbednosni softver skenira fasciklu programa u trenutku učitavanja DLL-a, to takođe može dovesti do pada sistema.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander će nastaviti da radi u pozadini tako da može odmah da se otvori sledeći put kada &lt;br/&gt;(ovo se može promeniti u prozoru podešavanja ❯)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="new">Network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mrežne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Držite taster Ctrl dok pritiskate dugme "Zatvori" da biste u potpunosti zatvorili program</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="new">Scan network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skeniraj mrežu</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="new">Hide Networks group from sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sakrij grupu mreža sa bočne trake</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="new">Close other tabs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zatvaranje drugih kartica</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="new">Close tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zatvori karticu</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
-          <target state="new">Reopen closed tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ponovo otvori zatvorenu karticu</target>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WMI usluga nije pokrenuta. Otkrivanje USB diskova možda neće raditi dok se računar ponovo ne pokrene</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="new">Move to bottom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Premeštanje na dno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="new">Move to top</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Premesti na vrh</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime datoteke poruke je bilo predugo. Skraćeno je na vrednost definisanu u podešavanjima.</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="new">Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Putanja duža od podržanog operativnog sistema Windows (260 znakova)
+Neki programi neće moći da otvore ovu datoteku</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trenutno WSL ne podržava gledanje promena pomoću funkcije ReadDirectoryChangesW. Čeka se microsoftova ispravka. Ručno osvežavanje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
-          <target state="new">Searching for Linux distros...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">U potrazi za Linux distroima...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fascikla {0} nije dostupna (distro možda nije pokrenut)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="new">Error compressing file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Greška pri komprimovanju datoteke</target>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
-          <target state="new">Archive name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ime arhive</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
-          <target state="new">Remove scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dugme "Ukloni skripte"</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="new">Open scripts folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvaranje fascikle "Skripte"</target>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dugme "Više opcija za postavke" možete ponovo da omogućite</target>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
-          <target state="new">Wrong password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pogrešna lozinka</target>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="new">Enter password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unesite lozinku</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
-          <target state="new">Compress (zip)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komprimovanje (zip)</target>
         </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
-          <target state="new">Building files list...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lista građevinskih datoteka...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="new">Compressing file {0}/{1}...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komprimovanje datoteka {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="new">day</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dan</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="new">days</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dani</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
           <source>hour</source>
-          <target state="new">hour</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
         </trans-unit>
         <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
           <source>hours</source>
-          <target state="new">hours</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sati</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
         </trans-unit>
         <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
           <source>month</source>
-          <target state="new">month</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meseca</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
         <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
           <source>months</source>
-          <target state="new">months</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meseci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
         </trans-unit>
         <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
           <source>year</source>
-          <target state="new">year</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Godine</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="new">years</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Godina</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>
@@ -2727,7 +2727,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">Vaćno! Ovo je eksperimentalna opcija koja će izmeniti Windows Registry da učini OneCommander glavnom menadžerom datoteka. Open i Save dijalozi će ostati isti jer se ne mogu izmeniti. Ovo će isto tako učiniti da Windowsov File Explorer postane beskoristan, jer će klik na fasciklu u Exploreru otvarati OneCommander. Ako ikad budete pomerali ili deinstalirali OneCommander, moraćete poničtiti onvu registraciju dugmetom iz ovog istog prozora (brisanje programa neće automatski ovo izmeniti). U isto vreme, ova opcija će uključiti opciju da OC nastavi raditi u pozadini pri zatavaranju. Da li ste apsolutno sigurni da želite da nastavite sa ovom opcijom (osposobljavanje sistema u slučaju da nešto ne radi nije podržano od autora)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
@@ -3262,253 +3262,265 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="new">Clears Windows global thumbnail cache (for Explorer also)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obrišuje Windows opštu keš memoriju sličica (i za Explorer)</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="new">File name maximum lines</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksimalni redovi imena datoteke</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view</source>
-          <target state="new">For Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Za prikaz koordinatne mreže</target>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
-          <target state="new">Open Office files through Explorer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvaranje Office datoteka pomoću programa Explorer</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source>Show Scripts button</source>
-          <target state="new">Show Scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dugme "Prikaži skripte"</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
-          <target state="new">See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Na primer, pogledajte \Resources\Scripts\ fasciklu. PRO korisnici mogu da imaju više od 8 skripti.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
-          <target state="new">Know the scripts you are running! Security risk!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Znaj scenarije koje vodiš! Bezbednosni rizik!</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
-          <target state="new">Use external OneCommander updater program instead of PowerShell script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korišćenje eksternog OneCommander updater programa umesto PowerShell skripte</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
-          <target state="new">Enable Explorer Preview (Shell File Preview)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Omogući Explorer pregled (pregled datoteke ljuske)</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="new">This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo omogućava pregled sistema Microsoft Office i nekih dodatnih formata u prozoru za pregled (otvorenom razmakničkom traku) ali zbog bezbednosne ranjivosti Explorer pregleda Office datoteka ovo je podrazumevano isključeno. Omogućite na sopstveni rizik! Potrebno je ponovno pokretanje.</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
-          <target state="new">Show a dialog to confirm running script</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikazivanje dijaloga za potvrđivanje pokrenute skripte</target>
         </trans-unit>
         <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
           <source>File name position in Grid view</source>
-          <target state="new">File name position in Grid view</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Položaj imena datoteke u prikazu koordinatne mreže</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
           <source>Override file background color</source>
-          <target state="new">Override file background color</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zamena boje pozadine datoteke</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="new">Block window when Shell Context Menu is open</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blokiraj prozor kada je otvoren Kontekstualni meni ljuske</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="new">Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sprečava slučajnu interakciju prilikom odbacivanja kontekstualnog menija. Potrebno je ako je omogućena neka od gorenavedenih interakcija jednim klikom</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
-          <target state="new">Email naming format (drag from Outlook)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Format imenovanja e-pošte (prevlačenje iz programa Outlook)</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
-          <target state="new">$SentOn will be replaced by date in this format:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">$SentOn će biti zamenjena datumom u ovom formatu:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
         </trans-unit>
         <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
           <source>Action</source>
-          <target state="new">Action</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Radnju</target>
         </trans-unit>
         <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
           <source>Capture</source>
-          <target state="new">Capture</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hvatanje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
         </trans-unit>
         <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
           <source>Key</source>
-          <target state="new">Key</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ključ</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in keyboard key</note>
         </trans-unit>
         <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
           <source>Original</source>
-          <target state="new">Original</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Originalne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
         </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
-          <target state="new">Changed</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Promenio</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
-          <target state="new">Conflict with</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neusaglaše</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opis</target>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcut Editor</source>
-          <target state="new">Shortcut Editor</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uređivač prečica</target>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
-          <target state="new">Use custom shortcuts</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korišćenje prilagođenih prečica</target>
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
           <source>(Must be installed and running)</source>
-          <target state="new">(Must be installed and running)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">(Mora biti instalirano i pokrenuto)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
         </trans-unit>
         <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
           <source>Press a desired key combination to capture it</source>
-          <target state="new">Press a desired key combination to capture it</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pritisnite željenu kombinaciju tastera da biste je uhvatili</target>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
           <source>Add "Open in OneCommander" context menu</source>
-          <target state="new">Add "Open in OneCommander" context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj kontekstualni meni "Otvori u oneCommanderu"</target>
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
-          <target state="new">Open in {0}</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otvori u {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="new">Download cloud files when previewing</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Preuzmi datoteke u oblaku prilikom pregleda</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="new">Get thumbnails of cloud files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nabavite sličice datoteka u oblaku</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">To može dovesti do preuzimanja datoteka iz oblaka u zavisnosti od dobavljača oblaka i rukovaoca sličima (izvan OneCommander kontrole)</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="new">Add to user PATH variable</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj u promenljivu PATH korisnika</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaje programu putanju do PATH promenljive okruženja (korisnika) tako da se može započeti sa bilo kog mesta u komandnoj liniji</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Putanja okruženja je dodata. Možda će biti potrebno ponovo pokrenuti druge programe da bi se dobile ažurirane promenljive.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Omogućavanje prilagođenih prečica onemogućiće dodatne prečice i koristiti samo korisnički definisane</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="new">Show Networks group in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži grupu mreža na bočnoj traci</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grupu bočnih traka "Mreže" možete ponovo omogućiti sa kartice "Postavke", kartice "Prozor"</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina fonta veća od 18pt nije zvanično podržana i neki tekst može biti isečen ili pogrešno poravnan. Promena razmere u postavkama ekrana operativnog sistema Windows je željeni način za uvećanje korisničkog interfejsa</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="new">Shift + Right Click always opens the full context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shift + Desni klik uvek otvara ceo kontekstualni meni</target>
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="new">Smooth scrolling with mouse wheel</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Glatko pomeranje pomoću točka miša</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
-          <target state="new">Failed to modify Windows Registry value</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menjanje vrednosti Windows registratora nije uspelo</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prisiljavanje sistema Microsoft 365/Office da čuva sličice u datotekama</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ovo će stupiti na snagu kada sledeći put bude sačuvana svaka Microsoft 365/Office datoteka. Ne utiče na postojeće datoteke</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="new">Keyboard-focused element display style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stil prikaza elemenata fokusiran na tastaturu</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korišćenje ove opcije omogućavanje efekata prozirnosti u postavkama/personalizaciji/bojama operativnog sistema Windows</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
-          <target state="new">Use acrylic effect in menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korišćenje akrilnog efekta u meniju</target>
         </trans-unit>
         <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
           <source>Maximum file name length</source>
-          <target state="new">Maximum file name length</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksimalna dužina imena datoteke</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ograniči dužinu imena datoteke radi maksimalne kompatibilnosti sa drugim softverom (ograničenje pune putanje od 260 znakova operativnog sistema Windows)</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
-          <target state="new">Current tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trenutna kartica</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pronađena je datoteka postojećih postavki iz verzije programa Microsoft Store.&lt;br/&gt;Da li želite da uvezete sve postavke u ovu verziju?</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
-          <target state="new">Show temporary files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži privremene datoteke</target>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikazuje .tmp datoteke, kancelarijske datoteke koje počinju sa ~$, kao i datoteke sa atributom privremene datoteke</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Želite li da preuzmete najnoviju verziju i ponovo instalirate? To neće uticati na postavke.</target>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
-          <target state="new">Reinstall</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Instalirate</target>
         </trans-unit>
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
-          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Glasajte za UserVoice za Acrobat tim da popravi ovo</target>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
-          <target state="new">Font size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina fonta</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="new">File age / relative date</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Starost datoteke / relativan datum</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>
@@ -3767,15 +3779,15 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
         </trans-unit>
         <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
           <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
-          <target state="new">Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows je odbio da otvori podrazumevani Veb pregledač da bi https://onecommander.com/license.html. Otvorite Veb pregledač ručno i nalepite ID računara (on je već kopiran u ostavu i spreman za lepljenje)</target>
         </trans-unit>
         <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
           <source>Purchase on OneCommander.com</source>
-          <target state="new">Purchase on OneCommander.com</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kupovina na OneCommander.com</target>
         </trans-unit>
         <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
-          <target state="new">The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uneta licenca se ne podudara sa ID-om računara. Ako ste kupili Pro licencu za drugu mašinu i želite da je premestite na ovu, odgovorite na originalnu e-poruku sa potvrdom o kupovini i uključite ID mašine odozgo.</target>
         </trans-unit>
       </group>
     </body>
@@ -4212,11 +4224,11 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="new">Operation</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operacija</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
-          <target state="new">Invalid RegEx syntax</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nevažeća RegEx sintaksa</target>
         </trans-unit>
       </group>
     </body>

@@ -1169,7 +1169,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="final">explorer.exeを終了し、Windowsサムネイルキャッシュファイルを削除してから、explorer.exeを再起動しますか?これにより、進行中のすべてのファイル操作が終了します!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">重要: これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>で、レジストリを編集して OneCommander をデフォルトのファイルマネージャおよびフォルダハンドラにします (開く/保存ダイアログを置き換えることはできません)。これにより、<bpt id="2">&lt;b&gt;</bpt>Windowsファイルエクスプローラーが使用できなくなり<bpt id="2">&lt;/b&gt;</bpt>、ファイルエクスプローラーでフォルダーをクリックしても、OneCommanderが開きます。&lt;br/&gt;OneCommanderを移動または削除する場合は<bpt id="3">&lt;b&gt;</bpt>登録解除<bpt id="3">&lt;/b&gt;</bpt>する必要があります(アンインストールしても変更は元に戻りません)!&lt;br/&gt;これにより、バックグラウンドでの実行も有効になり、ウィンドウをより速く開くことができます。&lt;br/&gt;何かが失敗した場合に自分でレジストリを復元する方法を知っていますか? 復旧をサポートすることはできません。本当に実行しますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
@@ -2399,6 +2399,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
           <target state="new">File age / relative date</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>

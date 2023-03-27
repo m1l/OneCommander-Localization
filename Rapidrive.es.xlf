@@ -1116,8 +1116,9 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <target state="translated">¿Proceder a terminar explorer.exe, eliminar los archivos de caché de miniaturas de Windows y luego reiniciar explorer.exe? ¡Esto terminará con todas las operaciones de archivo en curso!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez mueve o elimina OneCommander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez mueve o elimina OneCommander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1999,8 +2000,8 @@ Esto debería habilitarse si el programa está configurado como un administrador
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
-          <target state="needs-review-translation">DESACTIVADO por defecto. Actívelo si los programas que solían aceptar operaciones de eliminación de OC dejaron de aceptar archivos. Informe si algún programa tiene problemas con las operaciones de entrega. Se sabe que en Acrobat la inserción de página no funciona con ninguno de los dos.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">DESACTIVADO por defecto. Esto es para arrastrar desde OneCommander a otros programas.
+La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivos desde el menú contextual en su lugar.</target>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -2386,15 +2387,27 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="new">File age / relative date</target>
+          <target state="translated">Antigüedad del archivo / fecha relativa</target>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
-          <target state="new">Font size</target>
+          <target state="translated">Tamaño fuente</target>
         </trans-unit>
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
-          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+          <target state="translated">Vote en UserVoice para que el equipo de Acrobat arregle esto</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>
@@ -2422,7 +2435,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="AgeMonthShort" translate="yes" xml:space="preserve">
           <source>M</source>
-          <target state="translated" state-qualifier="mt-suggestion">M</target>
+          <target state="translated">m</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for month (ex: 1 M)</note>
         </trans-unit>
         <trans-unit id="AgeSecondShort" translate="yes" xml:space="preserve">
@@ -2432,7 +2445,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="AgeYearShort" translate="yes" xml:space="preserve">
           <source>y</source>
-          <target state="translated" state-qualifier="mt-suggestion">y</target>
+          <target state="translated">a</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for year (ex: 1 y)</note>
         </trans-unit>
         <trans-unit id="AliasThisPC" translate="yes" xml:space="preserve">
@@ -2475,7 +2488,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="Button_OK" translate="yes" xml:space="preserve">
           <source>OK</source>
-          <target state="translated">ACEPTAR</target>
+          <target state="translated">Aceptar</target>
         </trans-unit>
         <trans-unit id="Button_Yes" translate="yes" xml:space="preserve">
           <source>Yes</source>
@@ -3769,17 +3782,15 @@ Algunos programas no podrán abrir/guardar archivos de esta carpeta</target>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
 Folders can't be sorted</source>
-          <target state="needs-review-translation">Ordena los archivos por tamaño (más grande primero); 
-          Las carpetas no están ordenadas</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Ordena los archivos por tamaño (los más grandes primero)
+Las carpetas no se pueden ordenar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
 Folders can't be sorted</source>
-          <target state="needs-review-translation">Ordena los archivos por tamaño (más pequeño primero); 
-          Las carpetas no están ordenadas</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Ordena los archivos por tamaño (los más pequeños primero)
+Las carpetas no se pueden ordenar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
@@ -4239,42 +4250,42 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="new">day</target>
+          <target state="translated">día</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="new">days</target>
+          <target state="translated">días</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
           <source>hour</source>
-          <target state="new">hour</target>
+          <target state="translated">hora</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
         </trans-unit>
         <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
           <source>hours</source>
-          <target state="new">hours</target>
+          <target state="translated">horas</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
         </trans-unit>
         <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
           <source>month</source>
-          <target state="new">month</target>
+          <target state="translated">mes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
         <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
           <source>months</source>
-          <target state="new">months</target>
+          <target state="translated">meses</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
         </trans-unit>
         <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
           <source>year</source>
-          <target state="new">year</target>
+          <target state="translated">año</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="new">years</target>
+          <target state="translated">años</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>

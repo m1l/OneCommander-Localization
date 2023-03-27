@@ -218,7 +218,7 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">Важливо: Це <bpt id="1">&lt;b&gt;</bpt>експериментальна функція<ept id="1">&lt;/b&gt;</ept> яка буде редагувати ваш реєстр, щоб зробити OneCommander типовим файловим менеджером і обробником папок (діалогові вікна "Відкрити / Зберегти" не можна замінити). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Це зробить Провідник файлів Windows непридатним<ept id="2">&lt;/b&gt;</ept> - навіть при натисканні папки у Файловому провіднику відкриється OneCommander. &lt;br/&gt;Вам потрібно буде <bpt id="3">&lt;b&gt;</bpt>розреєструвати його<ept id="3">&lt;/b&gt;</ept> якщо ви коли-небудь перенесете або видалите OneCommander (видалення його не відмінить зміни)!&lt;br /&gt;Це також ввімне роботу у фоновому режимі для швидшого відкриття вікна.&lt;br/&gt;Будьте абсолютно впевнені, що ви хочете продовжити, і ви знаєте, як відновити реєстр самостійно, якщо щось не вдасться (немає підтримки у випадку відновлення)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
@@ -1473,123 +1473,135 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="new">Download cloud files when previewing</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завантажуйте хмарні файли під час попереднього перегляду</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="new">Get thumbnails of cloud files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отримайте мініатюри хмарних файлів</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Це може призвести до завантаження файлів із хмари залежно від постачальника хмарних послуг та обробника ескізів (поза межами керування OneCommander)</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="new">Add to user PATH variable</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Додавання до змінної PATH користувача</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Додає шлях програми до змінної середовища PATH (користувача), щоб його можна було запустити з будь-якого місця в командному рядку</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Середовище PATH додано. Інші програми, можливо, доведеться перезапустити, щоб отримати оновлені змінні.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Увімкнення користувацьких комбінацій клавіш вимкне додаткові ярлики та використовуватиме лише користувацькі</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="new">Show Networks group in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення групи «Мережі» на бічній панелі</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви можете знову ввімкнути групу бічної панелі мереж у розділі "Настройки", вкладка "Вікно"</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розмір шрифту, більший за 18pt, офіційно не підтримується, і деякий текст може виглядати обрізаним або неузгодженим. Зміна масштабу в настройках дисплея Windows є кращим способом збільшення інтерфейсу користувача</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="new">Shift + Right Click always opens the full context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shift + клацання правою кнопкою миші завжди відкриває повне контекстне меню</target>
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="new">Smooth scrolling with mouse wheel</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Плавна прокрутка коліщатком миші</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
-          <target state="new">Failed to modify Windows Registry value</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Не вдалося змінити значення реєстру Windows</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Примусьте Microsoft 365/Office зберігати мініатюри у файлах</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Це набуде чинності наступного разу, коли кожен файл Microsoft 365/Office буде збережено. Це не впливає на наявні файли</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="new">Keyboard-focused element display style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Стиль відображення елементів, орієнтованих на клавіатуру</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання цього параметра ввімкнення ефектів прозорості в настройках/персоналізації/кольорах Windows</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
-          <target state="new">Use acrylic effect in menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використовуйте акриловий ефект в меню</target>
         </trans-unit>
         <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
           <source>Maximum file name length</source>
-          <target state="new">Maximum file name length</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Максимальна довжина імені файлу</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обмеження довжини імені файлу для максимальної сумісності з іншим програмним забезпеченням (обмеження повного шляху Windows у 260 символів)</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
-          <target state="new">Current tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Поточна вкладка</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Наявний файл налаштувань з версії програми Microsoft Store був знайдений.&lt;br/&gt;Ви хочете імпортувати всі налаштування в цю версію?</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
-          <target state="new">Show temporary files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення тимчасових файлів</target>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показує .tmp файли, офісні файли, які починаються з ~$, і файли з атрибутом Temporary file</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Хочете завантажити останню версію та перевстановити? Налаштування це не торкнеться.</target>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
-          <target state="new">Reinstall</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перевстановити</target>
         </trans-unit>
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
-          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Проголосуйте за UserVoice за команду Acrobat, щоб виправити це</target>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
-          <target state="new">Font size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Розмір шрифту</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="new">File age / relative date</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вік файлу / відносна дата</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>
@@ -3324,163 +3336,163 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Програма вийшла з ладу, оскільки деяке інше програмне забезпечення отримує доступ до<it id="1" pos="close">&lt;/bpt&gt;</it> файлів OneCommander.&amp;lt;br/&amp;gt;Якщо &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> папка є частиною автоматичної синхронізації файлів або хмарної резервної копії, вам потрібно буде закрити OneCommander і перемістити всю папку програми в інше місце. &amp;lt;br/&amp;gt;Якщо антивірусне або інше захисне програмне забезпечення сканує папку програми в момент завантаження DLL, це також може спричинити збій.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander продовжуватиме працювати у фоновому режимі, щоб він міг миттєво відкритися наступного разу &lt;br/&gt;(це можна змінити в налаштуваннях ❯ Window)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="new">Network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Мережа</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Утримуйте Ctrl під час натискання кнопки «Закрити», щоб повністю закрити програму</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="new">Scan network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Мережа сканування</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="new">Hide Networks group from sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Приховання групи «Мережі» на бічній панелі</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="new">Close other tabs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Закриття інших вкладок</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="new">Close tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вкладка "Закрити"</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
-          <target state="new">Reopen closed tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Повторне відкриття закритої вкладки</target>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Служба WMI не працює. Виявлення USB-дисків може не працювати, доки ПК не буде перезавантажено</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="new">Move to bottom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перейти до низу</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="new">Move to top</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перейти вгору</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ім'я файлу повідомлення було задовгим. Його скоротили до значення, визначеного в налаштуваннях.</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="new">Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Шлях, довший за підтримуваний Windows (260 символів)
+Деякі програми не зможуть відкрити цей файл</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">В даний час WSL не підтримує стеження за змінами за допомогою ReadDirectoryChangesW. Чекаю виправлення від Microsoft. Оновлення вручну</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
-          <target state="new">Searching for Linux distros...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пошук дистрибутивів Linux...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Папка {0} недоступна (дистрибутив може не запущено)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="new">Error compressing file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Помилка стиснення файлу</target>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
-          <target state="new">Archive name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ім'я архіву</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
-          <target state="new">Remove scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Кнопка "Видалити сценарії"</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="new">Open scripts folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкриття папки сценаріїв</target>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви можете повторно ввімкнути кнопку сценаріїв у додаткових параметрах</target>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
-          <target state="new">Wrong password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Неправильний пароль</target>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="new">Enter password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введіть пароль</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
-          <target state="new">Compress (zip)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Компрес (зіп)</target>
         </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
-          <target state="new">Building files list...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Створення списку файлів...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="new">Compressing file {0}/{1}...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Стиснення файлу {0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="new">day</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">день</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="new">days</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дні</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
           <source>hour</source>
-          <target state="new">hour</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">година</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
         </trans-unit>
         <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
           <source>hours</source>
-          <target state="new">hours</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Годин</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
         </trans-unit>
         <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
           <source>month</source>
-          <target state="new">month</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">місяць</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
         <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
           <source>months</source>
-          <target state="new">months</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Місяці</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
         </trans-unit>
         <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
           <source>year</source>
-          <target state="new">year</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">рік</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="new">years</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Років</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>

@@ -502,8 +502,9 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1867,6 +1868,18 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
           <target state="final">Voter sur UserVoice pour que l'équipe Acrobat corrige ceci</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>

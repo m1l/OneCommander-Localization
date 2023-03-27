@@ -218,7 +218,7 @@
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">重要提示：这是一个<bpt id="1">&lt;b&gt;</bpt>体验功能<ept id="1">&lt;/b&gt;</ept>，将编辑您的注册表，使 OneCommander 成为默认的文件资源管理器和文件夹处理程序（打开/保存对话框无法被替换)。&lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>这将使 Windows 的文件资源管理器无法使用<ept id="2">&lt;/b&gt;</ept>  - 即使单击文件资源管理器中的文件夹，打开的也是 OneCommander。&lt;br/&gt;如果您想移动或卸载 OneCommander，则需手动<bpt id="3">&lt;b&gt;</bpt>注销它<ept id="3">&lt;/b&gt;</ept> (卸载并不会自动恢复到更改之前)！&lt;br/&gt;这也将启用在后台运行，以便更快地打开窗口。 &lt;br/&gt;您真的确定要继续，并且您知道如何在出现故障时自行恢复注册表（如果在恢复时没有支持）？</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
@@ -1475,123 +1475,135 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="new">Download cloud files when previewing</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">预览时下载云文件</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="new">Get thumbnails of cloud files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">获取云文件的缩略图</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="new">This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">这可能会导致从云下载文件，具体取决于云提供商和缩略图处理程序（在 OneCommander 控制之外）</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="new">Add to user PATH variable</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">添加到用户 PATH 变量</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="new">Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">将程序路径添加到 PATH 环境变量（用户），以便可以从命令行中的任何位置启动它</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="new">Environment PATH added. Other programs might need to be restarted to get the updated variables.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">添加了环境路径。可能需要重新启动其他程序才能获取更新的变量。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="new">Enabling custom shortcuts will disable extra shortcuts and use only user-defined</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">启用自定义快捷方式将禁用额外的快捷方式并仅使用用户定义的快捷方式</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="new">Show Networks group in sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在边栏中显示“网络”组</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="new">You can enable Networks sidebar group again from Settings, Window tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您可以从“设置”、“窗口”选项卡再次启用“网络”侧边栏组</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">官方不支持大于 18pt 的字体大小，某些文本可能会出现剪裁或未对齐。在 Windows 显示设置中更改比例是放大用户界面的首选方法</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="new">Shift + Right Click always opens the full context menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shift + 右键单击始终打开完整的上下文菜单</target>
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="new">Smooth scrolling with mouse wheel</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用鼠标滚轮平滑滚动</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
-          <target state="new">Failed to modify Windows Registry value</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">无法修改 Windows 注册表值</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="new">Force Microsoft 365/Office to save thumbnails in files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">强制 Microsoft 365/Office 将缩略图保存在文件中</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="new">This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">这将在下次保存每个 Microsoft 365/Office 文件时生效。它不会影响现有文件</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="new">Keyboard-focused element display style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">以键盘为中心的元素显示样式</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="new">To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用此选项在Windows的设置/个性化/颜色中启用透明效果</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
-          <target state="new">Use acrylic effect in menu</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在菜单中使用丙烯酸效果</target>
         </trans-unit>
         <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
           <source>Maximum file name length</source>
-          <target state="new">Maximum file name length</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">最大文件名长度</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="new">Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">限制文件名长度以最大程度地与其他软件兼容（Windows 的 260 个字符完整路径限制）</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
-          <target state="new">Current tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">“当前”选项卡</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">已找到该程序的 Microsoft Store 版本中的现有设置文件。&lt;br/&gt;是否要将所有设置导入到此版本中？</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
-          <target state="new">Show temporary files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示临时文件</target>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="new">Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示.tmp文件、以 ~$ 开头的办公文件以及具有临时文件属性的文件</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="new">Do you want to download the latest version and reinstall? Settings will not be affected.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否要下载最新版本并重新安装？设置不会受到影响。</target>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
-          <target state="new">Reinstall</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">安装</target>
         </trans-unit>
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
-          <target state="new">Vote on UserVoice for Acrobat team to fix this</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在 UserVoice for Acrobat 团队上投票以解决此问题</target>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
-          <target state="new">Font size</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">字体大小</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="new">File age / relative date</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件期限/相对日期</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>
@@ -3328,163 +3340,163 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="new">Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">程序崩溃，因为其他一些软件正在访问OneCommander的文件.&amp;lt;br/&amp;gt;如果&amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id=“1”&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>文件夹是自动文件同步或云备份的一部分，则需要关闭OneCommander并将整个程序文件夹移动到其他位置。&amp;lt;br/&amp;gt;如果防病毒软件或其他安全软件在加载 DLL 时扫描程序文件夹，也可能导致崩溃。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="new">OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander将继续在后台运行，因此下次可以立即打开&lt;br / &gt;（可以在设置❯窗口中更改）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="new">Network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">网络</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="new">Hold Ctrl while pressing close button to close the program completely</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">按住 Ctrl 的同时按关闭按钮以完全关闭程序</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="new">Scan network</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">扫描网络</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="new">Hide Networks group from sidebar</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">从边栏中隐藏“网络”组</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="new">Close other tabs</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">关闭其他标签页</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="new">Close tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">“关闭”选项卡</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
-          <target state="new">Reopen closed tab</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重新打开关闭的选项卡</target>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="new">WMI service not running. Detecting USB disks may not work until PC is restarted</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">WMI 服务未运行。在重新启动 PC 之前，检测 USB 磁盘可能无法正常工作</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="new">Move to bottom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">移至底部</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="new">Move to top</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">移至顶部</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="new">Message file name was too long. It was shortened to the value defined in settings.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">邮件文件名太长。它被缩短为设置中定义的值。</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="new">Path longer than Windows supported (260 characters)
-Some programs won't be able to open this file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">路径长度超过 Windows 支持的路径（260 个字符）
+某些程序将无法打开此文件</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="new">Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">目前，WSL 不支持使用 ReadDirectoryChangesW 监视更改。等待微软的修复。手动刷新</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
-          <target state="new">Searching for Linux distros...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">正在搜索 Linux 发行版...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="new">Folder {0} not available (distro may not be running)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件夹{0}不可用（发行版可能未运行）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="new">Error compressing file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">压缩文件时出错</target>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
-          <target state="new">Archive name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">存档名称</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
-          <target state="new">Remove scripts button</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">“删除脚本”按钮</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="new">Open scripts folder</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">打开脚本文件夹</target>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="new">You can re-enable scripts button from Advanced Settings</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您可以从“高级设置”中重新启用脚本按钮</target>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
-          <target state="new">Wrong password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">密码错误</target>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="new">Enter password</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">输入密码</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
-          <target state="new">Compress (zip)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">压缩（压缩）</target>
         </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
-          <target state="new">Building files list...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">构建文件列表...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">While preparing to zip files</note>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="new">Compressing file {0}/{1}...</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">压缩文件{0}/{1}...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="new">day</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">日</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="new">days</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">日</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
           <source>hour</source>
-          <target state="new">hour</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">小时</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 hour old file</note>
         </trans-unit>
         <trans-unit id="AgeHours" translate="yes" xml:space="preserve">
           <source>hours</source>
-          <target state="new">hours</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">小时</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 hours (plural)</note>
         </trans-unit>
         <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
           <source>month</source>
-          <target state="new">month</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">月</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
         <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
           <source>months</source>
-          <target state="new">months</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">月份</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 months (plural)</note>
         </trans-unit>
         <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
           <source>year</source>
-          <target state="new">year</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">年</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="new">years</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">年</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
       </group>

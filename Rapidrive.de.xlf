@@ -798,8 +798,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die Ihre Registry bearbeitet, um OneCommander zum Standard-Dateimanager und Ordnerhandler zu machen (Öffnen/Speichern-Dialoge können nicht ersetzt werden). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt> Sie müssen <bpt id="3">&lt;b&gt;</bpt>die Registrierung aufheben<ept id="3">&lt;/b&gt;</ept>, indem Sie diese Option deaktivieren, wenn Sie OneCommander jemals verschieben oder entfernen (eine Deinstallation macht Änderungen nicht rückgängig)! &lt;br/&gt;Dadurch wird auch die Ausführung im Hintergrund ermöglicht, um das Öffnen von Fenstern zu beschleunigen. &lt;br/&gt;Sind Sie sich absolut sicher, dass Sie fortfahren wollen, und wissen Sie, wie Sie die Registrierung selbst wiederherstellen können, falls etwas fehlschlägt (kein Support im Falle einer Wiederherstellung)?</target>
+          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die Ihre Registry bearbeitet, um OneCommander zum Standard-Dateimanager und Ordnerhandler zu machen (Öffnen/Speichern-Dialoge können nicht ersetzt werden). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt> Sie müssen <bpt id="3">&lt;b&gt;</bpt>die Registrierung aufheben<ept id="3">&lt;/b&gt;</ept>, indem Sie diese Option deaktivieren, wenn Sie OneCommander jemals verschieben oder entfernen (eine Deinstallation macht Änderungen nicht rückgängig)! &lt;br/&gt;Dadurch wird auch die Ausführung im Hintergrund ermöglicht, um das Öffnen von Fenstern zu beschleunigen. &lt;br/&gt;Sind Sie sich absolut sicher, dass Sie fortfahren wollen, und wissen Sie, wie Sie die Registrierung selbst wiederherstellen können, falls etwas fehlschlägt (kein Support im Falle einer Wiederherstellung)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1574,6 +1575,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
           <target state="translated">Dateialter / relatives Datum</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
+          <source>Paste text and images as new files</source>
+          <target state="new">Paste text and images as new files</target>
+        </trans-unit>
+        <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
+          <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
+          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+        </trans-unit>
+        <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
+          <source>Treat files starting with dot as hidden</source>
+          <target state="new">Treat files starting with dot as hidden</target>
         </trans-unit>
       </group>
     </body>
