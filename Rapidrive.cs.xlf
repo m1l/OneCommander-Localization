@@ -165,7 +165,7 @@
         </trans-unit>
         <trans-unit id="FVDWindowTitle" translate="yes" xml:space="preserve">
           <source>File view designer</source>
-          <target state="translated" state-qualifier="mt-suggestion">Návrhář zobrazení souborů</target>
+          <target state="translated">Návrhář rozložení souborů</target>
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
@@ -407,7 +407,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="CaseFileName" translate="yes" xml:space="preserve">
           <source>File name letter case</source>
-          <target state="translated">Velikost písmen ve jméně souboru</target>
+          <target state="translated">Velikost písmen v názvu souboru</target>
         </trans-unit>
         <trans-unit id="ChangeColorProfile" translate="yes" xml:space="preserve">
           <source>Change Color Profile to</source>
@@ -760,7 +760,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="translated">Zobrazit výstup shellu ve stavové oblasti (jinak bude otevřeno okno CMD)</target>
+          <target state="translated">Zobrazit výstup příkazového řádku ve stavové oblasti (jinak bude otevřeno okno CMD)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
@@ -1064,19 +1064,19 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ComputerNameCustom" translate="yes" xml:space="preserve">
           <source>Custom alias</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vlastní alias</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vlastní alias</target>
         </trans-unit>
         <trans-unit id="ComputerNameInfo" translate="yes" xml:space="preserve">
           <source>This is the name of the first column pane that contains drives list. Machine name can be changed in Windows Settings</source>
-          <target state="translated">Takto bude pojmenován první sloupec, který obsahuje seznam jednotek. Jméno počítače lze změnit v nastavení systému Windows</target>
+          <target state="translated">Takto bude pojmenován první sloupec, který obsahuje seznam jednotek. Název počítače lze změnit v nastavení systému Windows</target>
         </trans-unit>
         <trans-unit id="ComputerNameMachineName" translate="yes" xml:space="preserve">
           <source>Machine name</source>
-          <target state="translated">Jméno počítače</target>
+          <target state="translated">Název počítače</target>
         </trans-unit>
         <trans-unit id="ComputerNameQuestion" translate="yes" xml:space="preserve">
           <source>Root folder alias</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alias kořenové složky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alias kořenové složky</target>
         </trans-unit>
         <trans-unit id="ContextMenuItemExample" translate="yes" xml:space="preserve">
           <source>Example Menu Item</source>
@@ -1085,7 +1085,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ContextMenuItemPadding" translate="yes" xml:space="preserve">
           <source>Context Menu Item padding</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odsazení položky kontextové nabídky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Odsazení položky kontextové nabídky</target>
         </trans-unit>
         <trans-unit id="ContextMenuItemPaddingInfo" translate="yes" xml:space="preserve">
           <source>Make it larger for easier touchscreen access</source>
@@ -1616,7 +1616,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
           <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
-          <target state="translated">Zobrazit výňatky z textu u těchto typů souborů (adaptivní zobrazení a zobrazení souborů palce+podrobnosti)</target>
+          <target state="translated">Zobrazit výňatky z textu u těchto typů souborů (adaptivní rozložení a rozložení Náhled+Detaily)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
@@ -1760,7 +1760,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="PartitionName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Jméno</target>
+          <target state="translated">Název</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
@@ -2154,7 +2154,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="SortFileName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Jméno</target>
+          <target state="translated">Název</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileSize" translate="yes" xml:space="preserve">
@@ -2185,7 +2185,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
-          <target state="translated">Složky zobrazuj nahoře</target>
+          <target state="translated">Složky zobrazuj vždy nahoře</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
@@ -2377,7 +2377,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Výchozí nastavení systému Windows</target>
+          <target state="translated" state-qualifier="mt-suggestion">Výchozí nastavení systému Windows</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
@@ -2423,7 +2423,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">den</target>
+          <target state="translated" state-qualifier="mt-suggestion">den</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
@@ -2667,7 +2667,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volné místo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Volné místo</target>
         </trans-unit>
         <trans-unit id="DetailsModified" translate="yes" xml:space="preserve">
           <source>Modified</source>
@@ -2675,7 +2675,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="DetailsName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Jméno</target>
+          <target state="translated">Název</target>
         </trans-unit>
         <trans-unit id="DetailsPath" translate="yes" xml:space="preserve">
           <source>Path</source>
@@ -2745,79 +2745,79 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přenosné programy potřebují přístup pro zápis do svých vlastních složek, aby nemohly žít ve složce "Program Files". Ukončete program a přesuňte celou složku do složky &amp;lt;bpt id=<it id="1" pos="close">&lt;/bpt&gt;</it>"1"&amp;gt;&amp;lt;b&amp;gt;non-system&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; a<it id="2" pos="close">&lt;/ept&gt;</it> znovu ji spusťte</target>
+          <target state="translated">Programy na přenosném úložišti potřebují právo zapisovat do svých vlastních složek, takže nemohou být umístěny ve složce "Program Files". Ukončete program, přesuňte celou složku do <bpt id="1">&lt;b&gt;</bpt>nesystémové složky<ept id="1">&lt;/b&gt;</ept> a znovu program spusťte</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
           <source>Please use only letters, numbers, and - or _</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Používejte prosím pouze písmena, číslice a - nebo _</target>
+          <target state="translated">Používejte prosím pouze písmena, číslice a znaky - nebo _</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For renaming favorite group</note>
         </trans-unit>
         <trans-unit id="DLG_FolderNotFound" translate="yes" xml:space="preserve">
           <source>Folder {0} not found</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka {0} nebyla nalezena</target>
+          <target state="translated" state-qualifier="mt-suggestion">Složka {0} nebyla nalezena</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chcete-li OneCommander zcela ukončit,<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;podržte klávesu CTRL a klikněte na tlačítko Zavřít&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt; nebo klikněte pravým tlačítkem myši na ikonu OneCommander v hlavním panelu (vedle hodiny) a vyberte &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
+          <target state="translated">Chcete-li OneCommander zcela ukončit, <bpt id="1">&lt;B&gt;</bpt>podržte klávesu CTRL a klikněte na tlačítko Zavřít<ept id="1">&lt;/B&gt;</ept> nebo klikněte pravým tlačítkem myši na ikonu OneCommander v systémové liště (vedle hodin) a vyberte volbu <bpt id="2">&lt;i&gt;</bpt>Ukončit<ept id="2">&lt;/i&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mezerník stále funguje jako náhled i při filtrování souborů. Místo nelze použít pro filtr</target>
+          <target state="translated">Mezerník stále slouží pro zobrazení náhledu, a to i při filtrování souborů. Znak "mezera" nelze použít pro filtrování</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander bude stále běžet na pozadí, takže se může příště okamžitě otevřít &lt;br / &gt; (to lze změnit v Nastavení ❯ Okno)</target>
+          <target state="translated">OneCommander bude stále běžet na pozadí, takže se může příště otevřít téměř bez zpoždění&lt;br/&gt;(to lze změnit v Nastavení ❯ Okno)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tlačítko skriptů můžete znovu povolit v části Pokročilá nastavení</target>
+          <target state="translated">Tlačítko skriptů můžete znovu povolit Pokročilých nastavení</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Možnosti řazení pod řádkem nabídky jsou vlastnosti metadat, nikoli skutečné vlastnosti souboru. Řazení podle nich je<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; a způsobí, že program při otevírání složek nebo karet, které používají toto třídění, &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;.</target>
+          <target state="translated">Možnosti řazení, které jsou pod oddělovací čárou jsou vlastnosti metadat, nikoli skutečné vlastnosti souboru. Řazení podle nich je <bpt id="1">&lt;b&gt;</bpt>pomalé<ept id="1">&lt;/b&gt;</ept> a způsobí, že program při otevírání složek nebo karet, které používají toto třídění, <bpt id="2">&lt;b&gt;</bpt>zamrzne<ept id="2">&lt;/b&gt;</ept>.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">
           <source>Icon packs updated. Look for new entries in file/folder icon pack selection boxes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Byly aktualizovány balíčky ikon. Hledejte nové položky ve výběrových polích sady ikon souborů/složek</target>
+          <target state="translated">Byly aktualizovány balíčky ikon. Podívejte se na nové položky do polí pro výběr balíčků ikon souborů/složek</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přípona souboru je odlišná.&amp;lt;br/&amp;gt;Chcete &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;přidat původní příponu zpět&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> aby soubor mohl být otevřen stejným přidruženým programem?</target>
+          <target state="translated">Přípona souboru je odlišná.&lt;br/&gt;Chcete <bpt id="1">&lt;B&gt;</bpt>vrátit původní příponu zpět<ept id="1">&lt;/B&gt;</ept>, aby mohl být soubor otevírán se stále stejným programem?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tato cesta neexistuje. Odstranit?</target>
+          <target state="translated">Tato cesta neexistuje. Chcete položku odstranit?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tato funkce je k dispozici pouze ve verzi Pro. &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it> Získat verzi Pro hned teď? &amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
+          <target state="translated">Tato vlastnost je dostupná jen ve verzi Pro. <bpt id="1">&lt;b&gt;</bpt>Chcete získat verzi Pro nyní?<ept id="1">&lt;/b&gt;</ept></target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor je používán operací {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry?</target>
+          <target state="translated">Soubor je používán {0}.&lt;br/&gt;({1})&lt;br/&gt;Opakovat operaci?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor je používán jiným procesem.&lt;br/&gt;Opakovat operaci?</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor je používán jiným procesem.&lt;br/&gt;Opakovat operaci?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chcete, aby program při zavírání posledního okna &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;keep running in the background&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> (ikona na hlavním panelu) pro rychlejší další spuštění?</target>
+          <target state="translated">Chcete, aby program při zavírání posledního okna <bpt id="1">&lt;B&gt;</bpt>zůstal stále běžet na pozadí<ept id="1">&lt;/B&gt;</ept> (ikona v systémové liště) a mohl být tak příště rychleji spuštěn?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Změnili jste název položky, ale klepli jste na out.&amp;lt;br/&amp;gt;Chcete &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;vždy přejmenovat soubor&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> v této situaci místo zrušení operace?</target>
+          <target state="translated">Přejmenovali jste položku, ale nyní jste klikli myší mimo ni.&lt;br/&gt;Chcete v takových situacích <bpt id="1">&lt;b&gt;</bpt>vždy soubor přejmenovat<ept id="1">&lt;/b&gt;</ept> (namísto zrušení operace)?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Restartovat program jako správce? To bude &amp;lt;bpt id =<it id="1" pos="close">&lt;/bpt&gt;</it> "1"&amp;gt;&amp;lt;b&amp;gt;cancel všechny probíhající přenosy souborů&amp;lt;ept id = "1"&amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> a další procesy běžící přes OneCommander</target>
+          <target state="translated">Chcete program restartovat s oprávněním správce? <bpt id="1">&lt;b&gt;</bpt>Všechny probíhající přenosy souborů budou zrušeny<ept id="1">&lt;/b&gt;</ept>, stejně jako další běžící procesy spuštěné OneCommanderem</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -2826,436 +2826,436 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="EditFileViews" translate="yes" xml:space="preserve">
           <source>Edit File Views</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Úprava zobrazení souborů</target>
+          <target state="translated">Upravit rozložení souborů</target>
         </trans-unit>
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">\ nebo Alt+D</target>
+          <target state="translated" state-qualifier="mt-suggestion">\ nebo Alt+D</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="EditPath_TT" translate="yes" xml:space="preserve">
           <source>Edit path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Upravit cestu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Upravit cestu</target>
         </trans-unit>
         <trans-unit id="Eject" translate="yes" xml:space="preserve">
           <source>Eject</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vysunout</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vysunout</target>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zadejte název složky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zadejte název složky</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zadejte heslo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zadejte heslo</target>
         </trans-unit>
         <trans-unit id="Error" translate="yes" xml:space="preserve">
           <source>Error</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Messagebox title</note>
         </trans-unit>
         <trans-unit id="ExpandColumn_TT" translate="yes" xml:space="preserve">
           <source>Temporarily expand column</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dočasně rozbalit sloupec</target>
+          <target state="translated">Dočasně rozšířit sloupec</target>
         </trans-unit>
         <trans-unit id="FavoritesAdd_TT" translate="yes" xml:space="preserve">
           <source>Adds current folder to this Favorites group</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přidá aktuální složku do této skupiny Oblíbené položky</target>
+          <target state="translated">Přidá aktuální složku do této skupiny Oblíbených položek</target>
         </trans-unit>
         <trans-unit id="FavoritesSidebarOpen_TT" translate="yes" xml:space="preserve">
           <source>Open Favorites sidebar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevření bočního panelu Oblíbené položky</target>
+          <target state="translated">Otevři postranní panelu Oblíbené položky</target>
         </trans-unit>
-        <trans-unit id="FileAutomator_TT" translate="yes" xml:space="preserve">
+        <trans-unit id="FileAutomator_TT" translate="no" xml:space="preserve">
           <source>File Automator</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Automat souborů</target>
+          <target state="final">File Automator</target>
         </trans-unit>
         <trans-unit id="FileType_2do" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka / ToDo úkol</target>
+          <target state="translated">Poznámka / úkol</target>
         </trans-unit>
         <trans-unit id="FileType_2dx" translate="yes" xml:space="preserve">
           <source>Completed Note / ToDo Task</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dokončená poznámka / úkol</target>
+          <target state="translated">Splněná poznámka / úkol</target>
         </trans-unit>
         <trans-unit id="FileType_Folder" translate="yes" xml:space="preserve">
           <source>Folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Složka</target>
         </trans-unit>
         <trans-unit id="FileType_Unspecified" translate="yes" xml:space="preserve">
           <source>Unspecified</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nespecifikovaný</target>
+          <target state="translated">Neupřesněný</target>
         </trans-unit>
         <trans-unit id="Filter_Contains" translate="yes" xml:space="preserve">
           <source>Contains:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obsahuje:</target>
+          <target state="translated" state-qualifier="mt-suggestion">Obsahuje:</target>
         </trans-unit>
         <trans-unit id="Filter_Extension" translate="yes" xml:space="preserve">
           <source>Extension:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prodloužení:</target>
+          <target state="translated">Přípona:</target>
         </trans-unit>
         <trans-unit id="Filter_StartsWith" translate="yes" xml:space="preserve">
           <source>Starts with:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Začíná na:</target>
+          <target state="translated" state-qualifier="mt-suggestion">Začíná na:</target>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
           <source>Finishing setup...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dokončovací nastavení...</target>
+          <target state="translated">Dokončuji nastavení...</target>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velikost složky lze vypočítat pouze pro složky, které mají celý strom složek a souborů, které jsou přístupné a systém Windows je indexoval</target>
+          <target state="translated">Velikost složky lze vypočítat pouze pro ty složky, které mají celý strom složek a souborů přístupný a systém Windows jej indexoval</target>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Historie</target>
+          <target state="translated" state-qualifier="mt-suggestion">Historie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">vybraný</target>
+          <target state="translated">vybraných</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows number of items in status bar as X selected</note>
         </trans-unit>
         <trans-unit id="ItemsTotal" translate="yes" xml:space="preserve">
           <source>items</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">položky</target>
+          <target state="translated">položek</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows number of items in status bar as X items</note>
         </trans-unit>
         <trans-unit id="JumplistActions" translate="yes" xml:space="preserve">
           <source>Actions</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Akce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Akce</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistCreateNewWindow" translate="yes" xml:space="preserve">
           <source>Create new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit nové okno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit nové okno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistResetWindow" translate="yes" xml:space="preserve">
           <source>Center current window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vystředit aktuální okno</target>
+          <target state="translated">Centrovat aktuální okno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistSavedWindows" translate="yes" xml:space="preserve">
           <source>Saved windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uložená okna</target>
+          <target state="translated" state-qualifier="mt-suggestion">Uložená okna</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alt</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierCtrl" translate="yes" xml:space="preserve">
           <source>Ctrl</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl</target>
+          <target state="translated" state-qualifier="mt-suggestion">Ctrl</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierShift" translate="yes" xml:space="preserve">
           <source>Shift</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Směna</target>
+          <target state="translated">Shift</target>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
           <source>Switch between Standard and Columns layouts</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přepínání mezi rozloženími Standardní a Sloupce</target>
+          <target state="translated">Přepínání mezi standardním a sloupcovým rozložením</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
           <source>Locate item</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Najít položku</target>
+          <target state="translated">Lokalizovat položku</target>
         </trans-unit>
         <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
           <source>Current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktuální složka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Aktuální složka</target>
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Plocha</target>
+          <target state="translated" state-qualifier="mt-suggestion">Plocha</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nadřazená složka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nadřazená složka</target>
         </trans-unit>
         <trans-unit id="Login" translate="yes" xml:space="preserve">
           <source>Login</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přihlášení do systému</target>
+          <target state="translated">Přihlásit se</target>
         </trans-unit>
         <trans-unit id="LoginAs" translate="yes" xml:space="preserve">
           <source>Login as...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přihlásit se jako...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přihlásit se jako...</target>
         </trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Písmeno jednotky, které chcete připojit (např. "K")</target>
+          <target state="translated" state-qualifier="mt-suggestion">Písmeno jednotky, které chcete připojit (např. "K")</target>
         </trans-unit>
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Síťová cesta (např. \\název_počítače\sdílená_složka)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Síťová cesta (např. \\název_počítače\sdílená_složka)</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komprese (zip)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Komprese (zip)</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Výpis zde</target>
+          <target state="translated">Rozbalit zde</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractToFolder" translate="yes" xml:space="preserve">
           <source>Extract to "{0}\"</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extrahovat do "{0}\"</target>
+          <target state="translated">Rozbalit do "{0}\"</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveOpen" translate="yes" xml:space="preserve">
           <source>Open external</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřené externí</target>
+          <target state="translated">Otevřít externím programem</target>
         </trans-unit>
         <trans-unit id="Menu_Archive_Tooltip" translate="yes" xml:space="preserve">
           <source>Ctrl+Click to enter password</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl+kliknutí pro zadání hesla</target>
+          <target state="translated" state-qualifier="mt-suggestion">Ctrl+kliknutí pro zadání hesla</target>
         </trans-unit>
         <trans-unit id="Menu_ChangeAlias" translate="yes" xml:space="preserve">
           <source>Change alias</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Změna aliasu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Změna aliasu</target>
         </trans-unit>
         <trans-unit id="Menu_Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jasný</target>
+          <target state="translated">Smazat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clear menu item for History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zavření ostatních karet</target>
+          <target state="translated">Zavřit ostatní karty</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zavřít kartu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zavřít kartu</target>
         </trans-unit>
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kopírovat</target>
+          <target state="translated" state-qualifier="mt-suggestion">Kopírovat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kopírovat jako cestu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Kopírovat jako cestu</target>
         </trans-unit>
         <trans-unit id="Menu_CopyOrMoveToRecent" translate="yes" xml:space="preserve">
           <source>Copy/Move to recent destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kopírovat/přesunout do posledního cíle</target>
+          <target state="translated" state-qualifier="mt-suggestion">Kopírovat/přesunout do posledního cíle</target>
         </trans-unit>
         <trans-unit id="Menu_CopyToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Copy to the opposite browser pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kopírování do protějšího podokna prohlížeče</target>
+          <target state="translated">Kopírování do protějšího panelu</target>
         </trans-unit>
         <trans-unit id="Menu_CreateFileTemplate" translate="yes" xml:space="preserve">
           <source>Create file template</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit šablonu souboru</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit šablonu souboru</target>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoření zástupce nebo odkazu</target>
+          <target state="translated">Vytvořit zástupce nebo symbolický link</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Delete" translate="yes" xml:space="preserve">
           <source>Delete group</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odstranit skupinu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Odstranit skupinu</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveDown" translate="yes" xml:space="preserve">
           <source>Move down</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Posunout dolů</target>
+          <target state="translated" state-qualifier="mt-suggestion">Posunout dolů</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přesunout dolů</target>
+          <target state="translated">Přesunout zcela dolů</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přesunout nahoru</target>
+          <target state="translated">Přesunout zcela nahoru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveUp" translate="yes" xml:space="preserve">
           <source>Move up</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Povýšit</target>
+          <target state="translated">Posunout nahoru</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_Rename" translate="yes" xml:space="preserve">
           <source>Rename group</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenovat skupinu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přejmenovat skupinu</target>
         </trans-unit>
         <trans-unit id="Menu_MapNetDrive" translate="yes" xml:space="preserve">
           <source>Map network drive</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapování síťové jednotky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Mapování síťové jednotky</target>
         </trans-unit>
         <trans-unit id="Menu_Move" translate="yes" xml:space="preserve">
           <source>Move</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pohnout</target>
+          <target state="translated">Přesunout</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_MoveToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Move to the opposite browser pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přesunutí do protějšího podokna prohlížeče</target>
+          <target state="translated">Přesunout do protějšího panelu</target>
         </trans-unit>
         <trans-unit id="Menu_New" translate="yes" xml:space="preserve">
           <source>New...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nový...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nový...</target>
         </trans-unit>
         <trans-unit id="Menu_NewFile" translate="yes" xml:space="preserve">
           <source>File</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor</target>
         </trans-unit>
         <trans-unit id="Menu_NewFolder" translate="yes" xml:space="preserve">
           <source>Folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Složka</target>
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
           <source>New folder from selection</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová složka z výběru</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nová složka z výběru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">right-click on selected files</note>
         </trans-unit>
         <trans-unit id="Menu_NewNote" translate="yes" xml:space="preserve">
           <source>Note</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Poznámka</target>
         </trans-unit>
         <trans-unit id="Menu_OpenCommandShell" translate="yes" xml:space="preserve">
           <source>Open in command shell</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít v příkazovém prostředí</target>
+          <target state="translated">Otevřít v příkazovém řádku</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Opens submenu with CMD, Powershell, Terminal</note>
         </trans-unit>
         <trans-unit id="Menu_OpenIn" translate="yes" xml:space="preserve">
           <source>Open in...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít v...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Otevřít v...</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová karta</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nová karta</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTabOtherBrowser" translate="yes" xml:space="preserve">
           <source>New tab in other browser pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová karta v jiném podokně prohlížeče</target>
+          <target state="translated">Nová karta v druhém panelu</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window (soon)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nové okno (brzy)</target>
+          <target state="translated">Nové okno (již brzy)</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít cíl zástupce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Otevřít cíl zástupce</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obnovte vše</target>
+          <target state="translated" state-qualifier="mt-suggestion">Obnovte vše</target>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podokno Odebrat historii</target>
+          <target state="translated">Odebrat podokno historie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item in Hostory pane in sidebar</note>
         </trans-unit>
         <trans-unit id="Menu_RemovePath" translate="yes" xml:space="preserve">
           <source>Remove from group</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odebrat ze skupiny</target>
+          <target state="translated" state-qualifier="mt-suggestion">Odebrat ze skupiny</target>
         </trans-unit>
         <trans-unit id="Menu_Rename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenovat</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přejmenovat</target>
         </trans-unit>
         <trans-unit id="Menu_RenameMultiple" translate="yes" xml:space="preserve">
           <source>Rename with File Automator</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenovat pomocí Automatoru souborů</target>
+          <target state="translated">Přejmenovat pomocí File Automator</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skenovací síť</target>
+          <target state="translated">Prohledat síť</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tlačítko Odstranit skripty</target>
+          <target state="translated">Odstranit tlačítko skriptů</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít složku skriptů</target>
+          <target state="translated" state-qualifier="mt-suggestion">Otevřít složku skriptů</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarDrivesHide" translate="yes" xml:space="preserve">
           <source>Hide drives from sidebar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skrytí jednotek z postranního panelu</target>
+          <target state="translated">Skrýt jednotky z postranního panelu</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarDrivesShow" translate="yes" xml:space="preserve">
           <source>Show drives in sidebar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazení jednotek na postranním panelu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zobrazení jednotek na postranním panelu</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skrýt skupinu Sítě na bočním panelu</target>
+          <target state="translated">Skrýt skupinu Sítě na postranním panelu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option in Networks group</note>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Značka barvy</target>
+          <target state="translated">Barva štítku</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Newest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum vytvoření (od nejnovějšího)</target>
+          <target state="translated">Datum vytvoření (od nejnovějších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateCreated_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date created (Oldest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum vytvoření (od nejstarších)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Datum vytvoření (od nejstarších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum pořízení fotografie</target>
+          <target state="translated" state-qualifier="mt-suggestion">Datum pořízení fotografie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Newest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum změny (od nejnovějšího)</target>
+          <target state="translated">Datum změny (od nejnovějších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Oldest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum změny (od nejstaršího)</target>
+          <target state="translated">Datum změny (od nejstarších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Délka média</target>
+          <target state="translated">Délka záznamu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jméno (A-Z)</target>
+          <target state="translated">Název (A-Z)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Decending" translate="yes" xml:space="preserve">
           <source>Name (Z-A)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název (Z-A)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Název (Z-A)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozlišení médií</target>
+          <target state="translated">Rozlišení záznamu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="Menu_SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Size (Largest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velikost (od největšího)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Velikost (od největšího)</target>
         </trans-unit>
         <trans-unit id="Menu_SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Size (Smallest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velikost (od nejmenšího)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Velikost (od nejmenšího)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByType_Ascending" translate="yes" xml:space="preserve">
           <source>Type (A-Z)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Typ (A-Z)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Typ (A-Z)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByType_Decending" translate="yes" xml:space="preserve">
           <source>Type (Z-A)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Typ (Z-A)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Typ (Z-A)</target>
         </trans-unit>
         <trans-unit id="Menu_StartMonitoringDrive" translate="yes" xml:space="preserve">
           <source>Start monitoring for changes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahájení sledování změn</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zahájení sledování změn</target>
         </trans-unit>
         <trans-unit id="Menu_StopMonitoringDrive" translate="yes" xml:space="preserve">
           <source>Stop monitoring for changes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zastavení sledování změn</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zastavení sledování změn</target>
         </trans-unit>
         <trans-unit id="Menu_Tag" translate="yes" xml:space="preserve">
           <source>Tag (Color)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Značka (barva)</target>
+          <target state="translated">Štítek (barva)</target>
         </trans-unit>
         <trans-unit id="Menu_UndoCloseTab" translate="yes" xml:space="preserve">
           <source>Reopen closed tab</source>
@@ -3263,54 +3263,54 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_E_AccessDenied" translate="yes" xml:space="preserve">
           <source>Access denied</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přístup byl odepřen</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přístup byl odepřen</target>
         </trans-unit>
         <trans-unit id="MSG_E_CannotDeletePanel" translate="yes" xml:space="preserve">
           <source>Cannot delete panel</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panel nelze odstranit</target>
+          <target state="translated" state-qualifier="mt-suggestion">Panel nelze odstranit</target>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardError" translate="yes" xml:space="preserve">
           <source>Clipboard error: {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba schránky: {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba schránky: {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error when setting path or other text to clipboard</note>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardErrorShell" translate="yes" xml:space="preserve">
           <source>Error trying to add files to Windows Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při pokusu o přidání souborů do schránky systému Windows</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba při pokusu o přidání souborů do schránky systému Windows</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error with copy or cut from context menu</note>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardImagePasteFailed" translate="yes" xml:space="preserve">
           <source>Couldn't create image file from Clipboard data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze vytvořit obrazový soubor z dat schránky</target>
+          <target state="translated">Nelze vytvořit obrazový soubor z dat ve schránce</target>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardNoFiles" translate="yes" xml:space="preserve">
           <source>Clipboard doesn't contain files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Schránka neobsahuje soubory</target>
+          <target state="translated" state-qualifier="mt-suggestion">Schránka neobsahuje soubory</target>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardTextPasteFailed" translate="yes" xml:space="preserve">
           <source>Couldn't create text file from Clipboard data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze vytvořit textový soubor z dat schránky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nelze vytvořit textový soubor z dat schránky</target>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardUsedByAnotherProcess" translate="yes" xml:space="preserve">
           <source>Error: program {0} is blocking Windows Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba: program {0} blokuje schránku systému Windows</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba: program {0} blokuje schránku systému Windows</target>
         </trans-unit>
         <trans-unit id="MSG_E_CommandShellOpenFail" translate="yes" xml:space="preserve">
           <source>Could not open {0} here</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze otevřít {0} zde</target>
+          <target state="translated">{0} zde nelze otevřít</target>
           <note from="MultilingualBuild" annotates="source" priority="2">If pressing F10 fails to open command shell {0} being Powershell, Terminal, or CMD</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při kompresi souboru</target>
+          <target state="translated">Chyba při komprimování souboru</target>
         </trans-unit>
         <trans-unit id="MSG_E_CreateFolder" translate="yes" xml:space="preserve">
           <source>Error creating folder. {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Při vytváření složky došlo k chybě. {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Při vytváření složky došlo k chybě. {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_CreateFolderNameEmpty" translate="yes" xml:space="preserve">
           <source>Name not specified</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název neuveden</target>
+          <target state="translated">Název nebyl neuveden</target>
         </trans-unit>
         <trans-unit id="MSG_E_DownloadingThemeResourcesFailed" translate="yes" xml:space="preserve">
           <source>Downloading theme resources failed with error: {0}</source>
@@ -3318,259 +3318,259 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
           <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba dat vynechání. Zdrojový program jej neformátoval odpovídajícím způsobem nebo názvy souborů obsahovaly neplatné znaky</target>
+          <target state="translated">Chyba výpadku dat. Zdrojový program jej neformátoval odpovídajícím způsobem nebo názvy souborů obsahovaly neplatné znaky</target>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jednotka {0} není připojena</target>
+          <target state="translated" state-qualifier="mt-suggestion">Jednotka {0} není připojena</target>
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jednotka {0} může zpomalovat počítač (čeká na probuzení / otočení?)</target>
+          <target state="translated">Jednotka {0} může zpomalovat počítač (čeká se na probuzení / rozběhnutí?)</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropContent" translate="yes" xml:space="preserve">
           <source>Issue with drop data: {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Problém s daty pádu: {0}</target>
+          <target state="translated">Problém s výpadkem dat: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropContentFromOutlook" translate="yes" xml:space="preserve">
           <source>Invalid Outlook data. Are you using the latest Outlook? {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatná data aplikace Outlook. Používáte nejnovější Outlook? {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Neplatná data aplikace Outlook. Používáte nejnovější Outlook? {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
           <source>Destination program doesn't accept FileDrop package</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cílový program nepřijímá balíček FileDrop</target>
+          <target state="translated" state-qualifier="mt-suggestion">Cílový program nepřijímá balíček FileDrop</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FileDrop should stay untranslated</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropFileContentsError" translate="yes" xml:space="preserve">
           <source>Error creating files from drop package. Windows reported: {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při vytváření souborů z balíčku drop. Hlášené Windows: {0}</target>
+          <target state="translated">Chyba při vytváření souborů z dat přetažených do aplikace. Windows hlásí: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningPath" translate="yes" xml:space="preserve">
           <source>Error opening path {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při otevírání cesty {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba při otevírání cesty {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka {0} není k dispozici (distribuce nemusí být spuštěna)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Složka {0} není k dispozici (distribuce nemusí být spuštěna)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_FileAlreadyExists" translate="yes" xml:space="preserve">
           <source>File with this name already exists</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor s tímto názvem již existuje</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor s tímto názvem již existuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_FileNotFound" translate="yes" xml:space="preserve">
           <source>File {0} not found</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor {0} nebyl nalezen</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor {0} nebyl nalezen</target>
         </trans-unit>
         <trans-unit id="MSG_E_FolderAlreadyExists" translate="yes" xml:space="preserve">
           <source>Folder with this name already exists</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka s tímto názvem již existuje</target>
+          <target state="translated" state-qualifier="mt-suggestion">Složka s tímto názvem již existuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_FolderDoesNotExist" translate="yes" xml:space="preserve">
           <source>Folder doesn't exist {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Složka neexistuje {0}</target>
+          <target state="translated">Složka neexistuje {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInName" translate="yes" xml:space="preserve">
           <source>Invalid name {0}; contains unsupported characters for Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatný název {0}; obsahuje nepodporované znaky pro systém Windows</target>
+          <target state="translated">Neplatný název {0}; obsahuje znaky, které systém Windows nepodporuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInPath" translate="yes" xml:space="preserve">
           <source>Invalid path {0}; contains unsupported characters for Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatná cesta {0}; obsahuje nepodporované znaky pro systém Windows</target>
+          <target state="translated">Neplatná cesta {0}; obsahuje znaky, které systém Windows nepodporuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidDriveLetter" translate="yes" xml:space="preserve">
           <source>Invalid drive letter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatné písmeno jednotky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Neplatné písmeno jednotky</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error for MapNetDrive dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zdrojový program odeslal neúplná nebo poškozená data souboru</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zdrojový program odeslal neúplná nebo poškozená data souboru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatný název</target>
+          <target state="translated" state-qualifier="mt-suggestion">Neplatný název</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidPath" translate="yes" xml:space="preserve">
           <source>Invalid path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neplatná cesta</target>
+          <target state="translated" state-qualifier="mt-suggestion">Neplatná cesta</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidRemoteMachineName" translate="yes" xml:space="preserve">
           <source>{0} is not a valid remote machine name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0} není platný název vzdáleného počítače</target>
+          <target state="translated" state-qualifier="mt-suggestion">{0} není platný název vzdáleného počítače</target>
         </trans-unit>
         <trans-unit id="MSG_E_ItemDoesNotExist" translate="yes" xml:space="preserve">
           <source>Item doesn't exist: {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Položka neexistuje: {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Položka neexistuje: {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Error when user tried to open folder that doens't exist (by entering path, or starting with command line switch)</note>
         </trans-unit>
         <trans-unit id="MSG_E_ItemsUnavailable" translate="yes" xml:space="preserve">
           <source>Items unavailable</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Položky nejsou k dispozici</target>
+          <target state="translated" state-qualifier="mt-suggestion">Položky nejsou k dispozici</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při získávání cíle zástupce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba při získávání cíle zástupce</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
           <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Více připojení k serveru ze stejného počítače s různými uživatelskými jmény není v systému Windows povoleno</target>
+          <target state="translated">Vícenásobné připojení k serveru z jednoho počítače pod odlišnými uživatelskými účty není v systému Windows povoleno</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note empty</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka je prázdná</target>
+          <target state="translated" state-qualifier="mt-suggestion">Poznámka je prázdná</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kontrola nebo zrušení zaškrtnutí poznámky se nezdařilo {0}</target>
+          <target state="translated">Zaškrtnutí nebo zrušení zaškrtnutí poznámky se nezdařilo {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_OpeningMixedTypeItems" translate="yes" xml:space="preserve">
           <source>Can't open multiple items if one or more folders are selected</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze otevřít více položek, pokud je vybrána jedna nebo více složek</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nelze otevřít více položek, pokud je vybrána jedna nebo více složek</target>
         </trans-unit>
         <trans-unit id="MSG_E_OpenMaps" translate="yes" xml:space="preserve">
           <source>Default web browser could not be launched to show GPS location on a map</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze spustit výchozí webový prohlížeč pro zobrazení polohy GPS na mapě</target>
+          <target state="translated">Výchozí webový prohlížeč nebylo možné spustit a zobrazit tak polohu GPS na mapě.</target>
         </trans-unit>
         <trans-unit id="MSG_E_OperationNotAllowed" translate="yes" xml:space="preserve">
           <source>Windows didn't allow this operation. {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systém Windows tuto operaci nepovolil. {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Systém Windows tuto operaci nepovolil. {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_PasswordProtectedNoPreview" translate="yes" xml:space="preserve">
           <source>Password protected file cannot be previewed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Náhled souboru chráněného heslem nelze zobrazit</target>
+          <target state="translated" state-qualifier="mt-suggestion">Náhled souboru chráněného heslem nelze zobrazit</target>
         </trans-unit>
         <trans-unit id="MSG_E_PastingIntoMultipleFolders" translate="yes" xml:space="preserve">
           <source>Pasting into multiple folders at once is not implemented</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vkládání do více složek najednou není implementováno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vkládání do více složek najednou není implementováno</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsColon" translate="yes" xml:space="preserve">
           <source>This path format is not supported</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tento formát cesty není podporován</target>
+          <target state="translated" state-qualifier="mt-suggestion">Tento formát cesty není podporován</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
           <source>http(s) and (s)ftp are not supported</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">HTTP (s) a (s)FTP nejsou podporovány</target>
+          <target state="translated">Protokoly HTTP (s) a (s)FTP nejsou podporovány</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zadejte \\hostname\</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zadejte \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systém Windows již používá protokol smb. Zadejte \\hostname\</target>
+          <target state="translated">Protokol smb je systémem Windows již používán. Zadejte \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tato složka bude automaticky odebrána po dokončení operace</target>
+          <target state="translated">Po dokončení operace bude tato složka bude automaticky odebrána</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
           <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Funkce QuickLook neběží. Spusťte jej nebo jej zakažte v Nastavení&gt;Náhled</target>
+          <target state="translated">Program QuickLook neběží. Spusťte jej nebo zakažte jeho používání v Nastavení&gt;Náhled</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při získávání položek koše. Klepněte pravým tlačítkem myši na Koš v postranním panelu a klepněte na tlačítko Otevřít</target>
+          <target state="translated">Chyba při získávání položek koše. V postranním panelu klikněte pravým tlačítkem myši na Koš a vyberte volbu Otevřít</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Položky nelze otevřít přímo z koše. Nejprve je obnovte do původní složky.</target>
+          <target state="translated" state-qualifier="mt-suggestion">Položky nelze otevřít přímo z koše. Nejprve je obnovte do původní složky.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenování se nezdařilo. Soubor může být otevřen v jiném programu nebo uživatel nemá přístupová oprávnění.</target>
+          <target state="translated">Přejmenování se nezdařilo. Soubor je patrně otevřen v jiném programu nebo k němu uživatel nemá přístupová oprávnění.</target>
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailed" translate="yes" xml:space="preserve">
           <source>Windows reported an error while processing operation: {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systém Windows ohlásil chybu při zpracování operace: {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Systém Windows ohlásil chybu při zpracování operace: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedElevate" translate="yes" xml:space="preserve">
           <source>You will need to run program as Admin to complete this operation (Ctrl+Shift+F12)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">K dokončení této operace budete muset spustit program jako správce (Ctrl+Shift+F12)</target>
+          <target state="translated">K dokončení této operace budete muset spustit program s právy správce (Ctrl+Shift+F12)</target>
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedPathTooLong" translate="yes" xml:space="preserve">
           <source>Failed operation. Is path over the Windows' 260 character limit?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operace se nezdařila. Je cesta přes limit 260 znaků systému Windows?</target>
+          <target state="translated">Operace se nezdařila. Není délka cesty větší než limit 260 znaků definovaný systémem Windows?</target>
         </trans-unit>
         <trans-unit id="MSG_E_SourceDoesNotExist" translate="yes" xml:space="preserve">
           <source>Source doesn't exist</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zdroj neexistuje</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zdroj neexistuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_TemplateExists" translate="yes" xml:space="preserve">
           <source>Template with that name already exists</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Šablona s tímto názvem již existuje</target>
+          <target state="translated" state-qualifier="mt-suggestion">Šablona s tímto názvem již existuje</target>
         </trans-unit>
         <trans-unit id="MSG_E_ThemeFileNotFound" translate="yes" xml:space="preserve">
           <source>Theme file not found at {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor motivu nebyl nalezen v {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor motivu nebyl nalezen v {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_ThemeLoadingFailed" translate="yes" xml:space="preserve">
           <source>Theme loading failed. {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Načítání motivu se nezdařilo. {0}</target>
+          <target state="translated" state-qualifier="mt-suggestion">Načítání motivu se nezdařilo. {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_UnableToExtract" translate="yes" xml:space="preserve">
           <source>Unable to extract files from {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze extrahovat soubory z {0}</target>
+          <target state="translated">Nelze rozbalit soubory z {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_UnableToUpdate" translate="yes" xml:space="preserve">
           <source>Error updating program to new version</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při aktualizaci programu na novou verzi</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba při aktualizaci programu na novou verzi</target>
         </trans-unit>
         <trans-unit id="MSG_E_UpdateDownloadError" translate="yes" xml:space="preserve">
           <source>Could not download the update. Full error is {0}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktualizaci nelze stáhnout. Úplná chyba je {0}</target>
+          <target state="translated">Aktualizaci nelze stáhnout. Úplná popis chyby je {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Služba WMI není spuštěna. Detekce disků USB nemusí fungovat, dokud se počítač nerestartuje</target>
+          <target state="translated" state-qualifier="mt-suggestion">Služba WMI není spuštěna. Detekce disků USB nemusí fungovat, dokud se počítač nerestartuje</target>
         </trans-unit>
         <trans-unit id="MSG_I_CannotFitBothBrowsers" translate="yes" xml:space="preserve">
           <source>Can't fit both browsers at this window size. Switching to single browser view</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">V této velikosti okna se nevejdou oba prohlížeče. Přepnutí na zobrazení jednoho prohlížeče</target>
+          <target state="translated">Do takto malého okna se dva panely nevejdou. Přepínám program na zobrazení jednoho panelu.</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardCopy" translate="yes" xml:space="preserve">
           <source>Selection copied to Windows Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Výběr zkopírován do schránky systému Windows</target>
+          <target state="translated">Výběr je zkopírován do schránky systému Windows</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardCut" translate="yes" xml:space="preserve">
           <source>Selection cut to Windows Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Výběr vyjmut do schránky Windows</target>
+          <target state="translated">Výběr je vyjmut do schránky Windows</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasImage" translate="yes" xml:space="preserve">
           <source>Detected Image on Clipboard. Press CTRL + V to Paste as a new PNG file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zjištěný obrázek ve schránce. Stisknutím kláves CTRL + V vložte jako nový soubor PNG</target>
+          <target state="translated">Ve schránce je uložený obrázek. Stisknutím kláves CTRL + V jej vložíte jako nový soubor PNG</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasPath" translate="yes" xml:space="preserve">
           <source>New path on clipboard. Press Ctrl+Shift+T to open it in a new tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová cesta ve schránce. Stisknutím kombinace kláves Ctrl+Shift+T ji otevřete na nové kartě.</target>
+          <target state="translated">Ve schránce je uložena nová cesta. Stisknutím kombinace kláves Ctrl+Shift+T ji otevřete na nové kartě.</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasText" translate="yes" xml:space="preserve">
           <source>Detected Text on Clipboard. Press CTRL + V to create a new TXT file with this text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zjištěný text ve schránce. Stisknutím kláves CTRL + V vytvořte nový soubor TXT s tímto textem</target>
+          <target state="translated">Ve schránce ue uložený text. Stisknutím kláves CTRL + V vytvoříte nový soubor TXT s tímto textem</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardImagePasted" translate="yes" xml:space="preserve">
           <source>Created an image file: {0} from Clipboard data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořený obrazový soubor: {0} z dat schránky</target>
+          <target state="translated">Z dat uložených ve schránce byl vytvořen obrazový soubor: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardTextPasted" translate="yes" xml:space="preserve">
           <source>Created a text file: {0} from Clipboard data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořený textový soubor: {0} z dat schránky</target>
+          <target state="translated">Z dat uložených ve schránce byl vytvořen textový soubor: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_I_CopyingItemsBetweenBrowsers" translate="yes" xml:space="preserve">
           <source>Copying {0} item(s) from {1} to {2}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kopírování {0} položek z {1} do {2}</target>
+          <target state="translated">Kopíruji {0} položek z {1} do {2}</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk nebyl k dispozici po dobu {0} sekund kvůli nastavení režimu spánku schématu napájení systému Windows</target>
+          <target state="translated">Disk nebyl k dispozici po dobu {0} sekund kvůli nastavení režimu spánku ve schématu napájení systému Windows</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reakce síťového úložiště trvala {0} sekund</target>
+          <target state="translated">Odezva síťového úložiště trvala {0} sekund</target>
         </trans-unit>
         <trans-unit id="MSG_I_DownloadingThemeResources" translate="yes" xml:space="preserve">
           <source>Downloading theme resources...</source>
@@ -3578,104 +3578,104 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_I_DragDropCanceled" translate="yes" xml:space="preserve">
           <source>Drag operation canceled</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operace přetažení byla zrušena</target>
+          <target state="translated" state-qualifier="mt-suggestion">Operace přetažení byla zrušena</target>
         </trans-unit>
         <trans-unit id="MSG_I_DragDropCanceledTooFast" translate="yes" xml:space="preserve">
           <source>Drag slower if you intend to move files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přetažení pomaleji, pokud chcete soubory přesouvat</target>
+          <target state="translated">Přetahujte pomaleji, pokud chcete soubory přesouvat</target>
         </trans-unit>
         <trans-unit id="MSG_I_DropFileContentsFinished" translate="yes" xml:space="preserve">
           <source>Finished processing {0} file(s) from drop package</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dokončeno zpracování {0} souborů z odkládacího balíčku</target>
+          <target state="translated">Dokončeno zpracování {0} souborů z přetažených dat</target>
         </trans-unit>
         <trans-unit id="MSG_I_DropFileContentsStarted" translate="yes" xml:space="preserve">
           <source>Creating temporary files from drop package before the move...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytváření dočasných souborů z balíčku před přesunem...</target>
+          <target state="translated">Před přesouváním vytvářím z přetahových dat dočasné soubory...</target>
         </trans-unit>
         <trans-unit id="MSG_I_DropSameSourceAndDestination" translate="yes" xml:space="preserve">
           <source>Drop operation cancelled - destination same as source</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operace vyřazení byla zrušena - cíl stejný jako zdroj</target>
+          <target state="translated">Operace přetažení byla zrušena - cíl je stejný jako zdroj</target>
         </trans-unit>
         <trans-unit id="MSG_I_Duplicated" translate="yes" xml:space="preserve">
           <source>File duplicated</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor je duplikován</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor je duplikován</target>
         </trans-unit>
         <trans-unit id="MSG_I_EjectingDrive" translate="yes" xml:space="preserve">
           <source>Ejecting {0}...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vysunutí {0}...</target>
+          <target state="translated">Vysouvám {0}...</target>
         </trans-unit>
         <trans-unit id="MSG_I_FileOpened" translate="yes" xml:space="preserve">
           <source>File opened</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor otevřen</target>
+          <target state="translated">Soubor je otevřen</target>
         </trans-unit>
         <trans-unit id="MSG_I_HistoryPaneRemoved" translate="yes" xml:space="preserve">
           <source>History pane is removed. It can be added again in Settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podokno Historie je odebráno. Lze jej znovu přidat v Nastavení</target>
+          <target state="translated" state-qualifier="mt-suggestion">Podokno Historie je odebráno. Lze jej znovu přidat v Nastavení</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message when user remves history pane by clicking menu item from the History pane in sidebar</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název souboru zprávy byl příliš dlouhý. Byl zkrácen na hodnotu definovanou v nastavení.</target>
+          <target state="translated">Název souboru e-mailové zprávy byl příliš dlouhý. Byl zkrácen na hodnotu definovanou v nastavení.</target>
         </trans-unit>
         <trans-unit id="MSG_I_MonitoringDriveStopped" translate="yes" xml:space="preserve">
           <source>Monitoring of drive {0} stopped</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Monitorování {0} disku zastaveno</target>
+          <target state="translated">Monitorování disku {0} bylo zastaveno</target>
         </trans-unit>
         <trans-unit id="MSG_I_MovingItemsBetweenBrowsers" translate="yes" xml:space="preserve">
           <source>Moving {0} item(s) from {1} to {2}</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přesunutí {0} položek z {1} na {2}</target>
+          <target state="translated">Přesouvám {0} položek z {1} na {2}</target>
         </trans-unit>
         <trans-unit id="MSG_I_NewFileCreated" translate="yes" xml:space="preserve">
           <source>New file created</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořen nový soubor</target>
+          <target state="translated">Byl vytvořen nový soubor</target>
         </trans-unit>
         <trans-unit id="MSG_I_NewFolderCreated" translate="yes" xml:space="preserve">
           <source>New folder created</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořena nová složka</target>
+          <target state="translated">Byla vytvořena nová složka</target>
         </trans-unit>
         <trans-unit id="MSG_I_NoteCreated" translate="yes" xml:space="preserve">
           <source>Note created</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka vytvořena</target>
+          <target state="translated" state-qualifier="mt-suggestion">Poznámka vytvořena</target>
         </trans-unit>
         <trans-unit id="MSG_I_PathCopiedToClipboard" translate="yes" xml:space="preserve">
           <source>Path(s) copied to Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cesty zkopírované do schránky</target>
+          <target state="translated">Cesta byla zkopírována do schránky</target>
         </trans-unit>
         <trans-unit id="MSG_I_ProgramLaunched" translate="yes" xml:space="preserve">
           <source>Program launched</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Program spuštěn</target>
+          <target state="translated">Program byl spuštěn</target>
         </trans-unit>
         <trans-unit id="MSG_I_RefreshRequiredPathLong" translate="yes" xml:space="preserve">
           <source>Folder content changed but the path is too long for Windows to report. Refresh manually (F5)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Obsah složky se změnil, ale cesta je příliš dlouhá, aby ji systém Windows nemohl ohlásit. Ruční aktualizace (F5)</target>
+          <target state="translated">Obsah složky se změnil, ale cesta je příliš dlouhá, aby ji systém Windows mohl oznámit. Ruční aktualizace (F5)</target>
         </trans-unit>
         <trans-unit id="MSG_I_Renamed" translate="yes" xml:space="preserve">
           <source>Item renamed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Položka přejmenována</target>
+          <target state="translated" state-qualifier="mt-suggestion">Položka přejmenována</target>
         </trans-unit>
         <trans-unit id="MSG_I_SameName" translate="yes" xml:space="preserve">
           <source>Same name. Nothing changed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stejný název. Nic se nezměnilo</target>
+          <target state="translated">Stejný název. Nebyla provedena žádná změna</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationAdded" translate="yes" xml:space="preserve">
           <source>Processing {0} item(s)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zpracování {0} položek</target>
+          <target state="translated">Zpracovávám {0} položek</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationCompleted" translate="yes" xml:space="preserve">
           <source>Finished processing {0} item(s)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dokončené zpracování {0} položek</target>
+          <target state="translated">Dokončuji zpracování {0} položek</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationUserCancelled" translate="yes" xml:space="preserve">
           <source>User-cancelled operation</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Operace zrušená uživatelem</target>
+          <target state="translated" state-qualifier="mt-suggestion">Operace zrušená uživatelem</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellPasteExecuted" translate="yes" xml:space="preserve">
           <source>Shell Paste executed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shell Paste proveden</target>
+          <target state="translated">Operace Vložit pomocí příkazu Shell provedena</target>
         </trans-unit>
         <trans-unit id="MSG_I_TemplateCreated" translate="yes" xml:space="preserve">
           <source>Template created. Press Ctrl+N anytime to clone it to current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Šablona vytvořena. Stisknutím kláves Ctrl + N jej kdykoli naklonujete do aktuální složky</target>
+          <target state="translated">Šablona vytvořena. Stisknutím kláves Ctrl + N ji kdykoli naklonujete do aktuální složky</target>
         </trans-unit>
         <trans-unit id="MSG_I_ThemeResourcesDownloaded" translate="yes" xml:space="preserve">
           <source>Theme resources downloaded</source>
@@ -3683,608 +3683,608 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Windows doesn't support undoing file operations outside Explorer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systém Windows nepodporuje vrácení operací se soubory mimo Průzkumníka</target>
+          <target state="translated">Systém Windows nepodporuje vrácení operací se soubory provedené mimo prostředí Průzkumníka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForPortableVersion" translate="yes" xml:space="preserve">
           <source>New version is available. Press UPDATE button in the top-right corner</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová verze je k dispozici. Stiskněte tlačítko UPDATE v pravém horním rohu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nová verze je k dispozici. Stiskněte tlačítko UPDATE v pravém horním rohu</target>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForStoreVersion" translate="yes" xml:space="preserve">
           <source>Update available. You can update through Microsoft Store by clicking Library and Get Updates</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktualizace je k dispozici. Aktualizaci můžete provést prostřednictvím obchodu Microsoft Store kliknutím na Knihovna a Získat aktualizace</target>
+          <target state="translated" state-qualifier="mt-suggestion">Aktualizace je k dispozici. Aktualizaci můžete provést prostřednictvím obchodu Microsoft Store kliknutím na Knihovna a Získat aktualizace</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Library and Get Updates are the buttons on the Store</note>
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stahování nejnovější verze z OneCommander.com...</target>
+          <target state="translated">Stahuji nejnovější verze z OneCommander.com...</target>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Smazat okno {0}?</target>
+          <target state="translated" state-qualifier="mt-suggestion">Smazat okno {0}?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor s tímto názvem již existuje. Chcete jej vyměnit?</target>
+          <target state="translated">Soubor s tímto názvem již existuje. Chcete jej nahradit?</target>
         </trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt + šipka vlevo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alt + šipka vlevo</target>
         </trans-unit>
         <trans-unit id="NavigateBackward_TT" translate="yes" xml:space="preserve">
           <source>Go back in tab history</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Návrat do historie karet</target>
+          <target state="translated">O krok zpět v historii karet</target>
         </trans-unit>
         <trans-unit id="NavigateForward_S" translate="yes" xml:space="preserve">
           <source>Alt + Right arrow</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt + šipka vpravo</target>
+          <target state="translated" state-qualifier="mt-suggestion">Alt + šipka vpravo</target>
         </trans-unit>
         <trans-unit id="NavigateForward_TT" translate="yes" xml:space="preserve">
           <source>Go forward in tab history</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Posun vpřed v historii karet</target>
+          <target state="translated">O krok vpřed v historii karet</target>
         </trans-unit>
         <trans-unit id="NavigateUp_S" translate="yes" xml:space="preserve">
           <source>Backspace</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Backspace</target>
+          <target state="translated">Mezerník</target>
         </trans-unit>
         <trans-unit id="NavigateUp_TT" translate="yes" xml:space="preserve">
           <source>Open parent folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít nadřazenou složku</target>
+          <target state="translated" state-qualifier="mt-suggestion">Otevřít nadřazenou složku</target>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Síť</target>
+          <target state="translated" state-qualifier="mt-suggestion">Síť</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
           <source>CTRL + N</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">CTRL + N</target>
+          <target state="translated" state-qualifier="mt-suggestion">CTRL + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit nový soubor ze šablony</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit nový soubor ze šablony</target>
         </trans-unit>
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">CTRL + SHIFT + N</target>
+          <target state="translated" state-qualifier="mt-suggestion">CTRL + SHIFT + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
           <source>Create new folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit novou složku</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit novou složku</target>
         </trans-unit>
         <trans-unit id="NewGroup" translate="yes" xml:space="preserve">
           <source>New group</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nová skupina</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nová skupina</target>
         </trans-unit>
         <trans-unit id="NewGroup_Title" translate="yes" xml:space="preserve">
           <source>New Group name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nový název skupiny</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nový název skupiny</target>
         </trans-unit>
         <trans-unit id="NewGroup_TT" translate="yes" xml:space="preserve">
           <source>Creates new Favorite group and adds current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří novou skupinu Oblíbené a přidá aktuální složku</target>
+          <target state="translated">Vytvoří novou skupinu Oblíbené a přidá do ní aktuální složku</target>
         </trans-unit>
         <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
           <source>ALT + N</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ALT + N</target>
+          <target state="translated" state-qualifier="mt-suggestion">ALT + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
           <source>Create a note in current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoření poznámky v aktuální složce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvoření poznámky v aktuální složce</target>
         </trans-unit>
         <trans-unit id="NewTab_S" translate="yes" xml:space="preserve">
           <source>CTRL + T to create | CTRL + W to close selected | CTRL + TAB to switch to next tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">CTRL + T pro vytvoření | Ctrl + W pro zavření vybraného | Ctrl + TAB přepnete na další kartu</target>
+          <target state="translated">CTRL + T pro vytvoření | Ctrl + W pro zavření aktuální | Ctrl + TAB pro přepnutí na další kartu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTab_TT" translate="yes" xml:space="preserve">
           <source>Create new tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit novou kartu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit novou kartu</target>
         </trans-unit>
         <trans-unit id="NewWindowCreate" translate="yes" xml:space="preserve">
           <source>Create</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvářet</target>
+          <target state="translated">Vytvořit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New Window dialog to create the new window</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pojmenujte nové okno a uložte jeho rozložení, pozici a karty pro příště, kdy je budete potřebovat</target>
+          <target state="translated">Pojmenujte nové okno a uložte jeho rozložení, pozici a karty pro okamžik, kdy jej budete potřebovat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="NewWindowTitle" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nové okno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nové okno</target>
         </trans-unit>
         <trans-unit id="NewWindowWindowName" translate="yes" xml:space="preserve">
           <source>Window name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název okna</target>
+          <target state="translated" state-qualifier="mt-suggestion">Název okna</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Watermark in textbox to hold the name of the new window</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Smazat uložené okno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Smazat uložené okno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenovat</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přejmenovat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_TT" translate="yes" xml:space="preserve">
           <source>Open new or saved window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevření nového nebo uloženého okna</target>
+          <target state="translated">Otevřít nové nebo uložené okna</target>
         </trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ESC uzavře | ~ otevřít</target>
+          <target state="translated">ESC pro uzavření | ~ pro otevření</target>
         </trans-unit>
         <trans-unit id="Notifications_Minimize_TT" translate="yes" xml:space="preserve">
           <source>Minimizes Notification Pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minimalizuje podokno oznámení</target>
+          <target state="translated">Minimalizuje podokno oznámení</target>
         </trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zhroucení</target>
+          <target state="translated">Sbalit</target>
         </trans-unit>
         <trans-unit id="OverlayExpanding" translate="yes" xml:space="preserve">
           <source>Expand more to show pane</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozbalit více pro zobrazení podokna</target>
+          <target state="translated">Rozbalit více pro zobrazení panelu</target>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Změny v {0} pohonu</target>
+          <target state="translated">Změny v jednotce {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="PathsGroupTitleClipboard" translate="yes" xml:space="preserve">
           <source>Clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Schránka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Schránka</target>
         </trans-unit>
         <trans-unit id="PathsGroupTitleTabHistory" translate="yes" xml:space="preserve">
           <source>Tab's history</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Historie karty</target>
+          <target state="translated" state-qualifier="mt-suggestion">Historie karty</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cesta delší než je podporována systémem Windows (260 znaků)
+          <target state="translated">Cesta delší než je podporováno systémem Windows (260 znaků)
 Některé programy nebudou moci tento soubor otevřít</target>
         </trans-unit>
         <trans-unit id="PathTooLong_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open/save files from this folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cesta delší než je podporována systémem Windows (260 znaků)
+          <target state="translated">Cesta delší než je podporováno systémem Windows (260 znaků)
 Některé programy nebudou moci otevírat nebo ukládat soubory z této složky</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Argumenty spuštění</target>
+          <target state="translated">Parametry spuštění</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For Ctrl+Shift+Enter to launch with params dialog</note>
         </trans-unit>
         <trans-unit id="Popup_NewFile_Clone" translate="yes" xml:space="preserve">
           <source>Clone to current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klonovat do aktuální složky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Klonovat do aktuální složky</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen" translate="yes" xml:space="preserve">
           <source>...and open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">... a otevřít</target>
+          <target state="translated" state-qualifier="mt-suggestion">... a otevřít</target>
         </trans-unit>
-        <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="yes" xml:space="preserve">
+        <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="no" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl + Enter</target>
+          <target state="final" state-qualifier="mt-suggestion">Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates and opens file in the default system program after cloning it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří a otevře soubor ve výchozím systémovém programu po jeho klonování</target>
+          <target state="translated">Po vytvoření klonovaného souboru jej otevře ve výchozím systémovém programu</target>
         </trans-unit>
-        <trans-unit id="Popup_NewFile_Clone_S" translate="yes" xml:space="preserve">
+        <trans-unit id="Popup_NewFile_Clone_S" translate="no" xml:space="preserve">
           <source>Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vstoupit</target>
+          <target state="final">Enter</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut key Enter</note>
         </trans-unit>
         <trans-unit id="Popup_NewFile_Clone_TT" translate="yes" xml:space="preserve">
           <source>Creates copy of the selected template file with above filename in current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří kopii vybraného souboru šablony s výše uvedeným názvem souboru v aktuální složce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvoří kopii vybraného souboru šablony s výše uvedeným názvem souboru v aktuální složce</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_EditTemplates" translate="yes" xml:space="preserve">
           <source>Edit templates</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Úprava šablon</target>
+          <target state="translated" state-qualifier="mt-suggestion">Úprava šablon</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_Title" translate="yes" xml:space="preserve">
           <source>New file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nový soubor</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nový soubor</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_Create" translate="yes" xml:space="preserve">
           <source>Create</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvářet</target>
+          <target state="translated">Vytvořit</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
           <source>Create and move {0} files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytváření a přesouvání souborů {0}</target>
+          <target state="translated">Vytvořit a přesunout {0} souborů</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen" translate="yes" xml:space="preserve">
           <source>..and open</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">.. a otevřít</target>
+          <target state="translated" state-qualifier="mt-suggestion">.. a otevřít</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ctrl + Enter</target>
+          <target state="translated" state-qualifier="mt-suggestion">Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and opens it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce a otevře ji</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce a otevře ji</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection" translate="yes" xml:space="preserve">
           <source>...from selection</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">... z výběru</target>
+          <target state="translated" state-qualifier="mt-suggestion">... z výběru</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_S" translate="yes" xml:space="preserve">
           <source>Shift + Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shift + Enter</target>
+          <target state="translated" state-qualifier="mt-suggestion">Shift + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and moves selected items in it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce a přesune do ní vybrané položky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce a přesune do ní vybrané položky</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_Create_S" translate="yes" xml:space="preserve">
           <source>Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vstoupit</target>
+          <target state="translated">Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_Create_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvoří novou složku v aktuální složce</target>
         </trans-unit>
         <trans-unit id="Popup_NewTemplate_Title" translate="yes" xml:space="preserve">
           <source>Name this template</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pojmenujte tuto šablonu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Pojmenujte tuto šablonu</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
           <source>To add new line press Ctrl + Enter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chcete-li přidat nový řádek, stiskněte Ctrl + Enter</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chcete-li přidat nový řádek, stiskněte Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka / ToDo úkol</target>
+          <target state="translated">Poznámka / úkol</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prázdný soubor</target>
+          <target state="translated" state-qualifier="mt-suggestion">Prázdný soubor</target>
         </trans-unit>
         <trans-unit id="Preview_FolderError" translate="yes" xml:space="preserve">
           <source>Error loading folder preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při načítání náhledu složky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Chyba při načítání náhledu složky</target>
         </trans-unit>
         <trans-unit id="Preview_FolderPathTooLong" translate="yes" xml:space="preserve">
           <source>Error loading folder preview. Windows doesn't support paths this long for some system operations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chyba při načítání náhledu složky. Systém Windows nepodporuje cesty tak dlouho pro některé systémové operace</target>
+          <target state="translated">Chyba při načítání náhledu složky. Systém Windows pro některé systémové operace nepodporuje cesty této délky</target>
         </trans-unit>
         <trans-unit id="Preview_LoadAsTextFailed" translate="yes" xml:space="preserve">
           <source>Couldn't load text preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nelze načíst náhled textu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nelze načíst náhled textu</target>
         </trans-unit>
         <trans-unit id="Preview_Loading" translate="yes" xml:space="preserve">
           <source>Loading...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nakládka...</target>
+          <target state="translated">Nahrávám...</target>
         </trans-unit>
         <trans-unit id="Preview_NextPage_TT" translate="yes" xml:space="preserve">
           <source>Next page</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Další stránka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Další stránka</target>
         </trans-unit>
         <trans-unit id="Preview_NoPreview" translate="yes" xml:space="preserve">
           <source>No preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bez náhledu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Bez náhledu</target>
         </trans-unit>
         <trans-unit id="Preview_OfflineFile" translate="yes" xml:space="preserve">
           <source>File not available. Cloud files that aren't synced are not previewed, since they would have to be downloaded</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor není k dispozici. Cloudové soubory, které nejsou synchronizovány, nejsou zobrazeny v náhledu, protože by musely být staženy</target>
+          <target state="translated" state-qualifier="mt-suggestion">Soubor není k dispozici. Cloudové soubory, které nejsou synchronizovány, nejsou zobrazeny v náhledu, protože by musely být staženy</target>
         </trans-unit>
         <trans-unit id="Preview_PreviousPage_TT" translate="yes" xml:space="preserve">
           <source>Previous page</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Předchozí stránka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Předchozí stránka</target>
         </trans-unit>
         <trans-unit id="Preview_ShowOnMap" translate="yes" xml:space="preserve">
           <source>Show photo location on map</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit umístění fotografie na mapě</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zobrazit umístění fotografie na mapě</target>
         </trans-unit>
         <trans-unit id="Preview_TabMultimedia" translate="yes" xml:space="preserve">
           <source>Multimedia</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Multimédia</target>
+          <target state="translated" state-qualifier="mt-suggestion">Multimédia</target>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
           <source>Text/plain</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text/prostý text</target>
+          <target state="translated" state-qualifier="mt-suggestion">Text/prostý text</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="Preview_TextTrimmed" translate="yes" xml:space="preserve">
           <source>Preview trimmed to first {0}K characters</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Náhled oříznutý na první znaky {0} kB</target>
+          <target state="translated">Náhled byl oříznut na prvních {0} tis. znaků</target>
           <note from="MultilingualBuild" annotates="source" priority="2">K as in thousand</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
           <source>Hold Ctrl while pressing close button to close the program completely</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Podržte klávesu Ctrl a stiskněte tlačítko Zavřít pro úplné zavření programu</target>
+          <target state="translated">Podržte klávesu Ctrl a stiskněte tlačítko Zavřít pro úplné ukončení programu</target>
         </trans-unit>
         <trans-unit id="ProgramCrashed" translate="yes" xml:space="preserve">
           <source>Program has crashed</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Program havaroval</target>
+          <target state="translated" state-qualifier="mt-suggestion">Program havaroval</target>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nedávné destinace</target>
+          <target state="translated">Nedávné cíle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="RecycleBin" translate="yes" xml:space="preserve">
           <source>Recycle Bin</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Koš</target>
+          <target state="translated" state-qualifier="mt-suggestion">Koš</target>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktualizovat obsah (tento typ složky nelze automaticky aktualizovat)</target>
+          <target state="translated">Aktualizujte obsah (tento typ složky nelze automaticky aktualizovat)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
-        <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
+        <trans-unit id="Rename_S" translate="no" xml:space="preserve">
           <source>F2</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">F2</target>
+          <target state="final" state-qualifier="mt-suggestion">F2</target>
         </trans-unit>
         <trans-unit id="Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přejmenovat</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přejmenovat</target>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skripty</target>
+          <target state="translated" state-qualifier="mt-suggestion">Skripty</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Search</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hledání</target>
+          <target state="translated" state-qualifier="mt-suggestion">Hledání</target>
         </trans-unit>
         <trans-unit id="SearchLocation" translate="yes" xml:space="preserve">
           <source>Location</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Umístění</target>
+          <target state="translated" state-qualifier="mt-suggestion">Umístění</target>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
           <source>Names</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jména</target>
+          <target state="translated">Názvy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Names</note>
         </trans-unit>
         <trans-unit id="SearchStop" translate="yes" xml:space="preserve">
           <source>Stop</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stop</target>
+          <target state="translated" state-qualifier="mt-suggestion">Stop</target>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visačky</target>
+          <target state="translated">Štítky</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="SearchWithin" translate="yes" xml:space="preserve">
           <source>within</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">v</target>
+          <target state="translated">v rámci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Just "within" for search dialog "Search [pattern] within [location]"</note>
         </trans-unit>
         <trans-unit id="Search_TT" translate="yes" xml:space="preserve">
           <source>Search files starting from currently opened folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyhledávání souborů od aktuálně otevřené složky</target>
+          <target state="translated">Vyhledávání souborů počínaje aktuálně otevřenou složkou</target>
         </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nastavení programu</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nastavení programu</target>
         </trans-unit>
         <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
           <source>Shortcut</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zkratka</target>
+          <target state="translated">Zástupce</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shortcut text to add to name - ex: file -Shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
           <source>Create in</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vytvořit v</target>
+          <target state="translated" state-qualifier="mt-suggestion">Vytvořit v</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
         </trans-unit>
         <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
           <source>Shortcut (.lnk)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zkratka (.lnk)</target>
+          <target state="translated">Zástupce (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uložení nastavení před zavřením...</target>
+          <target state="translated">Ukládám nastavení před ukončením...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
           <source>DATE</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">RANDE</target>
+          <target state="translated">DATUM</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle data změny (od nejnovějšího)</target>
+          <target state="translated">Seřadí položky podle data změny (od nejnovějších)</target>
         </trans-unit>
         <trans-unit id="SortByDate_OldestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Oldest first)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle data změny (od nejstaršího)</target>
+          <target state="translated">Seřadí položky podle data změny (od nejstaršícj)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
           <source>NAME</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">JMÉNO</target>
+          <target state="translated">NÁZEV</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle názvu (A-Z)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle názvu (A-Z)</target>
         </trans-unit>
         <trans-unit id="SortByName_Descending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (Z-A)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle názvu (Z-A)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle názvu (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
           <source>SIZE</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">VELIKOST</target>
+          <target state="translated" state-qualifier="mt-suggestion">VELIKOST</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
 Folders can't be sorted</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí soubory podle velikosti (od největšího)
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí soubory podle velikosti (od největšího)
 Složky nelze řadit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
 Folders can't be sorted</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí soubory podle velikosti (od nejmenšího)
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí soubory podle velikosti (od nejmenšího)
 Složky nelze řadit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>TYPE</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">TYP</target>
+          <target state="translated" state-qualifier="mt-suggestion">TYP</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle typu (A-Z)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle typu (A-Z)</target>
         </trans-unit>
         <trans-unit id="SortByType_Descending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (Z-A)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seřadí položky podle typu (Z-A)</target>
+          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle typu (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
           <source>Keep folders above files (On/Off)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Udržování složek nad soubory (Zapnuto/Vypnuto)</target>
+          <target state="translated">Složky vždy zobrazovat nad soubory (Zapnuto/Vypnuto)</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Řazení souborů</target>
+          <target state="translated" state-qualifier="mt-suggestion">Řazení souborů</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Speciální složka</target>
+          <target state="translated" state-qualifier="mt-suggestion">Speciální složka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
           <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systém Windows tuto složku přesměrovává. Soubory uložené nebo upravené zde se nemusí zobrazovat mimo OneCommander. Jedná se o omezení uložené systémem Windows. Pro správný přístup k této složce použijte samostatnou verzi OneCommander.</target>
+          <target state="translated">Systém Windows tuto složku přesměrovává. Soubory zde ukládané nebo upravované se nemusí zobrazovat mimo program OneCommander. Jedná se o omezení systému Windows. Pro správný přístup k této složce použijte samostatnou verzi OneCommander.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="SysTrayMenu_Exit" translate="yes" xml:space="preserve">
           <source>Exit</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Východ</target>
+          <target state="translated">Ukončit</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_NewWindow" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nové okno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nové okno</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_OpenLog" translate="yes" xml:space="preserve">
           <source>Open log</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Otevřít protokol</target>
+          <target state="translated" state-qualifier="mt-suggestion">Otevřít protokol</target>
         </trans-unit>
         <trans-unit id="SysTrayMenu_ShowWindow" translate="yes" xml:space="preserve">
           <source>Show last window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zobrazit poslední okno</target>
+          <target state="translated" state-qualifier="mt-suggestion">Zobrazit poslední okno</target>
         </trans-unit>
         <trans-unit id="Target" translate="yes" xml:space="preserve">
           <source>Target</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cíl</target>
+          <target state="translated" state-qualifier="mt-suggestion">Cíl</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">TIP: Uživatel Ctrl + kolečko myši změní velikost náhledu / položek ve sloupci</target>
+          <target state="translated">TIP: Pro změnu velikosti náhledu / položek ve sloupci použijte Ctrl + kolečko myši</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">V Náhledu můžete pomocí kolečka myši přiblížit, a to i při náhledu videa</target>
+          <target state="translated">V režimu náhledu můžete pomocí kolečka myši přiblížit, a to i při náhledu videa</target>
         </trans-unit>
         <trans-unit id="TIP_WindowSelect" translate="yes" xml:space="preserve">
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">TIP: Okno výběru můžete nakreslit podržením prostředního tlačítka myši, aniž byste museli použít prázdné místo</target>
+          <target state="translated">TIP: Rámeček výběru můžete nakreslit podržením prostředního tlačítka myši, aniž byste museli napřed kliknout na prázdného místa</target>
         </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odemknout</target>
+          <target state="translated" state-qualifier="mt-suggestion">Odemknout</target>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nainstalovat nejnovější aktualizaci</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nainstalovat nejnovější aktualizaci</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for update button on top-right corner</note>
         </trans-unit>
         <trans-unit id="Updating" translate="yes" xml:space="preserve">
           <source>Updating...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktualizace...</target>
+          <target state="translated">Aktualizuji...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Probuzení disku nahoru...</target>
+          <target state="translated">Probouzím disk...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Short overlay message shown in Files panel if disk is sleeping</note>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Změna zpoždění spánku pro disky v plánu napájení systému Windows, pokud k tomu dochází příliš často a zpomaluje vás</target>
+          <target state="translated">Změňte prodlevu uspání disků v plánu napájení systému Windows, pokud k tomuto chování dochází příliš často a chod počítače zpomaluje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Warning" translate="yes" xml:space="preserve">
           <source>Warning!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Varování!</target>
+          <target state="translated" state-qualifier="mt-suggestion">Varování!</target>
         </trans-unit>
         <trans-unit id="Watermark_BitlockerLocked" translate="yes" xml:space="preserve">
           <source>Locked with BitLocker</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uzamčeno pomocí nástroje BitLocker</target>
+          <target state="translated" state-qualifier="mt-suggestion">Uzamčeno pomocí nástroje BitLocker</target>
         </trans-unit>
         <trans-unit id="Watermark_DragFilesHere" translate="yes" xml:space="preserve">
           <source>Drag files here</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Přetáhněte soubory sem</target>
+          <target state="translated" state-qualifier="mt-suggestion">Přetáhněte soubory sem</target>
         </trans-unit>
         <trans-unit id="Watermark_Empty" translate="yes" xml:space="preserve">
           <source>Empty</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prázdný</target>
+          <target state="translated">Prázdné</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Získání položek koše...</target>
+          <target state="translated">Získávám položek koše...</target>
         </trans-unit>
         <trans-unit id="Watermark_InvalidFolderCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains characters unsupported by Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Název složky obsahuje znaky nepodporované systémem Windows</target>
+          <target state="translated" state-qualifier="mt-suggestion">Název složky obsahuje znaky nepodporované systémem Windows</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccess" translate="yes" xml:space="preserve">
           <source>No access</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žádný přístup</target>
+          <target state="translated">Přístup není možný</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccessTryElevating" translate="yes" xml:space="preserve">
           <source>No access. Try restarting as Admin (Ctrl+Shift+F12)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žádný přístup. Zkuste počítač restartovat jako správce (Ctrl+Shift+F12).</target>
+          <target state="translated">Přístup není možný. Zkuste program spustit znovu s právy správce (Ctrl+Shift+F12).</target>
         </trans-unit>
         <trans-unit id="Watermark_NoFilesFound" translate="yes" xml:space="preserve">
           <source>No matching items found</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nebyly nalezeny žádné odpovídající položky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nebyly nalezeny žádné odpovídající položky</target>
         </trans-unit>
         <trans-unit id="Watermark_NoShares" translate="yes" xml:space="preserve">
           <source>No accessible shares found</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nebyly nalezeny žádné dostupné sdílené položky</target>
+          <target state="translated" state-qualifier="mt-suggestion">Nebyly nalezeny žádné dostupné sdílené položky</target>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Není k dispozici</target>
+          <target state="translated" state-qualifier="mt-suggestion">Není k dispozici</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hledání distribucí Linuxu ...</target>
+          <target state="translated" state-qualifier="mt-suggestion">Hledání distribucí Linuxu ...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingShares" translate="yes" xml:space="preserve">
           <source>Searching shares...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyhledávání akcií...</target>
+          <target state="translated">Vyhledávání sdílených položek...</target>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nebyly nalezeny žádné distribuce WSL. Ujistěte se, že běží</target>
+          <target state="translated">Nebyly nalezeny žádné distribuce WSL. Ujistěte se, zda běží</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">V současné době WSL nepodporuje sledování změn pomocí ReadDirectoryChangesW. Čekání na opravu společnosti Microsoft. Ruční aktualizace</target>
+          <target state="translated">V současné době WSL nepodporuje sledování změn pomocí ReadDirectoryChangesW. Čekáme na opravu společnosti Microsoft. Aktualizujte ručně</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
       </group>
