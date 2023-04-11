@@ -165,7 +165,7 @@
         </trans-unit>
         <trans-unit id="FVDWindowTitle" translate="yes" xml:space="preserve">
           <source>File view designer</source>
-          <target state="translated">Návrhář rozložení souborů</target>
+          <target state="translated">Návrhář rozložení zobrazení</target>
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
@@ -202,7 +202,7 @@
         </trans-unit>
         <trans-unit id="ResizeToVerifyRemovalOrder" translate="yes" xml:space="preserve">
           <source>Resize to verify Removal Order</source>
-          <target state="translated">Pro ověření pořadí odstranění změňte šířku zobrazení</target>
+          <target state="translated">Pro ověření pořadí odstraňování prvků změňte šířku zobrazení</target>
         </trans-unit>
         <trans-unit id="Save" translate="yes" xml:space="preserve">
           <source>Save</source>
@@ -746,7 +746,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="RuleTypeSimple" translate="yes" xml:space="preserve">
           <source>Simple</source>
-          <target state="translated" state-qualifier="mt-suggestion">Jednoduchý</target>
+          <target state="translated">Snadné</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeVideo" translate="yes" xml:space="preserve">
@@ -765,7 +765,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
           <source>Uncheck if you want it to be cancelable. Press Ctrl+C in CMD window to cancel operation</source>
-          <target state="translated">Zrušte zaškrtnutí, pokud chcete, aby bylo běh skritpu zrušit. Pro zrušení stiskněte v okně CMD klávesy Ctrl + C</target>
+          <target state="translated">Zrušte zaškrtnutí, pokud chcete, aby bylo možné běh skritpu zrušit. Pro zrušení stiskněte v okně CMD klávesy Ctrl+C</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text tooltip</note>
         </trans-unit>
         <trans-unit id="ShowSourceAndDestColumns" translate="yes" xml:space="preserve">
@@ -885,7 +885,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="translated">Program zkontroluje několik prvních souborů ve složce a pokud většina z nich jsou obrázky nebo videa, zapne zobrazení miniatur. Zobrazení, která jsou již uložena, nebudou ovlivněna</target>
+          <target state="translated">Program prozkoumá několik prvních souborů ve složce a zapne zobrazení miniatur, pokud jde z většiny o obrázky nebo videa. Již uložená zobrazení nebudou ovlivněna.</target>
         </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
@@ -938,7 +938,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelay" translate="yes" xml:space="preserve">
           <source>Expand delay (ms)</source>
-          <target state="translated">před rozřířením sloupec (ms)</target>
+          <target state="translated">než rozšíří sloupec (ms)</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelayInfo" translate="yes" xml:space="preserve">
           <source>When cursor enters a folder column, program will wait for:</source>
@@ -946,15 +946,15 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnAdvancedDuration" translate="yes" xml:space="preserve">
           <source>Expand duration (ms)</source>
-          <target state="translated">Trvání animace rozšíření sloupce (ms)</target>
+          <target state="translated">Animace rozšíření potrvá (ms)</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDurationInfo" translate="yes" xml:space="preserve">
           <source>and then animate expanding the column for:</source>
-          <target state="translated">a poté bude sloupec rozšiřovat (animace):</target>
+          <target state="translated">poté se sloupec rozšíří (s animací):</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandAnimateAll" translate="yes" xml:space="preserve">
           <source>Set to max to animate all</source>
-          <target state="translated">Nastavte hodnotu na maximum, pokud chcete animovat vždy</target>
+          <target state="translated">Posuňte na maximum, chcete-li, aby animace proběhla vždy</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidth" translate="yes" xml:space="preserve">
           <source>Trigger width</source>
@@ -962,7 +962,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
           <source>OneCommander only expands columns smaller than this:</source>
-          <target state="translated">OneCommander bude rozšiřovat pouze sloupce menší než:</target>
+          <target state="translated">Budou rozšiřovány pouze sloupce menší než:</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -1002,7 +1002,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnParentWidthInfo" translate="yes" xml:space="preserve">
           <source>When space is limited, parent folder column will try to expand to this size:</source>
-          <target state="translated">V případě omezeného prostoru se sloupec nadřazené složky pokusí rozšířit na tuto velikost:</target>
+          <target state="translated">Je-li prostor omezen, pokusí se program rozšířit sloupec nadřazené složky na tuto velikost:</target>
         </trans-unit>
         <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
           <source>Sliders auto-adjust range depending on the slider below it</source>
@@ -1011,15 +1011,15 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnWidthCurrentColumnsLayout" translate="yes" xml:space="preserve">
           <source>Current (rightmost) column pane width in Columns layout</source>
-          <target state="translated">Šířka aktivního sloupce (zcela vpravo) v rozložení sloupců</target>
+          <target state="translated">Šířka sloupce zcela vpravo (aktuální složka) v rozložení sloupců</target>
         </trans-unit>
         <trans-unit id="ColumnWidthCurrentStandardLayout" translate="yes" xml:space="preserve">
           <source>Current (rightmost) column pane width in Standard layout</source>
-          <target state="translated">Šířka aktuálního sloupce (zcela vpravo) v standardním rozložení</target>
+          <target state="translated">Šířka sloupce zcela vpravo (aktuální složka) v standardním rozložení</target>
         </trans-unit>
         <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
           <source>Columns smaller than the above value will collapse to this width:</source>
-          <target state="translated" state-qualifier="mt-suggestion">Sloupce menší než výše uvedená hodnota se sbalí na tuto šířku:</target>
+          <target state="translated">Sloupce užší než hodnota uvedená výše se sbalí na tuto šířku:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthOther" translate="yes" xml:space="preserve">
@@ -1032,7 +1032,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
           <source>If there isn't enough space, left-most columns will contract up to this width:</source>
-          <target state="translated">Při nedostatku místa, sloupce nejvíce vlevo se zmenší až na tuto šířku:</target>
+          <target state="translated">Při nedostatku místa se sloupce nejvíce vlevo zmenší až na tuto šířku:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="CommandShell" translate="yes" xml:space="preserve">
@@ -1186,7 +1186,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated">Aby byly veškeré změny použity, je nutné program restartovat. Chcete jej<bpt id="1">&lt;b&gt;</bpt>restartovat nyní<ept id="1">&lt;/b&gt;</ept>?&lt;br/&gt;Tímto zrušíte veškeré dosud probíhající operace zahájené OneCommanderem</target>
+          <target state="translated">Aby byly veškeré změny použity, je nutné program restartovat. Chcete jej <bpt id="1">&lt;b&gt;</bpt>restartovat nyní<ept id="1">&lt;/b&gt;</ept>? Tímto zrušíte veškeré dosud probíhající operace zahájené OneCommanderem</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
@@ -1216,7 +1216,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DownloadIconPacksInfo" translate="yes" xml:space="preserve">
           <source>Downloads additional icons from onecommander.com if they are available. Check file icons dropdown after downloading.</source>
-          <target state="translated">Stáhne další ikony ze onecommander.com, pokud jsou k dispozici. Po stažení prozkoumejte rozbalovací nabídku ikon souborů.</target>
+          <target state="translated">Stáhne další ikony ze onecommander.com, pokud budou k dispozici. Po stažení znovu prozkoumejte rozbalovací nabídku ikon souborů.</target>
         </trans-unit>
         <trans-unit id="DragDropBehaviorConsistent" translate="yes" xml:space="preserve">
           <source>Consistent: Drag always moves; Ctrl+Drag always copies</source>
@@ -1291,7 +1291,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="translated" state-qualifier="mt-suggestion">Stáří souboru / relativní datum</target>
+          <target state="translated">Stáří souboru</target>
         </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
@@ -1362,7 +1362,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FolderIconOverrideInfo" translate="yes" xml:space="preserve">
           <source>Using anything except Windows Default will disable folder icon overlays</source>
-          <target state="translated">Volba jiné možnosti než Windows Default neumožní zobrazení překryvné vrstvy ikon složek (např. obláčky cloudu)</target>
+          <target state="translated">Jiná volba než Windows Default neumožní zobrazení překryvné vrstvy ikon složek (např. obláčku cloudu)</target>
         </trans-unit>
         <trans-unit id="FolderIconsPack" translate="yes" xml:space="preserve">
           <source>Folder icons pack</source>
@@ -1504,11 +1504,11 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
           <source>Hide last window instead of close</source>
-          <target state="translated">Skrýt poslední okno programu místo jeho ukončení</target>
+          <target state="translated">Místo ukončení programu se poslední okno jen skryje</target>
         </trans-unit>
         <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
           <source>Opens the window instantly but uses more memory</source>
-          <target state="translated">Otevře okno s programem okamžitě, ale bude zabírat více paměti</target>
+          <target state="translated">Okno s programem se otevře okamžitě, ale spotřebuje více paměti</target>
         </trans-unit>
         <trans-unit id="HideTemporary" translate="yes" xml:space="preserve">
           <source>Hide temporary files</source>
@@ -1523,8 +1523,8 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         <trans-unit id="HotkeyInfo" translate="yes" xml:space="preserve">
           <source>Program must be running for above hotkeys to work
 Program restart required</source>
-          <target state="translated">Aby byly výše uvedené klávesové zkratky funkční, musí být program spuštěn
-Je nutné restartovat program</target>
+          <target state="translated">Aby byly výše uvedené klávesové zkratky funkční, musí program běžet.
+Je nutné program restartovat.</target>
         </trans-unit>
         <trans-unit id="HotkeyVizor" translate="yes" xml:space="preserve">
           <source>Use global hotkey Ctrl+` to show docked program window</source>
@@ -1545,19 +1545,19 @@ Je nutné restartovat program</target>
         </trans-unit>
         <trans-unit id="IconsPackInfo" translate="yes" xml:space="preserve">
           <source>Icon packs contribute to program's overall memory use</source>
-          <target state="translated">Používání baličků ikon má za následek vyšší využívání paměti</target>
+          <target state="translated">Program bude používat více paměti pokud použijete balíček ikon</target>
         </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
-          <target state="translated">Přizpůsobené velikosti podokna náhledu</target>
+          <target state="translated">přizpůsobené velikosti podokna náhledu</target>
         </trans-unit>
         <trans-unit id="ImageScaleOriginal" translate="yes" xml:space="preserve">
           <source>Original size</source>
-          <target state="translated" state-qualifier="mt-suggestion">Původní velikost</target>
+          <target state="translated">v původní velikosti</target>
         </trans-unit>
         <trans-unit id="ImageScaleQuestion" translate="yes" xml:space="preserve">
           <source>Display small images</source>
-          <target state="translated" state-qualifier="mt-suggestion">Zobrazení malých obrázků</target>
+          <target state="translated">Malé obrazové soubory zobrazuj</target>
         </trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
@@ -1565,11 +1565,11 @@ Je nutné restartovat program</target>
         </trans-unit>
         <trans-unit id="InheritFilesView" translate="yes" xml:space="preserve">
           <source>Inherit files view</source>
-          <target state="translated">Dědit způsob zobrazení souborů</target>
+          <target state="translated">Dědit režim zobrazení souborů</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="translated">Zobrazení a řazení souborů bude zděděno z nadřazené složky</target>
+          <target state="translated">Způsob zobrazení a řazení souborů bude zděděno z nadřazené složky</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
@@ -1587,8 +1587,7 @@ Je nutné restartovat program</target>
         <trans-unit id="KeepRunningInBackgroundInfo" translate="yes" xml:space="preserve">
           <source>If On, program will stay in System Tray for faster next start.
 This should be enabled if program is set as a default file manager</source>
-          <target state="translated">Pokud je volba povolena, program zůstane v systémové liště a bude ho možné spustit rychleji.
-Pokud je program nastaven jako výchozí správce souborů, měla by být toto nastavení povoleno</target>
+          <target state="translated">Pokud je volba zapnuta, program zůstane v systémové liště a bude ho možné spustit rychleji. Pokud je program nastaven jako výchozí správce souborů, měli byste tuto volbu zapnout.</target>
         </trans-unit>
         <trans-unit id="Language" translate="yes" xml:space="preserve">
           <source>Language</source>
@@ -1785,7 +1784,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
-          <target state="translated" state-qualifier="mt-suggestion">Automatické přehrávání video / audio souborů v okně náhledu</target>
+          <target state="translated">Automatické přehrávání audio/video souborů v okně náhledu</target>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -1838,7 +1837,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="translated">Vynutit ukládání miniatur do souborů v aplikacích Microsoftu 365/Office</target>
+          <target state="translated">Vynutit aby aplikace Microsoftu 365/Office ukládaly miniatury do souborů</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
@@ -1939,19 +1938,19 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShortcutClickOpt2" translate="yes" xml:space="preserve">
           <source>Prompt to create another window</source>
-          <target state="translated" state-qualifier="mt-suggestion">Výzva k vytvoření dalšího okna</target>
+          <target state="translated">Výzvu k vytvoření dalšího okna</target>
         </trans-unit>
         <trans-unit id="ShortcutClickQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should:</source>
-          <target state="translated">Pokud je již program spuštěn, poklepáním na zástupce se zobrazí:</target>
+          <target state="translated">Pokud je již program spuštěn, poklepání na zástupce zobrazí:</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowCreate" translate="yes" xml:space="preserve">
           <source>Prompt to create another window</source>
-          <target state="translated" state-qualifier="mt-suggestion">Výzva k vytvoření dalšího okna</target>
+          <target state="translated">Výzvu k vytvoření dalšího okna</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
-          <target state="translated">Pokud je již program spuštěn, poklepáním na zástupce se zobrazí:</target>
+          <target state="translated">Pokud je již program spuštěn, poklepání na zástupce zobrazí:</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -1990,7 +1989,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="translated" state-qualifier="mt-suggestion">Označení posledních souborů</target>
+          <target state="translated">Označení nedávných souborů</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
@@ -2010,15 +2009,15 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
-          <target state="translated">Zobrazit tlačítka pro rozložení souborů na panelu nástrojů</target>
+          <target state="translated">Zobrazit tlačítka režimů zobrazení na panelu nástrojů</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
-          <target state="translated">Zobrazit obrázek jako pozadí složky</target>
+          <target state="translated">Zobrazit obrázek na pozadí složky</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImageInfo" translate="yes" xml:space="preserve">
           <source>If a folder contains a file named folder.jpg, cover.jpg, background.jpg or front.jpg, it will be loaded as its background image. Useful for music albums and movie posters</source>
-          <target state="translated">Pokud složka obsahuje soubor s názvem folder.jpg, cover.jpg, background.jpg nebo front.jpg, načte se jako obrázek pozadí. Užitečné pro hudební alba a filmové plakáty</target>
+          <target state="translated">Pokud složka obsahuje soubor s názvem folder.jpg, cover.jpg, background.jpg nebo front.jpg, načte se a zobrazí na pozadí složky. Užitečné pro hudební alba a filmové plakáty</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Show folder sizes</source>
@@ -2026,7 +2025,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="translated">Používá Windows Shell k získání informace o velikosti složky. Není to 100% přesné, ale je to rychlé. Formát v jakém je velikost zobrazena nelze změnit. Řazení složek podle velikosti není možné. Vyšší zatížení procesoru</target>
+          <target state="translated">K získání informace o velikosti složky je využíván Windows Shell. Není to 100% přesné, ale je to rychlé. Formát, v jakém je velikost zobrazena, nelze změnit. Řazení složek podle velikosti není možné. Více zatěžuje procesor.</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -2038,7 +2037,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
-          <target state="translated" state-qualifier="mt-suggestion">Zobrazení skrytých souborů a složek</target>
+          <target state="translated">Zobrazovat skryté soubory a složky</target>
         </trans-unit>
         <trans-unit id="ShowHiddenShortcut" translate="yes" xml:space="preserve">
           <source>Global shortcut: Ctrl+H</source>
@@ -2047,7 +2046,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
           <source>Show History pane in sidebar</source>
-          <target state="translated" state-qualifier="mt-suggestion">Zobrazit podokno Historie na bočním panelu</target>
+          <target state="translated">Zobrazit podokno Historie na postranním panelu</target>
         </trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
@@ -2059,7 +2058,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
-          <target state="translated">Zobrazit skupinu Sít na bočním panelu</target>
+          <target state="translated">Zobrazit skupinu Sít na postranním panelu</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
@@ -2102,7 +2101,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
-          <target state="translated">Zobrazuje .tmp soubory, soubory Office, které začínají znakem ~$ a soubory s atributem dočasných souborů</target>
+          <target state="translated">Zobrazuje .tmp soubory, soubory Office začínající znakem ~$ a soubory s atributem dočasných souborů</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2145,26 +2144,26 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="SortFileDate" translate="yes" xml:space="preserve">
           <source>Date modified</source>
-          <target state="translated" state-qualifier="mt-suggestion">Datum změny</target>
+          <target state="translated">Data změny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileDateCreated" translate="yes" xml:space="preserve">
           <source>Date created</source>
-          <target state="translated" state-qualifier="mt-suggestion">Datum vytvoření</target>
+          <target state="translated">Data vytvoření</target>
         </trans-unit>
         <trans-unit id="SortFileName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="translated">Název</target>
+          <target state="translated">Názvu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileSize" translate="yes" xml:space="preserve">
           <source>Size</source>
-          <target state="translated" state-qualifier="mt-suggestion">Velikost</target>
+          <target state="translated">Velikosti</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFileType" translate="yes" xml:space="preserve">
           <source>Type</source>
-          <target state="translated" state-qualifier="mt-suggestion">Typ</target>
+          <target state="translated">Typu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
@@ -2173,7 +2172,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
           <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
-          <target state="translated">Je-li volba zapnuta: I když seřadíte soubory podle data, složky zůstanou seřazeny podle názvu</target>
+          <target state="translated">Je-li volba zapnuta, složky se budou řadit dle názvu i když soubory seřadíte podle data</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
@@ -2282,7 +2281,7 @@ Pokud je program nastaven jako výchozí správce souborů, měla by být toto n
         </trans-unit>
         <trans-unit id="UseAcrylicWindowInfo" translate="yes" xml:space="preserve">
           <source>Restart program to apply. Better performance when off</source>
-          <target state="translated">Restartujte program, aby se volba aktivovala. Program má vyšší výkon při vypnutém nastavení.</target>
+          <target state="translated">Aby se volba aktivovala, restartujte program. Program má lepší výkon při vypnutém nastavení.</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindowSoftwareRenderingWarning" translate="yes" xml:space="preserve">
           <source>Acrylic effect is not available with Software rendering as it would be too slow (Check Advanced tab)</source>
@@ -2349,7 +2348,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
-          <target state="translated">Vlastní získání miniatur ze souborů .pdf a .ai</target>
+          <target state="translated">Vlastní metoda získání miniatur ze souborů .pdf a .ai</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
@@ -2398,7 +2397,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where OneCommander is open</source>
-          <target state="translated">Přepne na virtuální plochu, kde je otevřený OneCommander</target>
+          <target state="translated">Zobrazí virtuální plochu, kde je otevřený OneCommander</target>
         </trans-unit>
         <trans-unit id="WinOOpt2" translate="yes" xml:space="preserve">
           <source>Bring OneCommander to the current Virtual Desktop</source>
@@ -2406,7 +2405,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
-          <target state="translated">Stisknutí Win + Alt + O z libovolného programu:</target>
+          <target state="translated">Stisknutí Win+Alt+O z libovolného programu:</target>
         </trans-unit>
       </group>
     </body>
@@ -2428,7 +2427,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="translated">dny</target>
+          <target state="translated">dní</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeDayShort" translate="yes" xml:space="preserve">
@@ -2826,7 +2825,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="EditFileViews" translate="yes" xml:space="preserve">
           <source>Edit File Views</source>
-          <target state="translated">Upravit rozložení souborů</target>
+          <target state="translated">Upravit rozložení zobrazení</target>
         </trans-unit>
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
@@ -3816,7 +3815,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="NewWindow_TT" translate="yes" xml:space="preserve">
           <source>Open new or saved window</source>
-          <target state="translated">Otevřít nové nebo uložené okna</target>
+          <target state="translated">Otevřít nová nebo uložená okna</target>
         </trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
@@ -4105,7 +4104,7 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
         </trans-unit>
         <trans-unit id="SortByDate_OldestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Oldest first)</source>
-          <target state="translated">Seřadí položky podle data změny (od nejstaršícj)</target>
+          <target state="translated">Seřadí položky podle data změny (od nejstarších)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
           <source>NAME</source>
