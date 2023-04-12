@@ -855,7 +855,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
-          <target state="translated">Zřídka potřebná nastavení. Neměňte, pokud to není nezbytně nutné!</target>
+          <target state="translated">Zřídka potřebná nastavení. Neměňte je, pokud to není nezbytně nutné!</target>
         </trans-unit>
         <trans-unit id="AlignCenter" translate="yes" xml:space="preserve">
           <source>Center</source>
@@ -1125,7 +1125,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
-          <target state="translated">Registrace výchozího správce souborů</target>
+          <target state="translated">Používat OneCommander jako výchozí správce souborů</target>
         </trans-unit>
         <trans-unit id="DefaultFileManagerUnregister" translate="yes" xml:space="preserve">
           <source>Unregister</source>
@@ -1173,7 +1173,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept>by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt; Pokud přesunete nebo odinstalujete OneCommander, budete muset nejprve<bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept>tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows, pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
+          <target state="translated">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt;Pokud přesunete nebo odinstalujete OneCommander, budete jej muset nejprve <bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept> tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
@@ -1191,7 +1191,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Důležité: Toto je &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1"&amp;gt;&amp;lt;b&amp;gt;experimental feature&amp;lt;ept id = "1"&amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> který upraví registr systému Windows tak, aby zcela nahradil klávesovou zkratku Windows File Explorer Win + E. Tato změna registru zajistí, aby se OneCommander otevřel při použití této klávesové zkratky, současně však nezakáže používání Průzkumníku. Jediným způsobem, jak toto nastavení vrátit zpět, je zrušit zaškrtnutí této možnosti z prostředí OneCommander nebo spustit příslušného skriptu registru ze složky OneCommander (odinstalování OC však tuto volbu automaticky nevrátí zpět). Chcete pokračovat?</target>
+          <target state="translated">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální vlastnost<ept id="1">&lt;/b&gt;</ept>, která upraví registr systému Windows tak, aby zcela nahradil klávesovou zkratku Win+E, která spouští Průzkumník. Tato změna zajistí, aby se OneCommander při použití této klávesové zkratky otevřel; současně však nezakáže používání Průzkumníku. Jediným způsobem, jak toto nastavení vrátit zpět, je zrušit zaškrtnutí této možnosti v prostředí OneCommander nebo spustit příslušný skript ze složky OneCommander (odinstalování OC však tuto volbu automaticky nevrátí zpět). Chcete pokračovat?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1263,11 +1263,11 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
           <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
-          <target state="translated">Položky kontextové nabídky s těmito slovesy nebo plným textem budou vyloučeny; seznam oddělený čárkami, bez mezery za čárkou; předvyplněná slovesa/příkazy nejsou programe OneCommander podporovány</target>
+          <target state="translated">Položky kontextové nabídky s těmito slovesy nebo plným textem budou vyloučeny; seznam oddělený čárkami, bez mezery za čárkou; předvyplněná (pre-populated verbs) slovesa/příkazy nejsou programem OneCommander podporovány</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
-          <target state="translated">Vyloučená klíčová slova sledovaných složek a souborů</target>
+          <target state="translated">Klíčová slova pro vyloučení ze sledovaných složek a souborů</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywordsInfo" translate="yes" xml:space="preserve">
           <source>Changes in files with full-paths containing these strings won't be reported; Comma separated</source>
@@ -1320,7 +1320,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
           <source>Middle</source>
-          <target state="translated">Zprostřed</target>
+          <target state="translated">Uprostřed</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
         </trans-unit>
         <trans-unit id="FileOperationsHandler" translate="yes" xml:space="preserve">
@@ -1346,11 +1346,11 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
-          <target state="translated">Oprava zpoždění stylusu (opravuje přerušení při poklepání na dotykových obrazovkách)</target>
+          <target state="translated">Oprava zpoždění stylusu (na dotykových obrazovkách znefunkční otevření poklepáním)</target>
         </trans-unit>
         <trans-unit id="FixStylusLagInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. If ON there will be no lag with graphic tablets, Wacom or Microsoft Surface stylus, but it will also disable double-tap (touchscreen) to open files (you would then need to use Single Click to Open folders option, and to open files by long-tap and Open from context menu). This is due to a bug in Microsoft WPF. Program restart required</source>
-          <target state="translated">Výchozí hodnota VYPNUTO. Pokud je možnost zapnuta, nebude docházet k žádnému zpoždění s grafickými tablety, Wacom nebo Microsoft Surface stylus, ale bude zakázáno otevírání souborů poklepáním na dotykových obrazovkách (potom musíte použít možnost Otevřít složky jedním kliknutím a otevírat soubory dlouhým klepnutím nebo volbou Otevřít z kontextového menu). Důvodem je chyba v Microsoft WPF. Je vyžadováno restartování programu</target>
+          <target state="translated">Výchozí hodnota VYPNUTO. Pokud je možnost zapnuta, nebude docházet ke zpoždění při práci se stylusem na grafických tabletech Wacom nebo Microsoft Surface. Bude však zakázáno otevírání souborů poklepáním na dotykových obrazovkách (potom musíte použít možnost Otevřít složky jedním kliknutím a otevírat soubory dlouhým klepnutím nebo volbou Otevřít z kontextové nabídky). Důvodem je chyba v Microsoft WPF. Je vyžadováno restartování programu.</target>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
@@ -1411,7 +1411,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="translated">Získávat miniatury souborů umístěných v cloudu</target>
+          <target state="translated">Vytvářet miniatury souborů umístěných v cloudu</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
@@ -1423,7 +1423,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="translated">Získání nedávné položek nabídky</target>
+          <target state="translated">Zobrazit položky z nedávno otevřené nabídky</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
@@ -1440,7 +1440,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="HeaderContextMenu" translate="yes" xml:space="preserve">
           <source>Context Menu</source>
-          <target state="translated" state-qualifier="mt-suggestion">Kontextové menu</target>
+          <target state="translated">Kontextová nabídka</target>
         </trans-unit>
         <trans-unit id="HeaderExperimental" translate="yes" xml:space="preserve">
           <source>Experimental</source>
@@ -1536,7 +1536,7 @@ Je nutné program restartovat.</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
-          <target state="translated">Shift + kliknutí pravým tlačítkem myši vždy otevře plnou kontextovou nabídku</target>
+          <target state="translated">Shift + kliknutí pravým tlačítkem myši vždy otevře úplnou kontextovou nabídku</target>
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
@@ -1599,7 +1599,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="translated">Omezení délky názvu souboru pro maximální kompatibilitu s jiným software (limit úplné cesty systému Windows je 260 znaků)</target>
+          <target state="translated">Omezení délky názvu souboru pro maximální kompatibilitu s dalším software (limit úplné cesty systému Windows je 260 znaků)</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
@@ -1648,15 +1648,15 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
-          <target state="translated">Po aktuální</target>
+          <target state="translated">Za aktuální kartou</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementAtEnd" translate="yes" xml:space="preserve">
           <source>At the end</source>
-          <target state="translated">Na konec</target>
+          <target state="translated">Jako poslední karta</target>
         </trans-unit>
         <trans-unit id="NewTabPlacementQuestion" translate="yes" xml:space="preserve">
           <source>Middle-click on a folder opens a new tab:</source>
-          <target state="translated">Kliknutím prostředním tlačítkem myši na složce se otevře nová karta:</target>
+          <target state="translated">Kliknutím prostředním tlačítkem na složce se nová karta umístí:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
@@ -1664,7 +1664,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="translated" state-qualifier="mt-suggestion">Kontextové menu souboru je třeba otevřít alespoň jednou</target>
+          <target state="translated">Kontextovou nabídku souboru je třeba otevřít alespoň jednou</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
         <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
@@ -1673,7 +1673,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
           <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="translated">Pokud umístěna jinde než C:\Users\YOURNAME\OneDrive; nastavení je potřebné pro zobrazení doplňkových ikon stavu synchronizace</target>
+          <target state="translated">Zadejte pokud je složka umístěna jinde než v C:\Users\YOURNAME\OneDrive; nastavení je potřebné pro zobrazení doplňkových ikon stavu synchronizace</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
@@ -1689,7 +1689,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="translated">Otevřít cestu z externího programu v:</target>
+          <target state="translated">Při otevření složky externím programem zobrazit cestu na:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
@@ -1721,7 +1721,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OpeningItemsSingleClickFiles" translate="yes" xml:space="preserve">
           <source>Single click also opens files</source>
-          <target state="translated">Jedno kliknutí také otevře soubor</target>
+          <target state="translated">Jedno kliknutí otevře také soubor</target>
         </trans-unit>
         <trans-unit id="OpeningItemsSingleClickFolders" translate="yes" xml:space="preserve">
           <source>Single click opens folders (Ctrl+click to select)</source>
@@ -1733,7 +1733,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
           <source>Open Recycle Bin in Explorer</source>
-          <target state="translated" state-qualifier="mt-suggestion">Otevřete koš v Průzkumníku</target>
+          <target state="translated">Otevřít koš v Průzkumníku</target>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
@@ -1768,7 +1768,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="translated">Stiskem kláves Ctrl + V se vytvoří soubor pojmenovaný dle aktuálního data, do kterého bude vložen text nebo obrázek uložený ve schránce</target>
+          <target state="translated">Stiskem kláves Ctrl+V se vytvoří soubor pojmenovaný dle aktuálního data, do kterého bude vložen text nebo obrázek uložený ve schránce</target>
         </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
@@ -1833,7 +1833,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="RegistryAddOpenInOC" translate="yes" xml:space="preserve">
           <source>Add "Open in OneCommander" context menu</source>
-          <target state="translated" state-qualifier="mt-suggestion">Přidat kontextové menu "Otevřít v OneCommanderu"</target>
+          <target state="translated">Přidat kontextovou nabídku "Otevřít v OneCommanderu"</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
@@ -1855,7 +1855,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
-          <target state="translated">Přejmenujte položky opětovným kliknutím aniž byste pohli s kurzorem</target>
+          <target state="translated">Druhé kliknutím (bez pohnutí myši) přejmenuje položku</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
@@ -1981,7 +1981,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowErrorReportDialog" translate="yes" xml:space="preserve">
           <source>Show error report dialog on crash</source>
-          <target state="translated">Při havárii programu umožni nahlášení chyby</target>
+          <target state="translated">Při havárii programu zobraz formulář s komentářem k chybě</target>
         </trans-unit>
         <trans-unit id="ShowErrorReportDialogInfo" translate="yes" xml:space="preserve">
           <source>On crash a window will show where you can write steps to reproduce the crash so it can be fixed in the next update</source>
@@ -2062,7 +2062,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="translated">Zablokovat okno, když je otevřeno kontextové menu prostředí Windows</target>
+          <target state="translated">Nereagovat na kliknutí, když je otevřeno kontextová nabídka</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
@@ -2212,7 +2212,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="TabsShowFullPath" translate="yes" xml:space="preserve">
           <source>Full path (C:\Windows\Sy...\Foldername)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Úplná cesta (C:\Windows\Sy...\Název_složky)</target>
+          <target state="translated">Úplnou cestu (C:\Windows\Sy...\Název_složky)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows</note>
         </trans-unit>
         <trans-unit id="TabsShowNameOnly" translate="yes" xml:space="preserve">
@@ -2273,7 +2273,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
-          <target state="translated">Použít akrylový efekt v menu</target>
+          <target state="translated">Použít akrylový efekt v nabídce</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -2305,7 +2305,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseHighResScrollingInfo" translate="yes" xml:space="preserve">
           <source>Default ON</source>
-          <target state="translated">Ve výchozím nastavení zapnuto</target>
+          <target state="translated">Ve výchozím nastavení ZAPNUTO</target>
         </trans-unit>
         <trans-unit id="UseLayoutRounding" translate="yes" xml:space="preserve">
           <source>Pixel-perfect layout</source>
@@ -2313,7 +2313,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
           <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
-          <target state="translated">Na obrazovkách, které nemají vysoké rozlišení, zobrazuje čáry ostřeji. Nutné pouze pro 100% měřítko displeje. Program je stabilnější, když je nastavení vypnuto, ale ikony a čáry nemusí být tak ostré. Ve výchozím nastavení zapnuto.</target>
+          <target state="translated">Na obrazovkách, které nemají vysoké rozlišení, zobrazuje čáry ostřeji. Nutné pouze pro 100% měřítko displeje. Program je stabilnější, když je nastavení vypnuto, ale ikony a čáry nemusí být tak ostré. Ve výchozím nastavení ZAPNUTO.</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
@@ -2340,7 +2340,7 @@ This should be enabled if program is set as a default file manager</source>
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="translated">Ve výchozím nastavení VYPNUTO. Nastavení je nutné pro přetahování souborů z OneCommander do jiných programů. 
-Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte proto možnost Zkombinovat soubory z kontextové nabídky.</target>
+Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volbou. Použijte proto možnost Zkombinovat soubory z kontextové nabídky.</target>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -2352,7 +2352,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
-          <target state="translated">Před zobrazením kontextové nabídky vyčká na všechny položky</target>
+          <target state="translated">Před zobrazením kontextové nabídky vyčká na načtení všech položek</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenuInfo" translate="yes" xml:space="preserve">
           <source>This will show slow items from SendTo submenu, but opening menu will take longer or cause freezing if send-to destinations are slow to respond, so it is off by default</source>
@@ -2372,7 +2372,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
-          <target state="translated">Hlasujte na UserVoice týmu aplikace Acrobat aby tento problém vyřešili</target>
+          <target state="translated">Hlasujte na UserVoice týmu aplikace Acrobat, aby tento problém vyřešili</target>
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
@@ -2384,7 +2384,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
-          <target state="translated" state-qualifier="mt-suggestion">Zaregistrujte klávesovou zkratku Win + E</target>
+          <target state="translated">Zaregistrujte klávesovou zkratku Win+E</target>
         </trans-unit>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
@@ -2559,25 +2559,25 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
           <source>Change files view</source>
           <target state="translated" state-qualifier="mt-suggestion">Změna zobrazení souborů</target>
         </trans-unit>
-        <trans-unit id="ClipboardCopy_S" translate="yes" xml:space="preserve">
+        <trans-unit id="ClipboardCopy_S" translate="no" xml:space="preserve">
           <source>CTRL + C</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + C</target>
+          <target state="final" state-qualifier="mt-suggestion">CTRL + C</target>
         </trans-unit>
         <trans-unit id="ClipboardCopy_TT" translate="yes" xml:space="preserve">
           <source>Copy to Clipboard</source>
           <target state="translated" state-qualifier="mt-suggestion">Kopírovat do schránky</target>
         </trans-unit>
-        <trans-unit id="ClipboardCut_S" translate="yes" xml:space="preserve">
+        <trans-unit id="ClipboardCut_S" translate="no" xml:space="preserve">
           <source>CTRL + X</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + X</target>
+          <target state="final" state-qualifier="mt-suggestion">CTRL + X</target>
         </trans-unit>
         <trans-unit id="ClipboardCut_TT" translate="yes" xml:space="preserve">
           <source>Cut to Clipboard</source>
           <target state="translated" state-qualifier="mt-suggestion">Vyjmout do schránky</target>
         </trans-unit>
-        <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
+        <trans-unit id="ClipboardPaste_S" translate="no" xml:space="preserve">
           <source>CTRL + V</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + V</target>
+          <target state="final" state-qualifier="mt-suggestion">CTRL + V</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
@@ -3541,7 +3541,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasImage" translate="yes" xml:space="preserve">
           <source>Detected Image on Clipboard. Press CTRL + V to Paste as a new PNG file</source>
-          <target state="translated">Ve schránce je uložený obrázek. Stisknutím kláves CTRL + V jej vložíte jako nový soubor PNG</target>
+          <target state="translated">Ve schránce je uložený obrázek. Stisknutím kláves CTRL+V jej vložíte jako nový soubor PNG</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasPath" translate="yes" xml:space="preserve">
           <source>New path on clipboard. Press Ctrl+Shift+T to open it in a new tab</source>
@@ -3549,7 +3549,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasText" translate="yes" xml:space="preserve">
           <source>Detected Text on Clipboard. Press CTRL + V to create a new TXT file with this text</source>
-          <target state="translated">Ve schránce ue uložený text. Stisknutím kláves CTRL + V vytvoříte nový soubor TXT s tímto textem</target>
+          <target state="translated">Ve schránce ue uložený text. Stisknutím kláves CTRL+V vytvoříte nový soubor TXT s tímto textem</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardImagePasted" translate="yes" xml:space="preserve">
           <source>Created an image file: {0} from Clipboard data</source>
@@ -3674,7 +3674,7 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
         </trans-unit>
         <trans-unit id="MSG_I_TemplateCreated" translate="yes" xml:space="preserve">
           <source>Template created. Press Ctrl+N anytime to clone it to current folder</source>
-          <target state="translated">Šablona vytvořena. Stisknutím kláves Ctrl + N ji kdykoli naklonujete do aktuální složky</target>
+          <target state="translated">Šablona vytvořena. Stisknutím kláves Ctrl+N ji kdykoli naklonujete do aktuální složky</target>
         </trans-unit>
         <trans-unit id="MSG_I_ThemeResourcesDownloaded" translate="yes" xml:space="preserve">
           <source>Theme resources downloaded</source>
@@ -3736,18 +3736,18 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
           <target state="translated" state-qualifier="mt-suggestion">Síť</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
-        <trans-unit id="NewFile_S" translate="yes" xml:space="preserve">
+        <trans-unit id="NewFile_S" translate="no" xml:space="preserve">
           <source>CTRL + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + N</target>
+          <target state="final" state-qualifier="mt-suggestion">CTRL + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
           <target state="translated" state-qualifier="mt-suggestion">Vytvořit nový soubor ze šablony</target>
         </trans-unit>
-        <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
+        <trans-unit id="NewFolder_S" translate="no" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">CTRL + SHIFT + N</target>
+          <target state="final" state-qualifier="mt-suggestion">CTRL + SHIFT + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewFolder_TT" translate="yes" xml:space="preserve">
@@ -3766,9 +3766,9 @@ Vkládání stránek Adobe Acrobat nefunguje ani s jednou volbou. Použijte prot
           <source>Creates new Favorite group and adds current folder</source>
           <target state="translated">Vytvoří novou skupinu Oblíbené a přidá do ní aktuální složku</target>
         </trans-unit>
-        <trans-unit id="NewNote_S" translate="yes" xml:space="preserve">
+        <trans-unit id="NewNote_S" translate="no" xml:space="preserve">
           <source>ALT + N</source>
-          <target state="translated" state-qualifier="mt-suggestion">ALT + N</target>
+          <target state="final" state-qualifier="mt-suggestion">ALT + N</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewNote_TT" translate="yes" xml:space="preserve">
@@ -3909,9 +3909,9 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
           <source>..and open</source>
           <target state="translated" state-qualifier="mt-suggestion">.. a otevřít</target>
         </trans-unit>
-        <trans-unit id="Popup_NewFolder_CreateAndOpen_S" translate="yes" xml:space="preserve">
+        <trans-unit id="Popup_NewFolder_CreateAndOpen_S" translate="no" xml:space="preserve">
           <source>Ctrl + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ctrl + Enter</target>
+          <target state="final" state-qualifier="mt-suggestion">Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and opens it</source>
@@ -3921,9 +3921,9 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
           <source>...from selection</source>
           <target state="translated" state-qualifier="mt-suggestion">... z výběru</target>
         </trans-unit>
-        <trans-unit id="Popup_NewFolder_CreateFromSelection_S" translate="yes" xml:space="preserve">
+        <trans-unit id="Popup_NewFolder_CreateFromSelection_S" translate="no" xml:space="preserve">
           <source>Shift + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Shift + Enter</target>
+          <target state="final" state-qualifier="mt-suggestion">Shift + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and moves selected items in it</source>
