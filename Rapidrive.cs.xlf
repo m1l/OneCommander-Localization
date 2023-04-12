@@ -198,11 +198,11 @@
         </trans-unit>
         <trans-unit id="RemovalOrder" translate="yes" xml:space="preserve">
           <source>Removal order</source>
-          <target state="translated">Pořadí odstraňování</target>
+          <target state="translated">Pořadí skrývání</target>
         </trans-unit>
         <trans-unit id="ResizeToVerifyRemovalOrder" translate="yes" xml:space="preserve">
           <source>Resize to verify Removal Order</source>
-          <target state="translated">Pro ověření pořadí odstraňování prvků změňte šířku zobrazení</target>
+          <target state="translated">Pro ověření pořadí skrývání prvků změňte šířku zobrazení</target>
         </trans-unit>
         <trans-unit id="Save" translate="yes" xml:space="preserve">
           <source>Save</source>
@@ -214,11 +214,11 @@
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="translated">Aby při aktualizaci program nedošlo ke změně nastavení výchozího zobrazení, uložte jej pod jiným názvem</target>
+          <target state="translated">Aby při aktualizaci programu nedošlo ke změně nastavení výchozího zobrazení, uložte jej pod jiným názvem</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
-          <target state="translated">Některé prvky jsou skryté vzhledem k dostupné šířce zobrazení (podle určeného pořadí odstraňování)</target>
+          <target state="translated">Některé prvky jsou vzhledem k dostupné šířce zobrazení skryté (podle určeného pořadí skrývání)</target>
         </trans-unit>
         <trans-unit id="TextAlign" translate="yes" xml:space="preserve">
           <source>Text align</source>
@@ -255,7 +255,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" datatype="resx">
         <trans-unit id="AlreadyPurchased" translate="yes" xml:space="preserve">
           <source>Already purchased?</source>
-          <target state="translated">Už jste licenci zakoupili?</target>
+          <target state="translated">Už jste zakoupili licenci?</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
           <source>Machine ID:</source>
@@ -915,7 +915,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
-          <target state="translated" state-qualifier="mt-suggestion">Barva</target>
+          <target state="translated">Barevně odlišit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox to enable using background color for file age</note>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
@@ -1578,7 +1578,7 @@ Je nutné program restartovat.</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
           <source>Override file background color</source>
-          <target state="translated">Nahradit barvu pozadí řádku se souborem</target>
+          <target state="translated">Obarvit pozadí řádku se souborem nebo složkou</target>
         </trans-unit>
         <trans-unit id="KeepRunningInBackground" translate="yes" xml:space="preserve">
           <source>Keep running in background (Close to System Tray)</source>
@@ -1989,11 +1989,11 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="translated">Označení nedávných souborů</target>
+          <target state="translated">Zvýraznění nedávných souborů</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="translated">Zobrazí u souborů z aktuálního nebo predešlého týdne barevný indikátor</target>
+          <target state="translated">U souborů z aktuálního nebo předešlého týdne zobrazí barevný indikátor</target>
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
           <source>Show file attributes and synchronization state icons</source>
@@ -2021,7 +2021,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Show folder sizes</source>
-          <target state="translated">Zobrazit velikost složky</target>
+          <target state="translated">Zobrazovat velikost složky</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
@@ -2321,7 +2321,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
           <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Použijte starou definici Megabyte (jako v Průzkumníku Windows)</target>
+          <target state="translated">Použít starou definici Megabyte (jako v Průzkumníku Windows)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
@@ -2771,7 +2771,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
-          <target state="translated">Tlačítko skriptů můžete znovu povolit Pokročilých nastavení</target>
+          <target state="translated">Tlačítko skriptů můžete znovu povolit Nastavení / Pokročilé</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
@@ -3140,7 +3140,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
-          <target state="translated" state-qualifier="mt-suggestion">Obnovte vše</target>
+          <target state="translated">Obnovit vše</target>
         </trans-unit>
         <trans-unit id="Menu_RemoveHistory" translate="yes" xml:space="preserve">
           <source>Remove History pane</source>
@@ -3725,7 +3725,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="NavigateUp_S" translate="yes" xml:space="preserve">
           <source>Backspace</source>
-          <target state="translated">Mezerník</target>
+          <target state="translated">Backspace</target>
         </trans-unit>
         <trans-unit id="NavigateUp_TT" translate="yes" xml:space="preserve">
           <source>Open parent folder</source>
@@ -3791,7 +3791,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="translated">Pojmenujte nové okno a uložte jeho rozložení, pozici a karty pro okamžik, kdy jej budete potřebovat</target>
+          <target state="translated">Pojmenuje nové okno a uloží jeho rozložení, pozici a karty</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="NewWindowTitle" translate="yes" xml:space="preserve">
@@ -3827,11 +3827,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
-          <target state="translated">Sbalit</target>
+          <target state="translated">Skryjte postranní panel</target>
         </trans-unit>
         <trans-unit id="OverlayExpanding" translate="yes" xml:space="preserve">
           <source>Expand more to show pane</source>
-          <target state="translated">Rozbalit více pro zobrazení panelu</target>
+          <target state="translated">Pro zobrazení panelu zvětšete okno</target>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
@@ -4023,7 +4023,7 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="translated">Aktualizujte obsah (tento typ složky nelze automaticky aktualizovat)</target>
+          <target state="translated">Aktualizuj obsah (tento typ složky nelze aktualizovat automatizovaně)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="Rename_S" translate="no" xml:space="preserve">
@@ -4100,11 +4100,11 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
-          <target state="translated">Seřadí položky podle data změny (od nejnovějších)</target>
+          <target state="translated">Seřadit podle data změny (od nejnovějších)</target>
         </trans-unit>
         <trans-unit id="SortByDate_OldestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Oldest first)</source>
-          <target state="translated">Seřadí položky podle data změny (od nejstarších)</target>
+          <target state="translated">Seřadit podle data změny (od nejstarších)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
           <source>NAME</source>
@@ -4112,11 +4112,11 @@ Některé programy nebudou moci otevírat nebo ukládat soubory z této složky<
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle názvu (A-Z)</target>
+          <target state="translated">Seřadit podle názvu (A-Z)</target>
         </trans-unit>
         <trans-unit id="SortByName_Descending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (Z-A)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle názvu (Z-A)</target>
+          <target state="translated">Seřadit podle názvu (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
           <source>SIZE</source>
@@ -4142,11 +4142,11 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle typu (A-Z)</target>
+          <target state="translated">Seřadit podle typu (A-Z)</target>
         </trans-unit>
         <trans-unit id="SortByType_Descending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (Z-A)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Seřadí položky podle typu (Z-A)</target>
+          <target state="translated">Seřadit podle typu (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
           <source>Keep folders above files (On/Off)</source>
@@ -4241,7 +4241,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
-          <target state="translated">Získávám položek koše...</target>
+          <target state="translated">Načítám položky koše...</target>
         </trans-unit>
         <trans-unit id="Watermark_InvalidFolderCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains characters unsupported by Windows</source>
