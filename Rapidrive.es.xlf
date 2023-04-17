@@ -1117,8 +1117,8 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez mueve o elimina OneCommander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>función experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos predeterminado y controlador de carpetas (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Deberá <bpt id="3">&lt;b&gt;</bpt>anular su registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez se muda o elimina OneCommander ¡(desinstalarlo no revertirá los cambios)!&lt;br/&gt;
+Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -2399,15 +2399,52 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="translated">Pegar texto e imágenes como archivos nuevos</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="translated">Presionando Ctrl+V creará Texto/Imagen con contenido del Portapapeles como archivo con la fecha actual</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Treat files starting with dot as hidden</source>
-          <target state="new">Treat files starting with dot as hidden</target>
+          <target state="translated">Tratar los archivos que comienzan con un punto como ocultos</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
+          <source>Use local thumbnails database (faster)</source>
+          <target state="new">Use local thumbnails database (faster)</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large</source>
+          <target state="new">Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
+          <source>Rewind seconds</source>
+          <target state="new">Rewind seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
+          <source>Forward seconds</source>
+          <target state="new">Forward seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
+          <source>Percentage of total length</source>
+          <target state="new">Percentage of total length</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
+          <source>Specific number of seconds</source>
+          <target state="new">Specific number of seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
+          <source>Left and Right arrow control for media playback</source>
+          <target state="new">Left and Right arrow control for media playback</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
+          <source>Percent jump</source>
+          <target state="new">Percent jump</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
+          <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
+          <target state="new">Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</target>
         </trans-unit>
       </group>
     </body>
@@ -4134,7 +4171,7 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez&lt;br/&gt;(esto se puede cambiar en Configuración ❯ Ventana)</target>
+          <target state="translated">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez &lt;br/&gt;(esto se puede cambiar en Configuración ❯ Ventana)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
