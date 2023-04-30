@@ -1178,7 +1178,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="translated">Byl nalezen existující soubor nastavení z verze programu stažené z Microsoft Store.&lt;br/&gt;Chcete importovat všechna nastavení do této verze?</target>
+          <target state="translated">Byl nalezen existující soubor nastavení z verze programu stažené z Microsoft Store. Chcete importovat všechna nastavení do této verze?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
@@ -3230,11 +3230,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Menu_SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Size (Largest first)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Velikost (od největšího)</target>
+          <target state="translated">Velikost (od největších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Size (Smallest first)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Velikost (od nejmenšího)</target>
+          <target state="translated">Velikost (od nejmenších)</target>
         </trans-unit>
         <trans-unit id="Menu_SortByType_Ascending" translate="yes" xml:space="preserve">
           <source>Type (A-Z)</source>
