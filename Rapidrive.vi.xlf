@@ -2350,8 +2350,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng cơ sở dữ liệu hình thu nhỏ cục bộ (nhanh hơn)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
-          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large</source>
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tạo tệp cơ sở dữ liệu trong thư mục Cài đặt thay vì sử dụng bộ đệm ẩn hình thu nhỏ Windows để lưu trữ hình ảnh xem trước tệp. Tệp sẽ lớn</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
@@ -2445,6 +2446,19 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing Win+Alt+O from any program should:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấn Win + Alt + O từ bất kỳ chương trình nào nên:</target>
+        </trans-unit>
+        <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
+          <source>Clear local thubmnail database</source>
+          <target state="new">Clear local thubmnail database</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
+          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
+        </trans-unit>
+        <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
+          <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
+          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
         </trans-unit>
       </group>
     </body>
@@ -4324,6 +4338,23 @@ Không thể sắp xếp thư mục</target>
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiện tại WSL không hỗ trợ theo dõi các thay đổi bằng cách sử dụng ReadDirectoryChangesW. Đang chờ bản sửa lỗi của Microsoft. Làm mới thủ công</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
+          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
+          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+        </trans-unit>
+        <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
+          <source>Get all thumbnails</source>
+          <target state="new">Get all thumbnails</target>
+        </trans-unit>
+        <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
+          <source>Regenerate thumbnail</source>
+          <target state="new">Regenerate thumbnail</target>
+        </trans-unit>
+        <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="new">Remove</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
       </group>
     </body>
