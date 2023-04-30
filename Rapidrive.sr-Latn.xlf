@@ -1909,6 +1909,23 @@ Neki programi neće moći da otvore ovu datoteku</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Godina</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
+        <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
+          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
+          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+        </trans-unit>
+        <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
+          <source>Get all thumbnails</source>
+          <target state="new">Get all thumbnails</target>
+        </trans-unit>
+        <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
+          <source>Regenerate thumbnail</source>
+          <target state="new">Regenerate thumbnail</target>
+        </trans-unit>
+        <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="new">Remove</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3521,6 +3538,56 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Treat files starting with dot as hidden</source>
           <target state="new">Treat files starting with dot as hidden</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
+          <source>Use local thumbnails database (faster)</source>
+          <target state="new">Use local thumbnails database (faster)</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
+          <target state="new">Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
+          <source>Rewind seconds</source>
+          <target state="new">Rewind seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
+          <source>Forward seconds</source>
+          <target state="new">Forward seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
+          <source>Percentage of total length</source>
+          <target state="new">Percentage of total length</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
+          <source>Specific number of seconds</source>
+          <target state="new">Specific number of seconds</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
+          <source>Left and Right arrow control for media playback</source>
+          <target state="new">Left and Right arrow control for media playback</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
+          <source>Percent jump</source>
+          <target state="new">Percent jump</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
+          <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
+          <target state="new">Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</target>
+        </trans-unit>
+        <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
+          <source>Clear local thubmnail database</source>
+          <target state="new">Clear local thubmnail database</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
+          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
+        </trans-unit>
+        <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
+          <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
+          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
         </trans-unit>
       </group>
     </body>

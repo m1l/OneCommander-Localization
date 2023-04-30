@@ -41,7 +41,7 @@
         </trans-unit>
         <trans-unit id="NonCommercialUse" translate="yes" xml:space="preserve">
           <source>Non-commercial use</source>
-          <target state="translated" state-qualifier="mt-suggestion">Uso no comercial</target>
+          <target state="translated">Uso no comercial</target>
         </trans-unit>
         <trans-unit id="OpensWebBrowser" translate="yes" xml:space="preserve">
           <source>Opens web browser</source>
@@ -106,7 +106,7 @@
         </trans-unit>
         <trans-unit id="WindowAbout" translate="yes" xml:space="preserve">
           <source>About / Help</source>
-          <target state="translated">Acerca de / Ayuda</target>
+          <target state="translated">Acerca de y Ayuda</target>
           <note from="MultilingualBuild" annotates="source" priority="2">About window title</note>
         </trans-unit>
         <trans-unit id="LicensedTo" translate="yes" xml:space="preserve">
@@ -214,7 +214,7 @@
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="translated">Guardar como un nombre de vista personalizado para evitar restaurar las vistas predeterminadas cuando se actualice el programa</target>
+          <target state="translated">Dirección de correo electrónico copiada al Portapapeles</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
@@ -1099,7 +1099,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
-          <target state="translated">Conector iniciado. Para probar, cierre esta ventana de configuración, abra el Bloc de notas y, a continuación, haga clic en &gt;Abrir para verlo en acción</target>
+          <target state="translated">Conector iniciado. Para probar, cierre esta ventana de configuración, abra el Bloc de notas y, a continuación, haga clic en Archivo-&gt;Abrir para verlo en acción</target>
         </trans-unit>
         <trans-unit id="DLG_DialogConnectorDownload" translate="yes" xml:space="preserve">
           <source>This will download OneCommanderConnector.exe from OneCommander.com website. Since this utility starts with an invisible window and monitors when an Open or Save dialog window opens, an antivirus software may complain that it is suspicious. It is safe but if you have concerns please contact support.</source>
@@ -1117,8 +1117,8 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos y el controlador de carpetas predeterminados (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Necesitarás <bpt id="3">&lt;b&gt;</bpt>anular el registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez mueve o elimina OneCommander (la desinstalación no revertirá los cambios)!&lt;br/&gt;Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>función experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos predeterminado y controlador de carpetas (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Deberá <bpt id="3">&lt;b&gt;</bpt>anular su registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez se muda o elimina OneCommander ¡(desinstalarlo no revertirá los cambios)!&lt;br/&gt;
+Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1322,7 +1322,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="HeaderSorting" translate="yes" xml:space="preserve">
           <source>Sorting</source>
-          <target state="translated" state-qualifier="mt-suggestion">Ordenación</target>
+          <target state="translated">Clasificación</target>
         </trans-unit>
         <trans-unit id="HeaderTheme" translate="yes" xml:space="preserve">
           <source>Theme</source>
@@ -1399,7 +1399,7 @@ Se requiere reiniciar el programa</target>
         </trans-unit>
         <trans-unit id="InheritFilesViewInfo" translate="yes" xml:space="preserve">
           <source>Files view and sorting will be inherited from parent folder folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">La vista y la ordenación de archivos se heredarán de la carpeta principal</target>
+          <target state="translated">La vista y la clasificación de los archivos se heredarán de la carpeta principal</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
@@ -1752,7 +1752,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="translated">Usar el Shell de Windows para obtener el tamaño de carpeta. No es 100% preciso, pero es rápido. El formato de tamaño no se puede cambiar. No es posible ordenar las carpetas por tamaño. Mayor uso de CPU</target>
+          <target state="translated">Utiliza Windows Shell para obtener el tamaño de la carpeta. No es 100% preciso, pero es rápido. El formato de tamaño no se puede cambiar. No es posible ordenar las carpetas por tamaño. Mayor uso de la CPU</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -1865,7 +1865,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
-          <target state="translated" state-qualifier="mt-suggestion">Esta configuración no afectará a las carpetas que ya tienen guardada la ordenación</target>
+          <target state="translated">Esta configuración no afectará a las carpetas que ya tienen guardada la ordenación</target>
         </trans-unit>
         <trans-unit id="SortItemsBy" translate="yes" xml:space="preserve">
           <source>Sort items by</source>
@@ -2387,7 +2387,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
-          <target state="translated">Antigüedad del archivo / fecha relativa</target>
+          <target state="translated">Antigüedad del archivo/fecha relativa</target>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
@@ -2399,15 +2399,66 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="translated">Pegar texto e imágenes como archivos nuevos</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="translated">Presionando Ctrl+V creará Texto/Imagen con contenido del Portapapeles como archivo con la fecha actual</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Treat files starting with dot as hidden</source>
-          <target state="new">Treat files starting with dot as hidden</target>
+          <target state="translated">Tratar los archivos que comienzan con un punto como ocultos</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
+          <source>Use local thumbnails database (faster)</source>
+          <target state="translated">Usar la base de datos de miniaturas local (más rápido)</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
+          <target state="needs-review-translation">Crea un archivo de base de datos en la carpeta Configuración en lugar de usar la caché de miniaturas de Windows para almacenar imágenes de vista previa de archivos. El archivo será grande</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
+          <source>Rewind seconds</source>
+          <target state="translated">Retroceder segundos</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
+          <source>Forward seconds</source>
+          <target state="translated">Avanzar segundos</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
+          <source>Percentage of total length</source>
+          <target state="translated">Porcentaje de longitud total</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
+          <source>Specific number of seconds</source>
+          <target state="translated">Número específico de segundos</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
+          <source>Left and Right arrow control for media playback</source>
+          <target state="translated">Control de flecha izquierda y derecha para la reproducción de medios</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
+          <source>Percent jump</source>
+          <target state="translated">Salto porcentual</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
+          <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
+          <target state="translated">Permite obtener una vista previa de todos los medios en el mismo número de saltos, independientemente de la duración. Predeterminado 12% (8 saltos)</target>
+        </trans-unit>
+        <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
+          <source>Clear local thubmnail database</source>
+          <target state="new">Clear local thubmnail database</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
+          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
+        </trans-unit>
+        <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
+          <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
+          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
         </trans-unit>
       </group>
     </body>
@@ -4134,7 +4185,7 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez&lt;br/&gt;(esto se puede cambiar en Configuración ❯ Ventana)</target>
+          <target state="translated">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez &lt;br/&gt;(esto se puede cambiar en Configuración ❯ Ventana)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
@@ -4287,6 +4338,23 @@ Algunos programas no podrán abrir este archivo.</target>
           <source>years</source>
           <target state="translated">años</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
+          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
+          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+        </trans-unit>
+        <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
+          <source>Get all thumbnails</source>
+          <target state="new">Get all thumbnails</target>
+        </trans-unit>
+        <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
+          <source>Regenerate thumbnail</source>
+          <target state="new">Regenerate thumbnail</target>
+        </trans-unit>
+        <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="new">Remove</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
       </group>
     </body>

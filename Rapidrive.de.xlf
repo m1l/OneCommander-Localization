@@ -752,8 +752,8 @@ Dies sollte aktiviert werden, wenn das Programm als Standard-Dateimanager einges
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
-          <target state="needs-review-translation">Voreinstellung AUS. Einschalten, wenn Programme, die früher Ablageoperationen von OC akzeptiert haben, keine Dateien mehr annehmen. Informieren Sie uns bitte, wenn ein Programm Probleme mit Drop-Operationen hat. Das Einfügen von Seiten in Acrobat funktioniert bekanntermaßen mit beiden nicht.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Voreinstellung AUS. Dies ist für das Ziehen aus OneCommander in andere Programme. 
+Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Sie stattdessen "Dateien kombinieren" aus dem Kontextmenü.</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
@@ -799,8 +799,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die Ihre Registry bearbeitet, um OneCommander zum Standard-Dateimanager und Ordnerhandler zu machen (Öffnen/Speichern-Dialoge können nicht ersetzt werden). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt> Sie müssen <bpt id="3">&lt;b&gt;</bpt>die Registrierung aufheben<ept id="3">&lt;/b&gt;</ept>, indem Sie diese Option deaktivieren, wenn Sie OneCommander jemals verschieben oder entfernen (eine Deinstallation macht Änderungen nicht rückgängig)! &lt;br/&gt;Dadurch wird auch die Ausführung im Hintergrund ermöglicht, um das Öffnen von Fenstern zu beschleunigen. &lt;br/&gt;Sind Sie sich absolut sicher, dass Sie fortfahren wollen, und wissen Sie, wie Sie die Registrierung selbst wiederherstellen können, falls etwas fehlschlägt (kein Support im Falle einer Wiederherstellung)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Wichtig: Dies ist eine <bpt id="1">&lt;b&gt;</bpt>experimentelle Funktion<ept id="1">&lt;/b&gt;</ept>, die Ihre Registrierung bearbeitet, um OneCommander zum Standard-Dateimanager und Ordnerhandler zu machen (Öffnen/Speichern-Dialoge können nicht ersetzt werden). <bpt id="2">&lt;b&gt;</bpt> Dadurch wird der Windows Datei-Explorer unbrauchbar<ept id="2">&lt;/b&gt;</ept> - selbst beim Anklicken eines Ordners im Datei-Explorer wird der OneCommander geöffnet. <bpt id="3">&lt;b&gt;</bpt> Sie müssen die Registrierung aufheben<ept id="3">&lt;/b&gt;</ept>, indem Sie diese Option deaktivieren, wenn Sie OneCommander jemals verschieben oder entfernen (eine Deinstallation macht die Änderungen nicht rückgängig)! Dadurch wird auch die Ausführung im Hintergrund für ein schnelleres Öffnen von Fenstern ermöglicht. Sind Sie absolut sicher, dass Sie fortfahren wollen, und wissen Sie, wie Sie die Registrierung selbst wiederherstellen können, falls etwas schiefgeht (kein Support im Falle einer Wiederherstellung)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1578,15 +1577,65 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="translated">Text und Bilder als neue Dateien einfügen</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="translated">Drücken von Strg+V erstellt Text/Bild mit Inhalt der Zwischenablage als Datei mit aktuellem Datum</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Treat files starting with dot as hidden</source>
-          <target state="new">Treat files starting with dot as hidden</target>
+          <target state="translated">Dateien, die mit einem Punkt beginnen, als versteckt behandeln</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
+          <source>Use local thumbnails database (faster)</source>
+          <target state="translated">Lokale Thumbnails-Datenbank verwenden (schneller)</target>
+        </trans-unit>
+        <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
+          <target state="translated">Erstellt die Datenbankdatei im Einstellungsverzeichnis, anstatt den Thumbnail-Cache von Windows zum Speichern der Vorschaubilder zu verwenden. Die Datei wird groß werden. Überschreibt die Standard-Ordner-Miniaturansichten</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
+          <source>Rewind seconds</source>
+          <target state="translated">Sekunden rückspulen</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
+          <source>Forward seconds</source>
+          <target state="translated">Sekunden vorspulen</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
+          <source>Percentage of total length</source>
+          <target state="translated">Prozentsatz der Gesamtlänge</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
+          <source>Specific number of seconds</source>
+          <target state="translated">Bestimmte Anzahl von Sekunden</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
+          <source>Left and Right arrow control for media playback</source>
+          <target state="translated">Links- und Rechtspfeilsteuerung für die Medienwiedergabe</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
+          <source>Percent jump</source>
+          <target state="translated">Prozentualer Sprung</target>
+        </trans-unit>
+        <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
+          <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
+          <target state="translated">Ermöglicht die Vorschau aller Medien in der gleichen Anzahl von Sprüngen, unabhängig von der Länge. Standardwert 12 % (8 Sprünge)</target>
+        </trans-unit>
+        <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
+          <source>Clear local thubmnail database</source>
+          <target state="new">Clear local thubmnail database</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
+          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
+        </trans-unit>
+        <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
+          <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
+          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
         </trans-unit>
       </group>
     </body>
@@ -3466,6 +3515,23 @@ Einige Programme können diese Datei nicht öffnen</target>
           <source>years</source>
           <target state="translated">Jahre</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
+          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
+          <target state="translated">Extrahieren der Miniaturansichten aller Dateien darin??&lt;br/&gt;Dies kann einige Stunden dauern, daher ist es am besten, dies über Nacht zu tun..</target>
+        </trans-unit>
+        <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
+          <source>Get all thumbnails</source>
+          <target state="translated">Alle Vorschaubilder abrufen</target>
+        </trans-unit>
+        <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
+          <source>Regenerate thumbnail</source>
+          <target state="translated">Vorschaubild neu generieren</target>
+        </trans-unit>
+        <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="new">Remove</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
       </group>
     </body>
