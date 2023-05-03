@@ -1173,7 +1173,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt;Pokud přesunete nebo odinstalujete OneCommander, budete jej muset nejprve <bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept> tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
+          <target state="final">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt;Pokud přesunete nebo odinstalujete OneCommander, budete jej muset nejprve <bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept> tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
@@ -2409,53 +2409,53 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
           <source>Percent jump</source>
-          <target state="needs-review-translation">Skok v procentech</target>
+          <target state="translated">Skok v procentech</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="needs-review-translation">Umožňuje zobrazit náhled všech médií ve stejném počtu skoků bez ohledu na jejich délku. Výchozí hodnota 12% (8 skoků)</target>
+          <target state="translated">Umožňuje zobrazit náhled všech médií ve stejném počtu skoků bez ohledu na jejich délku. Výchozí hodnota 12% (8 skoků)</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
           <source>Rewind seconds</source>
-          <target state="needs-review-translation">Počet sekund zpět</target>
+          <target state="translated">Počet sekund zpět</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
           <source>Forward seconds</source>
-          <target state="needs-review-translation">Počet sekund vpřed</target>
+          <target state="translated">Počet sekund vpřed</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
           <source>Percentage of total length</source>
-          <target state="needs-review-translation">Procento celkové délky</target>
+          <target state="translated">Procento celkové délky</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
           <source>Specific number of seconds</source>
-          <target state="needs-review-translation">Konkrétní počet sekund</target>
+          <target state="translated">Konkrétní počet sekund</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
           <source>Left and Right arrow control for media playback</source>
-          <target state="needs-review-translation">Chování šipek vlevo a vpravo při přehrávání médií</target>
+          <target state="translated">Chování šipek vlevo a vpravo při přehrávání médií</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="needs-review-translation">Použití lokální databáze miniatur (rychlejší)</target>
+          <target state="translated">Použití lokální databáze miniatur (rychlejší)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
-          <target state="needs-review-translation">Databáze pro ukládání obrázků náhledů souborů bude vytvořena ve složce s nastavením (Settings) namísto použití mezipaměti miniatur systému Windows. Soubor bude velký. Dojde k přepsání výchozích miniatur složek.</target>
+          <target state="translated">Databáze pro ukládání obrázků náhledů souborů bude vytvořena ve složce s nastavením (Settings) namísto použití mezipaměti miniatur systému Windows. Soubor bude velký. Dojde k přepsání výchozích miniatur složek.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thubmnail database</source>
-          <target state="needs-review-translation">Vymazat místní databázi miniatur</target>
+          <target state="translated">Vymazat místní databázi miniatur</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="needs-review-translation">Při prvním otevření každé složky se musí miniatury znovu vytvořit. Než k tomu dojde, bude zobrazování miniatur pomalejší.&lt;br/&gt;Jste si jisti?</target>
+          <target state="translated">Při prvním otevření každé složky se musí miniatury znovu vytvořit. Než k tomu dojde, bude zobrazování miniatur pomalejší.&lt;br/&gt;Jste si jisti?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="needs-review-translation">Místní databáze miniatur obsahuje {0} miniatur o celkové velikosti {1} MB.</target>
+          <target state="translated">Místní databáze miniatur obsahuje {0} miniatur o celkové velikosti {1} MB.</target>
         </trans-unit>
       </group>
     </body>
@@ -4338,7 +4338,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="needs-review-translation">Přejete si zde znovu vytvořit miniatury všech souborů?&lt;br/&gt;Může to trvat velmi dlouho, takže je nejlepší udělat to přes noc.</target>
+          <target state="needs-review-translation">Přejete si vytvořit miniatury všech zde uložených souborů?&lt;br/&gt;Může to trvat velmi dlouho, takže je nejlepší udělat to přes noc.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
@@ -4346,11 +4346,11 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
-          <target state="needs-review-translation">Vytvořit znovu miniaturu</target>
+          <target state="translated">Obnovit miniaturu</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="new">Remove</target>
+          <target state="translated">Odstranit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
       </group>
