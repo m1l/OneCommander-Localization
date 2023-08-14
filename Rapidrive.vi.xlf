@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" datatype="resx">
         <trans-unit id="CreditsAndContributors" translate="yes" xml:space="preserve">
           <source>Credits and contributors</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tín dụng và cộng tác viên</target>
+          <target state="translated">Người tài trợ và hỗ trợ</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
@@ -16,7 +16,7 @@
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bạn có chắc chắn muốn hủy kích hoạt giấy phép không? Bạn sẽ cần nhập khóa Pro License để kích hoạt lại</target>
+          <target state="translated">Bạn có chắc chắn muốn hủy kích hoạt giấy phép không? Bạn sẽ cần nhập key Pro License để kích hoạt lại</target>
         </trans-unit>
         <trans-unit id="Email" translate="yes" xml:space="preserve">
           <source>Email</source>
@@ -24,7 +24,7 @@
         </trans-unit>
         <trans-unit id="EmailCopiedToClipboard" translate="yes" xml:space="preserve">
           <source>Email address copied to clipboard</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Địa chỉ email được sao chép vào khay nhớ tạm</target>
+          <target state="translated">Địa chỉ email đã được sao chép vào khay nhớ tạm</target>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
@@ -32,7 +32,7 @@
         </trans-unit>
         <trans-unit id="ExeLocation" translate="yes" xml:space="preserve">
           <source>Exe location</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vị trí Exe</target>
+          <target state="translated">Thư mục file chạy</target>
         </trans-unit>
         <trans-unit id="Forum" translate="yes" xml:space="preserve">
           <source>Forum</source>
@@ -45,7 +45,7 @@
         </trans-unit>
         <trans-unit id="KickstarterBackers" translate="yes" xml:space="preserve">
           <source>The first version of this program has been funded thanks to these 406 Kickstarter backers (names shown as in the Kickstarter profile):</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phiên bản đầu tiên của chương trình này đã được tài trợ nhờ 406 người ủng hộ Kickstarter này (tên được hiển thị như trong hồ sơ Kickstarter):</target>
+          <target state="translated">Phiên bản đầu tiên của chương trình này đã được tài trợ nhờ 406 người ủng hộ từ Kickstarter (tên được hiển thị như trong hồ sơ Kickstarter):</target>
         </trans-unit>
         <trans-unit id="LicenseAgreement" translate="yes" xml:space="preserve">
           <source>License Agreement</source>
@@ -70,7 +70,7 @@
         </trans-unit>
         <trans-unit id="RateOnMicrosoftStore" translate="yes" xml:space="preserve">
           <source>Rate on Microsoft Store</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giá trên Microsoft Store</target>
+          <target state="translated">Đánh giá trên Microsoft Store</target>
         </trans-unit>
         <trans-unit id="ReadUserManual" translate="yes" xml:space="preserve">
           <source>Before contacting support, please read the user manual</source>
@@ -83,7 +83,7 @@
         </trans-unit>
         <trans-unit id="SettingsLocation" translate="yes" xml:space="preserve">
           <source>Settings location</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vị trí cài đặt</target>
+          <target state="translated">Thư mục cài đặt</target>
         </trans-unit>
         <trans-unit id="Shortcuts" translate="yes" xml:space="preserve">
           <source>Shortcuts</source>
@@ -91,7 +91,7 @@
         </trans-unit>
         <trans-unit id="TabAbout" translate="yes" xml:space="preserve">
           <source>About</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Về</target>
+          <target state="translated">Giới thiệu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">AboutWindow Tab</note>
         </trans-unit>
         <trans-unit id="TabBackers" translate="yes" xml:space="preserve">
@@ -119,7 +119,7 @@
         </trans-unit>
         <trans-unit id="Website" translate="yes" xml:space="preserve">
           <source>Website</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trang mạng</target>
+          <target state="translated">Website</target>
         </trans-unit>
         <trans-unit id="WindowAbout" translate="yes" xml:space="preserve">
           <source>About / Help</source>
@@ -145,7 +145,7 @@
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nếu bạn đang sử dụng Hình thu nhỏ, hãy làm cho nó có cùng chiều cao</target>
+          <target state="translated">Nếu bạn đang sử dụng Hình thu nhỏ, hãy để cùng chiều cao</target>
         </trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
@@ -153,19 +153,19 @@
         </trans-unit>
         <trans-unit id="Element" translate="yes" xml:space="preserve">
           <source>Element</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Yếu tố</target>
+          <target state="translated">Phần tử</target>
         </trans-unit>
         <trans-unit id="ElementAlign" translate="yes" xml:space="preserve">
           <source>Element align</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Căn chỉnh phần tử</target>
+          <target state="translated">Căn chỉnh phần tử</target>
         </trans-unit>
         <trans-unit id="FitText" translate="yes" xml:space="preserve">
           <source>Fit text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vừa với văn bản</target>
+          <target state="translated">Căn vừa văn bản</target>
         </trans-unit>
         <trans-unit id="FVDWindowTitle" translate="yes" xml:space="preserve">
           <source>File view designer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trình thiết kế dạng xem tệp</target>
+          <target state="translated">Trình thiết kế chế độ xem tệp</target>
         </trans-unit>
         <trans-unit id="Height" translate="yes" xml:space="preserve">
           <source>Height</source>
@@ -177,7 +177,7 @@
         </trans-unit>
         <trans-unit id="ItemHeight" translate="yes" xml:space="preserve">
           <source>Item height</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chiều cao mặt hàng</target>
+          <target state="translated">Chiều cao mục</target>
         </trans-unit>
         <trans-unit id="Load" translate="yes" xml:space="preserve">
           <source>Load</source>
@@ -189,12 +189,12 @@
         </trans-unit>
         <trans-unit id="On" translate="yes" xml:space="preserve">
           <source>On</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trên</target>
+          <target state="translated">Bật</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in state On/Off</note>
         </trans-unit>
         <trans-unit id="Padding" translate="yes" xml:space="preserve">
           <source>Padding</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Padding</target>
+          <target state="translated">Giãn dòng</target>
         </trans-unit>
         <trans-unit id="RemovalOrder" translate="yes" xml:space="preserve">
           <source>Removal order</source>
@@ -202,11 +202,11 @@
         </trans-unit>
         <trans-unit id="ResizeToVerifyRemovalOrder" translate="yes" xml:space="preserve">
           <source>Resize to verify Removal Order</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thay đổi kích thước để xác minh Lệnh loại bỏ</target>
+          <target state="translated">Thay đổi kích thước để xác minh Lệnh gỡ bỏ</target>
         </trans-unit>
         <trans-unit id="Save" translate="yes" xml:space="preserve">
           <source>Save</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cứu</target>
+          <target state="translated">Lưu</target>
         </trans-unit>
         <trans-unit id="SaveAs" translate="yes" xml:space="preserve">
           <source>Save as</source>
@@ -214,11 +214,11 @@
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lưu dưới dạng tên Xem tùy chỉnh để ngăn khôi phục chế độ xem mặc định khi chương trình cập nhật</target>
+          <target state="translated">Lưu dưới dạng tên tùy chỉnh để ngăn khôi phục chế độ xem mặc định khi phần mềm cập nhật</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Một số yếu tố bị ẩn do kích thước có sẵn (theo Lệnh loại bỏ)</target>
+          <target state="translated">Một số thành phần bị ẩn do kích thước có sẵn (theo Lệnh gỡ bỏ)</target>
         </trans-unit>
         <trans-unit id="TextAlign" translate="yes" xml:space="preserve">
           <source>Text align</source>
@@ -230,7 +230,7 @@
         </trans-unit>
         <trans-unit id="UpdatePreview" translate="yes" xml:space="preserve">
           <source>Update preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cập nhật bản xem trước</target>
+          <target state="translated">Xem trước bản cập nhật</target>
         </trans-unit>
         <trans-unit id="Width" translate="yes" xml:space="preserve">
           <source>Width</source>
@@ -238,11 +238,11 @@
         </trans-unit>
         <trans-unit id="XOffset" translate="yes" xml:space="preserve">
           <source>X offset</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">X bù đắp</target>
+          <target state="translated">X offset</target>
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Y bù đắp</target>
+          <target state="translated">Y offset</target>
         </trans-unit>
       </group>
     </body>
@@ -272,19 +272,19 @@
         </trans-unit>
         <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Khóa cấp phép đã nhập không khớp với ID máy này. Nếu bạn đã mua giấy phép Pro cho một máy khác và muốn chuyển nó sang máy này, hãy trả lời email xác nhận mua hàng ban đầu và bao gồm ID máy từ phía trên.</target>
+          <target state="translated">Giấy phép đã nhập không khớp với ID máy này. Nếu bạn đã mua giấy phép Pro cho một máy khác và muốn chuyển nó sang máy này, hãy trả lời email xác nhận mua hàng ban đầu và bao gồm ID máy từ phía trên.</target>
         </trans-unit>
         <trans-unit id="DLG_ThankYou" translate="yes" xml:space="preserve">
           <source>Thank you for the purchase and supporting program development. Please restart the program to enable all features</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cảm ơn bạn đã mua và hỗ trợ phát triển chương trình. Vui lòng khởi động lại chương trình để bật tất cả các tính năng</target>
+          <target state="translated">Cảm ơn bạn đã mua và hỗ trợ phát triển phần mềm. Vui lòng khởi động lại phần mềm để bật tất cả các tính năng</target>
         </trans-unit>
         <trans-unit id="GetOnMicrosoftStore" translate="yes" xml:space="preserve">
           <source>Get it on Microsoft Store</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tải ứng dụng này trên Microsoft Store</target>
+          <target state="translated">Tải ứng dụng trên Microsoft Store</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
           <source>License key:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Khóa cấp phép:</target>
+          <target state="translated">Key giấy phép:</target>
         </trans-unit>
         <trans-unit id="LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>Wrong license length</source>
@@ -315,7 +315,7 @@
           <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander miễn phí cho sử dụng HOME với một bộ tính năng hạn chế.
+          <target state="translated">OneCommander miễn phí cho sử dụng CÁ NHÂN với một bộ tính năng hạn chế.
 
 Để sử dụng cho mục đích thương mại, cần có giấy phép PRO, bất kể người dùng có cần các tính năng bổ sung này hay không (được gắn nhãn PRO trong Cài đặt).</target>
         </trans-unit>
@@ -327,14 +327,14 @@ For commercial use, the PRO license is required, regardless if the user needs th
           <source>1. Using the above button open the purchase page and paste the Hardware ID (it should already be on clipboard) and enter your email
 2. After completing the purchase, you should receive an automatic email with activation code (check spam also)
 3. Paste the license from the email into the field below</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">1. Sử dụng nút trên, mở trang mua hàng và dán ID phần cứng (nó đã có trên khay nhớ tạm) và nhập email của bạn
-2. Sau khi hoàn tất mua hàng, bạn sẽ nhận được một email tự động có mã kích hoạt (cũng kiểm tra spam)
+          <target state="translated">1. Sử dụng nút bên trên để mở trang mua hàng và dán ID phần cứng (nó đã có trên khay nhớ tạm) và nhập email của bạn
+2. Sau khi hoàn tất mua hàng, bạn sẽ nhận được một email tự động có mã kích hoạt (kiểm tra thư mục spam)
 3. Dán giấy phép từ email vào trường bên dưới</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PurchaseStepsPart2" translate="yes" xml:space="preserve">
           <source>4. Restart program to activate all features</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">4. Khởi động lại chương trình để kích hoạt tất cả các tính năng</target>
+          <target state="translated">4. Khởi động lại phần mềm để kích hoạt tất cả các tính năng</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="StoreErrorChecking" translate="yes" xml:space="preserve">
@@ -345,13 +345,13 @@ For commercial use, the PRO license is required, regardless if the user needs th
           <source>Before making a purchase, please make sure you are signed into Microsoft Store with an account that you'd like to associate with this purchase, so you can reinstall it in the future and on additional computers with the same account.
 
 The license will be valid for up to 10 computers used with the same Microsoft Account (as defined in Microsoft Store policy)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trước khi mua hàng, hãy đảm bảo bạn đã đăng nhập vào Microsoft Store bằng tài khoản mà bạn muốn liên kết với giao dịch mua này để bạn có thể cài đặt lại trong tương lai và trên các máy tính bổ sung có cùng tài khoản.
+          <target state="translated">Trước khi mua hàng, hãy đảm bảo bạn đã đăng nhập vào Microsoft Store bằng tài khoản mà bạn muốn liên kết với giao dịch mua này, để bạn có thể cài đặt lại trong tương lai và trên các máy tính khác có cùng tài khoản.
 
 Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử dụng với cùng một Tài khoản Microsoft (như được định nghĩa trong chính sách Microsoft Store)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cần có giấy phép Pro để sử dụng trong cài đặt thương mại.&lt;br/&gt;Vui lòng kiểm tra nó trong một vài ngày nhưng nếu bạn thấy chương trình hữu ích, vui lòng mua giấy phép từ Microsoft Store (thông qua hộp thoại Giới thiệu)</target>
+          <target state="translated">Cần có giấy phép Pro để sử dụng trong thương mại; Vui lòng kiểm tra nó trong một vài ngày nhưng nếu bạn thấy phần mềm hữu ích, vui lòng mua giấy phép từ Microsoft Store (thông qua hộp thoại Giới thiệu)</target>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -371,11 +371,11 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="StoreStatusPurchaseNotComplete" translate="yes" xml:space="preserve">
           <source>The purchase did not complete. You can complete the purchase anytime Microsoft Store is available.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Việc mua hàng không hoàn tất. Bạn có thể hoàn tất giao dịch mua bất cứ lúc nào Microsoft Store có sẵn.</target>
+          <target state="translated">Việc mua hàng không hoàn tất. Bạn có thể hoàn tất giao dịch mua bất cứ lúc nào khi Microsoft Store sẵn sàng.</target>
         </trans-unit>
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
           <source>Volume licenses (10+) available if purchased for domain:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giấy phép số lượng lớn (10+) có sẵn nếu mua cho miền:</target>
+          <target state="translated">Giấy phép số lượng lớn (10+) có sẵn nếu mua cho tên miền:</target>
         </trans-unit>
       </group>
     </body>
@@ -403,15 +403,15 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="CaseExtension" translate="yes" xml:space="preserve">
           <source>Extension letter case</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trường hợp thư gia hạn</target>
+          <target state="translated">Định dạng đuôi tệp</target>
         </trans-unit>
         <trans-unit id="CaseFileName" translate="yes" xml:space="preserve">
           <source>File name letter case</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trường hợp chữ cái tên tập tin</target>
+          <target state="translated">Định dạng tên tệp</target>
         </trans-unit>
         <trans-unit id="ChangeColorProfile" translate="yes" xml:space="preserve">
           <source>Change Color Profile to</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thay đổi cấu hình màu thành</target>
+          <target state="translated">Thay đổi màu cấu hình thành</target>
         </trans-unit>
         <trans-unit id="ChangeDPI" translate="yes" xml:space="preserve">
           <source>Change DPI to</source>
@@ -423,12 +423,12 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Clear" translate="yes" xml:space="preserve">
           <source>Clear</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trong</target>
+          <target state="translated">Xoá</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="ColumnDestination" translate="yes" xml:space="preserve">
           <source>Destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đích</target>
+          <target state="translated">Thư mục đích</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnErrors_TT" translate="yes" xml:space="preserve">
@@ -443,7 +443,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ColumnIsNameValid_TT" translate="yes" xml:space="preserve">
           <source>Name validity</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiệu lực của tên</target>
+          <target state="translated">Tên hợp lệ</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnNewName" translate="yes" xml:space="preserve">
@@ -496,7 +496,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mô tả:__________</target>
+          <target state="translated">Mô tả</target>
         </trans-unit>
         <trans-unit id="DestinationDir" translate="yes" xml:space="preserve">
           <source>Output folder defined by folder rules</source>
@@ -528,12 +528,12 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ForcedExtension" translate="yes" xml:space="preserve">
           <source>Forced new file extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Buộc mở rộng tệp mới</target>
+          <target state="translated">Áp đặt đuôi tệp mới</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ForcedExtension_TT" translate="yes" xml:space="preserve">
           <source>Leave blank to keep the original extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Để trống để giữ phần mở rộng ban đầu</target>
+          <target state="translated">Để trống để giữ đuôi tệp gốc</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="HeaderNaming" translate="yes" xml:space="preserve">
@@ -547,7 +547,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="IgnoreCase" translate="yes" xml:space="preserve">
           <source>Ignore case</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bỏ qua trường hợp</target>
+          <target state="translated">Bỏ qua chữ hoa / thường</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
@@ -588,7 +588,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="MSG_RunningScript" translate="yes" xml:space="preserve">
           <source>Running script...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chạy kịch bản...</target>
+          <target state="translated">Chạy tập lệnh...</target>
         </trans-unit>
         <trans-unit id="MSG_RunScript" translate="yes" xml:space="preserve">
           <source>Run script</source>
@@ -596,7 +596,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="MSG_SameName" translate="yes" xml:space="preserve">
           <source>Same name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cùng tên</target>
+          <target state="translated">Trùng tên</target>
         </trans-unit>
         <trans-unit id="OperationConvert" translate="yes" xml:space="preserve">
           <source>Convert to</source>
@@ -605,7 +605,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rename</target>
+          <target state="translated">Đổi tên</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA operation rename</note>
         </trans-unit>
         <trans-unit id="OperationRunScript" translate="yes" xml:space="preserve">
@@ -620,16 +620,16 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Presets" translate="yes" xml:space="preserve">
           <source>Presets</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Presets</target>
+          <target state="translated">Cài đặt trước</target>
         </trans-unit>
         <trans-unit id="Preview" translate="yes" xml:space="preserve">
           <source>Preview</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Download</target>
+          <target state="translated">Xem trước</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="Process" translate="yes" xml:space="preserve">
           <source>Process</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Quá trình</target>
+          <target state="translated">Xử lý</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="RegExEndOfString" translate="yes" xml:space="preserve">
@@ -669,7 +669,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Resize" translate="yes" xml:space="preserve">
           <source>Resize</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Resize</target>
+          <target state="translated">Thay đổi kích thước</target>
         </trans-unit>
         <trans-unit id="ResizeFilter" translate="yes" xml:space="preserve">
           <source>Resize filter</source>
@@ -682,7 +682,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ResizeModeFitWithin" translate="yes" xml:space="preserve">
           <source>Fit within</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phù hợp với bên trong</target>
+          <target state="translated">Căn vừa với</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resizing mode</note>
         </trans-unit>
         <trans-unit id="ResizeModeFixedHeight" translate="yes" xml:space="preserve">
@@ -712,7 +712,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Result_Done" translate="yes" xml:space="preserve">
           <source>Done</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thực hiện</target>
+          <target state="translated">Hoàn thành</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status or operation that is finished</note>
         </trans-unit>
         <trans-unit id="Result_OperationError" translate="yes" xml:space="preserve">
@@ -746,7 +746,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="RuleTypeSimple" translate="yes" xml:space="preserve">
           <source>Simple</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giản dị</target>
+          <target state="translated">Đơn giản</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeVideo" translate="yes" xml:space="preserve">
@@ -760,7 +760,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị đầu ra shell trong khu vực Trạng thái (nếu không cửa sổ CMD sẽ mở)</target>
+          <target state="translated">Hiển thị đầu ra trong khu vực Trạng thái (nếu không cửa sổ CMD sẽ mở)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
@@ -790,7 +790,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="TT_ExampleOutput" translate="yes" xml:space="preserve">
           <source>Out</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ra</target>
+          <target state="translated">Đầu ra</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip as in Out: File Name</note>
         </trans-unit>
         <trans-unit id="TT_OriginalFilename" translate="yes" xml:space="preserve">
@@ -807,7 +807,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="Unchanged" translate="yes" xml:space="preserve">
           <source>Unchanged</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nguyên</target>
+          <target state="translated">Không đổi</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in dropdown</note>
         </trans-unit>
         <trans-unit id="Uppercase" translate="yes" xml:space="preserve">
@@ -829,11 +829,11 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSETTINGS.RESX" datatype="resx">
         <trans-unit id="AccentColor" translate="yes" xml:space="preserve">
           <source>Accent Color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Màu nhấn</target>
+          <target state="translated">Màu chủ đề</target>
         </trans-unit>
         <trans-unit id="AccentColorGetFromWindows" translate="yes" xml:space="preserve">
           <source>Get from Windows</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tải từ Windows</target>
+          <target state="translated">Lấy từ Windows</target>
         </trans-unit>
         <trans-unit id="AccentColorHexValue" translate="yes" xml:space="preserve">
           <source>(HEX value in #RRGGBB format)</source>
@@ -841,7 +841,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Không thể thay đổi màu nhấn vì chủ đề cụ thể này buộc một màu nhấn nhất định</target>
+          <target state="translated">Không thể thay đổi màu chủ đề vì chủ đề này đã mặc định một màu nhất định</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
@@ -873,11 +873,11 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thời lượng hoạt hình (ms)</target>
+          <target state="translated">Thời gian chuyển cảnh (ms)</target>
         </trans-unit>
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấp để kiểm tra thời lượng hoạt hình</target>
+          <target state="translated">Nhấp để kiểm tra thời gian chuyển cảnh</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -885,7 +885,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chương trình sẽ kiểm tra một vài tệp đầu tiên trong một thư mục và nếu hầu hết là hình ảnh hoặc video, nó sẽ tải chế độ xem hình thu nhỏ. Các chế độ xem đã được lưu sẽ không bị ảnh hưởng</target>
+          <target state="translated">Phần mềm sẽ kiểm tra một vài tệp đầu tiên trong một thư mục và nếu hầu hết là hình ảnh hoặc video, nó sẽ tải chế độ xem hình thu nhỏ. Các chế độ xem đã được lưu sẽ không bị ảnh hưởng</target>
         </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
@@ -894,7 +894,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Xóa lịch sử cận cảnh</target>
+          <target state="translated">Xóa lịch sử khi đóng</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
@@ -920,12 +920,12 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nền mục màu để gắn thẻ màu</target>
+          <target state="translated">Màu mục nền để gắn thẻ màu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ColorizeLargeFileSize" translate="yes" xml:space="preserve">
           <source>Make size over 1 GB more prominent with a color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Làm cho kích thước trên 1 GB nổi bật hơn với một màu</target>
+          <target state="translated">Làm cho tệp kích thước trên 1 GB nổi bật hơn với một màu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
@@ -946,15 +946,15 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ColumnAdvancedDuration" translate="yes" xml:space="preserve">
           <source>Expand duration (ms)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng thời lượng (ms)</target>
+          <target state="translated">Thời lượng mở rộng (ms)</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDurationInfo" translate="yes" xml:space="preserve">
           <source>and then animate expanding the column for:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">và sau đó tạo hiệu ứng hoạt hình cho việc mở rộng cột cho:</target>
+          <target state="translated">và sau đó tạo hiệu ứng chuyển cảnh cho việc mở rộng cột cho:</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandAnimateAll" translate="yes" xml:space="preserve">
           <source>Set to max to animate all</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đặt thành tối đa để tạo hoạt ảnh cho tất cả</target>
+          <target state="translated">Đặt thành tối đa để tạo hiệu ứng cho tất cả</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidth" translate="yes" xml:space="preserve">
           <source>Trigger width</source>
@@ -998,15 +998,15 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ColumnParentWidth" translate="yes" xml:space="preserve">
           <source>Parent column width</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chiều rộng cột mẹ</target>
+          <target state="translated">Chiều rộng cột gốc</target>
         </trans-unit>
         <trans-unit id="ColumnParentWidthInfo" translate="yes" xml:space="preserve">
           <source>When space is limited, parent folder column will try to expand to this size:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Khi không gian bị giới hạn, cột thư mục mẹ sẽ cố gắng mở rộng đến kích thước này:</target>
+          <target state="translated">Khi không gian bị giới hạn, cột thư mục gốc sẽ cố gắng mở rộng đến kích thước này:</target>
         </trans-unit>
         <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
           <source>Sliders auto-adjust range depending on the slider below it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thanh trượt tự động điều chỉnh phạm vi tùy thuộc vào thanh trượt bên dưới nó</target>
+          <target state="translated">Thanh trượt tự động điều chỉnh phạm vi tùy thuộc vào thanh trượt bên dưới</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthCurrentColumnsLayout" translate="yes" xml:space="preserve">
@@ -1037,11 +1037,11 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="CommandShell" translate="yes" xml:space="preserve">
           <source>Command shell</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vỏ lệnh</target>
+          <target state="translated">Command shell</target>
         </trans-unit>
         <trans-unit id="CommandShellArgs" translate="yes" xml:space="preserve">
           <source>Arguments</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lập luận</target>
+          <target state="translated">Tranh luận</target>
         </trans-unit>
         <trans-unit id="CommandShellArgsInfo" translate="yes" xml:space="preserve">
           <source>$CurrentPath will be replaced with current path</source>
@@ -1055,7 +1055,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="CommandShellInfo" translate="yes" xml:space="preserve">
           <source>Choose between CMD, PowerShell, Windows Terminal, or a custom command shell</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chọn giữa CMD, PowerShell, Windows Terminal hoặc trình bao lệnh tùy chỉnh</target>
+          <target state="translated">Chọn giữa CMD, PowerShell, Windows Terminal hoặc trình commandf shell tùy chỉnh</target>
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
@@ -1064,15 +1064,15 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ComputerNameCustom" translate="yes" xml:space="preserve">
           <source>Custom alias</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bí danh tùy chỉnh</target>
+          <target state="translated">Bí danh tuỳ chỉnh</target>
         </trans-unit>
         <trans-unit id="ComputerNameInfo" translate="yes" xml:space="preserve">
           <source>This is the name of the first column pane that contains drives list. Machine name can be changed in Windows Settings</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đây là tên của ngăn cột đầu tiên chứa danh sách ổ đĩa. Tên máy có thể được thay đổi trong Cài đặt Windows</target>
+          <target state="translated">Đây là tên của ngăn cột đầu tiên chứa danh sách ổ đĩa. Tên máy tính có thể được thay đổi trong Cài đặt Windows</target>
         </trans-unit>
         <trans-unit id="ComputerNameMachineName" translate="yes" xml:space="preserve">
           <source>Machine name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tên máy</target>
+          <target state="translated">Tên máy tính</target>
         </trans-unit>
         <trans-unit id="ComputerNameQuestion" translate="yes" xml:space="preserve">
           <source>Root folder alias</source>
@@ -1080,12 +1080,12 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="ContextMenuItemExample" translate="yes" xml:space="preserve">
           <source>Example Menu Item</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mục menu mẫu</target>
+          <target state="translated">Danh mục mẫu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Intentional space at front</note>
         </trans-unit>
         <trans-unit id="ContextMenuItemPadding" translate="yes" xml:space="preserve">
           <source>Context Menu Item padding</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menu ngữ cảnh Mục đệm</target>
+          <target state="translated">Giãn dòng mục đệm</target>
         </trans-unit>
         <trans-unit id="ContextMenuItemPaddingInfo" translate="yes" xml:space="preserve">
           <source>Make it larger for easier touchscreen access</source>
@@ -1105,7 +1105,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="CreateNewColumnsWithoutAnimating" translate="yes" xml:space="preserve">
           <source>Create New Columns without animating</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tạo cột mới mà không cần tạo hoạt ảnh</target>
+          <target state="translated">Tạo cột mới mà không cần tạo hiệu ứng</target>
         </trans-unit>
         <trans-unit id="DateFormat" translate="yes" xml:space="preserve">
           <source>Date format</source>
@@ -1155,7 +1155,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Môi trường PATH được thêm vào. Các chương trình khác có thể cần phải được khởi động lại để có được các biến cập nhật.</target>
+          <target state="translated">Đã thêm môi trường PATH. Các chương trình khác có thể cần được khởi động lại để nhận các biến được cập nhật.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
@@ -1164,7 +1164,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="DLG_Unregistered" translate="yes" xml:space="preserve">
           <source>Unregistered</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đăng ký</target>
+          <target state="translated">Huỷ đăng ký</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
@@ -1243,7 +1243,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="EnableAnimations" translate="yes" xml:space="preserve">
           <source>Enable Animations</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bật hoạt ảnh</target>
+          <target state="translated">Bật hiệu ứng</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -1259,7 +1259,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Các mục Menu ngữ cảnh Shell bị loại trừ</target>
+          <target state="translated">Không bao gồm các mục Shell Context Menu</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
           <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
@@ -1271,7 +1271,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywordsInfo" translate="yes" xml:space="preserve">
           <source>Changes in files with full-paths containing these strings won't be reported; Comma separated</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Các thay đổi trong tệp có đường dẫn đầy đủ chứa các chuỗi này sẽ không được báo cáo; Dấu phẩy được phân tách</target>
+          <target state="translated">Các thay đổi trong tệp có đường dẫn đầy đủ chứa các chuỗi này sẽ không được báo cáo; phân tách bằng dấu phẩy</target>
         </trans-unit>
         <trans-unit id="ExFileItemDefault" translate="yes" xml:space="preserve">
           <source>File Item Default</source>
@@ -1320,7 +1320,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
           <source>Middle</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trung</target>
+          <target state="translated">ở Giữa</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
         </trans-unit>
         <trans-unit id="FileOperationsHandler" translate="yes" xml:space="preserve">
@@ -1432,7 +1432,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="HeaderAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiên tiến</target>
+          <target state="translated">Chuyên sâu</target>
         </trans-unit>
         <trans-unit id="HeaderBuiltInPreviewWindow" translate="yes" xml:space="preserve">
           <source>Built-in preview window</source>
@@ -1476,7 +1476,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="HeaderSidebar" translate="yes" xml:space="preserve">
           <source>Sidebar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bên</target>
+          <target state="translated">Thanh bên</target>
         </trans-unit>
         <trans-unit id="HeaderSorting" translate="yes" xml:space="preserve">
           <source>Sorting</source>
@@ -1484,7 +1484,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         </trans-unit>
         <trans-unit id="HeaderTheme" translate="yes" xml:space="preserve">
           <source>Theme</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đề tài</target>
+          <target state="translated">Chủ đề</target>
         </trans-unit>
         <trans-unit id="HeaderThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnails</source>
@@ -1772,7 +1772,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Không ai</target>
+          <target state="translated">Không</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptUseThinScrollbar" translate="yes" xml:space="preserve">
@@ -2350,7 +2350,7 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng cơ sở dữ liệu hình thu nhỏ cục bộ (nhanh hơn)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
-          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tạo tệp cơ sở dữ liệu trong thư mục Cài đặt thay vì sử dụng bộ đệm ẩn hình thu nhỏ Windows để lưu trữ hình ảnh xem trước tệp. Tệp sẽ lớn</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
@@ -2444,12 +2444,13 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đưa OneCommander lên Máy tính để bàn ảo hiện tại</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
-          <source>Pressing Win+Alt+O from any program should:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấn Win + Alt + O từ bất kỳ chương trình nào nên:</target>
+          <source>Pressing the above hotkey from any program should:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấn HOTKEY từ bất kỳ chương trình nào nên:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
-          <source>Clear local thubmnail database</source>
-          <target state="new">Clear local thubmnail database</target>
+          <source>Clear local thumbnail database</source>
+          <target state="new">Clear local thumbnail database</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
@@ -2459,6 +2460,27 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
           <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
+        </trans-unit>
+        <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
+          <source>Drives list</source>
+          <target state="new">Drives list</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
+        </trans-unit>
+        <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
+          <source>Folder thumbnail style</source>
+          <target state="new">Folder thumbnail style</target>
+        </trans-unit>
+        <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
+          <source>Update to version ahead (less stable)</source>
+          <target state="new">Update to version ahead (less stable)</target>
+        </trans-unit>
+        <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
+          <source>Global hotkey to open program</source>
+          <target state="new">Global hotkey to open program</target>
+        </trans-unit>
+        <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
+          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
         </trans-unit>
       </group>
     </body>
@@ -2535,7 +2557,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tuổi</target>
+          <target state="translated">năm</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
         <trans-unit id="AgeYearShort" translate="yes" xml:space="preserve">
@@ -2891,7 +2913,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         </trans-unit>
         <trans-unit id="Eject" translate="yes" xml:space="preserve">
           <source>Eject</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phụt</target>
+          <target state="translated">Loại bỏ</target>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
@@ -3020,7 +3042,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bàn làm việc</target>
+          <target state="translated">Desktop</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
@@ -3654,7 +3676,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         </trans-unit>
         <trans-unit id="MSG_I_EjectingDrive" translate="yes" xml:space="preserve">
           <source>Ejecting {0}...</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đẩy {0}...</target>
+          <target state="translated">Đang loại bỏ {0}...</target>
         </trans-unit>
         <trans-unit id="MSG_I_FileOpened" translate="yes" xml:space="preserve">
           <source>File opened</source>
@@ -4343,6 +4365,11 @@ Không thể sắp xếp thư mục</target>
           <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
           <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
         </trans-unit>
+        <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
+          <source>File templates</source>
+          <target state="new">File templates</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
+        </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
           <target state="new">Get all thumbnails</target>
@@ -4355,6 +4382,21 @@ Không thể sắp xếp thư mục</target>
           <source>Remove</source>
           <target state="new">Remove</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
+        </trans-unit>
+        <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
+          <source>File name</source>
+          <target state="new">File name</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
+        </trans-unit>
+        <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
+          <source>Blank file</source>
+          <target state="new">Blank file</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
+        </trans-unit>
+        <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
+          <source>Browse phone</source>
+          <target state="new">Browse phone</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
       </group>
     </body>

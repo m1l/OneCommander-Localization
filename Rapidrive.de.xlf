@@ -781,8 +781,8 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
           <target state="translated" state-qualifier="mt-suggestion">Bringt OneCommander auf den aktuellen virtuellen Desktop</target>
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
-          <source>Pressing Win+Alt+O from any program should:</source>
-          <target state="translated">Win + Alt + O aus einem beliebigen Programm bewirkt:</target>
+          <source>Pressing the above hotkey from any program should:</source>
+          <target state="translated">Drücken des obigen Hotkeys aus beliebigem Programm sollte::</target>
         </trans-unit>
         <trans-unit id="Language" translate="yes" xml:space="preserve">
           <source>Language</source>
@@ -1592,8 +1592,8 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
           <target state="translated">Lokale Thumbnails-Datenbank verwenden (schneller)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
-          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails</source>
-          <target state="translated">Erstellt die Datenbankdatei im Einstellungsverzeichnis, anstatt den Thumbnail-Cache von Windows zum Speichern der Vorschaubilder zu verwenden. Die Datei wird groß werden. Überschreibt die Standard-Ordner-Miniaturansichten</target>
+          <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
+          <target state="translated">Erstellt eine Datenbankdatei im Ordner "Einstellungen", statt den Thumbnail-Cache von Windows zum Speichern der Vorschaubilder zu verwenden. Die Datei wird groß sein. Setzt die Standard-Ordner-Thumbnails außer Kraft und deaktiviert die Verwendung eigener Ordnersymbole</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
@@ -1625,17 +1625,38 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
           <target state="translated">Ermöglicht die Vorschau aller Medien in der gleichen Anzahl von Sprüngen, unabhängig von der Länge. Standardwert 12 % (8 Sprünge)</target>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
-          <source>Clear local thubmnail database</source>
-          <target state="new">Clear local thubmnail database</target>
+          <source>Clear local thumbnail database</source>
+          <target state="translated">Lokale Thumbnail-Datenbank löschen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <target state="translated">Dadurch wird die Anzeige der Thumbnails langsamer, bis jedes Thumbnail beim ersten Öffnen des jeweiligen Ordners erneut extrahiert wird.&lt;br/&gt;Sind Sie sicher?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
+          <target state="translated">Die lokale Thumbnail-Datenbank enthält {0} Thumbnails mit einer Gesamtgröße von {1} MB</target>
+        </trans-unit>
+        <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
+          <source>Drives list</source>
+          <target state="translated">Laufwerksliste</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
+        </trans-unit>
+        <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
+          <source>Folder thumbnail style</source>
+          <target state="translated">Format der Ordner-Thumbnails</target>
+        </trans-unit>
+        <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
+          <source>Update to version ahead (less stable)</source>
+          <target state="translated">Update auf Vorvausersion (weniger stabil)</target>
+        </trans-unit>
+        <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
+          <source>Global hotkey to open program</source>
+          <target state="translated">Globaler Hotkey zum Öffnen des Programms</target>
+        </trans-unit>
+        <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
+          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <target state="translated">Um das Programm zu öffnen, auch wenn es nicht läuft, pinnen Sie es als erstes Element in der Taskleiste an und öffnen es mit Win+1</target>
         </trans-unit>
       </group>
     </body>
@@ -3530,8 +3551,28 @@ Einige Programme können diese Datei nicht öffnen</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="new">Remove</target>
+          <target state="translated">Entfernen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
+        </trans-unit>
+        <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
+          <source>Blank file</source>
+          <target state="translated">Leere Datei</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
+        </trans-unit>
+        <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
+          <source>File name</source>
+          <target state="translated">Dateiname</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
+        </trans-unit>
+        <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
+          <source>File templates</source>
+          <target state="translated">Dateivorlagen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
+        </trans-unit>
+        <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
+          <source>Browse phone</source>
+          <target state="translated">Telefon durchsuchen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
       </group>
     </body>
