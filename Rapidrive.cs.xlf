@@ -2413,7 +2413,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="translated">Umožňuje rychle prohlédnout soubory médií stejným počtem skoků bez ohledu na délku souboru. Výchozí hodnota 12 % (8 skoků)</target>
+          <target state="final">Umožňuje rychle prohlédnout soubory médií stejným počtem skoků bez ohledu na délku souboru. Výchozí hodnota 12 % (8 skoků)</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
           <source>Rewind seconds</source>
@@ -2437,11 +2437,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="translated">Použití místní databáze miniatur (rychlejší)</target>
+          <target state="final">Použít místní databáze miniatur (rychlejší)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="translated">Vytvoří databázi pro ukládání náhledů souborů ve složce s nastavením, která bude použita místo mezipaměti miniatur systému Windows. Soubor bude velký. Přepíší se výchozí miniatury složek a nebude možné používat vlastní ikony složek.</target>
+          <target state="final">Vytvoří databázi pro ukládání náhledů souborů ve složce s nastavením, která bude použita místo mezipaměti miniatur systému Windows. Soubor bude velký. Přepíší se výchozí miniatury složek a nebude možné používat vlastní ikony složek.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
@@ -2459,16 +2459,16 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
-          <target state="translated">Seznam jednotek</target>
+          <target state="final">Seznam jednotek</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="translated">Vzhled miniatur složky</target>
+          <target state="final">Vzhled miniatur složky</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
-          <target state="translated">Aktualizuj na novou verzi o něco dříve (méně stabilní)</target>
+          <target state="final">Aktualizuj na novou verzi o něco dříve (méně stabilní)</target>
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
@@ -4371,7 +4371,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="translated">Odstranit</target>
+          <target state="final">Odstranit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
