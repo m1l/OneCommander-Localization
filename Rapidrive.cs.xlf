@@ -2405,7 +2405,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing the above hotkey from any program should:</source>
-          <target state="translated">Stisknutí klávesové zkratky výše (z libovolného programu) provede:</target>
+          <target state="final">Stisknutí klávesové zkratky výše (z libovolného programu) provede:</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
           <source>Percent jump</source>
@@ -2433,7 +2433,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
           <source>Left and Right arrow control for media playback</source>
-          <target state="translated">Šipky vlevo a vpravo při přehrávání médií přeskočí:</target>
+          <target state="final">Šipky vlevo a vpravo při přehrávání médií přeskočí:</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
@@ -2472,11 +2472,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="translated">Globální klávesová zkratka pro spuštění programu</target>
+          <target state="final">Globální klávesová zkratka pro spuštění programu</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
-          <target state="translated">Chcete-li otevřít program, i když není spuštěný, připněte jej jako první položku na hlavním panelu a pomocí Win+1 jej otevřete.</target>
+          <target state="final">Chcete-li otevřít program, i když není spuštěný, připněte jej jako první položku na hlavním panelu a pomocí Win+1 jej otevřete.</target>
         </trans-unit>
       </group>
     </body>
@@ -4363,7 +4363,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
-          <target state="needs-review-translation">Vytvořit všechny miniatury</target>
+          <target state="final">Vytvořit všechny miniatury</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
