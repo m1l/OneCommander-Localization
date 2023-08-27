@@ -125,6 +125,7 @@
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="translated">¿Está seguro de que desea desactivar la licencia? Deberá ingresar la clave de licencia Pro para activarla nuevamente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
       </group>
     </body>
@@ -621,7 +622,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="Process" translate="yes" xml:space="preserve">
           <source>Process</source>
-          <target state="translated" state-qualifier="mt-suggestion">Proceso</target>
+          <target state="translated">Procesar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA button</note>
         </trans-unit>
         <trans-unit id="RegExEndOfString" translate="yes" xml:space="preserve">
@@ -2046,8 +2047,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing the above hotkey from any program should:</source>
-          <target state="needs-review-translation">Al presionar HOTKEY desde cualquier programa debería:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Presionar la tecla de acceso rápido anterior desde cualquier programa debería:</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
@@ -2416,8 +2416,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="needs-review-translation">Crea un archivo de base de datos en la carpeta Configuración en lugar de usar la caché de miniaturas de Windows para almacenar imágenes de vista previa de archivos. El archivo será grande. Anula las miniaturas de carpetas predeterminadas</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Crea un archivo de base de datos en la carpeta Configuración en lugar de usar la caché de miniaturas de Windows para almacenar imágenes de vista previa de archivos. El archivo será grande. Anula las miniaturas de carpetas predeterminadas y las desactiva mediante iconos de carpetas personalizados</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
@@ -2450,8 +2449,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
-          <target state="needs-review-translation">Borrar la base de datos de miniaturas local</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Borrar la base de datos local de miniaturas</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
@@ -2464,24 +2462,24 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
-          <target state="new">Drives list</target>
+          <target state="translated">Lista de unidades</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="new">Folder thumbnail style</target>
+          <target state="translated">Estilo de miniatura de carpeta</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
-          <target state="new">Update to version ahead (less stable)</target>
+          <target state="translated">Actualizar a la versión anterior (menos estable)</target>
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="new">Global hotkey to open program</target>
+          <target state="translated">Tecla de acceso rápido global para abrir el programa</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
-          <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+          <target state="translated">Para abrir el programa aunque no se esté ejecutando, colóquelo como primer elemento de la barra de tareas y utilice Win+1 para abrirlo</target>
         </trans-unit>
       </group>
     </body>
@@ -4381,23 +4379,59 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
           <source>Blank file</source>
-          <target state="new">Blank file</target>
+          <target state="translated">Archivo en blanco</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
         </trans-unit>
         <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
           <source>File name</source>
-          <target state="new">File name</target>
+          <target state="translated">Nombre de archivo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
         </trans-unit>
         <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
           <source>File templates</source>
-          <target state="new">File templates</target>
+          <target state="translated">Plantillas de archivo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
-          <target state="new">Browse phone</target>
+          <target state="translated">Examinar teléfono</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
+        </trans-unit>
+        <trans-unit id="SizeB" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <target state="new">B</target>
+        </trans-unit>
+        <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
+          <source>GB</source>
+          <target state="new">GB</target>
+        </trans-unit>
+        <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
+          <source>GiB</source>
+          <target state="new">GiB</target>
+        </trans-unit>
+        <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
+          <source>KB</source>
+          <target state="new">KB</target>
+        </trans-unit>
+        <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
+          <source>KiB</source>
+          <target state="new">KiB</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
+          <source>TB</source>
+          <target state="new">TB</target>
+        </trans-unit>
+        <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
+          <source>TiB</source>
+          <target state="new">TiB</target>
         </trans-unit>
       </group>
     </body>

@@ -125,6 +125,7 @@
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">是否確實要停用許可證？您需要輸入Pro許可證金鑰才能再次啟動它</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
       </group>
     </body>
@@ -1079,18 +1080,18 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要說明：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，它將編輯註冊表以使 OneCommander 成為預設的檔管理員和文件夾處理程式（無法替換打開/保存對話框）。&amp;lt;br/&amp;gt;&amp;lt;bpt id=“2”&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>這將使Windows文件資源管理器不可用&amp;lt;ept id=“2”&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - 即使按兩下檔資源管理器中的檔夾，一個指揮官也會打開。&amp;lt;br/&amp;gt;如果您<it id="5" pos="close">&lt;/bpt&gt;</it>移動或刪除一個指揮官（卸載它不會撤消更改），則需要&amp;lt;bpt id=“3”&amp;gt;&amp;lt;b&amp;gt;註銷它&amp;lt;ept id=“3”&amp;gt;&amp;lt;/b&amp;gt;<it id="6" pos="close">&lt;/ept&gt;</it>（卸載它不會撤消更改）！&amp;lt;br/&amp;gt;這也將允許在後台運行以加快窗口打開速度。&amp;lt;br/&amp;gt;您是否絕對確定要繼續操作，並且知道如何在出現故障時自行恢復註冊表（在恢復時不支援）？</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要說明：這是一個&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，它將編輯註冊表以使 OneCommander 成為預設的檔管理員和文件夾處理程式（無法替換打開/保存對話框）。&amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>這將使Windows文件資源管理器不可用&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - 即使按兩下檔資源管理器中的檔夾，一個指揮官也會打開。&amp;lt;br/&amp;gt;如果您<it id="5" pos="close">&lt;/bpt&gt;</it>移動或刪除一個指揮官（卸載它不會撤消更改），則需要&amp;lt;bpt id="3"&amp;gt;&amp;lt;b&amp;gt;註銷它&amp;lt;ept id="3"&amp;gt;&amp;lt;/b&amp;gt;<it id="6" pos="close">&lt;/ept&gt;</it>（卸載它不會撤消更改）！&amp;lt;br/&amp;gt;這也將允許在後台運行以加快窗口打開速度。&amp;lt;br/&amp;gt;您是否絕對確定要繼續操作，並且知道如何在出現故障時自行恢復註冊表（在恢復時不支援）？</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即重新啟動程式&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以應用所有更改？&amp;lt;br/&amp;gt;這將取消由 OneCommander 啟動的所有正在進行的操作</target>
+          <target state="translated">是否要<bpt id="1">&lt;b&gt;</bpt>立即重新啟動程式<ept id="1">&lt;/b&gt;</ept>以應用所有更改？&lt;br/&gt;這將取消由 OneCommander 啟動的所有正在進行的操作</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要提示：這是一個&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> 它將編輯Windows註冊表以完全取代Windows文件資源管理器Win + E熱鍵。此註冊表更改將使「一個指揮官」在按兩下資源管理器快捷方式時打開，但不會禁用資源管理器中的導航。扭轉這種情況的唯一方法是從OneCommander註銷它或從OneCommander資料夾運行註冊表腳本（卸載OC不會自動更改它）。進行？</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要提示：這是一個&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> 它將編輯Windows註冊表以完全取代Windows文件資源管理器Win + E熱鍵。此註冊表更改將使「一個指揮官」在按兩下資源管理器快捷方式時打開，但不會禁用資源管理器中的導航。扭轉這種情況的唯一方法是從OneCommander註銷它或從OneCommander資料夾運行註冊表腳本（卸載OC不會自動更改它）。進行？</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -2686,7 +2687,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用此分隔線上的〈 〉 按鈕顯示/隱藏瀏覽器窗格</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用此分隔線上的 ︿ ﹀ 按鈕顯示/隱藏瀏覽器窗格</target>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
@@ -2714,7 +2715,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">可移植程式需要在自己的資料夾中具有寫入許可權，因此它們不能位於「程式檔」 資料夾中。請將整個資料夾移動到&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>非系統資料夾&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>並再次運行</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">可移植程式需要在自己的資料夾中具有寫入許可權，因此它們不能位於「程式檔」 資料夾中。請將整個資料夾移動到&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>非系統資料夾&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>並再次運行</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
@@ -2729,7 +2730,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">要完全關閉一個指揮官，&amp;lt;bpt id=“1”&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>單擊關閉按鈕時按住 CTRL&amp;lt;ept id=“1”&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，或右鍵單擊系統托盤中的一個指揮官圖示（時鐘旁邊），然後選擇&amp;lt;bpt id=“2”&amp;gt;&amp;lt;i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Exit&amp;lt;ept id=“2”&amp;gt;&amp;lt;/i&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it></target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">要完全關閉一個指揮官，&amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>單擊關閉按鈕時按住 CTRL&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，或右鍵單擊系統托盤中的一個指揮官圖示（時鐘旁邊），然後選擇&amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it></target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2741,7 +2742,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔擴展名不同。&amp;lt;br/&amp;gt;是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>將原始擴展名添加回去&amp;lt;ept id=“1”&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以便使用相同的關聯程序打開該檔？</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔擴展名不同。&amp;lt;br/&amp;gt;是否要&amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>將原始擴展名添加回去&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以便使用相同的關聯程序打開該檔？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2751,19 +2752,19 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">此功能僅在專業版中可用。&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即獲取專業版？&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">此功能僅在專業版中可用。&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即獲取專業版？&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">關閉最後一個視窗時，是否希望程式&amp;lt;bpt id=“1”&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>保持後台運行&amp;lt;ept id=“1”&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>（系統托盤中的圖示）以便更快地下一步啟動？</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">關閉最後一個視窗時，是否希望程式&amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>保持後台運行&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>（系統托盤中的圖示）以便更快地下一步啟動？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">您已更改專案名稱，但按兩下了 outside。&amp;lt;br/&amp;gt;在這種情況下，是否要&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>alway 重命名檔&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>而不是取消操作？</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您已更改專案名稱，但按兩下了 outside。&amp;lt;br/&amp;gt;在這種情況下，是否要&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>alway 重命名檔&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>而不是取消操作？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">以管理員身份重新啟動程式？這將&amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>清除所有正在進行的文件傳輸&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以及通過OneCommander運行的其他進程</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">以管理員身份重新啟動程式？這將&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>清除所有正在進行的文件傳輸&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以及通過OneCommander運行的其他進程</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4088,7 +4089,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">功能表行下方的排序選項是元數據屬性，而不是實際文件屬性。按這些排序是 &amp;lt;bpt id=“1”&amp;gt;&amp;lt;b&amp;gt;slow<it id="1" pos="close">&lt;/bpt&gt;</it>&amp;lt;ept<it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it> id=“1”&amp;gt;&amp;lt;/b&amp;gt;，並且會導致程式在打開使用此排序的文件夾或選項卡時&amp;lt;bpt id=“2”&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id=“2”&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it>。</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">功能表行下方的排序選項是元數據屬性，而不是實際文件屬性。按這些排序是 &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow<it id="1" pos="close">&lt;/bpt&gt;</it>&amp;lt;ept<it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;/b&amp;gt;，並且會導致程式在打開使用此排序的文件夾或選項卡時&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it>。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -4216,7 +4217,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">程序崩潰，因為其他一些軟體正在訪問OneCommander的檔.&amp;lt;br/&amp;gt;如果&amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id=“1”&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id=“1”&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>資料夾是自動檔同步或雲備份的一部分，則需要關閉OneCommander並將整個程式資料夾移動到其他位置。&amp;lt;br/&amp;gt;如果防病毒軟體或其他安全軟體在載入 DLL 時掃描程式資料夾，也可能導致崩潰。</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">程序崩潰，因為其他一些軟體正在訪問OneCommander的檔.&amp;lt;br/&amp;gt;如果&amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>資料夾是自動檔同步或雲備份的一部分，則需要關閉OneCommander並將整個程式資料夾移動到其他位置。&amp;lt;br/&amp;gt;如果防病毒軟體或其他安全軟體在載入 DLL 時掃描程式資料夾，也可能導致崩潰。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
@@ -4411,6 +4412,42 @@ Some programs won't be able to open this file</source>
           <source>Browse phone</source>
           <target state="new">Browse phone</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
+        </trans-unit>
+        <trans-unit id="SizeB" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <target state="new">B</target>
+        </trans-unit>
+        <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
+          <source>GB</source>
+          <target state="new">GB</target>
+        </trans-unit>
+        <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
+          <source>GiB</source>
+          <target state="new">GiB</target>
+        </trans-unit>
+        <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
+          <source>KB</source>
+          <target state="new">KB</target>
+        </trans-unit>
+        <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
+          <source>KiB</source>
+          <target state="new">KiB</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
+          <source>TB</source>
+          <target state="new">TB</target>
+        </trans-unit>
+        <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
+          <source>TiB</source>
+          <target state="new">TiB</target>
         </trans-unit>
       </group>
     </body>

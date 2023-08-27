@@ -3604,6 +3604,42 @@ Some programs won't be able to open this file</source>
           <target state="new">Browse phone</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
+        <trans-unit id="SizeB" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <target state="translated">Б</target>
+        </trans-unit>
+        <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
+          <source>GB</source>
+          <target state="translated">ГБ</target>
+        </trans-unit>
+        <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
+          <source>GiB</source>
+          <target state="translated">ГиБ</target>
+        </trans-unit>
+        <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
+          <source>KB</source>
+          <target state="translated">КБ</target>
+        </trans-unit>
+        <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
+          <source>KiB</source>
+          <target state="translated">КиБ</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="translated">МБ</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="translated">МиБ</target>
+        </trans-unit>
+        <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
+          <source>TB</source>
+          <target state="translated">ТБ</target>
+        </trans-unit>
+        <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
+          <source>TiB</source>
+          <target state="translated">ТиБ</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -3732,6 +3768,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Справді вимкнути ліцензію? Вам потрібно буде ввести pro ліцензійний ключ, щоб активувати його знову</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
       </group>
     </body>

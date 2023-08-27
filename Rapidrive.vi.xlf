@@ -17,6 +17,7 @@
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="translated">Bạn có chắc chắn muốn hủy kích hoạt giấy phép không? Bạn sẽ cần nhập key Pro License để kích hoạt lại</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="Email" translate="yes" xml:space="preserve">
           <source>Email</source>
@@ -4397,6 +4398,42 @@ Không thể sắp xếp thư mục</target>
           <source>Browse phone</source>
           <target state="new">Browse phone</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
+        </trans-unit>
+        <trans-unit id="SizeB" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <target state="new">B</target>
+        </trans-unit>
+        <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
+          <source>GB</source>
+          <target state="new">GB</target>
+        </trans-unit>
+        <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
+          <source>GiB</source>
+          <target state="new">GiB</target>
+        </trans-unit>
+        <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
+          <source>KB</source>
+          <target state="new">KB</target>
+        </trans-unit>
+        <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
+          <source>KiB</source>
+          <target state="new">KiB</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
+          <source>TB</source>
+          <target state="new">TB</target>
+        </trans-unit>
+        <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
+          <source>TiB</source>
+          <target state="new">TiB</target>
         </trans-unit>
       </group>
     </body>

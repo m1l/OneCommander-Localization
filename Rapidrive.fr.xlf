@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" datatype="resx">
         <trans-unit id="AnonymizedHardwareID" translate="yes" xml:space="preserve">
           <source>Machine ID:</source>
-          <target state="final">ID matériel anonymisé :</target>
+          <target state="final">ID matériel :</target>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDCopy" translate="yes" xml:space="preserve">
           <source>Click to copy Hardware ID to clipboard and open OneCommander.com</source>
@@ -70,9 +70,9 @@
           <source>OneCommander is free for HOME use with a limited features set.
 
 For commercial use, the PRO license is required, regardless if the user needs these additional features (labeled with PRO in Settings).</source>
-          <target state="needs-review-translation">OneCommander est gratuit pour une utilisation personnelle à domicile, avec un ensemble de fonctionnalités limité.
+          <target state="final">OneCommander est gratuit pour une utilisation personnelle à domicile, avec un ensemble de fonctionnalités limité.
 
-Pour une utilisation commerciale ou professionnelle, la licence PRO est requise, que l’utilisateur ait besoin des fonctionnalités supplémentaires (étiquetées PRO dans les paramètres) ou non.</target>
+Pour une utilisation commerciale ou professionnelle, la licence PRO est requise, que l’utilisateur ait besoin ou non des fonctionnalités supplémentaires (étiquetées PRO dans les paramètres).</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
           <note from="MultilingualEditor" annotates="source" priority="4">I've added in the french translation the words "professional use" to complete the home use. As homeworking is developing at the moment, and french people like very much to understand what they want, I think it clarifies the things :). Might need to be shortened depending on the space allowed for the string. In the case, just remove the words "commerciale ou".</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment.</note>
@@ -120,7 +120,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="needs-review-translation">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.&lt;br/&gt;Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
+          <target state="final">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.&lt;br/&gt;Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
           <note from="MultilingualEditor" annotates="source" priority="4">Same here, I've added the "professional use". May need to be shortened, depending on the space allowed for this string. In this case just remove "ou commercial".</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment.</note>
@@ -275,6 +275,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="final" state-qualifier="mt-suggestion">Voulez-vous vraiment désactiver la licence ? Vous devrez entrer la clé de licence Pro pour l’activer à nouveau</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
       </group>
     </body>
@@ -503,8 +504,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -514,7 +514,7 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira OneCommander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire de OneCommander ou d’exécuter le script de registre à partir du dossier OneCommander (la désinstallation d’OC ne le supprimera pas automatiquement). Voulez-vous procéder?</target>
+          <target state="final">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira OneCommander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire depuis OneCommander ou d’exécuter le script de registre à partir du dossier OneCommander (la désinstallation d’OC ne le supprimera pas automatiquement). Voulez-vous procéder?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1172,8 +1172,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing the above hotkey from any program should:</source>
-          <target state="needs-review-translation">Appuyer sur HOTKEY à partir de n’importe quel programme doit :</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Appuyer sur le raccourci clavier ci-dessus depuis n'importe quel programme devrait :</target>
         </trans-unit>
         <trans-unit id="AlignCenter" translate="yes" xml:space="preserve">
           <source>Center</source>
@@ -1872,86 +1871,86 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="final">Coller texte et images en tant que nouveaux fichiers</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="final">L'appui sur Ctrl+V créera un texte/une image avec le contenu du presse-papiers en tant que fichier avec la date du jour.</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Treat files starting with dot as hidden</source>
-          <target state="new">Treat files starting with dot as hidden</target>
+          <target state="final">Traiter les fichiers commençant par un point comme étant cachés</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="new">Use local thumbnails database (faster)</target>
+          <target state="final">Utiliser la base de données locale des vignettes (plus rapide)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="new">Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</target>
+          <target state="final">Crée un fichier de base de données dans le dossier Settings au lieu d'utiliser le cache des vignettes de Windows pour stocker les images de prévisualisation des fichiers. Le fichier sera volumineux. Remplace les vignettes de dossier par défaut et désactive l'utilisation d'icônes de dossier personnalisées.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
           <source>Rewind seconds</source>
-          <target state="new">Rewind seconds</target>
+          <target state="final">Reculer de n secondes</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
           <source>Forward seconds</source>
-          <target state="new">Forward seconds</target>
+          <target state="final">Avancer de n secondes</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
           <source>Percentage of total length</source>
-          <target state="new">Percentage of total length</target>
+          <target state="final">Pourcentage de la longueur totale</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
           <source>Specific number of seconds</source>
-          <target state="new">Specific number of seconds</target>
+          <target state="final">Nombre spécifique de secondes</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
           <source>Left and Right arrow control for media playback</source>
-          <target state="new">Left and Right arrow control for media playback</target>
+          <target state="final">Flèches gauche et droite pour la lecture des médias</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
           <source>Percent jump</source>
-          <target state="new">Percent jump</target>
+          <target state="final">Pourcentage de saut</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="new">Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</target>
+          <target state="final">Permet de prévisualiser tous les médias dans le même nombre de sauts, quelle que soit leur longueur. Défaut 12% (8 sauts)</target>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
-          <target state="new">Clear local thumbnail database</target>
+          <target state="final">Effacer la base de données locale des vignettes</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <target state="final">Cela ralentira l'affichage des vignettes jusqu'à ce que chaque vignette soit à nouveau extraite lors de la première ouverture de chaque dossier.&lt;br/&gt;Etes-vous sûr ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
+          <target state="final">La base de données locale de vignettes contient {0} vignettes d'une taille totale de {1} Mo</target>
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
-          <target state="new">Drives list</target>
+          <target state="final">Liste des lecteurs</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="new">Folder thumbnail style</target>
+          <target state="final">Style de vignette de dossier</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
-          <target state="new">Update to version ahead (less stable)</target>
+          <target state="final">Mise à jour vers la version à venir (moins stable)</target>
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="new">Global hotkey to open program</target>
+          <target state="final">Raccourci clavier global pour ouvrir le programme</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
-          <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+          <target state="final">Pour ouvrir le programme même s'il n'est pas en cours d'exécution, épinglez-le comme premier élément de la barre des tâches et utilisez Win+1 pour l'ouvrir.</target>
         </trans-unit>
       </group>
     </body>
@@ -3835,40 +3834,76 @@ Certains programmes ne seront pas en mesure d'ouvrir ce fichier.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+          <target state="final">Extraire les vignettes de tous les fichiers contenus ?&lt;br/&gt;Cela peut prendre des heures, donc le mieux est de le faire pendant la nuit.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
-          <target state="new">Get all thumbnails</target>
+          <target state="final">Récupérer toutes les vignettes</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
-          <target state="new">Regenerate thumbnail</target>
+          <target state="final">Régénérer la vignette</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="new">Remove</target>
+          <target state="final">Retirer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
           <source>Blank file</source>
-          <target state="new">Blank file</target>
+          <target state="final">Fichier vierge</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
         </trans-unit>
         <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
           <source>File name</source>
-          <target state="new">File name</target>
+          <target state="final">Nom de fichier</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
         </trans-unit>
         <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
           <source>File templates</source>
-          <target state="new">File templates</target>
+          <target state="final">Modèles de fichiers</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
-          <target state="new">Browse phone</target>
+          <target state="final">Parcourir le téléphone</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
+        </trans-unit>
+        <trans-unit id="SizeB" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <target state="final">O</target>
+        </trans-unit>
+        <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
+          <source>GB</source>
+          <target state="final">Go</target>
+        </trans-unit>
+        <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
+          <source>GiB</source>
+          <target state="final">Gio</target>
+        </trans-unit>
+        <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
+          <source>KB</source>
+          <target state="final">Ko</target>
+        </trans-unit>
+        <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
+          <source>KiB</source>
+          <target state="final">Kio</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="final">Mo</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="final">Mio</target>
+        </trans-unit>
+        <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
+          <source>TB</source>
+          <target state="final">To</target>
+        </trans-unit>
+        <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
+          <source>TiB</source>
+          <target state="final">Tio</target>
         </trans-unit>
       </group>
     </body>
