@@ -2136,16 +2136,19 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
           <target state="final" state-qualifier="mt-suggestion">Kjenn skriptene du kjører! Sikkerhetsrisiko!</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
-          <source>Show system files and folders</source>
-          <target state="final" state-qualifier="mt-suggestion">Vis systemfiler og mapper</target>
+          <source>Show protected system files and folders</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vis systemfiler og mapper</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
           <target state="final" state-qualifier="mt-suggestion">Vis midlertidige filer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
           <target state="final" state-qualifier="mt-suggestion">Viser .tmp filer, Office-filer som begynner med ~$ og filer med midlertidig filattributt</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2312,8 +2315,9 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
           <target state="final" state-qualifier="mt-suggestion">For å bruke dette alternativet, aktiver gjennomsiktighetseffekter i Windows 'Innstillinger / Personalisering / Farger</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
-          <source>Treat files starting with dot as hidden</source>
-          <target state="final" state-qualifier="mt-suggestion">Behandle filer som starter med punktum som skjult</target>
+          <source>Files starting with dot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Behandle filer som starter med punktum som skjult</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -2482,6 +2486,29 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+        </trans-unit>
+        <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="new">Extensions</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
+          <source>Full names</source>
+          <target state="new">Full names</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
+          <source>Prefixed files</source>
+          <target state="new">Prefixed files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
+          <source>Files to treat as hidden:</source>
+          <target state="new">Files to treat as hidden:</target>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
+          <source>Visibility controlled by the above checkbox or shortcut</source>
+          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
         </trans-unit>
       </group>
     </body>
@@ -4434,6 +4461,11 @@ Mapper kan ikke sorteres</target>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
           <target state="new">TiB</target>
+        </trans-unit>
+        <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
+          <source>Contains hidden items</source>
+          <target state="new">Contains hidden items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
     </body>

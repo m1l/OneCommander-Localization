@@ -1197,7 +1197,8 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated">هل تريد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;restart program now&amp;lt;ept id="1"&amp;gt;&amp;lt;/b<it id="2" pos="close">&lt;/ept&gt;</it>&amp;gt; لتطبيق جميع التغييرات؟&amp;lt;br/&amp;gt;سيؤدي هذا الى الغاء كل العمليات الجارية التي بداها OneCommander</target>
+          <target state="translated">هل تريد restart program now لتطبيق جميع التغييرات؟
+سيؤدي هذا الى الغاء كل العمليات الجارية التي بداها OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
@@ -2136,16 +2137,19 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">تعرف على البرامج النصية التي تقوم بتشغيلها! مخاطر امنية!</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
-          <source>Show system files and folders</source>
-          <target state="translated">اظهار ملفات و مجلدات النظام</target>
+          <source>Show protected system files and folders</source>
+          <target state="needs-review-translation">اظهار ملفات و مجلدات النظام</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
           <target state="translated">اظهار الملفات المؤقتة</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
           <target state="translated">اظهار الملفات .tmp وملفات Office التي تبدا ب ~$ و الملفات ذات سمة الملف المؤقت</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2312,8 +2316,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">لاستخدام هذا الخيار ، قم بتمكين تاثيرات الشفافية في اعدادات وندوز/ التخصيص/الالوان</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
-          <source>Treat files starting with dot as hidden</source>
-          <target state="translated">تعامل مع الملفات التي تبدا بنقطة على انها مخفية</target>
+          <source>Files starting with dot</source>
+          <target state="needs-review-translation">تعامل مع الملفات التي تبدا بنقطة على انها مخفية</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -2482,6 +2487,29 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+        </trans-unit>
+        <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="new">Extensions</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
+          <source>Full names</source>
+          <target state="new">Full names</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
+          <source>Prefixed files</source>
+          <target state="new">Prefixed files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
+          <source>Files to treat as hidden:</source>
+          <target state="new">Files to treat as hidden:</target>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
+          <source>Visibility controlled by the above checkbox or shortcut</source>
+          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
         </trans-unit>
       </group>
     </body>
@@ -2842,7 +2870,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">سيستمر OneCommander في العمل في الخلفية حتى يتمكن من فتحه على الفور في المرة القادمة &lt;br / &gt; (يمكن تغيير هذا في الاعدادات ❯ وندوز)</target>
+          <target state="translated">سيستمر OneCommander في العمل في الخلفية حتى يتمكن من فتحه على الفور في المرة القادمة &lt;br/&gt; (يمكن تغيير هذا في الاعدادات ❯ وندوز)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
@@ -4434,6 +4462,11 @@ Folders can't be sorted</source>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
           <target state="new">TiB</target>
+        </trans-unit>
+        <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
+          <source>Contains hidden items</source>
+          <target state="new">Contains hidden items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
     </body>

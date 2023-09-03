@@ -1174,7 +1174,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Quan trọng: Đây là một &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1 "&amp;gt;&amp;lt;b &amp;gt; tính năng thử nghiệm&amp;lt;ept id = "1" &amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> sẽ chỉnh sửa Registry của bạn để biến OneCommander thành trình quản lý tệp và trình xử lý thư mục mặc định (không thể thay thế hộp thoại Mở / Lưu). &amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Điều này sẽ làm cho Windows File Explorer không sử dụng được&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - ngay cả khi nhấp vào một thư mục trong File Explorer, OneCommander sẽ mở. &amp;lt;br/&amp;gt;Bạn sẽ cần phải &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it><it id="6" pos="close">&lt;/ept&gt;</it> id = "3 "&amp;gt;&amp;lt; b &amp;gt; hủy đăng ký &amp;lt;ept id = "3 "&amp;gt;&amp;lt; / b&amp;gt; bằng cách bỏ chọn tùy chọn này nếu bạn từng di chuyển hoặc xóa OneCommander (gỡ cài đặt nó sẽ không đảo ngược thay đổi)!&amp;lt;br / &amp;gt;Điều này cũng sẽ cho phép chạy trong nền để mở cửa sổ nhanh hơn.&amp;lt;br / &amp;gt; Bạn có hoàn toàn chắc chắn rằng bạn muốn tiếp tục và bạn biết cách tự khôi phục sổ đăng ký nếu có gì đó không thành công (không hỗ trợ trong trường hợp phục hồi)?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Quan trọng: Đây là một &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1 "&amp;gt;&amp;lt;b &amp;gt; tính năng thử nghiệm&amp;lt;ept id = "1" &amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> sẽ chỉnh sửa Registry của bạn để biến OneCommander thành trình quản lý tệp và trình xử lý thư mục mặc định (không thể thay thế hộp thoại Mở / Lưu). &amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Điều này sẽ làm cho Windows File Explorer không sử dụng được&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - ngay cả khi nhấp vào một thư mục trong File Explorer, OneCommander sẽ mở. &amp;lt;br/&amp;gt;Bạn sẽ cần phải &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it><it id="6" pos="close">&lt;/ept&gt;</it> id = "3 "&amp;gt;&amp;lt; b &amp;gt; hủy đăng ký &amp;lt;ept id = "3 "&amp;gt;&amp;lt; / b&amp;gt; bằng cách bỏ chọn tùy chọn này nếu bạn từng di chuyển hoặc xóa OneCommander (gỡ cài đặt nó sẽ không đảo ngược thay đổi)!&amp;lt;br/&amp;gt;Điều này cũng sẽ cho phép chạy trong nền để mở cửa sổ nhanh hơn.&amp;lt;br/&amp;gt; Bạn có hoàn toàn chắc chắn rằng bạn muốn tiếp tục và bạn biết cách tự khôi phục sổ đăng ký nếu có gì đó không thành công (không hỗ trợ trong trường hợp phục hồi)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
@@ -1187,7 +1187,7 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bạn có muốn &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1 "&amp;gt;&amp;lt;b &amp;gt; khởi động lại chương trình ngay bây giờ &amp;lt;ept id = "1" &amp;gt;&amp;lt; / b<it id="2" pos="close">&lt;/ept&gt;</it> &amp;gt; để áp dụng tất cả các thay đổi không?&amp;lt;br / &amp;gt;Điều này sẽ hủy bỏ tất cả các hoạt động đang diễn ra do OneCommander khởi xướng</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bạn có muốn &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1 "&amp;gt;&amp;lt;b &amp;gt; khởi động lại chương trình ngay bây giờ &amp;lt;ept id = "1" &amp;gt;&amp;lt; / b<it id="2" pos="close">&lt;/ept&gt;</it> &amp;gt; để áp dụng tất cả các thay đổi không?&amp;lt;br/&amp;gt;Điều này sẽ hủy bỏ tất cả các hoạt động đang diễn ra do OneCommander khởi xướng</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
@@ -2123,16 +2123,19 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Biết các kịch bản bạn đang chạy! Rủi ro bảo mật!</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
-          <source>Show system files and folders</source>
+          <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị tệp và thư mục hệ thống</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị tệp tạm thời</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị .tmp tệp, tệp văn phòng bắt đầu bằng ~ $ và tệp có thuộc tính Tệp tạm thời</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2299,8 +2302,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Để sử dụng tùy chọn này, hãy bật Hiệu ứng trong suốt trong Cài đặt / Cá nhân hóa / Màu sắc của Windows</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
-          <source>Treat files starting with dot as hidden</source>
+          <source>Files starting with dot</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Coi các tệp bắt đầu bằng dấu chấm là ẩn</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -2482,6 +2486,29 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+        </trans-unit>
+        <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="new">Extensions</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
+          <source>Full names</source>
+          <target state="new">Full names</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
+          <source>Prefixed files</source>
+          <target state="new">Prefixed files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
+          <source>Files to treat as hidden:</source>
+          <target state="new">Files to treat as hidden:</target>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
+          <source>Visibility controlled by the above checkbox or shortcut</source>
+          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
         </trans-unit>
       </group>
     </body>
@@ -2842,7 +2869,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander sẽ tiếp tục chạy trong nền để nó có thể mở ngay lập tức vào lần tiếp theo &lt;br / &gt; (điều này có thể được thay đổi trong Cài đặt ❯ Cửa sổ)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander sẽ tiếp tục chạy trong nền để nó có thể mở ngay lập tức vào lần tiếp theo &lt;br/&gt; (điều này có thể được thay đổi trong Cài đặt ❯ Cửa sổ)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
@@ -4434,6 +4461,11 @@ Không thể sắp xếp thư mục</target>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
           <target state="new">TiB</target>
+        </trans-unit>
+        <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
+          <source>Contains hidden items</source>
+          <target state="new">Contains hidden items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
     </body>

@@ -688,8 +688,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">Отключено по умолчанию, так как это замедляет просмотр сетевых папок</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
-          <source>Show system files and folders</source>
-          <target state="translated">Отображать системные файлы и папки</target>
+          <source>Show protected system files and folders</source>
+          <target state="needs-review-translation">Отображать системные файлы и папки</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePoints" translate="yes" xml:space="preserve">
           <source>Skip searching within reparse points</source>
@@ -1550,10 +1551,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
           <target state="translated">Показывать временные файлы</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
           <target state="translated">Показывать .tmp файлы, офисные файлы, начинающиеся с ~$, и файлы с атрибутом Temporary file</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
@@ -1584,8 +1587,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">При нажатии клавиш Ctrl+V текст/изображение с содержимым буфера обмена создается в виде файла с текущей датой</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
-          <source>Treat files starting with dot as hidden</source>
-          <target state="translated">Расценивать файлы, начинающиеся с точки, как скрытые.</target>
+          <source>Files starting with dot</source>
+          <target state="needs-review-translation">Расценивать файлы, начинающиеся с точки, как скрытые.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
@@ -1657,6 +1661,29 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
           <target state="translated">Обновление до предварительной версии (менее стабильной)</target>
+        </trans-unit>
+        <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="new">Extensions</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
+          <source>Full names</source>
+          <target state="new">Full names</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
+          <source>Prefixed files</source>
+          <target state="new">Prefixed files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
+          <source>Files to treat as hidden:</source>
+          <target state="new">Files to treat as hidden:</target>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
+          <source>Visibility controlled by the above checkbox or shortcut</source>
+          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
         </trans-unit>
       </group>
     </body>
@@ -3385,7 +3412,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">OneCommander будет продолжать работать в фоновом режиме, поэтому он может открываться мгновенно в следующий раз &lt;br / &gt; (это можно изменить в настройках ❯ окно)</target>
+          <target state="translated">OneCommander будет продолжать работать в фоновом режиме, поэтому он может открываться мгновенно в следующий раз &lt;br/&gt; (это можно изменить в настройках ❯ окно)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
@@ -3611,6 +3638,11 @@ Some programs won't be able to open this file</source>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
           <target state="translated">ТиБ</target>
+        </trans-unit>
+        <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
+          <source>Contains hidden items</source>
+          <target state="new">Contains hidden items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
     </body>

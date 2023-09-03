@@ -358,7 +358,7 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         </trans-unit>
         <trans-unit id="WindowAbout" translate="yes" xml:space="preserve">
           <source>About / Help</source>
-          <target state="translated" state-qualifier="mt-suggestion">Info / Help</target>
+          <target state="translated">Info / Help</target>
           <note from="MultilingualBuild" annotates="source" priority="2">About window title</note>
         </trans-unit>
         <trans-unit id="FullVersion" translate="yes" xml:space="preserve">
@@ -1083,13 +1083,12 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated" state-qualifier="mt-suggestion">Wilt u &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;restart programma nu&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; om alle wijzigingen toe te passen?&lt;br/&gt;Dit annuleert alle lopende operaties geïnitieerd door OneCommander</target>
+          <target state="translated">Wilt u restart programma nu om alle wijzigingen toe te passen? Dit annuleert alle lopende operaties geïnitieerd door OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="needs-review-translation">Belangrijk: Dit is een &lt;bpt id = "1" &gt;&lt;b&gt;&lt;/bpt&gt;experimental feature&lt;ept id = "1" &gt;&lt; / b&gt;&lt;/ept&gt; die het Windows-register zal bewerken om Windows Verkenner Win + E-sneltoets volledig te vervangen. Deze registerwijziging zorgt ervoor dat OneCommander wordt geopend wanneer u op de snelkoppeling Verkenner klikt, maar schakelt de navigatie in Verkenner niet uit. De enige manier om dit om te keren, is door de registratie van OneCommander ongedaan te maken of het registerscript uit te voeren vanuit de map OneCommander (als u OC verwijdert, wordt dit niet automatisch gewijzigd). Doorgaan?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Belangrijk: Dit is een experimental feature die het Windows-register zal bewerken om Windows Verkenner Win + E-sneltoets volledig te vervangen. Deze registerwijziging zorgt ervoor dat OneCommander wordt geopend wanneer u op de snelkoppeling Verkenner klikt, maar schakelt de navigatie in Verkenner niet uit. De enige manier om dit om te keren, is door de registratie van OneCommander ongedaan te maken of het registerscript uit te voeren vanuit de map OneCommander (als u OC verwijdert, wordt dit niet automatisch gewijzigd). Doorgaan?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -1593,8 +1592,9 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="mt-suggestion">Standaard uitgeschakeld omdat het bladeren door netwerkmappen langzamer wordt</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
-          <source>Show system files and folders</source>
-          <target state="translated" state-qualifier="mt-suggestion">Systeembestanden en mappen weergeven</target>
+          <source>Show protected system files and folders</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Systeembestanden en mappen weergeven</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2395,10 +2395,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tijdelijke bestanden weergeven</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
           <source>Shows .tmp files, office files that start with ~$, and files with Temporary file attribute</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Toont .tmp bestanden, Office-bestanden die beginnen met ~$, en bestanden met tijdelijk bestandskenmerk</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
@@ -2422,86 +2424,109 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tekst en afbeeldingen als nieuwe bestanden plakken</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u op Ctrl + V drukt, wordt tekst / afbeelding met klembordinhoud gemaakt als bestand met de huidige datum</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
-          <source>Treat files starting with dot as hidden</source>
-          <target state="new">Treat files starting with dot as hidden</target>
+          <source>Files starting with dot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestanden die beginnen met punt</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="new">Use local thumbnails database (faster)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokale miniaturendatabase gebruiken (sneller)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="new">Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiermee maakt u een databasebestand in de map Instellingen in plaats van de Windows-miniatuurcache te gebruiken voor het opslaan van bestandsvoorbeeldafbeeldingen. Het bestand zal groot zijn. Overschrijft standaardmapminiaturen en schakelt het gebruik van aangepaste mappictogrammen uit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
           <source>Rewind seconds</source>
-          <target state="new">Rewind seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seconden terugspoelen</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
           <source>Forward seconds</source>
-          <target state="new">Forward seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seconden vooruit</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
           <source>Percentage of total length</source>
-          <target state="new">Percentage of total length</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Percentage van de totale lengte</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
           <source>Specific number of seconds</source>
-          <target state="new">Specific number of seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Specifiek aantal seconden</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
           <source>Left and Right arrow control for media playback</source>
-          <target state="new">Left and Right arrow control for media playback</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Linker- en rechterpijlbediening voor het afspelen van media</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
           <source>Percent jump</source>
-          <target state="new">Percent jump</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Procentuele sprong</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="new">Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiermee kunt u een voorvertoning van alle media in hetzelfde aantal sprongen bekijken, ongeacht de lengte. Standaard 12% (8 sprongen)</target>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
-          <target state="new">Clear local thumbnail database</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokale miniatuurdatabase wissen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hierdoor worden miniaturen langzamer weergegeven totdat elke miniatuur opnieuw wordt uitgepakt wanneer elke map voor het eerst wordt geopend.&lt;br/&gt;Weet u het zeker?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokale miniatuurdatabase bevat {0} miniaturen met een totale grootte van {1} MB</target>
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
-          <target state="new">Drives list</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lijst met stations</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="new">Folder thumbnail style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Miniatuurstijl van map</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
-          <target state="new">Update to version ahead (less stable)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Update naar versie vooruit (minder stabiel)</target>
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="new">Global hotkey to open program</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wereldwijde sneltoets om programma te openen</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
-          <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u het programma wilt openen, zelfs als het niet actief is, maakt u het vast als het eerste item op de taakbalk en gebruikt u Win + 1 om te openen</target>
+        </trans-unit>
+        <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
+          <source>Extensions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extensies</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
+          <source>Full names</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Volledige namen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
+        </trans-unit>
+        <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
+          <source>Prefixed files</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestanden met voorvoegsel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
+          <source>Files to treat as hidden:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestanden die u als verborgen wilt behandelen:</target>
+        </trans-unit>
+        <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
+          <source>Visibility controlled by the above checkbox or shortcut</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zichtbaarheid gecontroleerd door het bovenstaande selectievakje of snelkoppeling</target>
         </trans-unit>
       </group>
     </body>
@@ -2775,7 +2800,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="translated">Programma opnieuw opstarten als Admin? Dit zal &lt;bpt id = "1 "&gt;&lt;b&gt;&lt;/bpt&gt;annuleer alle lopende bestandsoverdrachten&lt;ept id = "1"&gt;&lt; / b&gt;&lt;/ept&gt; en andere processen die via OneCommander worden uitgevoerd</target>
+          <target state="translated">Programma opnieuw opstarten als Admin? Dit zal annuleer alle lopende bestandsoverdrachten en andere processen die via OneCommander worden uitgevoerd</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3148,7 +3173,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="translated">Drive {0} vertraagt mogelijk uw computer (wachten om te ontwaken/ opstarten?)</target>
+          <target state="translated">Drive {0} vertraagt mogelijk uw computer (wachten om te ontwaken / opstarten?)</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropContent" translate="yes" xml:space="preserve">
           <source>Issue with drop data: {0}</source>
@@ -4241,7 +4266,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend &lt;br / &gt; (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
+          <target state="translated">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend &lt;br/&gt; (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
@@ -4397,76 +4422,81 @@ Sommige programma's kunnen dit bestand niet openen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Extraheer miniaturen van alle bestanden binnen?&lt;br/&gt;Dit kan uren duren, dus het is het beste om het 's nachts te doen.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
-          <target state="new">Get all thumbnails</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Alle miniaturen ophalen</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
-          <target state="new">Regenerate thumbnail</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Miniatuur opnieuw genereren</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="new">Remove</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verwijderen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
           <source>Blank file</source>
-          <target state="new">Blank file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leeg bestand</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
         </trans-unit>
         <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
           <source>File name</source>
-          <target state="new">File name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestandsnaam</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
         </trans-unit>
         <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
           <source>File templates</source>
-          <target state="new">File templates</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestandssjablonen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
-          <target state="new">Browse phone</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blader door de telefoon</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
           <source>B</source>
-          <target state="new">B</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">B</target>
         </trans-unit>
         <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
           <source>GB</source>
-          <target state="new">GB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">GB</target>
         </trans-unit>
         <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
           <source>GiB</source>
-          <target state="new">GiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gib</target>
         </trans-unit>
         <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
           <source>KB</source>
-          <target state="new">KB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KB</target>
         </trans-unit>
         <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
           <source>KiB</source>
-          <target state="new">KiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KiB</target>
         </trans-unit>
         <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
           <source>MB</source>
-          <target state="new">MB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MB</target>
         </trans-unit>
         <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
           <source>MiB</source>
-          <target state="new">MiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mib</target>
         </trans-unit>
         <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
           <source>TB</source>
-          <target state="new">TB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TBC</target>
         </trans-unit>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
-          <target state="new">TiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tib</target>
+        </trans-unit>
+        <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
+          <source>Contains hidden items</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bevat verborgen items</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
     </body>
