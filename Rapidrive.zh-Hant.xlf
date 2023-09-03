@@ -338,8 +338,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 許可證最多可對 10 台使用同一 Microsoft 帳戶（如 Microsoft Store 策略中所定義）的電腦有效</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">在商業環境中使用需要 Pro 許可證。&lt;br/&gt;請測試幾天，但如果發現該程式有用，請從 Microsoft Store 購買許可證（通過“關於”對話框）</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -1080,8 +1081,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要說明：這是一個&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>，它將編輯註冊表以使 OneCommander 成為預設的檔管理員和文件夾處理程式（無法替換打開/保存對話框）。&amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>這將使Windows文件資源管理器不可用&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - 即使按兩下檔資源管理器中的檔夾，一個指揮官也會打開。&amp;lt;br/&amp;gt;如果您<it id="5" pos="close">&lt;/bpt&gt;</it>移動或刪除一個指揮官（卸載它不會撤消更改），則需要&amp;lt;bpt id="3"&amp;gt;&amp;lt;b&amp;gt;註銷它&amp;lt;ept id="3"&amp;gt;&amp;lt;/b&amp;gt;<it id="6" pos="close">&lt;/ept&gt;</it>（卸載它不會撤消更改）！&amp;lt;br/&amp;gt;這也將允許在後台運行以加快窗口打開速度。&amp;lt;br/&amp;gt;您是否絕對確定要繼續操作，並且知道如何在出現故障時自行恢復註冊表（在恢復時不支援）？</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">重要提示：這是一個[BOLDSTART]實驗性功能[BOLDEND]，它將編輯您的註冊表，使OneCommander成為預設的檔管理器和文件夾處理程式（打開/保存對話框無法替換）。[NEWLINE][BOLDSTART]這將使Windows文件資源管理器無法使用[BOLDEND] - 即使按兩下檔資源管理器中的資料夾，OneCommander也會打開。[NEWLINE]如果您曾經移動或刪除OneCommander，則需要通過取消選中此選項來[BOLDSTART]取消註冊它[BOLDEND]（卸載它不會撤消更改）！[NEWLINE]這也將允許在後台運行以更快地打開視窗。[NEWLINE]您是否絕對確定要繼續，並且您知道如何在出現故障時自行還原註冊表（在恢復情況下不支援）？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
@@ -1092,8 +1092,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重要提示：這是一個&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> 它將編輯Windows註冊表以完全取代Windows文件資源管理器Win + E熱鍵。此註冊表更改將使「一個指揮官」在按兩下資源管理器快捷方式時打開，但不會禁用資源管理器中的導航。扭轉這種情況的唯一方法是從OneCommander註銷它或從OneCommander資料夾運行註冊表腳本（卸載OC不會自動更改它）。進行？</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">重要提示：這是一個[BOLDSTART]實驗性功能[BOLDEND]，它將編輯Windows註冊表以完全替換Windows文件資源管理器Win+E熱鍵。此註冊表更改將使 OneCommander 在按兩下資源管理器快捷方式時打開，但不會禁用資源管理員中的導航。扭轉這種情況的唯一方法是從OneCommander取消選中此按鈕或從OneCommander資料夾運行註冊表腳本（卸載OC不會自動更改它）。[NEWLINE]進行？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -2415,113 +2414,113 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
-          <target state="new">Paste text and images as new files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">將文字和圖像粘貼為新檔</target>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="new">Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">按 Ctrl+V 將創建帶有剪貼板內容的文字/圖像作為具有當前日期的檔</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Files starting with dot</source>
-          <target state="new">Files starting with dot</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">以點開頭的檔</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="new">Use local thumbnails database (faster)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用本地縮圖資料庫（更快）</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="new">Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">在「設置」資料夾中創建資料庫檔，而不是使用Windows 縮略圖緩存來儲存檔預覽圖像。檔將很大。覆蓋預設資料夾縮圖並使用自訂資料夾圖示禁用</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
           <source>Rewind seconds</source>
-          <target state="new">Rewind seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">倒帶秒數</target>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
           <source>Forward seconds</source>
-          <target state="new">Forward seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">前進秒數</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
           <source>Percentage of total length</source>
-          <target state="new">Percentage of total length</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">佔總長度的百分比</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptSeconds" translate="yes" xml:space="preserve">
           <source>Specific number of seconds</source>
-          <target state="new">Specific number of seconds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">特定秒數</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitQuestion" translate="yes" xml:space="preserve">
           <source>Left and Right arrow control for media playback</source>
-          <target state="new">Left and Right arrow control for media playback</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">用於媒體播放的向左和向右箭頭控件</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercent" translate="yes" xml:space="preserve">
           <source>Percent jump</source>
-          <target state="new">Percent jump</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">百分比跳躍</target>
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="new">Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">允許以相同的跳轉次數預覽所有媒體，無論長度如何。預設 12%（8 次跳躍）</target>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
-          <target state="new">Clear local thumbnail database</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">清除本地縮圖資料庫</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
-          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">這將使縮圖的顯示速度變慢，直到第一次打開每個資料夾時再次提取每個縮圖。[換行]是否確定？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="new">Local thumbnail database contains {0} thumbnails with total size of {1} MB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">本地縮圖資料庫包含{0}個縮圖，總大小為 {1} MB</target>
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
-          <target state="new">Drives list</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">驅動器清單</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In dropdown for default path (showing list of drives/disks)</note>
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="new">Folder thumbnail style</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">資料夾縮圖樣式</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
-          <target state="new">Update to version ahead (less stable)</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">提前更新到版本（不太穩定）</target>
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="new">Global hotkey to open program</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">全球熱鍵打開程式</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
-          <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">若要在未運行時打開程式，請固定為任務欄上的第一項，然後使用 Win+1 打開</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="new">Extensions</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">擴展</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
           <source>Full names</source>
-          <target state="new">Full names</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">全名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
           <source>Prefixed files</source>
-          <target state="new">Prefixed files</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">帶前綴的檔</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
           <source>Files to treat as hidden:</source>
-          <target state="new">Files to treat as hidden:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">要視為隱藏的檔案：</target>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
-          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">可見性由上述複選框或快捷方式控制</target>
         </trans-unit>
         <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
           <source>You can already use hotkey:</source>
-          <target state="new">You can already use hotkey:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您已經可以使用熱鍵：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
       </group>
@@ -2721,10 +2720,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">使用此分隔線上的 ︿ ﹀ 按鈕顯示/隱藏瀏覽器窗格</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">使用此分隔線上的 ❮ ❯ 按鈕顯示/隱藏瀏覽器窗格</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2747,8 +2748,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">這不是 .NET 標準中的有效日期格式。重置為預設值</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">可移植程式需要在自己的資料夾中具有寫入許可權，因此它們不能位於「程式檔」 資料夾中。請將整個資料夾移動到&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>非系統資料夾&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>並再次運行</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">可移植程式需要在自己的資料夾中具有寫入訪問許可權，因此它們不能位於「程式檔」 資料夾中。請關閉程式並將整個資料夾移動到 [BOLDSTART]非系統資料夾[BOLDEND] 並再次運行</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
@@ -2776,8 +2777,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔擴展名不同。&amp;lt;br/&amp;gt;是否要&amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>將原始擴展名添加回去&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以便使用相同的關聯程序打開該檔？</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">檔擴展名不同。[NEWLINE]是否要[BOLDSTART]添加原始擴展名[BOLDEND]，以便可以使用相同的關聯程式打開檔？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2787,23 +2787,19 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">此功能僅在專業版中可用。&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>立即獲取專業版？&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">此功能僅在專業版中可用。[NEWLINE]立即獲取專業版？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">關閉最後一個視窗時，是否希望程式&amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>保持後台運行&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>（系統托盤中的圖示）以便更快地下一步啟動？</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">關閉最後一個視窗時，是否希望程式[BOLDSTART]繼續在後台運行[BOLDEND]（系統托盤中的圖示）以便下次啟動更快？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">您已更改專案名稱，但按兩下了 outside。&amp;lt;br/&amp;gt;在這種情況下，是否要&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>alway 重命名檔&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>而不是取消操作？</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">您已更改項目名稱，但在外部按兩下。[NEWLINE]是否要在這種情況下始終重命名檔而不是取消操作？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">以管理員身份重新啟動程式？這將&amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>清除所有正在進行的文件傳輸&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>以及通過OneCommander運行的其他進程</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">以管理員身份重新啟動程式？這將[BOLDSTART]取消所有正在進行的檔傳輸[BOLDEND]和通過OneCommander運行的其他進程</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4128,8 +4124,8 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">功能表行下方的排序選項是元數據屬性，而不是實際文件屬性。按這些排序是 &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow<it id="1" pos="close">&lt;/bpt&gt;</it>&amp;lt;ept<it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;/b&amp;gt;，並且會導致程式在打開使用此排序的文件夾或選項卡時&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it>。</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">功能表行下方的排序選項是元數據屬性，而不是實際文件屬性。按這些排序是[BOLDSTART]慢[BOLDEND]，並且將導致程式在打開使用此排序的資料夾或選項卡時[BOLDSTART]凍結[BOLDEND]。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -4259,8 +4255,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">程序崩潰，因為其他一些軟體正在訪問OneCommander的檔.&amp;lt;br/&amp;gt;如果&amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it>資料夾是自動檔同步或雲備份的一部分，則需要關閉OneCommander並將整個程式資料夾移動到其他位置。&amp;lt;br/&amp;gt;如果防病毒軟體或其他安全軟體在載入 DLL 時掃描程式資料夾，也可能導致崩潰。</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">程式已崩潰，因為其他一些軟體正在訪問OneCommander的檔。[換行]如果[BOLDSTART]{0}[BOLDEND]資料夾是自動檔同步或雲備份的一部分，則需要關閉OneCommander並將整個程式資料夾移動到其他位置。[NEWLINE]如果防病毒軟體或其他安全軟體在載入 DLL 時掃描程式資料夾，也可能導致崩潰。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
@@ -4422,80 +4417,80 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
-          <target state="new">Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">提取其中所有文件的縮圖？[換行]這可能需要幾個小時，所以最好在一夜之間完成。</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
-          <target state="new">Get all thumbnails</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">獲取所有縮圖</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
-          <target state="new">Regenerate thumbnail</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">重新生成縮圖</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
-          <target state="new">Remove</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">刪除</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For now it is only menu item for computer clicked context menu</note>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
           <source>Blank file</source>
-          <target state="new">Blank file</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">空白檔</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in New File dialog to create blank file</note>
         </trans-unit>
         <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
           <source>File name</source>
-          <target state="new">File name</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In new file dialog</note>
         </trans-unit>
         <trans-unit id="FileTemplates" translate="yes" xml:space="preserve">
           <source>File templates</source>
-          <target state="new">File templates</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">檔範本</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In menu for new file</note>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
-          <target state="new">Browse phone</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">瀏覽手機</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
           <source>B</source>
-          <target state="new">B</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">B</target>
         </trans-unit>
         <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
           <source>GB</source>
-          <target state="new">GB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">國標</target>
         </trans-unit>
         <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
           <source>GiB</source>
-          <target state="new">GiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">吉卜</target>
         </trans-unit>
         <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
           <source>KB</source>
-          <target state="new">KB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">知識庫</target>
         </trans-unit>
         <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
           <source>KiB</source>
-          <target state="new">KiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">躺</target>
         </trans-unit>
         <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
           <source>MB</source>
-          <target state="new">MB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">兆位元組</target>
         </trans-unit>
         <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
           <source>MiB</source>
-          <target state="new">MiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">尼亞</target>
         </trans-unit>
         <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
           <source>TB</source>
-          <target state="new">TB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">結核病</target>
         </trans-unit>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
-          <target state="new">TiB</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">西</target>
         </trans-unit>
         <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
           <source>Contains hidden items</source>
-          <target state="new">Contains hidden items</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">包含隱藏專案</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>

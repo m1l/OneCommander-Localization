@@ -1857,10 +1857,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="translated">Используйте кнопки ︿ ﹀ на этом разделителе для отображения/скрытия панелей браузера</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="translated">Используйте кнопки ❮ ❯ на этом разделителе для отображения/скрытия панелей браузера</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -1883,8 +1885,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Это недопустимый формат даты в стандарте .NET. Сброс до стандартного</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">Портативные программы нуждаются в доступе на запись в свои собственные папки, поэтому они не могут находиться в папке «Program Files». Пожалуйста, закройте программу, переместите всю папку в <bpt id="1">&lt;b&gt;</bpt>несистемную папку<ept id="1">&lt;/b&gt;</ept>и запустите ее снова</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">Портативные программы нуждаются в доступе на запись в свои собственные папки, поэтому они не могут находиться в папке «Program Files». Пожалуйста, закройте программу, переместите всю папку в <bpt id="1">&lt;b&gt;</bpt>несистемную папку<ept id="1">&lt;/b&gt;</ept>и запустите ее снова</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -3296,8 +3299,9 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="translated">Параметры сортировки под строкой меню - это свойства метаданных, а не собственно свойства файла. Сортировка по ним <bpt id="1">&lt;b&gt;</bpt> медленная<ept id="1">&lt;/b&gt;</ept> и приведет к <bpt id="2">&lt;b&gt;</bpt> зависанию программы<ept id="2">&lt;/b&gt;</ept> при открытии папок или вкладок, использующих эту сортировку.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="needs-review-translation">Параметры сортировки под строкой меню - это свойства метаданных, а не собственно свойства файла. Сортировка по ним <bpt id="1">&lt;b&gt;</bpt> медленная<ept id="1">&lt;/b&gt;</ept> и приведет к <bpt id="2">&lt;b&gt;</bpt> зависанию программы<ept id="2">&lt;/b&gt;</ept> при открытии папок или вкладок, использующих эту сортировку.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -3887,8 +3891,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 Лицензия будет действительна для 10 компьютеров, используемых с одной учетной записью Майкрософт (как определено в политике Microsoft Store)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">Лицензия Pro требуется для использования в коммерческих условиях.&lt;br/&gt;Пожалуйте протестируйте ее в течение нескольких дней, но если вы считаете программу полезной, пожалуйста, приобретите лицензию в Microsoft Store (через диалоговое окно О программе)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">Лицензия Pro требуется для использования в коммерческих условиях.&lt;br/&gt;Пожалуйте протестируйте ее в течение нескольких дней, но если вы считаете программу полезной, пожалуйста, приобретите лицензию в Microsoft Store (через диалоговое окно О программе)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>

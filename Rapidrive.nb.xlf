@@ -221,8 +221,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Microsoft-konto (som definert i Microsoft Store-policyen)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="final" state-qualifier="mt-suggestion">Pro-lisens kreves for å bruke i en kommersiell setting.&lt;br/&gt;Vennligst test det i et par dager, men hvis du synes programmet er nyttig, vennligst kjøp lisensen fra Microsoft Store (gjennom dialogboksen Om)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pro-lisens kreves for å bruke i en kommersiell setting.&lt;br/&gt;Vennligst test det i et par dager, men hvis du synes programmet er nyttig, vennligst kjøp lisensen fra Microsoft Store (gjennom dialogboksen Om)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -1185,8 +1186,7 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Viktig: Dette er en &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1" &amp;gt;&amp;lt;b &amp;gt;eksperimentell funksjon &amp;lt;ept id = "1" &amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> som vil redigere registeret for å gjøre OneCommander standard filbehandling og mappebehandler (Åpne / Lagre dialogbokser kan ikke erstattes). &amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>Dette vil gjøre Windows Filutforsker ubrukelig&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - selv når du klikker på en mappe i Filutforsker, åpnes OneCommander. &amp;lt;br/&amp;gt;Du må &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;avregistrere den&amp;lt;ept id="3"&amp;gt;&amp;lt;/b<it id="6" pos="close">&lt;/ept&gt;</it>&amp;gt; ved å fjerne merket for dette alternativet hvis du noen gang flytter eller fjerner OneCommander (å avinstallere det vil ikke reversere endringene)!&amp;lt;br/&amp;gt;Dette vil også gjøre det mulig å kjøre i bakgrunnen for raskere vindusåpning.&amp;lt;br/&amp;gt;Er du helt sikker på at du vil fortsette, og du vet hvordan du gjenoppretter registeret på egen hånd hvis noe mislykkes (ingen støtte i tilfelle av gjenoppretting)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Viktig: Dette er en [BOLDSTART]eksperimentell funksjon [BOLDEND]som vil redigere registeret for å gjøre OneCommander standard filbehandling og mappebehandler (Åpne / Lagre dialogbokser kan ikke erstattes). [NEWLINE][BOLDSTART]Dette vil gjøre Windows Filutforsker ubrukelig[BOLDEND] - selv når du klikker på en mappe i Filutforsker, åpnes OneCommander. [NEWLINE]Du må [BOLDSTART]avregistrere den[BOLDEND] ved å fjerne merket for dette alternativet hvis du noen gang flytter eller fjerner OneCommander (å avinstallere det vil ikke reversere endringene)![NEWLINE]Dette vil også gjøre det mulig å kjøre i bakgrunnen for raskere vindusåpning.[NEWLINE]Er du helt sikker på at du vil fortsette, og du vet hvordan du gjenoppretter registeret på egen hånd hvis noe mislykkes (ingen støtte i tilfelle av gjenoppretting)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
@@ -1206,8 +1206,7 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation">Viktig: Dette er en &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id = "1" &amp;gt;&amp;lt;b &amp;gt; eksperimentell funksjon &amp;lt;ept id = "1" &amp;gt;&amp;lt; / b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> som vil redigere Windows-registeret for å erstatte Windows filutforsker Win + E hurtigtast. Denne registerendringen vil gjøre OneCommander åpen når du klikker på Explorer-snarveien, men vil ikke deaktivere navigering i Utforsker. Den eneste måten å reversere dette på er ved å fjerne merket for denne knappen fra OneCommander eller kjøre registerskriptet fra OneCommander-mappen (avinstallering av OC vil ikke endre det automatisk). Fortsette?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Viktig: Dette er en [BOLDSTART] eksperimentell funksjon [BOLDEND] som vil redigere Windows-registeret for å erstatte Windows filutforsker Win + E hurtigtast. Denne registerendringen vil gjøre OneCommander åpen når du klikker på Explorer-snarveien, men vil ikke deaktivere navigering i Utforsker. Den eneste måten å reversere dette på er ved å fjerne merket for denne knappen fra OneCommander eller kjøre registerskriptet fra OneCommander-mappen (avinstallering av OC vil ikke endre det automatisk). Fortsette?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -2818,10 +2817,12 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="final">Bruk ︿ ﹀ knappene på denne skillelinjen for å vise/skjule nettleserruter</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="final" state-qualifier="mt-suggestion">Bruk ❮ ❯ knappene på denne skillelinjen for å vise/skjule nettleserruter</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2859,8 +2860,9 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
           <target state="final" state-qualifier="mt-suggestion">Dette er ikke et gyldig datoformat i .NET-standarden. Tilbakestilling til standard</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="final">Bærbare programmer trenger skrivetilgang i sine egne mapper, slik at de ikke kan leve i mappen "Programfiler". Vennligst lukk programmet og flytt hele mappen til en <bpt id="1">&lt;b&gt;</bpt>ikke-system mappe<ept id="1">&lt;/b&gt;</ept> og kjør det igjen</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">Bærbare programmer trenger skrivetilgang i sine egne mapper, slik at de ikke kan leve i mappen "Programfiler". Vennligst lukk programmet og flytt hele mappen til en <bpt id="1">&lt;b&gt;</bpt>ikke-system mappe<ept id="1">&lt;/b&gt;</ept> og kjør det igjen</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2892,8 +2894,9 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
           <target state="final" state-qualifier="mt-suggestion">Du kan aktivere skriptknappen på nytt fra Avanserte innstillinger</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="final">Sorteringsalternativer under menylinjen er metadataegenskapene, og ikke de faktiske filegenskapene. Sortering etter disse er <bpt id="1">&lt;b&gt;</bpt>tregt<ept id="1">&lt;/b&gt;</ept> og vil føre til at programmet<bpt id="2">&lt;b&gt;</bpt>fryser<ept id="2">&lt;/b&gt;</ept> når du åpner mapper eller faner som bruker denne sorteringen.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="needs-review-translation">Sorteringsalternativer under menylinjen er metadataegenskapene, og ikke de faktiske filegenskapene. Sortering etter disse er <bpt id="1">&lt;b&gt;</bpt>tregt<ept id="1">&lt;/b&gt;</ept> og vil føre til at programmet<bpt id="2">&lt;b&gt;</bpt>fryser<ept id="2">&lt;/b&gt;</ept> når du åpner mapper eller faner som bruker denne sorteringen.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">

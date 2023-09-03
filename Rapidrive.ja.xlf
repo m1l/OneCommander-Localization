@@ -233,9 +233,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 ライセンスは、Microsoft Store の規約の通り、同じ Microsoft アカウントで使用される最大 10 台のコンピューターで有効です。</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="final">商用利用するにはProライセンスが必要です。&lt;br/&gt;数日間試用してください。気に入っていただけたら、Microsoft Storeからライセンスを購入してください([バージョン情報]ダイアログから)
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">商用利用するにはProライセンスが必要です。&lt;br/&gt;数日間試用してください。気に入っていただけたら、Microsoft Storeからライセンスを購入してください([バージョン情報]ダイアログから)
 </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -2761,10 +2762,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="translated">この境界線の ︿ ﹀ ボタンを使用して、ブラウザペインを表示/非表示にします</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="translated">この境界線の❮❯ボタンを使用して、ブラウザペインを表示/非表示にします</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2798,7 +2801,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">これは、.NET 標準では有効な日付形式ではありません。デフォルトへリセットしています</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">ポータブルプログラムは、自身のフォルダに書き込みアクセス権を必要とするため、「Program Files」フォルダに存在することはできません。フォルダ全体を<bpt id="1">&lt;b&gt;</bpt>非システムフォルダ<ept id="1">&lt;/b&gt;</ept>に移動して、もう一度実行してください</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -2830,8 +2833,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="translated">メニューバーの下の並べ替えオプションはメタデータ プロパティであり、実際のファイル プロパティではありません。これらによる並び替えは<bpt id="1">&lt;b&gt;</bpt>遅く<ept id="1">&lt;/b&gt;</ept>、フォルダやタブを開くときにプログラムが<bpt id="2">&lt;b&gt;</bpt>固まる<ept id="2">&lt;/b&gt;</ept>場合があります</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="needs-review-translation">メニューバーの下の並べ替えオプションはメタデータ プロパティであり、実際のファイル プロパティではありません。これらによる並び替えは<bpt id="1">&lt;b&gt;</bpt>遅く<ept id="1">&lt;/b&gt;</ept>、フォルダやタブを開くときにプログラムが<bpt id="2">&lt;b&gt;</bpt>固まる<ept id="2">&lt;/b&gt;</ept>場合があります</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">

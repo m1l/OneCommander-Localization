@@ -1029,10 +1029,10 @@ Folders can't be sorted</source>
           <target state="translated">Ovo nije važeći format datuma u .NET standardu. Originalni format je vraćen</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu OneCommander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">test</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">test</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -1094,8 +1094,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="needs-review-translation">Želite li ponovo pokrenuti program kao administrator? Ovo će &lt;bpt id="1&gt;&lt;b&gt;&lt;/bpt&gt;obustaviti sve tekući operacije nad datotekama&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; koje su pokrenute iz OneCommandera</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Želite li ponovo pokrenuti program kao administrator? Ovo će obustaviti sve tekući operacije nad datotekama koje su pokrenute iz OneCommandera</target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -1123,11 +1122,12 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation">Koristite ˄ ˅ na ovom razdelniku da biste prikazali/sakrili panele</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation">Koristite &lt;it id="1" pos="open"&gt; &gt;&lt; &gt;&lt;/it&gt; na ovom razdelniku da biste prikazali/sakrili panele</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Koristite ❮ ❯ na ovom razdelniku da biste prikazali/sakrili panele</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDate_NewestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Newest first)</source>
@@ -1626,8 +1626,8 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opcije sortiranja ispod linije menija su svojstva metapodataka, a ne stvarna svojstva datoteke. Sortiranje po &amp;lt;bpt id="1&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>sledak&amp;lt;ept id="1&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> i prouzrokovaće &amp;lt; &amp;lt; programabpt id="2"&amp;gt; &amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>freeze&amp;lt;ept id="2"&amp;gt; &amp;gt;&amp;lt;/b&amp;gt; prilikom otvaranja fascikli<it id="4" pos="close">&lt;/ept&gt;</it> ili kartica koje koriste ovo sortiranje.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">Opcije sortiranja ispod linije menija su svojstva metapodataka, a ne stvarna svojstva datoteke. Sortiranje na ovaj način je sporo i prouzrokovaće zamrzavanje programa prilikom otvaranja fascikli ili kartica koje koriste ovo sortiranje.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -1757,8 +1757,7 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Program je pao jer neki drugi softver pristupa Datotekamanderovih datoteka.&amp;lt;br/&amp;gt;Ako je &amp;lt;bpt id="1&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; fascikla je deo automatizovane sinhronizacije datoteka ili rezervne<it id="2" pos="close">&lt;/ept&gt;</it> kopije u oblaku koja će vam biti potrebna da zatvorite OneCommander i premestite celu fasciklu &amp;lt;br/&amp;gt;Akad antivirusni ili drugi bezbednosni softver skenira fasciklu programa u trenutku učitavanja DLL-a, to takođe može dovesti do pada sistema.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Program je pao jer neki drugi softver pristupa Datotekama neophodnih za rad programa. Ako je fascikla u kojoj se program nalazi deo automatizovane sinhronizacije datoteka, neophodno je da zatvorite OneCommander i premestite celu fasciklu na drugu lokaciju. Isto se može desiti da antivirusni ili drugi bezbednosni softver skenira fasciklu programa u trenutku učitavanja DLL-a, to takođe može dovesti do pada programa.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
@@ -3962,8 +3961,9 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kupovina nije dovršena. Kupovinu možete da dovršite u bilo kom trenutku kada microsoft Prodavnica bude dostupna.</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">Pro licenca je obavezna za korišćenje u komercijalne svrhe.&lt;br/&gt;Molim testirajte program nekoliko dana i ako vam je program koristan molimo vas da kupite licencu preko Microsoft prodavnice (putem dijaloga "O Programu")</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">Pro licenca je obavezna za korišćenje u komercijalne svrhe.&lt;br/&gt;Molim testirajte program nekoliko dana i ako vam je program koristan molimo vas da kupite licencu preko Microsoft prodavnice (putem dijaloga "O Programu")</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>

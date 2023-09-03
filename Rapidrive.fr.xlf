@@ -119,11 +119,12 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <target state="final">L’achat n’a pu être effectué. Vous pourrez effectuer l’achat lorsque le Microsoft Store sera à nouveau disponible.</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="final">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.&lt;br/&gt;Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.&lt;br/&gt;Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
           <note from="MultilingualEditor" annotates="source" priority="4">Same here, I've added the "professional use". May need to be shortened, depending on the space allowed for this string. In this case just remove "ou commercial".</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment.</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -2156,10 +2157,12 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="final" state-qualifier="mt-suggestion">Utilisez les boutons ˄ ˅ de ce séparateur pour afficher/masquer les volets du navigateur</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="final">Utilisez les boutons &lt; &gt; de ce séparateur pour afficher/masquer les volets du navigateur</target>
+          <target state="translated">Utilisez les boutons ❮ ❯ de ce séparateur pour afficher/masquer les volets du navigateur</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2182,8 +2185,9 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
           <target state="final">Il ne s’agit pas d’un format de date valide dans la norme .NET. Réinitialisation à la valeur par défaut</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="final">Les programmes portables ont besoin d’un accès en écriture dans leurs propres dossiers, ainsi ils ne peuvent pas s'exécuter dans le dossier « Program Files ». Déplacez le dossier entier vers un ; et exécutez-le à nouveau</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">Les programmes portables ont besoin d’un accès en écriture dans leurs propres dossiers, ainsi ils ne peuvent pas s'exécuter dans le dossier « Program Files ». Déplacez le dossier entier vers un ; et exécutez-le à nouveau</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -3588,8 +3592,9 @@ Les dossiers ne sont pas triés</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="final">Les options de tri sous la ligne de menu sont les propriétés métadata et pas les propriétés réelles des fichiers. Les utiliser pour trier est <bpt id="1">&lt;b&gt;</bpt>lent<ept id="1">&lt;/b&gt;</ept> et va provoquer le <bpt id="2">&lt;b&gt;</bpt>gel<ept id="2">&lt;/b&gt;</ept> du programme lors de l'ouverture de dossiers ou d'onglets utilisant ce type de tri.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="needs-review-translation">Les options de tri sous la ligne de menu sont les propriétés métadata et pas les propriétés réelles des fichiers. Les utiliser pour trier est <bpt id="1">&lt;b&gt;</bpt>lent<ept id="1">&lt;/b&gt;</ept> et va provoquer le <bpt id="2">&lt;b&gt;</bpt>gel<ept id="2">&lt;/b&gt;</ept> du programme lors de l'ouverture de dossiers ou d'onglets utilisant ce type de tri.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">

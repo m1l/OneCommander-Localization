@@ -1870,11 +1870,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Usa i pulsanti ˄ ˅ su questo divisore per mostrare/nascondere i riquadri del browser</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation">Usa i <it id="1" pos="open">&lt; &gt;</it> pulsanti su questo divisore per mostrare/nascondere i riquadri del browser</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Usa i ❮ ❯ pulsanti su questo divisore per mostrare/nascondere i riquadri del browser</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -1897,7 +1898,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Questo non è un formato di data valido nello standard .NET. Ripristino dei valori predefiniti</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">I programmi portabili hanno bisogno di accesso in scrittura nella propria cartella pertanto non possono risiedere nella cartalla. Per favore sposta l'intera cartella in una <bpt id="1">&lt;b&gt;</bpt>cartella non di sistema<ept id="1">&lt;/b&gt;</ept> ed esegui nuovamente</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -3315,8 +3316,8 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le opzioni di ordinamento sotto la riga del menu sono le proprietà dei metadati e non le proprietà effettive del file. L'ordinamento in base a questi è<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; e farà sì che il programma &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; quando si aprono cartelle o schede che utilizzano questo ordinamento.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">Le opzioni di ordinamento sotto la riga del menu sono le proprietà dei metadati e non le proprietà effettive del file. L'ordinamento in base a questi è [BOLDSTART]lento[BOLDEND] e causerà il blocco del programma quando si aprono cartelle o schede che utilizzano questo ordinamento.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -3446,8 +3447,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Il programma si è arrestato in modo anomalo perché alcuni altri software accedono alla cartella files.&amp;lt;br/&amp;gt;If &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> fa parte di una sincronizzazione automatica dei file o di un backup cloud, è necessario chiudere OneCommander e spostare l'intera cartella del programma in una posizione diversa. &amp;lt;br/&amp;gt;Se un antivirus o un altro software di sicurezza esegue la scansione della cartella del programma al momento del caricamento della DLL, può anche causare un arresto anomalo.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Il programma si è bloccato perché alcuni altri software accedono ai file di OneCommander. [NEWLINE]Se la cartella [BOLDSTART]{0}[BOLDEND] fa parte di una sincronizzazione automatica dei file o di un backup cloud, sarà necessario chiudere OneCommander e spostare l'intera cartella del programma in una posizione diversa. [NUOVA LINEA] Se un antivirus o un altro software di protezione esegue la scansione della cartella del programma al momento del caricamento della DLL, può anche causare un arresto anomalo.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
@@ -3933,8 +3933,9 @@ La licenza sarà valida per un massimo di 10 computer utilizzati con lo stesso a
           <target state="translated">L'acquisto non è stato completato. Puoi completare l'acquisto in ogni momento in cui Microsoft Store è disponibile.</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">La licenza Pro è necessaria per l'utilizzo in un ambiente commerciale.&lt;br/&gt;Per favore provala per un paio di giorni, ma se trovi utile il programma acquista la licenza dal Microsoft Store (tramite la finestra di dialogo Informazioni)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>

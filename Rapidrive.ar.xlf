@@ -351,8 +351,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 ستكون الرخصة صالحا لما يصل الى 10 حواسيب مستخدمة مع نفس حساب مايكروسوفت (كما هو محدد في نهج متجر مايكروسوفت )</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">مطلوب رخصة المحترف للاستخدام في بيئة تجارية.&lt;br/&gt;يرجى اختباره لبضعة ايام ولكن اذا وجدت البرنامج مفيدا ، فيرجى شراء الرخصة من متجر مايكروسوفت  (من خلال مربع حوار حول)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">مطلوب رخصة المحترف للاستخدام في بيئة تجارية.&lt;br/&gt;يرجى اختباره لبضعة ايام ولكن اذا وجدت البرنامج مفيدا ، فيرجى شراء الرخصة من متجر مايكروسوفت  (من خلال مربع حوار حول)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -2819,10 +2820,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="translated">استخدم ازرار 〈 〉 على هذا الفاصل لاظهار / اخفاء لوحات المتصفح</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="translated">استخدم ازرار ❮ ❯ على هذا المقسم لاظهار / اخفاء لوحات المتصفح</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2860,9 +2863,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">هذا ليس تنسيق تاريخ صالح في معيار .NET. اعادة التعيين الى الوضع الافتراضي</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">تحتاج البرامج المحمولة الى الوصول للكتابة في مجلداتها الخاصة حتى لا تتمكن من العيش في مجلد "ملفات البرامج". الرجاء اغلاق البرنامج ونقل المجلد باكمله الى &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;مجلد غير نظامي&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> وتشغيله مرة اخرى</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">تحتاج البرامج المحمولة الى الوصول للكتابة في مجلداتها الخاصة حتى لا تتمكن من العيش في مجلد "ملفات البرامج". الرجاء اغلاق البرنامج ونقل المجلد باكمله الى &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;مجلد غير نظامي&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> وتشغيله مرة اخرى</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
           <source>Please use only letters, numbers, and - or _</source>
@@ -2893,9 +2897,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">يمكنك اعادة تمكين زر البرامج النصية من الاعدادات المتقدمة</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="translated">خيارات الفرز اسفل سطر القائمة هي خصائص البيانات الوصفية، وليست خصائص الملف الفعلية. الفرز حسب هؤلاء هو<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; وسيؤدي البرنامج الى &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; عند فتح المجلدات او علامات التبويب التي تستخدم هذا الفرز.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="needs-review-translation">خيارات الفرز اسفل سطر القائمة هي خصائص البيانات الوصفية، وليست خصائص الملف الفعلية. الفرز حسب هؤلاء هو<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; وسيؤدي البرنامج الى &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; عند فتح المجلدات او علامات التبويب التي تستخدم هذا الفرز.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">
           <source>Icon packs updated. Look for new entries in file/folder icon pack selection boxes</source>

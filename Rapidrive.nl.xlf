@@ -210,8 +210,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelfde Microsoft-account (zoals gedefinieerd in het Microsoft Store-beleid)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">Pro-licentie is vereist om te gebruiken in een commerciële omgeving.&lt;br/&gt;Test het een paar dagen, als u het programma nuttig vindt, koop dan de licentie in de Microsoft Store (via het dialoogvenster Info)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">Pro-licentie is vereist om te gebruiken in een commerciële omgeving.&lt;br/&gt;Test het een paar dagen, als u het programma nuttig vindt, koop dan de licentie in de Microsoft Store (via het dialoogvenster Info)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -2730,11 +2731,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Gebruik ˄ ˅ knoppen op deze scheidingslijn om browservensters weer te geven/verbergen</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gebruik <it id="1" pos="open">&lt; &gt;</it> knoppen op deze scheidingslijn om browservensters weer te geven/verbergen</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Gebruik ❮ ❯ knoppen op deze scheidingslijn om browservensters weer te geven/verbergen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2757,7 +2759,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Dit is geen geldige datumnotatie in de .NET-standaard. Terugzetten naar standaard</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">Draagbare programma's hebben schrijftoegang nodig in hun eigen mappen, zodat ze niet in de map "Program Files" kunnen bestaan. Verplaats de hele map naar een &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;non-system map&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; en voer deze opnieuw uit</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -4146,8 +4148,8 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sorteeropties onder de menuregel zijn de metagegevenseigenschappen en niet de werkelijke bestandseigenschappen. Sorteren op die is &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> en zal ervoor zorgen dat het programma &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>vriezen&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> bij het openen van mappen of tabbladen die deze sortering gebruiken.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">Sorteeropties onder de menuregel zijn de metagegevenseigenschappen en niet de werkelijke bestandseigenschappen. Sorteren op die is [BOLDSTART]slow[BOLDEND] en zal ervoor zorgen dat het programma [BOLDSTART]vriezen[BOLDEND] bij het openen van mappen of tabbladen die deze sortering gebruiken.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -4277,8 +4279,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Programma is gecrasht omdat sommige andere software toegang heeft tot OneCommander's files.&amp;lt;br/&amp;gt;Als &amp;lt;bpt id ="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> map deel uitmaakt van een geautomatiseerde bestandssynchronisatie of een cloudback-up, moet u OneCommander sluiten en de hele programmamap naar een andere locatie verplaatsen. &amp;lt;br/&amp;gt;Als een antivirusprogramma of andere beveiligingssoftware de programmamap scant op het moment dat DLL wordt geladen, kan dit ook een crash veroorzaken.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Programma is gecrasht omdat sommige andere software toegang heeft tot OneCommander's files[NEWLINE]{0}[NEWLINE]map deel uitmaakt van een geautomatiseerde bestandssynchronisatie of een cloudback-up, moet u OneCommander sluiten en de hele programmamap naar een andere locatie verplaatsen. [NEWLINE]Als een antivirusprogramma of andere beveiligingssoftware de programmamap scant op het moment dat DLL wordt geladen, kan dit ook een crash veroorzaken.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">

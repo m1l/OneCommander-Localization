@@ -221,8 +221,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Microsoft-fiókkal használnak (a Microsoft Store szabályzatában meghatározottak szerint)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">A kereskedelmi környezetben való használathoz Pro-licenc szükséges.&lt;br/&gt;Kérjük, tesztelje néhány napig, de ha hasznosnak találja a programot, kérjük, vásárolja meg a licencet a Microsoft Store-ból (a Névjegy párbeszédpanelen keresztül)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">A kereskedelmi környezetben való használathoz Pro-licenc szükséges.&lt;br/&gt;Kérjük, tesztelje néhány napig, de ha hasznosnak találja a programot, kérjük, vásárolja meg a licencet a Microsoft Store-ból (a Névjegy párbeszédpanelen keresztül)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -1155,20 +1156,17 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;kísérleti funkció&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely úgy szerkeszti a rendszerleíró adatbázist, hogy a OneCommander legyen az alapértelmezett fájlkezelő és mappakezelő (a Megnyitás/Mentés párbeszédpanelek nem cserélhetők le). &amp;lt;br/&amp;gt;&amp;lt;bpt<it id="3" pos="close">&lt;/bpt&gt;</it> id="2"&amp;gt;&amp;lt;b&amp;gt;Ez használhatatlanná teszi a Windows File Explorert&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - még akkor is, ha a File Explorer egyik mappájára kattint, megnyílik a OneCommander. &amp;lt;br/&amp;gt;Meg kell &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;törölnie kell a regisztrációt&amp;lt;ept id="3"&amp;gt;&amp;lt;/b<it id="6" pos="close">&lt;/ept&gt;</it>&amp;gt; ha valaha is áthelyezi vagy eltávolítja a OneCommandert (az eltávolítása nem fogja visszavonni a változásokat)!&amp;lt;br/&amp;gt;Ez lehetővé teszi a háttérben való futtatást is a gyorsabb ablaknyitás érdekében.&amp;lt;br/&amp;gt;Teljesen biztos benne, hogy folytatni akarja, és tudja, hogyan állíthatja vissza önállóan a rendszerleíró adatbázist, ha valami nem sikerül (helyreállítás esetén nincs támogatás)?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Fontos: Ez egy [BOLDSTART]kísérleti funkció[BOLDEND], amely szerkeszti a rendszerleíró adatbázist, hogy a OneCommander legyen az alapértelmezett fájlkezelő és mappakezelő (a megnyitási/mentési párbeszédablakok nem cserélhetők le). [NEWLINE] [BOLDSTART] Ez használhatatlanná teszi a Windows File Explorert[BOLDEND] - még akkor is, ha egy mappára kattint a File Explorerben, megnyílik a OneCommander. [NEWLINE] Törölnöd kell a [BOLDSTART]regisztrációt[BOLDEND] úgy, hogy törölöd ennek az opciónak a jelölését, ha valaha is áthelyezed vagy eltávolítod a OneCommandert (az eltávolítás nem vonja vissza a változtatásokat)! [NEWLINE] Ez lehetővé teszi a háttérben való futtatást is az ablakok gyorsabb megnyitása érdekében. [NEWLINE] Teljesen biztos benne, hogy folytatni akarja, és tudja, hogyan állíthatja vissza a rendszerleíró adatbázist önmagában, ha valami nem sikerül (nincs támogatás helyreállítás esetén)?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Szeretnéd &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;restart program most&amp;lt;ept id="1"&amp;gt;&amp;lt;/b<it id="2" pos="close">&lt;/ept&gt;</it>&amp;gt; az összes változtatás alkalmazásához?&amp;lt;br/&amp;gt;Ez megszakítja az egyik parancsnok által kezdeményezett összes folyamatban lévő műveletet</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Szeretné most újraindítani a [BOLDSTART] programot [BOLDEND] az összes módosítás alkalmazásához? [NEWLINE] Ez törli a OneCommander által kezdeményezett összes folyamatban lévő műveletet</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fontos: Ez egy &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;experimental feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> amely a Windows rendszerleíró adatbázisát szerkeszti, hogy teljesen lecserélje a Windows File Explorer Win+E gyorsbillentyűt. Ez a rendszerleíró adatbázis-módosítás megnyitja a OneCommandert, amikor az Explorer parancsikonra kattint, de nem tiltja le a navigációt az Intézőben. Ezt csak úgy lehet megfordítani, ha törli a regisztrációt a OneCommanderből, vagy futtatja a rendszerleíró adatbázis szkriptet a OneCommander mappából (az OC eltávolítása nem változtatja meg automatikusan). Halad?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Fontos: Ez egy [BOLDSTART]kísérleti funkció[BOLDEND], amely szerkeszti a Windows rendszerleíró adatbázisát, hogy teljesen lecserélje a Windows File Explorer Win + E gyorsbillentyűt. Ez a rendszerleíró adatbázis módosítás megnyitja a OneCommandert, amikor az Explorer parancsikonjára kattint, de nem tiltja le a navigációt az Intézőben. Ezt csak úgy lehet megfordítani, ha törli a jelölést a OneCommander gombjáról, vagy futtatja a rendszerleíró szkriptet a OneCommander mappából (az OC eltávolítása nem változtatja meg automatikusan). [NEWLINE] Halad?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -2760,10 +2758,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Használja a 〈 〉 gombokat ezen az elválasztón a böngészőpanelek megjelenítéséhez/elrejtéséhez</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Használja az ❮ ❯ gombokat ezen az elválasztón a böngészőpanelek megjelenítéséhez / elrejtéséhez</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2791,9 +2791,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ez nem érvényes dátumformátum a .NET szabványban. Visszaállítás alapértelmezettre</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="needs-review-translation">A hordozható programoknak írási hozzáférésre van szükségük a saját mappáikban, így nem élhetnek a "Program Files" mappában. Kérjük, helyezze át a teljes mappát egy &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;nem rendszermappa&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; mappába,<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it> és futtassa újra</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="translated">A hordozható programoknak írási hozzáférésre van szükségük a saját mappájukban, így nem lehetnek a "Program Files" mappában. Kérjük, zárja be a programot, és helyezze át a teljes mappát egy [BOLDSTART] nem rendszermappába[BOLDEND], majd futtassa újra</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2807,16 +2806,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A OneCommander teljes bezárásához tartsa<it id="1" pos="close">&lt;/bpt&gt;</it> lenyomva<it id="2" pos="close">&lt;/ept&gt;</it> a &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt; billentyűt, miközben a bezárás gombra kattint&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;, vagy kattintson a jobb gombbal a OneCommander ikonra a Rendszertálcán (az óra mellett), és válassza a &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i lehetőséget&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">A OneCommander teljes bezárásához tartsa lenyomva a [BOLDSTART]billentyűt a CTRL billentyűt, miközben a bezárás gombra kattint[BOLDEND], vagy kattintson a jobb gombbal a OneCommander ikonra a tálcán (az óra mellett), és válassza a [BOLDSTART]Exit[BOLDEND] parancsot</target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A szóköz továbbra is előnézetként működik, még akkor is, ha fájlokat szűr. A hely nem használható szűrőként</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="translated">A menüsor alatti rendezési beállítások a metaadatok tulajdonságai, nem pedig a tényleges fájltulajdonságok. Ezek szerinti rendezés<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; és a program &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; értéket eredményez az ezt a rendezést használó mappák vagy lapok megnyitásakor.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">A menüsor alatti rendezési beállítások a metaadat-tulajdonságok, nem pedig a tényleges fájltulajdonságok. Az ezek szerinti rendezés [BOLDSTART]slow[BOLDEND] és a program [BOLDSTART]lefagyását okozza [BOLDEND] az ilyen rendezést használó mappák vagy lapok megnyitásakor.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="DLG_UpdatedIconPacks" translate="yes" xml:space="preserve">
@@ -2825,8 +2823,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A fájlkiterjesztés más.&amp;lt;br/&amp;gt;Szeretné &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;hozzáadni az eredeti kiterjesztést back&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> hogy a fájl ugyanazzal a társított programmal nyitható meg?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">A fájlkiterjesztés más. [NEWLINE] Szeretné a [BOLDSTART]-t újra hozzáadni az eredeti kiterjesztéshez[BOLDEND], hogy a fájl ugyanazzal a társított programmal nyitható meg?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2836,8 +2833,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
-          <target state="needs-review-translation">Ez a funkció csak Pro verzióban érhető el. &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it> Szerezze be most a Pro verziót? &amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Ez a funkció csak Pro verzióban érhető el. [NEWLINE]Szerezze be most a Pro verziót? </target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
@@ -2853,18 +2849,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Az utolsó ablak bezárásakor azt szeretné, hogy a program &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;folyamatosan fusson a háttérben&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt; (ikon<it id="2" pos="close">&lt;/ept&gt;</it> a tálcán) a gyorsabb következő indítás érdekében?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Az utolsó ablak bezárásakor szeretné, hogy a program [BOLDSTART]továbbra is fusson a háttérben[BOLDEND] (ikon a tálcán) a gyorsabb következő indítás érdekében?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Megváltoztatta az elem nevét, de az outside.&amp;lt;br/&amp;gt; gombra kattintott,<it id="1" pos="close">&lt;/bpt&gt;</it> és ebben a helyzetben a művelet megszakítása helyett &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;always átnevezi a fájlt&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> át?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Módosította az elem nevét, de kifelé kattintott. [NEWLINE] Szeretné, hogy a [BOLDSTART]mindig átnevezze a fájlt [BOLDEND] ebben a helyzetben a művelet megszakítása helyett?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indítsa újra a programot rendszergazdaként? Ez &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt; megszakítja az összes folyamatban lévő fájlátvitelt&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> és más, a OneCommanderen keresztül futó folyamatot.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Indítsa újra a programot rendszergazdaként? Ez [BOLDSTART]megszakítja az összes folyamatban lévő fájlátvitelt[BOLDEND] és a OneCommanderen keresztül futó egyéb folyamatokat</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>

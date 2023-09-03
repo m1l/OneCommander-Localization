@@ -1871,11 +1871,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation">Використовуйте кнопки ˄ ˅ на цьому роздільнику, щоб показати / приховати панелі браузера</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation">Використовуйте <it id="1" pos="open">&lt; &gt;</it> кнопки на цьому роздільнику, щоб показати / приховати панелі браузера</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Використовуйте ❮ ❯ кнопки на цьому роздільнику, щоб показати / приховати панелі браузера</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -1898,7 +1899,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Неприпустимий формат дати в стандарті .NET. Скидання до типового</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">Портативні програми потребують доступу до запису у власних папках, щоб вони не могли жити в папці "Program Files". Будь ласка, перемістіть всю папку до <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> і запустіть її знову</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -1943,8 +1944,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation">При закритті останнього вікна, ви хочете, щоб програма <bpt id="1">&lt;B&gt;</bpt>продовжує працювати у фоновому режимі&lt;ept id = "1"&gt;&lt; / B&gt;&lt;/ept&gt; (значок в системному треї) для швидшого наступного запуску?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">При закритті останнього вікна, ви хочете, щоб програма [BOLDSTART]продовжує працювати у фоновому режимі[BOLDEND] (значок в системному треї) для швидшого наступного запуску?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
@@ -3317,8 +3317,8 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Параметри сортування під рядком меню – це властивості метаданих, а не фактичні властивості файлу. Сортування за цими параметрами становить<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;slow&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt; і призведе до того, що програма &amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;freeze&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt; під час відкриття папок або вкладок, які використовують це сортування.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">Параметри сортування під рядком меню – це властивості метаданих, а не фактичні властивості файлу. Сортування за цим параметром [BOLDSTART]slow[BOLDEND] призведе до того, що програма [BOLDSTART] зависне[BOLDEND] під час відкриття папок або вкладок, які використовують це сортування.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -3448,8 +3448,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Програма вийшла з ладу, оскільки деяке інше програмне забезпечення отримує доступ до<it id="1" pos="close">&lt;/bpt&gt;</it> файлів OneCommander.&amp;lt;br/&amp;gt;Якщо &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> папка є частиною автоматичної синхронізації файлів або хмарної резервної копії, вам потрібно буде закрити OneCommander і перемістити всю папку програми в інше місце. &amp;lt;br/&amp;gt;Якщо антивірусне або інше захисне програмне забезпечення сканує папку програми в момент завантаження DLL, це також може спричинити збій.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Програма аварійно завершила роботу, оскільки якесь інше програмне забезпечення отримує доступ до файлів OneCommander. [NEWLINE] Якщо папка [BOLDSTART]{0}[BOLDEND] є частиною автоматичної синхронізації файлів або хмарного резервного копіювання, потрібно закрити OneCommander і перемістити всю папку програми в інше розташування. [NEWLINE] Якщо антивірусне або інше захисне програмне забезпечення сканує папку програми під час завантаження бібліотеки DLL, це також може спричинити збій.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
@@ -3910,8 +3909,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 Ліцензія буде дійсна для до 10 комп'ютерів, які використовуються з тим самим обліковим записом Microsoft (як визначено в політиці Microsoft Store)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">Pro ліцензія необхідна для використання в комерційному ключі. &lt;br/&gt;Протестуйте її протягом декількох днів, але якщо ви знайдете програму корисною, будь ласка, придбайте ліцензію в Microsoft Store (через діалогове вікно Про програму)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">Pro ліцензія необхідна для використання в комерційному ключі. &lt;br/&gt;Протестуйте її протягом декількох днів, але якщо ви знайдете програму корисною, будь ласка, придбайте ліцензію в Microsoft Store (через діалогове вікно Про програму)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>

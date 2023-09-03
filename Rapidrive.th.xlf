@@ -90,8 +90,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 สิทธิ์การใช้งานจะมีผลกับคอมพิวเตอร์สูงสุด 10 เครื่องที่ใช้บัญชี Microsoft เดียวกัน (ตามที่กําหนดไว้ในนโยบาย Microsoft Store)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">การใช้ในเชิงพาณิชย์จำเป็นต้องมีใบอนุญาตรุ่น Pro&lt;br/&gt;โปรดทดลองใช้โปรแกรมระยะหนึ่ง หากคุณพบว่าโปรแกรมมีประโยชน์โปรดซื้อใบอนุญาตจาก Microsoft Store (โปรดดู 'เกี่ยวกับ')</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="needs-review-translation">การใช้ในเชิงพาณิชย์จำเป็นต้องมีใบอนุญาตรุ่น Pro&lt;br/&gt;โปรดทดลองใช้โปรแกรมระยะหนึ่ง หากคุณพบว่าโปรแกรมมีประโยชน์โปรดซื้อใบอนุญาตจาก Microsoft Store (โปรดดู 'เกี่ยวกับ')</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -2731,11 +2732,12 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="needs-review-translation">ใช้ปุ่ม ˄ ˅ บนตัวแบ่งนี้เพื่อแสดง/ซ่อนบานหน้าต่างเบราว์เซอร์</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="needs-review-translation">กด <it id="1" pos="open">&lt; &gt;</it> ปุ่มตัวแบ่งนี้เพื่อแสดง/ซ่อนบานหน้าต่างเบราเซอร์</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">กด ❮ ❯ ปุ่มตัวแบ่งนี้เพื่อแสดง/ซ่อนบานหน้าต่างเบราเซอร์</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2758,7 +2760,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">รูปแบบวันที่นี้ไม่ถูกต้องตามมาตรฐาน .NET โปรแกรมจะใช้ค่าเริ่มต้น</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">โปรแกรมแบบ portable จะต้องได้รับสิทธิ์การเขียนในโฟลเดอร์ของโปรแกรมเอง จึงไม่อาจเก็บโปรแกรมไว้ในโฟลเดอร์ "Program Files" โปรดย้ายโฟลเดอร์โปรแกรมไปไว้ใน <bpt id="1">&lt;b&gt;</bpt>โฟลเดอร์ซึ่งไม่ใช่ของระบบปฏิบัติการ<ept id="1">&lt;/b&gt;</ept> จากนั้นเปิดโปรแกรมอีกครั้ง</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -4141,8 +4143,8 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัวเลือกการเรียงลําดับด้านล่างบรรทัดเมนูคือคุณสมบัติ Metadata ไม่ใช่คุณสมบัติแฟ้มจริง การเรียงลําดับตามเหล่านั้นคือ<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it><it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it> &amp;lt;bpt id =" 1" &amp;gt;&amp;lt; b &amp;gt; ช้า &amp;lt; ept id =" 1" &amp;gt;&amp;lt; / b&amp;gt; และจะทําให้โปรแกรม&amp;lt;bpt id =" 2" &amp;gt;&amp;lt; b &amp;gt;freeze &amp;lt;ept id =" 2" &amp;gt;&amp;lt; / b&amp;gt; เมื่อเปิดโฟลเดอร์หรือแท็บที่ใช้การเรียงลําดับนี้</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">ตัวเลือกการเรียงลําดับด้านล่างบรรทัดเมนูคือคุณสมบัติ Metadata ไม่ใช่คุณสมบัติแฟ้มจริง การเรียงลําดับตามเหล่านั้นคือ [BOLDSTART] ช้า [BOLDEND] และจะทําให้โปรแกรมหยุด [BOLDSTART] ตรึง [BOLDEND] เมื่อเปิดโฟลเดอร์หรือแท็บที่ใช้การเรียงลําดับนี้</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -4272,8 +4274,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมขัดข้องเนื่องจากซอฟต์แวร์อื่นกําลังเข้าถึงไฟล์ OneCommander โฟลเดอร์ files.&amp;lt;br/&amp;gt;If &amp;lt;bpt id<it id="1" pos="close">&lt;/bpt&gt;</it>="1"&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> เป็นส่วนหนึ่งของการซิงค์ไฟล์อัตโนมัติหรือการสํารองข้อมูลบนคลาวด์คุณจะต้องปิด OneCommander และย้ายโฟลเดอร์โปรแกรมทั้งหมดไปยังตําแหน่งอื่น &amp;lt;br/&amp;gt;หากโปรแกรมป้องกันไวรัสหรือซอฟต์แวร์รักษาความปลอดภัยอื่น ๆ สแกนโฟลเดอร์โปรแกรมในขณะที่กําลังโหลด DLL อาจทําให้เกิดความผิดพลาดได้เช่นกัน</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">โปรแกรมขัดข้องเนื่องจากซอฟต์แวร์อื่นกําลังเข้าถึงไฟล์ของ OneCommander [นิวไลน์] หากโฟลเดอร์ [BOLDSTART]{0}[BOLDEND] เป็นส่วนหนึ่งของการซิงค์ไฟล์อัตโนมัติหรือการสํารองข้อมูลบนคลาวด์ คุณจะต้องปิด OneCommander และย้ายโฟลเดอร์โปรแกรมทั้งหมดไปยังตําแหน่งอื่น [นิวไลน์] หากโปรแกรมป้องกันไวรัสหรือซอฟต์แวร์รักษาความปลอดภัยอื่น ๆ สแกนโฟลเดอร์โปรแกรมในขณะที่กําลังโหลด DLL อาจทําให้เกิดความผิดพลาดได้เช่นกัน</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">

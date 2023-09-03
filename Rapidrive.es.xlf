@@ -335,8 +335,8 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
 La licencia será válida para un máximo de 10 equipos utilizados con la misma cuenta Microsoft (como se define en la directiva de Microsoft Store)</target>
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
-          <source>Pro license is required to use in a commercial setting.&lt;br/&gt;Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Se requiere licencia Pro para usar en un entorno comercial.&lt;br/&gt;Pruebalo durante un par de días, pero si encuentra útil el programa, compre la licencia en Microsoft Store (a través del cuadro de diálogo Acerca de)</target>
+          <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Se requiere licencia Pro para usar en un entorno comercial.[NEWLINE]Pruebalo durante un par de días, pero si encuentra útil el programa, compre la licencia en Microsoft Store (a través del cuadro de diálogo Acerca de)</target>
         </trans-unit>
         <trans-unit id="StoreNoValidLicenseFound" translate="yes" xml:space="preserve">
           <source>Couldn't find a valid license with the current Microsoft account. Please check your email for the original purchase receipt and then click the button below to log into the same account that was used to purchase the license.</source>
@@ -1118,20 +1118,19 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>función experimental<ept id="1">&lt;/b&gt;</ept> que editará su Registro para hacer de OneCommander el administrador de archivos predeterminado y controlador de carpetas (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Esto hará que el Explorador de archivos de Windows quede inutilizable<ept id="2">&lt;/b&gt;</ept> - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. &lt;br/&gt;Deberá <bpt id="3">&lt;b&gt;</bpt>anular su registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez se muda o elimina OneCommander ¡(desinstalarlo no revertirá los cambios)!&lt;br/&gt;
-Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.&lt;br/&gt;¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
+          <target state="needs-review-translation">Importante: Esta es una [BOLDSTART]función experimental[BOLDEND] que editará su Registro para hacer de OneCommander el administrador de archivos predeterminado y controlador de carpetas (los cuadros de diálogo Abrir/Guardar no se pueden reemplazar). [NEWLINE][BOLDSTART]Esto hará que el Explorador de archivos de Windows quede inutilizable[BOLDEND] - incluso al hacer clic en una carpeta en el Explorador de archivos, se abrirá OneCommander. [NEWLINE]Deberá <bpt id="3">&lt;b&gt;</bpt>anular su registro<ept id="3">&lt;/b&gt;</ept> desmarcando esta opción si alguna vez se muda o elimina OneCommander ¡(desinstalarlo no revertirá los cambios)![NEWLINE]
+Esto también habilitará la ejecución en segundo plano para una apertura de ventana más rápida.[NEWLINE]¿Está absolutamente seguro de que desea continuar y sabe cómo restaurar el registro por su cuenta si algo falla (no hay soporte en caso de recuperación)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="needs-review-translation">¿Desea <bpt id="1">&lt;b&gt;</bpt>reiniciar el programa ahora<ept id="1">&lt;/b&gt;</ept> para aplicar todos los cambios?&lt;br/&gt;Esto cancelará todas las operaciones en curso iniciadas por OneCommander</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">¿Desea [BOLDSTART]reiniciar el programa ahora[BOLDEND] para aplicar todos los cambios?[NEWLINE]Esto cancelará todas las operaciones en curso iniciadas por OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation">Importante: Esta es una <bpt id="1">&lt;b&gt;</bpt>característica experimental<ept id="1">&lt;/b&gt;</ept> que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que OneCommander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es desmarcando este botón de OneCommander o ejecutando el script de registro desde la carpeta OneCommander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
+          <target state="needs-review-translation">Importante: Esta es una [BOLDSTART]característica experimental[BOLDEND] que editará el Registro de Windows para reemplazar completamente la tecla de acceso rápido Win+E del Explorador de archivos de Windows. Este cambio de registro hará que OneCommander se abra al hacer clic en el acceso directo de Explorer, pero no deshabilitará la navegación dentro de Explorer. La única forma de revertir esto es desmarcando este botón de OneCommander o ejecutando el script de registro desde la carpeta OneCommander (la desinstalación de OC no lo cambiará automáticamente). ¿Desea proceder?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
@@ -1794,8 +1793,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mostrar archivos y carpetas del sistema</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Mostrar archivos y carpetas del sistema protegidos</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2372,8 +2370,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
-          <target state="needs-review-translation">Se ha encontrado el archivo de configuración existente de la versión de Microsoft Store del programa.&lt;br/&gt;¿Desea importar todas las configuraciones a esta versión?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Se ha encontrado el archivo de configuración existente de la versión de Microsoft Store del programa.[NEWLINE]¿Desea importar todas las configuraciones a esta versión?</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
@@ -2415,8 +2412,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Files starting with dot</source>
-          <target state="needs-review-translation">Tratar los archivos que comienzan con un punto como ocultos</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Archivos que comienzan con punto</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
@@ -2461,8 +2457,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
-          <target state="needs-review-translation">Esto hará que la visualización de miniaturas sea más lenta hasta que cada miniatura se extraiga nuevamente la primera vez que se abra cada carpeta..&lt;br/&gt;¿Está seguro?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Esto hará que la visualización de miniaturas sea más lenta hasta que cada miniatura se extraiga nuevamente la primera vez que se abra cada carpeta..[NEWLINE]¿Está seguro?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
@@ -2492,26 +2487,26 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="new">Extensions</target>
+          <target state="translated">Extensiones</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
           <source>Full names</source>
-          <target state="new">Full names</target>
+          <target state="translated">Nombres completos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
           <source>Prefixed files</source>
-          <target state="new">Prefixed files</target>
+          <target state="translated">Archivos prefijados</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
           <source>Files to treat as hidden:</source>
-          <target state="new">Files to treat as hidden:</target>
+          <target state="translated">Archivos para tratar como ocultos:</target>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
-          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+          <target state="translated">Visibilidad controlada por la casilla de verificación o acceso directo anterior</target>
         </trans-unit>
         <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
           <source>You can already use hotkey:</source>
@@ -2577,8 +2572,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
-          <target state="needs-review-translation">El archivo {0} ya existe en la carpeta de destino. &lt;br/&gt;¿Reemplazar todo?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El archivo {0} ya existe en la carpeta de destino. [NEWLINE]¿Reemplazar todo?</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -2720,10 +2714,12 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
           <target state="translated">Usar los botones ︿ ﹀ en este divisor para mostrar/ocultar los paneles del navegador</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
           <target state="translated">Usar los botones ❮ ❯ en este divisor para mostrar/ocultar los paneles del navegador</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
           <source>NOTIFICATIONS</source>
@@ -2746,8 +2742,8 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
           <target state="translated" state-qualifier="mt-suggestion">Este no es un formato de fecha válido en .NET estándar. Restablecimiento a los valores predeterminados</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a <bpt id="1">&lt;b&gt;</bpt>non-system folder<ept id="1">&lt;/b&gt;</ept> and run it again</source>
-          <target state="translated">Los programas portátiles necesitan un acceso de escritura en sus propias carpetas para que no puedan estar en la carpeta "Program Files". Cierre el programa y mueva toda la carpeta a una <bpt id="1">&lt;b&gt;</bpt>carpeta que no es del sistema<ept id="1">&lt;/b&gt;</ept> y ejecútela de nuevo</target>
+          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="translated">Los programas portátiles necesitan un acceso de escritura en sus propias carpetas para que no puedan estar en la carpeta "Program Files". Cierre el programa y mueva toda la carpeta a una [BOLDSTART]carpeta que no es del sistema[BOLDEND] y ejecútela de nuevo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2761,8 +2757,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
-          <target state="needs-review-translation">Para cerrar OneCommander por completo, <bpt id="1">&lt;B&gt;</bpt>mantenga presionada la tecla Ctrl mientras hace clic en el botón Cerrar<ept id="1">&lt;/B&gt;</ept>, o haga clic con el botón secundario en el icono OneCommander en la bandeja del sistema (junto al reloj) y seleccione <bpt id="2">&lt;i&gt;</bpt>Salir<ept id="2">&lt;/i&gt;</ept></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Para cerrar OneCommander por completo, [BOLDSTART]mantenga presionada la tecla Ctrl mientras hace clic en el botón Cerrar[BOLDEND], o haga clic con el botón secundario en el icono OneCommander en la bandeja del sistema (junto al reloj) y seleccione [BOLDSTART]Salir[BOLDEND]</target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2774,8 +2769,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation">La extensión de archivo es diferente.&lt;br/&gt;¿Desea <bpt id="1">&lt;B&gt;</bpt>volver a añadir la extensión original<ept id="1">&lt;/B&gt;</ept> para que el archivo se pueda abrir con el mismo programa asociado?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">La extensión de archivo es diferente.[NEWLINE]¿Desea [BOLDSTART]volver a añadir la extensión original[BOLDEND] para que el archivo se pueda abrir con el mismo programa asociado?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2785,23 +2779,20 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
-          <target state="needs-review-translation">Esta función solo está disponible en la versión Pro. <bpt id="1">&lt;b&gt;</bpt>¿Obtener la versión Pro ahora?<ept id="1">&lt;/b&gt;</ept></target>
+          <target state="needs-review-translation">Esta función solo está disponible en la versión Pro. [BOLDSTART]¿Obtener la versión Pro ahora?[BOLDEND]</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation">Al cerrar la última ventana, ¿Desea que el programa siga <bpt id="1">&lt;B&gt;</bpt>manteniéndose en segundo plano<ept id="1">&lt;/B&gt;</ept> (icono en la bandeja del sistema) para un inicio más rápido?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Al cerrar la última ventana, ¿Desea que el programa siga [BOLDSTART]manteniéndose en segundo plano[BOLDEND] (icono en la bandeja del sistema) para un inicio más rápido?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation">Cambió el nombre del elemento pero hizo clic fuera.&lt;br/&gt;¿Desea cambiar <bpt id="1">&lt;b&gt;</bpt>siempre el nombre del archivo<ept id="1">&lt;/b&gt;</ept> en esta situación en lugar de cancelar la operación?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Cambió el nombre del elemento pero hizo clic fuera.[NEWLINE]¿Desea cambiar [BOLDSTART]siempre el nombre del archivo[BOLDEND] en esta situación en lugar de cancelar la operación?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="needs-review-translation">¿Reiniciar el programa como administrador? Esto <bpt id="1">&lt;b&gt;</bpt>cancelará todas las transferencias de archivos en curso<ept id="1">&lt;/b&gt;</ept> y otros procesos que se ejecutan a través de OneCommander</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">¿Reiniciar el programa como administrador? Esto [BOLDSTART]cancelará todas las transferencias de archivos en curso[BOLDEND] y otros procesos que se ejecutan a través de OneCommander</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4060,8 +4051,7 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
-          <target state="needs-review-translation">El disco está lleno, por lo que no se pueden guardar los ajustes. Borre al menos algunos KB de espacio o vacíe la Papelera de reciclaje.&lt;br/&gt;¿Volver a intentar guardar la configuración?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El disco está lleno, por lo que no se pueden guardar los ajustes. Borre al menos algunos KB de espacio o vacíe la Papelera de reciclaje.[NEWLINE]¿Volver a intentar guardar la configuración?</target>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
@@ -4108,17 +4098,17 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="translated">Duración Media</target>
+          <target state="translated">Duración media</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="translated">Resolución Media</target>
+          <target state="translated">Resolución media</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
-          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is <bpt id="1">&lt;b&gt;</bpt>slow<ept id="1">&lt;/b&gt;</ept> and will cause program to <bpt id="2">&lt;b&gt;</bpt>freeze<ept id="2">&lt;/b&gt;</ept> when opening folders or tabs that use this sorting.</source>
-          <target state="translated">Las opciones de clasificación debajo de la línea del menú son las propiedades de los metadatos y no las propiedades reales del archivo. Ordenar por esos es <bpt id="1">&lt;b&gt;</bpt>lento<ept id="1">&lt;/b&gt;</ept> y hará que el programa <bpt id="2">&lt;b&gt;</bpt>se bloquee<ept id="2">&lt;/b&gt;</ept> al abrir carpetas o pestañas que utilizan esta clasificación.</target>
+          <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
+          <target state="translated">Las opciones de clasificación debajo de la línea del menú son las propiedades de los metadatos y no las propiedades reales del archivo. Ordenar por esos es [BOLDSTART]lento[BOLDEND] y hará que el programa [BOLDSTART]se bloquee[BOLDEND] al abrir carpetas o pestañas que utilizan esta clasificación.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -4170,14 +4160,12 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
-          <target state="needs-review-translation">El archivo está en uso por{0}.&lt;br/&gt;({1})&lt;br/&gt;¿Reintentar operación?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El archivo está en uso por{0}.[NEWLINE]({1})[NEWLINE]¿Reintentar operación?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.[NEWLINE]Retry operation?</source>
-          <target state="needs-review-translation">El archivo está en uso por otro proceso.&lt;br/&gt;¿Reintentar operación?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El archivo está en uso por otro proceso.[NEWLINE]¿Reintentar operación?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
@@ -4248,14 +4236,12 @@ Las carpetas no se pueden ordenar</target>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation">El programa se bloqueó porque algún otro software está accediendo a los archivos de OneCommander.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> la carpeta es parte de una sincronización de archivos automatizada o una copia de seguridad en la nube, deberá cerrar OneCommander y mover toda la carpeta del programa a una ubicación diferente. &lt;br/&gt;If Un antivirus u otro software de seguridad escanea la carpeta del programa en el momento en que se carga la DLL, también puede provocar un bloqueo.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">El programa se bloqueó porque algún otro software está accediendo a los archivos de OneCommander.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] la carpeta es parte de una sincronización de archivos automatizada o una copia de seguridad en la nube, deberá cerrar OneCommander y mover toda la carpeta del programa a una ubicación diferente. [NEWLINE]If Un antivirus u otro software de seguridad escanea la carpeta del programa en el momento en que se carga la DLL, también puede provocar un bloqueo.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
-          <target state="needs-review-translation">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez &lt;br/&gt;(esto se puede cambiar en Configuración ❯ Ventana)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">OneCommander seguirá ejecutándose en segundo plano para que pueda abrirse instantáneamente la próxima vez [NEWLINE](esto se puede cambiar en Configuración ❯ Ventana)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
@@ -4411,8 +4397,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
-          <target state="needs-review-translation">¿Extraer miniaturas de todos los archivos dentro?&lt;br/&gt;Esto puede llevar horas, por lo que es mejor hacerlo durante la noche.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">¿Extraer miniaturas de todos los archivos dentro?[NEWLINE]Esto puede llevar horas, por lo que es mejor hacerlo durante la noche.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
@@ -4449,43 +4434,43 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
           <source>B</source>
-          <target state="new">B</target>
+          <target state="translated">B</target>
         </trans-unit>
         <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
           <source>GB</source>
-          <target state="new">GB</target>
+          <target state="translated">GB</target>
         </trans-unit>
         <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
           <source>GiB</source>
-          <target state="new">GiB</target>
+          <target state="translated">GiB</target>
         </trans-unit>
         <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
           <source>KB</source>
-          <target state="new">KB</target>
+          <target state="translated">KB</target>
         </trans-unit>
         <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
           <source>KiB</source>
-          <target state="new">KiB</target>
+          <target state="translated">KiB</target>
         </trans-unit>
         <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
           <source>MB</source>
-          <target state="new">MB</target>
+          <target state="translated">MB</target>
         </trans-unit>
         <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
           <source>MiB</source>
-          <target state="new">MiB</target>
+          <target state="translated">MiB</target>
         </trans-unit>
         <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
           <source>TB</source>
-          <target state="new">TB</target>
+          <target state="translated">TB</target>
         </trans-unit>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
-          <target state="new">TiB</target>
+          <target state="translated">TiB</target>
         </trans-unit>
         <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
           <source>Contains hidden items</source>
-          <target state="new">Contains hidden items</target>
+          <target state="translated">Contiene elementos ocultos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>
