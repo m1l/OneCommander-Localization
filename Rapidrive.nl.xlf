@@ -1076,19 +1076,21 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">Belangrijk: Dit is een &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;experimental feature&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; die uw register bewerkt om van OneCommander de standaard bestandsbeheer app en maphandler te maken (dialoogvensters openen/opslaan kunnen niet worden vervangen). &lt;br/&gt;&lt;bpt id="2"&gt;&lt;b&gt;&lt;/bpt&gt;Dit maakt Windows Verkenner onbruikbaar&lt;ept id="2"&gt;&lt;/b&gt;&lt;/ept&gt; - zelfs wanneer u op een map in Verkenner klikt, wordt de OneCommander geopend. &lt;br/&gt;U moet &lt;bpt id="3"&gt;&lt;b&gt;&lt;/bpt&gt;unregistr it&lt;ept id="3"&gt;&lt;/b&gt;&lt;/ept&gt; als u Ooit OneCommander verplaatst of verwijdert (als u het verwijdert, worden de wijzigingen niet teruggedraaid)!&lt;br/&gt;Dit maakt het ook mogelijk om op de achtergrond te draaien voor een sneller openen van het venster.&lt;br/&gt;Ben u er absoluut zeker van dat u verder wilt gaan en weet u hoe u het register zelf kunt herstellen als er iets mis gaat (geen ondersteuning in geval van herstel)?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated">Wilt u restart programma nu om alle wijzigingen toe te passen? Dit annuleert alle lopende operaties geïnitieerd door OneCommander</target>
+          <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation">Wilt u restart programma nu om alle wijzigingen toe te passen? Dit annuleert alle lopende operaties geïnitieerd door OneCommander</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">Belangrijk: Dit is een experimental feature die het Windows-register zal bewerken om Windows Verkenner Win + E-sneltoets volledig te vervangen. Deze registerwijziging zorgt ervoor dat OneCommander wordt geopend wanneer u op de snelkoppeling Verkenner klikt, maar schakelt de navigatie in Verkenner niet uit. De enige manier om dit om te keren, is door de registratie van OneCommander ongedaan te maken of het registerscript uit te voeren vanuit de map OneCommander (als u OC verwijdert, wordt dit niet automatisch gewijzigd). Doorgaan?</target>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
+          <target state="needs-review-translation">Belangrijk: Dit is een experimental feature die het Windows-register zal bewerken om Windows Verkenner Win + E-sneltoets volledig te vervangen. Deze registerwijziging zorgt ervoor dat OneCommander wordt geopend wanneer u op de snelkoppeling Verkenner klikt, maar schakelt de navigatie in Verkenner niet uit. De enige manier om dit om te keren, is door de registratie van OneCommander ongedaan te maken of het registerscript uit te voeren vanuit de map OneCommander (als u OC verwijdert, wordt dit niet automatisch gewijzigd). Doorgaan?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -2389,8 +2391,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Huidig tabblad</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
-          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
+          <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestaand instellingenbestand uit de Microsoft Store-versie van het programma is gevonden.&lt;br/&gt;Wilt u alle instellingen in deze versie importeren?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
@@ -2476,8 +2479,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokale miniatuurdatabase wissen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
-          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hierdoor worden miniaturen langzamer weergegeven totdat elke miniatuur opnieuw wordt uitgepakt wanneer elke map voor het eerst wordt geopend.&lt;br/&gt;Weet u het zeker?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
@@ -2527,6 +2531,11 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Zichtbaarheid gecontroleerd door het bovenstaande selectievakje of snelkoppeling</target>
+        </trans-unit>
+        <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
+          <source>You can already use hotkey:</source>
+          <target state="new">You can already use hotkey:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
       </group>
     </body>
@@ -2581,7 +2590,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">{0} extraheren</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
+          <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
           <target state="needs-review-translation">Bestand {0} bestaat al in de doelmap. Alles vervangen?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
@@ -2763,8 +2772,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Map {0} niet gevonden</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated" state-qualifier="mt-suggestion">Als u OneCommander volledig wilt sluiten, &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; CTRL ingedrukt terwijl u op de knop sluiten klikt&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt;, of klik met de rechtermuisknop op het pictogram OneCommander in het systeemvak (naast de klok) en selecteer &lt;bpt id="2"&gt;&lt;i&gt;&lt;/bpt&gt;Exit&lt;ept id="2"&gt;&lt;/i&gt;&lt;/ept&gt;</target>
+          <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u OneCommander volledig wilt sluiten, &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; CTRL ingedrukt terwijl u op de knop sluiten klikt&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt;, of klik met de rechtermuisknop op het pictogram OneCommander in het systeemvak (naast de klok) en selecteer &lt;bpt id="2"&gt;&lt;i&gt;&lt;/bpt&gt;Exit&lt;ept id="2"&gt;&lt;/i&gt;&lt;/ept&gt;</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2775,7 +2785,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Pictogrampakketten bijgewerkt. Zoek naar nieuwe items in de selectievakken van het pictogrampakket voor bestanden/mappen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
+          <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">De bestandsextensie is anders. Wilt u &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; de originele extensie back&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; toevoegen zodat het bestand met hetzelfde bijbehorende programma kan worden geopend?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
@@ -2786,21 +2796,24 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
-          <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="translated" state-qualifier="mt-suggestion">Deze functie is alleen beschikbaar in de Pro-versie. &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt; Koop je de Pro-versie nu? &lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt;</target>
+          <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deze functie is alleen beschikbaar in de Pro-versie. &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt; Koop je de Pro-versie nu? &lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt;</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="translated" state-qualifier="mt-suggestion">Wilt u bij het sluiten van het laatste venster dat het programma &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; op de achtergrond actief blijft &lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; (pictogram in het systeemvak) voor een snellere volgende start?</target>
+          <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wilt u bij het sluiten van het laatste venster dat het programma &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; op de achtergrond actief blijft &lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt; (pictogram in het systeemvak) voor een snellere volgende start?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
-          <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
+          <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
           <target state="needs-review-translation">U hebt de naam gewijzigd, maar hebt op outside.&lt;br/&gt;Klikt u &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;wijg het bestand&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; in deze situatie?&lt;br/&gt;Klik &lt;bpt id="2"&gt;&lt;i&gt;&lt;/bpt&gt;No&lt;ept id="2"&gt;&lt;/i&gt;&lt;/ept&gt; om altijd expliciet de hernoemingsbewerking te bevestigen</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="translated">Programma opnieuw opstarten als Admin? Dit zal annuleer alle lopende bestandsoverdrachten en andere processen die via OneCommander worden uitgevoerd</target>
+          <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
+          <target state="needs-review-translation">Programma opnieuw opstarten als Admin? Dit zal annuleer alle lopende bestandsoverdrachten en andere processen die via OneCommander worden uitgevoerd</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4075,8 +4088,9 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
-          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">De schijf is vol, dus instellingen kunnen niet worden opgeslagen. Maak ten minste een paar kB ruimte vrij of leeg de Prullenbak. &lt;br/&gt;Retry instellingen opslaan?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
@@ -4184,13 +4198,15 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
+          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestand is in gebruik door {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operatie?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
+          <source>File is in use by another process.[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestand wordt gebruikt door een andere process.&lt;br/&gt;Retry-bewerking?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
@@ -4260,13 +4276,15 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
-          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Programma is gecrasht omdat sommige andere software toegang heeft tot OneCommander's files.&amp;lt;br/&amp;gt;Als &amp;lt;bpt id ="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> map deel uitmaakt van een geautomatiseerde bestandssynchronisatie of een cloudback-up, moet u OneCommander sluiten en de hele programmamap naar een andere locatie verplaatsen. &amp;lt;br/&amp;gt;Als een antivirusprogramma of andere beveiligingssoftware de programmamap scant op het moment dat DLL wordt geladen, kan dit ook een crash veroorzaken.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend &lt;br/&gt; (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <target state="needs-review-translation">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend &lt;br/&gt; (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
@@ -4421,8 +4439,9 @@ Sommige programma's kunnen dit bestand niet openen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
-          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
+          <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Extraheer miniaturen van alle bestanden binnen?&lt;br/&gt;Dit kan uren duren, dus het is het beste om het 's nachts te doen.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>

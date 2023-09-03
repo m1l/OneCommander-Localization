@@ -1173,26 +1173,30 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
           <target state="final">Napřed ukončete průzkumníka.exe, poté odstraňte soubory mezipaměti miniatur systému Windows a restartujte průzkumník.exe. Tímto dojde k ukončení všech probíhajících operací se soubory!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="final">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt;Pokud přesunete nebo odinstalujete OneCommander, budete jej muset nejprve <bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept> tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální funkce<ept id="1">&lt;/b&gt;</ept>, která upraví váš registr Windows tak, aby se OneCommander stal výchozím správcem souborů a obslužnou rutinou složek (dialogy Otevřít/Uložit však nelze nahradit). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Tímto se Průzkumník souborů Windows stane nepoužitelným<ept id="2">&lt;/b&gt;</ept> - OneCommander se otevře i v případě, když kliknete na složku v Průzkumníku souborů.&lt;br/&gt;Pokud přesunete nebo odinstalujete OneCommander, budete jej muset nejprve <bpt id="3">&lt;b&gt;</bpt>odregistrovat<ept id="3">&lt;/b&gt;</ept> tak, že zrušíte zaškrtnutí této možnosti (jeho samotné odinstalování tyto změny automaticky nevrátí))!&lt;br/&gt;To také programu umožní běžet na pozadí, aby bylo otevírání oken rychlejší.&lt;br/&gt;Jste si naprosto jisti, že chcete pokračovat a víte, jak samostatně obnovit registr Windows pokud něco selže (pro tyto případy není uživatelská podpora dostupná)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
-          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="final">Byl nalezen existující soubor nastavení z verze programu stažené z Microsoft Store. Chcete importovat všechna nastavení do této verze?</target>
+          <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
+          <target state="needs-review-translation">Byl nalezen existující soubor nastavení z verze programu stažené z Microsoft Store. Chcete importovat všechna nastavení do této verze?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
           <target state="final">Chcete stáhnout nejnovější verzi a znovu ji nainstalovat? Stávající nastavení nebude ovlivněno.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="final">Aby byly veškeré změny použity, je nutné program restartovat. Chcete jej <bpt id="1">&lt;b&gt;</bpt>restartovat nyní<ept id="1">&lt;/b&gt;</ept>? Tímto zrušíte veškeré dosud probíhající operace zahájené OneCommanderem</target>
+          <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation">Aby byly veškeré změny použity, je nutné program restartovat. Chcete jej <bpt id="1">&lt;b&gt;</bpt>restartovat nyní<ept id="1">&lt;/b&gt;</ept>? Tímto zrušíte veškeré dosud probíhající operace zahájené OneCommanderem</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="final">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální vlastnost<ept id="1">&lt;/b&gt;</ept>, která upraví registr systému Windows tak, aby zcela nahradil klávesovou zkratku Win+E, která spouští Průzkumník. Tato změna zajistí, aby se OneCommander při použití této klávesové zkratky otevřel; současně však nezakáže používání Průzkumníku. Jediným způsobem, jak toto nastavení vrátit zpět, je zrušit zaškrtnutí této možnosti v prostředí OneCommander nebo spustit příslušný skript ze složky OneCommander (odinstalování OC však tuto volbu automaticky nevrátí zpět). Chcete pokračovat?</target>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
+          <target state="needs-review-translation">Důležité: Toto je <bpt id="1">&lt;b&gt;</bpt>experimentální vlastnost<ept id="1">&lt;/b&gt;</ept>, která upraví registr systému Windows tak, aby zcela nahradil klávesovou zkratku Win+E, která spouští Průzkumník. Tato změna zajistí, aby se OneCommander při použití této klávesové zkratky otevřel; současně však nezakáže používání Průzkumníku. Jediným způsobem, jak toto nastavení vrátit zpět, je zrušit zaškrtnutí této možnosti v prostředí OneCommander nebo spustit příslušný skript ze složky OneCommander (odinstalování OC však tuto volbu automaticky nevrátí zpět). Chcete pokračovat?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -2454,8 +2458,9 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="final">Vymazat místní databázi miniatur</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
-          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="final">Při prvním otevření každé složky se musí miniatury znovu vytvořit. Než k tomu dojde, bude zobrazování miniatur pomalejší.&lt;br/&gt;Jste si jisti?</target>
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
+          <target state="needs-review-translation">Při prvním otevření každé složky se musí miniatury znovu vytvořit. Než k tomu dojde, bude zobrazování miniatur pomalejší.&lt;br/&gt;Jste si jisti?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
@@ -2505,6 +2510,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
           <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+        </trans-unit>
+        <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
+          <source>You can already use hotkey:</source>
+          <target state="new">You can already use hotkey:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
       </group>
     </body>
@@ -2618,8 +2628,9 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="final">Rozbaluji {0}</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
-          <target state="final">Soubor {0} již v cílové složce existuje. &lt;br/&gt;Nahradit vše?</target>
+          <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
+          <target state="needs-review-translation">Soubor {0} již v cílové složce existuje. &lt;br/&gt;Nahradit vše?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
@@ -2825,16 +2836,18 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="final" state-qualifier="mt-suggestion">ZOBRAZIT NÁHLED</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
-          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="final" state-qualifier="mt-suggestion">Disk je plný, takže nastavení nelze uložit. Vymažte alespoň několik KB místa nebo vyprázdněte koš. &lt;br/&gt;Opakovat uložení nastavení?</target>
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Disk je plný, takže nastavení nelze uložit. Vymažte alespoň několik KB místa nebo vyprázdněte koš. &lt;br/&gt;Opakovat uložení nastavení?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
           <target state="final" state-qualifier="mt-suggestion">Nesprávné heslo</target>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
-          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="final">Program havaroval, protože nějaký jiný software přistupuje k souborům OneCommander. Složka &lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> je součástí automatické synchronizace souborů nebo cloudové zálohy; budete muset zavřít OneCommander a přesunout celou složku programu na jiné místo. &lt;br/&gt;Pokud antivirový nebo jiný bezpečnostní software kontroluje složku programu v době načítání knihovny DLL, může tímto rovněž způsobit havárii.</target>
+          <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <target state="needs-review-translation">Program havaroval, protože nějaký jiný software přistupuje k souborům OneCommander. Složka &lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> je součástí automatické synchronizace souborů nebo cloudové zálohy; budete muset zavřít OneCommander a přesunout celou složku programu na jiné místo. &lt;br/&gt;Pokud antivirový nebo jiný bezpečnostní software kontroluje složku programu v době načítání knihovny DLL, může tímto rovněž způsobit havárii.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_E_DateFormatInvalid" translate="yes" xml:space="preserve">
@@ -2856,16 +2869,18 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="final" state-qualifier="mt-suggestion">Složka {0} nebyla nalezena</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="final">Chcete-li OneCommander zcela ukončit, <bpt id="1">&lt;B&gt;</bpt>podržte klávesu CTRL a klikněte na tlačítko Zavřít<ept id="1">&lt;/B&gt;</ept> nebo klikněte pravým tlačítkem myši na ikonu OneCommander v systémové liště (vedle hodin) a vyberte volbu <bpt id="2">&lt;i&gt;</bpt>Ukončit<ept id="2">&lt;/i&gt;</ept></target>
+          <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
+          <target state="needs-review-translation">Chcete-li OneCommander zcela ukončit, <bpt id="1">&lt;B&gt;</bpt>podržte klávesu CTRL a klikněte na tlačítko Zavřít<ept id="1">&lt;/B&gt;</ept> nebo klikněte pravým tlačítkem myši na ikonu OneCommander v systémové liště (vedle hodin) a vyberte volbu <bpt id="2">&lt;i&gt;</bpt>Ukončit<ept id="2">&lt;/i&gt;</ept></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
           <target state="final">Mezerník stále slouží pro zobrazení náhledu, a to i při filtrování souborů. Znak "mezera" nelze použít pro filtrování</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="final">OneCommander bude stále běžet na pozadí, takže se může příště otevřít téměř bez zpoždění&lt;br/&gt;(to lze změnit v Nastavení ❯ Okno)</target>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <target state="needs-review-translation">OneCommander bude stále běžet na pozadí, takže se může příště otevřít téměř bez zpoždění&lt;br/&gt;(to lze změnit v Nastavení ❯ Okno)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
@@ -2882,8 +2897,9 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="final">Byly aktualizovány balíčky ikon. Podívejte se na nové položky do polí pro výběr balíčků ikon souborů/složek</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="final">Přípona souboru je odlišná.&lt;br/&gt;Chcete <bpt id="1">&lt;B&gt;</bpt>vrátit původní příponu zpět<ept id="1">&lt;/B&gt;</ept>, aby mohl být soubor otevírán se stále stejným programem?</target>
+          <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">Přípona souboru je odlišná.&lt;br/&gt;Chcete <bpt id="1">&lt;B&gt;</bpt>vrátit původní příponu zpět<ept id="1">&lt;/B&gt;</ept>, aby mohl být soubor otevírán se stále stejným programem?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2892,30 +2908,36 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
-          <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="final">Tato vlastnost je dostupná jen ve verzi Pro. <bpt id="1">&lt;b&gt;</bpt>Chcete získat verzi Pro nyní?<ept id="1">&lt;/b&gt;</ept></target>
+          <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
+          <target state="needs-review-translation">Tato vlastnost je dostupná jen ve verzi Pro. <bpt id="1">&lt;b&gt;</bpt>Chcete získat verzi Pro nyní?<ept id="1">&lt;/b&gt;</ept></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="final">Soubor je používán {0}.&lt;br/&gt;({1})&lt;br/&gt;Opakovat operaci?</target>
+          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation">Soubor je používán {0}.&lt;br/&gt;({1})&lt;br/&gt;Opakovat operaci?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="final" state-qualifier="mt-suggestion">Soubor je používán jiným procesem.&lt;br/&gt;Opakovat operaci?</target>
+          <source>File is in use by another process.[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Soubor je používán jiným procesem.&lt;br/&gt;Opakovat operaci?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="final">Chcete, aby program při zavírání posledního okna <bpt id="1">&lt;B&gt;</bpt>zůstal stále běžet na pozadí<ept id="1">&lt;/B&gt;</ept> (ikona v systémové liště) a mohl být tak příště rychleji spuštěn?</target>
+          <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
+          <target state="needs-review-translation">Chcete, aby program při zavírání posledního okna <bpt id="1">&lt;B&gt;</bpt>zůstal stále běžet na pozadí<ept id="1">&lt;/B&gt;</ept> (ikona v systémové liště) a mohl být tak příště rychleji spuštěn?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
-          <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="final">Přejmenovali jste položku, ale nyní jste klikli myší mimo ni.&lt;br/&gt;Chcete v takových situacích <bpt id="1">&lt;b&gt;</bpt>vždy soubor přejmenovat<ept id="1">&lt;/b&gt;</ept> (namísto zrušení operace)?</target>
+          <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
+          <target state="needs-review-translation">Přejmenovali jste položku, ale nyní jste klikli myší mimo ni.&lt;br/&gt;Chcete v takových situacích <bpt id="1">&lt;b&gt;</bpt>vždy soubor přejmenovat<ept id="1">&lt;/b&gt;</ept> (namísto zrušení operace)?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="final">Chcete program restartovat s oprávněním správce? <bpt id="1">&lt;b&gt;</bpt>Všechny probíhající přenosy souborů budou zrušeny<ept id="1">&lt;/b&gt;</ept>, stejně jako další běžící procesy spuštěné OneCommanderem</target>
+          <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
+          <target state="needs-review-translation">Chcete program restartovat s oprávněním správce? <bpt id="1">&lt;b&gt;</bpt>Všechny probíhající přenosy souborů budou zrušeny<ept id="1">&lt;/b&gt;</ept>, stejně jako další běžící procesy spuštěné OneCommanderem</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4386,8 +4408,9 @@ Složky nelze řadit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
-          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="final">Přejete si vytvořit miniatury všech zde uložených souborů?&lt;br/&gt;Může to trvat velmi dlouho, takže je nejlépe udělat to přes noc.</target>
+          <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
+          <target state="needs-review-translation">Přejete si vytvořit miniatury všech zde uložených souborů?&lt;br/&gt;Může to trvat velmi dlouho, takže je nejlépe udělat to přes noc.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>

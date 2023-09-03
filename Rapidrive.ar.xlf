@@ -1174,37 +1174,42 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <note from="MultilingualBuild" annotates="source" priority="2">Confirmation after clicking to register as default file manager in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
-          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="translated">سيؤدي ذلك الى جعل عرض الصور المصغرة ابطا حتى يتم استخراج كل صورة مصغرة مرة اخرى في المرة الاولى التي يتم فيها فتح كل مجلد.&lt;br/&gt;هل انت متاكد؟</target>
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
+          <target state="needs-review-translation">سيؤدي ذلك الى جعل عرض الصور المصغرة ابطا حتى يتم استخراج كل صورة مصغرة مرة اخرى في المرة الاولى التي يتم فيها فتح كل مجلد.&lt;br/&gt;هل انت متاكد؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
           <target state="translated">تابع انهاء explorer.exe ، و حذف ملفات ذاكرة التخزين المؤقت المصغرة للوندوز، ثم اعادة تشغيل explorer.exe؟ سيؤدي هذا الى انهاء جميع عمليات الملفات الجارية!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="translated">هام: هذا هو &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;pilot feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> الذي سيحرر سجلك لجعل OneCommander مدير الملفات الافتراضي ومعالج المجلدات (لا يمكن استبدال مربعات حوار الفتح / الحفظ). &amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>سيؤدي ذلك الى جعل مستكشف ملفات وندوز غير قابل للاستخدام&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - حتى عند النقر فوق مجلد في File Explorer ، سيتم فتح OneCommander. &amp;lt;br/&amp;gt;ستحتاج الى &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it><it id="6" pos="close">&lt;/ept&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;الغاء تسجيله&amp;lt;ept id="3"&amp;gt;&amp;lt;/b&amp;gt; عن طريق الغاء تحديد هذا الخيار اذا قمت بنقل OneCommander او ازالته (لن يؤدي الغاء تثبيته الى عكس التغييرات)!&amp;lt;br/&amp;gt;سيؤدي هذا ايضا الى تمكين التشغيل في الخلفية لفتح النافذة بشكل اسرع.&amp;lt;br/&amp;gt;هل انت متاكد تماما من رغبتك في المتابعة وتعرف كيفية استعادة السجل بنفسك اذا فشل شيء ما (لا يوجد دعم في حالة الانتعاش)؟</target>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <target state="needs-review-translation">هام: هذا هو &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;pilot feature&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> الذي سيحرر سجلك لجعل OneCommander مدير الملفات الافتراضي ومعالج المجلدات (لا يمكن استبدال مربعات حوار الفتح / الحفظ). &amp;lt;br/&amp;gt;&amp;lt;bpt id="2"&amp;gt;&amp;lt;b&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it>سيؤدي ذلك الى جعل مستكشف ملفات وندوز غير قابل للاستخدام&amp;lt;ept id="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> - حتى عند النقر فوق مجلد في File Explorer ، سيتم فتح OneCommander. &amp;lt;br/&amp;gt;ستحتاج الى &amp;lt;bpt<it id="5" pos="close">&lt;/bpt&gt;</it><it id="6" pos="close">&lt;/ept&gt;</it> id="3"&amp;gt;&amp;lt;b&amp;gt;الغاء تسجيله&amp;lt;ept id="3"&amp;gt;&amp;lt;/b&amp;gt; عن طريق الغاء تحديد هذا الخيار اذا قمت بنقل OneCommander او ازالته (لن يؤدي الغاء تثبيته الى عكس التغييرات)!&amp;lt;br/&amp;gt;سيؤدي هذا ايضا الى تمكين التشغيل في الخلفية لفتح النافذة بشكل اسرع.&amp;lt;br/&amp;gt;هل انت متاكد تماما من رغبتك في المتابعة وتعرف كيفية استعادة السجل بنفسك اذا فشل شيء ما (لا يوجد دعم في حالة الانتعاش)؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
-          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="translated">تم العثور على ملف الاعدادات الموجود من اصدار متجر مايكروسوفت من البرنامج.&lt;br/&gt;هل تريد استيراد جميع الاعدادات الى هذا الاصدار؟</target>
+          <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
+          <target state="needs-review-translation">تم العثور على ملف الاعدادات الموجود من اصدار متجر مايكروسوفت من البرنامج.&lt;br/&gt;هل تريد استيراد جميع الاعدادات الى هذا الاصدار؟</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
           <target state="translated">هل تريد تنزيل احدث اصدار و اعادة تثبيته؟ لن تتاثر الاعدادات.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated">هل تريد restart program now لتطبيق جميع التغييرات؟
+          <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation">هل تريد restart program now لتطبيق جميع التغييرات؟
 سيؤدي هذا الى الغاء كل العمليات الجارية التي بداها OneCommander</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
-          <target state="translated">هام: هذا هو &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;ميزة تجريبية&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> التي ستقوم بتحرير سجل وندوز لاستبدال مفتاح الاختصار Win + E مستكشف ملفات وندوز بالكامل. سيؤدي تغيير السجل هذا الى فتح OneCommander عند النقر فوق اختصار مستكشف، ولكنه لن يعطل التنقل داخل مستكشف. الطريقة الوحيدة لعكس ذلك هي الغاء تحديد هذا الزر من OneCommander او تشغيل البرنامج النصي للتسجيل من مجلد OneCommander (لن يؤدي الغاء تثبيت OC الى تغييره تلقائيا). سلك؟</target>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
+          <target state="needs-review-translation">هام: هذا هو &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;b&amp;gt;ميزة تجريبية&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> التي ستقوم بتحرير سجل وندوز لاستبدال مفتاح الاختصار Win + E مستكشف ملفات وندوز بالكامل. سيؤدي تغيير السجل هذا الى فتح OneCommander عند النقر فوق اختصار مستكشف، ولكنه لن يعطل التنقل داخل مستكشف. الطريقة الوحيدة لعكس ذلك هي الغاء تحديد هذا الزر من OneCommander او تشغيل البرنامج النصي للتسجيل من مجلد OneCommander (لن يؤدي الغاء تثبيت OC الى تغييره تلقائيا). سلك؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
           <source>Open in default program</source>
@@ -2511,6 +2516,11 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Visibility controlled by the above checkbox or shortcut</source>
           <target state="new">Visibility controlled by the above checkbox or shortcut</target>
         </trans-unit>
+        <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
+          <source>You can already use hotkey:</source>
+          <target state="new">You can already use hotkey:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2623,8 +2633,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">استخراج {0}</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
+          <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">الملف {0} موجود بالفعل في المجلد الوجهة. &lt;br/&gt;استبدال الكل؟</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
@@ -2830,17 +2841,19 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">اظهار المعاينة</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
-          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="translated">القرص ممتلئ لذا لا يمكن حفظ الاعدادات. امسح بضعة ك ب على الاقل من المساحة او سلة المحذوفات الفارغة. &lt;br/&gt;اعد محاولة حفظ الاعدادات؟</target>
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
+          <target state="needs-review-translation">القرص ممتلئ لذا لا يمكن حفظ الاعدادات. امسح بضعة ك ب على الاقل من المساحة او سلة المحذوفات الفارغة. &lt;br/&gt;اعد محاولة حفظ الاعدادات؟</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
           <target state="translated">كلمة سر خاطئة</target>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
-          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="translated">تعطل البرنامج لان بعض البرامج الاخرى تقوم بالوصول الى ملفات OneCommander.&amp;lt;br/&amp;gt;اذا كان مجلد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> جزءا من مزامنة الملفات التلقائية او النسخ الاحتياطي السحابي ، فستحتاج الى اغلاق OneCommander ونقل مجلد البرنامج باكمله الى موقع مختلف. &amp;lt;br/&amp;gt;اذا قام برنامج مكافحة فيروسات او برنامج امان آخر بفحص مجلد البرنامج في الوقت الذي يتم فيه تحميل DLL ، فقد يتسبب ذلك ايضا في حدوث عطل.</target>
+          <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <target state="needs-review-translation">تعطل البرنامج لان بعض البرامج الاخرى تقوم بالوصول الى ملفات OneCommander.&amp;lt;br/&amp;gt;اذا كان مجلد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;{0}&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> جزءا من مزامنة الملفات التلقائية او النسخ الاحتياطي السحابي ، فستحتاج الى اغلاق OneCommander ونقل مجلد البرنامج باكمله الى موقع مختلف. &amp;lt;br/&amp;gt;اذا قام برنامج مكافحة فيروسات او برنامج امان آخر بفحص مجلد البرنامج في الوقت الذي يتم فيه تحميل DLL ، فقد يتسبب ذلك ايضا في حدوث عطل.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_DateFormatInvalid" translate="yes" xml:space="preserve">
           <source>This is not a valid date format in .NET standard. Resetting to default</source>
@@ -2861,17 +2874,19 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">لم يعثر على المجلد {0}</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">لاغلاق<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it> OneCommander تماما، &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;اضغط باستمرار على CTRL اثناء النقر فوق زر الاغلاق&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;، او انقر بزر الماوس الايمن فوق رمز OneCommander في علبة النظام (بجوار الساعة)، وحدد &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
+          <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
+          <target state="needs-review-translation">لاغلاق<it id="1" pos="close">&lt;/bpt&gt;</it><it id="2" pos="close">&lt;/ept&gt;</it> OneCommander تماما، &amp;lt;bpt id="1"&amp;gt;&amp;lt;B&amp;gt;اضغط باستمرار على CTRL اثناء النقر فوق زر الاغلاق&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;، او انقر بزر الماوس الايمن فوق رمز OneCommander في علبة النظام (بجوار الساعة)، وحدد &amp;lt;bpt id="2"&amp;gt;&amp;lt;i&amp;gt;Exit&amp;lt;ept id="2"&amp;gt;&amp;lt;/i&amp;gt;<it id="3" pos="close">&lt;/bpt&gt;</it><it id="4" pos="close">&lt;/ept&gt;</it></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">لا يزال مفتاح المسافة يعمل كمعاينة حتى عند تصفية الملفات. لا يمكن استخدام المساحة للفلتر</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">سيستمر OneCommander في العمل في الخلفية حتى يتمكن من فتحه على الفور في المرة القادمة &lt;br/&gt; (يمكن تغيير هذا في الاعدادات ❯ وندوز)</target>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <target state="needs-review-translation">سيستمر OneCommander في العمل في الخلفية حتى يتمكن من فتحه على الفور في المرة القادمة &lt;br/&gt; (يمكن تغيير هذا في الاعدادات ❯ وندوز)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
@@ -2887,9 +2902,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">تم تحديث حزم الايقونات. ابحث عن ادخالات جديدة في مربعات تحديد حزمة ايقونة الملف/المجلد</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="translated">امتداد الملف مختلف.&amp;lt;br/&amp;gt;هل تريد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;اضافة الامتداد الاصلي مرة اخرى&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> بحيث يمكن فتح الملف بنفس البرنامج المرتبط؟</target>
+          <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">امتداد الملف مختلف.&amp;lt;br/&amp;gt;هل تريد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1"&amp;gt;&amp;lt;B&amp;gt;اضافة الامتداد الاصلي مرة اخرى&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> بحيث يمكن فتح الملف بنفس البرنامج المرتبط؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -2897,34 +2913,41 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
-          <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="translated">هذه الميزة متاحة فقط في الاصدار المحترف. &amp;lt;معرف bpt = "1" &amp;gt;&amp;lt; ب&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it> احصل على اصدار المحترف الآن؟ &amp;lt;معرف ept = "1" &amp;gt;&amp;lt; / ب&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
+          <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
+          <target state="needs-review-translation">هذه الميزة متاحة فقط في الاصدار المحترف. &amp;lt;معرف bpt = "1" &amp;gt;&amp;lt; ب&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it> احصل على اصدار المحترف الآن؟ &amp;lt;معرف ept = "1" &amp;gt;&amp;lt; / ب&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it></target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="translated">الملف قيد الاستخدام بواسطة {0}.&lt;br/&gt;({1})&lt;br/&gt;اعادة المحاولة؟</target>
+          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation">الملف قيد الاستخدام بواسطة {0}.&lt;br/&gt;({1})&lt;br/&gt;اعادة المحاولة؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="translated">الملف قيد الاستخدام بواسطة عملية اخرى.&lt;br/&gt;اعادة المحاولة؟</target>
+          <source>File is in use by another process.[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation">الملف قيد الاستخدام بواسطة عملية اخرى.&lt;br/&gt;اعادة المحاولة؟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
-          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="translated">استخراج الصور المصغرة لجميع الملفات بداخلها؟&lt;br/&gt;قد يستغرق هذا ساعات لذا من الافضل القيام به بين عشية و ضحاها.</target>
+          <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
+          <target state="needs-review-translation">استخراج الصور المصغرة لجميع الملفات بداخلها؟&lt;br/&gt;قد يستغرق هذا ساعات لذا من الافضل القيام به بين عشية و ضحاها.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="translated">عند اغلاق النافذة الاخيرة ، هل تريد ان يستمر البرنامج &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;B&amp;gt; في العمل في الخلفية&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> (رمز في علبة النظام) للبدء التالي بشكل اسرع؟</target>
+          <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
+          <target state="needs-review-translation">عند اغلاق النافذة الاخيرة ، هل تريد ان يستمر البرنامج &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;B&amp;gt; في العمل في الخلفية&amp;lt;ept id="1"&amp;gt;&amp;lt;/B&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> (رمز في علبة النظام) للبدء التالي بشكل اسرع؟</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
-          <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="translated">لقد قمت بتغيير اسم العنصر ولكنك نقرت خارج.&amp;lt;br/&amp;gt;هل تريد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;دائما اعادة تسمية الملف&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> في هذه الحالة بدلا من الغاء العملية؟</target>
+          <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
+          <target state="needs-review-translation">لقد قمت بتغيير اسم العنصر ولكنك نقرت خارج.&amp;lt;br/&amp;gt;هل تريد &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;دائما اعادة تسمية الملف&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> في هذه الحالة بدلا من الغاء العملية؟</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="translated">اعادة تشغيل البرنامج كمسؤول؟ سيؤدي هذا الى &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;الغاء جميع عمليات نقل الملفات الجارية&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> والعمليات الاخرى التي تعمل من خلال OneCommander</target>
+          <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
+          <target state="needs-review-translation">اعادة تشغيل البرنامج كمسؤول؟ سيؤدي هذا الى &amp;lt;bpt<it id="1" pos="close">&lt;/bpt&gt;</it> id="1&amp;gt;&amp;lt;b&amp;gt;الغاء جميع عمليات نقل الملفات الجارية&amp;lt;ept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> والعمليات الاخرى التي تعمل من خلال OneCommander</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>

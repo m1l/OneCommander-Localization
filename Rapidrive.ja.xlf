@@ -1170,18 +1170,19 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="final">explorer.exeを終了し、Windowsサムネイルキャッシュファイルを削除してから、explorer.exeを再起動しますか?これにより、進行中のすべてのファイル操作が終了します!!!</target>
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>This will make Windows File Explorer unusable<ept id="2">&lt;/b&gt;</ept> - even when clicking a folder in File Explorer the OneCommander will open. &lt;br/&gt;You will need to <bpt id="3">&lt;b&gt;</bpt>unregister it<ept id="3">&lt;/b&gt;</ept> by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)!&lt;br/&gt;This will also enable running in the background for faster window opening.&lt;br/&gt;Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
           <target state="needs-review-translation">重要: これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>で、レジストリを編集して OneCommander をデフォルトのファイルマネージャおよびフォルダハンドラにします (開く/保存ダイアログを置き換えることはできません)。これにより、<bpt id="2">&lt;b&gt;</bpt>Windowsファイルエクスプローラーが使用できなくなり<bpt id="2">&lt;/b&gt;</bpt>、ファイルエクスプローラーでフォルダーをクリックしても、OneCommanderが開きます。&lt;br/&gt;OneCommanderを移動または削除する場合は<bpt id="3">&lt;b&gt;</bpt>登録解除<bpt id="3">&lt;/b&gt;</bpt>する必要があります(アンインストールしても変更は元に戻りません)!&lt;br/&gt;これにより、バックグラウンドでの実行も有効になり、ウィンドウをより速く開くことができます。&lt;br/&gt;何かが失敗した場合に自分でレジストリを復元する方法を知っていますか? 復旧をサポートすることはできません。本当に実行しますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
-          <source>Do you want to <bpt id="1">&lt;b&gt;</bpt>restart program now<ept id="1">&lt;/b&gt;</ept> to apply all changes?&lt;br/&gt;This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="final">すべての変更を適用するため<bpt id="1">&lt;b&gt;</bpt>今すぐプログラムを再起動<ept id="1">&lt;/b&gt;</ept>しますか? &lt;br/&gt;これにより、OneCommanderによって開始された進行中のすべての操作がキャンセルされます</target>
+          <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
+          <target state="needs-review-translation">すべての変更を適用するため<bpt id="1">&lt;b&gt;</bpt>今すぐプログラムを再起動<ept id="1">&lt;/b&gt;</ept>しますか? &lt;br/&gt;これにより、OneCommanderによって開始された進行中のすべての操作がキャンセルされます</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
-          <source>Important: This is an <bpt id="1">&lt;b&gt;</bpt>experimental feature<ept id="1">&lt;/b&gt;</ept> that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). Proceed?</source>
+          <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
           <target state="needs-review-translation">重要:これは<bpt id="1">&lt;b&gt;</bpt>実験的な機能<bpt id="1">&lt;/b&gt;</bpt>であり、Windowsレジストリを編集してWindowsファイルエクスプローラーのWin+Eショートカットキーを完全に置き換えます。このレジストリの変更により、エクスプローラーのショートカットをクリックしたときにOneCommanderが開きますが、エクスプローラー内のナビゲーションは無効になりません。これを元に戻す唯一の方法は、OneCommanderから登録を解除するか、OneCommanderフォルダーからレジストリスクリプトを実行することです(OneCommanderをアンインストールしても自動的には変更されません)。実行しますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
@@ -2372,8 +2373,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Current tab</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
-          <source>Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</source>
-          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.&lt;br/&gt;Do you want to import all settings into this version?</target>
+          <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
+          <target state="new">Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
@@ -2459,8 +2460,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Clear local thumbnail database</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
-          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</source>
-          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.&lt;br/&gt;Are you sure?</target>
+          <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
+          <target state="new">This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
@@ -2510,6 +2511,11 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
           <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+        </trans-unit>
+        <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
+          <source>You can already use hotkey:</source>
+          <target state="new">You can already use hotkey:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
       </group>
     </body>
@@ -2573,7 +2579,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">{0}を展開中</target>
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
-          <source>File {0} already exists in the destination folder. &lt;br/&gt;Replace all?</source>
+          <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ファイル {0}は、コピー先フォルダーに既に存在します。すべて置き換えますか?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
@@ -2777,12 +2783,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">プレビューを表示</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
-          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. &lt;br/&gt;Retry saving settings?</source>
-          <target state="translated">ディスクがいっぱいなので、設定を保存できません。少なくとも数KBの容量空けるか、ごみ箱を空にします。&lt;br/&gt;設定の保存を再試行しますか?</target>
+          <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
+          <target state="needs-review-translation">ディスクがいっぱいなので、設定を保存できません。少なくとも数KBの容量空けるか、ごみ箱を空にします。&lt;br/&gt;設定の保存を再試行しますか?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
-          <source>Program has crashed because some other software is accessing OneCommander's files.&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. &lt;br/&gt;If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="translated">他のソフトウェアがOneCommanderのファイルにアクセスしているため、プログラムがクラッシュしました。&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept>フォルダが自動ファイル同期またはクラウドバックアップの一部である場合は、OneCommanderを閉じて、プログラムフォルダ全体を別の場所に移動する必要があります&lt;br/&gt;DLLの読み込み時にウイルス対策ソフトウェアやその他のセキュリティソフトウェアがプログラムフォルダをスキャンした場合も、クラッシュを引き起こす可能性があります。</target>
+          <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
+          <target state="needs-review-translation">他のソフトウェアがOneCommanderのファイルにアクセスしているため、プログラムがクラッシュしました。&lt;br/&gt;If <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept>フォルダが自動ファイル同期またはクラウドバックアップの一部である場合は、OneCommanderを閉じて、プログラムフォルダ全体を別の場所に移動する必要があります&lt;br/&gt;DLLの読み込み時にウイルス対策ソフトウェアやその他のセキュリティソフトウェアがプログラムフォルダをスキャンした場合も、クラッシュを引き起こす可能性があります。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_E_DateFormatInvalid" translate="yes" xml:space="preserve">
@@ -2805,18 +2813,20 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">フォルダ{0}が見つかりません</target>
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
-          <source>To close OneCommander completely, <bpt id="1">&lt;B&gt;</bpt>hold CTRL while clicking the close button<ept id="1">&lt;/B&gt;</ept>, or right-click the OneCommander icon in System Tray (next to clock), and select <bpt id="2">&lt;i&gt;</bpt>Exit<ept id="2">&lt;/i&gt;</ept></source>
-          <target state="translated">OneCommanderを完全に閉じるには<bpt id="1">&lt;B&gt;</bpt>Ctrlキーを押しながら閉じるボタンをクリックするか<ept id="1">&lt;/B&gt;</ept>か、システムトレイ(時計の横)のOneCommanderアイコンを右クリックして、<bpt id="2">&lt;i&gt;</bpt>終了<ept id="2">&lt;/i&gt;</ept>を選択してください
+          <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
+          <target state="needs-review-translation">OneCommanderを完全に閉じるには<bpt id="1">&lt;B&gt;</bpt>Ctrlキーを押しながら閉じるボタンをクリックするか<ept id="1">&lt;/B&gt;</ept>か、システムトレイ(時計の横)のOneCommanderアイコンを右クリックして、<bpt id="2">&lt;i&gt;</bpt>終了<ept id="2">&lt;/i&gt;</ept>を選択してください
 
 </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
           <target state="translated">スペースバーは、ファイルをフィルタリング中でもプレビューとして機能します。空白はフィルターに使用できません</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time &lt;br/&gt;(this can be changed in Settings ❯ Window)</source>
-          <target state="translated">OneCommanderはバックグラウンドで実行し続けるので、次回すぐに開くことができます&lt;br/&gt;(これは設定 ❯ ウィンドウで変更できます)</target>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <target state="needs-review-translation">OneCommanderはバックグラウンドで実行し続けるので、次回すぐに開くことができます&lt;br/&gt;(これは設定 ❯ ウィンドウで変更できます)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
@@ -2829,8 +2839,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">アイコンパックが更新されました。ファイル/フォルダアイコンパック選択ボックスで新しいパックを探してください</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
-          <source>The file extension is different.&lt;br/&gt;Do you want to <bpt id="1">&lt;B&gt;</bpt>add the original extension back<ept id="1">&lt;/B&gt;</ept> so the file could be opened with the same associated program?</source>
-          <target state="translated">ファイル拡張子が異なります。&lt;br/&gt;同じプログラムで開けるよう、<bpt id="1">&lt;B&gt;</bpt>元の拡張子を追加<ept id="1">&lt;/B&gt;</ept>しますか?</target>
+          <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
+          <target state="needs-review-translation">ファイル拡張子が異なります。&lt;br/&gt;同じプログラムで開けるよう、<bpt id="1">&lt;B&gt;</bpt>元の拡張子を追加<ept id="1">&lt;/B&gt;</ept>しますか?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2839,32 +2850,38 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
-          <source>This feature is available only in Pro version. <bpt id="1">&lt;b&gt;</bpt>Get the Pro version now?<ept id="1">&lt;/b&gt;</ept></source>
-          <target state="translated">この機能はProバージョンでのみ使用できます<bpt id="1">&lt;b&gt;</bpt>今すぐProバージョンを入手しますか<ept id="1">&lt;/b&gt;</ept>?
+          <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
+          <target state="needs-review-translation">この機能はProバージョンでのみ使用できます<bpt id="1">&lt;b&gt;</bpt>今すぐProバージョンを入手しますか<ept id="1">&lt;/b&gt;</ept>?
 
 </target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operation?</source>
-          <target state="translated">ファイルは{0}で使用されています。&lt;br/&gt;({1})&lt;br/&gt;再試行しますか?</target>
+          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation">ファイルは{0}で使用されています。&lt;br/&gt;({1})&lt;br/&gt;再試行しますか?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by another process.&lt;br/&gt;Retry operation?</source>
-          <target state="translated">ファイルは別のプロセスで使用されています。&lt;br/&gt;再試行しますか?</target>
+          <source>File is in use by another process.[NEWLINE]Retry operation?</source>
+          <target state="needs-review-translation">ファイルは別のプロセスで使用されています。&lt;br/&gt;再試行しますか?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>When closing the last window, do you want the program to <bpt id="1">&lt;B&gt;</bpt>keep running in the background<ept id="1">&lt;/B&gt;</ept> (icon in System Tray) for faster next start?</source>
-          <target state="translated">最後のウィンドウを閉じるときに、次回の起動を高速にするためにプログラムを<bpt id="1">&lt;B&gt;</bpt>バックグラウンドで実行したまま<ept id="1">&lt;/B&gt;</ept>にしますか? (タスクトレイにアイコンを表示)</target>
+          <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
+          <target state="needs-review-translation">最後のウィンドウを閉じるときに、次回の起動を高速にするためにプログラムを<bpt id="1">&lt;B&gt;</bpt>バックグラウンドで実行したまま<ept id="1">&lt;/B&gt;</ept>にしますか? (タスクトレイにアイコンを表示)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
-          <source>You have changed the item name but clicked outside.&lt;br/&gt;Do you want to <bpt id="1">&lt;b&gt;</bpt>always rename the file<ept id="1">&lt;/b&gt;</ept> in this situation instead of canceling the operation?</source>
-          <target state="translated">名前を変更した後で外側をクリックしました。&lt;br/&gt;この場合に、操作をキャンセルするのではなく<bpt id="1">&lt;b&gt;</bpt>常に名前を変更する<ept id="1">&lt;/b&gt;</ept>ようにしますか?</target>
+          <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
+          <target state="needs-review-translation">名前を変更した後で外側をクリックしました。&lt;br/&gt;この場合に、操作をキャンセルするのではなく<bpt id="1">&lt;b&gt;</bpt>常に名前を変更する<ept id="1">&lt;/b&gt;</ept>ようにしますか?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
-          <source>Restart program as Admin? This will <bpt id="1">&lt;b&gt;</bpt>cancel all ongoing file transfers<ept id="1">&lt;/b&gt;</ept> and other processes running through OneCommander</source>
-          <target state="translated">管理者としてプログラムを再起動しますか?これにより<bpt id="1">&lt;b&gt;</bpt>進行中のすべてのファイル転送<ept id="1">&lt;/b&gt;</ept>およびOneCommanderを通して実行される他のプロセスがキャンセルされます</target>
+          <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
+          <target state="needs-review-translation">管理者としてプログラムを再起動しますか?これにより<bpt id="1">&lt;b&gt;</bpt>進行中のすべてのファイル転送<ept id="1">&lt;/b&gt;</ept>およびOneCommanderを通して実行される他のプロセスがキャンセルされます</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -4397,8 +4414,8 @@ Some programs won't be able to open this file</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
-          <source>Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</source>
-          <target state="new">Extract thumbnails of all files within?&lt;br/&gt;This may take hours so it is best to do overnight.</target>
+          <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
+          <target state="new">Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
