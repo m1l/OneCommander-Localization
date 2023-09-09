@@ -2887,7 +2887,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">لا يزال مفتاح المسافة يعمل كمعاينة حتى عند تصفية الملفات. لا يمكن استخدام المساحة للفلتر</target>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings 🡢 Window)</source>
           <target state="needs-review-translation">سيستمر OneCommander في العمل في الخلفية حتى يتمكن من فتحه على الفور في المرة القادمة &lt;br/&gt; (يمكن تغيير هذا في الاعدادات ❯ وندوز)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>

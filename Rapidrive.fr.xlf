@@ -120,11 +120,10 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="needs-review-translation">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.&lt;br/&gt;Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
+          <target state="final">La licence Pro est requise pour une utilisation dans un cadre professionnel ou commercial.[NEWLINE]Vous pouvez tester le programme pendant quelques jours, mais si vous le trouvez utile, merci d'acheter la licence sur le Microsoft Store (via la boîte de dialogue À propos)</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - Start comment:</note>
           <note from="MultilingualEditor" annotates="source" priority="4">Same here, I've added the "professional use". May need to be shortened, depending on the space allowed for this string. In this case just remove "ou commercial".</note>
           <note from="MultilingualEditor" annotates="source" priority="4">FRiviR48 - End comment.</note>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -505,20 +504,17 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
         </trans-unit>
         <trans-unit id="DLG_YN_DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit your Registry to make OneCommander the default file manager and folder handler (Open/Save dialogs cannot be replaced). [NEWLINE][BOLDSTART]This will make Windows File Explorer unusable[BOLDEND] - even when clicking a folder in File Explorer the OneCommander will open. [NEWLINE]You will need to [BOLDSTART]unregister it[BOLDEND] by unchecking this option if you ever move or remove OneCommander (uninstalling it will not reverse changes)![NEWLINE]This will also enable running in the background for faster window opening.[NEWLINE]Are you absolutely sure you want to proceed and you know how to restore the registry on your own if something fails (no support in case of recovery)?</source>
-          <target state="needs-review-translation">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). &lt;br/&gt;<bpt id="2">&lt;b&gt;</bpt>Cela rendra l’Explorateur de fichiers Windows inutilisable<ept id="2">&lt;/b&gt;</ept> - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. &lt;br/&gt;Vous devrez <bpt id="3">&lt;b&gt;</bpt>le désinscrire<ept id="3">&lt;/b&gt;</ept>en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) !&lt;br/&gt;Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.&lt;br/&gt;Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Important : Il s’agit d’une [BOLDSTART]fonctionnalité expérimentale[BOLDEND] qui modifiera votre Registre pour faire de OneCommander le gestionnaire de fichiers et le gestionnaire de dossiers par défaut (les boîtes de dialogue Ouvrir/Enregistrer ne peuvent pas être remplacées). [NEWLINE][BOLDSTART]Cela rendra l’Explorateur de fichiers Windows inutilisable[BOLDEND] - même en cliquant sur un dossier dans l’Explorateur de fichiers, OneCommander s’ouvrira. [NEWLINE]Vous devrez [BOLDSTART]le désinscrire[BOLDEND] en décochant cette option si jamais vous déplacez ou supprimez OneCommander (la désinstallation ne supprimera pas les modifications) ![NEWLINE]Cela permettra également l'exécution en arrière-plan pour une ouverture plus rapide de la fenêtre.[NEWLINE]Êtes-vous absolument sûr de vouloir continuer, et savez-vous comment restaurer le registre par vous-même en cas d'échec (pas de support si besoin de récupération) ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register as default file manager button in settings</note>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="needs-review-translation">Voulez-vous &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;redémarrer le programme maintenant&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; pour appliquer toutes les modifications ?&lt;br/&gt;Cela annulera toutes les opérations en cours initiées par OneCommander.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Voulez-vous [BOLDSTART]redémarrer le programme maintenant[BOLDEND] pour appliquer toutes les modifications ?[NEWLINE]Cela annulera toutes les opérations en cours initiées par OneCommander.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation">Important : Il s’agit d’une <bpt id="1">&lt;b&gt;</bpt>fonctionnalité expérimentale<ept id="1">&lt;/b&gt;</ept> qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira OneCommander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire depuis OneCommander ou d’exécuter le script de registre à partir du dossier OneCommander (la désinstallation d’OC ne le supprimera pas automatiquement). Voulez-vous procéder?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Important : Il s’agit d’une [BOLDSTART]fonctionnalité expérimentale[BOLDEND] qui modifiera le Registre Windows pour remplacer complètement le raccourci clavier Win+E de l’Explorateur de fichiers Windows. Cette modification du Registre ouvrira OneCommander lorsque vous cliquerez sur le raccourci Explorateur, mais ne désactivera pas la navigation dans l'Explorateur. La seule façon d’inverser cela est de le désinscrire depuis OneCommander ou d’exécuter le script de registre à partir du dossier OneCommander (la désinstallation d’OC ne le supprimera pas automatiquement). [NEWLINE]Voulez-vous procéder?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -995,8 +991,7 @@ Doit être activé si le programme est défini comme gestionnaire de fichiers pa
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Afficher les fichiers et dossiers système</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Afficher les fichiers et dossiers système protégés</target>
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePoints" translate="yes" xml:space="preserve">
           <source>Skip searching within reparse points</source>
@@ -1810,9 +1805,8 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
-          <target state="needs-review-translation">Un fichier existant de paramètres de la version Microsoft Store du programme a été trouvé.&lt;br/&gt;Voulez-vous importer tous les paramètres dans cette version ?
+          <target state="final">Un fichier existant de paramètres de la version Microsoft Store du programme a été trouvé.[NEWLINE]Voulez-vous importer tous les paramètres dans cette version ?
 </target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
@@ -1887,8 +1881,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Files starting with dot</source>
-          <target state="needs-review-translation">Traiter les fichiers commençant par un point comme étant cachés</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Fichiers commençant par un point</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
@@ -1933,8 +1926,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
-          <target state="needs-review-translation">Cela ralentira l'affichage des vignettes jusqu'à ce que chaque vignette soit à nouveau extraite lors de la première ouverture de chaque dossier.&lt;br/&gt;Etes-vous sûr ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Cela ralentira l'affichage des vignettes jusqu'à ce que chaque vignette soit à nouveau extraite lors de la première ouverture de chaque dossier.[NEWLINE]Etes-vous sûr ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
@@ -1964,30 +1956,30 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="new">Extensions</target>
+          <target state="final">Extensions</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
           <source>Full names</source>
-          <target state="new">Full names</target>
+          <target state="final">Noms complets</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
           <source>Prefixed files</source>
-          <target state="new">Prefixed files</target>
+          <target state="final">Préfixes des fichiers</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
           <source>Files to treat as hidden:</source>
-          <target state="new">Files to treat as hidden:</target>
+          <target state="final">Fichiers à traiter comme cachés :</target>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
-          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+          <target state="final">Visibilité contrôlée par les cases à cocher et les raccourcis ci-dessus</target>
         </trans-unit>
         <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
           <source>You can already use hotkey:</source>
-          <target state="new">You can already use hotkey:</target>
+          <target state="final">Vous pouvez déjà utiliser le raccourci clavier :</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
       </group>
@@ -2001,12 +1993,12 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
       <group id="RAPIDRIVE/PROPERTIES/RESOURCES.RESX" datatype="resx">
         <trans-unit id="AgeDayShort" translate="yes" xml:space="preserve">
           <source>d</source>
-          <target state="final">J</target>
+          <target state="final">j</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for day (ex: 1 d)</note>
         </trans-unit>
         <trans-unit id="AgeHourShort" translate="yes" xml:space="preserve">
           <source>h</source>
-          <target state="final">H</target>
+          <target state="final">h</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for hour (ex: 1 h 10')</note>
         </trans-unit>
         <trans-unit id="AgeMonthShort" translate="yes" xml:space="preserve">
@@ -2016,7 +2008,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="AgeYearShort" translate="yes" xml:space="preserve">
           <source>y</source>
-          <target state="final">A</target>
+          <target state="final">a</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for year (ex: 1 y)</note>
         </trans-unit>
         <trans-unit id="AliasThisPC" translate="yes" xml:space="preserve">
@@ -2034,8 +2026,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
-          <target state="needs-review-translation">Le fichier {0} existe déjà dans le dossier de destination. &lt;br/&gt;Remplacer tout ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le fichier {0} existe déjà dans le dossier de destination. [NEWLINE]Remplacer tout ?</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
@@ -2186,8 +2177,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="needs-review-translation">Les programmes portables ont besoin d’un accès en écriture dans leurs propres dossiers, ainsi ils ne peuvent pas s'exécuter dans le dossier « Program Files ». Déplacez le dossier entier vers un ; et exécutez-le à nouveau</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Les programmes portables ont besoin d’un accès en écriture dans leurs propres dossiers, ainsi ils ne peuvent pas s'exécuter dans le dossier « Program Files ». Déplacez le dossier entier vers un [BOLDSTART]dossier non système[BOLDEND] et exécutez-le à nouveau</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2201,8 +2191,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
-          <target state="needs-review-translation">Pour fermer complètement OneCommander, <bpt id="1">&lt;B&gt;</bpt>tenez la touche CTRL tout en cliquant sur le bouton de fermeture <ept id="1">&lt;/B&gt;</ept> ou cliquez avec le bouton droit sur l’icône OneCommander dans la barre d’état système (à côté de l’horloge), puis sélectionnez <bpt id="2">&lt;i&gt;</bpt>Quitter<ept id="2">&lt;/i&gt;</ept></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Pour fermer complètement OneCommander, [BOLDSTART]tenez la touche CTRL tout en cliquant sur le bouton de fermeture [BOLDEND], ou cliquez avec le bouton droit sur l’icône OneCommander dans la barre d’état système (à côté de l’horloge), puis sélectionnez [BOLDSTART]Quitter[BOLDEND]</target>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
           <source>Spacebar still works as Preview even when filtering files. Space cannot be used for filter</source>
@@ -2214,8 +2203,7 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
-          <target state="needs-review-translation">L’extension de fichier est différente.&lt;br/&gt;Voulez-vous <bpt id="1">&lt;B&gt;</bpt>rajouter l’extension d’origine<ept id="1">&lt;/B&gt;</ept> afin que le fichier puisse s’ouvrir avec le même programme associé ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">L’extension de fichier est différente.[NEWLINE]Voulez-vous [BOLDSTART]rajouter l’extension d’origine[BOLDEND] afin que le fichier puisse s’ouvrir avec le même programme associé ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
@@ -2225,23 +2213,19 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
-          <target state="needs-review-translation">Cette fonctionnalité est disponible uniquement dans la version Pro. <bpt id="1">&lt;b&gt;</bpt>Obtenir la version Pro maintenant ?<ept id="1">&lt;/b&gt;</ept></target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Cette fonctionnalité est disponible uniquement dans la version Pro. [NEWLINE]Obtenir la version Pro maintenant ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
-          <target state="needs-review-translation">Lors de la fermeture de la dernière fenêtre, voulez-vous que le programme <bpt id="1">&lt;B&gt;</bpt>continue de s'exécuter en arrière-plan<ept id="1">&lt;/B&gt;</ept> (icône dans la zone de notification système) pour un prochain démarrage plus rapide ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Lors de la fermeture de la dernière fenêtre, voulez-vous que le programme [BOLDSTART]continue de s'exécuter en arrière-plan[BOLDEND] (icône dans la zone de notification système) pour un prochain démarrage plus rapide ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RenameWhenClickingOutside" translate="yes" xml:space="preserve">
           <source>You have changed the item name but clicked outside.[NEWLINE]Do you want to [BOLDSTART]always rename the file[BOLDEND] in this situation instead of canceling the operation?</source>
-          <target state="needs-review-translation">Vous avez modifié le nom de l’élément mais cliqué en dehors du nom. Souhaitez-vous toujours <bpt id="1">&lt;b&gt;</bpt>renommer le fichier<ept id="1">&lt;/b&gt;</ept> dans cette situation au lieu d’annuler l’opération ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Vous avez modifié le nom de l’élément mais cliqué en dehors du nom. [NEWLINE]Souhaitez-vous [BOLDSTART]toujours renommer le fichier[BOLDEND] dans cette situation au lieu d’annuler l’opération ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="needs-review-translation">Redémarrer le programme en tant qu’administrateur ? Cela <bpt id="1">&lt;b&gt;</bpt>annulera tous les transferts de fichiers en cours<ept id="1">&lt;/b&gt;</ept> et les autres processus s’exécutant via OneCommander.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Redémarrer le programme en tant qu’administrateur ? [BOLDSTART]Cela annulera tous les transferts de fichiers en cours[BOLDEND] et les autres processus s’exécutant via OneCommander.</target>
         </trans-unit>
         <trans-unit id="Drives" translate="yes" xml:space="preserve">
           <source>Drives</source>
@@ -3535,8 +3519,7 @@ Les dossiers ne sont pas triés</target>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
-          <target state="needs-review-translation">Le disque est plein, les paramètres ne peuvent donc pas être enregistrés. Supprimez au moins quelques Ko d’espace ou videz la Corbeille. &lt;br/&gt;Réessayer d’enregistrer les paramètres ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le disque est plein, les paramètres ne peuvent donc pas être enregistrés. Supprimez au moins quelques Ko d’espace ou videz la Corbeille. [NEWLINE]Réessayer d’enregistrer les paramètres ?</target>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
@@ -3593,8 +3576,7 @@ Les dossiers ne sont pas triés</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation">Les options de tri sous la ligne de menu sont les propriétés métadata et pas les propriétés réelles des fichiers. Les utiliser pour trier est <bpt id="1">&lt;b&gt;</bpt>lent<ept id="1">&lt;/b&gt;</ept> et va provoquer le <bpt id="2">&lt;b&gt;</bpt>gel<ept id="2">&lt;/b&gt;</ept> du programme lors de l'ouverture de dossiers ou d'onglets utilisant ce type de tri.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Les options de tri sous la ligne de menu sont les propriétés métadata et pas les propriétés réelles des fichiers. Les utiliser pour trier est [BOLDSTART]lent[BOLDEND] et va provoquer le [BOLDSTART]gel[BOLDEND] du programme lors de l'ouverture de dossiers ou d'onglets utilisant ce type de tri.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
         <trans-unit id="About_TT" translate="yes" xml:space="preserve">
@@ -3646,14 +3628,12 @@ Les dossiers ne sont pas triés</target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
-          <target state="needs-review-translation">Le fichier est en cours d’utilisation par l’opération {0}.&lt;br/&gt;({1})&lt;br/&gt;Réessayer l'opération ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le fichier est en cours d’utilisation par l’opération {0}.[NEWLINE]({1})[NEWLINE]Réessayer l'opération ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.[NEWLINE]Retry operation?</source>
-          <target state="needs-review-translation">Le fichier est en cours d’utilisation par un autre processus.&lt;br/&gt;Réessayer l'opération ?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le fichier est en cours d’utilisation par un autre processus.[NEWLINE]Réessayer l'opération ?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
@@ -3724,13 +3704,12 @@ Les dossiers ne sont pas triés</target>
         </trans-unit>
         <trans-unit id="DLG_E_CrashDLLAccess" translate="yes" xml:space="preserve">
           <source>Program has crashed because some other software is accessing OneCommander's files.[NEWLINE]If [BOLDSTART]{0}[BOLDEND] folder is a part of an automated file sync or a cloud backup you will need to close OneCommander and move the entire program folder to a different location. [NEWLINE]If an antivirus or other security software scans the program folder at the time when DLL is being loaded, it can also cause a crash.</source>
-          <target state="needs-review-translation">Le programme a crashé parce qu'un autre logiciel est en train d'accéder aux fichiers de OneCommander.&lt;br/&gt;Si le dossier <bpt id="1">&lt;b&gt;</bpt>{0}<ept id="1">&lt;/b&gt;</ept> fait partie d'une synchronisation automatisée de fichiers ou d'une sauvegarde cloud, vous allez devoir fermer Onecommander et déplacer tout le dossier du programme à un autre emplacement. &lt;br/&gt;Si un antivirus ou un autre logiciel de sécurité scanne le dossier du programme au moment du chargement des DLL, cela peut aussi causer un crash.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Le programme a crashé parce qu'un autre logiciel est en train d'accéder aux fichiers de OneCommander.[NEWLINE]Si le dossier [BOLDSTART]{0}[BOLDEND] fait partie d'une synchronisation automatisée de fichiers ou d'une sauvegarde cloud, vous allez devoir fermer Onecommander et déplacer tout le dossier du programme à un autre emplacement. [NEWLINE]Si un antivirus ou un autre logiciel de sécurité scanne le dossier du programme au moment du chargement des DLL, cela peut aussi causer un crash.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
-          <target state="needs-review-translation">OneCommander va continuer à s'exécuter en arrière-plan, il pourra ainsi s'ouvrir instantanément la prochaine fois &lt;br/&gt;(cela peut être modifié dans Paramètres ❯ Fenêtre)</target>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings 🡢 Window)</source>
+          <target state="needs-review-translation">OneCommander va continuer à s'exécuter en arrière-plan, il pourra ainsi s'ouvrir instantanément la prochaine fois [NEWLINE](cela peut être modifié dans Paramètres ❯ Fenêtre)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
@@ -3888,8 +3867,7 @@ Certains programmes ne seront pas en mesure d'ouvrir ce fichier.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
-          <target state="needs-review-translation">Extraire les vignettes de tous les fichiers contenus ?&lt;br/&gt;Cela peut prendre des heures, donc le mieux est de le faire pendant la nuit.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Extraire les vignettes de tous les fichiers contenus ?[NEWLINE]Cela peut prendre des heures, donc le mieux est de le faire pendant la nuit.</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
@@ -3962,7 +3940,7 @@ Certains programmes ne seront pas en mesure d'ouvrir ce fichier.</target>
         </trans-unit>
         <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
           <source>Contains hidden items</source>
-          <target state="new">Contains hidden items</target>
+          <target state="final">Contient des éléments cachés</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
       </group>

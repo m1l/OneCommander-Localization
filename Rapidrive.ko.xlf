@@ -4253,7 +4253,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">0 the folder with OC</note>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
-          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings ❯ Window)</source>
+          <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings 🡢 Window)</source>
           <target state="needs-review-translation">OneCommander는 다음에 즉시 열 수 있도록 백그라운드에서 계속 실행됩니다 &lt;br/&gt;(설정 ❯ 창에서 변경할 수 있음)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
