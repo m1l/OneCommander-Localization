@@ -127,6 +127,11 @@
           <target state="final">O aplikaci / Nápověda</target>
           <note from="MultilingualBuild" annotates="source" priority="2">About window title</note>
         </trans-unit>
+        <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
+          <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
+          <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2517,6 +2522,14 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
           <target state="new">You can already use hotkey:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
+        <trans-unit id="FolderThumbStyleChangeNotice" translate="yes" xml:space="preserve">
+          <source>Changing thumbnail style requires clearing all stored thumbnails (use button above)</source>
+          <target state="new">Changing thumbnail style requires clearing all stored thumbnails (use button above)</target>
+        </trans-unit>
+        <trans-unit id="UseSingleNewItemButton" translate="yes" xml:space="preserve">
+          <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
+          <target state="new">Show a single New Item button instead of 3 buttons for New File/Folder/Note</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4490,6 +4503,99 @@ Složky nelze řadit</target>
           <source>Contains hidden items</source>
           <target state="new">Contains hidden items</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="cs" original="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6921.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" datatype="resx">
+        <trans-unit id="OpenContextMenu" translate="yes" xml:space="preserve">
+          <source>Open shell context menu</source>
+          <target state="new">Open shell context menu</target>
+        </trans-unit>
+        <trans-unit id="CloseTab" translate="yes" xml:space="preserve">
+          <source>Close current tab</source>
+          <target state="new">Close current tab</target>
+        </trans-unit>
+        <trans-unit id="CopyFolderPath" translate="yes" xml:space="preserve">
+          <source>Copy full path of the currently opened folder to Windows Clipboard</source>
+          <target state="new">Copy full path of the currently opened folder to Windows Clipboard</target>
+        </trans-unit>
+        <trans-unit id="Duplicate" translate="yes" xml:space="preserve">
+          <source>Duplicate file</source>
+          <target state="new">Duplicate file</target>
+        </trans-unit>
+        <trans-unit id="FileProperties" translate="yes" xml:space="preserve">
+          <source>Open Windows file info/properties dialog</source>
+          <target state="new">Open Windows file info/properties dialog</target>
+        </trans-unit>
+        <trans-unit id="FocusOtherBrowser" translate="yes" xml:space="preserve">
+          <source>Switch focus between browsers</source>
+          <target state="new">Switch focus between browsers</target>
+        </trans-unit>
+        <trans-unit id="MoveWindowToCenter" translate="yes" xml:space="preserve">
+          <source>Move window to center of screen</source>
+          <target state="new">Move window to center of screen</target>
+        </trans-unit>
+        <trans-unit id="NewTabFromClipboard" translate="yes" xml:space="preserve">
+          <source>Create New Tab from a Clipboard path</source>
+          <target state="new">Create New Tab from a Clipboard path</target>
+        </trans-unit>
+        <trans-unit id="OpenCMD" translate="yes" xml:space="preserve">
+          <source>Open default command line shell</source>
+          <target state="new">Open default command line shell</target>
+        </trans-unit>
+        <trans-unit id="OpenCMDElevated" translate="yes" xml:space="preserve">
+          <source>Open default command line shell elevated</source>
+          <target state="new">Open default command line shell elevated</target>
+        </trans-unit>
+        <trans-unit id="PreviewCommand" translate="yes" xml:space="preserve">
+          <source>Preview file in a separate window</source>
+          <target state="new">Preview file in a separate window</target>
+        </trans-unit>
+        <trans-unit id="QuickTag" translate="yes" xml:space="preserve">
+          <source>Quick tag/untag selection</source>
+          <target state="new">Quick tag/untag selection</target>
+        </trans-unit>
+        <trans-unit id="Search" translate="yes" xml:space="preserve">
+          <source>Open search window</source>
+          <target state="new">Open search window</target>
+        </trans-unit>
+        <trans-unit id="Tag" translate="yes" xml:space="preserve">
+          <source>Tag selected items</source>
+          <target state="new">Tag selected items</target>
+        </trans-unit>
+        <trans-unit id="ToggleHidden" translate="yes" xml:space="preserve">
+          <source>Toggle hidden files</source>
+          <target state="new">Toggle hidden files</target>
+        </trans-unit>
+        <trans-unit id="ToggleNotifications" translate="yes" xml:space="preserve">
+          <source>Open/Close notifications panel. Usually Shift + key under Esc</source>
+          <target state="new">Open/Close notifications panel. Usually Shift + key under Esc</target>
+        </trans-unit>
+        <trans-unit id="ToggleSecondBrowser" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of second browser pane</source>
+          <target state="new">Toggle visibility of second browser pane</target>
+        </trans-unit>
+        <trans-unit id="DLG_ShortcutsSaved" translate="yes" xml:space="preserve">
+          <source>Shortcuts saved in {0}.</source>
+          <target state="new">Shortcuts saved in {0}.</target>
+        </trans-unit>
+        <trans-unit id="DLG_ShortcutsSavingFailed" translate="yes" xml:space="preserve">
+          <source>Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</source>
+          <target state="new">Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_SaveShortcuts" translate="yes" xml:space="preserve">
+          <source>Save and enable custom shortcuts?</source>
+          <target state="new">Save and enable custom shortcuts?</target>
+        </trans-unit>
+        <trans-unit id="ShortcutsEditorTips" translate="yes" xml:space="preserve">
+          <source>Keys labeled with OEM are keyboard/language specific</source>
+          <target state="new">Keys labeled with OEM are keyboard/language specific</target>
         </trans-unit>
       </group>
     </body>

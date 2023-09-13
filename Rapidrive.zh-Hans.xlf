@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSETTINGS.RESX" datatype="resx">
         <trans-unit id="AccentColor" translate="yes" xml:space="preserve">
           <source>Accent Color</source>
-          <target state="translated">强调色</target>
+          <target state="translated">主题色</target>
         </trans-unit>
         <trans-unit id="AccentColorGetFromWindows" translate="yes" xml:space="preserve">
           <source>Get from Windows</source>
@@ -16,11 +16,11 @@
         </trans-unit>
         <trans-unit id="AccentColorHexValue" translate="yes" xml:space="preserve">
           <source>(HEX value in #RRGGBB format)</source>
-          <target state="translated">（#RRGGBB 格式的十六进制值）</target>
+          <target state="translated">（#RRGGBB格式的十六进制值）</target>
         </trans-unit>
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
-          <target state="translated">强调色无法更改，因为此特定主题强制使用特定强调色</target>
+          <target state="translated">主题色无法更改，因为此特定主题强制使用特定主题色</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -315,7 +315,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FixStylusLagInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. If ON there will be no lag with graphic tablets, Wacom or Microsoft Surface stylus, but it will also disable double-tap (touchscreen) to open files (you would then need to use Single Click to Open folders option, and to open files by long-tap and Open from context menu). This is due to a bug in Microsoft WPF. Program restart required</source>
-          <target state="translated">默认关闭。若启用，则使用平板电脑、Wacom或Microsoft Surface手写笔时不会有滞后，但也会禁用双击（触摸屏）打开文件（然后您需要使用单击打开文件夹选项，并通过长按来从上下文菜单中打开文件）。这归咎于微软WPF中的一个错误。需要重新启动程序</target>
+          <target state="translated">默认关闭。若启用，则使用平板电脑、Wacom或Microsoft Surface手写笔时不会有滞后，但也会禁用双击（触摸屏）打开文件（然后您需要使用单击打开文件夹选项，并通过长按来从上下文菜单中打开文件）。这归咎于微软WPF中的一个错误。需要重启程序</target>
         </trans-unit>
         <trans-unit id="FolderIconOverride" translate="yes" xml:space="preserve">
           <source>Override all folder icons with:</source>
@@ -456,7 +456,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
-          <target state="translated">使用英文逗号分隔；无“.”；示例：txt,bat,md；内容仅限纯文本</target>
+          <target state="translated">英文逗号分隔，无点；示例：txt,bat,md。内容仅限纯文本</target>
         </trans-unit>
         <trans-unit id="NEW" translate="yes" xml:space="preserve">
           <source>NEW</source>
@@ -653,7 +653,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImageInfo" translate="yes" xml:space="preserve">
           <source>If a folder contains a file named folder.jpg, cover.jpg, background.jpg or front.jpg, it will be loaded as its background image. Useful for music albums and movie posters</source>
-          <target state="translated">若文件夹包含名为folder.jpg,、cover.jpg、background.jpg或front.jpg的图片，则将其作为背景图片加载。适用于音乐专辑和电影海报</target>
+          <target state="translated">若文件夹包含名为folder.jpg、cover.jpg、background.jpg或front.jpg的图片，则将其作为背景图片加载。适用于音乐专辑和电影海报</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Show folder sizes</source>
@@ -841,7 +841,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
-          <target state="translated">默认关闭。这用于从OneCommand拖动到其他程序。 
+          <target state="translated">默认关闭。这适用于从OneCommand拖动到其他程序。 
 Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文件。</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
@@ -979,7 +979,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="SizeFormat" translate="yes" xml:space="preserve">
           <source>Size format</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">尺寸格式</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">大小格式</target>
         </trans-unit>
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
@@ -1032,7 +1032,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
-          <target state="translated">继续终止资源管理器.exe，删除Windows缩略图缓存文件，然后重新启动资源管理器.exe？这将终止所有正在进行的文件操作！</target>
+          <target state="translated">继续终止资源管理器.exe，删除Windows缩略图缓存文件，然后重启资源管理器.exe？这将终止所有正在进行的文件操作！</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
@@ -1365,7 +1365,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">这将在预览窗口中预览Microsoft Office和一些其他格式（使用空格键打开），但由于Office文件资源管理器预览的安全漏洞，默认情况下处于关闭状态。启用风险自负！需要重新启动。</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">这将在预览窗口中预览Microsoft Office和一些其他格式（使用空格键打开），但由于Office文件资源管理器预览的安全漏洞，默认情况下处于关闭状态。启用风险自负！需要重启。</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
@@ -1453,7 +1453,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
-          <target state="translated">{0}开放</target>
+          <target state="translated">打开于{0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
@@ -1480,7 +1480,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">添加了环境路径。可能需要重新启动其他程序才能获取更新的变量。</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">添加了环境路径。可能需要重启其他程序才能获取更新的变量。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
@@ -1513,16 +1513,16 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbs" translate="yes" xml:space="preserve">
           <source>Force Microsoft 365/Office to save thumbnails in files</source>
-          <target state="translated">强制Microsoft 365/Office将缩略图保存在文件中</target>
+          <target state="translated">强制使Microsoft 365或Office将缩略图保存在文件中</target>
         </trans-unit>
         <trans-unit id="RegistryOfficeThumbsInfo" translate="yes" xml:space="preserve">
           <source>This will take effect the next time each Microsoft 365/Office file is saved. It doesn't affect existing files</source>
-          <target state="translated">这将在下次保存每个Microsoft 365/Office文件时生效。它不会影响现有文件</target>
+          <target state="translated">这将在下次保存每个Microsoft 365或Office文件时生效。这不会影响现有文件</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Microsoft rebranded Office to just Microsoft 365, but we'll keep both</note>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">以键盘为中心的元素显示样式</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">键盘焦点元素显示样式</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
@@ -1689,6 +1689,14 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
           <target state="translated">您已可使用快捷键：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
+        <trans-unit id="FolderThumbStyleChangeNotice" translate="yes" xml:space="preserve">
+          <source>Changing thumbnail style requires clearing all stored thumbnails (use button above)</source>
+          <target state="new">Changing thumbnail style requires clearing all stored thumbnails (use button above)</target>
+        </trans-unit>
+        <trans-unit id="UseSingleNewItemButton" translate="yes" xml:space="preserve">
+          <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
+          <target state="new">Show a single New Item button instead of 3 buttons for New File/Folder/Note</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1841,7 +1849,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="DetailsSizeInMB" translate="yes" xml:space="preserve">
           <source>Size in MB</source>
-          <target state="translated">大小(MB)</target>
+          <target state="translated">大小（MB）</target>
         </trans-unit>
         <trans-unit id="DetailsType" translate="yes" xml:space="preserve">
           <source>Type</source>
@@ -2056,7 +2064,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="Menu_CopyOrMoveToRecent" translate="yes" xml:space="preserve">
           <source>Copy/Move to recent destination</source>
-          <target state="translated">复制/移动到最近使用过的目的地</target>
+          <target state="translated">复制/移动到最近使用过的目标</target>
         </trans-unit>
         <trans-unit id="Menu_CopyToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Copy to the opposite browser pane</source>
@@ -2918,7 +2926,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">提示： Ctrl+鼠标滚轮来改变缩略图大小/每列项目</target>
+          <target state="translated">提示：Ctrl+鼠标滚轮来改变缩略图大小/每列项目</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -2968,7 +2976,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Watermark_NoAccessTryElevating" translate="yes" xml:space="preserve">
           <source>No access. Try restarting as Admin (Ctrl+Shift+F12)</source>
-          <target state="translated">无法访问。尝试使用管理员身份重新启动本程序（Ctrl+Shift+F12）</target>
+          <target state="translated">无法访问。尝试使用管理员身份重启本程序（Ctrl+Shift+F12）</target>
         </trans-unit>
         <trans-unit id="Watermark_NoFilesFound" translate="yes" xml:space="preserve">
           <source>No matching items found</source>
@@ -3134,7 +3142,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="RecentDestinations" translate="yes" xml:space="preserve">
           <source>Recent destinations</source>
-          <target state="translated">最近的目标位置</target>
+          <target state="translated">最近目标位置</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in the flyout that opens on drag</note>
         </trans-unit>
         <trans-unit id="SearchNames" translate="yes" xml:space="preserve">
@@ -3347,7 +3355,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
           <source>Size in MiB</source>
-          <target state="translated">大小（以MiB为单位）</target>
+          <target state="translated">大小（MiB）</target>
         </trans-unit>
         <trans-unit id="CalculatingFolderSize" translate="yes" xml:space="preserve">
           <source>Calculating...</source>
@@ -3453,7 +3461,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="translated">WMI服务未运行。检测USB磁盘可能无法工作，直到电脑重新启动。</target>
+          <target state="translated">WMI服务未运行。检测USB磁盘可能无法工作，直到电脑重启。</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
@@ -3477,7 +3485,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
           <source>Currently WSL doesn't support watching for changes using ReadDirectoryChangesW. Waiting for Microsoft's fix. Manually refresh</source>
-          <target state="translated">目前，WSL不支持使用 ReadDirectoryChangesW监视更改。等待微软的修复。手动刷新</target>
+          <target state="translated">目前，WSL不支持使用ReadDirectoryChangesW监视更改。等待微软的修复。手动刷新</target>
           <note from="MultilingualBuild" annotates="source" priority="2">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
@@ -3779,6 +3787,11 @@ Some programs won't be able to open this file</source>
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
           <target state="translated">您确定要停用许可证吗？若需再次激活，您需输入许可证密钥。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
+          <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
+          <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
         </trans-unit>
       </group>
     </body>
@@ -4472,6 +4485,99 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
           <target state="translated">另存为自定义视图名称，以免程序更新后被重置为默认的视图配置</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6921.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" datatype="resx">
+        <trans-unit id="OpenContextMenu" translate="yes" xml:space="preserve">
+          <source>Open shell context menu</source>
+          <target state="new">Open shell context menu</target>
+        </trans-unit>
+        <trans-unit id="CloseTab" translate="yes" xml:space="preserve">
+          <source>Close current tab</source>
+          <target state="new">Close current tab</target>
+        </trans-unit>
+        <trans-unit id="CopyFolderPath" translate="yes" xml:space="preserve">
+          <source>Copy full path of the currently opened folder to Windows Clipboard</source>
+          <target state="new">Copy full path of the currently opened folder to Windows Clipboard</target>
+        </trans-unit>
+        <trans-unit id="Duplicate" translate="yes" xml:space="preserve">
+          <source>Duplicate file</source>
+          <target state="new">Duplicate file</target>
+        </trans-unit>
+        <trans-unit id="FileProperties" translate="yes" xml:space="preserve">
+          <source>Open Windows file info/properties dialog</source>
+          <target state="new">Open Windows file info/properties dialog</target>
+        </trans-unit>
+        <trans-unit id="FocusOtherBrowser" translate="yes" xml:space="preserve">
+          <source>Switch focus between browsers</source>
+          <target state="new">Switch focus between browsers</target>
+        </trans-unit>
+        <trans-unit id="MoveWindowToCenter" translate="yes" xml:space="preserve">
+          <source>Move window to center of screen</source>
+          <target state="new">Move window to center of screen</target>
+        </trans-unit>
+        <trans-unit id="NewTabFromClipboard" translate="yes" xml:space="preserve">
+          <source>Create New Tab from a Clipboard path</source>
+          <target state="new">Create New Tab from a Clipboard path</target>
+        </trans-unit>
+        <trans-unit id="OpenCMD" translate="yes" xml:space="preserve">
+          <source>Open default command line shell</source>
+          <target state="new">Open default command line shell</target>
+        </trans-unit>
+        <trans-unit id="OpenCMDElevated" translate="yes" xml:space="preserve">
+          <source>Open default command line shell elevated</source>
+          <target state="new">Open default command line shell elevated</target>
+        </trans-unit>
+        <trans-unit id="PreviewCommand" translate="yes" xml:space="preserve">
+          <source>Preview file in a separate window</source>
+          <target state="new">Preview file in a separate window</target>
+        </trans-unit>
+        <trans-unit id="QuickTag" translate="yes" xml:space="preserve">
+          <source>Quick tag/untag selection</source>
+          <target state="new">Quick tag/untag selection</target>
+        </trans-unit>
+        <trans-unit id="Search" translate="yes" xml:space="preserve">
+          <source>Open search window</source>
+          <target state="new">Open search window</target>
+        </trans-unit>
+        <trans-unit id="Tag" translate="yes" xml:space="preserve">
+          <source>Tag selected items</source>
+          <target state="new">Tag selected items</target>
+        </trans-unit>
+        <trans-unit id="ToggleHidden" translate="yes" xml:space="preserve">
+          <source>Toggle hidden files</source>
+          <target state="new">Toggle hidden files</target>
+        </trans-unit>
+        <trans-unit id="ToggleNotifications" translate="yes" xml:space="preserve">
+          <source>Open/Close notifications panel. Usually Shift + key under Esc</source>
+          <target state="new">Open/Close notifications panel. Usually Shift + key under Esc</target>
+        </trans-unit>
+        <trans-unit id="ToggleSecondBrowser" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of second browser pane</source>
+          <target state="new">Toggle visibility of second browser pane</target>
+        </trans-unit>
+        <trans-unit id="DLG_ShortcutsSaved" translate="yes" xml:space="preserve">
+          <source>Shortcuts saved in {0}.</source>
+          <target state="new">Shortcuts saved in {0}.</target>
+        </trans-unit>
+        <trans-unit id="DLG_ShortcutsSavingFailed" translate="yes" xml:space="preserve">
+          <source>Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</source>
+          <target state="new">Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_SaveShortcuts" translate="yes" xml:space="preserve">
+          <source>Save and enable custom shortcuts?</source>
+          <target state="new">Save and enable custom shortcuts?</target>
+        </trans-unit>
+        <trans-unit id="ShortcutsEditorTips" translate="yes" xml:space="preserve">
+          <source>Keys labeled with OEM are keyboard/language specific</source>
+          <target state="new">Keys labeled with OEM are keyboard/language specific</target>
         </trans-unit>
       </group>
     </body>
