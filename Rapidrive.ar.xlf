@@ -2535,6 +2535,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
           <target state="new">Show a single New Item button instead of 3 buttons for New File/Folder/Note</target>
         </trans-unit>
+        <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
+          <source>Show toggle for listing folders above files</source>
+          <target state="new">Show toggle for listing folders above files</target>
+        </trans-unit>
+        <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
+          <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
+          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4507,6 +4516,14 @@ Folders can't be sorted</source>
           <source>Contains hidden items</source>
           <target state="new">Contains hidden items</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
+        </trans-unit>
+        <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
+          <source>Scan network (deep)</source>
+          <target state="new">Scan network (deep)</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
+          <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
+          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
         </trans-unit>
       </group>
     </body>
