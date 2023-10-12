@@ -2524,11 +2524,11 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
           <source>Show toggle for listing folders above files</source>
-          <target state="new">Show toggle for listing folders above files</target>
+          <target state="final">Zobraz přepínač zobrazování složek nad soubory</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
           <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
-          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <target state="final">Program je registrován jako výchozí správce souborů. [NEWLINE]Pokud budete někdy potřebovat program odinstalovat nebo přesunout, [BOLDSTART]musíte jej nejprve odregistrovat![BOLDEND]</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
         </trans-unit>
       </group>
@@ -4492,11 +4492,11 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
           <source>Scan network (deep)</source>
-          <target state="new">Scan network (deep)</target>
+          <target state="final">Prohledat síť (hloubkové)</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
-          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
+          <target state="final">Program zaznamenal stisk klávesy delete z virtuální klávesnice. Má na to program v budoucnu reagovat?</target>
         </trans-unit>
       </group>
     </body>
