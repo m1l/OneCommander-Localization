@@ -2534,6 +2534,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
           <target state="new">Show a single New Item button instead of 3 buttons for New File/Folder/Note</target>
         </trans-unit>
+        <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
+          <source>Show toggle for listing folders above files</source>
+          <target state="new">Show toggle for listing folders above files</target>
+        </trans-unit>
+        <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
+          <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
+          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4143,7 +4152,7 @@ Pastas não estão ordenadas</target>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
           <source>Sorting options below the menu line are the metadata properties, and not the actual file properties. Sorting by those is [BOLDSTART]slow[BOLDEND] and will cause program to [BOLDSTART]freeze[BOLDEND] when opening folders or tabs that use this sorting.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">As opções de classificação abaixo da linha do menu são as propriedades de metadados, e não as propriedades reais do arquivo. A classificação por esses é &amp;lt;bpt id="1"&amp;gt;&amp;lt;b&amp;gt;<it id="1" pos="close">&lt;/bpt&gt;</it>slow&amp;lt;sept id="1"&amp;gt;&amp;lt;/b&amp;gt;<it id="2" pos="close">&lt;/ept&gt;</it> e fará com que o programa &amp;lt; id="2"&amp;gt;&amp;lt;b&amp;gt;congelante<it id="3" pos="close">&lt;/bpt&gt;</it>&amp;lt;eptoso="2"&amp;gt;&amp;lt;/b&amp;gt;<it id="4" pos="close">&lt;/ept&gt;</it> ao abrir pastas ou guias que utilizem essa classificação.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">As opções de classificação abaixo da linha do menu são as propriedades de metadados, e não as propriedades reais do arquivo. A classificação por esses é [BOLDSTART]slow[BOLDEND] e fará com que o programa [BOLDSTART]congelante[BOLDEND] ao abrir pastas ou guias que utilizem essa classificação.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message shown the first time user sorts by metadata</note>
         </trans-unit>
@@ -4512,6 +4521,14 @@ Alguns programas não poderão abrir este arquivo</target>
           <source>Contains hidden items</source>
           <target state="new">Contains hidden items</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
+        </trans-unit>
+        <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
+          <source>Scan network (deep)</source>
+          <target state="new">Scan network (deep)</target>
+        </trans-unit>
+        <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
+          <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
+          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
         </trans-unit>
       </group>
     </body>
