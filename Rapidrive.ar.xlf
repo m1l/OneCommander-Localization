@@ -1325,8 +1325,10 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="translated">الحد الاقصى لسطور اسم الملف</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
-          <source>For Grid view</source>
+          <source>For Grid view; Only when thumbnail is larger than 96dip</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">لعرض الشبكة</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
           <source>File name trimming</source>
@@ -1740,8 +1742,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">عند البدء:</target>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
-          <source>Restore tabs from previous session</source>
+          <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">استعادة علامات التبويب من الجلسة السابقة</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
@@ -2543,6 +2546,21 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
           <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
+        </trans-unit>
+        <trans-unit id="Default" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="new">Default</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
+        </trans-unit>
+        <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
+          <source>Errors only</source>
+          <target state="new">Errors only</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
+        </trans-unit>
+        <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
+          <source>Notification level</source>
+          <target state="new">Notification level</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
         </trans-unit>
       </group>
     </body>
@@ -4524,6 +4542,46 @@ Folders can't be sorted</source>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
           <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
+        </trans-unit>
+        <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
+          <source>Close stale tabs</source>
+          <target state="new">Close stale tabs</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
+          <source>Closed {0} tabs that were accessed over 12 hours ago</source>
+          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
+        </trans-unit>
+        <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
+          <source>Mount folder as new drive letter</source>
+          <target state="new">Mount folder as new drive letter</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
+          <source>Failed to unmount folder</source>
+          <target state="new">Failed to unmount folder</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
+          <source>Failed to mount folder</source>
+          <target state="new">Failed to mount folder</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
+          <source>Folder mounted as drive {0}</source>
+          <target state="new">Folder mounted as drive {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
+        </trans-unit>
+        <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
+          <source>Path too long</source>
+          <target state="new">Path too long</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
+        </trans-unit>
+        <trans-unit id="SystemError" translate="yes" xml:space="preserve">
+          <source>System error {0}</source>
+          <target state="new">System error {0}</target>
+        </trans-unit>
+        <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
+          <source>Choose a drive letter to mount</source>
+          <target state="new">Choose a drive letter to mount</target>
         </trans-unit>
       </group>
     </body>

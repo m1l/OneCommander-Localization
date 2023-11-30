@@ -507,8 +507,9 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
           <target state="final">Przy uruchamianiu programu:</target>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
-          <source>Restore tabs from previous session</source>
-          <target state="final">Przywróć karty z poprzedniej sesji</target>
+          <source>Restore last used tabs</source>
+          <target state="needs-review-translation">Przywróć karty z poprzedniej sesji</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
@@ -1347,8 +1348,10 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Maksymalna liczba linii nazwy pliku</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
-          <source>For Grid view</source>
-          <target state="final">Dla widoku siatki</target>
+          <source>For Grid view; Only when thumbnail is larger than 96dip</source>
+          <target state="needs-review-translation">Dla widoku siatki</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
           <source>Open Office files through Explorer</source>
@@ -1711,12 +1714,27 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
           <source>Show toggle for listing folders above files</source>
-          <target state="new">Show toggle for listing folders above files</target>
+          <target state="final">Pokaż przełącznik do wyświetlania folderów nad plikami</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
           <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
-          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <target state="final">Program jest zarejestrowany jako domyślny menedżer plików.[NEWLINE]Jeśli kiedykolwiek będziesz musiał odinstalować lub przenieść program, [BOLDSTART]musisz go najpierw wyrejestrować! [BOLDEND]</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
+        </trans-unit>
+        <trans-unit id="Default" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <target state="new">Default</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
+        </trans-unit>
+        <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
+          <source>Errors only</source>
+          <target state="new">Errors only</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
+        </trans-unit>
+        <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
+          <source>Notification level</source>
+          <target state="new">Notification level</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
         </trans-unit>
       </group>
     </body>
@@ -3698,11 +3716,51 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
           <source>Scan network (deep)</source>
-          <target state="new">Scan network (deep)</target>
+          <target state="final">Skanuj sieć (głęboko)</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
-          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
+          <target state="final">Program odebrał naciśnięcie klawisza usuwania z klawiatury wirtualnej. Czy chcesz zezwolić na to w przyszłości?</target>
+        </trans-unit>
+        <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
+          <source>Choose a drive letter to mount</source>
+          <target state="new">Choose a drive letter to mount</target>
+        </trans-unit>
+        <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
+          <source>Close stale tabs</source>
+          <target state="new">Close stale tabs</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
+        </trans-unit>
+        <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
+          <source>Mount folder as new drive letter</source>
+          <target state="new">Mount folder as new drive letter</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
+          <source>Failed to unmount folder</source>
+          <target state="new">Failed to unmount folder</target>
+        </trans-unit>
+        <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
+          <source>Failed to mount folder</source>
+          <target state="new">Failed to mount folder</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
+          <source>Closed {0} tabs that were accessed over 12 hours ago</source>
+          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
+          <source>Folder mounted as drive {0}</source>
+          <target state="new">Folder mounted as drive {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
+        </trans-unit>
+        <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
+          <source>Path too long</source>
+          <target state="new">Path too long</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
+        </trans-unit>
+        <trans-unit id="SystemError" translate="yes" xml:space="preserve">
+          <source>System error {0}</source>
+          <target state="new">System error {0}</target>
         </trans-unit>
       </group>
     </body>
