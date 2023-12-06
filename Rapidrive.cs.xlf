@@ -1309,8 +1309,8 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pro zobrazení mřížky</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Nekonzistentní způsob (jako Průzkumník Windows):
+Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném případě ke kopírování. Ctrl+Přetažení zajistí kopírování. Shift+přetažení zajistí přesunutí.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
@@ -1693,8 +1693,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
-          <target state="needs-review-translation">Obnovit karty z předchozí relace</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Obnovit naposledy používané karty</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
@@ -2536,17 +2535,17 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Default" translate="yes" xml:space="preserve">
           <source>Default</source>
-          <target state="new">Default</target>
+          <target state="final">Výchozí</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
-          <target state="new">Errors only</target>
+          <target state="final">Pouze chyby</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
-          <target state="new">Notification level</target>
+          <target state="final">Úroveň oznamování</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
         </trans-unit>
       </group>
@@ -4518,43 +4517,43 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Close stale tabs</source>
-          <target state="new">Close stale tabs</target>
+          <target state="final">Zavřít dlouho nepoužité karty</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <target state="final">Bylo zavřeno {0} karet, které nebyly v posledních 12 hodinách použity</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
           <source>Mount folder as new drive letter</source>
-          <target state="new">Mount folder as new drive letter</target>
+          <target state="final">Připojit složku jako jednotku</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="new">Failed to unmount folder</target>
+          <target state="final">Složku se nepodařilo odpojit</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
-          <target state="new">Failed to mount folder</target>
+          <target state="final">Složku se nepodařilo připojit</target>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="new">Folder mounted as drive {0}</target>
+          <target state="final">Složka byla připojena jako jednotka {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
           <source>Path too long</source>
-          <target state="new">Path too long</target>
+          <target state="final">Příliš dlouhá cesta</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="new">System error {0}</target>
+          <target state="final">Systémová chyba {0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
-          <target state="new">Choose a drive letter to mount</target>
+          <target state="final">Zvolte písmeno jednotky</target>
         </trans-unit>
       </group>
     </body>
