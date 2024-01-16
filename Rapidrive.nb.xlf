@@ -248,6 +248,10 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
           <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="final" state-qualifier="mt-suggestion">Volumlisenser (10+) tilgjengelig hvis de er kjøpt for domene:</target>
         </trans-unit>
+        <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
+          <source>Get Pro license without Microsoft account</source>
+          <target state="final">Få Pro-lisens uten Microsoft-konto</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -382,6 +386,11 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="final">Se Snarvei Redigeringsprogram i Innstillinger 🡢 Avansert</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+        </trans-unit>
+        <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
+          <source>Upgrade to User-based license</source>
+          <target state="new">Upgrade to User-based license</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
       </group>
     </body>
@@ -1318,8 +1327,7 @@ Dra flytter hvis samme stasjon, ellers kopierer. Ctrl+Dra for å kopiere hvis sa
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">For rutenettvisning</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">For rutenettvisning; bare når miniatyrbildet er større enn 96 dip</target>
           <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
@@ -1735,8 +1743,7 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gjenopprett faner fra forrige økt</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Gjenopprett sist brukte faner</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
@@ -2033,10 +2040,12 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         <trans-unit id="ShowErrorReportDialog" translate="yes" xml:space="preserve">
           <source>Show error report dialog on crash</source>
           <target state="final" state-qualifier="mt-suggestion">Vis dialogboks for feilrapport ved krasj</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowErrorReportDialogInfo" translate="yes" xml:space="preserve">
           <source>On crash a window will show where you can write steps to reproduce the crash so it can be fixed in the next update</source>
           <target state="final" state-qualifier="mt-suggestion">Ved krasj vil et vindu vise hvor du kan skrive trinn for å reprodusere krasjet slik at det kan fikses i neste oppdatering</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
@@ -2537,18 +2546,86 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="Default" translate="yes" xml:space="preserve">
           <source>Default</source>
-          <target state="new">Default</target>
+          <target state="final">Standard</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
-          <target state="new">Errors only</target>
+          <target state="final">Kun feil</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
-          <target state="new">Notification level</target>
+          <target state="final">Varslingsnivå</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
+          <source>Sort with other files</source>
+          <target state="final">Sortere med andre filer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
+          <source>Keep file location in the list</source>
+          <target state="needs-review-translation">Behold filposisjon</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
+          <source>After renaming or updating file:</source>
+          <target state="needs-review-translation">Etter å ha gitt nytt navn til filen:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
+        </trans-unit>
+        <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
+          <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
+          <target state="final">Viktig: bruk av disse tredjepartsprogrammene og skriptene er på brukerens egen risiko og skjønn!</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
+          <source>yt-dlp.exe must be manually installed</source>
+          <target state="final">yt-dlp.exe må installeres manuelt</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download videos by pasting URL using following parameters</source>
+          <target state="final">Last ned videoer ved å lime inn nettadresse ved hjelp av følgende parametere</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
+          <source>The script must contain both $CurrentDir and $URL</source>
+          <target state="final">Skriptet må inneholde både $CurrentDir og $URL</target>
+        </trans-unit>
+        <trans-unit id="Autostart" translate="yes" xml:space="preserve">
+          <source>Autostart</source>
+          <target state="final">Autostart</target>
+        </trans-unit>
+        <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
+          <source>Run on Windows startup without a creating a window</source>
+          <target state="final">Kjør ved oppstart av Windows uten å opprette et vindu</target>
+        </trans-unit>
+        <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
+          <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
+          <target state="final">Endringer anvendt. Hvis du noen gang trenger å flytte eller avinstallere OneCommander, må du fjerne merket for dette alternativet først</target>
+        </trans-unit>
+        <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
+          <source>Show Eject button on Subst drives (folders mounted as drives)</source>
+          <target state="final">Vis utmatingsknappen på Subst-stasjoner (mapper montert som stasjoner)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
+          <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
+          <target state="final">Oppdaget [BOLDSTART]Unity[BOLDEND]-installasjon. [NEWLINE] Vil du åpne Unity Asset Store for å vise Unity-integrasjonen for OneCommander?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+        </trans-unit>
+        <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
+          <source>Create PowerShell alias 'oc'</source>
+          <target state="final">Opprett PowerShell alias 'oc'</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
+        </trans-unit>
+        <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
+          <source>Hotkey action</source>
+          <target state="new">Hotkey action</target>
+        </trans-unit>
+        <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download Audio by pasting URL using following parameters</source>
+          <target state="new">Download Audio by pasting URL using following parameters</target>
         </trans-unit>
       </group>
     </body>
@@ -3057,7 +3134,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
-          <target state="final" state-qualifier="mt-suggestion">Historie</target>
+          <target state="final">Historikk</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
         </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
@@ -4519,43 +4596,89 @@ Mapper kan ikke sorteres</target>
         </trans-unit>
         <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Close stale tabs</source>
-          <target state="new">Close stale tabs</target>
+          <target state="final">Lukk foreldede faner</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <target state="final">Lukket {0} faner som ble åpnet for over 12 timer siden</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
           <source>Mount folder as new drive letter</source>
-          <target state="new">Mount folder as new drive letter</target>
+          <target state="final">Monter mappe som ny stasjonsbokstav</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="new">Failed to unmount folder</target>
+          <target state="final">Kunne ikke demontere mappen</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
-          <target state="new">Failed to mount folder</target>
+          <target state="final">Kunne ikke montere mappen</target>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="new">Folder mounted as drive {0}</target>
+          <target state="final">Mappe montert som stasjon {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
           <source>Path too long</source>
-          <target state="new">Path too long</target>
+          <target state="final">Sti for lang</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="new">System error {0}</target>
+          <target state="final">Systemfeil {0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
-          <target state="new">Choose a drive letter to mount</target>
+          <target state="final">Velg en stasjonsbokstav som skal monteres</target>
+        </trans-unit>
+        <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
+          <source>Substitute drives don't have a Recycle Bin</source>
+          <target state="final">Erstatningsstasjoner har ikke papirkurv</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
+          <source>Detected video on Clipboard. Press {0} to download to current folder</source>
+          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+        </trans-unit>
+        <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
+          <source>Press Ctrl+C to copy message text</source>
+          <target state="new">Press Ctrl+C to copy message text</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
+        </trans-unit>
+        <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
+          <source>Extract Audio from page</source>
+          <target state="new">Extract Audio from page</target>
+        </trans-unit>
+        <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
+          <source>LNK file</source>
+          <target state="new">LNK file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
+          <source>Text file (link as content)</source>
+          <target state="new">Text file (link as content)</target>
+        </trans-unit>
+        <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
+          <source>URL file</source>
+          <target state="new">URL file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
+          <source>Extract Video from page</source>
+          <target state="new">Extract Video from page</target>
+        </trans-unit>
+        <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
+          <source>Download as file</source>
+          <target state="new">Download as file</target>
+        </trans-unit>
+        <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
+          <source>Paste address</source>
+          <target state="new">Paste address</target>
+        </trans-unit>
+        <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
+          <source>Automatic naming </source>
+          <target state="new">Automatic naming </target>
         </trans-unit>
       </group>
     </body>
@@ -4644,11 +4767,19 @@ Mapper kan ikke sorteres</target>
         </trans-unit>
         <trans-unit id="ToggleNotifications" translate="yes" xml:space="preserve">
           <source>Open/Close notifications panel. Usually Shift + key under Esc</source>
-          <target state="final">Åpne/Lukk panel for varslinger. Vanligvis Shift + tast under Esc</target>
+          <target state="final">Åpne/lukk panel for varslinger. Vanligvis Shift + tast under Esc</target>
         </trans-unit>
         <trans-unit id="ToggleSecondBrowser" translate="yes" xml:space="preserve">
           <source>Toggle visibility of second browser pane</source>
-          <target state="final">Skjul/Vis synlighet av andre leserute</target>
+          <target state="final">Skjul/vis synlighet av andre leserute</target>
+        </trans-unit>
+        <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of preview pane (not preview window)</source>
+          <target state="final">Skjul/vis synlighet av forhåndsvisningsrute (ikke forhåndsvisningsvindu)</target>
+        </trans-unit>
+        <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of sidebar pane</source>
+          <target state="final">Vis/skjul synlighet av sidefeltruten</target>
         </trans-unit>
       </group>
     </body>

@@ -250,6 +250,11 @@
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
         </trans-unit>
+        <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
+          <source>Upgrade to User-based license</source>
+          <target state="new">Upgrade to User-based license</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -383,6 +388,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">입력한 라이선스 키가 이 컴퓨터 ID와 일치하지 않습니다. 다른 컴퓨터에 대한 Pro 라이선스를 구입하여 이 컴퓨터로 이동하려면 원래 구매 확인 이메일에 회신하고 위의 컴퓨터 ID를 포함합니다.</target>
+        </trans-unit>
+        <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
+          <source>Get Pro license without Microsoft account</source>
+          <target state="new">Get Pro license without Microsoft account</target>
         </trans-unit>
       </group>
     </body>
@@ -1503,10 +1512,12 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShowErrorReportDialog" translate="yes" xml:space="preserve">
           <source>Show error report dialog on crash</source>
           <target state="translated" state-qualifier="mt-suggestion">충돌에 대한 오류 보고서 대화 상자 표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowErrorReportDialogInfo" translate="yes" xml:space="preserve">
           <source>On crash a window will show where you can write steps to reproduce the crash so it can be fixed in the next update</source>
           <target state="translated" state-qualifier="mt-suggestion">충돌 시 다음 업데이트에서 수정할 수 있도록 충돌을 재현하는 단계를 작성할 수 있는 창이 표시됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
           <source>Show file extensions</source>
@@ -2555,6 +2566,72 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Notification level</source>
           <target state="new">Notification level</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
+          <source>Sort with other files</source>
+          <target state="new">Sort with other files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
+          <source>Keep file location in the list</source>
+          <target state="new">Keep file location in the list</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
+          <source>After renaming or updating file:</source>
+          <target state="new">After renaming or updating file:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
+        </trans-unit>
+        <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
+          <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
+          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
+          <source>yt-dlp.exe must be manually installed</source>
+          <target state="new">yt-dlp.exe must be manually installed</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download videos by pasting URL using following parameters</source>
+          <target state="new">Download videos by pasting URL using following parameters</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
+          <source>The script must contain both $CurrentDir and $URL</source>
+          <target state="new">The script must contain both $CurrentDir and $URL</target>
+        </trans-unit>
+        <trans-unit id="Autostart" translate="yes" xml:space="preserve">
+          <source>Autostart</source>
+          <target state="new">Autostart</target>
+        </trans-unit>
+        <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
+          <source>Run on Windows startup without a creating a window</source>
+          <target state="new">Run on Windows startup without a creating a window</target>
+        </trans-unit>
+        <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
+          <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
+          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+        </trans-unit>
+        <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
+          <source>Show Eject button on Subst drives (folders mounted as drives)</source>
+          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
+          <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
+          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+        </trans-unit>
+        <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
+          <source>Create PowerShell alias 'oc'</source>
+          <target state="new">Create PowerShell alias 'oc'</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
+        </trans-unit>
+        <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
+          <source>Hotkey action</source>
+          <target state="new">Hotkey action</target>
+        </trans-unit>
+        <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download Audio by pasting URL using following parameters</source>
+          <target state="new">Download Audio by pasting URL using following parameters</target>
         </trans-unit>
       </group>
     </body>
@@ -4575,6 +4652,52 @@ Some programs won't be able to open this file</source>
           <source>Choose a drive letter to mount</source>
           <target state="new">Choose a drive letter to mount</target>
         </trans-unit>
+        <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
+          <source>Substitute drives don't have a Recycle Bin</source>
+          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
+          <source>Detected video on Clipboard. Press {0} to download to current folder</source>
+          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+        </trans-unit>
+        <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
+          <source>Press Ctrl+C to copy message text</source>
+          <target state="new">Press Ctrl+C to copy message text</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
+        </trans-unit>
+        <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
+          <source>Extract Audio from page</source>
+          <target state="new">Extract Audio from page</target>
+        </trans-unit>
+        <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
+          <source>LNK file</source>
+          <target state="new">LNK file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
+          <source>Text file (link as content)</source>
+          <target state="new">Text file (link as content)</target>
+        </trans-unit>
+        <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
+          <source>URL file</source>
+          <target state="new">URL file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
+          <source>Extract Video from page</source>
+          <target state="new">Extract Video from page</target>
+        </trans-unit>
+        <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
+          <source>Download as file</source>
+          <target state="new">Download as file</target>
+        </trans-unit>
+        <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
+          <source>Paste address</source>
+          <target state="new">Paste address</target>
+        </trans-unit>
+        <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
+          <source>Automatic naming </source>
+          <target state="new">Automatic naming </target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4667,6 +4790,14 @@ Some programs won't be able to open this file</source>
         <trans-unit id="ShortcutsEditorTips" translate="yes" xml:space="preserve">
           <source>Keys labeled with OEM are keyboard/language specific</source>
           <target state="new">Keys labeled with OEM are keyboard/language specific</target>
+        </trans-unit>
+        <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of preview pane (not preview window)</source>
+          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+        </trans-unit>
+        <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of sidebar pane</source>
+          <target state="new">Toggle visibility of sidebar pane</target>
         </trans-unit>
       </group>
     </body>

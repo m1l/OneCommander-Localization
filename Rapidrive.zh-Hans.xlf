@@ -448,7 +448,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
           <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
-          <target state="translated">需重启！某些语言是借由微软翻译（Microsoft Translator）自动翻译的。若您想翻译成您的语言，请发送邮件至support@onecommander.com</target>
+          <target state="translated">更改需重启！某些语言是由微软翻译（Microsoft Translator）自动翻译而来。若您想为翻译成您的语言做出贡献，请发送邮件至support@onecommander.com</target>
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
           <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
@@ -504,8 +504,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
-          <target state="needs-review-translation">恢复上一会话中的标签页</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">恢复刚使用的标签页</target>
         </trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
@@ -639,10 +638,12 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShowErrorReportDialog" translate="yes" xml:space="preserve">
           <source>Show error report dialog on crash</source>
           <target state="translated">在崩溃时显示错误报告对话框</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowErrorReportDialogInfo" translate="yes" xml:space="preserve">
           <source>On crash a window will show where you can write steps to reproduce the crash so it can be fixed in the next update</source>
           <target state="translated" state-qualifier="mt-suggestion">在崩溃时，窗口将显示您可以在哪里编写步骤来重现崩溃，以便可以在下一次更新中修复它</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
           <source>Show file extensions</source>
@@ -820,7 +821,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
           <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
-          <target state="translated">默认启用。 使非HDPI屏幕上的线条更清晰。仅在100%显示比例时需要。禁用程序更稳定，但图标和线条可能没有那么清晰。</target>
+          <target state="translated">默认启用。 使非高DPI屏幕上的线条更加清晰。仅在显示比例设置为100%时需要。关闭时程序更加稳定，但图标和线条可能不够清晰。</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
           <source>Use old definition of Megabyte (as in Windows Explorer)</source>
@@ -1093,7 +1094,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">切换到新创建的标签页，中键单击文件夹</target>
+          <target state="translated">鼠标中键单击文件夹，切换至新建标签页</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
@@ -1337,8 +1338,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">对于网格视图</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">对于网格视图；仅当缩略图大于96dip时</target>
           <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
@@ -1545,7 +1545,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
-          <target state="translated">「当前」标签页</target>
+          <target state="translated">当前标签页</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ImportSettingsFromStoreVersion" translate="yes" xml:space="preserve">
           <source>Existing settings file from the Microsoft Store version of the program has been found.[NEWLINE]Do you want to import all settings into this version?</source>
@@ -1711,18 +1711,84 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="Default" translate="yes" xml:space="preserve">
           <source>Default</source>
-          <target state="new">Default</target>
+          <target state="translated">默认</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
-          <target state="new">Errors only</target>
+          <target state="translated">仅错误</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
-          <target state="new">Notification level</target>
+          <target state="translated">通知级别</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
+          <source>Sort with other files</source>
+          <target state="new">Sort with other files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
+          <source>Keep file location in the list</source>
+          <target state="new">Keep file location in the list</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
+        </trans-unit>
+        <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
+          <source>After renaming or updating file:</source>
+          <target state="new">After renaming or updating file:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
+        </trans-unit>
+        <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
+          <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
+          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
+          <source>yt-dlp.exe must be manually installed</source>
+          <target state="new">yt-dlp.exe must be manually installed</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download videos by pasting URL using following parameters</source>
+          <target state="new">Download videos by pasting URL using following parameters</target>
+        </trans-unit>
+        <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
+          <source>The script must contain both $CurrentDir and $URL</source>
+          <target state="new">The script must contain both $CurrentDir and $URL</target>
+        </trans-unit>
+        <trans-unit id="Autostart" translate="yes" xml:space="preserve">
+          <source>Autostart</source>
+          <target state="new">Autostart</target>
+        </trans-unit>
+        <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
+          <source>Run on Windows startup without a creating a window</source>
+          <target state="new">Run on Windows startup without a creating a window</target>
+        </trans-unit>
+        <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
+          <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
+          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+        </trans-unit>
+        <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
+          <source>Show Eject button on Subst drives (folders mounted as drives)</source>
+          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
+          <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
+          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+        </trans-unit>
+        <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
+          <source>Create PowerShell alias 'oc'</source>
+          <target state="new">Create PowerShell alias 'oc'</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
+        </trans-unit>
+        <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
+          <source>Hotkey action</source>
+          <target state="new">Hotkey action</target>
+        </trans-unit>
+        <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
+          <source>Download Audio by pasting URL using following parameters</source>
+          <target state="new">Download Audio by pasting URL using following parameters</target>
         </trans-unit>
       </group>
     </body>
@@ -2466,7 +2532,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasPath" translate="yes" xml:space="preserve">
           <source>New path on clipboard. Press Ctrl+Shift+T to open it in a new tab</source>
-          <target state="translated">在剪贴板中检测到新的路径。按Ctrl+Shift+T在新的标签页中打开</target>
+          <target state="translated">在剪贴板中检测到新的路径。请按Ctrl+Shift+T在新的标签页中打开</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasText" translate="yes" xml:space="preserve">
           <source>Detected Text on Clipboard. Press CTRL + V to create a new TXT file with this text</source>
@@ -2604,7 +2670,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="NavigateBackward_TT" translate="yes" xml:space="preserve">
           <source>Go back in tab history</source>
-          <target state="translated">返回标签页历史记录</target>
+          <target state="translated">后退标签页历史记录</target>
         </trans-unit>
         <trans-unit id="NavigateForward_S" translate="yes" xml:space="preserve">
           <source>Alt + Right arrow</source>
@@ -2697,7 +2763,7 @@ Adobe Acrobat页面插入也不适用。请改用上下文菜单中的合并文�
         </trans-unit>
         <trans-unit id="PathsGroupTitleTabHistory" translate="yes" xml:space="preserve">
           <source>Tab's history</source>
-          <target state="translated">标签页的历史记录</target>
+          <target state="translated">标签页历史记录</target>
         </trans-unit>
         <trans-unit id="PathTooLong_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
@@ -3695,43 +3761,89 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Close stale tabs</source>
-          <target state="new">Close stale tabs</target>
+          <target state="translated">关闭旧标签页</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <target state="translated">已关闭超过12小时前访问的{0}个标签页</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
           <source>Mount folder as new drive letter</source>
-          <target state="new">Mount folder as new drive letter</target>
+          <target state="translated">将文件夹挂载为新的驱动器盘符</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="new">Failed to unmount folder</target>
+          <target state="translated">无法卸载文件夹</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
-          <target state="new">Failed to mount folder</target>
+          <target state="translated">挂载文件夹失败</target>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="new">Folder mounted as drive {0}</target>
+          <target state="translated">文件夹已挂载为驱动器{0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
           <source>Path too long</source>
-          <target state="new">Path too long</target>
+          <target state="translated">路径太长</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="new">System error {0}</target>
+          <target state="translated">系统错误{0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
-          <target state="new">Choose a drive letter to mount</target>
+          <target state="translated">选择要挂载的驱动器盘符</target>
+        </trans-unit>
+        <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
+          <source>Substitute drives don't have a Recycle Bin</source>
+          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
+        </trans-unit>
+        <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
+          <source>Detected video on Clipboard. Press {0} to download to current folder</source>
+          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+        </trans-unit>
+        <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
+          <source>Press Ctrl+C to copy message text</source>
+          <target state="new">Press Ctrl+C to copy message text</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
+        </trans-unit>
+        <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
+          <source>Extract Audio from page</source>
+          <target state="new">Extract Audio from page</target>
+        </trans-unit>
+        <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
+          <source>LNK file</source>
+          <target state="new">LNK file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
+          <source>Text file (link as content)</source>
+          <target state="new">Text file (link as content)</target>
+        </trans-unit>
+        <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
+          <source>URL file</source>
+          <target state="new">URL file</target>
+        </trans-unit>
+        <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
+          <source>Extract Video from page</source>
+          <target state="new">Extract Video from page</target>
+        </trans-unit>
+        <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
+          <source>Download as file</source>
+          <target state="new">Download as file</target>
+        </trans-unit>
+        <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
+          <source>Paste address</source>
+          <target state="new">Paste address</target>
+        </trans-unit>
+        <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
+          <source>Automatic naming </source>
+          <target state="new">Automatic naming </target>
         </trans-unit>
       </group>
     </body>
@@ -3868,6 +3980,11 @@ Some programs won't be able to open this file</source>
           <target state="translated">请参阅设置🡢高级中的快捷方式编辑器</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
         </trans-unit>
+        <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
+          <source>Upgrade to User-based license</source>
+          <target state="new">Upgrade to User-based license</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4000,6 +4117,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="DLG_LicenseCodeWrong" translate="yes" xml:space="preserve">
           <source>The entered license key doesn't match this Machine ID. If you have purchased Pro license for another machine and would like to move it to this one, reply to the original purchase confirmation email and include the Machine ID from above.</source>
           <target state="translated">输入的许可证密钥与此计算机标识不匹配。若您购买了另一台计算机的专业版许可证并希望将其移动到这台计算机，请回复原始购买确认电子邮件并包含上面的计算机标识。</target>
+        </trans-unit>
+        <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
+          <source>Get Pro license without Microsoft account</source>
+          <target state="new">Get Pro license without Microsoft account</target>
         </trans-unit>
       </group>
     </body>
@@ -4653,6 +4774,14 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="ShortcutsEditorTips" translate="yes" xml:space="preserve">
           <source>Keys labeled with OEM are keyboard/language specific</source>
           <target state="translated">标有OEM的键是键盘或语言特定的</target>
+        </trans-unit>
+        <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of preview pane (not preview window)</source>
+          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+        </trans-unit>
+        <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
+          <source>Toggle visibility of sidebar pane</source>
+          <target state="new">Toggle visibility of sidebar pane</target>
         </trans-unit>
       </group>
     </body>
