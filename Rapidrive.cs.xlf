@@ -134,7 +134,7 @@
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="translated">Upgrade na licencování na pojmenovaného uživatele</target>
+          <target state="final">Upgrade na licencování na pojmenovaného uživatele</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
       </group>
@@ -390,7 +390,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
-          <target state="translated">Získejte Pro licenci bez účtu Microsoft</target>
+          <target state="final">Získejte Pro licenci bez účtu Microsoft</target>
         </trans-unit>
       </group>
     </body>
@@ -2561,69 +2561,69 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Autostart" translate="yes" xml:space="preserve">
           <source>Autostart</source>
-          <target state="translated">Spuštění po startu</target>
+          <target state="final">Spuštění po startu</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="translated">Program se automaticky spustí po startu Windows bez zobrazení okna</target>
+          <target state="final">Program se automaticky spustí po startu Windows bez zobrazení okna</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
-          <target state="translated">Změny byly provedeny. Budete-li potřebovat OneCommander odinstalovat nebo přesnout, bude nutné tuto volbu vypnout.</target>
+          <target state="final">Změny byly provedeny. Budete-li potřebovat OneCommander odinstalovat nebo přesnout, bude nutné tuto volbu vypnout.</target>
         </trans-unit>
         <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
           <source>Sort with other files</source>
-          <target state="translated">Znovu seřaď soubory</target>
+          <target state="final">Znovu seřaď soubory</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="translated">Ponech soubor na svém místě</target>
+          <target state="final">Ponech soubor na svém místě</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="translated">Po aktualizaci či přejmenování souboru:</target>
+          <target state="final">Po aktualizaci či přejmenování souboru:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
-          <target state="translated">Důležité: Používání těchto programů a skriptů třetích stran je na vlastní riziko a uvážení uživatele!</target>
+          <target state="final">Důležité: Používání těchto programů a skriptů třetích stran je na vlastní riziko a uvážení uživatele!</target>
         </trans-unit>
         <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
           <source>yt-dlp.exe must be manually installed</source>
-          <target state="translated">Program yt-dlp.exe musíte ručně nainstalovat</target>
+          <target state="final">Program yt-dlp.exe musíte ručně nainstalovat</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download videos by pasting URL using following parameters</source>
-          <target state="translated">Stáhnout videa vložením adresy URL s použitím následujících parametrů</target>
+          <target state="final">Stáhnout videa vložením adresy URL s použitím následujících parametrů</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
           <source>The script must contain both $CurrentDir and $URL</source>
-          <target state="translated">Skript musí obsahovat $CurrentDir i $URL.</target>
+          <target state="final">Skript musí obsahovat $CurrentDir i $URL.</target>
         </trans-unit>
         <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
           <source>Show Eject button on Subst drives (folders mounted as drives)</source>
-          <target state="translated">Zobraz tlačítko Vysunout u virtuální jednotky (složka připojená jako disk příkazem subst)</target>
+          <target state="final">Zobraz tlačítko Vysunout u virtuální jednotky (složka připojená jako disk příkazem subst)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="translated">Byla zjištěna instalace herního engine [BOLDSTART]Unity[BOLDEND].[NEWLINE]Chcete otevřít Unity Asset Store a zobrazit doplněk OneCommander Connector for Unity?</target>
+          <target state="final">Byla zjištěna instalace herního engine [BOLDSTART]Unity[BOLDEND].[NEWLINE]Chcete otevřít Unity Asset Store a zobrazit doplněk OneCommander Connector for Unity?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="translated">V PowerShell vytvořit alias 'oc'</target>
+          <target state="final">V PowerShell vytvořit alias 'oc'</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="translated">Klávesová zkratka vyvolá</target>
+          <target state="final">Klávesová zkratka vyvolá</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="translated">Stáhnout audio soubory vložením adresy URL s použitím následujících parametrů</target>
+          <target state="final">Stáhnout audio soubory vložením adresy URL s použitím následujících parametrů</target>
         </trans-unit>
       </group>
     </body>
@@ -4634,49 +4634,49 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
           <source>Substitute drives don't have a Recycle Bin</source>
-          <target state="translated">Virtuální disky nemají koš</target>
+          <target state="final">Virtuální disky nemají koš</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="translated">Ve schránce je uloženo video. Stisknutím {0} jej stáhnete do aktuální složky</target>
+          <target state="final">Ve schránce je uloženo video. Stisknutím {0} jej stáhnete do aktuální složky</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="translated">Stisknutím Ctrl+C zkopírujete text zprávy</target>
+          <target state="final">Stisknutím Ctrl+C zkopírujete text zprávy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="translated">Získat a stáhnout ze stránky audio soubor</target>
+          <target state="final">Získat a stáhnout ze stránky audio soubor</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="translated">Soubor LNK</target>
+          <target state="final">Soubor LNK</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="translated">Textový soubor (obsahuje zkopírovanou cestu)</target>
+          <target state="final">Textový soubor (obsahuje zkopírovanou cestu)</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="translated">soubor URL</target>
+          <target state="final">soubor URL</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="translated">Získat a stáhnout ze stránky video</target>
+          <target state="final">Získat a stáhnout ze stránky video</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="translated">Stáhnout jako soubor</target>
+          <target state="final">Stáhnout jako soubor</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="translated">Vložit zkopírovanou adresu</target>
+          <target state="final">Vložit zkopírovanou adresu</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="translated">Automatické pojmenování souboru</target>
+          <target state="final">Automatické pojmenování souboru</target>
         </trans-unit>
       </group>
     </body>
@@ -4773,11 +4773,11 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of preview pane (not preview window)</source>
-          <target state="translated">Zobrazit/skrýt podokno náhledu (nikoli samostatné okno náhledu)</target>
+          <target state="final">Zobrazit/skrýt podokno náhledu (nikoli samostatné okno náhledu)</target>
         </trans-unit>
         <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of sidebar pane</source>
-          <target state="translated">Zobrazit/skrýt postranní panel</target>
+          <target state="final">Zobrazit/skrýt postranní panel</target>
         </trans-unit>
       </group>
     </body>
