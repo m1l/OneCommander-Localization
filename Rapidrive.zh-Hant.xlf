@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" datatype="resx">
         <trans-unit id="CreditsAndContributors" translate="yes" xml:space="preserve">
           <source>Credits and contributors</source>
-          <target state="translated">特別鳴謝及貢獻者</target>
+          <target state="translated">非當前欄位最大寬度</target>
         </trans-unit>
         <trans-unit id="Email" translate="yes" xml:space="preserve">
           <source>Email</source>
@@ -56,7 +56,7 @@
         </trans-unit>
         <trans-unit id="SearchName" translate="yes" xml:space="preserve">
           <source>Search name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">搜索名稱</target>
+          <target state="translated" state-qualifier="mt-suggestion">搜索名稱</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Textbox watermark in about dialog</note>
         </trans-unit>
         <trans-unit id="SettingsLocation" translate="yes" xml:space="preserve">
@@ -134,7 +134,7 @@
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="new">Upgrade to User-based license</target>
+          <target state="translated">升級至基於使用者的許可證</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
       </group>
@@ -390,7 +390,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
-          <target state="new">Get Pro license without Microsoft account</target>
+          <target state="translated">無需 Microsoft Account 即可取得 PRO 許可證</target>
         </trans-unit>
       </group>
     </body>
@@ -743,7 +743,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="RuleTypeImage" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="translated">影像</target>
+          <target state="translated">圖片</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA rule type</note>
         </trans-unit>
         <trans-unit id="RuleTypeSimple" translate="yes" xml:space="preserve">
@@ -890,7 +890,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="translated">如果資料夾中的前幾個檔案大多為影像或影片，將會自動切換到縮圖視圖。已保存的視圖不會受到影響。</target>
+          <target state="translated">如果資料夾中的前幾個檔案大多為圖片或影片，將會自動切換到縮圖視圖。已保存的視圖不會受到影響。</target>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
@@ -955,23 +955,23 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ColumnAutoExpandColumnsLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Columns layout)</source>
-          <target state="translated">游標進入時展開欄（欄式佈局）</target>
+          <target state="translated">游標進入時展開欄位（欄式佈局）</target>
         </trans-unit>
         <trans-unit id="ColumnAutoExpandStandardLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Standard layout)</source>
-          <target state="translated">游標進入時展開欄（標準佈局）</target>
+          <target state="translated">游標進入時展開欄位（標準佈局）</target>
         </trans-unit>
         <trans-unit id="ColumnMinimumWidth" translate="yes" xml:space="preserve">
           <source>Columns minimum width</source>
-          <target state="translated">欄最小寬度</target>
+          <target state="translated">欄位最小寬度</target>
         </trans-unit>
         <trans-unit id="ColumnMinimumWidthInfo" translate="yes" xml:space="preserve">
           <source>Minimum width for all columns:</source>
-          <target state="translated" state-qualifier="mt-suggestion">所有欄的最小寬度：</target>
+          <target state="translated">所有欄位的最小寬度：</target>
         </trans-unit>
         <trans-unit id="ColumnParentWidth" translate="yes" xml:space="preserve">
           <source>Parent column width</source>
-          <target state="translated">父欄寬度</target>
+          <target state="translated">父欄位寬度</target>
         </trans-unit>
         <trans-unit id="ColumnParentWidthInfo" translate="yes" xml:space="preserve">
           <source>When space is limited, parent folder column will try to expand to this size:</source>
@@ -987,11 +987,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ColumnWidthOther" translate="yes" xml:space="preserve">
           <source>Maximum non-current column width</source>
-          <target state="translated">非當前欄最大寬度</target>
+          <target state="translated">非當前欄位最大寬度</target>
         </trans-unit>
         <trans-unit id="ColumnWidthSmall" translate="yes" xml:space="preserve">
           <source>Columns small width</source>
-          <target state="needs-review-translation">小欄寬度</target>
+          <target state="translated">縮小欄位寬度</target>
         </trans-unit>
         <trans-unit id="CommandShell" translate="yes" xml:space="preserve">
           <source>Command shell</source>
@@ -1253,7 +1253,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="HeaderMetadata" translate="yes" xml:space="preserve">
           <source>Metadata</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">元數據</target>
+          <target state="translated" state-qualifier="mt-suggestion">元數據</target>
         </trans-unit>
         <trans-unit id="HeaderPanelSizes" translate="yes" xml:space="preserve">
           <source>Pane sizes</source>
@@ -1324,7 +1324,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
-          <target state="translated">已縮放以適應預覽窗格</target>
+          <target state="translated">縮放以適應預覽窗格</target>
         </trans-unit>
         <trans-unit id="ImageScaleOriginal" translate="yes" xml:space="preserve">
           <source>Original size</source>
@@ -1332,7 +1332,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="ImageScaleQuestion" translate="yes" xml:space="preserve">
           <source>Display small images</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">顯示小圖像</target>
+          <target state="translated">圖像展示大小</target>
         </trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
@@ -1414,8 +1414,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
-          <target state="needs-review-translation">從之前的工作階段開啟索引標簽</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">還原上一次工作階段</target>
         </trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
@@ -1841,12 +1840,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
           <target state="translated">使用舊版拖放系統</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="translated">預設禁用。這主要用於在 OC 中拖動檔案到其他程式。
 即便如此，Adobe Acrobat 頁面插入也無法工作，您需要使用内容功能表中的「合并檔案」替代。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -2176,8 +2177,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
-          <target state="needs-review-translation">對於網格視圖</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">對於網格視圖；</target>
           <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
@@ -2273,8 +2273,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">描述</target>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
-          <source>Shortcut Editor</source>
-          <target state="translated">快速鍵編輯器</target>
+          <source>Shortcuts Editor</source>
+          <target state="needs-review-translation">快速鍵編輯器</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
@@ -2411,6 +2412,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
           <target state="translated">在 Acrobat 團隊的 UserVoice 上投票以解決此問題</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
@@ -2541,93 +2543,119 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
           <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
-          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <target state="translated">已將此程式注冊為預設檔案管理器。[NEWLINE]如要解除安裝或移動此程式，[BOLDSTART]請先還原預設檔案管理器設定！[BOLDEND]</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
         </trans-unit>
         <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
           <source>Show toggle for listing folders above files</source>
-          <target state="new">Show toggle for listing folders above files</target>
+          <target state="translated">顯示使資料夾位於檔案上方的切換開關</target>
         </trans-unit>
         <trans-unit id="Default" translate="yes" xml:space="preserve">
           <source>Default</source>
-          <target state="new">Default</target>
+          <target state="translated">預設</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
-          <target state="new">Errors only</target>
+          <target state="translated">錯誤</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
-          <target state="new">Notification level</target>
+          <target state="translated">通知級別</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
           <source>Sort with other files</source>
-          <target state="new">Sort with other files</target>
+          <target state="translated">重新排列檔案</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="new">Keep file location in the list</target>
+          <target state="translated">保持當前位置</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="new">After renaming or updating file:</target>
+          <target state="translated">在重新命名或更新檔案後：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
-          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+          <target state="translated">重要提示：使用第三方程式和腳本的風險由使用者自行承擔！</target>
         </trans-unit>
         <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
           <source>yt-dlp.exe must be manually installed</source>
-          <target state="new">yt-dlp.exe must be manually installed</target>
+          <target state="translated">yt-dlp.exe 需要手動安裝</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download videos by pasting URL using following parameters</source>
-          <target state="new">Download videos by pasting URL using following parameters</target>
+          <target state="translated">貼上影片地址後使用以下參數下載影片</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
           <source>The script must contain both $CurrentDir and $URL</source>
-          <target state="new">The script must contain both $CurrentDir and $URL</target>
+          <target state="translated">腳本必須同時包含 $CurrentDir 和 $URL</target>
         </trans-unit>
         <trans-unit id="Autostart" translate="yes" xml:space="preserve">
           <source>Autostart</source>
-          <target state="new">Autostart</target>
+          <target state="translated">登入時自動啟動</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="new">Run on Windows startup without a creating a window</target>
+          <target state="translated">隨 Windows 啟動，不會建立視窗</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
-          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+          <target state="translated">變更已套用。如需移動或解除安裝，請先取消選取此選項</target>
         </trans-unit>
         <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
           <source>Show Eject button on Subst drives (folders mounted as drives)</source>
-          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <target state="translated">在 Subst 磁碟機（挂載為磁碟機的資料夾）上顯示彈出按鈕</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <target state="translated">檢測到您已安裝 [BOLDSTART]Unity[BOLDEND]。[NEWLINE]是否開啟 Unity Asset Store 以便安裝 Unity integration for OneCommander？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="new">Create PowerShell alias 'oc'</target>
+          <target state="translated">在 PowerShell 中建立別名 "oc"</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="new">Hotkey action</target>
+          <target state="translated">快速鍵動作</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="new">Download Audio by pasting URL using following parameters</target>
+          <target state="translated">貼上音頻地址時使用以下參數下載音頻</target>
+        </trans-unit>
+        <trans-unit id="Extensions" translate="yes" xml:space="preserve">
+          <source>File types</source>
+          <target state="new">File types</target>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
+          <source>Executable</source>
+          <target state="new">Executable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
+          <source>File types that will accept file to be dropped onto</source>
+          <target state="new">File types that will accept file to be dropped onto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
+          <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
+          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
+          <source>Double-Click threshold (ms)</source>
+          <target state="new">Double-Click threshold (ms)</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
+          <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
+          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
       </group>
     </body>
@@ -4593,97 +4621,127 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
-          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
+          <target state="translated">程式收到來自虛擬鍵盤的 DELETE 按鍵事件。是否允許？</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
           <source>Scan network (deep)</source>
-          <target state="new">Scan network (deep)</target>
+          <target state="translated">掃描網路（深層）</target>
         </trans-unit>
         <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Close stale tabs</source>
-          <target state="new">Close stale tabs</target>
+          <target state="translated">關閉過時標籤頁</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <target state="translated">已關閉 12 小時内未有動作的 {0} 個標籤頁</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
           <source>Mount folder as new drive letter</source>
-          <target state="new">Mount folder as new drive letter</target>
+          <target state="translated">將資料夾掛載為虛擬磁碟機</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="new">Failed to unmount folder</target>
+          <target state="translated">無法卸載資料夾</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
-          <target state="new">Failed to mount folder</target>
+          <target state="translated">無法挂載資料夾</target>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="new">Folder mounted as drive {0}</target>
+          <target state="translated">資料夾已挂載為磁碟機 {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
           <source>Path too long</source>
-          <target state="new">Path too long</target>
+          <target state="translated">路徑過長</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="new">System error {0}</target>
+          <target state="translated">系統錯誤 {0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
-          <target state="new">Choose a drive letter to mount</target>
+          <target state="translated">選擇一個磁碟機代號以挂載</target>
         </trans-unit>
         <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
           <source>Substitute drives don't have a Recycle Bin</source>
-          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <target state="translated">虛擬驅動器沒有資源回收筒</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+          <target state="translated">在剪貼簿中檢測到影片。按 {0} 下載至當前資料夾</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="new">Press Ctrl+C to copy message text</target>
+          <target state="translated">按 Ctrl+C 複製消息文本</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="new">Extract Audio from page</target>
+          <target state="translated">從頁面中提取音頻</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="new">LNK file</target>
+          <target state="translated">LNK 檔案</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="new">Text file (link as content)</target>
+          <target state="translated">TXT 檔案（連結作為內容）</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="new">URL file</target>
+          <target state="translated">URL 檔案</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="new">Extract Video from page</target>
+          <target state="translated">從頁面提取視頻</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="new">Download as file</target>
+          <target state="translated">下載為檔案</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="new">Paste address</target>
+          <target state="translated">貼上地址</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="new">Automatic naming </target>
+          <target state="translated">自動命名</target>
+        </trans-unit>
+        <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+        </trans-unit>
+        <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
+          <source>Photo</source>
+          <target state="new">Photo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
+        </trans-unit>
+        <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="new">Archive</target>
+        </trans-unit>
+        <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="new">Audio</target>
+        </trans-unit>
+        <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="new">Document</target>
+        </trans-unit>
+        <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="new">Video</target>
+        </trans-unit>
+        <trans-unit id="Admin" translate="yes" xml:space="preserve">
+          <source>Admin</source>
+          <target state="new">Admin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
       </group>
     </body>
@@ -4780,11 +4838,11 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of preview pane (not preview window)</source>
-          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+          <target state="translated">切換預覽窗格的可見性（非預覽視窗）</target>
         </trans-unit>
         <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of sidebar pane</source>
-          <target state="new">Toggle visibility of sidebar pane</target>
+          <target state="translated">切換側邊欄窗格的可見性</target>
         </trans-unit>
       </group>
     </body>

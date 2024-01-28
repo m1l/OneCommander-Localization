@@ -134,7 +134,7 @@
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="new">Upgrade to User-based license</target>
+          <target state="translated">Actualice a una licencia basada en usuario</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
       </group>
@@ -390,7 +390,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
-          <target state="new">Get Pro license without Microsoft account</target>
+          <target state="translated">Obtenga una licencia Pro sin cuenta de Microsoft</target>
         </trans-unit>
       </group>
     </body>
@@ -1110,7 +1110,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
-          <target state="translated">OneCommander Connector es una utilidad independiente experimental para ayudar a conectar OC con los cuadros de diálogo Abrir y Guardar del sistema de otros programas. Aparecerá una pequeña ventana debajo de un cuadro de diálogo abierto/guardado compatible que le permitirá configurar su carpeta en la ruta abierta en OneCommander. Se ejecuta independientemente de OC.</target>
+          <target state="translated">OneCommander Connector es una utilidad independiente experimental para ayudar a conectar OC con los cuadros de diálogo Abrir y Guardar del sistema de otros programas. Aparecerá una pequeña ventana debajo de un cuadro de diálogo Abrir/Guardar compatible que le permitirá configurar su carpeta en la ruta abierta en OneCommander. Se ejecuta independientemente de OC.</target>
         </trans-unit>
         <trans-unit id="DialogConnectorStarted" translate="yes" xml:space="preserve">
           <source>Connector started. To test, close this settings window, open Notepad and then click File-&gt;Open to see it in action</source>
@@ -2013,12 +2013,14 @@ Esto debería habilitarse si el programa está configurado como un administrador
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
           <target state="translated" state-qualifier="mt-suggestion">Usar el antiguo sistema de arrastrar y soltar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="translated">DESACTIVADO por defecto. Esto es para arrastrar desde OneCommander a otros programas.
 La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivos desde el menú contextual en su lugar.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
@@ -2270,8 +2272,9 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
           <target state="translated">Descripción</target>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
-          <source>Shortcut Editor</source>
-          <target state="translated">Editor de accesos directos</target>
+          <source>Shortcuts Editor</source>
+          <target state="needs-review-translation">Editor de accesos directos</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
@@ -2416,6 +2419,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
           <target state="translated">Vote en UserVoice para que el equipo de Acrobat arregle esto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
@@ -2562,69 +2566,95 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="Autostart" translate="yes" xml:space="preserve">
           <source>Autostart</source>
-          <target state="new">Autostart</target>
+          <target state="translated">Arranque automático</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="new">Run on Windows startup without a creating a window</target>
+          <target state="translated">Ejecutar al iniciar Windows sin crear una ventana</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
-          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+          <target state="translated">Se aplicaron cambios. Si alguna vez necesita mover o desinstalar OneCommander, primero debe desmarcar esta opción</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <target state="translated">Se detectó la instalación de [BOLDSTART]Unity[BOLDEND].[NEWLINE]¿Le gustaría abrir Unity Asset Store para mostrar la integración de Unity para OneCommander?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
           <source>Sort with other files</source>
-          <target state="new">Sort with other files</target>
+          <target state="translated">Ordenar con otros archivos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="new">Keep file location in the list</target>
+          <target state="translated">Mantener la ubicación del archivo en la lista</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="new">After renaming or updating file:</target>
+          <target state="translated">Alternar visibilidad del panel de la barra lateral</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
           <source>Show Eject button on Subst drives (folders mounted as drives)</source>
-          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <target state="translated">Mostrar el botón Expulsar en unidades Subst (carpetas montadas como unidades)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
-          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+          <target state="translated">Importante: ¡El uso de estos programas y scripts de terceros se realiza por cuenta y riesgo del usuario!</target>
         </trans-unit>
         <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
           <source>yt-dlp.exe must be manually installed</source>
-          <target state="new">yt-dlp.exe must be manually installed</target>
+          <target state="translated">yt-dlp.exe debe instalarse manualmente</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download videos by pasting URL using following parameters</source>
-          <target state="new">Download videos by pasting URL using following parameters</target>
+          <target state="translated">Descargue videos pegando la URL usando los siguientes parámetros</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
           <source>The script must contain both $CurrentDir and $URL</source>
-          <target state="new">The script must contain both $CurrentDir and $URL</target>
+          <target state="translated">El script debe contener $CurrentDir y $URL</target>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="new">Create PowerShell alias 'oc'</target>
+          <target state="translated">Crear alias de PowerShell 'oc'</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="new">Hotkey action</target>
+          <target state="translated">Acción de tecla de acceso rápido</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="new">Download Audio by pasting URL using following parameters</target>
+          <target state="translated">Descargue audio pegando la URL usando los siguientes parámetros</target>
+        </trans-unit>
+        <trans-unit id="Extensions" translate="yes" xml:space="preserve">
+          <source>File types</source>
+          <target state="new">File types</target>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
+          <source>Executable</source>
+          <target state="new">Executable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
+          <source>File types that will accept file to be dropped onto</source>
+          <target state="new">File types that will accept file to be dropped onto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
+          <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
+          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
+          <source>Double-Click threshold (ms)</source>
+          <target state="new">Double-Click threshold (ms)</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
+          <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
+          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
       </group>
     </body>
@@ -4635,49 +4665,79 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
           <source>Substitute drives don't have a Recycle Bin</source>
-          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <target state="translated">Las unidades sustitutivas no tienen papelera de reciclaje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+          <target state="translated">Vídeo detectado en el portapapeles. Presione {0} para descargar a la carpeta actual</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="new">Press Ctrl+C to copy message text</target>
+          <target state="translated">Presione Ctrl+C para copiar el texto del mensaje</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="new">Extract Audio from page</target>
+          <target state="translated">Extraer audio de la página</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="new">LNK file</target>
+          <target state="translated">Archivo LNK</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="new">Text file (link as content)</target>
+          <target state="translated">Archivo de texto (enlace como contenido)</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="new">URL file</target>
+          <target state="translated">Archivo URL</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="new">Extract Video from page</target>
+          <target state="translated">Extraer vídeo de la página</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="new">Download as file</target>
+          <target state="translated">Descargar como archivo</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="new">Paste address</target>
+          <target state="translated">Pegar dirección</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="new">Automatic naming </target>
+          <target state="translated">Nombramiento automático</target>
+        </trans-unit>
+        <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+        </trans-unit>
+        <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
+          <source>Photo</source>
+          <target state="new">Photo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
+        </trans-unit>
+        <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="new">Archive</target>
+        </trans-unit>
+        <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="new">Audio</target>
+        </trans-unit>
+        <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="new">Document</target>
+        </trans-unit>
+        <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="new">Video</target>
+        </trans-unit>
+        <trans-unit id="Admin" translate="yes" xml:space="preserve">
+          <source>Admin</source>
+          <target state="new">Admin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
       </group>
     </body>
@@ -4774,11 +4834,11 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of preview pane (not preview window)</source>
-          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+          <target state="translated">Alternar la visibilidad del panel de vista previa (no de la ventana de vista previa)</target>
         </trans-unit>
         <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of sidebar pane</source>
-          <target state="new">Toggle visibility of sidebar pane</target>
+          <target state="translated">Alternar visibilidad del panel de la barra lateral</target>
         </trans-unit>
       </group>
     </body>

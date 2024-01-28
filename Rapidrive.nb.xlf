@@ -2025,8 +2025,9 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
           <note from="MultilingualBuild" annotates="source" priority="2">Original shortcut</note>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
-          <source>Shortcut Editor</source>
-          <target state="final">Redigere snarvei</target>
+          <source>Shortcuts Editor</source>
+          <target state="needs-review-translation">Redigere snarvei</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
           <source>Key</source>
@@ -2406,12 +2407,14 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
           <target state="final">Bruk gammel Dra&amp;Slipp metode</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="final" state-qualifier="mt-suggestion">Standard AV. Dette er for å dra fra OneCommander til andre programmer. 
 Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer fra hurtigmenyen i stedet.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -2444,6 +2447,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
           <target state="final" state-qualifier="mt-suggestion">Stem på UserVoice for Acrobat-teamet for å fikse dette</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
@@ -2626,6 +2630,32 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
           <target state="new">Download Audio by pasting URL using following parameters</target>
+        </trans-unit>
+        <trans-unit id="Extensions" translate="yes" xml:space="preserve">
+          <source>File types</source>
+          <target state="new">File types</target>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
+          <source>Executable</source>
+          <target state="new">Executable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
+          <source>File types that will accept file to be dropped onto</source>
+          <target state="new">File types that will accept file to be dropped onto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
+          <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
+          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
+          <source>Double-Click threshold (ms)</source>
+          <target state="new">Double-Click threshold (ms)</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
+          <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
+          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
       </group>
     </body>
@@ -4679,6 +4709,36 @@ Mapper kan ikke sorteres</target>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
           <target state="new">Automatic naming </target>
+        </trans-unit>
+        <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+        </trans-unit>
+        <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
+          <source>Photo</source>
+          <target state="new">Photo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
+        </trans-unit>
+        <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="new">Archive</target>
+        </trans-unit>
+        <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="new">Audio</target>
+        </trans-unit>
+        <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="new">Document</target>
+        </trans-unit>
+        <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="new">Video</target>
+        </trans-unit>
+        <trans-unit id="Admin" translate="yes" xml:space="preserve">
+          <source>Admin</source>
+          <target state="new">Admin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
       </group>
     </body>

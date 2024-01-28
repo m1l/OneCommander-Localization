@@ -228,7 +228,7 @@
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="final">Ważne: Jest to [BOLDSTART]funkcja eksperymentalna[BOLDEND], która ingeruje w rejestr systemowy, aby całkowicie zastąpić skrót Win+E Eksploratora plików Windows. Ta zmiana rejestru spowoduje otwieranie OneCommander’a po kliknięciu skrótu Eksploratora, ale nie wyłączy nawigacji w Eksploratorze. Jedynym sposobem na odwrócenie tego jest odznaczenie tej opcji lub uruchomienie skryptu z folderu OneCommander (odinstalowanie OC nie przywróci ustawień początkowych automatycznie).[NEWLINE]Kontynuować?</target>
+          <target state="final">Ważne: Jest to [BOLDSTART]funkcja eksperymentalna[BOLDEND], która ingeruje w rejestr systemowy, aby całkowicie zastąpić klawisz skrótu Win+E Eksploratora plików Windows. Ta zmiana rejestru spowoduje otwieranie OneCommander’a po kliknięciu skrótu Eksploratora, ale nie wyłączy nawigacji w Eksploratorze. Jedynym sposobem na odwrócenie tego jest odznaczenie tej opcji lub uruchomienie skryptu z folderu OneCommander (odinstalowanie OC nie przywróci ustawień początkowych automatycznie).[NEWLINE]Kontynuować?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -417,12 +417,12 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="HotkeyInfo" translate="yes" xml:space="preserve">
           <source>Program must be running for above hotkeys to work
 Program restart required</source>
-          <target state="final">Program musi być uruchomiony, aby powyższe skróty działały.
+          <target state="final">Program musi być uruchomiony, aby powyższe klawisze skrótów działały.
 Wymagane ponowne uruchomienie programu</target>
         </trans-unit>
         <trans-unit id="HotkeyVizor" translate="yes" xml:space="preserve">
           <source>Use global hotkey Ctrl+` to show docked program window</source>
-          <target state="final">Użyj globalnego skrótu Ctrl+`, aby wyświetlić zadokowane okno programu</target>
+          <target state="final">Użyj globalnego klawisza skrótu Ctrl+`, aby wyświetlić zadokowane okno programu</target>
         </trans-unit>
         <trans-unit id="HotkeyVizorInfo" translate="yes" xml:space="preserve">
           <source>Disable this if you use VS Code (uses the same shortcut)</source>
@@ -848,12 +848,14 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
           <target state="final">Użyj starego mechanizmu Drag&amp;Drop</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
           <target state="final">Domyślnie WYŁĄCZONE. Wykorzystywane podczas przeciągania z OneCommander do innych programów. 
 Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego użyj „Połącz pliki” z menu kontekstowego.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
@@ -861,11 +863,11 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
-          <target state="final">Zarejestruj skrót Win+E</target>
+          <target state="final">Zarejestruj klawisz skrótu Win+E</target>
         </trans-unit>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
-          <target state="final">Wyrejestruj skrót</target>
+          <target state="final">Wyrejestruj klawisz skrótu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
@@ -882,7 +884,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="WinOQuestion" translate="yes" xml:space="preserve">
           <source>Pressing the above hotkey from any program should:</source>
-          <target state="final">Naciśnięcie powyższego skrótu z dowolnego programu powinno:</target>
+          <target state="final">Naciśnięcie powyższego klawisza skrótu z dowolnego programu powinno:</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandler" translate="yes" xml:space="preserve">
           <source>File operations handler</source>
@@ -1446,8 +1448,9 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Opis</target>
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
-          <source>Shortcut Editor</source>
-          <target state="final">Edytor skrótów klawiaturowych</target>
+          <source>Shortcuts Editor</source>
+          <target state="needs-review-translation">Edytor skrótów klawiaturowych</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
@@ -1592,6 +1595,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         <trans-unit id="VoteAcrobatFix" translate="yes" xml:space="preserve">
           <source>Vote on UserVoice for Acrobat team to fix this</source>
           <target state="final">Głosuj w UserVoice aby zespół Acrobat to naprawił</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFile" translate="yes" xml:space="preserve">
           <source>Paste text and images as new files</source>
@@ -1670,7 +1674,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Hotkey" translate="yes" xml:space="preserve">
           <source>Global hotkey to open program</source>
-          <target state="final">Globalny skrót do otwierania programu</target>
+          <target state="final">Globalny klawisz skrótu do otwierania programu</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
@@ -1738,69 +1742,95 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Autostart" translate="yes" xml:space="preserve">
           <source>Autostart</source>
-          <target state="new">Autostart</target>
+          <target state="final">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="new">Run on Windows startup without a creating a window</target>
+          <target state="final">Uruchamianie przy starcie systemu Windows bez tworzenia okna</target>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="new">Create PowerShell alias 'oc'</target>
+          <target state="final">Utwórz alias PowerShell „oc”</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
-          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+          <target state="final">Zmiany zostały zastosowane. Jeśli kiedykolwiek będziesz musiał przenieść lub odinstalować OneCommander, musisz najpierw odznaczyć tę opcję</target>
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <target state="final">Wykryto instalację [BOLDSTART]Unity[BOLDEND].[NEWLINE]Czy chcesz otworzyć Unity Asset Store, aby wyświetlić integrację Unity dla OneCommander?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
           <source>Sort with other files</source>
-          <target state="new">Sort with other files</target>
+          <target state="final">sortuj z innymi plikami</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="new">Keep file location in the list</target>
+          <target state="final">zachowaj lokalizację pliku na liście</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="new">After renaming or updating file:</target>
+          <target state="final">Po zmianie nazwy lub zaktualizowaniu pliku:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
           <source>Show Eject button on Subst drives (folders mounted as drives)</source>
-          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <target state="final">Wyświetlanie przycisku wysuwania na dyskach wirutalnych (foldery zamontowane jako dyski)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
-          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+          <target state="final">Ważne: Korzystanie z tych programów i skryptów innych firm odbywa się na własne ryzyko i według własnego uznania!</target>
         </trans-unit>
         <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
           <source>yt-dlp.exe must be manually installed</source>
-          <target state="new">yt-dlp.exe must be manually installed</target>
+          <target state="final">yt-dlp.exe musi zostać ręcznie zainstalowany</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download videos by pasting URL using following parameters</source>
-          <target state="new">Download videos by pasting URL using following parameters</target>
+          <target state="final">Pobierz filmy, wklejając adres URL przy użyciu następujących parametrów</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
           <source>The script must contain both $CurrentDir and $URL</source>
-          <target state="new">The script must contain both $CurrentDir and $URL</target>
+          <target state="final">Skrypt musi zawierać zarówno $CurrentDir jak i $URL</target>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="new">Hotkey action</target>
+          <target state="final">Akcja klawisza skrótu</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="new">Download Audio by pasting URL using following parameters</target>
+          <target state="final">Pobierz audio, wklejając adres URL przy użyciu następujących parametrów</target>
+        </trans-unit>
+        <trans-unit id="Extensions" translate="yes" xml:space="preserve">
+          <source>File types</source>
+          <target state="new">File types</target>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
+          <source>Executable</source>
+          <target state="new">Executable</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
+          <source>File types that will accept file to be dropped onto</source>
+          <target state="new">File types that will accept file to be dropped onto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
+        </trans-unit>
+        <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
+          <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
+          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
+          <source>Double-Click threshold (ms)</source>
+          <target state="new">Double-Click threshold (ms)</target>
+        </trans-unit>
+        <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
+          <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
+          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
       </group>
     </body>
@@ -2947,7 +2977,7 @@ Niektóre programy nie będą mogły otwierać/zapisywać plików z tego folderu
         </trans-unit>
         <trans-unit id="SearchLocation" translate="yes" xml:space="preserve">
           <source>Location</source>
-          <target state="final" state-qualifier="tm-suggestion">Lokalizacja</target>
+          <target state="final">Lokalizacja</target>
         </trans-unit>
         <trans-unit id="SearchStop" translate="yes" xml:space="preserve">
           <source>Stop</source>
@@ -3830,49 +3860,79 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="new">Press Ctrl+C to copy message text</target>
+          <target state="final">Wciśnij Ctrl+C, aby skopiować treść wiadomości</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+          <target state="final">Wykryto wideo w schowku. Naciśnij {0}, aby pobrać do bieżącego folderu</target>
         </trans-unit>
         <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
           <source>Substitute drives don't have a Recycle Bin</source>
-          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <target state="final">Dyski wirtualne nie posiadają Kosza</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="new">Extract Audio from page</target>
+          <target state="final">Wyodrębnij dźwięk ze strony</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="new">LNK file</target>
+          <target state="final">Plik LNK</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="new">Text file (link as content)</target>
+          <target state="final">Plik tekstowy (odnośnik w treści pliku)</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="new">URL file</target>
+          <target state="final">Plik URL</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="new">Extract Video from page</target>
+          <target state="final">Wyodrębnij wideo ze strony</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="new">Download as file</target>
+          <target state="final">Pobierz jako plik</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="new">Paste address</target>
+          <target state="final">Wklej adres</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="new">Automatic naming </target>
+          <target state="final">Automatyczne nazewnictwo</target>
+        </trans-unit>
+        <trans-unit id="Admin" translate="yes" xml:space="preserve">
+          <source>Admin</source>
+          <target state="new">Admin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
+        </trans-unit>
+        <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target state="new">Archive</target>
+        </trans-unit>
+        <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="new">Audio</target>
+        </trans-unit>
+        <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="new">Document</target>
+        </trans-unit>
+        <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+        </trans-unit>
+        <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
+          <source>Photo</source>
+          <target state="new">Photo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
+        </trans-unit>
+        <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="new">Video</target>
         </trans-unit>
       </group>
     </body>
@@ -4011,7 +4071,7 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="new">Upgrade to User-based license</target>
+          <target state="final">Aktualizuj do licencji użytkownika</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
       </group>
@@ -4149,7 +4209,7 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
-          <target state="new">Get Pro license without Microsoft account</target>
+          <target state="final">Uzyskaj licencję PRO bez konta Microsoft</target>
         </trans-unit>
       </group>
     </body>
@@ -4807,11 +4867,11 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of preview pane (not preview window)</source>
-          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+          <target state="final">Przełącz widoczność panelu podglądu (nie okna podglądu)</target>
         </trans-unit>
         <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of sidebar pane</source>
-          <target state="new">Toggle visibility of sidebar pane</target>
+          <target state="final">Przełącz widoczność paska bocznego</target>
         </trans-unit>
       </group>
     </body>
