@@ -139,6 +139,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Get Pro license without Microsoft account</source>
           <target state="new">Get Pro license without Microsoft account</target>
         </trans-unit>
+        <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -396,6 +400,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Upgrade to User-based license</source>
           <target state="new">Upgrade to User-based license</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
+        </trans-unit>
+        <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
+          <source>Transfer license from another PC</source>
+          <target state="new">Transfer license from another PC</target>
         </trans-unit>
       </group>
     </body>
@@ -1577,6 +1585,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
           <target state="translated">ถ้าโปรแกรมเปิดหน้าต่างอยู่ การดับเบิ้ลคลิกที่ทางลัดของโปรแกรมควร:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -1787,8 +1796,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="tm-suggestion">หน้าต่าง</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
-          <source>To create a custom theme: make a copy of a theme from \Themes folder and edit values in .xaml file</source>
-          <target state="translated">เมื่อต้องการสร้างธีมเอง ให้คัดลอกธีมจากโฟลเดอร์ \Themes และแก้ไขค่าในไฟล์ .xaml</target>
+          <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
+          <target state="needs-review-translation">เมื่อต้องการสร้างธีมเอง ให้คัดลอกธีมจากโฟลเดอร์ \Themes และแก้ไขค่าในไฟล์ .xaml</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2358,8 +2368,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">แสดงกลุ่มเครือข่ายในแถบด้านข้าง</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
-          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
+          <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">คุณสามารถเปิดใช้งานกลุ่มแถบด้านข้างของเครือข่ายได้อีกครั้งจากการตั้งค่าแท็บหน้าต่าง</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
@@ -2681,6 +2693,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
           <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
+        <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
+          <source>Text rendering</source>
+          <target state="new">Text rendering</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
+          <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
+          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
+          <source>Select the best looking text option</source>
+          <target state="new">Select the best looking text option</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2907,7 +2931,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">รูปแบบวันที่นี้ไม่ถูกต้องตามมาตรฐาน .NET โปรแกรมจะใช้ค่าเริ่มต้น</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">โปรแกรมแบบ portable จะต้องได้รับสิทธิ์การเขียนในโฟลเดอร์ของโปรแกรมเอง จึงไม่อาจเก็บโปรแกรมไว้ในโฟลเดอร์ "Program Files" โปรดย้ายโฟลเดอร์โปรแกรมไปไว้ใน <bpt id="1">&lt;b&gt;</bpt>โฟลเดอร์ซึ่งไม่ใช่ของระบบปฏิบัติการ<ept id="1">&lt;/b&gt;</ept> จากนั้นเปิดโปรแกรมอีกครั้ง</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -3327,8 +3351,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">การดาวน์โหลดชุดธีมล้มเหลวโดยมีข้อผิดพลาด: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
-          <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="translated">ข้อผิดพลาดในการวางไฟล์ โปรแกรมต้นทางใช้รูปแบบไฟล์ที่ไม่ถูกต้องหรือชื่อไฟล์มีอักขระที่ไม่รองรับ</target>
+          <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
+          <target state="needs-review-translation">ข้อผิดพลาดในการวางไฟล์ โปรแกรมต้นทางใช้รูปแบบไฟล์ที่ไม่ถูกต้องหรือชื่อไฟล์มีอักขระที่ไม่รองรับ</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3407,8 +3432,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
-          <source>Note empty</source>
-          <target state="translated">บันทึกว่างเปล่า</target>
+          <source>Note is empty</source>
+          <target state="needs-review-translation">บันทึกว่างเปล่า</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3448,16 +3474,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">กรุณาใส่ชื่อ \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
-          <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="translated">Windows ใช้ smb อยู่แล้ว กรุณาใส่ชื่อ \\hostname\</target>
+          <source>Windows already uses SMB. Enter \\hostname\</source>
+          <target state="needs-review-translation">Windows ใช้ smb อยู่แล้ว กรุณาใส่ชื่อ \\hostname\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
           <target state="translated" state-qualifier="mt-suggestion">โฟลเดอร์นี้จะถูกเอาออกโดยอัตโนมัติเมื่อการดําเนินการเสร็จสมบูรณ์</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
-          <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="translated">QuickLook ไม่ทำงาน โปรดเริ่มการทำงาน หรือปิดการทำงานใน การตั้งค่า&gt;แสดงตัวอย่าง</target>
+          <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
+          <target state="needs-review-translation">QuickLook ไม่ทำงาน โปรดเริ่มการทำงาน หรือปิดการทำงานใน การตั้งค่า&gt;แสดงตัวอย่าง</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -4044,8 +4072,9 @@ Folders can't be sorted</source>
           <target state="translated" state-qualifier="mt-suggestion">แสดงหน้าต่างสุดท้าย</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
-          <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">เคล็ดลับ: Ctrl + หมุนล้อเพื่อปรับขนาดรูปย่อ/จำนวนรายการต่อคอลัมน์</target>
+          <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
+          <target state="needs-review-translation">เคล็ดลับ: Ctrl + หมุนล้อเพื่อปรับขนาดรูปย่อ/จำนวนรายการต่อคอลัมน์</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4363,8 +4392,9 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
-          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ขนาดโฟลเดอร์สามารถคํานวณได้เฉพาะสําหรับโฟลเดอร์ที่มีทั้งต้นไม้ของโฟลเดอร์และไฟล์ wihin สามารถเข้าถึงได้และ Windows ได้จัดทําดัชนีพวกเขา</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -4782,6 +4812,11 @@ Some programs won't be able to open this file</source>
           <source>Admin</source>
           <target state="new">Admin</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
+        </trans-unit>
+        <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
+          <source>More options...</source>
+          <target state="new">More options...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
       </group>
     </body>

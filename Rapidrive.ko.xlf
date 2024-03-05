@@ -255,6 +255,10 @@
           <target state="new">Upgrade to User-based license</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
+        <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
+          <source>Transfer license from another PC</source>
+          <target state="new">Transfer license from another PC</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -392,6 +396,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
           <target state="new">Get Pro license without Microsoft account</target>
+        </trans-unit>
+        <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
         </trans-unit>
       </group>
     </body>
@@ -1500,6 +1508,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
           <target state="translated">프로그램 창이 열릴 경우, 더블 클릭을 동작할 방법:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -1685,8 +1694,9 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">창</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
-          <source>To create a custom theme: make a copy of a theme from \Themes folder and edit values in .xaml file</source>
-          <target state="translated">사용자 지정 테마 만들기: \Theme 폴더에서 테마의 복사본을 만들고 .xaml 파일에서 편집합니다.</target>
+          <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
+          <target state="needs-review-translation">사용자 지정 테마 만들기: \Theme 폴더에서 테마의 복사본을 만들고 .xaml 파일에서 편집합니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2341,8 +2351,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">사이드바에 네트워크 그룹 표시</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
-          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="translated">설정 ❯ 창에서 네트워크 사이드바 그룹을 다시 활성화할 수 있습니다.</target>
+          <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
+          <target state="needs-review-translation">설정 ❯ 창에서 네트워크 사이드바 그룹을 다시 활성화할 수 있습니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
@@ -2663,6 +2675,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
           <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
+        <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
+          <source>Text rendering</source>
+          <target state="new">Text rendering</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
+          <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
+          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
+          <source>Select the best looking text option</source>
+          <target state="new">Select the best looking text option</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2883,7 +2907,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">이 형식은 .NET 표준의 유효한 날짜 형식이 아닙니다. 기본값으로 재설정합니다.</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">포터블 프로그램은 자체 폴더에 대한 쓰기 액세스 권한이 필요해 "Program Files" 폴더에 있을 수 없습니다. 프로그램을 닫고 전체 폴더를 <bpt id="1">&lt;b&gt;</bpt>시스템 폴더가 아닌 곳<ept id="1">&lt;/b&gt;</ept>으로 이동한 다음 다시 실행하세요.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -3264,8 +3288,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">테마 요소를 받는 도중 오류가 발생하였습니다: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
-          <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="translated">데이터 드롭 시 오류가 발생했습니다. 원본 프로그램에서 올바르지 않은 파일명으로 전달하였습니다.</target>
+          <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
+          <target state="needs-review-translation">데이터 드롭 시 오류가 발생했습니다. 원본 프로그램에서 올바르지 않은 파일명으로 전달하였습니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3338,8 +3363,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">동일한 컴퓨터에서 사용자 이름이 다른 서버에 대한 다중 연결은 Windows에서 허용되지 않습니다.</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
-          <source>Note empty</source>
-          <target state="translated">메모가 비어 있음</target>
+          <source>Note is empty</source>
+          <target state="needs-review-translation">메모가 비어 있음</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3378,16 +3404,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">\\hostname\ 입력하세요.</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
-          <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="translated">윈도우는 이미 smb를 사용합니다. \\hostname\를 입력하세요.</target>
+          <source>Windows already uses SMB. Enter \\hostname\</source>
+          <target state="needs-review-translation">윈도우는 이미 smb를 사용합니다. \\hostname\를 입력하세요.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
           <target state="translated" state-qualifier="mt-suggestion">작업이 완료되면 이 폴더가 자동으로 제거됩니다.</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
-          <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="translated">QuickLook 이 실행되지 않았습니다. 설정에서 시작하거나 사용하지 않도록 설정&gt;미리보기 에서 설정합니다.</target>
+          <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
+          <target state="needs-review-translation">QuickLook 이 실행되지 않았습니다. 설정에서 시작하거나 사용하지 않도록 설정&gt;미리보기 에서 설정합니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -3949,8 +3977,9 @@ Folders can't be sorted</source>
           <target state="translated" state-qualifier="mt-suggestion">마지막 창 표시</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
-          <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">팁: Ctrl + 마우스 휠은 열 내 썸네일 크기 및 항목을 변경합니다.</target>
+          <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
+          <target state="needs-review-translation">팁: Ctrl + 마우스 휠은 열 내 썸네일 크기 및 항목을 변경합니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4337,8 +4366,9 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
-          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">폴더 크기는 액세스할 수 있는 폴더 및 파일의 전체 트리가 있고 Windows에서 인덱싱한 폴더에 대해서만 계산할 수 있습니다.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -4757,6 +4787,11 @@ Some programs won't be able to open this file</source>
           <source>Admin</source>
           <target state="new">Admin</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
+        </trans-unit>
+        <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
+          <source>More options...</source>
+          <target state="new">More options...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
       </group>
     </body>

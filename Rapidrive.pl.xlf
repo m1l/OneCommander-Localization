@@ -621,19 +621,20 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ShortcutClickQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should:</source>
-          <target state="final">Jeśli program ma otwarte okno, dwukrotne kliknięcie jego skrótu powinno:</target>
+          <target state="final">Jeśli program ma otwarte okno, dwukrotne kliknięcie jego skrótu</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowCreate" translate="yes" xml:space="preserve">
           <source>Prompt to create another window</source>
-          <target state="final">monitować o utworzenie kolejnego okna</target>
+          <target state="final">monituje o utworzenie kolejnego okna</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
-          <target state="final">Jeśli program ma otwarte okno, dwukrotne kliknięcie jego skrótu powinno</target>
+          <target state="final">Jeśli program ma otwarte okno, dwukrotne kliknięcie jego skrótu</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
-          <target state="final">przełączyć do istniejącego okna</target>
+          <target state="final">przełącza do istniejącego okna</target>
         </trans-unit>
         <trans-unit id="ShowDrivesInSidebar" translate="yes" xml:space="preserve">
           <source>Show drives in sidebar</source>
@@ -778,8 +779,9 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
           <target state="final" state-qualifier="tm-suggestion">Okno</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
-          <source>To create a custom theme: make a copy of a theme from \Themes folder and edit values in .xaml file</source>
-          <target state="final">Aby utworzyć motyw niestandardowy: utwórz kopię motywu z folderu \Themes i edytuj wartości w pliku .xaml</target>
+          <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
+          <target state="needs-review-translation">Aby utworzyć motyw niestandardowy: utwórz kopię motywu z folderu \Themes i edytuj wartości w pliku .xaml</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -1449,8 +1451,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcuts Editor</source>
-          <target state="needs-review-translation">Edytor skrótów klawiaturowych</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Edytor skrótów klawiaturowych</target>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
@@ -1506,8 +1507,10 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Shift + kliknięcie prawym przyciskiem myszy zawsze otwiera pełne menu kontekstowe</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
-          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
-          <target state="final">Możesz ponownie włączyć grupę „Sieć” na pasku bocznym w Ustawieniach » zakładka Okno</target>
+          <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
+          <target state="needs-review-translation">Możesz ponownie włączyć grupę „Sieć” na pasku bocznym w Ustawieniach » zakładka Okno</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
@@ -1808,29 +1811,41 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Extensions" translate="yes" xml:space="preserve">
           <source>File types</source>
-          <target state="new">File types</target>
+          <target state="final">Typy plikó</target>
         </trans-unit>
         <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
           <source>Executable</source>
-          <target state="new">Executable</target>
+          <target state="final">Wykonywalny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
         </trans-unit>
         <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
           <source>File types that will accept file to be dropped onto</source>
-          <target state="new">File types that will accept file to be dropped onto</target>
+          <target state="final">Typy plików, które będą akceptować upuszczenie do nich plików</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
         </trans-unit>
         <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
           <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
-          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+          <target state="final">Wpływa na podgląd, metadane, miniatury i podobne funkcje w zależności od tego, co jest obsługiwane przez rozszerzenia innych firm i sam system Windows.</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
-          <target state="new">Double-Click threshold (ms)</target>
+          <target state="final">Próg podwójnego kliknięcia (ms)</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
-          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
+          <target state="final">Redukuje hałas przycisków myszy, ustawiając opóźnienie (w milisekundach) w celu ignorowania szybkich, niezamierzonych kliknięć.</target>
+        </trans-unit>
+        <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
+          <source>Text rendering</source>
+          <target state="new">Text rendering</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
+          <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
+          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
+          <source>Select the best looking text option</source>
+          <target state="new">Select the best looking text option</target>
         </trans-unit>
       </group>
     </body>
@@ -2026,8 +2041,9 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">To nie jest prawidłowy format daty w standardzie .NET. Resetowanie do ustawień domyślnych</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="final">Programy przenośne (portable) potrzebują dostępu do zapisu we własnych folderach, więc nie mogą umieszczone w folderze „Program Files”. Zamknij program i przenieś cały folder do [BOLDSTART]nie systemowego folderu[BOLDEND] i uruchom go ponownie</target>
+          <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <target state="needs-review-translation">Programy przenośne (portable) potrzebują dostępu do zapisu we własnych folderach, więc nie mogą umieszczone w folderze „Program Files”. Zamknij program i przenieś cały folder do [BOLDSTART]nie systemowego folderu[BOLDEND] i uruchom go ponownie</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2398,9 +2414,10 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <note from="MultilingualEditor" annotates="source" priority="4">User clicked to download resources in settings (store version) but there is an error</note>
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
-          <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="final">Błąd przenoszenia elementów. Program źródłowy nie sformatował ich poprawnie lub nazwy plików zawierały nieprawidłowe znaki</target>
+          <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
+          <target state="needs-review-translation">Błąd przenoszenia elementów. Program źródłowy nie sformatował ich poprawnie lub nazwy plików zawierały nieprawidłowe znaki</target>
           <note from="MultilingualEditor" annotates="source" priority="4">When you drop file to unsuppored program</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -2470,8 +2487,9 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Wielokrotne połączenia do serwera z tego samego komputera z różnymi nazwami użytkowników nie są dozwolone w systemie Windows</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
-          <source>Note empty</source>
-          <target state="final">Pusta notatka</target>
+          <source>Note is empty</source>
+          <target state="needs-review-translation">Pusta notatka</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -2512,16 +2530,18 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Wprowadź \\nazwę_hosta\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
-          <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="final">System Windows używa już protokołu smb. Wprowadź \\nazwę_hosta\</target>
+          <source>Windows already uses SMB. Enter \\hostname\</source>
+          <target state="needs-review-translation">System Windows używa już protokołu smb. Wprowadź \\nazwę_hosta\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
           <target state="final" state-qualifier="mt-suggestion">Ten folder zostanie automatycznie usunięty po zakończeniu operacji</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
-          <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="final">Aplikacja QuickLook nie działa. Uruchom ją lub wyłącz w Ustawienia&gt;Podgląd</target>
+          <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
+          <target state="needs-review-translation">Aplikacja QuickLook nie działa. Uruchom ją lub wyłącz w Ustawienia&gt;Podgląd</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -3075,9 +3095,10 @@ Foldery nie zostaną posortowane</target>
           <target state="final" state-qualifier="mt-suggestion">Pokaż ostatnie okno</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
-          <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="final">WSKAZÓWKA: Użyj Ctrl + kółko myszy, aby zmienić rozmiar miniatury / ilość elementów w kolumnie</target>
+          <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
+          <target state="needs-review-translation">WSKAZÓWKA: Użyj Ctrl + kółko myszy, aby zmienić rozmiar miniatury / ilość elementów w kolumnie</target>
           <note from="MultilingualEditor" annotates="source" priority="4">First time used the thumbnail view - a notification</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -3449,8 +3470,9 @@ Foldery nie zostaną posortowane</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
-          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
-          <target state="final">Rozmiar folderu może być obliczony tylko dla folderów, które mają dostępne całe drzewo folderów i plików i Windows je zindeksował</target>
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
+          <target state="needs-review-translation">Rozmiar folderu może być obliczony tylko dla folderów, które mają dostępne całe drzewo folderów i plików i Windows je zindeksował</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
@@ -3906,33 +3928,38 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="Admin" translate="yes" xml:space="preserve">
           <source>Admin</source>
-          <target state="new">Admin</target>
+          <target state="final">Administrator</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
         <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
           <source>Archive</source>
-          <target state="new">Archive</target>
+          <target state="final">Archiwum</target>
         </trans-unit>
         <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
           <source>Audio</source>
-          <target state="new">Audio</target>
+          <target state="final">Audio</target>
         </trans-unit>
         <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="new">Document</target>
+          <target state="final">Dokument</target>
         </trans-unit>
         <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">Image</target>
+          <target state="final">Obraz</target>
         </trans-unit>
         <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
           <source>Photo</source>
-          <target state="new">Photo</target>
+          <target state="final">Zdjęcie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
         </trans-unit>
         <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="new">Video</target>
+          <target state="final">Wideo</target>
+        </trans-unit>
+        <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
+          <source>More options...</source>
+          <target state="new">More options...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
       </group>
     </body>
@@ -4074,6 +4101,10 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
           <target state="final">Aktualizuj do licencji użytkownika</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
+        <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
+          <source>Transfer license from another PC</source>
+          <target state="new">Transfer license from another PC</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4210,6 +4241,10 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
           <target state="final">Uzyskaj licencję PRO bez konta Microsoft</target>
+        </trans-unit>
+        <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
         </trans-unit>
       </group>
     </body>

@@ -259,6 +259,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <source>Get Pro license without Microsoft account</source>
           <target state="new">Get Pro license without Microsoft account</target>
         </trans-unit>
+        <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -398,6 +402,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <source>Upgrade to User-based license</source>
           <target state="new">Upgrade to User-based license</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
+        </trans-unit>
+        <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
+          <source>Transfer license from another PC</source>
+          <target state="new">Transfer license from another PC</target>
         </trans-unit>
       </group>
     </body>
@@ -1536,6 +1544,7 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
           <target state="translated">Als het programma een venster heeft geopend, dubbelklikt u op de snelkoppeling om</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -1742,8 +1751,9 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="tm-suggestion">Venster</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
-          <source>To create a custom theme: make a copy of a theme from \Themes folder and edit values in .xaml file</source>
-          <target state="translated" state-qualifier="mt-suggestion">Een aangepast thema maken: maak een kopie van een thema vanuit de map \Themes en bewerk waarden in het .xaml-bestand</target>
+          <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Een aangepast thema maken: maak een kopie van een thema vanuit de map \Themes en bewerk waarden in het .xaml-bestand</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2361,8 +2371,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Groep Netwerken weergeven in zijbalk</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
-          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
+          <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">U kunt de zijbalkgroep Netwerken opnieuw inschakelen via Instellingen, tabblad Venster</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
@@ -2685,6 +2697,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
           <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
+        <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
+          <source>Text rendering</source>
+          <target state="new">Text rendering</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
+          <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
+          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
+          <source>Select the best looking text option</source>
+          <target state="new">Select the best looking text option</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2906,7 +2930,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Dit is geen geldige datumnotatie in de .NET-standaard. Terugzetten naar standaard</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">Draagbare programma's hebben schrijftoegang nodig in hun eigen mappen, zodat ze niet in de map "Program Files" kunnen bestaan. Verplaats de hele map naar een &lt;bpt id="1"&gt;&lt;b&gt;&lt;/bpt&gt;non-system map&lt;ept id="1"&gt;&lt;/b&gt;&lt;/ept&gt; en voer deze opnieuw uit</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
@@ -3326,8 +3350,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Het downloaden van themabronnen is mislukt met fout: {0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
-          <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="translated" state-qualifier="mt-suggestion">Fout bij gegevens neerzetten. Bronprogramma heeft het niet correct opgemaakt of bestandsnamen hadden ongeldige tekens</target>
+          <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fout bij gegevens neerzetten. Bronprogramma heeft het niet correct opgemaakt of bestandsnamen hadden ongeldige tekens</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3401,8 +3426,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
-          <source>Note empty</source>
-          <target state="translated" state-qualifier="mt-suggestion">Notitie leeg</target>
+          <source>Note is empty</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Notitie leeg</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3442,16 +3468,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Voer \\hostnaam\ in</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
-          <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="translated" state-qualifier="mt-suggestion">Windows maakt al gebruik van smb. Voer \\hostnaam\ in</target>
+          <source>Windows already uses SMB. Enter \\hostname\</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows maakt al gebruik van smb. Voer \\hostnaam\ in</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
           <target state="translated" state-qualifier="mt-suggestion">Deze map wordt automatisch verwijderd wanneer de bewerking is voltooid</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
-          <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="translated" state-qualifier="mt-suggestion">QuickLook wordt niet uitgevoerd. Start het of schakel het uit in Instellingen&gt;Preview</target>
+          <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">QuickLook wordt niet uitgevoerd. Start het of schakel het uit in Instellingen&gt;Preview</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -4034,8 +4062,9 @@ Folders can't be sorted</source>
           <target state="translated" state-qualifier="mt-suggestion">Laatste venster weergeven</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
-          <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated" state-qualifier="mt-suggestion">TIP: Gebruiker Ctrl + Muiswiel om miniatuurgrootte / items per kolom te wijzigen</target>
+          <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TIP: Gebruiker Ctrl + Muiswiel om miniatuurgrootte / items per kolom te wijzigen</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4368,8 +4397,9 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
-          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapgrootte kan alleen worden berekend voor mappen waarvan de volledige structuur van mappen en bestanden toegankelijk is en Windows deze heeft geïndexeerd</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -4788,6 +4818,11 @@ Sommige programma's kunnen dit bestand niet openen</target>
           <source>Admin</source>
           <target state="new">Admin</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
+        </trans-unit>
+        <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
+          <source>More options...</source>
+          <target state="new">More options...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
       </group>
     </body>

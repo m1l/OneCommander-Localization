@@ -634,8 +634,9 @@ Folders can't be sorted</source>
           <target state="translated">Unesi \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
-          <source>Windows already uses smb. Enter \\hostname\</source>
-          <target state="translated">Windows već koristi smb. Unesi \\hostname\</target>
+          <source>Windows already uses SMB. Enter \\hostname\</source>
+          <target state="needs-review-translation">Windows već koristi smb. Unesi \\hostname\</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Preview_LoadAsTextFailed" translate="yes" xml:space="preserve">
           <source>Couldn't load text preview</source>
@@ -750,8 +751,9 @@ Folders can't be sorted</source>
           <target state="translated">Nije moguće kreirati tekstualnu datoteku od podataka iz Clipboarda</target>
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
-          <source>Drop data error. Source program did not format it correcly or filenames had invalid characters</source>
-          <target state="translated">Greška u paketu. Izvorni program ga nije formatirao kako treba ili su imena datoteka imala nevažeće znakove</target>
+          <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
+          <target state="needs-review-translation">Greška u paketu. Izvorni program ga nije formatirao kako treba ili su imena datoteka imala nevažeće znakove</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -858,8 +860,9 @@ Folders can't be sorted</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fascikla sa ovim imenom već postoji</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
-          <source>Note empty</source>
+          <source>Note is empty</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Napomena prazna</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -980,9 +983,10 @@ Folders can't be sorted</source>
           <target state="translated">Nije moguće pokrenuti podrazumevani Veb pregledač da bi se na mapi prikazala GPS lokacija fotografije</target>
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
-          <source>QuickLook not runing. Start it, or disable it in Settings&gt;Preview</source>
-          <target state="translated">QuickLook nije aktivan. Pokrenite ga ili isključite u podešavanjima &gt; Prikaz</target>
+          <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
+          <target state="needs-review-translation">QuickLook nije aktivan. Pokrenite ga ili isključite u podešavanjima &gt; Prikaz</target>
           <note from="MultilingualEditor" annotates="source" priority="4">check</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_ThemeFileNotFound" translate="yes" xml:space="preserve">
           <source>Theme file not found at {0}</source>
@@ -1029,7 +1033,7 @@ Folders can't be sorted</source>
           <target state="translated">Ovo nije važeći format datuma u .NET standardu. Originalni format je vraćen</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
-          <source>Portable programs need a write access in their own folders so they cannot live in "Program Files" folder. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
+          <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
           <target state="needs-review-translation">Prenosnim programima je potreban pristup upisivanja u sopstvenim fasciklama i ne mogu da se pokreću iz fascikli "Program Files". Premestite celu OneCommander fasciklu u neku nesistemsku fasciklu i pokrenite ponovo program</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualEditor" annotates="source" priority="4">test</note>
@@ -1168,9 +1172,10 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortiranje datoteka</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
-          <source>TIP: User Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">SAVET: Koristite Ctrl + točak miša za promenu veličine sličica / datoteka po koloni</target>
+          <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
+          <target state="needs-review-translation">SAVET: Koristite Ctrl + točak miša za promenu veličine sličica / datoteka po koloni</target>
           <note from="MultilingualEditor" annotates="source" priority="4">FIX</note>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Updating" translate="yes" xml:space="preserve">
           <source>Updating...</source>
@@ -1699,8 +1704,9 @@ Neki programi neće moći da otvore/sačuvaju datoteke iz ove fascikle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
-          <source>Folder size can be calculated only for folders that have the entire tree of folders and files wihin accessible and Windows has indexed them</source>
+          <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Veličina fascikle se može izračunati samo za fascikle koje imaju celo stablo fascikli i datoteka kojima se može pristupiti, a Windows ih je indeksirao</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -2119,6 +2125,11 @@ Neki programi neće moći da otvore ovu datoteku</target>
           <target state="new">Admin</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
+        <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
+          <source>More options...</source>
+          <target state="new">More options...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2213,8 +2224,9 @@ Neki programi neće moći da otvore ovu datoteku</target>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Ostalo</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
-          <source>To create a custom theme: make a copy of a theme from \Themes folder and edit values in .xaml file</source>
-          <target state="translated">Kreiranje sopstvene teme: Napravite kopiju teme iz fascikle \Themes i izmenite vrednosti u .xaml datoteci</target>
+          <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
+          <target state="needs-review-translation">Kreiranje sopstvene teme: Napravite kopiju teme iz fascikle \Themes i izmenite vrednosti u .xaml datoteci</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
@@ -3005,6 +3017,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
           <target state="translated">Ako program ima već otvoren prozor, dupli-klik na prečicu traba da</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -3646,8 +3659,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Prikaži grupu mreža na bočnoj traci</target>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
-          <source>You can enable Networks sidebar group again from Settings, Window tab</source>
+          <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Grupu bočnih traka "Mreže" možete ponovo omogućiti sa kartice "Postavke", kartice "Prozor"</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
@@ -3969,6 +3984,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
           <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
         </trans-unit>
+        <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
+          <source>Text rendering</source>
+          <target state="new">Text rendering</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
+          <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
+          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
+          <source>Select the best looking text option</source>
+          <target state="new">Select the best looking text option</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4109,6 +4136,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Upgrade to User-based license</source>
           <target state="new">Upgrade to User-based license</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
+        </trans-unit>
+        <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
+          <source>Transfer license from another PC</source>
+          <target state="new">Transfer license from another PC</target>
         </trans-unit>
       </group>
     </body>
@@ -4251,6 +4282,10 @@ Licenca će važiti za do 10 računara koji se koriste sa istim Microsoft nalogo
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
           <target state="new">Get Pro license without Microsoft account</target>
+        </trans-unit>
+        <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
         </trans-unit>
       </group>
     </body>
