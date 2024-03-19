@@ -139,7 +139,7 @@
         </trans-unit>
         <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
           <source>Transfer license from another PC</source>
-          <target state="new">Transfer license from another PC</target>
+          <target state="final">Přenesení licence z jiného počítače</target>
         </trans-unit>
       </group>
     </body>
@@ -398,7 +398,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <target state="final">Vydávání licencí na zařízení končí. Pokud jste licenci zakoupili méně než před rokem, můžete ji na nový počítač přesunout; odpovězte na e-mail s licencí a pošlete ID zařízení uvedené níže. Chcete-li získat trvalou možnost používat svou licenci na jakémkoli počítači, upgradujte ji na doživotní licenci na pojmenovaného uživatele uhrazením cenového rozdílu. Pro upgrade kontaktujte podporu nebo použijte odkaz "{0}" v dialogovém okně "O aplikaci" licencovaného počítače.</target>
         </trans-unit>
       </group>
     </body>
@@ -1652,8 +1652,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skupinu postranního panelu Sítě můžete znovu povolit v nabídce Nastavení na kartě Okno</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Skupinu postranního panelu Sítě můžete znovu povolit v Nastavení 🡢 Okno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
@@ -2269,8 +2268,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
-          <target state="needs-review-translation">Vytvoření vlastního motivu: Vytvořte kopii motivu ze složky \Themes a upravte nastavení v souboru .xaml</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Vytvoření vlastního motivu: Vytvořte kopii motivu ze složky Themes a upravte potřebné hodnoty v souboru .xaml</target>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
@@ -2668,15 +2666,15 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
-          <target state="new">Text rendering</target>
+          <target state="final">Vykreslování textu</target>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+          <target state="final">Ovlivňuje pouze text v seznamu souborů. Výsledek může vypadat na každé obrazovce jinak, pokud jich máte více a pokud mají jiné měřítko zobrazení v systému Windows nebo jiné rozložení pixelů; proto proveďte kalibraci na obrazovce s nejnižší kvalitou. Tuto volbu může ovlivnit změna nastavení velikosti písma programu a nastavení volby ClearType v systému Windows.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <target state="final">Vyberte nejlépe vypadající variantu textu</target>
         </trans-unit>
       </group>
     </body>
@@ -3017,8 +3015,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="needs-review-translation">Programy na přenosném úložišti potřebují právo zapisovat do svých vlastních složek, takže nemohou být umístěny ve složce "Program Files". Ukončete program, přesuňte celou složku do [BOLDSTART]nesystémové složky[BOLDEND] a znovu jej spusťte</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Přenosné programy potřebují práva zápisu do svých složek, takže nemohou být spouštěny ze složky "Program Files" nebo jiných systémových složek. Program ukončete a celou složku přesuňte do [BOLDSTART]nesystémové složky[BOLDEND] a znovu jej spusťte</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -3178,8 +3175,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
-          <target state="needs-review-translation">Velikost složky lze vypočítat pouze pro ty složky, které mají celý strom složek a souborů přístupný a systém Windows jej indexoval</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Velikost složky lze vypočítat pouze pro ty složky, které mají celý strom složek a souborů přístupný a systém Windows je indexoval</target>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
@@ -3592,8 +3588,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
           <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
-          <target state="needs-review-translation">Chyba výpadku dat. Zdrojový program jej neformátoval odpovídajícím způsobem nebo názvy souborů obsahovaly neplatné znaky</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Chyba při předávání dat. Zdrojový program je nenaformátoval správně nebo názvy souborů obsahovaly neplatné znaky</target>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3696,8 +3691,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note is empty</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poznámka je prázdná</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final" state-qualifier="mt-suggestion">Poznámka je prázdná</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3737,8 +3731,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses SMB. Enter \\hostname\</source>
-          <target state="needs-review-translation">Protokol smb je systémem Windows již používán. Zadejte \\hostname\</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Protokol SMB je již systémem Windows používán. Zadejte \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
@@ -3746,8 +3739,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
           <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
-          <target state="needs-review-translation">Program QuickLook neběží. Spusťte jej nebo zakažte jeho používání v Nastavení&gt;Náhled</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Program QuickLook neběží. Spusťte jej nebo zakažte jeho používání v Nastavení🡢Náhled</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -4468,8 +4460,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation">TIP: Pro změnu velikosti náhledu / položek ve sloupci použijte Ctrl + kolečko myši</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">TIP: Pomocí klávesové zkratky Ctrl + kolečko myši můžete měnit velikost miniatur / počtu položek ve sloupci</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4770,7 +4761,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
-          <target state="new">More options...</target>
+          <target state="final">Další možnosti...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
       </group>
