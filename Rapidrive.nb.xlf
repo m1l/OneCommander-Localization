@@ -254,7 +254,7 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <target state="final">Maskinbaserte lisenser avvikles. Hvis lisensen din ble kjøpt for mindre enn et år siden, kan du overføre den ved å svare på lisensierings-e-posten med maskin-ID vist nedenfor. For et permanent alternativ, oppgrader til en livstids brukerbasert lisens ved å dekke prisforskjellen. Kontakt kundestøtte eller bruk lenken "{0}" i "Om"-dialogen til den lisensierte maskinen for å oppgradere.</target>
         </trans-unit>
       </group>
     </body>
@@ -393,12 +393,21 @@ Lisensen vil være gyldig for opptil 10 datamaskiner som brukes med samme Micros
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="new">Upgrade to User-based license</target>
+          <target state="final">Oppgrader til brukerbasert lisens</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
         <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
           <source>Transfer license from another PC</source>
-          <target state="new">Transfer license from another PC</target>
+          <target state="final">Overfør lisens fra en annen datamaskin</target>
+        </trans-unit>
+        <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
+          <source>Educational institution license</source>
+          <target state="new">Educational institution license</target>
+        </trans-unit>
+        <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
+          <source>Changes log / release notes</source>
+          <target state="new">Changes log / release notes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
       </group>
     </body>
@@ -1361,8 +1370,10 @@ Dra flytter hvis samme stasjon, ellers kopierer. Ctrl+Dra for å kopiere hvis sa
           <target state="final">Behandler av filoperasjoner</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default or TeraCopy (must be already installed)</source>
-          <target state="final" state-qualifier="mt-suggestion">Velg mellom standard eller TeraCopy (må allerede være installert)</target>
+          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Velg mellom standard eller TeraCopy (må allerede være installert)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
@@ -1693,8 +1704,7 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Du kan aktivere Nettverk-sidefeltgruppen igjen fra Innstillinger, Vindu-fanen</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Du kan aktivere Nettverk-sidefeltgruppen igjen fra Innstillinger🡢Vindu-fanen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
@@ -2037,8 +2047,7 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcuts Editor</source>
-          <target state="needs-review-translation">Redigere snarvei</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Redigering av snarveier</target>
         </trans-unit>
         <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
           <source>Key</source>
@@ -2311,8 +2320,7 @@ Dette bør aktiveres hvis programmet er angitt som standard filbehandlingsprogra
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
-          <target state="needs-review-translation">Slik opprettes et egendefinert tema: Lag en kopi av et tema fra \Themes-mappen og rediger verdier i XAML-filen</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Slik oppretter du et egendefinert tema: lag en kopi av et tema fra Temaer-mappen og rediger verdier i XAML-filen</target>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
@@ -2582,14 +2590,12 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="needs-review-translation">Behold filposisjon</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Behold filposisjon i listen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="needs-review-translation">Etter å ha gitt nytt navn til filen:</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Etter å ha gitt nytt navn til eller oppdatert filen:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
@@ -2637,49 +2643,66 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="new">Hotkey action</target>
+          <target state="final">Hurtigtast handling</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="new">Download Audio by pasting URL using following parameters</target>
+          <target state="final">Last ned lyd ved å lime inn URL ved hjelp av følgende parametere</target>
         </trans-unit>
         <trans-unit id="Extensions" translate="yes" xml:space="preserve">
           <source>File types</source>
-          <target state="new">File types</target>
+          <target state="final">Filtyper</target>
         </trans-unit>
         <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
           <source>Executable</source>
-          <target state="new">Executable</target>
+          <target state="final">Kjørbar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
         </trans-unit>
         <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
           <source>File types that will accept file to be dropped onto</source>
-          <target state="new">File types that will accept file to be dropped onto</target>
+          <target state="final">Filtyper som godtar fil som skal slippes på</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
         </trans-unit>
         <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
           <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
-          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+          <target state="final">Påvirker forhåndsvisning, metadata, miniatyrbilde og lignende funksjonalitet avhengig av hva som støttes i tredjepartsutvidelser og Windows selv</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
-          <target state="new">Double-Click threshold (ms)</target>
+          <target state="final">Dobbeltklikkterskel (ms)</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
-          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
+          <target state="final">Reduserer museknappstøy ved å angi en forsinkelse (i millisekunder) for å ignorere raske, utilsiktede klikk</target>
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
-          <target state="new">Text rendering</target>
+          <target state="final">Gjengivelse av tekst</target>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+          <target state="final">Påvirker bare tekst i fillisten. Hvis du har flere skjermer, kan det se annerledes ut på hver av dem hvis de har forskjellige Windows-skaleringer eller pikselutforminger, så kalibrer til skjermen med lavest kvalitet. Endring av programmets skriftstørrelse vil påvirke dette. Windows ClearType-alternativet påvirker dette.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <target state="final">Velg det beste tekstalternativet</target>
+        </trans-unit>
+        <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
+          <source>Remove duplicates from tab's path history </source>
+          <target state="new">Remove duplicates from tab's path history </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
+          <source>Preview text length</source>
+          <target state="new">Preview text length</target>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
+          <source>Number of characters to read from file to show in preview pane</source>
+          <target state="new">Number of characters to read from file to show in preview pane</target>
+        </trans-unit>
+        <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
+          <source>Copy path format</source>
+          <target state="new">Copy path format</target>
         </trans-unit>
       </group>
     </body>
@@ -3020,8 +3043,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="needs-review-translation">Bærbare programmer trenger skrivetilgang i sine egne mapper, slik at de ikke kan leve i mappen "Programfiler". Vennligst lukk programmet og flytt hele mappen til en [BOLDSTART]ikke-system mappe[BOLDEND] og kjør det igjen</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Bærbare programmer trenger skrivetilgang i sine egne mapper, så de kan ikke kjøres fra mappen "Programfiler" eller andre systemmapper. Vennligst lukk programmet og flytt hele mappen til en [BOLDSTART]ikke-system mappe[BOLDEND] og kjør det igjen</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -3185,8 +3207,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
-          <target state="needs-review-translation">Mappestørrelse kan bare beregnes for mapper som har hele treet av mapper og filer innenfor tilgjengelig og Windows har indeksert dem</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Mappestørrelse kan bare beregnes for mapper som har hele treet med mapper og filer innenfor tilgjengelig, og Windows har indeksert dem</target>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
@@ -3612,8 +3633,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
           <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Slipp datafeil. Kildeprogrammet formaterte det ikke riktig, eller filnavn hadde ugyldige tegn</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Slipp-datafeil. Kildeprogramm formaterte det ikke riktig, eller filnavnene inneholdt ugyldige tegn</target>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3716,8 +3736,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note is empty</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Notat tomt</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Notat er tomt</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3757,8 +3776,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses SMB. Enter \\hostname\</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows bruker allerede smb. Skriv inn \\vertsnavn\</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Windows bruker allerede SMB. Skriv inn \\vertsnavn\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
@@ -3766,8 +3784,7 @@ Adobe Acrobat sideinnsetting fungerer heller ikke med noen. Bruk Kombiner filer 
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
           <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
-          <target state="needs-review-translation">QuickLook kjører ikke. Start eller deaktiver den i Innstillinger&gt;Forhåndsvisning</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">QuickLook kjører ikke. Start eller deaktiver den i Innstillinger🡢Forhåndsvisning</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -4493,8 +4510,7 @@ Mapper kan ikke sorteres</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">TIPS: Bruker Ctrl + musehjul for å endre miniatyrstørrelse / elementer per kolonne</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">TIPS: Bruk Ctrl + musehjul for å endre miniatyrstørrelse / elementer per kolonne</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4702,79 +4718,144 @@ Mapper kan ikke sorteres</target>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+          <target state="final">Oppdaget video på utklippstavlen. Trykk {0} for å laste ned til gjeldende mappe</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="new">Press Ctrl+C to copy message text</target>
+          <target state="final">Trykk Ctrl+C for å kopiere meldingstekst</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="new">Extract Audio from page</target>
+          <target state="final">Utvinn lyd fra siden</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="new">LNK file</target>
+          <target state="final">LNK-fil</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="new">Text file (link as content)</target>
+          <target state="final">Tekstfil (koble som innhold)</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="new">URL file</target>
+          <target state="final">URL-fil</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="new">Extract Video from page</target>
+          <target state="final">Utvinn video fra siden</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="new">Download as file</target>
+          <target state="final">Last ned som fil</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="new">Paste address</target>
+          <target state="final">Lim inn adresse</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="new">Automatic naming </target>
+          <target state="final">Automatisk navngivning</target>
         </trans-unit>
         <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">Image</target>
+          <target state="final">Bilde</target>
         </trans-unit>
         <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
           <source>Photo</source>
-          <target state="new">Photo</target>
+          <target state="final">Foto</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
         </trans-unit>
         <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
           <source>Archive</source>
-          <target state="new">Archive</target>
+          <target state="final">Arkiv</target>
         </trans-unit>
         <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
           <source>Audio</source>
-          <target state="new">Audio</target>
+          <target state="final">Lyd</target>
         </trans-unit>
         <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="new">Document</target>
+          <target state="final">Dokument</target>
         </trans-unit>
         <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="new">Video</target>
+          <target state="final">Video</target>
         </trans-unit>
         <trans-unit id="Admin" translate="yes" xml:space="preserve">
           <source>Admin</source>
-          <target state="new">Admin</target>
+          <target state="final">Administrator</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
-          <target state="new">More options...</target>
+          <target state="final">Flere alternativer...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
+          <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
+          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
+          <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
+          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
+          <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
+          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
+        </trans-unit>
+        <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
+          <source>Other browser pane</source>
+          <target state="new">Other browser pane</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
+          <source>Create Symlink (Soft Link)</source>
+          <target state="new">Create Symlink (Soft Link)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
+          <source>Create Hard Link</source>
+          <target state="new">Create Hard Link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
+          <source>Dual</source>
+          <target state="new">Dual</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
+          <source>Single</source>
+          <target state="new">Single</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
+          <source>Classic</source>
+          <target state="new">Classic</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
+          <source>Columns</source>
+          <target state="new">Columns</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target state="new">Standard</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
+          <source>Window layout</source>
+          <target state="new">Window layout</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
       </group>
     </body>

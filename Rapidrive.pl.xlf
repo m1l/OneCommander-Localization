@@ -780,8 +780,7 @@ Pozostaw włączone, jeśli program jest ustawiony jako domyślny menedżer plik
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
-          <target state="needs-review-translation">Aby utworzyć motyw niestandardowy: utwórz kopię motywu z folderu \Themes i edytuj wartości w pliku .xaml</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Aby utworzyć motyw niestandardowy: utwórz kopię motywu z folderu \Themes i edytuj wartości w pliku .xaml</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -893,8 +892,10 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
           <target state="final">Program do obsługi operacji na plikach</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default or TeraCopy (must be already installed)</source>
-          <target state="final">Pozwala wybrać pomiędzy domyślnym a programem TeraCopy (musi być już zainstalowany)</target>
+          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <target state="needs-review-translation">Pozwala wybrać pomiędzy domyślnym a programem TeraCopy (musi być już zainstalowany)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1112,7 +1113,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
-          <target state="final">Przełącz się do nowo utworzonej zakładki po kliknięciu środkowym przyciskiem myszy na folder</target>
+          <target state="final">Przełącz się do nowo utworzonej karty po kliknięciu środkowym przyciskiem myszy na folder</target>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
           <source>Wait for all items before showing context menu</source>
@@ -1508,8 +1509,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
-          <target state="needs-review-translation">Możesz ponownie włączyć grupę „Sieć” na pasku bocznym w Ustawieniach » zakładka Okno</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Możesz ponownie włączyć grupę „Sieć” na pasku bocznym w Ustawieniach » zakładka Okno</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
@@ -1837,15 +1837,32 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
-          <target state="new">Text rendering</target>
+          <target state="final">Renderowanie tekstu</target>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+          <target state="final">Wpływa tylko na tekst na liście plików. Jeśli masz wiele ekranów, może to wyglądać inaczej na każdym z nich, jeśli mają inną skalę wyświetlania Windows lub układ pikseli – skalibruj więc do ekranu o najniższej jakości. Zmiana rozmiaru czcionki programu będzie miała na to wpływ. Opcja Windows ClearType ma na to wpływ.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <target state="final">Wybierz najlepiej wyglądający tekst</target>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
+          <source>Preview text length</source>
+          <target state="new">Preview text length</target>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
+          <source>Number of characters to read from file to show in preview pane</source>
+          <target state="new">Number of characters to read from file to show in preview pane</target>
+        </trans-unit>
+        <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
+          <source>Remove duplicates from tab's path history </source>
+          <target state="new">Remove duplicates from tab's path history </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
+        </trans-unit>
+        <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
+          <source>Copy path format</source>
+          <target state="new">Copy path format</target>
         </trans-unit>
       </group>
     </body>
@@ -2042,8 +2059,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="needs-review-translation">Programy przenośne (portable) potrzebują dostępu do zapisu we własnych folderach, więc nie mogą umieszczone w folderze „Program Files”. Zamknij program i przenieś cały folder do [BOLDSTART]nie systemowego folderu[BOLDEND] i uruchom go ponownie</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Programy przenośne (portable) potrzebują dostępu do zapisu we własnych folderach, więc nie mogą być umieszczone w folderze „Program Files”. Zamknij program i przenieś cały folder do [BOLDSTART]nie systemowego folderu[BOLDEND] i uruchom go ponownie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -2415,9 +2431,8 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
           <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
-          <target state="needs-review-translation">Błąd przenoszenia elementów. Program źródłowy nie sformatował ich poprawnie lub nazwy plików zawierały nieprawidłowe znaki</target>
+          <target state="final">Błąd przenoszenia elementów. Program źródłowy nie sformatował ich poprawnie lub nazwy plików zawierały nieprawidłowe znaki</target>
           <note from="MultilingualEditor" annotates="source" priority="4">When you drop file to unsuppored program</note>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -2488,8 +2503,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note is empty</source>
-          <target state="needs-review-translation">Pusta notatka</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Notatka jest pusta</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -2531,8 +2545,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses SMB. Enter \\hostname\</source>
-          <target state="needs-review-translation">System Windows używa już protokołu smb. Wprowadź \\nazwę_hosta\</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">System Windows używa już protokołu smb. Wprowadź \\nazwę_hosta\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
@@ -2540,8 +2553,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
           <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
-          <target state="needs-review-translation">Aplikacja QuickLook nie działa. Uruchom ją lub wyłącz w Ustawienia&gt;Podgląd</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Aplikacja QuickLook nie działa. Uruchom ją lub wyłącz w Ustawienia » Podgląd</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -3096,9 +3108,8 @@ Foldery nie zostaną posortowane</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation">WSKAZÓWKA: Użyj Ctrl + kółko myszy, aby zmienić rozmiar miniatury / ilość elementów w kolumnie</target>
+          <target state="final">WSKAZÓWKA: Użyj Ctrl + kółko myszy, aby zmienić rozmiar miniatury / ilość elementów w kolumnie</target>
           <note from="MultilingualEditor" annotates="source" priority="4">First time used the thumbnail view - a notification</note>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -3471,8 +3482,7 @@ Foldery nie zostaną posortowane</target>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
-          <target state="needs-review-translation">Rozmiar folderu może być obliczony tylko dla folderów, które mają dostępne całe drzewo folderów i plików i Windows je zindeksował</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Rozmiar folderu może być obliczony tylko dla folderów, które mają dostępne całe drzewo folderów i plików i Windows je zindeksował</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
@@ -3958,8 +3968,73 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
-          <target state="new">More options...</target>
+          <target state="final">Więcej ustawień…</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
+        </trans-unit>
+        <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
+          <source>Other browser pane</source>
+          <target state="new">Other browser pane</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
+          <source>Create Hard Link</source>
+          <target state="new">Create Hard Link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
+          <source>Create Symlink (Soft Link)</source>
+          <target state="new">Create Symlink (Soft Link)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
+          <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
+          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
+          <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
+          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
+          <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
+          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
+        </trans-unit>
+        <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
+          <source>Dual</source>
+          <target state="new">Dual</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
+          <source>Single</source>
+          <target state="new">Single</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
+          <source>Classic</source>
+          <target state="new">Classic</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
+          <source>Columns</source>
+          <target state="new">Columns</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target state="new">Standard</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
+          <source>Window layout</source>
+          <target state="new">Window layout</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
       </group>
     </body>
@@ -4103,7 +4178,16 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
           <source>Transfer license from another PC</source>
-          <target state="new">Transfer license from another PC</target>
+          <target state="final">Przenieś licencję z innego komputera</target>
+        </trans-unit>
+        <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
+          <source>Changes log / release notes</source>
+          <target state="new">Changes log / release notes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
+        </trans-unit>
+        <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
+          <source>Educational institution license</source>
+          <target state="new">Educational institution license</target>
         </trans-unit>
       </group>
     </body>
@@ -4244,7 +4328,7 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <target state="final">Licencje maszynowe są wycofywane. Jeśli licencja została zakupiona mniej niż rok temu, można ją przenieść, odpowiadając na wiadomość e-mail z licencją za pomocą identyfikatora ID urządzenia pokazanego poniżej. Aby uzyskać licencję stałą, uaktualnij do dożywotniej licencji użytkownika, opłacając różnicę w cenie. Skontaktuj się z pomocą techniczną lub użyj linku „{0}” w oknie dialogowym „O programie / Pomoc” licencjonowanego urządzenia, aby dokonać aktualizacji.</target>
         </trans-unit>
       </group>
     </body>

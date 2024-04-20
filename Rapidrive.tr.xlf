@@ -400,6 +400,15 @@ Lisans, aynı Microsoft Hesabı ile kullanılan en fazla 10 bilgisayar için ge�
           <source>Transfer license from another PC</source>
           <target state="new">Transfer license from another PC</target>
         </trans-unit>
+        <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
+          <source>Educational institution license</source>
+          <target state="new">Educational institution license</target>
+        </trans-unit>
+        <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
+          <source>Changes log / release notes</source>
+          <target state="new">Changes log / release notes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1516,8 +1525,10 @@ Virgülle ayrılmış</target>
           <target state="final" state-qualifier="mt-suggestion">Dosya işlemleri işleyicisi</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default or TeraCopy (must be already installed)</source>
-          <target state="final" state-qualifier="mt-suggestion">Varsayılan veya TeraCopy arasında tercih yapabilirsiniz (yüklü olması gerek)</target>
+          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Varsayılan veya TeraCopy arasında tercih yapabilirsiniz (yüklü olması gerek)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
@@ -2782,6 +2793,23 @@ Adobe Acrobat sayfa ekleme iki şekilde de çalışmaz, bunun yerine bağlam men
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
           <target state="new">Select the best looking text option</target>
+        </trans-unit>
+        <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
+          <source>Remove duplicates from tab's path history </source>
+          <target state="new">Remove duplicates from tab's path history </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
+          <source>Preview text length</source>
+          <target state="new">Preview text length</target>
+        </trans-unit>
+        <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
+          <source>Number of characters to read from file to show in preview pane</source>
+          <target state="new">Number of characters to read from file to show in preview pane</target>
+        </trans-unit>
+        <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
+          <source>Copy path format</source>
+          <target state="new">Copy path format</target>
         </trans-unit>
       </group>
     </body>
@@ -4877,6 +4905,71 @@ Klasörler sıralanamıyor</target>
           <source>More options...</source>
           <target state="new">More options...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
+          <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
+          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
+          <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
+          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
+        </trans-unit>
+        <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
+          <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
+          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
+        </trans-unit>
+        <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
+          <source>Other browser pane</source>
+          <target state="new">Other browser pane</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
+          <source>Create shortcut</source>
+          <target state="new">Create shortcut</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
+          <source>Create Symlink (Soft Link)</source>
+          <target state="new">Create Symlink (Soft Link)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
+          <source>Create Hard Link</source>
+          <target state="new">Create Hard Link</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
+        </trans-unit>
+        <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
+          <source>Dual</source>
+          <target state="new">Dual</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
+          <source>Single</source>
+          <target state="new">Single</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
+        </trans-unit>
+        <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
+          <source>Classic</source>
+          <target state="new">Classic</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
+          <source>Columns</source>
+          <target state="new">Columns</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target state="new">Standard</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
+        </trans-unit>
+        <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
+          <source>Window layout</source>
+          <target state="new">Window layout</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
       </group>
     </body>
