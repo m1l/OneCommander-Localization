@@ -79,7 +79,7 @@
         </trans-unit>
         <trans-unit id="SearchName" translate="yes" xml:space="preserve">
           <source>Search name</source>
-          <target state="final">Hledané jméno</target>
+          <target state="final">Hledaný název</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Textbox watermark in about dialog</note>
         </trans-unit>
         <trans-unit id="SettingsLocation" translate="yes" xml:space="preserve">
@@ -143,12 +143,12 @@
         </trans-unit>
         <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
           <source>Changes log / release notes</source>
-          <target state="new">Changes log / release notes</target>
+          <target state="final">Přehled změn / poznámky k vydání</target>
           <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
         <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
           <source>Educational institution license</source>
-          <target state="new">Educational institution license</target>
+          <target state="final">Licence pro vzdělávací instituce</target>
         </trans-unit>
       </group>
     </body>
@@ -1363,8 +1363,7 @@ Přetažením v rámci stejné jednotky dojde k přesunutí, v opačném přípa
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
-          <target state="needs-review-translation">Volba mezi výchozí rutinou nebo TeraCopy (musí být již nainstalován)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Volba mezi výchozí rutinou (Explorer), TeraCopy (musí být již nainstalován) a Taskmaster (novinka).</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
@@ -2421,7 +2420,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
-          <target state="final" state-qualifier="mt-suggestion">Výchozí nastavení systému Windows</target>
+          <target state="final">Výchozí nastavení Windows</target>
         </trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
@@ -2689,20 +2688,20 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
-          <target state="new">Remove duplicates from tab's path history </target>
+          <target state="final">Odstranit duplicitní cesty z historie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
           <source>Preview text length</source>
-          <target state="new">Preview text length</target>
+          <target state="final">Délka textu v náhledu</target>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
           <source>Number of characters to read from file to show in preview pane</source>
-          <target state="new">Number of characters to read from file to show in preview pane</target>
+          <target state="final">Počet znaků, které se mají načíst ze souboru a zobrazit v podokně náhledu</target>
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="final">Formát zkopírované cesty</target>
         </trans-unit>
       </group>
     </body>
@@ -4794,67 +4793,67 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <target state="final">Zadaný název je příliš dlouhý. Systém Windows nepodporuje názvy delší než 255 znaků</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
           <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
-          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <target state="final">Přejmenování souboru se nezdařilo. Operace byla po 2 sekundách přerušena. Opakuji pomocí Průzkumníku...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
         </trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
-          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <target state="final">Disk je v režimu spánku. Probudím jej a zkusím operaci znovu...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="new">Other browser pane</target>
+          <target state="final">Protější panel</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="final">Vytvořit zástupce</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
           <source>Create Symlink (Soft Link)</source>
-          <target state="new">Create Symlink (Soft Link)</target>
+          <target state="final">Vytvořit softlink (symbolický odkaz)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
           <source>Create Hard Link</source>
-          <target state="new">Create Hard Link</target>
+          <target state="final">Vytvořit hardlink (pevný odkaz)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="final">Dvoupanelové</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="final">Jednopanelové</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="final">Klasické</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="final">Sloupcové</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="final">Standardní</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="final">Rozvržení okna</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
       </group>
