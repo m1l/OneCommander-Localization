@@ -143,11 +143,11 @@
         </trans-unit>
         <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
           <source>Educational institution license</source>
-          <target state="new">Educational institution license</target>
+          <target state="translated">Licencia de institución educativa</target>
         </trans-unit>
         <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
           <source>Changes log / release notes</source>
-          <target state="new">Changes log / release notes</target>
+          <target state="translated">Registro de cambios / Notas de la versión</target>
           <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
       </group>
@@ -384,6 +384,7 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
           <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="translated" state-qualifier="mt-suggestion">Licencias por volumen (más de 10) disponibles si se compran para dominio:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -406,8 +407,9 @@ La licencia será válida para un máximo de 10 equipos utilizados con la misma 
           <target state="translated">Obtenga una licencia Pro sin cuenta de Microsoft</target>
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
-          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="translated">Se están descontinuando las licencias basadas en máquinas. Si compró su licencia hace menos de un año, puede transferirla respondiendo al correo electrónico de licencia con el ID de máquina que se muestra a continuación. Para una opción permanente, actualice a una licencia de usuario de por vida cubriendo la diferencia de precio. Póngase en contacto con el soporte o utilice el enlace "{0}" en el cuadro de diálogo "Acerca de" de la máquina con licencia para actualizar.</target>
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="needs-review-translation">Se están descontinuando las licencias basadas en máquinas. Si compró su licencia hace menos de un año, puede transferirla respondiendo al correo electrónico de licencia con el ID de máquina que se muestra a continuación. Para una opción permanente, actualice a una licencia de usuario de por vida cubriendo la diferencia de precio. Póngase en contacto con el soporte o utilice el enlace "{0}" en el cuadro de diálogo "Acerca de" de la máquina con licencia para actualizar.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
       </group>
     </body>
@@ -1256,8 +1258,7 @@ Arrastrar mueve si es la misma unidad, de lo contrario copia. Ctrl+Arrastrar par
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
-          <target state="needs-review-translation">Elección entre predeterminado o TeraCopy (debe estar ya instalado).</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Elección entre predeterminado (Explorer), TeraCopy (ya debe estar instalado) y Taskmaster (nuevo)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
@@ -2690,20 +2691,20 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
-          <target state="new">Remove duplicates from tab's path history </target>
+          <target state="translated">Eliminar duplicados del historial de rutas de la pestaña </target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
           <source>Preview text length</source>
-          <target state="new">Preview text length</target>
+          <target state="translated">Vista previa de la longitud del texto</target>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
           <source>Number of characters to read from file to show in preview pane</source>
-          <target state="new">Number of characters to read from file to show in preview pane</target>
+          <target state="translated">Número de caracteres a leer del archivo para mostrar en el panel de vista previa</target>
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="translated">Copiar formato de ruta</target>
         </trans-unit>
       </group>
     </body>
@@ -3234,8 +3235,9 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
           <target state="translated" state-qualifier="mt-suggestion">Nueva pestaña en otro panel del Explorador</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
-          <source>New window (soon)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Nueva ventana (próximamente)</target>
+          <source>New window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nueva ventana (próximamente)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
@@ -3379,7 +3381,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="translated">Es posible que la unidad {0} esté ralentizando su computadora (¿esperando para activarse / girar?)</target>
+          <target state="translated">Es posible que la unidad {0} esté ralentizando su computadora (¿esperando para activarse o girar?)</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropContent" translate="yes" xml:space="preserve">
           <source>Issue with drop data: {0}</source>
@@ -4134,7 +4136,7 @@ Las carpetas no se pueden ordenar.</target>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="translated">SUGERENCIA: use Ctrl + rueda del mouse para cambiar el tamaño de la miniatura/elementos por columna</target>
+          <target state="translated">CONSEJO: Utilice Ctrl + rueda del ratón para cambiar el tamaño de las miniaturas / elementos por columna</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4795,68 +4797,101 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <target state="translated">El nombre ingresado es demasiado largo. Windows no admite nombres de más de 255 caracteres</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
           <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
-          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <target state="translated">Windows no ha podido cambiar el nombre del archivo. Operación abandonada después de 2 segundos. Reintentando a través del Explorador...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
         </trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
-          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <target state="translated">El disco está en modo de suspensión. Activarlo y volver a intentar la operación...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="new">Other browser pane</target>
+          <target state="translated">Otro panel del navegador</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="translated">Crear acceso directo</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
           <source>Create Symlink (Soft Link)</source>
-          <target state="new">Create Symlink (Soft Link)</target>
+          <target state="translated">Crear enlace simbólico (enlace suave)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
           <source>Create Hard Link</source>
-          <target state="new">Create Hard Link</target>
+          <target state="translated">Crear enlace físico</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="translated">Doble</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="translated">Único</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="translated">Clásico</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="translated">Columnas</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="translated">Estándar</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="translated">Diseño de ventanas</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
+        </trans-unit>
+        <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
+          <source>Middle mouse button</source>
+          <target state="new">Middle mouse button</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
+        </trans-unit>
+        <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
+          <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
+          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+        </trans-unit>
+        <trans-unit id="Paste" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="new">Paste</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
+          <source>Paste and open</source>
+          <target state="new">Paste and open</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
+          <source>Select all</source>
+          <target state="new">Select all</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="new">Undo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
+          <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
+          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
         </trans-unit>
       </group>
     </body>

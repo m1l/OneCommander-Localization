@@ -20,7 +20,7 @@
         </trans-unit>
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
-          <target state="translated">Die Akzentfarbe kann nicht geändert werden, da dieses spezielle Design eine bestimmte Akzentfarbe vorschreibt.</target>
+          <target state="translated">Die Akzentfarbe kann nicht geändert werden, da dieses spezielle Thema eine bestimmte Akzentfarbe vorschreibt.</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -40,7 +40,7 @@
         </trans-unit>
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
-          <target state="translated">Von Windows abrufen</target>
+          <target state="translated">Zeigt Benachrichtigungen an, die anbieten, eine Datei aus Text zu erstellen, indem Sie Strg+V drücken</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -338,7 +338,7 @@ Ziehen verschiebt bei gleichem Laufwerk, sonst kopieren. STRG+Ziehen kopiert bei
         </trans-unit>
         <trans-unit id="HeaderThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnails</source>
-          <target state="translated">Akzentfarbe</target>
+          <target state="translated">Vorschaubilder</target>
         </trans-unit>
         <trans-unit id="HeaderUIProperties" translate="yes" xml:space="preserve">
           <source>UI properties</source>
@@ -956,7 +956,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
-          <target state="translated">Miniatur-Dateiansicht</target>
+          <target state="translated">Miniaturansicht der Datei</target>
         </trans-unit>
         <trans-unit id="DateShownCreated" translate="yes" xml:space="preserve">
           <source>Date created</source>
@@ -1033,15 +1033,15 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
-          <target state="translated">Windows-Miniaturbild-Cache löschen</target>
+          <target state="translated">Windows-Miniaturbild-Cache leeren</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
-          <target state="translated">explorer.exe beenden, Windows Thumbnail-Cache-Dateien löschen und dann explorer.exe neu starten? Dies wird alle laufenden Dateioperationen beenden!!!</target>
+          <target state="translated">Sie beenden explorer.exe, löschen die Windows- Miniaturbild-Cache-Dateien und starten dann explorer.exe neu? Dies wird alle laufenden Dateioperationen beenden!!!</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
-          <target state="translated">3ds Max-Thumbnail-Handler registrieren</target>
+          <target state="translated">3ds Max Miniaturbild-Handler registrieren</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
@@ -1333,7 +1333,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
-          <target state="translated">Löscht den globalen Thumbnail-Cache von Windows (auch für Explorer)</target>
+          <target state="translated">Löscht den globalen Windows-Miniaturbild-Cache (auch für Explorer)</target>
         </trans-unit>
         <trans-unit id="EnableSFP" translate="yes" xml:space="preserve">
           <source>Enable Explorer Preview (Shell File Preview)</source>
@@ -1487,7 +1487,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
-          <target state="translated">Dies kann dazu führen, dass Dateien aus der Cloud heruntergeladen werden, je nach Cloud-Anbieter und Thumbnail-Handler (außerhalb der Kontrolle von OneCommander)</target>
+          <target state="translated">Dies kann dazu führen, dass Dateien aus der Cloud heruntergeladen werden, je nach Cloud-Anbieter und Miniaturbild-Handler (außerhalb der Kontrolle von OneCommander)</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
@@ -1600,11 +1600,11 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="UseLocalThumbsDb" translate="yes" xml:space="preserve">
           <source>Use local thumbnails database (faster)</source>
-          <target state="translated">Lokale Thumbnails-Datenbank verwenden (schneller)</target>
+          <target state="translated">Lokale Miniaturbilddatenbank verwenden (schneller)</target>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="translated">Erstellt eine Datenbankdatei im Ordner "Einstellungen", statt den Thumbnail-Cache von Windows zum Speichern der Vorschaubilder zu verwenden. Die Datei wird groß sein. Setzt die Standard-Ordner-Thumbnails außer Kraft und deaktiviert die Verwendung eigener Ordnersymbole</target>
+          <target state="translated">Erstellt eine Datenbankdatei im Ordner "Einstellungen", anstatt den Windows-Miniaturbild-Cache für die Speicherung von Dateivorschaubildern zu verwenden. Die Datei wird groß sein. Überschreibt die Standard-Ordner-Miniaturansichten und deaktiviert die Verwendung benutzerdefinierter Ordnersymbole</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
@@ -1637,16 +1637,16 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
-          <target state="translated">Lokale Thumbnail-Datenbank löschen</target>
+          <target state="translated">Lokale Miniaturbilddatenbank löschen</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
-          <target state="translated">Dadurch wird die Anzeige der Thumbnails langsamer, bis jedes Thumbnail beim ersten Öffnen eines Ordners erneut extrahiert wird.[NEWLINE]Sind Sie sicher?</target>
+          <target state="translated">Dadurch wird die Anzeige der Miniaturbilder langsamer, bis jedes Miniaturbild beim ersten Öffnen eines Ordners erneut extrahiert wird.[NEWLINE]Sind Sie sicher?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="translated">Die lokale Thumbnail-Datenbank enthält {0} Thumbnails mit einer Gesamtgröße von {1} MB</target>
+          <target state="translated">Die lokale Miniaturbilddatenbank enthält {0} Miniaturbilder mit einer Gesamtgröße von {1} MB</target>
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
@@ -1655,7 +1655,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="FolderThumbnailStyle" translate="yes" xml:space="preserve">
           <source>Folder thumbnail style</source>
-          <target state="translated">Format der Ordner-Thumbnails</target>
+          <target state="translated">Stil der Ordner-Miniaturansicht</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
@@ -1699,7 +1699,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="FolderThumbStyleChangeNotice" translate="yes" xml:space="preserve">
           <source>Changing thumbnail style requires clearing all stored thumbnails (use button above)</source>
-          <target state="translated">Das Ändern des Thumbnail-Stils erfordert das Löschen aller gespeicherten Thumbnails (Schaltfläche oben verwenden)</target>
+          <target state="translated">Das Ändern des Miniaturbildstils erfordert das Löschen aller gespeicherten Miniaturbilder (Schaltfläche oben verwenden)</target>
         </trans-unit>
         <trans-unit id="UseSingleNewItemButton" translate="yes" xml:space="preserve">
           <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
@@ -1848,7 +1848,7 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="translated">Pfadformat kopieren</target>
         </trans-unit>
       </group>
     </body>
@@ -2239,8 +2239,8 @@ Das Einfügen von Seiten aus Adobe Acrobat funktioniert auch nicht. Verwenden Si
           <target state="translated">Neue Registerkarte in anderem Fenster</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
-          <source>New window (soon)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Neues Fenster (in Kürze)</target>
+          <source>New window</source>
+          <target state="translated">Neues Fenster</target>
         </trans-unit>
         <trans-unit id="Menu_RemovePath" translate="yes" xml:space="preserve">
           <source>Remove from group</source>
@@ -3738,11 +3738,11 @@ Einige Programme können diese Datei nicht öffnen</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
-          <target state="translated">Alle Vorschaubilder abrufen</target>
+          <target state="translated">Alle Vorschaubilder anzeigen</target>
         </trans-unit>
         <trans-unit id="Menu_RegenerateThumbnail" translate="yes" xml:space="preserve">
           <source>Regenerate thumbnail</source>
-          <target state="translated">Vorschaubild neu generieren</target>
+          <target state="translated">Miniaturbild neu generieren</target>
         </trans-unit>
         <trans-unit id="Menu_Remove" translate="yes" xml:space="preserve">
           <source>Remove</source>
@@ -3976,33 +3976,66 @@ Einige Programme können diese Datei nicht öffnen</target>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="translated">Dual</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="translated">Einzeln</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="translated">Klassisch</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="translated">Spalten</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="translated">Standard</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="translated">Fenster-Layout</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
+        </trans-unit>
+        <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
+          <source>Middle mouse button</source>
+          <target state="translated">Mittlere Maustaste</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
+        </trans-unit>
+        <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
+          <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
+          <target state="translated">Dieser Ordnername endet mit einem Leerzeichen ' '. Dies wird von Windows nicht unterstützt, so dass einige Vorgänge nicht funktionieren und Programme Dateien in diesem Ordner möglicherweise nicht öffnen oder speichern können. Es kann auch dazu führen, dass ein doppelter Ordner ohne Leerzeichen am Ende erstellt wird. Bitte öffnen Sie den übergeordneten Ordner und benennen Sie diesen Ordner um.</target>
+        </trans-unit>
+        <trans-unit id="Paste" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="translated">Einfügen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
+          <source>Paste and open</source>
+          <target state="translated">Einfügen und öffnen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
+          <source>Select all</source>
+          <target state="translated">Alle auswählen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="translated">Rückgängig</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
+          <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
+          <target state="translated">Das Programm ist so eingestellt, dass es Taskmaster für Dateioperationen verwendet und kann nicht direkt rückgängig gemacht werden.[NEWLINE]Sie können Taskmaster öffnen, mit der rechten Maustaste auf einen Auftrag klicken und ihn von dort aus rückgängig machen.[NEWLINE]Möchten Sie Taskmaster öffnen?</target>
         </trans-unit>
       </group>
     </body>
@@ -4121,6 +4154,7 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
           <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="translated">Volumenlizenzen (10+) verfügbar, wenn sie für eine Domain erworben werden:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -4143,8 +4177,8 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
           <target state="translated">Pro-Lizenz ohne Microsoft-Konto erhalten</target>
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
-          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="translated">Maschinenbasierte Lizenzen werden eingestellt. Wenn Ihre Lizenz vor weniger als einem Jahr erworben wurde, können Sie sie übertragen, indem Sie auf die Lizenzierungs-E-Mail mit der unten angegebenen Maschinen-ID antworten. Wenn Sie eine Dauerlizenz wünschen, können Sie ein Upgrade auf eine benutzerbasierte Lizenz auf Lebenszeit durchführen, indem Sie die Preisdifferenz ausgleichen. Wenden Sie sich an den Support oder verwenden Sie den Link "{0}" im "Über"-Dialog des lizenzierten Computers, um ein Upgrade durchzuführen.</target>
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="translated">Maschinenbasierte Lizenzen werden nicht mehr angeboten. Wenn Ihre Lizenz vor weniger als [BOLD]1 Jahr[/BOLD] erworben wurde, können Sie sie übertragen, indem Sie auf die Lizenzierungs-E-Mail mit der unten angegebenen Maschinen-ID antworten. [NEWLINE]Wenn Sie eine dauerhafte Option wünschen, können Sie ein Upgrade auf eine benutzerbasierte Lizenz auf Lebenszeit durchführen, indem Sie die Preisdifferenz übernehmen. Wenden Sie sich an den Support oder verwenden Sie den Link "{0}" im "Über"-Dialog des lizenzierten Computers, um ein Upgrade durchzuführen.</target>
         </trans-unit>
       </group>
     </body>
@@ -4800,7 +4834,7 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
-          <target state="translated">Wenn Sie Thumbnails verwenden, sollten diese die gleiche Höhe haben</target>
+          <target state="translated">Wenn Sie die Miniaturansicht verwenden, sollte sie die gleiche Höhe haben.</target>
         </trans-unit>
         <trans-unit id="ElementAlign" translate="yes" xml:space="preserve">
           <source>Element align</source>
@@ -4832,7 +4866,7 @@ Die Lizenz ist für bis zu 10 Computer gültig, die mit demselben Microsoft-Kont
         </trans-unit>
         <trans-unit id="Thumbnail" translate="yes" xml:space="preserve">
           <source>Thumbnail</source>
-          <target state="translated">Thumbnail</target>
+          <target state="translated">Miniaturansicht</target>
         </trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>

@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" datatype="resx">
         <trans-unit id="CreditsAndContributors" translate="yes" xml:space="preserve">
           <source>Credits and contributors</source>
-          <target state="translated">非當前欄位最大寬度</target>
+          <target state="translated">榮譽和貢獻者</target>
         </trans-unit>
         <trans-unit id="Email" translate="yes" xml:space="preserve">
           <source>Email</source>
@@ -139,15 +139,15 @@
         </trans-unit>
         <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
           <source>Transfer license from another PC</source>
-          <target state="new">Transfer license from another PC</target>
+          <target state="translated">從其他電腦轉移許可證</target>
         </trans-unit>
         <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
           <source>Educational institution license</source>
-          <target state="new">Educational institution license</target>
+          <target state="translated">學術機構許可證</target>
         </trans-unit>
         <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
           <source>Changes log / release notes</source>
-          <target state="new">Changes log / release notes</target>
+          <target state="translated">更新日志</target>
           <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
       </group>
@@ -384,6 +384,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
           <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="translated">如果為域購買，則可以考慮批量許可證 （10+） ：</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -406,8 +407,9 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="translated">無需 Microsoft Account 即可取得 PRO 許可證</target>
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
-          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="needs-review-translation">基於機器的許可證即將停止使用。如果您是在一年内購買，您可以回覆購買回執郵件並附上下方的機器 ID 進行轉移。如果想永久使用，您可以支付差價並升級爲基於使用者的許可證。請聯絡支援人員或在已激活許可證的機器使用「關於」界面中的「{0}」進行升級。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
       </group>
     </body>
@@ -1206,8 +1208,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
-          <target state="needs-review-translation">可在 原生 或 TeraCopy（另外安裝） 之間進行選擇</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">在檔案總管（系統預設）、TeraCopy（須另外安裝）和 Taskmaster（新）之間進行選擇</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
@@ -1790,8 +1791,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
-          <target state="needs-review-translation">若要建立自訂主題，請從 \Themes 資料夾中複製主題並編輯 .xaml 檔案中的值</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">若要建立自訂主題，請從 Themes 資料夾中複製一個主題並編輯 .xaml 檔案中的值</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2295,8 +2295,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcuts Editor</source>
-          <target state="needs-review-translation">快速鍵編輯器</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">快速鍵編輯器</target>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
@@ -2357,8 +2356,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_I_HowToShowNetworksGroup" translate="yes" xml:space="preserve">
           <source>You can enable Networks sidebar group again from Settings🡢Window tab</source>
-          <target state="needs-review-translation">您可以在「視窗」設定中再次啟用「網路」側邊欄面板</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">您可以在 設定🡢視窗 中再次啟用「網路」側邊欄面板</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
@@ -2656,58 +2654,58 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="Extensions" translate="yes" xml:space="preserve">
           <source>File types</source>
-          <target state="new">File types</target>
+          <target state="translated">檔案類型</target>
         </trans-unit>
         <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
           <source>Executable</source>
-          <target state="new">Executable</target>
+          <target state="translated">可執行檔</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
         </trans-unit>
         <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
           <source>File types that will accept file to be dropped onto</source>
-          <target state="new">File types that will accept file to be dropped onto</target>
+          <target state="translated">可接受拖放檔案的檔案類型</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
         </trans-unit>
         <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
           <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
-          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+          <target state="translated">影響預覽、元數據、縮圖和類似功能，具體取決於第三方擴充功能和 Windows 本身支援的功能</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
-          <target state="new">Double-Click threshold (ms)</target>
+          <target state="translated">雙擊閾值（毫秒）</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
-          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
+          <target state="translated">透過設定延遲（以毫秒為單位）來忽略快速、意外的點擊，從而減少滑鼠鍵噪音</target>
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
-          <target state="new">Text rendering</target>
+          <target state="translated">文本呈現</target>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+          <target state="translated">僅影響檔案列表中的文本。如果您有多個顯示器，且它們具有不同的 Windows 顯示比例或像素佈局，則在每個顯示器上的外觀都可能會有所不同，因此請根據最低品質的顯示器進行校準。更改程式字體大小會對此產生影響。Windows ClearType 設定也會對此產生影響。</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <target state="translated">選擇最美觀的文本選項</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
-          <target state="new">Remove duplicates from tab's path history </target>
+          <target state="translated">移除索引標簽歷史記錄中的重複項目</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
           <source>Preview text length</source>
-          <target state="new">Preview text length</target>
+          <target state="translated">預覽文本長度</target>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
           <source>Number of characters to read from file to show in preview pane</source>
-          <target state="new">Number of characters to read from file to show in preview pane</target>
+          <target state="translated">從檔案中讀取並顯示在預覽窗格中的字符數</target>
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="translated">複製路徑格式</target>
         </trans-unit>
       </group>
     </body>
@@ -2720,32 +2718,32 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
       <group id="RAPIDRIVE/PROPERTIES/RESOURCES.RESX" datatype="resx">
         <trans-unit id="AgeDayShort" translate="yes" xml:space="preserve">
           <source>d</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">d</target>
+          <target state="translated" state-qualifier="mt-suggestion">d</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for day (ex: 1 d)</note>
         </trans-unit>
         <trans-unit id="AgeHourShort" translate="yes" xml:space="preserve">
           <source>h</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">h</target>
+          <target state="translated" state-qualifier="mt-suggestion">h</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for hour (ex: 1 h 10')</note>
         </trans-unit>
         <trans-unit id="AgeMinuteShort" translate="yes" xml:space="preserve">
           <source>min</source>
-          <target state="needs-review-translation">min</target>
+          <target state="translated">min</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Minute (ex: 1h 15min)</note>
         </trans-unit>
         <trans-unit id="AgeMonthShort" translate="yes" xml:space="preserve">
           <source>M</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">M</target>
+          <target state="translated" state-qualifier="mt-suggestion">M</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for month (ex: 1 M)</note>
         </trans-unit>
         <trans-unit id="AgeSecondShort" translate="yes" xml:space="preserve">
           <source>s</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">s</target>
+          <target state="translated" state-qualifier="mt-suggestion">s</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For metadata - short for Second (ex: 30 s)</note>
         </trans-unit>
         <trans-unit id="AgeYearShort" translate="yes" xml:space="preserve">
           <source>y</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">y</target>
+          <target state="translated" state-qualifier="mt-suggestion">y</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for year (ex: 1 y)</note>
         </trans-unit>
         <trans-unit id="AliasThisPC" translate="yes" xml:space="preserve">
@@ -2934,8 +2932,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
-          <target state="needs-review-translation">便攜式程式需要在自己的資料夾中具有寫入權限，因此它們不能位於「Program Files」資料夾中。請關閉程式並將整個資料夾移至[BOLDSTART]非系統資料夾[BOLDEND]，然後再次執行</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">便攜式程式需要在自己的資料夾中具有寫入權限，因此它們不能位於「Program Files」或其他系統資料夾中。請關閉程式並將整個資料夾移至[BOLDSTART]非系統資料夾[BOLDEND]，然後再次執行</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Program Files</note>
         </trans-unit>
         <trans-unit id="DLG_E_UseLettersAndNumbersOnly" translate="yes" xml:space="preserve">
@@ -3214,8 +3211,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">對側瀏覽窗格中的新索引標簽</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
-          <source>New window (soon)</source>
-          <target state="translated">新視窗（即將推出）</target>
+          <source>New window</source>
+          <target state="needs-review-translation">新視窗（即將推出）</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
@@ -3346,9 +3344,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_E_DragDropFormatError" translate="yes" xml:space="preserve">
           <source>Drop data error. Source program did not format it correctly or filenames had invalid characters</source>
-          <target state="needs-review-translation">拖放數據錯誤。來源程式未正確格式化或檔案名稱包含無效字元</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">not sure what "drop" means, may need inspect in actual program</note>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">拖放數據錯誤。來源程式未正確格式化或檔案名稱包含無效字元</target>
         </trans-unit>
         <trans-unit id="MSG_E_DriveNotConnected" translate="yes" xml:space="preserve">
           <source>Drive {0} is not connected</source>
@@ -3429,8 +3425,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note is empty</source>
-          <target state="needs-review-translation">筆記為空</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">筆記為空</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
@@ -3470,8 +3465,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses SMB. Enter \\hostname\</source>
-          <target state="needs-review-translation">Windows 已經使用 smb。輸入 \\hostname\</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Windows 已經使用 SMB。輸入 \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
@@ -3479,8 +3473,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_E_QuicklookNotRunning" translate="yes" xml:space="preserve">
           <source>QuickLook not running. Start it, or disable it in Settings🡢Preview</source>
-          <target state="needs-review-translation">QuickLook 尚未運行。請先開啟它，或在「預覽」設定中禁用</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">QuickLook 尚未運行。請先開啟它，或在 設定🡢預覽 中禁用</target>
         </trans-unit>
         <trans-unit id="MSG_E_RecycleBinError" translate="yes" xml:space="preserve">
           <source>Error getting Recycle Bin Items. Right-Click on Recycle Bin in sidebar and click Open</source>
@@ -4066,8 +4059,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="TIP_ChangingThumbSize" translate="yes" xml:space="preserve">
           <source>TIP: Use Ctrl + Mouse wheel to change thumbnail size / items per column</source>
-          <target state="needs-review-translation">提示：按住 Ctrl 鍵滾動滑鼠滾輪以更改每欄的縮圖大小或項目數量</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">提示：按住 Ctrl 鍵滾動滑鼠滾輪以更改每欄的縮圖大小或項目數量</target>
         </trans-unit>
         <trans-unit id="TIP_PreviewZoom" translate="yes" xml:space="preserve">
           <source>In Preview you can use Mouse Wheel to zoom, even when previewing a video</source>
@@ -4383,8 +4375,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
-          <target state="needs-review-translation">只能計算具有可存取的整個資料夾和檔案樹並且 Windows 已對其建立索引的資料夾的資料夾大小</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">資料夾大小僅適用於可存取的資料夾及檔案樹，且 Windows 須已對其建立索引。</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -4774,103 +4765,136 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">Image</target>
+          <target state="translated">圖像</target>
         </trans-unit>
         <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
           <source>Photo</source>
-          <target state="new">Photo</target>
+          <target state="translated">照片</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
         </trans-unit>
         <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
           <source>Archive</source>
-          <target state="new">Archive</target>
+          <target state="translated">壓縮檔</target>
         </trans-unit>
         <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
           <source>Audio</source>
-          <target state="new">Audio</target>
+          <target state="translated">音訊</target>
         </trans-unit>
         <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="new">Document</target>
+          <target state="translated">文件</target>
         </trans-unit>
         <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="new">Video</target>
+          <target state="translated">視訊</target>
         </trans-unit>
         <trans-unit id="Admin" translate="yes" xml:space="preserve">
           <source>Admin</source>
-          <target state="new">Admin</target>
+          <target state="translated">系統管理員</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
-          <target state="new">More options...</target>
+          <target state="translated">更多選項...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <target state="translated">輸入的名稱過長。Windows 不支援超出 255 個字元的名稱</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
           <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
-          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <target state="translated">Windows 無法重新命名檔案。正在透過檔案總管重試...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
         </trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
-          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <target state="translated">磁碟休眠中。正在喚醒並執行操作...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="new">Other browser pane</target>
+          <target state="translated">其他瀏覽窗格</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="translated">建立快速鍵</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
           <source>Create Symlink (Soft Link)</source>
-          <target state="new">Create Symlink (Soft Link)</target>
+          <target state="translated">建立符號連結（軟連結）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
           <source>Create Hard Link</source>
-          <target state="new">Create Hard Link</target>
+          <target state="translated">建立硬連結</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="translated">雙窗格</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="translated">單窗格</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="translated">經典</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="translated">欄式</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="translated">標準</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="translated">窗格佈局</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
+        </trans-unit>
+        <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
+          <source>Middle mouse button</source>
+          <target state="new">Middle mouse button</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
+        </trans-unit>
+        <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
+          <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
+          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+        </trans-unit>
+        <trans-unit id="Paste" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="new">Paste</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
+          <source>Paste and open</source>
+          <target state="new">Paste and open</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
+          <source>Select all</source>
+          <target state="new">Select all</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="new">Undo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
+          <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
+          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
         </trans-unit>
       </group>
     </body>

@@ -57,6 +57,7 @@
         <trans-unit id="VolumeLicenseInfo" translate="yes" xml:space="preserve">
           <source>Volume licenses (10+) available if purchased for domain:</source>
           <target state="final">Licences en volume (10 et +) disponibles si elles sont achetées pour le domaine :</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="AlreadyPurchased" translate="yes" xml:space="preserve">
           <source>Already purchased?</source>
@@ -146,8 +147,8 @@ La licence sera valide pour un nombre maximum de 10 ordinateurs utilisés avec l
           <target state="new">Get Pro license without Microsoft account</target>
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
-          <source>Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than a year ago, you can transfer it by replying to the licensing email with Machine ID shown below. For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
+          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
         </trans-unit>
       </group>
     </body>
@@ -2632,8 +2633,9 @@ L’insertion de page Acrobat est connue pour ne pas fonctionner. Utiliser à la
           <target state="final">Nouvel onglet dans l'autre volet de l'explorateur</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
-          <source>New window (soon)</source>
-          <target state="final" state-qualifier="mt-suggestion">Nouvelle fenêtre (bientôt)</target>
+          <source>New window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nouvelle fenêtre (bientôt)</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
@@ -4342,6 +4344,39 @@ Certains programmes ne seront pas en mesure d'ouvrir ce fichier.</target>
           <source>Window layout</source>
           <target state="new">Window layout</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
+        </trans-unit>
+        <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
+          <source>Middle mouse button</source>
+          <target state="new">Middle mouse button</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
+        </trans-unit>
+        <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
+          <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
+          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+        </trans-unit>
+        <trans-unit id="Paste" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="new">Paste</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
+          <source>Paste and open</source>
+          <target state="new">Paste and open</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
+          <source>Select all</source>
+          <target state="new">Select all</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="new">Undo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+        </trans-unit>
+        <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
+          <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
+          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
         </trans-unit>
       </group>
     </body>

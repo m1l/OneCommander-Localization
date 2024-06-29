@@ -155,8 +155,8 @@
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
           <target state="final">F10 (Ctrl, aby podnieść poziom)</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">not sure if "elevate" is correctly translated</note>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">not sure if "elevate" is correctly translated</note>
         </trans-unit>
         <trans-unit id="ComputerNameCustom" translate="yes" xml:space="preserve">
           <source>Custom alias</source>
@@ -893,8 +893,8 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
-          <target state="needs-review-translation">Pozwala wybrać pomiędzy domyślnym a programem TeraCopy (musi być już zainstalowany)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Wybór pomiędzy domyślnym mechanizmem (Explorer), TeraCopy (musi być już zainstalowany) oraz Taskmaster (nowość)
+</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
@@ -1138,9 +1138,9 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="final">Dialog connector</target>
-          <note from="MultilingualEditor" annotates="source" priority="4">The "Dialog connector" name is temporarily left in the English version.</note>
+          <target state="final">Narzędzie „OneCommander Connector”</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">The "Dialog connector" name is temporarily left in the English version.</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
           <source>The OneCommander Connector is an experimental standalone utility to help connect OC with system Open and Save dialogs of other programs. A small window will appear under a compatible open/save dialog to let you set its folder to the path opened in OneCommander. It runs independently from OC.</source>
@@ -1849,20 +1849,20 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
           <source>Preview text length</source>
-          <target state="new">Preview text length</target>
+          <target state="final">Długość tekstu podglądu</target>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
           <source>Number of characters to read from file to show in preview pane</source>
-          <target state="new">Number of characters to read from file to show in preview pane</target>
+          <target state="final">Liczba znaków do odczytania z pliku do wyświetlenia w panelu podglądu</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
-          <target state="new">Remove duplicates from tab's path history </target>
+          <target state="final">Usuń duplikaty z panelu historii</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="final">Format ścieżki do skopiowania</target>
         </trans-unit>
       </group>
     </body>
@@ -2029,12 +2029,12 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="DividerButtonsHorizontalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ︿ ﹀ buttons on this divider to show/hide browser panes</source>
-          <target state="final">Użyj przycisków ︿ ﹀ na tej linii podziału, aby pokazać/ukryć okienka przeglądarki</target>
+          <target state="final">Użyj przycisków ︿ ﹀ na tej linii podziału, aby pokazać/ukryć panel przeglądarki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows</note>
         </trans-unit>
         <trans-unit id="DividerButtonsVerticalLayout_TT" translate="yes" xml:space="preserve">
           <source>Use ❮ ❯ buttons on this divider to show/hide browser panes</source>
-          <target state="final">Użyj przycisków ❮ ❯ na tej linii podziału, aby pokazać/ukryć okienka przeglądarki</target>
+          <target state="final">Użyj przycisków ❮ ❯ na tej linii podziału, aby pokazać/ukryć panel przeglądarki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy these arrows, as these are not the same as brackets on keyboard</note>
         </trans-unit>
         <trans-unit id="Divider_Notifications" translate="yes" xml:space="preserve">
@@ -2241,7 +2241,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Menu_CopyToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Copy to the opposite browser pane</source>
-          <target state="final">Kopiuj do drugiego okienka przeglądarki</target>
+          <target state="final">Kopiuj do drugiego panelu przeglądarki</target>
         </trans-unit>
         <trans-unit id="Menu_CreateFileTemplate" translate="yes" xml:space="preserve">
           <source>Create file template</source>
@@ -2274,7 +2274,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Menu_MoveToOtherBrowser" translate="yes" xml:space="preserve">
           <source>Move to the opposite browser pane</source>
-          <target state="final">Przenieś do drugiego okienka przeglądarki</target>
+          <target state="final">Przenieś do drugiego panelu przeglądarki</target>
         </trans-unit>
         <trans-unit id="Menu_New" translate="yes" xml:space="preserve">
           <source>New...</source>
@@ -2307,7 +2307,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Menu_OpenInNewTabOtherBrowser" translate="yes" xml:space="preserve">
           <source>New tab in other browser pane</source>
-          <target state="final">nowej karcie w drugim okienku przeglądarki</target>
+          <target state="final">nowej karcie w drugim panelu przeglądarki</target>
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window (soon)</source>
@@ -3973,67 +3973,67 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="new">Other browser pane</target>
+          <target state="final">Drugie okienko przeglądarki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
           <source>Create Hard Link</source>
-          <target state="new">Create Hard Link</target>
+          <target state="final">Utwórz twarde łącze (Hard Link)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="final">Utwórz skrót</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
           <source>Create Symlink (Soft Link)</source>
-          <target state="new">Create Symlink (Soft Link)</target>
+          <target state="final">Utwórz łącze symboliczne (Soft Link)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
-          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <target state="final">Dysk jest w trybie uśpienia. Wybudzenie go i ponowna próba użycia…</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <target state="final">Wprowadzona nazwa jest zbyt długa. System Windows nie obsługuje nazw dłuższych niż 255 znaków</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
           <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
-          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <target state="final">System Windows nie mógł zmienić nazwy pliku. Operacja została przerwana po 2 sekundach. Ponowna próba przez Eksplorator…</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="final">Podwójne</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="final">Pojedynczy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="final">Klasyczny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="final">Kolumny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="final">Standardowy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="final">Wygląd okna</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
       </group>
@@ -4182,12 +4182,12 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
           <source>Changes log / release notes</source>
-          <target state="new">Changes log / release notes</target>
+          <target state="final">Dziennik zmian / informacje o wydaniu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
         <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
           <source>Educational institution license</source>
-          <target state="new">Educational institution license</target>
+          <target state="final">Licencja dla instytucji edukacyjnej</target>
         </trans-unit>
       </group>
     </body>
