@@ -408,8 +408,7 @@ Licence můžete využít až pro 10 počítačů používaných se stejným ú�
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="needs-review-translation">Vydávání licencí na zařízení končí. Pokud jste licenci zakoupili méně než před rokem, můžete ji na nový počítač přesunout; odpovězte na e-mail s licencí a pošlete ID zařízení uvedené níže. Chcete-li získat trvalou možnost používat svou licenci na jakémkoli počítači, upgradujte ji na doživotní licenci na pojmenovaného uživatele uhrazením cenového rozdílu. Pro upgrade kontaktujte podporu nebo použijte odkaz "{0}" v dialogovém okně "O aplikaci" licencovaného počítače.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Vydávání licencí na zařízení končí. Pokud jste licenci zakoupili méně než [BOLD]před rokem[/BOLD], můžete ji na nový počítač přesunout; odpovězte na e-mail s licencí a pošlete ID zařízení uvedené níže. [NEWLINE]Chcete-li získat trvalou možnost používat svou licenci na jakémkoli počítači, upgradujte ji na doživotní licenci na pojmenovaného uživatele uhrazením cenového rozdílu. Pro upgrade kontaktujte podporu nebo použijte odkaz "{0}" v dialogovém okně "O aplikaci" licencovaného počítače.</target>
         </trans-unit>
       </group>
     </body>
@@ -3431,8 +3430,7 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation">Nové okno (již brzy)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Nové okno</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
@@ -4861,36 +4859,36 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
           <source>Middle mouse button</source>
-          <target state="new">Middle mouse button</target>
+          <target state="final">Prostřední tlačítko myši</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
-          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+          <target state="final">Tento název složky končí znakem mezery ' '. To však není v systému Windows podporováno, takže některé operace nebudou fungovat a programy mohou při otevírání nebo ukládání souborů v této složce selhat. Může také dojít k vytvoření duplicitní složky bez znaku mezery na konci. Otevřete prosím nadřazenou složku a složku s mezerou na konci přejmenujte.</target>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
-          <target state="new">Paste</target>
+          <target state="final">Vložit</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
           <source>Paste and open</source>
-          <target state="new">Paste and open</target>
+          <target state="final">Vložit a otevřít</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
           <source>Select all</source>
-          <target state="new">Select all</target>
+          <target state="final">Vybrat vše</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
-          <target state="new">Undo</target>
+          <target state="final">Zpět</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
-          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
+          <target state="final">Program používá pro operace se soubory Taskmaster; operaci tak není možné vrátit zpět napřímo. [NEWLINE]Můžete však otevřít Taskmaster, kliknout pravým tlačítkem myši na úlohu a operaci vrátit zpět odtud. [NEWLINE]Chcete otevřít Taskmaster?</target>
         </trans-unit>
       </group>
     </body>
