@@ -4999,8 +4999,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ToggleNotifications" translate="yes" xml:space="preserve">
           <source>Open/Close notifications panel. Usually Shift + key under Esc</source>
-          <target state="translated">Открыть/Закрыть панель уведомлений. Обычно Shift + клавиша под Esc
-</target>
+          <target state="translated">Открыть/Закрыть панель уведомлений. Обычно Shift + тильда (~ или ё)</target>
         </trans-unit>
         <trans-unit id="ToggleSecondBrowser" translate="yes" xml:space="preserve">
           <source>Toggle visibility of second browser pane</source>
@@ -5008,7 +5007,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSaved" translate="yes" xml:space="preserve">
           <source>Shortcuts saved in {0}.</source>
-          <target state="translated">Ярлыки сохранены в {0}.</target>
+          <target state="translated">Сочетания клавиш сохранены в {0}.</target>
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSavingFailed" translate="yes" xml:space="preserve">
           <source>Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</source>
