@@ -488,7 +488,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
           <source>Path to OneDrive folder</source>
-          <target state="translated">OneDrive文件夹的路径</target>
+          <target state="translated">OneDrive 文件夹的路径</target>
         </trans-unit>
         <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
           <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
@@ -884,7 +884,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
-          <target state="translated">在默认（资源管理器）、TeraCopy（必须已安装）、以及任务大师（新增）之间进行选择</target>
+          <target state="translated">在默认（资源管理器）、TeraCopy（必须已安装）、以及Taskmaster（新增）之间进行选择</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
@@ -1593,7 +1593,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="PasteClipboardTextAsFileInfo" translate="yes" xml:space="preserve">
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
-          <target state="translated">按 Ctrl+V 可将剪贴板内容创建为带有当前日期的文本或图像文件</target>
+          <target state="translated">按 Ctrl + V 可将剪贴板内容创建为带有当前日期的文本或图像文件</target>
         </trans-unit>
         <trans-unit id="TreatDotFilesAsHidden" translate="yes" xml:space="preserve">
           <source>Files starting with dot</source>
@@ -1614,7 +1614,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MediaJumpSecondsForward" translate="yes" xml:space="preserve">
           <source>Forward seconds</source>
-          <target state="translated">向前秒数</target>
+          <target state="translated">前进秒数</target>
         </trans-unit>
         <trans-unit id="MediaJumpUnitOptPercentage" translate="yes" xml:space="preserve">
           <source>Percentage of total length</source>
@@ -2275,7 +2275,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Menu_OpenCommandShell" translate="yes" xml:space="preserve">
           <source>Open in command shell</source>
-          <target state="translated">在Command Shell中打开</target>
+          <target state="translated">在 Command Shell 中打开</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Opens submenu with CMD, Powershell, Terminal</note>
         </trans-unit>
         <trans-unit id="Menu_OpenIn" translate="yes" xml:space="preserve">
@@ -2424,7 +2424,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_DropContentFromOutlook" translate="yes" xml:space="preserve">
           <source>Invalid Outlook data. Are you using the latest Outlook? {0}</source>
-          <target state="translated">无效的Outlook数据。您在使用最新版本的Outlook吗？{0}</target>
+          <target state="translated">无效的 Outlook 数据。您在使用最新版本的 Outlook 吗？{0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropFileContentsError" translate="yes" xml:space="preserve">
           <source>Error creating files from drop package. Windows reported: {0}</source>
@@ -4009,7 +4009,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
           <source>Middle mouse button</source>
-          <target state="new">Middle mouse button</target>
+          <target state="translated">鼠标中键</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
@@ -4018,12 +4018,12 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
-          <target state="new">Paste</target>
+          <target state="translated">粘贴</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
           <source>Paste and open</source>
-          <target state="new">Paste and open</target>
+          <target state="translated">粘贴并打开</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
@@ -4033,12 +4033,12 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
-          <target state="new">Undo</target>
+          <target state="translated">撤销</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
-          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
+          <target state="translated">程序设置为使用 Taskmaster 进行文件操作，无法直接撤销操作。但是，您可以打开 Taskmaster，右键单击一个任务，然后从那里撤销。[NEWLINE]您想要打开 Taskmaster 吗？</target>
         </trans-unit>
       </group>
     </body>
