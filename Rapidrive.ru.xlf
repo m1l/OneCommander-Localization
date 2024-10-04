@@ -8,7 +8,7 @@
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSETTINGS.RESX" datatype="resx">
         <trans-unit id="AccentColor" translate="yes" xml:space="preserve">
           <source>Accent Color</source>
-          <target state="translated" state-qualifier="tm-suggestion">Цвет выделения</target>
+          <target state="translated">Цвет выделения</target>
         </trans-unit>
         <trans-unit id="AccentColorGetFromWindows" translate="yes" xml:space="preserve">
           <source>Get from Windows</source>
@@ -229,8 +229,7 @@
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
           <source>Important: This is an [BOLDSTART]experimental feature[BOLDEND] that will edit Windows Registry to completely replace Windows File Explorer Win+E hotkey. This registry change will make OneCommander open when clicking Explorer shortcut, but won't disable navigation within Explorer. The only way to reverse this is by unchecking this button from OneCommander or running the registry script from OneCommander folder (uninstalling OC won't change it automatically). [NEWLINE]Proceed?</source>
-          <target state="needs-review-translation">Важно: Это <bpt id="1">&lt;b&gt;</bpt> экспериментальная функция<ept id="1">&lt;/b&gt;</ept>, которая будет редактировать реестр Windows, чтобы полностью заменить горячую клавишу Win+E Проводника Windows. Это изменение реестра приведет к тому, что OneCommander будет открываться при нажатии на ярлык Проводника, но не отключит навигацию внутри Проводника. Единственный способ изменить ситуацию - снять флажок с этой кнопки в OneCommander или запустить скрипт реестра из папки OneCommander (удаление OneCommander не приведет к автоматическому восстановлению). Продолжить?</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Важно: Это <bpt id="1">&lt;b&gt;</bpt> экспериментальная функция<ept id="1">&lt;/b&gt;</ept>, которая будет редактировать реестр Windows, чтобы полностью заменить горячую клавишу Win+E Проводника Windows. Это изменение реестра приведет к тому, что OneCommander будет открываться при нажатии на ярлык Проводника, но не отключит навигацию внутри Проводника. Единственный способ изменить ситуацию - снять флажок с этой кнопки в OneCommander или запустить скрипт реестра из папки OneCommander (удаление OneCommander не приведет к автоматическому восстановлению). Продолжить?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
@@ -424,7 +423,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="HotkeyVizorInfo" translate="yes" xml:space="preserve">
           <source>Disable this if you use VS Code (uses the same shortcut)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Отключите это, если вы используете VS Code (использует тот же ярлык)</target>
+          <target state="translated">Отключите это, если вы используете VS Code (использует то же сочетание клавиш)</target>
         </trans-unit>
         <trans-unit id="IconsPackInfo" translate="yes" xml:space="preserve">
           <source>Icon packs contribute to program's overall memory use</source>
@@ -535,7 +534,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="Padding" translate="yes" xml:space="preserve">
           <source>Padding</source>
-          <target state="translated" state-qualifier="tm-suggestion">Отбивка</target>
+          <target state="translated">Отступ</target>
         </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
@@ -1446,12 +1445,11 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="ShortcutEditor" translate="yes" xml:space="preserve">
           <source>Shortcuts Editor</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Редактор ярлыков</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">Редактор горячих клавиш</target>
         </trans-unit>
         <trans-unit id="UseCustomShortcuts" translate="yes" xml:space="preserve">
           <source>Use custom shortcuts</source>
-          <target state="translated">Использование собственных ярлыков</target>
+          <target state="translated">Использование собственных горячих клавиш</target>
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
           <source>(Must be installed and running)</source>
@@ -1500,7 +1498,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
           <source>Enabling custom shortcuts will disable extra shortcuts and use only user-defined</source>
-          <target state="translated" state-qualifier="mt-suggestion">Включение пользовательских ярлыков приведет к отключению дополнительных ярлыков и использованию только пользовательских</target>
+          <target state="translated">Включение пользовательских горячих клавиш приведет к отключению дополнительных горячих клавиш и использованию только пользовательских</target>
         </trans-unit>
         <trans-unit id="ShowNetworksInSidebar" translate="yes" xml:space="preserve">
           <source>Show Networks group in sidebar</source>
@@ -1684,184 +1682,185 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
           <source>Extensions</source>
-          <target state="new">Extensions</target>
+          <target state="translated">Расширения</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files with these exteinsions to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesList" translate="yes" xml:space="preserve">
           <source>Full names</source>
-          <target state="new">Full names</target>
+          <target state="translated">Полные имена</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Full names of files to hide</note>
         </trans-unit>
         <trans-unit id="HiddenFilesPrefixList" translate="yes" xml:space="preserve">
           <source>Prefixed files</source>
-          <target state="new">Prefixed files</target>
+          <target state="translated">Файлы с префиксом</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in files starting with that text</note>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
           <source>Files to treat as hidden:</source>
-          <target state="new">Files to treat as hidden:</target>
+          <target state="translated">Файлы, считающиеся скрытыми:</target>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHiddenInfo" translate="yes" xml:space="preserve">
           <source>Visibility controlled by the above checkbox or shortcut</source>
-          <target state="new">Visibility controlled by the above checkbox or shortcut</target>
+          <target state="translated">Видимость контролируется вышеуказанным флажком или горячей клавишей</target>
         </trans-unit>
         <trans-unit id="ExistingGlobalHotkey" translate="yes" xml:space="preserve">
           <source>You can already use hotkey:</source>
-          <target state="new">You can already use hotkey:</target>
+          <target state="translated">Вы уже можете использовать горячую клавишу:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown existing under option to change Win+E, as a reminder</note>
         </trans-unit>
         <trans-unit id="FolderThumbStyleChangeNotice" translate="yes" xml:space="preserve">
           <source>Changing thumbnail style requires clearing all stored thumbnails (use button above)</source>
-          <target state="new">Changing thumbnail style requires clearing all stored thumbnails (use button above)</target>
+          <target state="translated">Изменение стиля миниатюр требует очистки всех сохранённых миниатюр (используйте кнопку выше)
+</target>
         </trans-unit>
         <trans-unit id="UseSingleNewItemButton" translate="yes" xml:space="preserve">
           <source>Show a single New Item button instead of 3 buttons for New File/Folder/Note</source>
-          <target state="new">Show a single New Item button instead of 3 buttons for New File/Folder/Note</target>
+          <target state="translated">Показывать одну кнопку создания нового элемента вместо 3 кнопок для нового файла/папки/заметки</target>
         </trans-unit>
         <trans-unit id="ShowKeepFoldersOnTopToggle" translate="yes" xml:space="preserve">
           <source>Show toggle for listing folders above files</source>
-          <target state="new">Show toggle for listing folders above files</target>
+          <target state="translated">Показать переключатель для отображения папок выше файлов</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeCompleted" translate="yes" xml:space="preserve">
           <source>Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</source>
-          <target state="new">Program registed as the default files manager. [NEWLINE]If you ever need to uninstall or move the program, [BOLDSTART]you must unregister it first! [BOLDEND]</target>
+          <target state="translated">Программа зарегистрирована как файловый менеджер по умолчанию. [NEWLINE]Если вам когда-либо понадобится удалить или переместить программу, [BOLDSTART]сначала необходимо отменить её регистрацию![BOLDEND]</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dialog shown after user sets OC as default file manager</note>
         </trans-unit>
         <trans-unit id="Default" translate="yes" xml:space="preserve">
           <source>Default</source>
-          <target state="new">Default</target>
+          <target state="translated">По умолчанию</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
-          <target state="new">Errors only</target>
+          <target state="translated">Только ошибки</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of NotificationLevel</note>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
-          <target state="new">Notification level</target>
+          <target state="translated">Уровень оповещений</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Notifications or messages that appear on bottom of the screen</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt1" translate="yes" xml:space="preserve">
           <source>Sort with other files</source>
-          <target state="new">Sort with other files</target>
+          <target state="translated">Отсортировать вместе с другими файлами</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortOpt2" translate="yes" xml:space="preserve">
           <source>Keep file location in the list</source>
-          <target state="new">Keep file location in the list</target>
+          <target state="translated">Сохранить расположение файла в списке</target>
           <note from="MultilingualBuild" annotates="source" priority="2">One of options on After renaming file</note>
         </trans-unit>
         <trans-unit id="LiveSortQuestion" translate="yes" xml:space="preserve">
           <source>After renaming or updating file:</source>
-          <target state="new">After renaming or updating file:</target>
+          <target state="translated">После переименования или обновления файла:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Choice to keep file position or sort with other files</note>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
-          <target state="new">Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</target>
+          <target state="translated">Важно: Использование этих сторонних программ и скриптов осуществляется на свой страх и риск!</target>
         </trans-unit>
         <trans-unit id="VideoDownloadInfo" translate="yes" xml:space="preserve">
           <source>yt-dlp.exe must be manually installed</source>
-          <target state="new">yt-dlp.exe must be manually installed</target>
+          <target state="translated">yt-dlp.exe должен быть установлен вручную</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download videos by pasting URL using following parameters</source>
-          <target state="new">Download videos by pasting URL using following parameters</target>
+          <target state="translated">Загружайте видео, вставляя URL-адрес, используя следующие параметры</target>
         </trans-unit>
         <trans-unit id="VideoDownloadParametersError" translate="yes" xml:space="preserve">
           <source>The script must contain both $CurrentDir and $URL</source>
-          <target state="new">The script must contain both $CurrentDir and $URL</target>
+          <target state="translated">Скрипт должен содержать как $Current Dir, так и $URL</target>
         </trans-unit>
         <trans-unit id="Autostart" translate="yes" xml:space="preserve">
           <source>Autostart</source>
-          <target state="new">Autostart</target>
+          <target state="translated">Автозапуск</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="new">Run on Windows startup without a creating a window</target>
+          <target state="translated">Запускать при старте Windows без создания окна</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
-          <target state="new">Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</target>
+          <target state="translated">Изменения применены. Если вам когда-нибудь понадобится переместить или удалить OneCommander, сначала снимите этот флажок</target>
         </trans-unit>
         <trans-unit id="ShowEjectOnSubstDrives" translate="yes" xml:space="preserve">
           <source>Show Eject button on Subst drives (folders mounted as drives)</source>
-          <target state="new">Show Eject button on Subst drives (folders mounted as drives)</target>
+          <target state="translated">Показывать кнопку извлечения на дополнительных дисках (папки, подключенные как диски)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Subst is shell command, it should remain untranslated</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
+          <target state="translated">Обнаружен установленный [BOLDSTART]Unity[BOLDEND]. [NEWLINE]Хотите открыть Unity Asset Store, чтобы показать интеграцию Unity с OneCommander?</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="new">Create PowerShell alias 'oc'</target>
+          <target state="translated">Создать alias PowerShell 'oc'</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
-          <target state="new">Hotkey action</target>
+          <target state="translated">Действие горячей клавиши</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
-          <target state="new">Download Audio by pasting URL using following parameters</target>
+          <target state="translated">Скачайте аудио, вставив URL-адрес, используя следующие параметры</target>
         </trans-unit>
         <trans-unit id="Extensions" translate="yes" xml:space="preserve">
           <source>File types</source>
-          <target state="new">File types</target>
+          <target state="translated">Типы файлов</target>
         </trans-unit>
         <trans-unit id="ExtensionsExecutable" translate="yes" xml:space="preserve">
           <source>Executable</source>
-          <target state="new">Executable</target>
+          <target state="translated">Исполняемый файл</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Some file types like scripts can be used to run/open other files (.bat - Batch files)</note>
         </trans-unit>
         <trans-unit id="ExtensionsExecutableInfo" translate="yes" xml:space="preserve">
           <source>File types that will accept file to be dropped onto</source>
-          <target state="new">File types that will accept file to be dropped onto</target>
+          <target state="translated">Типы файлов, на которые можно перетаскивать файлы</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Phrasing might change, but means that if user drops text file on bat file it will execute that bat file and take the text file as parameter</note>
         </trans-unit>
         <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
           <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
-          <target state="new">Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</target>
+          <target state="translated">Влияет на предварительный просмотр, метаданные, миниатюры и аналогичный функционал в зависимости от того, что поддерживается в сторонних расширениях и в самой Windows</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
-          <target state="new">Double-Click threshold (ms)</target>
+          <target state="translated">Скорость выполнения двойного щелчка (ms)</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
-          <target state="new">Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</target>
+          <target state="translated">Уменьшает ошибочные срабатывания двойного клика, устанавливая задержку (в миллисекундах), чтобы игнорировать быстрые непреднамеренные щелчки</target>
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
-          <target state="new">Text rendering</target>
+          <target state="translated">Отображение текста</target>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
+          <target state="translated">Влияет только на текст в списке файлов. Если у вас несколько экранов, он может выглядеть по-разному на каждом из них, если у них разный масштаб отображения Windows или расположение пикселей, поэтому выполните калибровку для экрана с самым низким качеством. Это повлияет на изменение размера шрифта в программе. На это влияет параметр Windows ClearType.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <target state="translated">Выберите опцию, которая выглядит лучше</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
-          <target state="new">Remove duplicates from tab's path history </target>
+          <target state="translated">Убирать дубликаты из истории вкладок</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tabs save history of opened folders, so back button would work. Before 3.73 duplicates were removed</note>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLength" translate="yes" xml:space="preserve">
           <source>Preview text length</source>
-          <target state="new">Preview text length</target>
+          <target state="translated">Предпросмотр длины текста</target>
         </trans-unit>
         <trans-unit id="PreviewTextMaxLengthInfo" translate="yes" xml:space="preserve">
           <source>Number of characters to read from file to show in preview pane</source>
-          <target state="new">Number of characters to read from file to show in preview pane</target>
+          <target state="translated">Количество читаемых из файла символов, отображаемых в области предпросмотра</target>
         </trans-unit>
         <trans-unit id="CopyPathFormat" translate="yes" xml:space="preserve">
           <source>Copy path format</source>
-          <target state="new">Copy path format</target>
+          <target state="translated">Формат скопированного пути</target>
         </trans-unit>
       </group>
     </body>
@@ -2678,7 +2677,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_I_MovingItemsBetweenBrowsers" translate="yes" xml:space="preserve">
           <source>Moving {0} item(s) from {1} to {2}</source>
-          <target state="translated" state-qualifier="mt-suggestion">Перемещение {0} элемента (элементов) из {1} в {2}</target>
+          <target state="translated">Перемещение {0} элементов из {1} в {2}</target>
         </trans-unit>
         <trans-unit id="MSG_I_NewFileCreated" translate="yes" xml:space="preserve">
           <source>New file created</source>
@@ -2718,17 +2717,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationCompleted" translate="yes" xml:space="preserve">
           <source>Finished processing {0} item(s)</source>
-          <target state="translated">Окончена обработка {0} элемент(ов)
-
-</target>
+          <target state="translated">Окончена обработка {0} элемент(ов)</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationUserCancelled" translate="yes" xml:space="preserve">
           <source>User-cancelled operation</source>
-          <target state="translated" state-qualifier="mt-suggestion">Операция, отмененная пользователем</target>
+          <target state="translated">Операция отменена пользователем</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellPasteExecuted" translate="yes" xml:space="preserve">
           <source>Shell Paste executed</source>
-          <target state="translated">Выполнена вставка оболочки</target>
+          <target state="translated">Выполнена вставка из оболочки</target>
         </trans-unit>
         <trans-unit id="MSG_I_TemplateCreated" translate="yes" xml:space="preserve">
           <source>Template created. Press Ctrl+N anytime to clone it to current folder</source>
@@ -2981,7 +2978,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Preview_TextTrimmed" translate="yes" xml:space="preserve">
           <source>Preview trimmed to first {0}K characters</source>
-          <target state="translated">Предварительный просмотр, обрезанный до первых {0}K символов </target>
+          <target state="translated">Предварительный просмотр, обрезанный до первых {0} тыс. символов </target>
           <note from="MultilingualBuild" annotates="source" priority="2">K as in thousand</note>
         </trans-unit>
         <trans-unit id="ProgramCrashed" translate="yes" xml:space="preserve">
@@ -3843,235 +3840,237 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
           <source>Contains hidden items</source>
-          <target state="new">Contains hidden items</target>
+          <target state="translated">Содержит скрытые элементы</target>
           <note from="MultilingualBuild" annotates="source" priority="2">items as in files or folders</note>
         </trans-unit>
         <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
           <source>Scan network (deep)</source>
-          <target state="new">Scan network (deep)</target>
+          <target state="translated">Сканирование сети (глубокое)</target>
         </trans-unit>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
-          <target state="new">Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</target>
+          <target state="translated">Программа получила сообщение о нажатии клавиши удаления с виртуальной клавиатуры. Хотите ли вы разрешить это в будущем?</target>
         </trans-unit>
         <trans-unit id="Menu_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Close stale tabs</source>
-          <target state="new">Close stale tabs</target>
+          <target state="translated">Закрыть устаревшие вкладки</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Stale as in not fresh (not changed or accessed over 12 hours)</note>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="new">Closed {0} tabs that were accessed over 12 hours ago</target>
+          <target state="translated">Закрыто {0} вкладок, доступ к которым был открыт более 12 часов назад</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
           <source>Mount folder as new drive letter</source>
-          <target state="new">Mount folder as new drive letter</target>
+          <target state="translated">Смонтировать папку как новую букву диска</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="new">Failed to unmount folder</target>
+          <target state="translated">Не удалось размонтировать папку</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
-          <target state="new">Failed to mount folder</target>
+          <target state="translated">Не удалось смонтировать папку</target>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="new">Folder mounted as drive {0}</target>
+          <target state="translated">Не удалось смонтировать как диск {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
           <source>Path too long</source>
-          <target state="new">Path too long</target>
+          <target state="translated">Путь слишком длиннный</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Make it short, shown on right-click on folder next to Mount as new drive letter</note>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="new">System error {0}</target>
+          <target state="translated">Системная ошибка {0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
-          <target state="new">Choose a drive letter to mount</target>
+          <target state="translated">Выберите букву диска для монтирования</target>
         </trans-unit>
         <trans-unit id="SubstDriveWarning" translate="yes" xml:space="preserve">
           <source>Substitute drives don't have a Recycle Bin</source>
-          <target state="new">Substitute drives don't have a Recycle Bin</target>
+          <target state="translated">У заменяющих дисков нету корзины</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When RMB, mount folder as drive letter</note>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="new">Detected video on Clipboard. Press {0} to download to current folder</target>
+          <target state="translated">В буфере обмена обнаружено видео. Нажмите {0}, чтобы закачать в текущую папку</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
-          <target state="new">Press Ctrl+C to copy message text</target>
+          <target state="translated">Нажмите Ctrl+C, чтобы скопировать текст сообщения</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on dialog messages</note>
         </trans-unit>
         <trans-unit id="PasteAsAudio" translate="yes" xml:space="preserve">
           <source>Extract Audio from page</source>
-          <target state="new">Extract Audio from page</target>
+          <target state="translated">Извлечь аудио из страницы</target>
         </trans-unit>
         <trans-unit id="PasteAsLnk" translate="yes" xml:space="preserve">
           <source>LNK file</source>
-          <target state="new">LNK file</target>
+          <target state="translated">LNK файл</target>
         </trans-unit>
         <trans-unit id="PasteAsTextFile" translate="yes" xml:space="preserve">
           <source>Text file (link as content)</source>
-          <target state="new">Text file (link as content)</target>
+          <target state="needs-review-translation">Текстовый файл (ссылка как содержимое)</target>
         </trans-unit>
         <trans-unit id="PasteAsUrl" translate="yes" xml:space="preserve">
           <source>URL file</source>
-          <target state="new">URL file</target>
+          <target state="translated">URL файл</target>
         </trans-unit>
         <trans-unit id="PasteAsVideo" translate="yes" xml:space="preserve">
           <source>Extract Video from page</source>
-          <target state="new">Extract Video from page</target>
+          <target state="translated">Извлечь видео из страницы</target>
         </trans-unit>
         <trans-unit id="DownloadAsFile" translate="yes" xml:space="preserve">
           <source>Download as file</source>
-          <target state="new">Download as file</target>
+          <target state="translated">Скачать как файл</target>
         </trans-unit>
         <trans-unit id="PasteURLTitle" translate="yes" xml:space="preserve">
           <source>Paste address</source>
-          <target state="new">Paste address</target>
+          <target state="translated">Вставить адрес</target>
         </trans-unit>
         <trans-unit id="AutoNamed" translate="yes" xml:space="preserve">
           <source>Automatic naming </source>
-          <target state="new">Automatic naming </target>
+          <target state="translated">Автоматическое именование</target>
         </trans-unit>
         <trans-unit id="FileType_Image" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">Image</target>
+          <target state="translated">Изображение</target>
         </trans-unit>
         <trans-unit id="FileType_Photo" translate="yes" xml:space="preserve">
           <source>Photo</source>
-          <target state="new">Photo</target>
+          <target state="translated">Фото</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Photo is file from camera, can contain camera information in metadata (unlike png, gif...)</note>
         </trans-unit>
         <trans-unit id="FileType_Archive" translate="yes" xml:space="preserve">
           <source>Archive</source>
-          <target state="new">Archive</target>
+          <target state="translated">Архив</target>
         </trans-unit>
         <trans-unit id="FileType_Audio" translate="yes" xml:space="preserve">
           <source>Audio</source>
-          <target state="new">Audio</target>
+          <target state="translated">Аудио</target>
         </trans-unit>
         <trans-unit id="FileType_Document" translate="yes" xml:space="preserve">
           <source>Document</source>
-          <target state="new">Document</target>
+          <target state="translated">Документ</target>
         </trans-unit>
         <trans-unit id="FileType_Video" translate="yes" xml:space="preserve">
           <source>Video</source>
-          <target state="new">Video</target>
+          <target state="translated">Видео</target>
         </trans-unit>
         <trans-unit id="Admin" translate="yes" xml:space="preserve">
           <source>Admin</source>
-          <target state="new">Admin</target>
+          <target state="translated">от имени Администратора</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
+          <note from="MultilingualEditor" annotates="source" priority="4">Alternative (short but informal): от Админа</note>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
-          <target state="new">More options...</target>
+          <target state="translated">Больше опций...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When files are dragged with Alt key</note>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="new">Entered name is too long. Windows doesn't support names longer than 255 characters</target>
+          <target state="translated">Введённое имя слишком длинное. Windows не поддерживает имена длиннее 255 символов.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
           <source>Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</source>
-          <target state="new">Windows failed to rename the file. Operation abandoned after 2 seconds. Retrying through Explorer...</target>
+          <target state="translated">Windows не удалось переименовать файл. Операция прервана через 2 секунды. Повторная попытка, используя Проводник...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't make it too long as window may not be very wide for all users to fit the message at the bottom</note>
         </trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
-          <target state="new">Disk is in sleep mode. Waking it up and retrying operation...</target>
+          <target state="translated">Диск находится в спящем режиме. Пробуждение и повторение операции...
+</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user tries renaming a file (or other future action) while disk is sleeping. Should be short notification</note>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="new">Other browser pane</target>
+          <target state="translated">Другая панель обозревателя</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut</source>
-          <target state="new">Create shortcut</target>
+          <target state="translated">Создать ярлык</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropSymlink" translate="yes" xml:space="preserve">
           <source>Create Symlink (Soft Link)</source>
-          <target state="new">Create Symlink (Soft Link)</target>
+          <target state="translated">Создать символическую ссылку (мягкую сылку)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="Menu_DropHardLink" translate="yes" xml:space="preserve">
           <source>Create Hard Link</source>
-          <target state="new">Create Hard Link</target>
+          <target state="translated">Создать жёсткую ссылку</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Alt+drag menu, create or drop as...</note>
         </trans-unit>
         <trans-unit id="BrowserDual" translate="yes" xml:space="preserve">
           <source>Dual</source>
-          <target state="new">Dual</target>
+          <target state="translated">Двойной</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dual browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="BrowserSingle" translate="yes" xml:space="preserve">
           <source>Single</source>
-          <target state="new">Single</target>
+          <target state="translated">Одиночный</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Single browser (short, in New Window dialog)</note>
         </trans-unit>
         <trans-unit id="LayoutClassic" translate="yes" xml:space="preserve">
           <source>Classic</source>
-          <target state="new">Classic</target>
+          <target state="translated">Классический</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutColumns" translate="yes" xml:space="preserve">
           <source>Columns</source>
-          <target state="new">Columns</target>
+          <target state="translated">Столбцы</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="LayoutStandard" translate="yes" xml:space="preserve">
           <source>Standard</source>
-          <target state="new">Standard</target>
+          <target state="translated">Стандартный</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Layout name in NewWindow dialog, make short</note>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="new">Window layout</target>
+          <target state="translated">Раскладка окон</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for layout button and window menu item</note>
         </trans-unit>
         <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
           <source>Middle mouse button</source>
-          <target state="new">Middle mouse button</target>
+          <target state="translated">Средняя кнопка мыши</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
-          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+          <target state="translated">Название этой папки оканчивается пробельным символом ' '. Это не поддерживается в Windows, поэтому некоторые операции могут не работать, а программы могут не открываться или не сохранять файлы в этой папке. Также это может привести к созданию дублирующей папки без пробела в конце. Пожалуйста, откройте родительскую папку и переименуйте эту папку.</target>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
-          <target state="new">Paste</target>
+          <target state="translated">Вставить</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
           <source>Paste and open</source>
-          <target state="new">Paste and open</target>
+          <target state="translated">Вставить и открыть</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
           <source>Select all</source>
-          <target state="new">Select all</target>
+          <target state="translated">Выбрать всё</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
-          <target state="new">Undo</target>
+          <target state="translated">Отменить</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
-          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
+          <target state="translated">Программа настроена на использование Taskmaster для операций с файлами и не может отменить их напрямую. [NEWLINE]Вы можете открыть Taskmaster, щелкнуть правой кнопкой мыши на задаче и отменить её оттуда. [NEWLINE]Хотите открыть Taskmaster?</target>
         </trans-unit>
       </group>
     </body>
@@ -4205,25 +4204,25 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
-          <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
+          <target state="translated">См. Редактор горячих клавиш в Настройках 🡢 Дополнительно</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
-          <target state="new">Upgrade to User-based license</target>
+          <target state="translated">Перейти на лицензию для пользователей</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in about dialog for users with Machine-Based license</note>
         </trans-unit>
         <trans-unit id="TransferLicense" translate="yes" xml:space="preserve">
           <source>Transfer license from another PC</source>
-          <target state="new">Transfer license from another PC</target>
+          <target state="translated">Перенести лицензию с другого ПК</target>
         </trans-unit>
         <trans-unit id="EduLicense" translate="yes" xml:space="preserve">
           <source>Educational institution license</source>
-          <target state="new">Educational institution license</target>
+          <target state="translated">Лицензия для образовательных учреждений</target>
         </trans-unit>
         <trans-unit id="ChangesLog" translate="yes" xml:space="preserve">
           <source>Changes log / release notes</source>
-          <target state="new">Changes log / release notes</target>
+          <target state="translated">История изменений / Примечания к выпуску</target>
           <note from="MultilingualBuild" annotates="source" priority="2">We may end up using only one, both shown for now</note>
         </trans-unit>
       </group>
@@ -4363,11 +4362,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="GetMSI" translate="yes" xml:space="preserve">
           <source>Get Pro license without Microsoft account</source>
-          <target state="new">Get Pro license without Microsoft account</target>
+          <target state="translated">Получить лицензию Pro без аккаунта Microsoft</target>
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="new">Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</target>
+          <target state="translated">Лицензии на основе машинных идентификаторов больше не поддерживаются. Если ваша лицензия была приобретена менее [BOLD]1 года назад[/BOLD], вы можете перенести её, ответив на лицензионное письмо с указанным ниже Machine ID. [NEWLINE]Для постоянного варианта обновите её до бессрочной лицензии на основе пользователя, доплатив разницу в цене. Свяжитесь с поддержкой или используйте ссылку "{0}" в диалоге "О программе" на лицензированной машине для обновления.</target>
         </trans-unit>
       </group>
     </body>
@@ -4939,95 +4938,96 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" datatype="resx">
         <trans-unit id="OpenContextMenu" translate="yes" xml:space="preserve">
           <source>Open shell context menu</source>
-          <target state="new">Open shell context menu</target>
+          <target state="translated">Открыть контекстное меню оболочки</target>
         </trans-unit>
         <trans-unit id="CloseTab" translate="yes" xml:space="preserve">
           <source>Close current tab</source>
-          <target state="new">Close current tab</target>
+          <target state="translated">Закрыть текущую вкладку</target>
         </trans-unit>
         <trans-unit id="CopyFolderPath" translate="yes" xml:space="preserve">
           <source>Copy full path of the currently opened folder to Windows Clipboard</source>
-          <target state="new">Copy full path of the currently opened folder to Windows Clipboard</target>
+          <target state="translated">Копировать полный путь текущей открытой папки в буфер обмена Windows</target>
         </trans-unit>
         <trans-unit id="Duplicate" translate="yes" xml:space="preserve">
           <source>Duplicate file</source>
-          <target state="new">Duplicate file</target>
+          <target state="translated">Дублировать файл</target>
         </trans-unit>
         <trans-unit id="FileProperties" translate="yes" xml:space="preserve">
           <source>Open Windows file info/properties dialog</source>
-          <target state="new">Open Windows file info/properties dialog</target>
+          <target state="translated">Открыть диалоговое окно информации/свойств файла Windows
+</target>
         </trans-unit>
         <trans-unit id="FocusOtherBrowser" translate="yes" xml:space="preserve">
           <source>Switch focus between browsers</source>
-          <target state="new">Switch focus between browsers</target>
+          <target state="translated">Переключить фокус между обозревателями</target>
         </trans-unit>
         <trans-unit id="MoveWindowToCenter" translate="yes" xml:space="preserve">
           <source>Move window to center of screen</source>
-          <target state="new">Move window to center of screen</target>
+          <target state="translated">Переместить окно в центр экрана</target>
         </trans-unit>
         <trans-unit id="NewTabFromClipboard" translate="yes" xml:space="preserve">
           <source>Create New Tab from a Clipboard path</source>
-          <target state="new">Create New Tab from a Clipboard path</target>
+          <target state="translated">Создать новую вкладку из пути в буфере обмена</target>
         </trans-unit>
         <trans-unit id="OpenCMD" translate="yes" xml:space="preserve">
           <source>Open default command line shell</source>
-          <target state="new">Open default command line shell</target>
+          <target state="translated">Открыть стандартную командную строку</target>
         </trans-unit>
         <trans-unit id="OpenCMDElevated" translate="yes" xml:space="preserve">
           <source>Open default command line shell elevated</source>
-          <target state="new">Open default command line shell elevated</target>
+          <target state="translated">Открыть стандартную командную строку с повышенными правами</target>
         </trans-unit>
         <trans-unit id="PreviewCommand" translate="yes" xml:space="preserve">
           <source>Preview file in a separate window</source>
-          <target state="new">Preview file in a separate window</target>
+          <target state="translated">Предпросмотр файла в отдельном окне</target>
         </trans-unit>
         <trans-unit id="QuickTag" translate="yes" xml:space="preserve">
           <source>Quick tag/untag selection</source>
-          <target state="new">Quick tag/untag selection</target>
+          <target state="translated">Быстрое добавление/удаление тегов к выделению</target>
         </trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Open search window</source>
-          <target state="new">Open search window</target>
+          <target state="translated">Открыть окно поиска</target>
         </trans-unit>
         <trans-unit id="Tag" translate="yes" xml:space="preserve">
           <source>Tag selected items</source>
-          <target state="new">Tag selected items</target>
+          <target state="translated">Пометить выбранные элементы</target>
         </trans-unit>
         <trans-unit id="ToggleHidden" translate="yes" xml:space="preserve">
           <source>Toggle hidden files</source>
-          <target state="new">Toggle hidden files</target>
+          <target state="translated">Переключить видимость скрытых файлов</target>
         </trans-unit>
         <trans-unit id="ToggleNotifications" translate="yes" xml:space="preserve">
           <source>Open/Close notifications panel. Usually Shift + key under Esc</source>
-          <target state="new">Open/Close notifications panel. Usually Shift + key under Esc</target>
+          <target state="translated">Открыть/Закрыть панель уведомлений. Обычно Shift + тильда (~ или ё)</target>
         </trans-unit>
         <trans-unit id="ToggleSecondBrowser" translate="yes" xml:space="preserve">
           <source>Toggle visibility of second browser pane</source>
-          <target state="new">Toggle visibility of second browser pane</target>
+          <target state="translated">Переключить видимость второй панели обозревателя</target>
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSaved" translate="yes" xml:space="preserve">
           <source>Shortcuts saved in {0}.</source>
-          <target state="new">Shortcuts saved in {0}.</target>
+          <target state="translated">Сочетания клавиш сохранены в {0}.</target>
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSavingFailed" translate="yes" xml:space="preserve">
           <source>Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</source>
-          <target state="new">Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</target>
+          <target state="translated">Не сохранено. [NEWLINE]Обнаружены конфликтующие горячие клавиши. [NEWLINE]Исправьте все конфликты (см. столбец «Конфликтует с») и затем попробуйте сохранить снова.</target>
         </trans-unit>
         <trans-unit id="DLG_YN_SaveShortcuts" translate="yes" xml:space="preserve">
           <source>Save and enable custom shortcuts?</source>
-          <target state="new">Save and enable custom shortcuts?</target>
+          <target state="translated">Сохранить и включить пользовательские горячие клавиши?</target>
         </trans-unit>
         <trans-unit id="ShortcutsEditorTips" translate="yes" xml:space="preserve">
           <source>Keys labeled with OEM are keyboard/language specific</source>
-          <target state="new">Keys labeled with OEM are keyboard/language specific</target>
+          <target state="translated">Клавиши, помеченные как OEM, зависят от клавиатуры/языка</target>
         </trans-unit>
         <trans-unit id="TogglePreviewPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of preview pane (not preview window)</source>
-          <target state="new">Toggle visibility of preview pane (not preview window)</target>
+          <target state="translated">Переключить видимость панели предпросмотра (не окна предпросмотра)</target>
         </trans-unit>
         <trans-unit id="ToggleSidebarPane" translate="yes" xml:space="preserve">
           <source>Toggle visibility of sidebar pane</source>
-          <target state="new">Toggle visibility of sidebar pane</target>
+          <target state="translated">Переключение видимости боковой панели</target>
         </trans-unit>
       </group>
     </body>
