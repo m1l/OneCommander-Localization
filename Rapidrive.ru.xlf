@@ -1377,8 +1377,9 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Включить превью в проводнике (Предварительный просмотр файлов в оболочке)</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
-          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="translated">Это позволяет просматривать файлы Microsoft Office и некоторых других форматов в окне предварительного просмотра (открывается через пробел), но из-за уязвимости безопасности предварительного просмотра файлов Office в проводнике это отключено по умолчанию. Включайте на свой страх и риск! Требуется перезагрузка.</target>
+          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar). Restart required.</source>
+          <target state="needs-review-translation">Это позволяет просматривать файлы Microsoft Office и некоторых других форматов в окне предварительного просмотра (открывается через пробел), но из-за уязвимости безопасности предварительного просмотра файлов Office в проводнике это отключено по умолчанию. Включайте на свой страх и риск! Требуется перезагрузка.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
@@ -1862,6 +1863,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Copy path format</source>
           <target state="translated">Формат скопированного пути</target>
         </trans-unit>
+        <trans-unit id="UseSystemAccentColor" translate="yes" xml:space="preserve">
+          <source>Use system accent color</source>
+          <target state="new">Use system accent color</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -2083,7 +2088,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
           <target state="needs-review-translation">Расширение файла отличается.&lt;br/&gt;Вы хотите <bpt id="1">&lt;B&gt;</bpt>вернуть исходное расширение, <ept id="1">&lt;/B&gt;</ept> чтобы файл можно было открыть с помощью той же связанной программы?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED after 3.90. Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -3965,8 +3970,8 @@ Some programs won't be able to open this file</source>
         <trans-unit id="Admin" translate="yes" xml:space="preserve">
           <source>Admin</source>
           <target state="translated">от имени Администратора</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
           <note from="MultilingualEditor" annotates="source" priority="4">Alternative (short but informal): от Админа</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Signify something will be elevated. For now only in context menu for open in command line</note>
         </trans-unit>
         <trans-unit id="CursorMore" translate="yes" xml:space="preserve">
           <source>More options...</source>
@@ -4071,6 +4076,180 @@ Some programs won't be able to open this file</source>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
           <target state="translated">Программа настроена на использование Taskmaster для операций с файлами и не может отменить их напрямую. [NEWLINE]Вы можете открыть Taskmaster, щелкнуть правой кнопкой мыши на задаче и отменить её оттуда. [NEWLINE]Хотите открыть Taskmaster?</target>
+        </trans-unit>
+        <trans-unit id="ArchiveReadError" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to read contents of the archive file</source>
+          <target state="new">An error occurred while trying to read contents of the archive file</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When trying to preview bad or unsupported zip, 7z, or similar file</note>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved" translate="yes" xml:space="preserve">
+          <source>File extensions was removed. Windows won't not know which program to use to open this file type. </source>
+          <target state="new">File extensions was removed. Windows won't not know which program to use to open this file type. </target>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved_Accept" translate="yes" xml:space="preserve">
+          <source>Rename anyway</source>
+          <target state="new">Rename anyway</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename, option to accept removing extension</note>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved_Revert" translate="yes" xml:space="preserve">
+          <source>Add the original extension back</source>
+          <target state="new">Add the original extension back</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename</note>
+        </trans-unit>
+        <trans-unit id="Menu_RunAsDifferentUser" translate="yes" xml:space="preserve">
+          <source>Run as different user</source>
+          <target state="new">Run as different user</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In system tray menu</note>
+        </trans-unit>
+        <trans-unit id="ScrollSpeedIndicators" translate="yes" xml:space="preserve">
+          <source>🡐 Slow scroll - Fast scroll 🡒</source>
+          <target state="new">🡐 Slow scroll - Fast scroll 🡒</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown on top and bottom of files list during drag&amp;drop operations in main pane. Should indicate that scroll speed changes between left and right side of the screen. Keep arrows and translate just text. Should be short as files pane can be narrow</note>
+        </trans-unit>
+        <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <target state="new">Resolution</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+        </trans-unit>
+        <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
+          <source>Aperture</source>
+          <target state="new">Aperture</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
+        </trans-unit>
+        <trans-unit id="MetadataColorSpace" translate="yes" xml:space="preserve">
+          <source>Color space</source>
+          <target state="new">Color space</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata image</note>
+        </trans-unit>
+        <trans-unit id="MetadataDateTaken" translate="yes" xml:space="preserve">
+          <source>Date taken</source>
+          <target state="new">Date taken</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera exif data</note>
+        </trans-unit>
+        <trans-unit id="MetadataDescription" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types have description field</note>
+        </trans-unit>
+        <trans-unit id="MetadataDPI" translate="yes" xml:space="preserve">
+          <source>DPI</source>
+          <target state="new">DPI</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dots per inch</note>
+        </trans-unit>
+        <trans-unit id="MetadataEV" translate="yes" xml:space="preserve">
+          <source>Exposure comp.</source>
+          <target state="new">Exposure comp.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">can be also EV shift, short as all columns may be made too wide by this</note>
+        </trans-unit>
+        <trans-unit id="MetadataFocalLength" translate="yes" xml:space="preserve">
+          <source>Focal length</source>
+          <target state="new">Focal length</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
+        </trans-unit>
+        <trans-unit id="MetadataISO" translate="yes" xml:space="preserve">
+          <source>ISO</source>
+          <target state="new">ISO</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
+        </trans-unit>
+        <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
+          <source>Link target</source>
+          <target state="new">Link target</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Destination/target path for the link file</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgAttachmentsCount" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <target state="new">Attachments</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email attachments count</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgSenderName" translate="yes" xml:space="preserve">
+          <source>Sender</source>
+          <target state="new">Sender</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email sender</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgSubject" translate="yes" xml:space="preserve">
+          <source>Subject</source>
+          <target state="new">Subject</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email Subject</note>
+        </trans-unit>
+        <trans-unit id="MetadataShutter" translate="yes" xml:space="preserve">
+          <source>Shutter speed</source>
+          <target state="new">Shutter speed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
+        </trans-unit>
+        <trans-unit id="MetadataProductName" translate="yes" xml:space="preserve">
+          <source>Product name</source>
+          <target state="new">Product name</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For applications</note>
+        </trans-unit>
+        <trans-unit id="MetadataPages" translate="yes" xml:space="preserve">
+          <source>Pages</source>
+          <target state="new">Pages</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Number of pages in details</note>
+        </trans-unit>
+        <trans-unit id="MetadataBitrate" translate="yes" xml:space="preserve">
+          <source>Bit rate</source>
+          <target state="new">Bit rate</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataBpm" translate="yes" xml:space="preserve">
+          <source>BPM</source>
+          <target state="new">BPM</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Beats per minute</note>
+        </trans-unit>
+        <trans-unit id="MetadataChannels" translate="yes" xml:space="preserve">
+          <source>Channels</source>
+          <target state="new">Channels</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataFormat" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <target state="new">Format</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio format (video maybe also)</note>
+        </trans-unit>
+        <trans-unit id="MetadataSampleRate" translate="yes" xml:space="preserve">
+          <source>Sample rate</source>
+          <target state="new">Sample rate</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataSampleSize" translate="yes" xml:space="preserve">
+          <source>Sample size</source>
+          <target state="new">Sample size</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataTrack" translate="yes" xml:space="preserve">
+          <source>Track</source>
+          <target state="new">Track</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata mp3 track number</note>
+        </trans-unit>
+        <trans-unit id="MetadataAuthor" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <target state="new">Author</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata document author</note>
+        </trans-unit>
+        <trans-unit id="MetadataBookmarks" translate="yes" xml:space="preserve">
+          <source>Bookmarks</source>
+          <target state="new">Bookmarks</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata pdf bookmarks</note>
+        </trans-unit>
+        <trans-unit id="MetadataCompression" translate="yes" xml:space="preserve">
+          <source>Compression</source>
+          <target state="new">Compression</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
+        </trans-unit>
+        <trans-unit id="MetadataFourCC" translate="yes" xml:space="preserve">
+          <source>FourCC</source>
+          <target state="new">FourCC</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video codec. Not sure if we want to call it codec, but this is how Windows calls it</note>
+        </trans-unit>
+        <trans-unit id="MetadataFramerate" translate="yes" xml:space="preserve">
+          <source>Framerate</source>
+          <target state="new">Framerate</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
+        </trans-unit>
+        <trans-unit id="MetadataTitle" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="new">Title</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata document or pdf</note>
         </trans-unit>
       </group>
     </body>
