@@ -1371,8 +1371,9 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
           <target state="translated">启用资源管理器预览（Shell 文件预览）</target>
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
-          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar) but due to a security vulnerability of the Explorer Preview of Office Files this is off by default. Enable at your own risk! Restart required.</source>
-          <target state="translated">这将在预览窗口中预览微软 Office 和一些其他格式（使用空格键打开），但由于 Office 文件资源管理器预览的安全漏洞，默认情况下处于关闭状态。启用风险自负！需要重启。</target>
+          <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar). Restart required.</source>
+          <target state="needs-review-translation">这将在预览窗口中预览微软 Office 和一些其他格式（使用空格键打开），但由于 Office 文件资源管理器预览的安全漏洞，默认情况下处于关闭状态。启用风险自负！需要重启。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
@@ -1851,6 +1852,10 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
           <source>Copy path format</source>
           <target state="translated">复制路径格式</target>
         </trans-unit>
+        <trans-unit id="UseSystemAccentColor" translate="yes" xml:space="preserve">
+          <source>Use system accent color</source>
+          <target state="translated">使用系统强调色</target>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -1922,7 +1927,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ClipboardCopy_S" translate="yes" xml:space="preserve">
           <source>CTRL + C</source>
-          <target state="translated">Ctrl+C</target>
+          <target state="translated">Ctrl + C</target>
         </trans-unit>
         <trans-unit id="ClipboardCopy_TT" translate="yes" xml:space="preserve">
           <source>Copy to Clipboard</source>
@@ -1938,7 +1943,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ClipboardPaste_S" translate="yes" xml:space="preserve">
           <source>CTRL + V</source>
-          <target state="translated">Ctrl+V</target>
+          <target state="translated">Ctrl + V</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ClipboardPaste_TT" translate="yes" xml:space="preserve">
@@ -2068,7 +2073,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         <trans-unit id="DLG_YN_AddOriginalExtensionBack" translate="yes" xml:space="preserve">
           <source>The file extension is different.[NEWLINE]Do you want to [BOLDSTART]add the original extension back[BOLDEND] so the file could be opened with the same associated program?</source>
           <target state="translated">文件扩展名发生变化。[NEWLINE]您是否需要把[BOLDSTART]添加原有扩展名[BOLDEND]，以便文件可以使用与原先相同的关联程序打开？</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED after 3.90. Renaming - if user changes the original extension, they are asked to add original extension back. New: added line break after the first sentence</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
@@ -2201,7 +2206,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Menu_Archive_Tooltip" translate="yes" xml:space="preserve">
           <source>Ctrl+Click to enter password</source>
-          <target state="translated">Ctrl+点击以输入密码</target>
+          <target state="translated">Ctrl + 点击以输入密码</target>
         </trans-unit>
         <trans-unit id="Menu_ChangeAlias" translate="yes" xml:space="preserve">
           <source>Change alias</source>
@@ -2514,7 +2519,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsHttpOrFtp" translate="yes" xml:space="preserve">
           <source>http(s) and (s)ftp are not supported</source>
-          <target state="translated">不支持http(s) 和 (s)ftp。</target>
+          <target state="translated">不支持 http(s) 和 (s)ftp。</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
@@ -2643,7 +2648,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_EjectingDrive" translate="yes" xml:space="preserve">
           <source>Ejecting {0}...</source>
-          <target state="translated">弹出{0}……</target>
+          <target state="translated">弹出 {0} ……</target>
         </trans-unit>
         <trans-unit id="MSG_I_FileOpened" translate="yes" xml:space="preserve">
           <source>File opened</source>
@@ -2651,11 +2656,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_MonitoringDriveStopped" translate="yes" xml:space="preserve">
           <source>Monitoring of drive {0} stopped</source>
-          <target state="translated">对驱动器{0}的监控已停止</target>
+          <target state="translated">对驱动器 {0} 的监控已停止</target>
         </trans-unit>
         <trans-unit id="MSG_I_MovingItemsBetweenBrowsers" translate="yes" xml:space="preserve">
           <source>Moving {0} item(s) from {1} to {2}</source>
-          <target state="translated">正在将{0} 个项目从{1}移动到{2}</target>
+          <target state="translated">正在将 {0} 个项目从 {1} 移动到 {2}</target>
         </trans-unit>
         <trans-unit id="MSG_I_NewFileCreated" translate="yes" xml:space="preserve">
           <source>New file created</source>
@@ -3769,7 +3774,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
-          <target state="translated">浏览电话</target>
+          <target state="translated">浏览手机</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In drives menu</note>
         </trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
@@ -4014,7 +4019,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
-          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+          <target state="translated">此文件夹名称以空格字符“ ”结尾。Windows不支持这种命名方式，因此某些操作可能无法正常进行，并且程序可能无法在此文件夹中打开或保存文件。这还可能导致创建一个没有末尾空格的重复文件夹。请打开上级文件夹并重命名此文件夹。</target>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
@@ -4028,7 +4033,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
           <source>Select all</source>
-          <target state="new">Select all</target>
+          <target state="translated">全选</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
@@ -4039,6 +4044,180 @@ Some programs won't be able to open this file</source>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
           <target state="translated">程序设置为使用 Taskmaster 进行文件操作，无法直接撤销操作。但是，您可以打开 Taskmaster，右键单击一个任务，然后从那里撤销。[NEWLINE]您想要打开 Taskmaster 吗？</target>
+        </trans-unit>
+        <trans-unit id="ArchiveReadError" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to read contents of the archive file</source>
+          <target state="translated">在尝试读取压缩文件内容时发生错误。</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When trying to preview bad or unsupported zip, 7z, or similar file</note>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved" translate="yes" xml:space="preserve">
+          <source>File extensions was removed. Windows won't not know which program to use to open this file type. </source>
+          <target state="translated">文件扩展名已被删除，Windows无法识别文件类型，因此无法确定用于打开此文件的程序。</target>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved_Accept" translate="yes" xml:space="preserve">
+          <source>Rename anyway</source>
+          <target state="translated">强制重命名</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename, option to accept removing extension</note>
+        </trans-unit>
+        <trans-unit id="DLG_ExtRemoved_Revert" translate="yes" xml:space="preserve">
+          <source>Add the original extension back</source>
+          <target state="translated">重新添加原始扩展名</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename</note>
+        </trans-unit>
+        <trans-unit id="Menu_RunAsDifferentUser" translate="yes" xml:space="preserve">
+          <source>Run as different user</source>
+          <target state="translated">以不同用户身份运行</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">In system tray menu</note>
+        </trans-unit>
+        <trans-unit id="ScrollSpeedIndicators" translate="yes" xml:space="preserve">
+          <source>🡐 Slow scroll - Fast scroll 🡒</source>
+          <target state="translated">🡐 慢滚动 - 快滚动 🡒</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Shown on top and bottom of files list during drag&amp;drop operations in main pane. Should indicate that scroll speed changes between left and right side of the screen. Keep arrows and translate just text. Should be short as files pane can be narrow</note>
+        </trans-unit>
+        <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <target state="translated">分辨率</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+        </trans-unit>
+        <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
+          <source>Aperture</source>
+          <target state="translated">光圈</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
+        </trans-unit>
+        <trans-unit id="MetadataColorSpace" translate="yes" xml:space="preserve">
+          <source>Color space</source>
+          <target state="translated">色彩空间</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata image</note>
+        </trans-unit>
+        <trans-unit id="MetadataDateTaken" translate="yes" xml:space="preserve">
+          <source>Date taken</source>
+          <target state="translated">拍摄日期</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera exif data</note>
+        </trans-unit>
+        <trans-unit id="MetadataDescription" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">描述</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Some file types have description field</note>
+        </trans-unit>
+        <trans-unit id="MetadataDPI" translate="yes" xml:space="preserve">
+          <source>DPI</source>
+          <target state="new">DPI</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dots per inch</note>
+        </trans-unit>
+        <trans-unit id="MetadataEV" translate="yes" xml:space="preserve">
+          <source>Exposure comp.</source>
+          <target state="translated">曝光补偿</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">can be also EV shift, short as all columns may be made too wide by this</note>
+        </trans-unit>
+        <trans-unit id="MetadataFocalLength" translate="yes" xml:space="preserve">
+          <source>Focal length</source>
+          <target state="translated">焦距</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
+        </trans-unit>
+        <trans-unit id="MetadataISO" translate="yes" xml:space="preserve">
+          <source>ISO</source>
+          <target state="new">ISO</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
+        </trans-unit>
+        <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
+          <source>Link target</source>
+          <target state="translated">链接目标</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Destination/target path for the link file</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgAttachmentsCount" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <target state="translated">附件</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email attachments count</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgSenderName" translate="yes" xml:space="preserve">
+          <source>Sender</source>
+          <target state="translated">发件人</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email sender</note>
+        </trans-unit>
+        <trans-unit id="MetadataMsgSubject" translate="yes" xml:space="preserve">
+          <source>Subject</source>
+          <target state="translated">主题</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Email Subject</note>
+        </trans-unit>
+        <trans-unit id="MetadataShutter" translate="yes" xml:space="preserve">
+          <source>Shutter speed</source>
+          <target state="translated">快门速度</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
+        </trans-unit>
+        <trans-unit id="MetadataProductName" translate="yes" xml:space="preserve">
+          <source>Product name</source>
+          <target state="translated">产品名称</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">For applications</note>
+        </trans-unit>
+        <trans-unit id="MetadataPages" translate="yes" xml:space="preserve">
+          <source>Pages</source>
+          <target state="translated">页数</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Number of pages in details</note>
+        </trans-unit>
+        <trans-unit id="MetadataBitrate" translate="yes" xml:space="preserve">
+          <source>Bit rate</source>
+          <target state="translated">比特率</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataBpm" translate="yes" xml:space="preserve">
+          <source>BPM</source>
+          <target state="new">BPM</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Beats per minute</note>
+        </trans-unit>
+        <trans-unit id="MetadataChannels" translate="yes" xml:space="preserve">
+          <source>Channels</source>
+          <target state="translated">音频通道</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataFormat" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <target state="translated">格式</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio format (video maybe also)</note>
+        </trans-unit>
+        <trans-unit id="MetadataSampleRate" translate="yes" xml:space="preserve">
+          <source>Sample rate</source>
+          <target state="translated">采样率</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataSampleSize" translate="yes" xml:space="preserve">
+          <source>Sample size</source>
+          <target state="translated">采样大小</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
+        </trans-unit>
+        <trans-unit id="MetadataTrack" translate="yes" xml:space="preserve">
+          <source>Track</source>
+          <target state="translated">曲目</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata mp3 track number</note>
+        </trans-unit>
+        <trans-unit id="MetadataAuthor" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <target state="translated">作者</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata document author</note>
+        </trans-unit>
+        <trans-unit id="MetadataBookmarks" translate="yes" xml:space="preserve">
+          <source>Bookmarks</source>
+          <target state="translated">书签</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata pdf bookmarks</note>
+        </trans-unit>
+        <trans-unit id="MetadataCompression" translate="yes" xml:space="preserve">
+          <source>Compression</source>
+          <target state="translated">压缩</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
+        </trans-unit>
+        <trans-unit id="MetadataFourCC" translate="yes" xml:space="preserve">
+          <source>FourCC</source>
+          <target state="new">FourCC</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video codec. Not sure if we want to call it codec, but this is how Windows calls it</note>
+        </trans-unit>
+        <trans-unit id="MetadataFramerate" translate="yes" xml:space="preserve">
+          <source>Framerate</source>
+          <target state="translated">帧率</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
+        </trans-unit>
+        <trans-unit id="MetadataTitle" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="translated">标题</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata document or pdf</note>
         </trans-unit>
       </group>
     </body>
