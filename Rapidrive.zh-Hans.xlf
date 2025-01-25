@@ -12,11 +12,11 @@
         </trans-unit>
         <trans-unit id="AccentColorGetFromWindows" translate="yes" xml:space="preserve">
           <source>Get from Windows</source>
-          <target state="translated">从 Windows 操作系统获取</target>
+          <target state="translated">从 Windows 获取</target>
         </trans-unit>
         <trans-unit id="AccentColorHexValue" translate="yes" xml:space="preserve">
           <source>(HEX value in #RRGGBB format)</source>
-          <target state="translated">（#RRGGBB格式的十六进制值）</target>
+          <target state="translated">（#RRGGBB 格式的十六进制值）</target>
         </trans-unit>
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
@@ -28,11 +28,11 @@
         </trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
-          <target state="translated">动画持续时间（毫秒）</target>
+          <target state="translated">动画时长（毫秒）</target>
         </trans-unit>
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
-          <target state="translated">单击此处以测试动画持续时间</target>
+          <target state="translated">点击测试动画时长</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -40,11 +40,11 @@
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbViewInfo" translate="yes" xml:space="preserve">
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
-          <target state="translated">本程序将检查文件夹中的前几个文件，若多数为图像或视频，则将加载缩略图视图。已保存的视图不受影响。</target>
+          <target state="translated">程序将检查文件夹中的前几个文件，如果大多数是图像或视频，将自动加载缩略图视图。已保存的视图设置不会受到影响。</target>
         </trans-unit>
         <trans-unit id="ClipboardCheckText" translate="yes" xml:space="preserve">
           <source>Check and notify when there is text on clipboard</source>
-          <target state="translated">检查剪贴板上是否有文本，如有文本则发送通知</target>
+          <target state="translated">检查剪贴板是否有文本，并在有文本时发送通知</target>
         </trans-unit>
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
@@ -57,7 +57,7 @@
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelay" translate="yes" xml:space="preserve">
           <source>Expand delay (ms)</source>
-          <target state="translated">扩展延迟（毫秒）</target>
+          <target state="translated">展开延迟（毫秒）</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDelayInfo" translate="yes" xml:space="preserve">
           <source>When cursor enters a folder column, program will wait for:</source>
@@ -65,15 +65,15 @@
         </trans-unit>
         <trans-unit id="ColumnAdvancedDuration" translate="yes" xml:space="preserve">
           <source>Expand duration (ms)</source>
-          <target state="translated">扩展持续时间（毫秒）</target>
+          <target state="translated">展开时长（毫秒）</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedDurationInfo" translate="yes" xml:space="preserve">
           <source>and then animate expanding the column for:</source>
-          <target state="translated">然后动态扩展分栏以：</target>
+          <target state="translated">然后动态展开该分栏以：</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandAnimateAll" translate="yes" xml:space="preserve">
           <source>Set to max to animate all</source>
-          <target state="translated">设置为最大，则为所有宽度启用动态扩展</target>
+          <target state="translated">设置为最大，则为所有宽度启用动态展开</target>
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidth" translate="yes" xml:space="preserve">
           <source>Trigger width</source>
@@ -81,7 +81,7 @@
         </trans-unit>
         <trans-unit id="ColumnAdvancedExpandTriggerWidthInfo" translate="yes" xml:space="preserve">
           <source>OneCommander only expands columns smaller than this:</source>
-          <target state="translated">OneCommander 只扩展小于此的分栏：</target>
+          <target state="translated">OneCommander 只展开小于此的分栏：</target>
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
@@ -101,11 +101,11 @@
         </trans-unit>
         <trans-unit id="ColumnAutoExpandColumnsLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Columns layout)</source>
-          <target state="translated" state-qualifier="mt-suggestion">光标进入时扩展分栏（分栏布局）</target>
+          <target state="translated">光标进入时展开分栏（分栏布局）</target>
         </trans-unit>
         <trans-unit id="ColumnAutoExpandStandardLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Standard layout)</source>
-          <target state="translated" state-qualifier="mt-suggestion">光标进入时扩展分栏（标准布局）</target>
+          <target state="translated">光标进入时展开分栏（标准布局）</target>
         </trans-unit>
         <trans-unit id="ColumnMinimumWidth" translate="yes" xml:space="preserve">
           <source>Columns minimum width</source>
@@ -121,7 +121,7 @@
         </trans-unit>
         <trans-unit id="ColumnParentWidthInfo" translate="yes" xml:space="preserve">
           <source>When space is limited, parent folder column will try to expand to this size:</source>
-          <target state="translated" state-qualifier="mt-suggestion">当空间有限时，父文件夹分栏将尝试扩展到此大小：</target>
+          <target state="translated">当空间有限时，父文件夹分栏将尝试展开至该大小：</target>
         </trans-unit>
         <trans-unit id="ColumnWidthCurrentColumnsLayout" translate="yes" xml:space="preserve">
           <source>Current (rightmost) column pane width in Columns layout</source>
@@ -154,7 +154,7 @@
         </trans-unit>
         <trans-unit id="CommandShellShortcut" translate="yes" xml:space="preserve">
           <source>F10 (Ctrl to elevate)</source>
-          <target state="translated">F10（按 Ctrl 键提升权限）</target>
+          <target state="translated">F10（按 Ctrl 键以管理员权限运行）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ComputerNameCustom" translate="yes" xml:space="preserve">
@@ -163,7 +163,7 @@
         </trans-unit>
         <trans-unit id="ComputerNameInfo" translate="yes" xml:space="preserve">
           <source>This is the name of the first column pane that contains drives list. Machine name can be changed in Windows Settings</source>
-          <target state="translated">这是包含驱动器列表的第一个分栏面板的名称，可在 Windows 操作系统的设置中更改计算机名称</target>
+          <target state="translated">这是包含驱动器列表的首个分栏面板名称，计算机名称可以在 Windows 设置中更改</target>
         </trans-unit>
         <trans-unit id="ComputerNameMachineName" translate="yes" xml:space="preserve">
           <source>Machine name</source>
@@ -196,7 +196,7 @@
         </trans-unit>
         <trans-unit id="CreateNewColumnsWithoutAnimating" translate="yes" xml:space="preserve">
           <source>Create New Columns without animating</source>
-          <target state="translated">创建新分栏时关闭动画</target>
+          <target state="translated">新建分栏时关闭动画</target>
         </trans-unit>
         <trans-unit id="DateFormat" translate="yes" xml:space="preserve">
           <source>Date format</source>
@@ -222,7 +222,7 @@
         </trans-unit>
         <trans-unit id="DLG_YN_RestartToApplyChanges" translate="yes" xml:space="preserve">
           <source>Do you want to [BOLDSTART]restart program now[BOLDEND] to apply all changes?[NEWLINE]This will cancel all ongoing operations initiated by OneCommander</source>
-          <target state="translated">您现在是否要[BOLDSTART]立即重启程序[BOLDEND]来应用所有更改？[NEWLINE]这将取消 OneCommand 发起的所有正在进行的操作</target>
+          <target state="translated">您现在是否要[BOLDSTART]立即重启程序[BOLDEND]来应用所有更改？[NEWLINE]这将取消 OneCommander 发起的所有正在进行的操作</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When closing settings window after changing settings requiring restart</note>
         </trans-unit>
         <trans-unit id="DLG_YN_WinERegister" translate="yes" xml:space="preserve">
@@ -287,7 +287,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywordsInfo" translate="yes" xml:space="preserve">
           <source>Changes in files with full-paths containing these strings won't be reported; Comma separated</source>
-          <target state="translated">不会检测完整路径包含这些字符串的文件更改，使用英文逗号隔开</target>
+          <target state="translated">包含这些字符串的完整路径文件的更改将不会被报告，请使用英文逗号分隔。</target>
         </trans-unit>
         <trans-unit id="ExFileItemDefault" translate="yes" xml:space="preserve">
           <source>File Item Default</source>
@@ -484,7 +484,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>Creating a new tab should:</source>
-          <target state="translated">创建新标签页应：</target>
+          <target state="translated">新建标签页应当：</target>
         </trans-unit>
         <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
           <source>Path to OneDrive folder</source>
@@ -822,7 +822,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
           <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
-          <target state="translated">默认启用。 使非高DPI屏幕上的线条更加清晰。仅在显示比例设置为100%时需要。关闭时程序更加稳定，但图标和线条可能不够清晰。</target>
+          <target state="translated">默认启用。使非高 DPI 屏幕上的线条更加清晰，仅在显示比例为 100% 时需要此设置。关闭时程序更稳定，但图标和线条可能不够清晰。</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
           <source>Use old definition of Megabyte (as in Windows Explorer)</source>
@@ -845,7 +845,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
-          <target state="translated">默认关闭。这适用于从 OneCommand 拖动到其他程序。 
+          <target state="translated">默认关闭。这适用于从 OneCommander 拖动到其他程序。 
 Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文件。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
@@ -864,7 +864,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="WinOInfo" translate="yes" xml:space="preserve">
           <source>This works only on some versions of Windows</source>
-          <target state="translated">这只适用于某些版本的 Windows 操作系统</target>
+          <target state="translated">这只适用于某些版本的 Windows</target>
         </trans-unit>
         <trans-unit id="WinOOpt1" translate="yes" xml:space="preserve">
           <source>Switch to a Virtual Desktop where OneCommander is open</source>
@@ -989,7 +989,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
-          <target state="translated">这不会影响文件夹大小的显示（其由 Windows 操作系统提供）</target>
+          <target state="translated">这不会影响文件夹大小的显示（其由 Windows 提供）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
@@ -1034,11 +1034,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
-          <target state="translated">清除 Windows 操作系统的缩略图缓存</target>
+          <target state="translated">清除 Windows 缩略图缓存</target>
         </trans-unit>
         <trans-unit id="DLG_YN_ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Proceed to terminate explorer.exe, delete Windows thumbnail cache files, and then restart explorer.exe? This will terminate all ongoing file operations!!!</source>
-          <target state="translated">继续终止资源管理器程序（explorer.exe），删除 Windows 操作系统的缩略图缓存文件，再重启资源管理器程序？这将终止所有正在进行的文件操作！</target>
+          <target state="translated">是否继续终止资源管理器（explorer.exe），删除 Windows 缩略图缓存文件，并重启资源管理器？此操作将终止所有正在进行的文件操作！</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
@@ -1293,7 +1293,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
           <source>Monitor for Windows theme changes to switch to a different theme</source>
-          <target state="translated">为切换到不同主题，监视 Windows 操作系统的主题更改</target>
+          <target state="translated">监控 Windows 主题更改，以便切换至不同主题。</target>
         </trans-unit>
         <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
           <source>Open Recycle Bin in Explorer</source>
@@ -1311,7 +1311,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
           <source>If there isn't enough space, left-most columns will contract up to this width:</source>
-          <target state="translated">若无足够的空间，最左边的列将收缩到以下宽度：</target>
+          <target state="translated">若空间不足，最左侧的列将收缩至此宽度：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
@@ -1372,8 +1372,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar). Restart required.</source>
-          <target state="needs-review-translation">这将在预览窗口中预览微软 Office 和一些其他格式（使用空格键打开），但由于 Office 文件资源管理器预览的安全漏洞，默认情况下处于关闭状态。启用风险自负！需要重启。</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">此功能允许在预览窗口（使用空格键打开）中预览微软 Office 和其他格式的文件。启用后需重启。</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
@@ -1461,7 +1460,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="RegistryOpenIn" translate="yes" xml:space="preserve">
           <source>Open in {0}</source>
-          <target state="translated">在{0}中打开</target>
+          <target state="translated">在 {0} 中打开</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
@@ -1478,17 +1477,17 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
-          <target state="translated">添加到用户路径变量</target>
+          <target state="translated">添加到用户的 PATH 变量中</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPathInfo" translate="yes" xml:space="preserve">
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
-          <target state="translated">将程序路径添加到路径环境变量（用户），以便可以从命令行中的任何位置启动它</target>
+          <target state="translated">将程序路径添加到用户的 PATH 环境变量中，以便从命令行的任何位置启动该程序。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="DLG_I_EnvironmentPathAdded" translate="yes" xml:space="preserve">
           <source>Environment PATH added. Other programs might need to be restarted to get the updated variables.</source>
-          <target state="translated">添加了环境路径。其他程序可能需要重新启动才能获得更新的变量。</target>
+          <target state="translated">已添加环境 PATH。其他程序可能需要重新启动才能获取更新后的变量。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
         </trans-unit>
         <trans-unit id="UseCustomShortcutsInfo" translate="yes" xml:space="preserve">
@@ -1506,7 +1505,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="translated">官方不支持大于 18pt 的字体大小，某些文本可能会出现剪裁或错位。放大界面的首选方法是在 Windows 操作系统的显示设置中调整比例</target>
+          <target state="translated">官方不支持大于 18pt 的字体大小，某些文本可能会出现裁剪或错位。放大界面的首选方法是在 Windows 显示设置中调整缩放</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
@@ -1535,7 +1534,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="translated">使用此选项在 Windows 操作系统的「设置-个性化-颜色」中启用「透明效果」</target>
+          <target state="translated">使用此选项，请在 Windows 的「设置」&gt;「个性化」&gt;「颜色」中启用「透明效果」</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -1547,7 +1546,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
-          <target state="translated">限制文件名长度以最大程度地与其他软件兼容（Windows 操作系统的 260 个字符完整路径限制）</target>
+          <target state="translated">为确保与其他软件的最大兼容性，限制文件名长度（Windows 的 260 个字符完整路径限制）</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionCurrentTab" translate="yes" xml:space="preserve">
           <source>Current tab</source>
@@ -1606,7 +1605,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="translated">在设置文件夹中创建数据库文件，而非使用 Windows 操作系统的缩略图缓存来存储文件预览图像。文件将会很大。覆盖默认文件夹缩略图并禁用使用自定义文件夹图标</target>
+          <target state="translated">在设置文件夹中创建数据库文件，替代 Windows 缩略图缓存存储文件预览图像。这会导致文件体积较大，并覆盖默认文件夹缩略图，同时禁用自定义文件夹图标。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Settings or Windows</note>
         </trans-unit>
         <trans-unit id="MediaJumpSecondsBack" translate="yes" xml:space="preserve">
@@ -1635,7 +1634,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MediaJumpPercentInfo" translate="yes" xml:space="preserve">
           <source>Allows previewing all media in same number of jumps, regardless of length. Default 12% (8 jumps)</source>
-          <target state="translated">允许以相同的跳转次数预览所有媒体，无论长度如何。 默认 12%（8 次跳跃）</target>
+          <target state="translated">允许以相同的进度跳转预览所有媒体，无论长度如何。默认 12%（8 次跳转）</target>
         </trans-unit>
         <trans-unit id="ClearLocalThumnailDb" translate="yes" xml:space="preserve">
           <source>Clear local thumbnail database</source>
@@ -1643,12 +1642,12 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DLG_YN_ClearLocalThumbnailDb" translate="yes" xml:space="preserve">
           <source>This will make showing thumbnails slower until each thumbnail is extracted again the first time each folder is opened.[NEWLINE]Are you sure?</source>
-          <target state="translated">这将使缩略图显示速度变慢，直到第一次打开每个文件夹时再次提取每个缩略图。[NEWLINE]确定吗？</target>
+          <target state="translated">这将导致缩略图显示变慢，直到每个文件夹首次打开时重新提取缩略图。[NEWLINE]确定吗？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on click on Clear local thubmnail database button in settings</note>
         </trans-unit>
         <trans-unit id="LocalThumnailDbInfo" translate="yes" xml:space="preserve">
           <source>Local thumbnail database contains {0} thumbnails with total size of {1} MB</source>
-          <target state="translated">本地缩略图数据库包含{0} 个缩略图，合计为{1} MB</target>
+          <target state="translated">本地缩略图数据库包含 {0} 张缩略图，合计为 {1} MB</target>
         </trans-unit>
         <trans-unit id="DrivesList" translate="yes" xml:space="preserve">
           <source>Drives list</source>
@@ -1768,7 +1767,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup without a creating a window</source>
-          <target state="translated">在 Windows 操作系统启动时运行而无需创建窗口</target>
+          <target state="translated">在 Windows 启动时运行，无需创建窗口</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
           <source>Changes applied. If you ever need to move or uninstall OneCommander, you must uncheck this option first</source>
@@ -1781,12 +1780,12 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
-          <target state="translated">检测到 [BOLDSTART]Unity[BOLDEND] 已安装。[NEWLINE]您想打开 Unity Asset Store 以显示 OneCommander 的 Unity 集成吗？</target>
+          <target state="translated">检测到已安装 [BOLDSTART]Unity[BOLDEND]。[NEWLINE]是否打开 Unity Asset Store 以展示 OneCommander 的 Unity 集成功能？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
-          <target state="translated">创建 PowerShell 别名“oc”</target>
+          <target state="translated">创建 PowerShell 别名「oc」</target>
           <note from="MultilingualBuild" annotates="source" priority="2">not sure if "alias" has to be translated, but it is so typing oc in it will open OC</note>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
@@ -1813,7 +1812,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ExtensionsInfo" translate="yes" xml:space="preserve">
           <source>Influences preview, metadata, thumbnail and similar functionality depending on what is supported in 3rd party extensions and Windows itself</source>
-          <target state="translated">影响预览、元数据、缩略图和类似功能，具体取决于第三方扩展和 Windows 操作系统自身所支持的功能</target>
+          <target state="translated">预览、元数据、缩略图等功能的表现，取决于第三方扩展和 Windows 自身的支持</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
@@ -1829,7 +1828,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="translated">仅影响文件列表中的文本。如果您有多个屏幕，且它们的 Windows 显示比例或像素布局不同，则在每个屏幕上显示的效果可能会不同，因此请根据质量最低的屏幕进行校准。更改程序字体大小会对此产生影响。Windows ClearType 选项也会对此产生影响。</target>
+          <target state="translated">仅影响文件列表中的文本。如果您使用多个屏幕且它们的 Windows 显示比例或像素布局不同，效果可能会有所差异，请根据质量最低的屏幕进行校准。此外，更改程序字体大小和 Windows ClearType 设置也会影响文本显示效果</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Select the best looking text option</source>
@@ -1855,6 +1854,16 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         <trans-unit id="UseSystemAccentColor" translate="yes" xml:space="preserve">
           <source>Use system accent color</source>
           <target state="translated">使用系统强调色</target>
+        </trans-unit>
+        <trans-unit id="AlignBottom" translate="yes" xml:space="preserve">
+          <source>Bottom</source>
+          <target state="new">Bottom</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
+        </trans-unit>
+        <trans-unit id="AlignTop" translate="yes" xml:space="preserve">
+          <source>Top</source>
+          <target state="new">Top</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
       </group>
     </body>
@@ -1895,11 +1904,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Archive_FileExistsAskToReplace" translate="yes" xml:space="preserve">
           <source>File {0} already exists in the destination folder. [NEWLINE]Replace all?</source>
-          <target state="translated">文件{0}已存在于目标文件夹中。[NEWLINE]确定全部替换吗？</target>
+          <target state="translated">文件 {0} 已存在于目标文件夹中。[NEWLINE]是否全部替换？</target>
         </trans-unit>
         <trans-unit id="Archive_WaitingToExtract" translate="yes" xml:space="preserve">
           <source>Waiting to extract {0}</source>
-          <target state="translated" state-qualifier="mt-suggestion">等待提取{0}</target>
+          <target state="translated">正在等待解压 {0}</target>
         </trans-unit>
         <trans-unit id="Button_Apply" translate="yes" xml:space="preserve">
           <source>Apply</source>
@@ -2077,12 +2086,12 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DLG_YN_FavoritesDoesNotExistRemoveIt" translate="yes" xml:space="preserve">
           <source>This path doesn't exist. Remove it?</source>
-          <target state="translated">此路径不存在。是否移除？</target>
+          <target state="translated">此路径不存在，是否移除？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Clicked non-existent favorite path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FeatureRequiresProVersion" translate="yes" xml:space="preserve">
           <source>This feature is available only in Pro version. [NEWLINE]Get the Pro version now?</source>
-          <target state="translated">此功能仅在专业版中提供。[NEWLINE]请问现在要获取PRO专业版吗？</target>
+          <target state="translated">此功能仅在专业版中提供。[NEWLINE]现在购买 PRO 专业版吗？</target>
         </trans-unit>
         <trans-unit id="DLG_YN_KeepProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>When closing the last window, do you want the program to [BOLDSTART]keep running in the background[BOLDEND] (icon in System Tray) for faster next start?</source>
@@ -2094,7 +2103,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="translated">以管理员身份重启程序？这将[BOLDSTART]取消所有正在进行的文件传输[BOLDEND]和通过 OneCommander 运行的其他进程</target>
+          <target state="translated">以管理员身份重启程序？这将[BOLDSTART]取消所有正在进行的文件传输[BOLDEND]及其他通过 OneCommander 运行的进程</target>
         </trans-unit>
         <trans-unit id="EditFileViews" translate="yes" xml:space="preserve">
           <source>Edit File Views</source>
@@ -2198,7 +2207,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractToFolder" translate="yes" xml:space="preserve">
           <source>Extract to "{0}\"</source>
-          <target state="translated">提取到 "{0}\"</target>
+          <target state="translated">解压至「{0}\」</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveOpen" translate="yes" xml:space="preserve">
           <source>Open external</source>
@@ -2206,7 +2215,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Menu_Archive_Tooltip" translate="yes" xml:space="preserve">
           <source>Ctrl+Click to enter password</source>
-          <target state="translated">Ctrl + 点击以输入密码</target>
+          <target state="translated">Ctrl + 点击输入密码</target>
         </trans-unit>
         <trans-unit id="Menu_ChangeAlias" translate="yes" xml:space="preserve">
           <source>Change alias</source>
@@ -2297,8 +2306,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation">新建窗口（即将实现）</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">新建窗口</target>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
@@ -2396,7 +2404,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardUsedByAnotherProcess" translate="yes" xml:space="preserve">
           <source>Error: program {0} is blocking Windows Clipboard</source>
-          <target state="translated">错误：程序{0}正在阻止 Windows 剪贴板</target>
+          <target state="translated">错误：程序 {0} 正在阻止 Windows 剪贴板</target>
         </trans-unit>
         <trans-unit id="MSG_E_CommandShellOpenFail" translate="yes" xml:space="preserve">
           <source>Could not open {0} here</source>
@@ -2429,7 +2437,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_DropContentFromOutlook" translate="yes" xml:space="preserve">
           <source>Invalid Outlook data. Are you using the latest Outlook? {0}</source>
-          <target state="translated">无效的 Outlook 数据。您在使用最新版本的 Outlook 吗？{0}</target>
+          <target state="translated">无效的 Outlook 数据。您是否在使用最新版本的 Outlook？{0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_DropFileContentsError" translate="yes" xml:space="preserve">
           <source>Error creating files from drop package. Windows reported: {0}</source>
@@ -2445,7 +2453,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_FileNotFound" translate="yes" xml:space="preserve">
           <source>File {0} not found</source>
-          <target state="translated">文件{0}未找到</target>
+          <target state="translated">文件 {0} 未找到</target>
         </trans-unit>
         <trans-unit id="MSG_E_FolderAlreadyExists" translate="yes" xml:space="preserve">
           <source>Folder with this name already exists</source>
@@ -2453,15 +2461,15 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_FolderDoesNotExist" translate="yes" xml:space="preserve">
           <source>Folder doesn't exist {0}</source>
-          <target state="translated">文件夹{0}不存在</target>
+          <target state="translated">文件夹 {0} 不存在</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInName" translate="yes" xml:space="preserve">
           <source>Invalid name {0}; contains unsupported characters for Windows</source>
-          <target state="translated">名称{0}无效，包含 Windows 操作系统不支持的字符</target>
+          <target state="translated">名称 {0} 无效，包含 Windows 不支持的字符</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidCharactersInPath" translate="yes" xml:space="preserve">
           <source>Invalid path {0}; contains unsupported characters for Windows</source>
-          <target state="translated">路径{0}无效，包含 Windows 操作系统不支持的字符</target>
+          <target state="translated">路径 {0} 无效，包含 Windows 不支持的字符</target>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidDriveLetter" translate="yes" xml:space="preserve">
           <source>Invalid drive letter</source>
@@ -2474,7 +2482,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_InvalidRemoteMachineName" translate="yes" xml:space="preserve">
           <source>{0} is not a valid remote machine name</source>
-          <target state="translated">{0}不是有效的远程计算机名</target>
+          <target state="translated">{0} 不是有效的远程计算机名</target>
         </trans-unit>
         <trans-unit id="MSG_E_ItemDoesNotExist" translate="yes" xml:space="preserve">
           <source>Item doesn't exist: {0}</source>
@@ -2483,7 +2491,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_MultipleConnectionsNotAllowed" translate="yes" xml:space="preserve">
           <source>Multiple connections to a server from the same computer with different usernames are not allowed in Windows</source>
-          <target state="translated">Windows 操作系统不允许使用不同的用户名从同一台计算机多次连接到服务器</target>
+          <target state="translated">Windows 不允许使用不同的用户名从同一台计算机多次连接到服务器</target>
         </trans-unit>
         <trans-unit id="MSG_E_NoteEmpty" translate="yes" xml:space="preserve">
           <source>Note is empty</source>
@@ -2491,7 +2499,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_NoteToggleFailed" translate="yes" xml:space="preserve">
           <source>Checking/Unchecking note failed {0}</source>
-          <target state="translated">对{0}备注的标记或取消标记失败</target>
+          <target state="translated">对 {0} 备注的标记或取消标记失败</target>
         </trans-unit>
         <trans-unit id="MSG_E_OpeningMixedTypeItems" translate="yes" xml:space="preserve">
           <source>Can't open multiple items if one or more folders are selected</source>
@@ -2499,11 +2507,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_OpenMaps" translate="yes" xml:space="preserve">
           <source>Default web browser could not be launched to show GPS location on a map</source>
-          <target state="translated">无法启动默认网页浏览器以在地图上显示GPS位置</target>
+          <target state="translated">无法启动默认网页浏览器以在地图上显示 GPS 位置</target>
         </trans-unit>
         <trans-unit id="MSG_E_OperationNotAllowed" translate="yes" xml:space="preserve">
           <source>Windows didn't allow this operation. {0}</source>
-          <target state="translated">Windows 操作系统不允许此操作。{0}</target>
+          <target state="translated">Windows 不允许此操作。{0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_PasswordProtectedNoPreview" translate="yes" xml:space="preserve">
           <source>Password protected file cannot be previewed</source>
@@ -2543,7 +2551,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailed" translate="yes" xml:space="preserve">
           <source>Windows reported an error while processing operation: {0}</source>
-          <target state="translated">Windows 操作系统在处理操作时报告了错误：{0}</target>
+          <target state="translated">Windows 在处理操作时报告了错误：{0}</target>
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedElevate" translate="yes" xml:space="preserve">
           <source>You will need to run program as Admin to complete this operation (Ctrl+Shift+F12)</source>
@@ -2551,7 +2559,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_ShellFileOperationFailedPathTooLong" translate="yes" xml:space="preserve">
           <source>Failed operation. Is path over the Windows' 260 character limit?</source>
-          <target state="translated">操作失败。路径是否超过 Windows 操作系统的 260 个字符限制？</target>
+          <target state="translated">操作失败。路径是否超过 Windows 的 260 个字符限制？</target>
         </trans-unit>
         <trans-unit id="MSG_E_SourceDoesNotExist" translate="yes" xml:space="preserve">
           <source>Source doesn't exist</source>
@@ -2563,7 +2571,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_ThemeFileNotFound" translate="yes" xml:space="preserve">
           <source>Theme file not found at {0}</source>
-          <target state="translated">主题文件未在{0}中找到</target>
+          <target state="translated">主题文件未在 {0} 中找到</target>
         </trans-unit>
         <trans-unit id="MSG_E_ThemeLoadingFailed" translate="yes" xml:space="preserve">
           <source>Theme loading failed. {0}</source>
@@ -2571,7 +2579,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_E_UnableToExtract" translate="yes" xml:space="preserve">
           <source>Unable to extract files from {0}</source>
-          <target state="translated">无法从{0}中提取文件</target>
+          <target state="translated">无法从 {0} 中解压文件</target>
         </trans-unit>
         <trans-unit id="MSG_E_UnableToUpdate" translate="yes" xml:space="preserve">
           <source>Error updating program to new version</source>
@@ -2615,7 +2623,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_CopyingItemsBetweenBrowsers" translate="yes" xml:space="preserve">
           <source>Copying {0} item(s) from {1} to {2}</source>
-          <target state="translated">从{1}中复制了{0} 个项目到{2}</target>
+          <target state="translated">从 {1} 中复制了 {0} 个项目到 {2}</target>
         </trans-unit>
         <trans-unit id="MSG_I_DownloadingThemeResources" translate="yes" xml:space="preserve">
           <source>Downloading theme resources...</source>
@@ -2631,7 +2639,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_DropFileContentsFinished" translate="yes" xml:space="preserve">
           <source>Finished processing {0} file(s) from drop package</source>
-          <target state="translated">从放置包中完成了{0}项文件处理</target>
+          <target state="translated">从放置包中完成了 {0} 项文件处理</target>
         </trans-unit>
         <trans-unit id="MSG_I_DropFileContentsStarted" translate="yes" xml:space="preserve">
           <source>Creating temporary files from drop package before the move...</source>
@@ -2684,7 +2692,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_RefreshRequiredPathLong" translate="yes" xml:space="preserve">
           <source>Folder content changed but the path is too long for Windows to report. Refresh manually (F5)</source>
-          <target state="translated">文件夹内容已更改，但路径太长，因而 Windows 操作系统无法报告。请手动刷新（F5）</target>
+          <target state="translated">文件夹内容已更改，但路径太长，因而 Windows 无法报告。请手动刷新（F5）</target>
         </trans-unit>
         <trans-unit id="MSG_I_Renamed" translate="yes" xml:space="preserve">
           <source>Item renamed</source>
@@ -2696,11 +2704,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationAdded" translate="yes" xml:space="preserve">
           <source>Processing {0} item(s)</source>
-          <target state="translated">正在处理{0}个项目</target>
+          <target state="translated">正在处理 {0} 个项目</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationCompleted" translate="yes" xml:space="preserve">
           <source>Finished processing {0} item(s)</source>
-          <target state="translated">处理完成{0}个项目</target>
+          <target state="translated">处理完成 {0} 个项目</target>
         </trans-unit>
         <trans-unit id="MSG_I_ShellFileOperationUserCancelled" translate="yes" xml:space="preserve">
           <source>User-cancelled operation</source>
@@ -2762,7 +2770,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="NewFile_TT" translate="yes" xml:space="preserve">
           <source>Create new file from template</source>
-          <target state="translated" state-qualifier="mt-suggestion">从模板创建新文件</target>
+          <target state="translated">从模板新建文件</target>
         </trans-unit>
         <trans-unit id="NewFolder_S" translate="yes" xml:space="preserve">
           <source>CTRL + SHIFT + N</source>
@@ -2881,7 +2889,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndOpen_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and opens it</source>
-          <target state="translated">在当前文件夹中创建新文件夹并打开</target>
+          <target state="translated">在当前文件夹中新建文件夹并打开</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection" translate="yes" xml:space="preserve">
           <source>...from selection</source>
@@ -2893,7 +2901,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateFromSelection_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder and moves selected items in it</source>
-          <target state="translated">在当前文件夹中创建新文件夹，并将选定的项目移入其中</target>
+          <target state="translated">在当前文件夹中新建文件夹，并将选定的项目移入其中</target>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_Create_S" translate="yes" xml:space="preserve">
           <source>Enter</source>
@@ -2901,7 +2909,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_Create_TT" translate="yes" xml:space="preserve">
           <source>Creates new folder in current folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">在当前文件夹中创建新文件夹</target>
+          <target state="translated">在当前文件夹中新建文件夹</target>
         </trans-unit>
         <trans-unit id="Popup_NewTemplate_Title" translate="yes" xml:space="preserve">
           <source>Name this template</source>
@@ -2926,7 +2934,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Preview_FolderPathTooLong" translate="yes" xml:space="preserve">
           <source>Error loading folder preview. Windows doesn't support paths this long for some system operations</source>
-          <target state="translated">加载文件夹预览时发生错误。对于某些系统操作，Windows 操作系统不支持如此长的路径</target>
+          <target state="translated">加载文件夹预览时发生错误。对于某些系统操作，Windows 不支持如此长的路径</target>
         </trans-unit>
         <trans-unit id="Preview_LoadAsTextFailed" translate="yes" xml:space="preserve">
           <source>Couldn't load text preview</source>
@@ -2962,7 +2970,7 @@ Some programs won't be able to open/save files from this folder</source>
         </trans-unit>
         <trans-unit id="Preview_TextTrimmed" translate="yes" xml:space="preserve">
           <source>Preview trimmed to first {0}K characters</source>
-          <target state="translated">预览前{0}K字符片段</target>
+          <target state="translated">预览前 {0}K 字符片段</target>
           <note from="MultilingualBuild" annotates="source" priority="2">K as in thousand</note>
         </trans-unit>
         <trans-unit id="ProgramCrashed" translate="yes" xml:space="preserve">
@@ -3128,7 +3136,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Watermark_InvalidFolderCharacters" translate="yes" xml:space="preserve">
           <source>Folder name contains characters unsupported by Windows</source>
-          <target state="translated">文件夹名称包含不受 Windows 操作系统支持的字符</target>
+          <target state="translated">文件夹名称包含 Windows 不支持的字符</target>
         </trans-unit>
         <trans-unit id="Watermark_NoAccess" translate="yes" xml:space="preserve">
           <source>No access</source>
@@ -3210,7 +3218,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="JumplistCreateNewWindow" translate="yes" xml:space="preserve">
           <source>Create new window</source>
-          <target state="translated">创建新窗口</target>
+          <target state="translated">新建窗口</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="JumplistResetWindow" translate="yes" xml:space="preserve">
@@ -3233,7 +3241,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_DriveSlowingDownComputer" translate="yes" xml:space="preserve">
           <source>Drive {0} might be slowing down your computer (waiting to wake up / spin up?)</source>
-          <target state="translated">驱动器{0}可能会降低您的计算机速度（等待唤醒或启动？）</target>
+          <target state="translated">驱动器 {0} 可能会导致计算机变慢（正在等待唤醒或启动？）</target>
         </trans-unit>
         <trans-unit id="Popup_NewFile_CloneAndOpen_S" translate="yes" xml:space="preserve">
           <source>Ctrl + Enter</source>
@@ -3255,7 +3263,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
-          <target state="translated">带有此名称的文件已经存在。 是否要替换它？</target>
+          <target state="translated">此名称的文件已存在，是否替换？</target>
         </trans-unit>
         <trans-unit id="Watermark_GettingRecycleBinItems" translate="yes" xml:space="preserve">
           <source>Getting Recycle Bin items...</source>
@@ -3268,7 +3276,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
           <source>No WSL distros found. Make sure they are running</source>
-          <target state="translated">未找到WSL发行版。确保它们正在运行</target>
+          <target state="translated">未找到 WSL 发行版。确保它们正在运行</target>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
@@ -3337,7 +3345,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
-          <target state="translated">删除{0}窗口？</target>
+          <target state="translated">删除 {0} 窗口？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user chooses to delete window from New Window dialog</note>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
@@ -3362,12 +3370,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Popup_NewFolder_CreateAndMoveFiles" translate="yes" xml:space="preserve">
           <source>Create and move {0} files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">创建和移动{0}文件</target>
+          <target state="translated">创建和移动 {0} 文件</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New folder from selection</note>
         </trans-unit>
         <trans-unit id="PanelTitleChanges" translate="yes" xml:space="preserve">
           <source>Changes in {0} drive</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0}驱动器中的更改</target>
+          <target state="translated">{0} 驱动器中的更改</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shows as pane title when listing changes in files for certain drive/disk</note>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
@@ -3386,17 +3394,17 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="StoreSandboxWarningMessage_TT" translate="yes" xml:space="preserve">
           <source>Windows is redirecting this folder. Files saved or edited here may not show outside OneCommander. This is Windows imposed limitation. Use standalone version of OneCommander for a proper access to this folder.</source>
-          <target state="translated">Windows 操作系统正在重定向此文件夹。在此处保存或编辑的文件可能不会显示在 OneCommander 之外。这是Windows 操作系统强加的限制。使用独立版本的 OneCommander 来正确访问此文件夹。</target>
+          <target state="translated">Windows 正在重定向此文件夹。此处保存或编辑的文件可能无法在 OneCommander 之外显示，这是 Windows 强加的限制。请使用 OneCommander 的独立版本以正确访问此文件夹。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Windows doesn't support undoing file operations outside Explorer</source>
-          <target state="translated">Windows 操作系统不支持在资源管理器之外撤消文件操作</target>
+          <target state="translated">Windows 不支持在资源管理器之外撤消文件操作</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
-          <target state="translated">磁盘已满，因此无法保存设置。清除至少几KB的空间或清空回收站。[NEWLINE]重试保存设置？</target>
+          <target state="translated">磁盘已满，无法保存设置。请清理至少几 KB 的空间或清空回收站。[NEWLINE]是否重试保存设置？</target>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
@@ -3429,7 +3437,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine2" translate="yes" xml:space="preserve">
           <source>Drag outside of window to create a new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">拖动到窗口外以创建新窗口</target>
+          <target state="translated">拖动至窗口外以创建新窗口</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite - line2</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
@@ -3443,12 +3451,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
           <source>Media duration</source>
-          <target state="translated">媒体文件持续时长</target>
+          <target state="translated">媒体时长</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
         </trans-unit>
         <trans-unit id="Menu_SortByResolution_LargestFirst" translate="yes" xml:space="preserve">
           <source>Media resolution</source>
-          <target state="translated">媒体文件分辨率</target>
+          <target state="translated">媒体分辨率</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Resolution as in video width x height in pixels</note>
         </trans-unit>
         <trans-unit id="DLG_SortByMetadataWarning" translate="yes" xml:space="preserve">
@@ -3482,11 +3490,11 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
           <source>Disk was unavailable for {0} seconds due to Windows Power Plan sleep settings</source>
-          <target state="translated">由于 Windows 操作系统的电源计划睡眠设置，磁盘在{0}秒内不可用</target>
+          <target state="translated">由于 Windows 电源计划的睡眠设置，磁盘在 {0} 秒内不可用</target>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_NetworkUnavailable" translate="yes" xml:space="preserve">
           <source>Network storage took {0} seconds to respond</source>
-          <target state="translated">网络存储需要{0}秒才能响应</target>
+          <target state="translated">网络存储需要 {0} 秒才能响应</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
@@ -3495,7 +3503,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="WakingDiskUp_TT" translate="yes" xml:space="preserve">
           <source>Change sleep delay for disks in Windows Power Plan if this happens too often and slows you down</source>
-          <target state="translated">若此种情况发生得太频繁并降低了速度，请在 Windows 操作系统的电源计划中更改磁盘的睡眠延迟</target>
+          <target state="translated">若此种情况发生得太频繁并降低了速度，请在 Windows 电源计划中更改磁盘的睡眠延迟</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on pverlay message shown when disk is sleeping</note>
         </trans-unit>
         <trans-unit id="Preview_TabText" translate="yes" xml:space="preserve">
@@ -3505,12 +3513,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
-          <target state="translated">文件正由{0}使用。[NEWLINE]({1})[NEWLINE]重试操作吗？</target>
+          <target state="translated">文件正由 {0} 使用。[NEWLINE]({1})[NEWLINE]是否重试？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.[NEWLINE]Retry operation?</source>
-          <target state="translated">文件正被另一个进程使用。[NEWLINE]重试操作吗？</target>
+          <target state="translated">文件正被另一个进程使用。[NEWLINE]是否重试？</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails.</note>
         </trans-unit>
         <trans-unit id="DetailsSizeInMiB" translate="yes" xml:space="preserve">
@@ -3524,7 +3532,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
-          <target state="translated">文件夹大小仅适用于可访问完整文件和文件夹的树状结构，且 Windows 操作系统已将其编入索引的文件夹</target>
+          <target state="translated">文件夹大小仅适用于那些可访问完整文件和文件夹树结构且已被 Windows 编入索引的文件夹</target>
         </trans-unit>
         <trans-unit id="KeyboardModifierAlt" translate="yes" xml:space="preserve">
           <source>Alt</source>
@@ -3556,7 +3564,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">创建快捷方式或链接</target>
+          <target state="translated">创建快捷方式或链接</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu item</note>
         </trans-unit>
         <trans-unit id="Shortcut" translate="yes" xml:space="preserve">
@@ -3621,7 +3629,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_WMI" translate="yes" xml:space="preserve">
           <source>WMI service not running. Detecting USB disks may not work until PC is restarted</source>
-          <target state="translated">WMI 服务未运行。检测 USB 磁盘可能无法工作，直到计算机重启。</target>
+          <target state="translated">WMI 服务未运行，在计算机重启之前，可能无法检测到 USB 磁盘</target>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
@@ -3635,12 +3643,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
           <source>Message file name was too long. It was shortened to the value defined in settings.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">邮件文件名太长。它被缩短为设置中定义的值。</target>
+          <target state="translated">邮件文件名过长，已缩短为设置中定义的值。</target>
         </trans-unit>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="translated">路径长度超过 Windows 操作系统支持范畴（260 个字符）
+          <target state="translated">路径长度超过 Windows 支持范畴（260 个字符）
 某些程序将无法打开此文件</target>
         </trans-unit>
         <trans-unit id="WSL_ManualRefreshWarning_TT" translate="yes" xml:space="preserve">
@@ -3655,7 +3663,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件夹{0}不可用（发行版可能未运行）</target>
+          <target state="translated">文件夹 {0} 不可用（发行版可能未运行）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Distro as in Linux distro</note>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
@@ -3697,7 +3705,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Archive_CompressingFileProgress" translate="yes" xml:space="preserve">
           <source>Compressing file {0}/{1}...</source>
-          <target state="translated">正在压缩文件{0}/{1}……</target>
+          <target state="translated">正在压缩文件 {0}/{1}……</target>
           <note from="MultilingualBuild" annotates="source" priority="2">should show Compressing file 1/5...</note>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
@@ -3742,7 +3750,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
-          <target state="translated">提取所有文件的缩略图？[NEWLINE]这可能需要几个小时，所以最好是在夜间完成。</target>
+          <target state="translated">提取所有文件的缩略图？[NEWLINE]这可能需要数小时，建议在夜间进行。</target>
         </trans-unit>
         <trans-unit id="Menu_GetAllThumbnails" translate="yes" xml:space="preserve">
           <source>Get all thumbnails</source>
@@ -3820,7 +3828,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_YN_AllowVirtualDelKey" translate="yes" xml:space="preserve">
           <source>Program has received a delete keypress from a virtual keyboard. Do you want to allow this in the future?</source>
-          <target state="translated">本程序从虚拟键盘接收到删除按键。您希望将来允许如此吗？</target>
+          <target state="translated">程序检测到来自虚拟键盘的删除键操作，是否允许以后继续这样操作？</target>
         </trans-unit>
         <trans-unit id="Menu_ScanNetworkDeep" translate="yes" xml:space="preserve">
           <source>Scan network (deep)</source>
@@ -3833,7 +3841,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_I_CloseOldTabs" translate="yes" xml:space="preserve">
           <source>Closed {0} tabs that were accessed over 12 hours ago</source>
-          <target state="translated">已关闭超过 12 小时前访问的{0}个标签页</target>
+          <target state="translated">已关闭超过 12 小时前访问的 {0} 个标签页</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on tab right click - close old tabs</note>
         </trans-unit>
         <trans-unit id="Menu_MountFolder" translate="yes" xml:space="preserve">
@@ -3850,7 +3858,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_I_SubstOK" translate="yes" xml:space="preserve">
           <source>Folder mounted as drive {0}</source>
-          <target state="translated">文件夹已挂载为驱动器{0}</target>
+          <target state="translated">文件夹已挂载为驱动器 {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} is drive letter like O:</note>
         </trans-unit>
         <trans-unit id="PathTooLong" translate="yes" xml:space="preserve">
@@ -3860,7 +3868,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="SystemError" translate="yes" xml:space="preserve">
           <source>System error {0}</source>
-          <target state="translated">系统错误{0}</target>
+          <target state="translated">系统错误 {0}</target>
         </trans-unit>
         <trans-unit id="ChooseDriveLetter" translate="yes" xml:space="preserve">
           <source>Choose a drive letter to mount</source>
@@ -3873,7 +3881,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_I_ClipboardHasVideoLink" translate="yes" xml:space="preserve">
           <source>Detected video on Clipboard. Press {0} to download to current folder</source>
-          <target state="translated">检测到剪贴板上的视频，按{0}下载到当前文件夹</target>
+          <target state="translated">检测到剪贴板上有视频，按 {0} 将其下载到当前文件夹</target>
         </trans-unit>
         <trans-unit id="CopyDialogMessage_TT" translate="yes" xml:space="preserve">
           <source>Press Ctrl+C to copy message text</source>
@@ -3949,7 +3957,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_E_NameTooLong" translate="yes" xml:space="preserve">
           <source>Entered name is too long. Windows doesn't support names longer than 255 characters</source>
-          <target state="translated">输入的名称过长，Windows 操作系统不支持超过 255 个字符的名称</target>
+          <target state="translated">输入的名称过长，Windows 不支持超过 255 个字符的名称</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In rename dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_RenameFailedRetrying" translate="yes" xml:space="preserve">
@@ -3964,7 +3972,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="LocationOtherBrowser" translate="yes" xml:space="preserve">
           <source>Other browser pane</source>
-          <target state="translated">其他浏览器面板</target>
+          <target state="translated">其他浏览面板</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Location for new shortcut from new shortcut dialog</note>
         </trans-unit>
         <trans-unit id="Menu_DropShortcut" translate="yes" xml:space="preserve">
@@ -4019,7 +4027,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
-          <target state="translated">此文件夹名称以空格字符“ ”结尾。Windows不支持这种命名方式，因此某些操作可能无法正常进行，并且程序可能无法在此文件夹中打开或保存文件。这还可能导致创建一个没有末尾空格的重复文件夹。请打开上级文件夹并重命名此文件夹。</target>
+          <target state="translated">此文件夹名称以空格字符「 」结尾，这在 Windows 中是不受支持的，因此某些操作可能无法正常进行，程序也可能无法在此文件夹中打开或保存文件。这还可能导致创建一个末尾不带空格的重复文件夹。请打开父文件夹并重命名此文件夹。</target>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
@@ -4043,7 +4051,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
-          <target state="translated">程序设置为使用 Taskmaster 进行文件操作，无法直接撤销操作。但是，您可以打开 Taskmaster，右键单击一个任务，然后从那里撤销。[NEWLINE]您想要打开 Taskmaster 吗？</target>
+          <target state="translated">程序已设置为使用 Taskmaster 进行文件操作，无法直接撤销。[NEWLINE]您可以打开 Taskmaster，右键点击任务并从中撤销。[NEWLINE]是否打开 Taskmaster？</target>
         </trans-unit>
         <trans-unit id="ArchiveReadError" translate="yes" xml:space="preserve">
           <source>An error occurred while trying to read contents of the archive file</source>
@@ -4052,7 +4060,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved" translate="yes" xml:space="preserve">
           <source>File extensions was removed. Windows won't not know which program to use to open this file type. </source>
-          <target state="translated">文件扩展名已被删除，Windows无法识别文件类型，因此无法确定用于打开此文件的程序。</target>
+          <target state="translated">文件扩展名已被删除，Windows 无法识别此文件类型，因此无法确定打开该文件的程序。</target>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved_Accept" translate="yes" xml:space="preserve">
           <source>Rename anyway</source>
@@ -4061,7 +4069,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved_Revert" translate="yes" xml:space="preserve">
           <source>Add the original extension back</source>
-          <target state="translated">重新添加原始扩展名</target>
+          <target state="translated">恢复原始扩展名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename</note>
         </trans-unit>
         <trans-unit id="Menu_RunAsDifferentUser" translate="yes" xml:space="preserve">
@@ -4219,6 +4227,11 @@ Some programs won't be able to open this file</source>
           <target state="translated">标题</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata document or pdf</note>
         </trans-unit>
+        <trans-unit id="PathsGroupTitleParentFolders" translate="yes" xml:space="preserve">
+          <source>Parent folders</source>
+          <target state="new">Parent folders</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4238,7 +4251,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="KickstarterBackers" translate="yes" xml:space="preserve">
           <source>The first version of this program has been funded thanks to these 406 Kickstarter backers (names shown as in the Kickstarter profile):</source>
-          <target state="translated">本程序的首个版本受到以下 406 位 Kickstarter 支持者的资助（姓名顺序参照 Kickstarter 个人资料）：</target>
+          <target state="translated">本程序的首个版本得到了以下 406 位 Kickstarter 支持者的资助（姓名按 Kickstarter 个人资料中的顺序列出）：</target>
         </trans-unit>
         <trans-unit id="OpensWebBrowser" translate="yes" xml:space="preserve">
           <source>Opens web browser</source>
@@ -4346,7 +4359,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
-          <target state="translated">您确定要停用 PRO 专业版许可证吗？若需再次激活，您需输入许可证密钥。</target>
+          <target state="translated">您确定要停用 PRO 专业版许可证吗？若要重新激活，需输入许可证密钥。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
@@ -4392,7 +4405,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="AnonymizedHardwareIDGenerating" translate="yes" xml:space="preserve">
           <source>Generating Anonymized Machine ID... </source>
-          <target state="translated">正在生成匿名硬件标识……</target>
+          <target state="translated">正在生成匿名计算机标识……</target>
         </trans-unit>
         <trans-unit id="LicenseCode" translate="yes" xml:space="preserve">
           <source>License key:</source>
@@ -4402,7 +4415,7 @@ Some programs won't be able to open this file</source>
           <source>1. Using the above button open the purchase page and paste the Hardware ID (it should already be on clipboard) and enter your email
 2. After completing the purchase, you should receive an automatic email with activation code (check spam also)
 3. Paste the license from the email into the field below</source>
-          <target state="translated">1. 使用上方按钮打开购买页面，粘贴硬件标识（它应该已在剪贴板上）并输入您的 email
+          <target state="translated">1. 使用上方按钮打开购买页面，粘贴硬件标识（它应该已在剪贴板上）并输入您的 Email
 2. 完成购买后，您应该会收到一封自动发送的包含激活码的电子邮件（也请检查垃圾邮件）
 3. 将电子邮件中的许可证密钥粘贴到下方文本框中</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
@@ -4431,7 +4444,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="AlreadyPurchased" translate="yes" xml:space="preserve">
           <source>Already purchased?</source>
-          <target state="translated">已购买？</target>
+          <target state="translated">已经购买了吗？</target>
         </trans-unit>
         <trans-unit id="GetOnMicrosoftStore" translate="yes" xml:space="preserve">
           <source>Get it on Microsoft Store</source>
@@ -4488,7 +4501,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="StoreLicenseRequired" translate="yes" xml:space="preserve">
           <source>Pro license is required to use in a commercial setting.[NEWLINE]Please test it for a couple of days but if you find the program useful please purchase the license from the Microsoft Store (through About dialog)</source>
-          <target state="translated">在商业环境中使用需要 PRO 专业版许可证。[NEWLINE]请试用几天，若您觉得本软件有用，请从 Microsoft Store 购买许可证（通过「关于」对话框）</target>
+          <target state="translated">在商业环境中使用需要 PRO 专业版许可证。[NEWLINE]您可以先试用几天，如果觉得本软件对您有帮助，可以从 Microsoft Store 购买许可证（通过「关于」对话框）</target>
         </trans-unit>
         <trans-unit id="MoreOptions" translate="yes" xml:space="preserve">
           <source>More options</source>
@@ -4496,7 +4509,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="LicenseSiteOpenError2" translate="yes" xml:space="preserve">
           <source>Windows refused to open default web browser to https://onecommander.com/license.html. Please open web browser manually and paste the Machine ID (it is already copied on the clipboard and ready to paste)</source>
-          <target state="translated">Windows 操作系统拒绝为 https://onecommander.com/license.html 打开默认网络浏览器。请手动打开网络浏览器并粘贴机器标识（其已被复制到剪贴板上以待粘贴）</target>
+          <target state="translated">Windows 拒绝为 https://onecommander.com/license.html 打开默认浏览器。请手动打开浏览器并粘贴计算机标识（已复制到剪贴板上，可以直接粘贴）</target>
         </trans-unit>
         <trans-unit id="PurchaseOnWebsite" translate="yes" xml:space="preserve">
           <source>Purchase on OneCommander.com</source>
@@ -4512,8 +4525,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="needs-review-translation">基于机器的许可证将停止使用。如果您的许可证购买时间不足一年，可通过回复许可电子邮件并提供下图所示的机器 ID 进行转换。如果想永久使用，请补足差价升级为终身用户许可证。请联系支持人员或使用已获得许可的机器「关于」对话框中的「{0}」链接进行升级。</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">基于计算机的许可证将停止使用。如果您的许可证购买时间不足[BOLD] 1 年[/BOLD]，可通过回复许可邮件并提供下方的计算机标识来进行转换。[NEWLINE]如需永久使用，请通过支付差价将许可证升级为终身用户许可证。请联系支持人员，或在已获得许可计算机的「关于」对话框中的「{0}」链接进行升级。</target>
         </trans-unit>
       </group>
     </body>
@@ -4555,7 +4567,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ChangeDPI" translate="yes" xml:space="preserve">
           <source>Change DPI to</source>
-          <target state="translated">将DPI更改为</target>
+          <target state="translated">将 DPI 更改为</target>
         </trans-unit>
         <trans-unit id="ChangeQuality" translate="yes" xml:space="preserve">
           <source>Change quality</source>
@@ -4613,7 +4625,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ConvertHashtag_TT" translate="yes" xml:space="preserve">
           <source>Tip: To add 4 trailing zeros write #### in rule</source>
-          <target state="translated">提示：要添加4个尾数零，请在规则中写入####</target>
+          <target state="translated">提示：要添加 4 个尾随零，请在规则中输入 ####</target>
         </trans-unit>
         <trans-unit id="FileNamingRules" translate="yes" xml:space="preserve">
           <source>File naming rules</source>
@@ -4661,7 +4673,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ColumnErrors_TT" translate="yes" xml:space="preserve">
           <source>Number of errors. Click to sort.</source>
-          <target state="translated">错误数量。点击以排序。</target>
+          <target state="translated">错误数量。点击排序。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Column</note>
         </trans-unit>
         <trans-unit id="ColumnFile" translate="yes" xml:space="preserve">
@@ -5009,11 +5021,11 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="XOffset" translate="yes" xml:space="preserve">
           <source>X offset</source>
-          <target state="translated">X轴偏移</target>
+          <target state="translated">X 轴偏移</target>
         </trans-unit>
         <trans-unit id="YOffset" translate="yes" xml:space="preserve">
           <source>Y offset</source>
-          <target state="translated">Y轴偏移</target>
+          <target state="translated">Y 轴偏移</target>
         </trans-unit>
         <trans-unit id="CustomHeight_TT" translate="yes" xml:space="preserve">
           <source>If you are using Thumbnail, make it the same height</source>
@@ -5122,7 +5134,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="OpenCMDElevated" translate="yes" xml:space="preserve">
           <source>Open default command line shell elevated</source>
-          <target state="translated">打开默认命令行 shell 提升</target>
+          <target state="translated">以管理员权限打开默认命令行 shell</target>
         </trans-unit>
         <trans-unit id="PreviewCommand" translate="yes" xml:space="preserve">
           <source>Preview file in a separate window</source>
@@ -5154,7 +5166,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSaved" translate="yes" xml:space="preserve">
           <source>Shortcuts saved in {0}.</source>
-          <target state="translated">保存在{0}中的快捷方式。</target>
+          <target state="translated">保存在 {0} 中的快捷方式。</target>
         </trans-unit>
         <trans-unit id="DLG_ShortcutsSavingFailed" translate="yes" xml:space="preserve">
           <source>Not saved. [NEWLINE]Conflicting shortcuts detected. [NEWLINE]Fix all conflicts (see 'Conflict with' column) and then try saving again.</source>

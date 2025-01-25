@@ -2817,6 +2817,16 @@ Adobe Acrobat sayfa ekleme iki şekilde de çalışmaz, bunun yerine bağlam men
           <source>Use system accent color</source>
           <target state="new">Use system accent color</target>
         </trans-unit>
+        <trans-unit id="AlignBottom" translate="yes" xml:space="preserve">
+          <source>Bottom</source>
+          <target state="new">Bottom</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
+        </trans-unit>
+        <trans-unit id="AlignTop" translate="yes" xml:space="preserve">
+          <source>Top</source>
+          <target state="new">Top</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -5184,6 +5194,11 @@ Klasörler sıralanamıyor</target>
           <source>Title</source>
           <target state="new">Title</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata document or pdf</note>
+        </trans-unit>
+        <trans-unit id="PathsGroupTitleParentFolders" translate="yes" xml:space="preserve">
+          <source>Parent folders</source>
+          <target state="new">Parent folders</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
         </trans-unit>
       </group>
     </body>
