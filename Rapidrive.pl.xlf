@@ -1385,8 +1385,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="EnableSFPInfo" translate="yes" xml:space="preserve">
           <source>This enables a preview of Microsoft Office and some additional formats in the preview window (opened with spacebar). Restart required.</source>
-          <target state="needs-review-translation">Umożliwia podgląd plików pakietu Microsoft Office i niektórych innych formatów w oknie podglądu (otwieranym spacją), ale ze względu na lukę w zabezpieczeniach Podglądu Eksploratora dla plików Office jest to domyślnie wyłączone. Włączasz na własne ryzyko! Wymagany restart.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Umożliwia podgląd pakietu Microsoft Office i niektórych dodatkowych formatów w oknie podglądu (otwieranym spacją). Wymagane ponowne uruchomienie.</target>
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
@@ -1867,16 +1866,16 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="UseSystemAccentColor" translate="yes" xml:space="preserve">
           <source>Use system accent color</source>
-          <target state="new">Use system accent color</target>
+          <target state="final">Użyj systemowego koloru akcentu</target>
         </trans-unit>
         <trans-unit id="AlignBottom" translate="yes" xml:space="preserve">
           <source>Bottom</source>
-          <target state="new">Bottom</target>
+          <target state="final">Do dołu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
         <trans-unit id="AlignTop" translate="yes" xml:space="preserve">
           <source>Top</source>
-          <target state="new">Top</target>
+          <target state="final">Do góry</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
       </group>
@@ -2326,8 +2325,7 @@ Opcja wstawiania strony w Adobe Acrobat nie działa z tą metodą. Zamiast tego 
         </trans-unit>
         <trans-unit id="Menu_OpenInNewWindow" translate="yes" xml:space="preserve">
           <source>New window</source>
-          <target state="needs-review-translation">nowy oknie (wkrótce)</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Nowe okno</target>
         </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
@@ -4054,215 +4052,220 @@ Niektóre programy nie będą w stanie otworzyć tego pliku</target>
         </trans-unit>
         <trans-unit id="ArchiveReadError" translate="yes" xml:space="preserve">
           <source>An error occurred while trying to read contents of the archive file</source>
-          <target state="new">An error occurred while trying to read contents of the archive file</target>
+          <target state="final">Wystąpił błąd podczas próby odczytania zawartości pliku archiwum</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When trying to preview bad or unsupported zip, 7z, or similar file</note>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved" translate="yes" xml:space="preserve">
           <source>File extensions was removed. Windows won't not know which program to use to open this file type. </source>
-          <target state="new">File extensions was removed. Windows won't not know which program to use to open this file type. </target>
+          <target state="final">Rozszerzenia plików zostały usunięte. System Windows nie będzie wiedział, jakiego programu użyć do otwarcia tego typu pliku. </target>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved_Accept" translate="yes" xml:space="preserve">
           <source>Rename anyway</source>
-          <target state="new">Rename anyway</target>
+          <target state="final">Zmień nazwę mimo wszystko</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename, option to accept removing extension</note>
         </trans-unit>
         <trans-unit id="DLG_ExtRemoved_Revert" translate="yes" xml:space="preserve">
           <source>Add the original extension back</source>
-          <target state="new">Add the original extension back</target>
+          <target state="final">Dodaj ponownie oryginalne rozszerzenie</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When user removes file extension on rename</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
-          <target state="new">Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</target>
+          <target state="final">Program jest ustawiony na korzystanie z Taskmastera do operacji na plikach i nie może cofnąć bezpośrednio. [NEWLINE]Możesz otworzyć Taskmaster, kliknąć prawym przyciskiem myszy zadanie i cofnąć je stamtąd. [NEWLINE]Czy chcesz otworzyć Taskmaster?</target>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
-          <target state="new">This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</target>
+          <target state="final">Nazwa tego folderu kończy się znakiem spacji „ ”. Nie jest to obsługiwane w systemie Windows, więc niektóre operacje nie będą działać, a programy mogą nie otwierać lub zapisywać plików w tym folderze. Może to również spowodować utworzenie duplikatu folderu bez znaku spacji na końcu. Otwórz folder nadrzędny i zmień jego nazwę.</target>
         </trans-unit>
         <trans-unit id="Menu_RunAsDifferentUser" translate="yes" xml:space="preserve">
           <source>Run as different user</source>
-          <target state="new">Run as different user</target>
+          <target state="final">Uruchom jako inny użytkownik</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In system tray menu</note>
         </trans-unit>
         <trans-unit id="MiddleMouseButton" translate="yes" xml:space="preserve">
           <source>Middle mouse button</source>
-          <target state="new">Middle mouse button</target>
+          <target state="final">Środkowy przycisk myszy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In context menu for new-new tab, and maybe other places in future</note>
         </trans-unit>
         <trans-unit id="Paste" translate="yes" xml:space="preserve">
           <source>Paste</source>
-          <target state="new">Paste</target>
+          <target state="final">Wklej</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="PasteAndOpen" translate="yes" xml:space="preserve">
           <source>Paste and open</source>
-          <target state="new">Paste and open</target>
+          <target state="final">Wklej i otwórz</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="SelectAll" translate="yes" xml:space="preserve">
           <source>Select all</source>
-          <target state="new">Select all</target>
+          <target state="final">Zaznacz wszystko</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
-          <target state="new">Undo</target>
+          <target state="final">Cofnij</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="ScrollSpeedIndicators" translate="yes" xml:space="preserve">
           <source>🡐 Slow scroll - Fast scroll 🡒</source>
-          <target state="new">🡐 Slow scroll - Fast scroll 🡒</target>
+          <target state="final">🡐 Powolne przewijanie – Szybkie przewijanie 🡒</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown on top and bottom of files list during drag&amp;drop operations in main pane. Should indicate that scroll speed changes between left and right side of the screen. Keep arrows and translate just text. Should be short as files pane can be narrow</note>
         </trans-unit>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
-          <target state="new">Resolution</target>
+          <target state="final">Rozdzielczość</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
-          <target state="new">Aperture</target>
+          <target state="final">Przysłona</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
         </trans-unit>
         <trans-unit id="MetadataColorSpace" translate="yes" xml:space="preserve">
           <source>Color space</source>
-          <target state="new">Color space</target>
+          <target state="final">Przestrzeń kolorów</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata image</note>
         </trans-unit>
         <trans-unit id="MetadataDateTaken" translate="yes" xml:space="preserve">
           <source>Date taken</source>
-          <target state="new">Date taken</target>
+          <target state="final">Data wykonania zdjęcia</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera exif data</note>
         </trans-unit>
         <trans-unit id="MetadataDescription" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
+          <target state="final">Opis</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Some file types have description field</note>
         </trans-unit>
         <trans-unit id="MetadataDPI" translate="yes" xml:space="preserve">
           <source>DPI</source>
-          <target state="new">DPI</target>
+          <target state="final">DPI</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dots per inch</note>
         </trans-unit>
         <trans-unit id="MetadataEV" translate="yes" xml:space="preserve">
           <source>Exposure comp.</source>
-          <target state="new">Exposure comp.</target>
+          <target state="final">Kompresja ekspozycji</target>
           <note from="MultilingualBuild" annotates="source" priority="2">can be also EV shift, short as all columns may be made too wide by this</note>
         </trans-unit>
         <trans-unit id="MetadataFocalLength" translate="yes" xml:space="preserve">
           <source>Focal length</source>
-          <target state="new">Focal length</target>
+          <target state="final">Ogniskowa</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata camera</note>
         </trans-unit>
         <trans-unit id="MetadataISO" translate="yes" xml:space="preserve">
           <source>ISO</source>
-          <target state="new">ISO</target>
+          <target state="final">ISO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
         </trans-unit>
         <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
           <source>Link target</source>
-          <target state="new">Link target</target>
+          <target state="final">Link docelowy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Destination/target path for the link file</note>
         </trans-unit>
         <trans-unit id="MetadataMsgAttachmentsCount" translate="yes" xml:space="preserve">
           <source>Attachments</source>
-          <target state="new">Attachments</target>
+          <target state="final">Załączniki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Email attachments count</note>
         </trans-unit>
         <trans-unit id="MetadataMsgSenderName" translate="yes" xml:space="preserve">
           <source>Sender</source>
-          <target state="new">Sender</target>
+          <target state="final">Nadawca</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Email sender</note>
         </trans-unit>
         <trans-unit id="MetadataMsgSubject" translate="yes" xml:space="preserve">
           <source>Subject</source>
-          <target state="new">Subject</target>
+          <target state="final">Tytuł</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Email Subject</note>
         </trans-unit>
         <trans-unit id="MetadataShutter" translate="yes" xml:space="preserve">
           <source>Shutter speed</source>
-          <target state="new">Shutter speed</target>
+          <target state="final">Szybkość migawki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
         </trans-unit>
         <trans-unit id="MetadataProductName" translate="yes" xml:space="preserve">
           <source>Product name</source>
-          <target state="new">Product name</target>
+          <target state="final">Nazwa produktu</target>
           <note from="MultilingualBuild" annotates="source" priority="2">For applications</note>
         </trans-unit>
         <trans-unit id="MetadataPages" translate="yes" xml:space="preserve">
           <source>Pages</source>
-          <target state="new">Pages</target>
+          <target state="final">Strony</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Number of pages in details</note>
         </trans-unit>
         <trans-unit id="MetadataBitrate" translate="yes" xml:space="preserve">
           <source>Bit rate</source>
-          <target state="new">Bit rate</target>
+          <target state="final">Bit rate (przepływność)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
         </trans-unit>
         <trans-unit id="MetadataBpm" translate="yes" xml:space="preserve">
           <source>BPM</source>
-          <target state="new">BPM</target>
+          <target state="final">BPM</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Beats per minute</note>
         </trans-unit>
         <trans-unit id="MetadataChannels" translate="yes" xml:space="preserve">
           <source>Channels</source>
-          <target state="new">Channels</target>
+          <target state="final">Kanały</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
         </trans-unit>
         <trans-unit id="MetadataFormat" translate="yes" xml:space="preserve">
           <source>Format</source>
-          <target state="new">Format</target>
+          <target state="final">Format</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio format (video maybe also)</note>
         </trans-unit>
         <trans-unit id="MetadataSampleRate" translate="yes" xml:space="preserve">
           <source>Sample rate</source>
-          <target state="new">Sample rate</target>
+          <target state="final">Częstotliwość próbkowania</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
         </trans-unit>
         <trans-unit id="MetadataSampleSize" translate="yes" xml:space="preserve">
           <source>Sample size</source>
-          <target state="new">Sample size</target>
+          <target state="final">Rozmiar próbki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata audio</note>
         </trans-unit>
         <trans-unit id="MetadataTrack" translate="yes" xml:space="preserve">
           <source>Track</source>
-          <target state="new">Track</target>
+          <target state="final">Ścieżka</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata mp3 track number</note>
         </trans-unit>
         <trans-unit id="MetadataAuthor" translate="yes" xml:space="preserve">
           <source>Author</source>
-          <target state="new">Author</target>
+          <target state="final">Autor</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata document author</note>
         </trans-unit>
         <trans-unit id="MetadataBookmarks" translate="yes" xml:space="preserve">
           <source>Bookmarks</source>
-          <target state="new">Bookmarks</target>
+          <target state="final">Zakładki</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata pdf bookmarks</note>
         </trans-unit>
         <trans-unit id="MetadataCompression" translate="yes" xml:space="preserve">
           <source>Compression</source>
-          <target state="new">Compression</target>
+          <target state="final">Kompresja</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
         </trans-unit>
         <trans-unit id="MetadataFourCC" translate="yes" xml:space="preserve">
           <source>FourCC</source>
-          <target state="new">FourCC</target>
+          <target state="final">FourCC</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata video codec. Not sure if we want to call it codec, but this is how Windows calls it</note>
         </trans-unit>
         <trans-unit id="MetadataFramerate" translate="yes" xml:space="preserve">
           <source>Framerate</source>
-          <target state="new">Framerate</target>
+          <target state="final">Częstotliwość odświeżania</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata video</note>
         </trans-unit>
         <trans-unit id="MetadataTitle" translate="yes" xml:space="preserve">
           <source>Title</source>
-          <target state="new">Title</target>
+          <target state="final">Tytuł</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata document or pdf</note>
         </trans-unit>
         <trans-unit id="PathsGroupTitleParentFolders" translate="yes" xml:space="preserve">
           <source>Parent folders</source>
-          <target state="new">Parent folders</target>
+          <target state="final">Folder nadrzędny</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
+        </trans-unit>
+        <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
+          <source>Attributes</source>
+          <target state="new">Attributes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
       </group>
     </body>
@@ -4557,8 +4560,7 @@ Licencja będzie ważna dla maksymalnie 10 komputerach używanych z tym samym ko
         </trans-unit>
         <trans-unit id="TransferLicenseNotice" translate="yes" xml:space="preserve">
           <source>Machine-based licenses are being discontinued. If your license was purchased less than [BOLD]1 year ago[/BOLD], you can transfer it by replying to the licensing email with Machine ID shown below. [NEWLINE]For a permanent option, upgrade to a lifetime user-based license by covering the price difference. Contact support or use the link "{0}" in the "About" dialog of the licensed machine to upgrade.</source>
-          <target state="needs-review-translation">Licencje maszynowe są wycofywane. Jeśli licencja została zakupiona mniej niż rok temu, można ją przenieść, odpowiadając na wiadomość e-mail z licencją za pomocą identyfikatora ID urządzenia pokazanego poniżej. Aby uzyskać licencję stałą, uaktualnij do dożywotniej licencji użytkownika, opłacając różnicę w cenie. Skontaktuj się z pomocą techniczną lub użyj linku „{0}” w oknie dialogowym „O programie / Pomoc” licencjonowanego urządzenia, aby dokonać aktualizacji.</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="final">Licencje maszynowe są wycofywane. Jeśli Twoja licencja została zakupiona mniej niż [BOLD]1 rok temu[/BOLD], możesz ją przenieść, odpowiadając na wiadomość e-mail z licencją z identyfikatorem urządzenia pokazanym poniżej. [NEWLINE]Aby uzyskać stałą licencję, uaktualnij ją do dożywotniej licencji użytkownika, pokrywając różnicę w cenie. Skontaktuj się z pomocą techniczną lub użyj linku „{0}” w oknie dialogowym „O programie / Pomoc” licencjonowanego urządzenia, aby dokonać aktualizacji.</target>
         </trans-unit>
       </group>
     </body>

@@ -4282,6 +4282,11 @@ Some programs won't be able to open this file</source>
           <target state="new">Parent folders</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
         </trans-unit>
+        <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
+          <source>Attributes</source>
+          <target state="new">Attributes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
       </group>
     </body>
   </file>

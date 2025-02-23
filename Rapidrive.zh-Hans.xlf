@@ -275,15 +275,15 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
-          <target state="translated">排除 Shell 上下文菜单项目</target>
+          <target state="translated">排除的 Shell 上下文菜单项</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItemsInfo" translate="yes" xml:space="preserve">
           <source>Context menu items with these verbs or full-text will be excluded; comma separated; no space after comma; the pre-populated verbs/commands are not supported by OneCommander</source>
-          <target state="translated">将排除带有这些短语或全文的上下文菜单项目，使用英文逗号分隔、逗号后没有空格、OneCommander 不支持预填充的短语或命令</target>
+          <target state="translated">将排除包含这些动词或完整文本的上下文菜单项。项目之间用英文逗号分隔，逗号后不加空格。OneCommander 不支持预填充的动词或命令</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywords" translate="yes" xml:space="preserve">
           <source>Excluded watcher keywords</source>
-          <target state="translated">排除监控关键字</target>
+          <target state="translated">排除的监控关键字</target>
         </trans-unit>
         <trans-unit id="ExcludedWatcherKeywordsInfo" translate="yes" xml:space="preserve">
           <source>Changes in files with full-paths containing these strings won't be reported; Comma separated</source>
@@ -335,7 +335,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="GetProLicense" translate="yes" xml:space="preserve">
           <source>Get PRO license</source>
-          <target state="translated">获取PRO专业版许可证</target>
+          <target state="translated">获取 PRO 专业版许可证</target>
         </trans-unit>
         <trans-unit id="HeaderAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -656,7 +656,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImageInfo" translate="yes" xml:space="preserve">
           <source>If a folder contains a file named folder.jpg, cover.jpg, background.jpg or front.jpg, it will be loaded as its background image. Useful for music albums and movie posters</source>
-          <target state="translated">若文件夹包含名为folder.jpg、cover.jpg、background.jpg或front.jpg的图片，则将其作为背景图片加载。适用于音乐专辑和电影海报</target>
+          <target state="translated">若文件夹包含名为 folder.jpg、cover.jpg、background.jpg 或 front.jpg 的图片，则将其作为背景图片加载。适用于音乐专辑和电影海报</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Show folder sizes</source>
@@ -664,7 +664,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="translated">使用 Windows Shell 获得文件夹大小。这并非绝对精准，但速度很快。大小格式无法更改，不支持按大小对文件夹进行排序，且会带来更高的 CPU 使用率。</target>
+          <target state="translated">使用 Windows Shell 获得文件夹大小。这种方法速度较快，但结果并非绝对精确。此外，文件夹大小的显示格式无法更改，且无法按大小对文件夹进行排序。使用该功能可能会导致 CPU 使用率升高。</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Folder size on network folders</source>
@@ -790,7 +790,7 @@ This should be enabled if program is set as a default file manager</source>
         </trans-unit>
         <trans-unit id="TimeFormat12h" translate="yes" xml:space="preserve">
           <source>12h with AM/PM</source>
-          <target state="translated">带上下午的12 小时</target>
+          <target state="translated">带上下午的 12 小时制</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -855,7 +855,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="WinERegister" translate="yes" xml:space="preserve">
           <source>Register Win+E hotkey</source>
-          <target state="translated">注册Win+E快捷键</target>
+          <target state="translated">注册 Win+E 快捷键</target>
         </trans-unit>
         <trans-unit id="WinEUnregister" translate="yes" xml:space="preserve">
           <source>Unregister hotkey</source>
@@ -973,7 +973,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
-          <target state="translated">自定义.pdf和.ai缩略图提取</target>
+          <target state="translated">自定义 .pdf 和 .ai 的缩略图提取</target>
         </trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
@@ -998,7 +998,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
           <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="translated">在启用「按需文件」时显示OneDrive状态图标时需要。还显示加密和重新分析图标。关闭性能更佳。</target>
+          <target state="translated">在启用「按需文件」时显示 OneDrive 状态图标时需要。还显示加密和重新分析图标。关闭性能更佳。</target>
         </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
@@ -1342,7 +1342,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
-          <target state="translated">对于网格视图；仅当缩略图大于96dip时</target>
+          <target state="translated">适用于网格视图；仅当缩略图大于 96dip 时</target>
           <note from="MultilingualBuild" annotates="source" priority="2">dip is Device Independent Pixels</note>
         </trans-unit>
         <trans-unit id="OpenOfficeFilesThroughExplorer" translate="yes" xml:space="preserve">
@@ -1388,7 +1388,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
-          <target state="translated">Shell 上下文菜单打开时的阻止窗口</target>
+          <target state="translated">当 Shell 上下文菜单打开时，阻止窗口交互</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
@@ -1397,7 +1397,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
-          <target state="translated">电子邮件命名格式（从Outlook拖动）</target>
+          <target state="translated">电子邮件命名格式（从 Outlook 拖动）</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
@@ -1534,7 +1534,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
-          <target state="translated">使用此选项，请在 Windows 的「设置」&gt;「个性化」&gt;「颜色」中启用「透明效果」</target>
+          <target state="translated">使用此选项，请在 Windows 的「设置」🡢「个性化」🡢「颜色」中启用「透明效果」</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -1568,7 +1568,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DLG_YN_Reinstall" translate="yes" xml:space="preserve">
           <source>Do you want to download the latest version and reinstall? Settings will not be affected.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">是否要下载最新版本并重新安装？设置不会受到影响。</target>
+          <target state="translated">是否要下载最新版本并重新安装？所有设置均不会受到影响。</target>
         </trans-unit>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
@@ -1857,12 +1857,12 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="AlignBottom" translate="yes" xml:space="preserve">
           <source>Bottom</source>
-          <target state="new">Bottom</target>
+          <target state="translated">底对齐</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
         <trans-unit id="AlignTop" translate="yes" xml:space="preserve">
           <source>Top</source>
-          <target state="new">Top</target>
+          <target state="translated">顶对齐</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
       </group>
@@ -1961,7 +1961,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ColumnsToggle_S" translate="yes" xml:space="preserve">
           <source>` (under ESC key)</source>
-          <target state="translated">`（在ESC键下面）</target>
+          <target state="translated">`（在 ESC 键下面）</target>
         </trans-unit>
         <trans-unit id="ColumnsToggle_TT" translate="yes" xml:space="preserve">
           <source>Toggle columns navigation</source>
@@ -2111,7 +2111,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="EditPath_S" translate="yes" xml:space="preserve">
           <source>\ or Alt+D</source>
-          <target state="translated">\或 Alt+D</target>
+          <target state="translated">\ 或 Alt+D</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="EditPath_TT" translate="yes" xml:space="preserve">
@@ -2818,7 +2818,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
-          <target state="translated">ESC关闭 | ~打开</target>
+          <target state="translated">ESC 关闭 | ~ 打开</target>
         </trans-unit>
         <trans-unit id="Notifications_Minimize_TT" translate="yes" xml:space="preserve">
           <source>Minimizes Notification Pane</source>
@@ -3380,7 +3380,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="RefreshContent_TT" translate="yes" xml:space="preserve">
           <source>Refresh content (this type of folder cannot be auto-refreshed)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">刷新内容（此类型的文件夹无法自动刷新）</target>
+          <target state="translated">刷新内容（此类文件夹无法自动刷新）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
@@ -3408,7 +3408,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
-          <target state="translated">为新窗口命名以保存其布局、位置和标签页，以备下次需要时使用</target>
+          <target state="translated">为新窗口命名，可保存其布局、位置和标签页，以便下次需要时使用</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
@@ -3485,7 +3485,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
           <source>Disk is in a sleep state. Accessing any folder on it might freeze the program for a few seconds until disk wakes up and responds.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">磁盘处于睡眠状态。访问其上的任何文件夹可能会冻结程序几秒钟，直到磁盘唤醒并响应。</target>
+          <target state="translated">磁盘目前处于睡眠状态。访问其上的任意文件夹可能会导致程序暂时无响应，持续数秒，直至磁盘完成唤醒并恢复正常响应。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip when mouse hovers moon icon on the sleeping disk drive in sidebar.</note>
         </trans-unit>
         <trans-unit id="MSG_I_DelayReason_DiskSleeping" translate="yes" xml:space="preserve">
@@ -4229,8 +4229,13 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="PathsGroupTitleParentFolders" translate="yes" xml:space="preserve">
           <source>Parent folders</source>
-          <target state="new">Parent folders</target>
+          <target state="translated">父文件夹</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
+        </trans-unit>
+        <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
+          <source>Attributes</source>
+          <target state="new">Attributes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
       </group>
     </body>
@@ -4602,7 +4607,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ScriptShowInStatus" translate="yes" xml:space="preserve">
           <source>Show shell output in Status area (otherwise CMD window will open)</source>
-          <target state="translated">在状态区显示 shell 输出（否则将打开 CMD 窗口）</target>
+          <target state="translated">在状态区域显示 shell 输出（否则将打开 CMD 窗口）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox text</note>
         </trans-unit>
         <trans-unit id="ScriptShowInStatus_TT" translate="yes" xml:space="preserve">
