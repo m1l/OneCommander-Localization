@@ -2710,12 +2710,12 @@ Vkládání stránek do programu Adobe Acrobat však nefunguje ani s jednou volb
         </trans-unit>
         <trans-unit id="AlignBottom" translate="yes" xml:space="preserve">
           <source>Bottom</source>
-          <target state="new">Bottom</target>
+          <target state="final">Nahoru</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
         <trans-unit id="AlignTop" translate="yes" xml:space="preserve">
           <source>Top</source>
-          <target state="new">Top</target>
+          <target state="final">Dolů</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alignment of element</note>
         </trans-unit>
       </group>
@@ -5080,7 +5080,7 @@ Složky nelze řadit</target>
         </trans-unit>
         <trans-unit id="PathsGroupTitleParentFolders" translate="yes" xml:space="preserve">
           <source>Parent folders</source>
-          <target state="new">Parent folders</target>
+          <target state="final">Nadřazené složky</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Group name in path edit dropdown</note>
         </trans-unit>
       </group>
