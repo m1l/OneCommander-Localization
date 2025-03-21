@@ -981,11 +981,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">滚动条样式</target>
+          <target state="translated" state-qualifier="mt-suggestion">滚动条样式</target>
         </trans-unit>
         <trans-unit id="SizeFormat" translate="yes" xml:space="preserve">
           <source>Size format</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">大小格式</target>
+          <target state="translated" state-qualifier="mt-suggestion">大小格式</target>
         </trans-unit>
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
@@ -994,7 +994,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
           <source>Show file attributes and synchronization state icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示文件属性和同步状态图标</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示文件属性和同步状态图标</target>
         </trans-unit>
         <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
           <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
@@ -1006,7 +1006,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ImageScaleOriginal" translate="yes" xml:space="preserve">
           <source>Original size</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">原始大小</target>
+          <target state="translated" state-qualifier="mt-suggestion">原始大小</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationPerformance" translate="yes" xml:space="preserve">
           <source>Pixelated (better performance)</source>
@@ -1022,15 +1022,15 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ImageScaleQuestion" translate="yes" xml:space="preserve">
           <source>Display small images</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示小图像</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示小图像</target>
         </trans-unit>
         <trans-unit id="PreviewInterpolationQuestion" translate="yes" xml:space="preserve">
           <source>Image scaling interpolation </source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">图像缩放插值</target>
+          <target state="translated" state-qualifier="mt-suggestion">图像缩放插值</target>
         </trans-unit>
         <trans-unit id="MetadataLineCount" translate="yes" xml:space="preserve">
           <source>Lines of text</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文本行</target>
+          <target state="translated" state-qualifier="mt-suggestion">文本行</target>
         </trans-unit>
         <trans-unit id="ClearThumbnailCache" translate="yes" xml:space="preserve">
           <source>Clear Windows thumbnail cache</source>
@@ -1046,15 +1046,15 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示文件视图工具栏按钮</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示文件视图工具栏按钮</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用云母窗口效果</target>
+          <target state="translated" state-qualifier="mt-suggestion">使用云母窗口效果</target>
         </trans-unit>
         <trans-unit id="HistoryMaxItems" translate="yes" xml:space="preserve">
           <source>Max number of paths saved</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">保存的最大路径数</target>
+          <target state="translated" state-qualifier="mt-suggestion">保存的最大路径数</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Slider for maximum number or paths saved</note>
         </trans-unit>
         <trans-unit id="ShowHistoryInSidebar" translate="yes" xml:space="preserve">
@@ -1063,7 +1063,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">关闭时清除历史记录</target>
+          <target state="translated" state-qualifier="mt-suggestion">关闭时清除历史记录</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Checkbox in settings</note>
         </trans-unit>
         <trans-unit id="OpenFlyoutOnDrag" translate="yes" xml:space="preserve">
@@ -1077,7 +1077,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ColorLuminosity_TT" translate="yes" xml:space="preserve">
           <source>Color luminosity</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">颜色亮度</target>
+          <target state="translated" state-qualifier="mt-suggestion">颜色亮度</target>
         </trans-unit>
         <trans-unit id="ColorSaturation_TT" translate="yes" xml:space="preserve">
           <source>Color saturation</source>
@@ -1085,7 +1085,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Icons" translate="yes" xml:space="preserve">
           <source>Icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">图标</target>
+          <target state="translated" state-qualifier="mt-suggestion">图标</target>
           <note from="MultilingualBuild" annotates="source" priority="2">as in File Icons</note>
         </trans-unit>
         <trans-unit id="UseShellContextMenuSyncCascadeMenu" translate="yes" xml:space="preserve">
@@ -1102,7 +1102,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">从外部源打开的路径：</target>
+          <target state="translated" state-qualifier="mt-suggestion">从外部源打开的路径：</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab with the same path</source>
@@ -1110,11 +1110,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">新建标签页</target>
+          <target state="translated" state-qualifier="mt-suggestion">新建标签页</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">记录详细消息</target>
+          <target state="translated" state-qualifier="mt-suggestion">记录详细消息</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessagesInfo" translate="yes" xml:space="preserve">
           <source>For debugging purposes only. Program runs slower if enabled</source>
@@ -1140,7 +1140,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="DialogConnector" translate="yes" xml:space="preserve">
           <source>Dialog connector</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">对话框连接器</target>
+          <target state="translated" state-qualifier="mt-suggestion">对话框连接器</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title in Settings Advanced</note>
         </trans-unit>
         <trans-unit id="DialogConnectorInfo" translate="yes" xml:space="preserve">
@@ -1158,20 +1158,20 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="Download" translate="yes" xml:space="preserve">
           <source>Download</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">下载</target>
+          <target state="translated" state-qualifier="mt-suggestion">下载</target>
         </trans-unit>
         <trans-unit id="OpenConnectorOnStart" translate="yes" xml:space="preserve">
           <source>Run on program start</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">在程序启动时运行</target>
+          <target state="translated" state-qualifier="mt-suggestion">在程序启动时运行</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">立即运行</target>
+          <target state="translated" state-qualifier="mt-suggestion">立即运行</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
         </trans-unit>
         <trans-unit id="ShowWindowNameInTaskbar" translate="yes" xml:space="preserve">
           <source>Show window name in Taskbar</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">在任务栏中显示窗口名称</target>
+          <target state="translated" state-qualifier="mt-suggestion">在任务栏中显示窗口名称</target>
         </trans-unit>
         <trans-unit id="ColorItemBackgroundToTagColor" translate="yes" xml:space="preserve">
           <source>Color item background to tag color</source>
@@ -1180,26 +1180,26 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSource" translate="yes" xml:space="preserve">
           <source>Item coloring</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">项目着色</target>
+          <target state="translated" state-qualifier="mt-suggestion">项目着色</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item as either File or Folder</note>
         </trans-unit>
         <trans-unit id="OptionColorTag" translate="yes" xml:space="preserve">
           <source>Color tag</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">颜色标签</target>
+          <target state="translated" state-qualifier="mt-suggestion">颜色标签</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="OptionNone" translate="yes" xml:space="preserve">
           <source>None</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">没有</target>
+          <target state="translated" state-qualifier="mt-suggestion">没有</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option to color items in settings</note>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionCancel" translate="yes" xml:space="preserve">
           <source>Cancel rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">取消重命名</target>
+          <target state="translated" state-qualifier="mt-suggestion">取消重命名</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusOptionRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重命名</target>
+          <target state="translated" state-qualifier="mt-suggestion">重命名</target>
         </trans-unit>
         <trans-unit id="RenameOnLostFocusQuestion" translate="yes" xml:space="preserve">
           <source>Clicking outside during rename operation should:</source>
@@ -1217,25 +1217,25 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="GetRecentMenuItems" translate="yes" xml:space="preserve">
           <source>Get recent menu items</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">获取最近的菜单项</target>
+          <target state="translated" state-qualifier="mt-suggestion">获取最近的菜单项</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Settings, Advanced</note>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件上下文菜单需要至少打开一次</target>
+          <target state="translated" state-qualifier="mt-suggestion">文件上下文菜单需要至少打开一次</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">标记最近打开的文件</target>
+          <target state="translated" state-qualifier="mt-suggestion">标记最近打开的文件</target>
         </trans-unit>
         <trans-unit id="ShowFileAgeIndicatorInfo" translate="yes" xml:space="preserve">
           <source>Shows color indicator on files from current and last week</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示当前和上周文件的颜色指示器</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示当前和上周文件的颜色指示器</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">字体拉伸</target>
+          <target state="translated" state-qualifier="mt-suggestion">字体拉伸</target>
         </trans-unit>
         <trans-unit id="FontStretchContracted" translate="yes" xml:space="preserve">
           <source>Contracted</source>
@@ -1249,7 +1249,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FontStretchNormal" translate="yes" xml:space="preserve">
           <source>Normal</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">正常</target>
+          <target state="translated" state-qualifier="mt-suggestion">正常</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
         </trans-unit>
         <trans-unit id="FontStretchSemiContracted" translate="yes" xml:space="preserve">
@@ -1264,7 +1264,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="CreateCustomIconPacks" translate="yes" xml:space="preserve">
           <source>Learn how to create custom icon packs</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">了解如何创建自定义图标包</target>
+          <target state="translated" state-qualifier="mt-suggestion">了解如何创建自定义图标包</target>
         </trans-unit>
         <trans-unit id="HideLastWindow" translate="yes" xml:space="preserve">
           <source>Hide last window instead of close</source>
@@ -1272,16 +1272,16 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="HideLastWindowInfo" translate="yes" xml:space="preserve">
           <source>Opens the window instantly but uses more memory</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">立即打开窗口，但占用更多内存</target>
+          <target state="translated" state-qualifier="mt-suggestion">立即打开窗口，但占用更多内存</target>
         </trans-unit>
         <trans-unit id="CommandShellExeAndArgs" translate="yes" xml:space="preserve">
           <source>Exe path and arguments</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">可执行路径和参数</target>
+          <target state="translated" state-qualifier="mt-suggestion">可执行路径和参数</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Chown when settings, window, command shell is set to Custom</note>
         </trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">黑暗</target>
+          <target state="translated" state-qualifier="mt-suggestion">黑暗</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
@@ -1289,7 +1289,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="UseSystemTheme" translate="yes" xml:space="preserve">
           <source>Use system theme</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用系统主题</target>
+          <target state="translated" state-qualifier="mt-suggestion">使用系统主题</target>
         </trans-unit>
         <trans-unit id="UseSystemThemeInfo" translate="yes" xml:space="preserve">
           <source>Monitor for Windows theme changes to switch to a different theme</source>
@@ -1297,16 +1297,16 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="OpenRecycleBinInExplorer" translate="yes" xml:space="preserve">
           <source>Open Recycle Bin in Explorer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">在资源管理器中打开回收站</target>
+          <target state="translated" state-qualifier="mt-suggestion">在资源管理器中打开回收站</target>
         </trans-unit>
         <trans-unit id="ColumnSizingInfo" translate="yes" xml:space="preserve">
           <source>Sliders auto-adjust range depending on the slider below it</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">滑块根据其下方的滑块自动调整范围</target>
+          <target state="translated" state-qualifier="mt-suggestion">滑块根据其下方的滑块自动调整范围</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
           <source>Columns smaller than the above value will collapse to this width:</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">小于上述值的列将折叠为此宽度：</target>
+          <target state="translated" state-qualifier="mt-suggestion">小于上述值的列将折叠为此宽度：</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Columns - Advanced</note>
         </trans-unit>
         <trans-unit id="ColumnWidthSmallInfo" translate="yes" xml:space="preserve">
@@ -1316,7 +1316,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FileNameTrimming" translate="yes" xml:space="preserve">
           <source>File name trimming</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件名修剪</target>
+          <target state="translated" state-qualifier="mt-suggestion">文件名修剪</target>
         </trans-unit>
         <trans-unit id="FileNameTrimmingEnd" translate="yes" xml:space="preserve">
           <source>End</source>
@@ -1325,12 +1325,12 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FileNameTrimmingMiddle" translate="yes" xml:space="preserve">
           <source>Middle</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">中间</target>
+          <target state="translated" state-qualifier="mt-suggestion">中间</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in position - in the middle</note>
         </trans-unit>
         <trans-unit id="FileNameTrimmingInfo" translate="yes" xml:space="preserve">
           <source>Determines where the file name will be trimmed when it cannot fit available space</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">确定文件名在无法容纳可用空间时将修剪的位置</target>
+          <target state="translated" state-qualifier="mt-suggestion">确定文件名在无法容纳可用空间时将修剪的位置</target>
         </trans-unit>
         <trans-unit id="ClearThumbnailCacheInfo" translate="yes" xml:space="preserve">
           <source>Clears Windows global thumbnail cache (for Explorer also)</source>
@@ -1338,7 +1338,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FileNameMaxLines" translate="yes" xml:space="preserve">
           <source>File name maximum lines</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件名最大行数</target>
+          <target state="translated" state-qualifier="mt-suggestion">文件名最大行数</target>
         </trans-unit>
         <trans-unit id="FileNameMaxLinesInfo" translate="yes" xml:space="preserve">
           <source>For Grid view; Only when thumbnail is larger than 96dip</source>
@@ -1376,15 +1376,15 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowScriptRunConfirmationDialog" translate="yes" xml:space="preserve">
           <source>Show a dialog to confirm running script</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示对话框以确认正在运行的脚本</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示对话框以确认正在运行的脚本</target>
         </trans-unit>
         <trans-unit id="GridViewFileNamePosition" translate="yes" xml:space="preserve">
           <source>File name position in Grid view</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">网格视图中的文件名位置</target>
+          <target state="translated" state-qualifier="mt-suggestion">网格视图中的文件名位置</target>
         </trans-unit>
         <trans-unit id="ItemBackgroundColorSourceInfo" translate="yes" xml:space="preserve">
           <source>Override file background color</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">覆盖文件背景色</target>
+          <target state="translated" state-qualifier="mt-suggestion">覆盖文件背景色</target>
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenu" translate="yes" xml:space="preserve">
           <source>Block window when Shell Context Menu is open</source>
@@ -1406,11 +1406,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShortcutAction" translate="yes" xml:space="preserve">
           <source>Action</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">行动</target>
+          <target state="translated" state-qualifier="mt-suggestion">行动</target>
         </trans-unit>
         <trans-unit id="ShortcutCapture" translate="yes" xml:space="preserve">
           <source>Capture</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">捕获</target>
+          <target state="translated" state-qualifier="mt-suggestion">捕获</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header over capture column where user presses key to capture the shortcut key</note>
         </trans-unit>
         <trans-unit id="ShortcutKey" translate="yes" xml:space="preserve">
@@ -1447,7 +1447,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MustBeInstalled" translate="yes" xml:space="preserve">
           <source>(Must be installed and running)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">（必须已安装并运行）</target>
+          <target state="translated" state-qualifier="mt-suggestion">（必须已安装并运行）</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when QuickLook or Seer are not running</note>
         </trans-unit>
         <trans-unit id="ShortcutCapture_TT" translate="yes" xml:space="preserve">
@@ -1465,11 +1465,11 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="PreviewDownloadsCloudFiles" translate="yes" xml:space="preserve">
           <source>Download cloud files when previewing</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">预览时下载云文件</target>
+          <target state="translated" state-qualifier="mt-suggestion">预览时下载云文件</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">获取云文件的缩略图</target>
+          <target state="translated" state-qualifier="mt-suggestion">获取云文件的缩略图</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbsInfo" translate="yes" xml:space="preserve">
           <source>This may cause files to be downloaded from the cloud depending on cloud provider and thumbnail handler (outside of OneCommander control)</source>
@@ -1513,7 +1513,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="UseSmoothScrolling" translate="yes" xml:space="preserve">
           <source>Smooth scrolling with mouse wheel</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">使用鼠标滚轮平滑滚动</target>
+          <target state="translated" state-qualifier="mt-suggestion">使用鼠标滚轮平滑滚动</target>
         </trans-unit>
         <trans-unit id="DLG_RegistryChangeFailed" translate="yes" xml:space="preserve">
           <source>Failed to modify Windows Registry value</source>
@@ -1530,7 +1530,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">键盘焦点元素显示样式</target>
+          <target state="translated" state-qualifier="mt-suggestion">键盘焦点元素显示样式</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
@@ -1542,7 +1542,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="MaximumFilenameLength" translate="yes" xml:space="preserve">
           <source>Maximum file name length</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">最大文件名长度</target>
+          <target state="translated" state-qualifier="mt-suggestion">最大文件名长度</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
@@ -1558,7 +1558,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">显示临时文件</target>
+          <target state="translated" state-qualifier="mt-suggestion">显示临时文件</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowTemporaryInfo" translate="yes" xml:space="preserve">
@@ -1581,7 +1581,7 @@ Adobe Acrobat 页面插入也不适用。请改用上下文菜单中的合并文
         </trans-unit>
         <trans-unit id="FontSize" translate="yes" xml:space="preserve">
           <source>Font size</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">字体大小</target>
+          <target state="translated" state-qualifier="mt-suggestion">字体大小</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
@@ -3259,7 +3259,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_ClipboardNoFiles" translate="yes" xml:space="preserve">
           <source>Clipboard doesn't contain files</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">剪贴板不包含文件</target>
+          <target state="translated" state-qualifier="mt-suggestion">剪贴板不包含文件</target>
         </trans-unit>
         <trans-unit id="MSG_YN_FileAlreadyExistsReplace" translate="yes" xml:space="preserve">
           <source>File with this name already exists. Do you want to replace it?</source>
@@ -3271,7 +3271,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_ItemsUnavailable" translate="yes" xml:space="preserve">
           <source>Items unavailable</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">项目不可用</target>
+          <target state="translated" state-qualifier="mt-suggestion">项目不可用</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Files or folders were not avaialable</note>
         </trans-unit>
         <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
@@ -3280,12 +3280,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="SpecialFolder" translate="yes" xml:space="preserve">
           <source>Special folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">特殊文件夹</target>
+          <target state="translated" state-qualifier="mt-suggestion">特殊文件夹</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details - ex: Recycle Bin</note>
         </trans-unit>
         <trans-unit id="Computer" translate="yes" xml:space="preserve">
           <source>Computer</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">计算机</target>
+          <target state="translated" state-qualifier="mt-suggestion">计算机</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Item type in File Details</note>
         </trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
@@ -3320,12 +3320,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="SearchTags" translate="yes" xml:space="preserve">
           <source>Tags</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">标签</target>
+          <target state="translated" state-qualifier="mt-suggestion">标签</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tab in Search window - Tags</note>
         </trans-unit>
         <trans-unit id="EnterFolderName" translate="yes" xml:space="preserve">
           <source>Enter folder name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">输入文件夹名称</target>
+          <target state="translated" state-qualifier="mt-suggestion">输入文件夹名称</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Prepopulated text in New Folder dialog</note>
         </trans-unit>
         <trans-unit id="MSG_E_DropDestinationIssue" translate="yes" xml:space="preserve">
@@ -3340,7 +3340,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Watermark_NotAvailable" translate="yes" xml:space="preserve">
           <source>Not available</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">不可用</target>
+          <target state="translated" state-qualifier="mt-suggestion">不可用</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in certain folder is not available</note>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
@@ -3350,17 +3350,17 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="NewWindow_Delete_TT" translate="yes" xml:space="preserve">
           <source>Delete saved window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">删除已保存的窗口</target>
+          <target state="translated" state-qualifier="mt-suggestion">删除已保存的窗口</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="NewWindow_Rename_TT" translate="yes" xml:space="preserve">
           <source>Rename</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">重命名</target>
+          <target state="translated" state-qualifier="tm-suggestion">重命名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">New Window Tooltip</note>
         </trans-unit>
         <trans-unit id="MSG_E_RecycledItemCannotBeOpened" translate="yes" xml:space="preserve">
           <source>Items cannot be opened directly from the Recycle Bin. Restore them to the original folder first.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">无法直接从回收站打开项目。首先将它们还原到原始文件夹。</target>
+          <target state="translated" state-qualifier="mt-suggestion">无法直接从回收站打开项目。首先将它们还原到原始文件夹。</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on double click on item in recycle bin</note>
         </trans-unit>
         <trans-unit id="Menu_NewFolderFromSelection" translate="yes" xml:space="preserve">
@@ -3385,7 +3385,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="CursorOpen" translate="yes" xml:space="preserve">
           <source>Open with</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">打开方式</target>
+          <target state="translated" state-qualifier="mt-suggestion">打开方式</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor label when file is dragged over exe or bat to Open with programName.exe</note>
         </trans-unit>
         <trans-unit id="FinishingSetup" translate="yes" xml:space="preserve">
@@ -3413,21 +3413,21 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">脚本</target>
+          <target state="translated" state-qualifier="mt-suggestion">脚本</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip on scripts button when enabled; scripts as in command script</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidName" translate="yes" xml:space="preserve">
           <source>Invalid name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">名称无效</target>
+          <target state="translated" state-qualifier="mt-suggestion">名称无效</target>
         </trans-unit>
         <trans-unit id="Menu_SortByColorTag" translate="yes" xml:space="preserve">
           <source>Color Tag</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">颜色标签</target>
+          <target state="translated" state-qualifier="mt-suggestion">颜色标签</target>
           <note from="MultilingualBuild" annotates="source" priority="2">In Sort By menu</note>
         </trans-unit>
         <trans-unit id="Cursor_NewWindow" translate="yes" xml:space="preserve">
           <source>Open in new window</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">在新窗口中打开</target>
+          <target state="translated" state-qualifier="mt-suggestion">在新窗口中打开</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
         <trans-unit id="Cursor_DragToRearrangeLine1" translate="yes" xml:space="preserve">
@@ -3442,11 +3442,11 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="MSG_E_RenameUnauthorizedAccess" translate="yes" xml:space="preserve">
           <source>Rename failed. File might be opened in another program or user doesn't have access permissions.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">重命名失败。文件可能在另一个程序中打开，或者用户没有访问权限。</target>
+          <target state="translated" state-qualifier="mt-suggestion">重命名失败。文件可能在另一个程序中打开，或者用户没有访问权限。</target>
         </trans-unit>
         <trans-unit id="Menu_SortByDateTaken_NewestFirst" translate="yes" xml:space="preserve">
           <source>Photo date taken</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">拍摄日期</target>
+          <target state="translated" state-qualifier="mt-suggestion">拍摄日期</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Date taken from EXIF date that camera saved</note>
         </trans-unit>
         <trans-unit id="Menu_SortByDuration_LongestFirst" translate="yes" xml:space="preserve">
@@ -3470,17 +3470,17 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_OpenLnkDestination" translate="yes" xml:space="preserve">
           <source>Open shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">打开快捷方式目标</target>
+          <target state="translated" state-qualifier="mt-suggestion">打开快捷方式目标</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
         <trans-unit id="MSG_E_LnkDestination" translate="yes" xml:space="preserve">
           <source>Error getting shortcut destination</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">获取快捷方式目标时出错</target>
+          <target state="translated" state-qualifier="mt-suggestion">获取快捷方式目标时出错</target>
           <note from="MultilingualBuild" annotates="source" priority="2">shown if program fails to open destination of the shortcut (lnk) file</note>
         </trans-unit>
         <trans-unit id="MSG_E_InvalidFormatetc" translate="yes" xml:space="preserve">
           <source>Source program sent incomplete or corrupted file data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">源程序发送的文件数据不完整或损坏</target>
+          <target state="translated" state-qualifier="mt-suggestion">源程序发送的文件数据不完整或损坏</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When dragging from other programs into OC and data is bad</note>
         </trans-unit>
         <trans-unit id="DiskSleeping_TT" translate="yes" xml:space="preserve">
@@ -3552,15 +3552,15 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="LocationCurrentFolder" translate="yes" xml:space="preserve">
           <source>Current folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">当前文件夹</target>
+          <target state="translated" state-qualifier="mt-suggestion">当前文件夹</target>
         </trans-unit>
         <trans-unit id="LocationDesktop" translate="yes" xml:space="preserve">
           <source>Desktop</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">桌面</target>
+          <target state="translated" state-qualifier="mt-suggestion">桌面</target>
         </trans-unit>
         <trans-unit id="LocationParentFolder" translate="yes" xml:space="preserve">
           <source>Parent folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">父文件夹</target>
+          <target state="translated" state-qualifier="mt-suggestion">父文件夹</target>
         </trans-unit>
         <trans-unit id="Menu_CreateShortcut" translate="yes" xml:space="preserve">
           <source>Create shortcut or link</source>
@@ -3574,12 +3574,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="ShortcutCreateIn" translate="yes" xml:space="preserve">
           <source>Create in</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">创建于</target>
+          <target state="translated" state-qualifier="mt-suggestion">创建于</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - Create in, followed by list of locations</note>
         </trans-unit>
         <trans-unit id="Target" translate="yes" xml:space="preserve">
           <source>Target</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">目标</target>
+          <target state="translated" state-qualifier="mt-suggestion">目标</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shorcut dialog - shortcut target</note>
         </trans-unit>
         <trans-unit id="ShortcutTypeShortcut" translate="yes" xml:space="preserve">
@@ -3599,7 +3599,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Network" translate="yes" xml:space="preserve">
           <source>Network</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">网络</target>
+          <target state="translated" state-qualifier="mt-suggestion">网络</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Header in sidebar</note>
         </trans-unit>
         <trans-unit id="ProgramClose_TT" translate="yes" xml:space="preserve">
@@ -3608,7 +3608,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_ScanNetwork" translate="yes" xml:space="preserve">
           <source>Scan network</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">扫描网络</target>
+          <target state="translated" state-qualifier="mt-suggestion">扫描网络</target>
         </trans-unit>
         <trans-unit id="Menu_SidebarNetworksHide" translate="yes" xml:space="preserve">
           <source>Hide Networks group from sidebar</source>
@@ -3617,7 +3617,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_CloseOtherTabs" translate="yes" xml:space="preserve">
           <source>Close other tabs</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">关闭其他标签页</target>
+          <target state="translated" state-qualifier="mt-suggestion">关闭其他标签页</target>
         </trans-unit>
         <trans-unit id="Menu_CloseTab" translate="yes" xml:space="preserve">
           <source>Close tab</source>
@@ -3633,12 +3633,12 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToBottom" translate="yes" xml:space="preserve">
           <source>Move to bottom</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">移至底部</target>
+          <target state="translated" state-qualifier="mt-suggestion">移至底部</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to bottom</note>
         </trans-unit>
         <trans-unit id="Menu_FavoritesGroup_MoveToTop" translate="yes" xml:space="preserve">
           <source>Move to top</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">移至顶部</target>
+          <target state="translated" state-qualifier="mt-suggestion">移至顶部</target>
           <note from="MultilingualBuild" annotates="source" priority="2">menu item to move group to top</note>
         </trans-unit>
         <trans-unit id="MSG_I_MessageNameWasShortened" translate="yes" xml:space="preserve">
@@ -3668,11 +3668,11 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MSG_E_CompressError" translate="yes" xml:space="preserve">
           <source>Error compressing file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">压缩文件时出错</target>
+          <target state="translated" state-qualifier="mt-suggestion">压缩文件时出错</target>
         </trans-unit>
         <trans-unit id="Archive_Name" translate="yes" xml:space="preserve">
           <source>Archive name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">存档名称</target>
+          <target state="translated" state-qualifier="mt-suggestion">存档名称</target>
         </trans-unit>
         <trans-unit id="Menu_ScriptsHide" translate="yes" xml:space="preserve">
           <source>Remove scripts button</source>
@@ -3680,7 +3680,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="Menu_ScriptsOpen" translate="yes" xml:space="preserve">
           <source>Open scripts folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">打开脚本文件夹</target>
+          <target state="translated" state-qualifier="mt-suggestion">打开脚本文件夹</target>
         </trans-unit>
         <trans-unit id="DLG_ScriptsButtonTip" translate="yes" xml:space="preserve">
           <source>You can re-enable scripts button from Advanced Settings</source>
@@ -3688,11 +3688,11 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DLG_E_ArchiveWrongPassword" translate="yes" xml:space="preserve">
           <source>Wrong password</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">密码错误</target>
+          <target state="translated" state-qualifier="mt-suggestion">密码错误</target>
         </trans-unit>
         <trans-unit id="EnterPassword" translate="yes" xml:space="preserve">
           <source>Enter password</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">输入密码</target>
+          <target state="translated" state-qualifier="mt-suggestion">输入密码</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
@@ -3710,12 +3710,12 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="AgeDay" translate="yes" xml:space="preserve">
           <source>day</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">日</target>
+          <target state="translated" state-qualifier="mt-suggestion">日</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 day old file</note>
         </trans-unit>
         <trans-unit id="AgeDays" translate="yes" xml:space="preserve">
           <source>days</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">日</target>
+          <target state="translated" state-qualifier="mt-suggestion">日</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 days (plural)</note>
         </trans-unit>
         <trans-unit id="AgeHour" translate="yes" xml:space="preserve">
@@ -3730,7 +3730,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="AgeMonth" translate="yes" xml:space="preserve">
           <source>month</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">月</target>
+          <target state="translated" state-qualifier="mt-suggestion">月</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 month old file</note>
         </trans-unit>
         <trans-unit id="AgeMonths" translate="yes" xml:space="preserve">
@@ -3740,12 +3740,12 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="AgeYear" translate="yes" xml:space="preserve">
           <source>year</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">年</target>
+          <target state="translated" state-qualifier="mt-suggestion">年</target>
           <note from="MultilingualBuild" annotates="source" priority="2">1 year old file</note>
         </trans-unit>
         <trans-unit id="AgeYears" translate="yes" xml:space="preserve">
           <source>years</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">年</target>
+          <target state="translated" state-qualifier="mt-suggestion">年</target>
           <note from="MultilingualBuild" annotates="source" priority="2">2 years (plural)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
@@ -3787,39 +3787,39 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
           <source>B</source>
-          <target state="new">B</target>
+          <target state="translated">B</target>
         </trans-unit>
         <trans-unit id="SizeGB" translate="yes" xml:space="preserve">
           <source>GB</source>
-          <target state="new">GB</target>
+          <target state="translated">GB</target>
         </trans-unit>
         <trans-unit id="SizeGiB" translate="yes" xml:space="preserve">
           <source>GiB</source>
-          <target state="new">GiB</target>
+          <target state="translated">GiB</target>
         </trans-unit>
         <trans-unit id="SizeKB" translate="yes" xml:space="preserve">
           <source>KB</source>
-          <target state="new">KB</target>
+          <target state="translated">KB</target>
         </trans-unit>
         <trans-unit id="SizeKiB" translate="yes" xml:space="preserve">
           <source>KiB</source>
-          <target state="new">KiB</target>
+          <target state="translated">KiB</target>
         </trans-unit>
         <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
           <source>MB</source>
-          <target state="new">MB</target>
+          <target state="translated">MB</target>
         </trans-unit>
         <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
           <source>MiB</source>
-          <target state="new">MiB</target>
+          <target state="translated">MiB</target>
         </trans-unit>
         <trans-unit id="SizeTB" translate="yes" xml:space="preserve">
           <source>TB</source>
-          <target state="new">TB</target>
+          <target state="translated">TB</target>
         </trans-unit>
         <trans-unit id="SizeTiB" translate="yes" xml:space="preserve">
           <source>TiB</source>
-          <target state="new">TiB</target>
+          <target state="translated">TiB</target>
         </trans-unit>
         <trans-unit id="Watermark_ContainsHidden" translate="yes" xml:space="preserve">
           <source>Contains hidden items</source>
@@ -4109,7 +4109,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MetadataDPI" translate="yes" xml:space="preserve">
           <source>DPI</source>
-          <target state="new">DPI</target>
+          <target state="translated">DPI</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dots per inch</note>
         </trans-unit>
         <trans-unit id="MetadataEV" translate="yes" xml:space="preserve">
@@ -4124,7 +4124,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MetadataISO" translate="yes" xml:space="preserve">
           <source>ISO</source>
-          <target state="new">ISO</target>
+          <target state="translated">ISO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
         </trans-unit>
         <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
@@ -4169,7 +4169,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MetadataBpm" translate="yes" xml:space="preserve">
           <source>BPM</source>
-          <target state="new">BPM</target>
+          <target state="translated">BPM</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Beats per minute</note>
         </trans-unit>
         <trans-unit id="MetadataChannels" translate="yes" xml:space="preserve">
@@ -4214,7 +4214,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="MetadataFourCC" translate="yes" xml:space="preserve">
           <source>FourCC</source>
-          <target state="new">FourCC</target>
+          <target state="translated">FourCC</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata video codec. Not sure if we want to call it codec, but this is how Windows calls it</note>
         </trans-unit>
         <trans-unit id="MetadataFramerate" translate="yes" xml:space="preserve">
@@ -4234,7 +4234,7 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
           <source>Attributes</source>
-          <target state="new">Attributes</target>
+          <target state="translated">属性</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
       </group>
@@ -4356,11 +4356,11 @@ Some programs won't be able to open this file</source>
         </trans-unit>
         <trans-unit id="EnterLicense" translate="yes" xml:space="preserve">
           <source>Enter license</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">输入许可证</target>
+          <target state="translated" state-qualifier="mt-suggestion">输入许可证</target>
         </trans-unit>
         <trans-unit id="DeactivateLicense" translate="yes" xml:space="preserve">
           <source>Deactivate license</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">停用许可证</target>
+          <target state="translated" state-qualifier="mt-suggestion">停用许可证</target>
         </trans-unit>
         <trans-unit id="DLG_DeactivateLicenseConfirmation" translate="yes" xml:space="preserve">
           <source>Are you sure you want to deactivate license? You will need to enter Pro License key to activate it again</source>
@@ -4900,15 +4900,15 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">描述</target>
+          <target state="translated" state-qualifier="mt-suggestion">描述</target>
         </trans-unit>
         <trans-unit id="Presets" translate="yes" xml:space="preserve">
           <source>Presets</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">预设</target>
+          <target state="translated" state-qualifier="mt-suggestion">预设</target>
         </trans-unit>
         <trans-unit id="SourceDir" translate="yes" xml:space="preserve">
           <source>Source folder of the file</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">文件的源文件夹</target>
+          <target state="translated" state-qualifier="mt-suggestion">文件的源文件夹</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="CaseExtension" translate="yes" xml:space="preserve">
@@ -4935,7 +4935,7 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="MSG_SameName" translate="yes" xml:space="preserve">
           <source>Same name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">同名</target>
+          <target state="translated" state-qualifier="mt-suggestion">同名</target>
         </trans-unit>
         <trans-unit id="RuleReplace" translate="yes" xml:space="preserve">
           <source>Replace</source>
@@ -4953,26 +4953,26 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         </trans-unit>
         <trans-unit id="ForcedExtension" translate="yes" xml:space="preserve">
           <source>Forced new file extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">强制新文件扩展名</target>
+          <target state="translated" state-qualifier="mt-suggestion">强制新文件扩展名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ForcedExtension_TT" translate="yes" xml:space="preserve">
           <source>Leave blank to keep the original extension</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">留空以保留原始扩展名</target>
+          <target state="translated" state-qualifier="mt-suggestion">留空以保留原始扩展名</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA</note>
         </trans-unit>
         <trans-unit id="ParentName" translate="yes" xml:space="preserve">
           <source>Parent folder name</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">父文件夹名称</target>
+          <target state="translated" state-qualifier="mt-suggestion">父文件夹名称</target>
           <note from="MultilingualBuild" annotates="source" priority="2">FA Tooltip explanation of argument</note>
         </trans-unit>
         <trans-unit id="HeaderOperation" translate="yes" xml:space="preserve">
           <source>Operation</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">操作</target>
+          <target state="translated" state-qualifier="mt-suggestion">操作</target>
         </trans-unit>
         <trans-unit id="InvalidRegExSyntax" translate="yes" xml:space="preserve">
           <source>Invalid RegEx syntax</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">正则表达式语法无效</target>
+          <target state="translated" state-qualifier="mt-suggestion">正则表达式语法无效</target>
         </trans-unit>
       </group>
     </body>
