@@ -1457,7 +1457,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
           <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
-          <target state="translated">¡Es necesario reiniciar! Algunos idiomas se traducen automáticamente mediante Microsoft Translator. Si desea contribuir a la traducción a su idioma, escriba a support@onecommander.com.</target>
+          <target state="translated">¡Es necesario reiniciar! Algunos idiomas se traducen automáticamente mediante Microsoft Translator. Si desea contribuir a la traducción a su idioma, escriba a support@onecommander.com</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
@@ -1584,7 +1584,7 @@ Esto debería habilitarse si el programa está configurado como un administrador
         </trans-unit>
         <trans-unit id="Other" translate="yes" xml:space="preserve">
           <source>Other</source>
-          <target state="translated" state-qualifier="mt-suggestion">Otro</target>
+          <target state="translated">Otros</target>
         </trans-unit>
         <trans-unit id="Padding" translate="yes" xml:space="preserve">
           <source>Padding</source>
@@ -3721,7 +3721,7 @@ La inserción de página de Adobe Acrobat tampoco funciona. Use Combinar archivo
         </trans-unit>
         <trans-unit id="MSG_I_UpdateDownloading" translate="yes" xml:space="preserve">
           <source>Downloading latest version from OneCommander.com...</source>
-          <target state="translated" state-qualifier="mt-suggestion">Descargando la última versión desde OneCommander.com...</target>
+          <target state="translated">Descargando la última versión desde OneCommander.com...</target>
         </trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
@@ -4962,7 +4962,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MetadataDPI" translate="yes" xml:space="preserve">
           <source>DPI</source>
-          <target state="new">DPI</target>
+          <target state="translated">DPI</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Dots per inch</note>
         </trans-unit>
         <trans-unit id="MetadataEV" translate="yes" xml:space="preserve">
@@ -4977,7 +4977,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MetadataISO" translate="yes" xml:space="preserve">
           <source>ISO</source>
-          <target state="new">ISO</target>
+          <target state="translated">ISO</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata photo</note>
         </trans-unit>
         <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
@@ -5022,7 +5022,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MetadataBpm" translate="yes" xml:space="preserve">
           <source>BPM</source>
-          <target state="new">BPM</target>
+          <target state="translated">BPM</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Beats per minute</note>
         </trans-unit>
         <trans-unit id="MetadataChannels" translate="yes" xml:space="preserve">
@@ -5067,7 +5067,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="MetadataFourCC" translate="yes" xml:space="preserve">
           <source>FourCC</source>
-          <target state="new">FourCC</target>
+          <target state="translated">FourCC</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Metadata video codec. Not sure if we want to call it codec, but this is how Windows calls it</note>
         </trans-unit>
         <trans-unit id="MetadataFramerate" translate="yes" xml:space="preserve">
@@ -5087,7 +5087,7 @@ Algunos programas no podrán abrir este archivo.</target>
         </trans-unit>
         <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
           <source>Attributes</source>
-          <target state="new">Attributes</target>
+          <target state="translated">Atributos</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
       </group>
