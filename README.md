@@ -3,9 +3,9 @@ These are localization files for OneCommander file manager.
 
 If your 2-letter language code is not available please contact support@[program name].com and a machine-translated base-file will be provided for an easier start.
 
-~~Use a free Microsoft's Multilingual app toolkit 4.0 Editor (MAT): 
+<s>Use a free Microsoft's Multilingual app toolkit 4.0 Editor (MAT): 
 
-https://developer.microsoft.com/en-us/windows/downloads/multilingual-app-toolkit/~~
+https://developer.microsoft.com/en-us/windows/downloads/multilingual-app-toolkit/ </s>
 (Microsoft discontinued MAT)
 
 Please use free Poedit https://poedit.com/download/ or any other CAT tool that can open these xlf files so I can re-import them correctly. Please don't use code editor
