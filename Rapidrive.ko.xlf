@@ -18,6 +18,10 @@
           <source>If you are using Thumbnail, make it the same height</source>
           <target state="translated">쌈네일을 사용하는 경우 동일한 높이로 만듭니다.</target>
         </trans-unit>
+        <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Assigning custom views to folders requires a Pro license.</source>
+          <target state="new">폴더에 사용자 지정 보기를 지정하려면 Pro 라이선스가 필요합니다.</target>
+          <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
           <target state="translated">편집된 보기</target>
@@ -54,6 +58,10 @@
           <source>Load</source>
           <target state="translated">불러오기</target>
         </trans-unit>
+        <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
+          <source>Metadata block</source>
+          <target state="new">메타데이터 블록</target>
+          <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
           <target state="translated" state-qualifier="mt-suggestion">최소 너비</target>
@@ -248,7 +256,7 @@
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow</note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
@@ -876,6 +884,31 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
           <target state="translated">강조 색상은 테마의 강조 색상 강제 설정으로 인해 변경할 수 없습니다.</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
+          <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
+          <target state="new">강조 텍스트 색상은 테마 배경과의 명암 대비를 고려하여 WCAG AA 기준을 충족하도록 조정되었습니다. 다른 강조 요소는 원래 색상을 유지합니다.</target>
+        </trans-unit>
+        <trans-unit id="AccentText" translate="yes" xml:space="preserve">
+          <source>Accent text (WCAG AA)</source>
+          <target state="new">악센트 표기 (WCAG AA)</target>
+        </trans-unit>
+        <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
+          <source>Accessibility</source>
+          <target state="new">접근성</target>
+        </trans-unit>
+        <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
+          <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
+          <target state="new">아크릴 효과는 창 뒤에 무엇이 있는지에 따라 가독성을 떨어뜨릴 수 있습니다. 단색 배경색을 추가하고 불투명도를 높여 대비를 높입니다.</target>
+        </trans-unit>
+        <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
+          <source>Add to Toolbar</source>
+          <target state="new">툴바에 추가</target>
+        </trans-unit>
+        <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
+          <source>Add Toolbar</source>
+          <target state="new">툴바 추가</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -895,6 +928,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <target state="translated" state-qualifier="mt-suggestion">오른쪽</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
+        <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
+          <source>Always ask</source>
+          <target state="new">항상 물어보세요</target>
+          <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
           <target state="translated" state-qualifier="mt-suggestion">애니메이션 지속 시간(ms)</target>
@@ -902,6 +939,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
           <target state="translated">애니메이션 지속 시간을 확인하려면 클릭</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
+          <source>Extracting archive files downloaded from the internet</source>
+          <target state="new">인터넷에서 다운로드한 아카이브 파일 추출</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -911,6 +952,46 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
           <target state="translated">프로그램은 폴더의 처음 몇 개의 파일을 확인하고 대부분이 이미지나 비디오인 경우 썸네일 보기를 로드합니다. 이미 저장된 보기는 영향을 받지 않습니다.</target>
         </trans-unit>
+        <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
+          <source>Available Buttons</source>
+          <target state="new">사용 가능한 버튼</target>
+        </trans-unit>
+        <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
+          <source>Acrylic</source>
+          <target state="new">아크릴</target>
+          <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
+        <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
+          <source>No effect</source>
+          <target state="new">효과 없음</target>
+          <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
+        <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
+          <source>Window background effect</source>
+          <target state="new">창 배경 효과</target>
+        </trans-unit>
+        <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
+          <source>Active pane border thickness</source>
+          <target state="new">활성 창 테두리 두께</target>
+          <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
+        <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
+          <source>Controls how thick the highlight border is around the pane you are working in</source>
+          <target state="new">작업 중인 창 주위의 강조 표시 테두리 두께를 제어합니다.</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
+          <source>Inactive pane dimming</source>
+          <target state="new">비활성 창 어둡게 하기</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
+          <target state="new">활성 창을 더 쉽게 식별할 수 있도록 비활성 창을 어둡게 하거나 밝게 합니다.</target>
+        </trans-unit>
+        <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="new">업데이트 확인</target>
+        </trans-unit>
+        <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
+          <source>Choose image</source>
+          <target state="new">이미지 선택</target>
+          <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClipboardCheckText" translate="yes" xml:space="preserve">
           <source>Check and notify when there is text on clipboard</source>
           <target state="translated" state-qualifier="mt-suggestion">클립보드에 텍스트가 있을 때 확인하고 알립니다.</target>
@@ -918,6 +999,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
           <target state="translated" state-qualifier="mt-suggestion">Ctrl +V를 눌러 텍스트에서 파일을 만들 수있는 알림을 표시</target>
+        </trans-unit>
+        <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
+          <source>Close window when last tab is closed</source>
+          <target state="new">마지막 탭이 닫힐 때 창 닫기</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -1071,6 +1156,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Date format</source>
           <target state="translated" state-qualifier="mt-suggestion">날짜 형식</target>
         </trans-unit>
+        <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
+          <source>Open folders in a new tab (otherwise use the current tab)</source>
+          <target state="new">폴더를 새 탭에서 엽니다(또는 현재 탭에서 엽니다).</target>
+        </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">기본 파일 관리자로 등록</target>
@@ -1102,6 +1191,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
+        <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
+          <source>Default location</source>
+          <target state="new">기본 위치</target>
+          <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
           <source>Open in default program</source>
           <target state="translated" state-qualifier="mt-suggestion">기본 프로그램에서 열기</target>
@@ -1136,13 +1229,41 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <source>Drag and Drop behavior:</source>
           <target state="translated" state-qualifier="mt-suggestion">드래그 앤 드롭 동작:</target>
         </trans-unit>
+        <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
+          <source>Dual-pane focus indicators</source>
+          <target state="new">이중 창 초점 표시기</target>
+        </trans-unit>
         <trans-unit id="EnableAnimations" translate="yes" xml:space="preserve">
           <source>Enable Animations</source>
           <target state="translated" state-qualifier="mt-suggestion">애니메이션 사용</target>
         </trans-unit>
+        <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
+          <source>Entered color</source>
+          <target state="new">입력된 색상</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
+          <source>Even row shading</source>
+          <target state="new">균일한 행 음영</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
+          <target state="new">파일 목록에서 교차하는 행의 불투명도입니다. 0%로 설정하면 음영이 사라집니다. 격자 보기에는 영향을 미치지 않습니다.</target>
+        </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
           <target state="translated">예시</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
+          <source>Folder database exclusions</source>
+          <target state="new">폴더 데이터베이스 제외</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
+          <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
+          <target state="new">키워드 또는 경로 조각. 전체 경로에 대해 대소문자를 구분하지 않는 하위 문자열 일치(예: \AppData\, Thumbcache, $RECYCLE.BIN)</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
+          <source>Thumbnail database exclusions</source>
+          <target state="new">썸네일 데이터베이스 제외</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -1176,6 +1297,10 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <source>File Item Selected Mouse Over</source>
           <target state="translated">마우스 커서가 선택한 파일 위에 있을 때</target>
         </trans-unit>
+        <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
+          <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
+          <target state="new">Windows는 다른 응용 프로그램에서 이미 예약되어 있기 때문에 OneCommander에 이 단축키({0})를 부여하는 것을 거부했습니다.</target>
+        </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
           <target state="translated" state-qualifier="mt-suggestion">파일 아이콘 팩</target>
@@ -1185,10 +1310,22 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <target state="translated" state-qualifier="mt-suggestion">파일 작업 처리기</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
           <target state="needs-review-translation">기본 값 또는 설치된 TeraCopy 선택</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
+        </trans-unit>
+        <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
+          <source>Size units</source>
+          <target state="new">크기 단위</target>
+          <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
+        <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
+          <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
+          <target state="new">10진수(메가바이트) — MB, GB(1MB = 1000KB = 1000000바이트)</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
+          <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
+          <target state="new">바이너리(메비바이트) — MiB, GiB(1MiB = 1024KiB = 1048576바이트)</target>
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
@@ -1197,6 +1334,14 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
           <target state="translated">썸네일 파일 보기</target>
+        </trans-unit>
+        <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
+          <source>Preparing settings and resources…</source>
+          <target state="new">설정 및 리소스 준비 중…</target>
+        </trans-unit>
+        <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
+          <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
+          <target state="new">리소스를 준비할 수 없습니다. 프로그램 폴더에 쓰기 권한이 있는지, 모든 프로그램 파일이 있는지 확인한 후 다시 시도하십시오.</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
@@ -1221,6 +1366,10 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="Font" translate="yes" xml:space="preserve">
           <source>Font</source>
           <target state="translated" state-qualifier="mt-suggestion">글꼴</target>
+        </trans-unit>
+        <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="new">글꼴 두께</target>
         </trans-unit>
         <trans-unit id="GetProLicense" translate="yes" xml:space="preserve">
           <source>Get PRO license</source>
@@ -1317,6 +1466,14 @@ Program restart required</source>
           <source>Icon packs contribute to program's overall memory use</source>
           <target state="translated">아이콘 팩은 프로그램의 전반적인 메모리 사용에 영향받습니다.</target>
         </trans-unit>
+        <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+          <note from="MultilingualBuild">Background as image</note></trans-unit>
+        <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
+          <source>Stretch mode</source>
+          <target state="new">스트레치 모드</target>
+          <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
           <target state="translated">V2 버전에서 즐겨찾기 가져오기</target>
@@ -1336,12 +1493,21 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">언어</target>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
-          <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
-          <target state="translated">다시 시작이 필요합니다! 일부 언어는 Microsoft 번역기를 사용하여 자동으로 번역됩니다. 언어 번역에 참여하고 싶다면 support@onecommander.com 로 문의주세요.</target>
+          <source>Restart required to apply the selected language.
+Some translations may include machine-translated text. Community improvements are welcome.</source>
+          <target state="needs-review-translation">다시 시작이 필요합니다! 일부 언어는 Microsoft 번역기를 사용하여 자동으로 번역됩니다. 언어 번역에 참여하고 싶다면 support@onecommander.com 로 문의주세요.</target>
+        </trans-unit>
+        <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
+          <source>This version was built {0} day(s) ago</source>
+          <target state="new">이 버전은 {0}일 전에 빌드되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
+          <source>Media playback engine</source>
+          <target state="new">미디어 재생 엔진</target>
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
-          <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
-          <target state="translated">이러한 파일 형식에 대한 텍스트 발췌 표시(적응형 및 Thumbs+Details 파일 보기)</target>
+          <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
+          <target state="needs-review-translation">이러한 파일 형식에 대한 텍스트 발췌 표시(적응형 및 Rich 파일 보기)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
@@ -1351,13 +1517,22 @@ This should be enabled if program is set as a default file manager</source>
           <source>NEW</source>
           <target state="translated">신규</target>
         </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">이름</target>
+          <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
-          <source>Duplicate current</source>
-          <target state="translated">현재와 똑같은 탭</target>
+          <source>Duplicate current tab</source>
+          <target state="needs-review-translation">현재와 똑같은 탭</target>
+        </trans-unit>
+        <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
+          <source>Open default location</source>
+          <target state="new">기본 위치 열기</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
           <target state="translated">경로 열기:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
@@ -1372,30 +1547,47 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">폴더를 마우스 가운데 버튼으로 클릭하여 새 탭 열기:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
-          <source>Creating a new tab should:</source>
-          <target state="translated">새 탭 만들 시 수행할 작업:</target>
+          <source>New tab</source>
+          <target state="needs-review-translation">새 탭 만들 시 수행할 작업:</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
-          <source>Path to OneDrive folder</source>
-          <target state="translated">OneDrive 폴더 경로</target>
+        <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
+          <source>No updates found</source>
+          <target state="new">업데이트를 찾을 수 없습니다.</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
-          <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="translated">C:\사용자\YOURNAME\OneDrive 이외의 경로라면 추가적인 동기화 상태 아이콘이 필요합니다.</target>
+        <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
+          <source>On startup</source>
+          <target state="new">시작 시</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open a new window</source>
+          <target state="new">새 창 열기</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
+          <source>Restore previous windows</source>
+          <target state="new">이전 창 복원</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
           <target state="translated">새 탭을 만들고 다음의 경로 열기:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
           <target state="translated">시작 시:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">이전 세션에서 탭 복원</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Opacity" translate="yes" xml:space="preserve">
+          <source>Opacity</source>
+          <target state="new">불투명</target>
+          <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
           <target state="translated">두 번 클릭하여 열기 (한 번 클릭하여 선택)</target>
@@ -1424,6 +1616,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Padding</source>
           <target state="translated">여백</target>
         </trans-unit>
+        <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
+          <source>Path separator symbol (address bar only)</source>
+          <target state="new">경로 구분 기호(주소 표시줄만 해당)</target>
+        </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
           <target state="translated">Bing 지도</target>
@@ -1435,6 +1631,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
           <target state="translated">현재 폴더 창에 적용하고 닫습니다. (저장하지 않음)</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
+          <source>Opening internet-downloaded images in Microsoft Photos</source>
+          <target state="new">마이크로소프트 포토에서 인터넷에서 다운로드한 이미지를 여는 방법</target>
+        </trans-unit>
+        <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
+          <source>Preload thumbnails in background</source>
+          <target state="new">백그라운드에서 축소판 미리 로드</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1465,6 +1669,22 @@ This should be enabled if program is set as a default file manager</source>
           <source>Program restart required</source>
           <target state="translated">프로그램을 다시 시작해야 합니다.</target>
         </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
+          <source>Refresh folder sizes after the app was closed for over an hour</source>
+          <target state="new">앱을 종료한 후 한 시간 이상 지난 후 폴더 크기를 새로 고칩니다.</target>
+        </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
+          <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
+          <target state="new">앱이 1시간 이상 닫혀 있을 경우, 캐시된 폴더 크기를 요청할 때마다 다시 계산합니다. 이로 인해 CPU 및 디스크 사용량이 증가할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
+          <source>Reload pack</source>
+          <target state="new">리로드 팩</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
+          <source>Reload this icon pack after changing its files</source>
+          <target state="new">파일 변경 후 이 아이콘 팩을 다시 로드하세요.</target>
+        </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
           <target state="translated">마우스를 움직이지 않고 한번 더 클릭하여 항목의 이름을 바꾸기</target>
@@ -1485,6 +1705,34 @@ This should be enabled if program is set as a default file manager</source>
           <source>Software</source>
           <target state="translated" state-qualifier="mt-suggestion">소프트웨어</target>
         </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
+          <source>Create a blank window on the current desktop</source>
+          <target state="new">현재 데스크톱에 빈 창을 생성하세요</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
+          <source>Do nothing</source>
+          <target state="new">아무것도 하지 마</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
+          <source>Bring the restored windows to the current desktop</source>
+          <target state="new">복원된 창을 현재 데스크톱에 가져오세요</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
+          <source>When restored windows belong to another virtual desktop:</source>
+          <target state="new">복원된 창이 다른 가상 데스크톱에 속할 때:</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
+          <source>Switch to the virtual desktop containing the restored windows</source>
+          <target state="new">복원된 창이 있는 가상 데스크톱으로 전환하세요</target>
+        </trans-unit>
+        <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
+          <source>These settings revert on next start in free version</source>
+          <target state="new">무료 버전에서는 다음 실행 시 이러한 설정이 원래대로 되돌아갑니다.</target>
+        </trans-unit>
+        <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
+          <source>Save untitled windows</source>
+          <target state="new">제목 없는 창 저장</target>
+        </trans-unit>
         <trans-unit id="ScrollingBehavior" translate="yes" xml:space="preserve">
           <source>Scrolling behavior:</source>
           <target state="translated" state-qualifier="mt-suggestion">스크롤 동작:</target>
@@ -1496,6 +1744,90 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ScrollingBehaviorPixel" translate="yes" xml:space="preserve">
           <source>Pixel (smooth)</source>
           <target state="translated">매끄러운 픽셀 단위</target>
+        </trans-unit>
+        <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
+          <source>Selected Toolbar</source>
+          <target state="new">선택된 툴바</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
+          <source>Cancelling backup…</source>
+          <target state="new">백업 취소 중…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
+          <source>Your settings and user resources have been backed up.</source>
+          <target state="new">사용자 설정 및 리소스가 백업되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Backup complete</source>
+          <target state="new">백업 완료</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
+          <source>Back up OneCommander settings</source>
+          <target state="new">OneCommander 설정 백업</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
+          <source>Backup failed</source>
+          <target state="new">백업 실패</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
+          <source>Backup settings…</source>
+          <target state="new">백업 설정…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
+          <source>Preparing backup…</source>
+          <target state="new">백업 준비 중…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
+          <source>Backup / restore</source>
+          <target state="new">백업/복원</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
+          <source>Saving open windows and tabs…</source>
+          <target state="new">열려있는 창과 탭 저장하기…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
+          <source>Back up settings</source>
+          <target state="new">백업 설정</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
+          <source>Import failed</source>
+          <target state="new">가져오기 실패</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
+          <source>Import from v3…</source>
+          <target state="new">v3에서 가져오기…</target>
+        </trans-unit>
+        <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
+          <source>No settings matched your search</source>
+          <target state="new">검색하신 설정과 일치하는 설정은 없었습니다</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
+          <source>Reset all settings to defaults…</source>
+          <target state="new">모든 설정을 기본값으로 초기화합니다…</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
+          <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
+          <target state="new">모든 설정이 기본값으로 초기화되었습니다. 초기화를 적용하려면 OneCommander를 다시 시작하십시오.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
+          <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
+          <target state="new">OneCommander 설정을 모두 기본값으로 초기화하시겠습니까? 라이선스와 활성화 정보는 유지됩니다.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
+          <source>Reset failed</source>
+          <target state="new">재설정 실패</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
+          <source>Settings reset</source>
+          <target state="new">설정 초기화</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
+          <source>Restore backup…</source>
+          <target state="new">백업 복원 중…</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
+          <source>Restore failed</source>
+          <target state="new">복원 실패</target>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1544,6 +1876,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Show file extensions</source>
           <target state="translated">파일 확장자 표시</target>
         </trans-unit>
+        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">파일 보기 도구 모음 단추 표시</target>
+        </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
           <target state="translated" state-qualifier="mt-suggestion">폴더 배경 이미지 표시</target>
@@ -1553,20 +1889,25 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">folder.jpg, cover.jpg, background.jpg 및 front.jpg 이 폴더에 포함할 경우 배경 이미지로 동작합니다. 뮤직 앨범이나 영화 포스터 표시에 적합합니다.</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder sizes</source>
-          <target state="translated" state-qualifier="mt-suggestion">폴더 크기 표시</target>
+          <source>Calculate folder sizes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">폴더 크기 표시</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="translated">Windows Shell을 사용하여 폴더 크기를 얻습니다. 100% 정확하지는 않지만 빠릅니다. 크기 형식은 변경할 수 없습니다. 크기별로 폴더를 정렬할 수 없습니다. CPU를 더 많이 사용합니다.</target>
+          <source></source>
+          <target state="new">Windows Shell을 사용하여 폴더 크기를 얻습니다. 100% 정확하지는 않지만 빠릅니다. 크기 형식은 변경할 수 없습니다. 크기별로 폴더를 정렬할 수 없습니다. CPU를 더 많이 사용합니다.</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
-          <source>Show Folder size on network folders</source>
-          <target state="translated" state-qualifier="mt-suggestion">네트워크 폴더에 폴더 크기 표시</target>
+          <source>Calculate folder sizes on network folders</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">네트워크 폴더에 폴더 크기 표시</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated">기본적으로 네트워크 폴더 탐색이 느릴 경우 꺼짐.</target>
+        </trans-unit>
+        <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
+          <source>Show folder name in background</source>
+          <target state="new">백그라운드에 폴더 이름 표시</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -1577,6 +1918,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">전역 단축키: Ctrl+H</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
+          <source>Show main toolbar</source>
+          <target state="new">메인 툴바 보기</target>
+          <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="translated" state-qualifier="mt-suggestion">네트워크 파일에 메타데이터 표시</target>
@@ -1585,10 +1930,18 @@ This should be enabled if program is set as a default file manager</source>
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated">기본적으로 네트워크 폴더 탐색이 느릴 경우 꺼짐.</target>
         </trans-unit>
+        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">스크립트 보기 단추</target>
+        </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">시스템 파일 및 폴더 표시</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
+          <source>Requires "Show hidden files" to be enabled</source>
+          <target state="new">"숨김 파일 표시"를 활성화해야 합니다.</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -1602,6 +1955,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
           <target state="translated">끝없는 검색을 일으키는 반복되는 분석 지점이 있다는 것을 알고 있는 경우에만 사용하세요. 이 항목을 킬 시 재분석 지점에 의존하는 클라우드 드라이브 검색이 중단됩니다.</target>
         </trans-unit>
+        <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
+          <source>Solid color</source>
+          <target state="new">단색</target>
+          <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
           <target state="translated" state-qualifier="mt-suggestion">오름차순</target>
@@ -1641,12 +1998,12 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
-          <source>Sort folders by name always</source>
-          <target state="translated" state-qualifier="mt-suggestion">항상 이름으로 폴더 정렬</target>
+          <source>Always sort folders by name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">항상 이름으로 폴더 정렬</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
-          <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
-          <target state="translated">켜져 있으면 날짜별로 파일을 정렬하더라도 폴더는 이름으로 정렬된 상태로 유지됩니다.</target>
+          <source>Folders remain alphabetized, even when files are sorted by date or size</source>
+          <target state="needs-review-translation">켜져 있으면 날짜별로 파일을 정렬하더라도 폴더는 이름으로 정렬된 상태로 유지됩니다.</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
@@ -1659,6 +2016,26 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
           <target state="translated">폴더는 맨 위에 유지하기</target>
+        </trans-unit>
+        <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
+          <source>Stretch to fill</source>
+          <target state="new">늘려서 채우기</target>
+        </trans-unit>
+        <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="new">원래 크기</target>
+        </trans-unit>
+        <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
+          <source>Tile</source>
+          <target state="new">타일</target>
+        </trans-unit>
+        <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
+          <source>Fit (no crop)</source>
+          <target state="new">맞춤(자르기 없음)</target>
+        </trans-unit>
+        <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (crop extra)</source>
+          <target state="new">채우기(자르기 추가)</target>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -1705,10 +2082,40 @@ This should be enabled if program is set as a default file manager</source>
           <source>Window</source>
           <target state="translated" state-qualifier="mt-suggestion">창</target>
         </trans-unit>
+        <trans-unit id="TeraCopyLimitations" translate="yes" xml:space="preserve">
+          <source>Limited OneCommander integration
+No Undo support
+No color tag preservation on move
+No folder/thumbnail database updates</source>
+          <target state="new">제한적 원커맨더 통합
+실행 취소 지원 없음
+이동 시 색상 태그 보존 없음
+폴더/썸네일 데이터베이스 업데이트가 없습니다</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
+          <source>The quick brown fox jumps over lazy dog 1234567890</source>
+          <target state="new">재빠른 갈색 여우가 게으른 개 1234567890를 뛰어넘습니다.</target>
+        </trans-unit>
+        <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
+          <source>Theme author</source>
+          <target state="new">테마 작성자</target>
+        </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
           <target state="needs-review-translation">사용자 지정 테마 만들기: \Theme 폴더에서 테마의 복사본을 만들고 .xaml 파일에서 편집합니다.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
+          <source>Theme defined</source>
+          <target state="new">테마 정의</target>
+          <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
+        <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
+          <source>ThemeDescription</source>
+          <target state="new">테마설명</target>
+        </trans-unit>
+        <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
+          <source>Suggested accent color</source>
+          <target state="new">추천 포인트 컬러</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -1725,6 +2132,58 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="TimeFormat12h" translate="yes" xml:space="preserve">
           <source>12h with AM/PM</source>
           <target state="translated">12시간제 (오전/오후)</target>
+        </trans-unit>
+        <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
+          <source>Toolbar editor</source>
+          <target state="new">툴바 편집기</target>
+        </trans-unit>
+        <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
+          <source>Toolbars</source>
+          <target state="new">도구 모음</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
+          <source>Translation authors:</source>
+          <target state="new">번역 작성자</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
+          <source>Machine translated using Microsoft Translator</source>
+          <target state="new">Ukjin Yang, KimPig</target>
+          <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
+        <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
+          <source>Help improve translations</source>
+          <target state="new">번역에 기여하지 않는 법을 배우십시오</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="new">일일</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
+          <source>Every 6 hours</source>
+          <target state="new">6시간마다</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
+          <source>Update check frequency</source>
+          <target state="new">업데이트 확인 빈도</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <target state="new">절대</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
+          <source>On start</source>
+          <target state="new">시작 시</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="new">주간</target>
+        </trans-unit>
+        <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
+          <source>Update found. Do you want to update to version {0} now?</source>
+          <target state="new">업데이트가 발견되었습니다. 지금 {0} 버전으로 업데이트하시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in dialogs</source>
+          <target state="new">대화에서 아크릴 효과를 사용하세요</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -1759,17 +2218,16 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">DPI가 높지 않은 화면에서 선을 더 선명하게 만듭니다. 100% 표시 배율에만 필요합니다. 꺼져있을 때 더 안정적이지만 아이콘과 선이 선명하지 않을 수 있습니다. 기본값으로 켜져 있습니다.</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="translated">메가바이트의 이전 정의 사용 (Windows 탐색기와 같은 방식)</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
-        </trans-unit>
+          <source></source>
+          <target state="new">메가바이트의 이전 정의 사용 (Windows 탐색기와 같은 방식)</target>
+          <note from="MultilingualBuild">NOT USED</note>
+          <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source>Turn ON if you prefer using Mebibytes instead of Megabytes
-1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
-1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI standard)</source>
-          <target state="translated">Megabytes 대신 Mebibytes를 사용하는 것을 선호하는 경우 켜세요.
+          <source></source>
+          <target state="new">Megabytes 대신 Mebibytes를 사용하는 것을 선호하는 경우 켜세요.
 1 메비바이트 = 2^20바이트 = 1048576 바이트 (IEC)
 1 메가바이트 (MB) = 10^6 바이트 = 1000000 바이트 (SI 표준)</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -1783,10 +2241,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
+          <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
+          <target state="new">Windows 스타일 레거시 레이블 사용(메비바이트를 MB로 표시)</target>
+          <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
           <target state="translated">사용자 정의 .pdf 및 .ai 썸네일 추출</target>
         </trans-unit>
+        <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
+          <source>Background type</source>
+          <target state="new">배경 유형</target>
+          <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
           <target state="translated" state-qualifier="mt-suggestion">윈도우 기본값</target>
@@ -1854,14 +2320,6 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">폴더 크기 표시에는 영향을 주지 않습니다. (Windows에서 제공)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
-        <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
-          <source>Show file attributes and synchronization state icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일 특성 표시 및 동기화 상태 아이콘</target>
-        </trans-unit>
-        <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
-          <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">온디맨드 파일이 활성화된 경우 OneDrive 상태 아이콘을 표시하는 데 필요합니다. 또한 암호화된 아이콘을 표시하고 재분석합니다. 꺼낼 때 성능이 향상됩니다.</target>
-        </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">미리보기 창에 맞게 배율 조정</target>
@@ -1905,10 +2363,6 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">3ds 최대 축소판 핸들러 등록</target>
-        </trans-unit>
-        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">파일 보기 도구 모음 단추 표시</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
@@ -1967,8 +2421,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">외부 소스에서 열린 경로:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab with the same path</source>
-          <target state="translated">동일한 경로의 기존 탭</target>
+          <source>Existing tab with the same path, otherwise new tab</source>
+          <target state="needs-review-translation">같은 경로의 기존 탭, 없으면 새 탭</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -2212,18 +2666,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open Office files through Explorer</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">탐색기를 통해 Office 파일 열기</target>
         </trans-unit>
-        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source>Show Scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">스크립트 보기 단추</target>
-        </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">예제는 \리소스\스크립트\ 폴더를 참조하세요. PRO 사용자는 8개 이상의 스크립트를 가질 수 있습니다.</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED; Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">실행중인 스크립트를 알고 있습니다! 보안 위험!</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -2295,7 +2746,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">와 충돌</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict</note>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -2370,8 +2821,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
-          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="translated">18pt보다 큰 글꼴 크기는 공식적으로 지원되지 않으며 일부 텍스트가 잘리거나 정렬되지 않은 것처럼 보일 수 있습니다. Windows 디스플레이 설정에서 배율을 변경하는 것이 추천되는 방식입니다.</target>
+          <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <target state="needs-review-translation">18pt보다 큰 글꼴 크기는 공식적으로 지원되지 않으며 일부 텍스트가 잘리거나 정렬되지 않은 것처럼 보일 수 있습니다. Windows 디스플레이 설정에서 배율을 변경하는 것이 추천되는 방식입니다.</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Shift + Right Click always opens the full context menu</source>
@@ -2533,7 +2984,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Global hotkey to open program</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
-          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
@@ -2632,7 +3083,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
-          <source>Run on Windows startup without a creating a window</source>
+          <source>Run on Windows startup</source>
           <target state="new">Run on Windows startup without a creating a window</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
@@ -2647,7 +3098,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
           <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name</note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
@@ -2697,8 +3148,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
-          <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <source>Choose the clearest text rendering for your screen</source>
+          <target state="new">화면에 가장 잘 보이는 텍스트 표시 방식을 선택하세요.</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -2775,6 +3226,28 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">이 PC</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alias in Favorites</note>
         </trans-unit>
+        <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
+          <source>This archive was downloaded from the internet. Windows marks these files for security. 
+Choose how to extract them:</source>
+          <target state="new">이 아카이브는 인터넷에서 다운로드되었습니다. 윈도우는 이 파일들을 보안을 위해 표시합니다. 
+추출 방법을 선택하세요:</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
+          <source>Keep internet security marks</source>
+          <target state="new">인터넷 보안 마크를 유지하세요</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
+          <source>Windows and other programs may show safety warnings when you open these files</source>
+          <target state="new">윈도우 등 다른 프로그램들이 이 파일들을 열 때 안전 경고를 표시할 수 있습니다</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
+          <source>Remove internet security marks</source>
+          <target state="new">인터넷 보안 마크 제거</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
+          <source>Choose this only if you completely trust this archive and its contents</source>
+          <target state="new">이 아카이브와 그 내용을 완전히 신뢰할 때만 선택하세요</target>
+        </trans-unit>
         <trans-unit id="Archive_CancellingExtraction" translate="yes" xml:space="preserve">
           <source>Cancelling task...</source>
           <target state="translated">작업 취소 중...</target>
@@ -2812,6 +3285,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Yes</source>
           <target state="translated" state-qualifier="mt-suggestion">예</target>
         </trans-unit>
+        <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled in settings</source>
+          <target state="new">설정에서 사용 중지됨</target>
+          <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
           <target state="translated" state-qualifier="mt-suggestion">파일 보기 변경</target>
@@ -2868,6 +3345,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">CTRL 키를 눌러 복사</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text showing as part afer Move: Move | hold CTRL to Copy</note>
         </trans-unit>
+        <trans-unit id="Customize" translate="yes" xml:space="preserve">
+          <source>Customize</source>
+          <target state="new">사용자 정의</target>
+          <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
+        <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
+          <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
+          <target state="new">일부 작업이 아직 진행 중입니다. 데이터 손실을 방지하려면 작업이 완료될 때까지 기다리거나 닫기 전에 작업을 취소하십시오.</target>
+        </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
           <target state="translated">Del</target>
@@ -2891,6 +3376,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DetailsFileSystem" translate="yes" xml:space="preserve">
           <source>File system</source>
           <target state="translated" state-qualifier="mt-suggestion">파일 시스템</target>
+        </trans-unit>
+        <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
+          <source>Total files</source>
+          <target state="new">총 파일 수</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -3075,6 +3564,51 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Starts with:</source>
           <target state="translated" state-qualifier="mt-suggestion">시작:</target>
         </trans-unit>
+        <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
+          <source>Choose a default layout</source>
+          <target state="new">기본 레이아웃을 선택하세요</target>
+        </trans-unit>
+        <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
+          <source>Choose a theme</source>
+          <target state="new">테마를 선택하세요</target>
+        </trans-unit>
+        <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
+          <source>Read the terms until the end before continuing.</source>
+          <target state="new">계속 진행하기 전에 약관을 끝까지 읽어주십시오.</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
+          <source>Size format</source>
+          <target state="new">크기 형식</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
+          <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
+          <target state="new">문제가 발생할 경우, [정보] 대화 상자에서 프로그램 개발자에게 바로 문의할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
+          <source>Higher CPU use until all folder sizes are calculated in the current view</source>
+          <target state="new">현재 보기에서 모든 폴더 크기가 계산될 때까지 CPU 사용량이 높아질 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
+          <source>Folders are sorted only if total size has been calculated</source>
+          <target state="new">전체 크기가 계산된 경우에만 폴더가 정렬됩니다.</target>
+        </trans-unit>
+        <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
+          <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
+          <target state="new">전체 새로 고침. 새 항목을 강제로 확인하고 모든 폴더 크기를 다시 계산합니다.</target>
+          <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
+        <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
+          <source>Global settings</source>
+          <target state="new">전역 설정</target>
+          <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
+        <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
+          <source>Initializing video engine (FFmpeg)...</source>
+          <target state="new">비디오 엔진(FFmpeg)을 초기화하는 중...</target>
+          <note from="MultilingualBuild">First time preview loads a video</note>
+        </trans-unit>
+        <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
+          <source>Instant Search</source>
+          <target state="new">즉시 검색</target>
+        </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
           <target state="translated">선택됨</target>
@@ -3086,8 +3620,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Shows number of items in status bar as X items</note>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
-          <source>Switch between Standard and Columns layouts</source>
-          <target state="translated" state-qualifier="mt-suggestion">표준 및 열 레이아웃 간 전환</target>
+          <source>Switch between window layouts</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">표준 및 열 레이아웃 간 전환</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
           <source>Locate item</source>
@@ -3101,6 +3635,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Login as...</source>
           <target state="translated">다른 계정 로그인</target>
         </trans-unit>
+        <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
+          <source>Disk not responding</source>
+          <target state="new">디스크가 응답하지 않음</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
+        <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
+          <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
+          <target state="new">태스크마스터는 멈춘다. 이 작업은 일시정지 해제 시 처리됩니다</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
+          <source>Waking disk (attempt {0}/{1})</source>
+          <target state="new">디스크 깨우기({0}/{1} 시도)</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
           <target state="translated">연결할 드라이브 문자(예: 'K')</target>
@@ -3108,6 +3654,16 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
           <target state="translated">네트워크 경로(예: \\컴퓨터명\공유폴더)</target>
+        </trans-unit>
+        <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
+          <source>Mebibyte</source>
+          <target state="new">메비바이트</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
+        </trans-unit>
+        <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
+          <source>Megabyte</source>
+          <target state="new">메가바이트</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
@@ -3132,7 +3688,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="translated" state-qualifier="mt-suggestion">복사</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
@@ -3217,6 +3773,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation">새 창 (예정)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
+          <source>Open Location</source>
+          <target state="new">위치 열기</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
+          <source>Open Location in new tab</source>
+          <target state="new">위치 정보를 새 탭에서 열기</target>
+        </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
           <target state="translated" state-qualifier="mt-suggestion">모든 것을 새로 고칩니다.</target>
@@ -3248,6 +3812,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_SortByDate_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Oldest first)</source>
           <target state="translated">수정 일자 (예전 우선)</target>
+        </trans-unit>
+        <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
+          <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
+          <target state="new">대용량 폴더에서는 일시적으로 정지될 수 있습니다. 모든 파일의 메타데이터를 추출하는 데 필요</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -3655,6 +4223,22 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Downloading latest version from OneCommander.com...</source>
           <target state="translated">OneCommander.com 에서 최신 버전 다운로드 중...</target>
         </trans-unit>
+        <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
+          <source>Authors</source>
+          <target state="new">저자</target>
+        </trans-unit>
+        <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
+          <source>Signature check</source>
+          <target state="new">서명 확인</target>
+        </trans-unit>
+        <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">서명</target>
+        </trans-unit>
+        <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
+          <source>This file was downloaded from the internet</source>
+          <target state="new">이 파일은 인터넷에서 다운로드되었습니다.</target>
+          <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
           <target state="translated" state-qualifier="mt-suggestion">Alt + 왼쪽 화살표</target>
@@ -3745,6 +4329,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open new or saved window</source>
           <target state="translated" state-qualifier="mt-suggestion">새 창 또는 저장된 창 열기</target>
         </trans-unit>
+        <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
+          <source>No recent operations</source>
+          <target state="new">최근 작업 없음</target>
+        </trans-unit>
+        <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
+          <source>No digital signature</source>
+          <target state="new">디지털 서명 없음</target>
+          <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
           <target state="translated">ESC 키로 닫기 | ~ 로 열기</target>
@@ -3753,6 +4345,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Minimizes Notification Pane</source>
           <target state="translated" state-qualifier="mt-suggestion">알림 창 최소화</target>
         </trans-unit>
+        <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
+          <source>Operation history</source>
+          <target state="new">운영 이력</target>
+          <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
           <target state="translated">접기</target>
@@ -3774,6 +4370,32 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
 Some programs won't be able to open/save files from this folder</source>
           <target state="translated">Windows가 지원하는 경로보다 긴 경로입니다. (260자)
 일부 프로그램은 이 폴더에서 파일을 열거나 저장할 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWarningMessage" translate="yes" xml:space="preserve">
+          <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
+OneCommander cannot bypass this behavior. 
+Choose how to proceed:</source>
+          <target state="new">Windows에서는 이 파일을 웹에서 다운로드한 것으로 표시했습니다. 이 태그로 인해 Microsoft Photos는 열 때마다 보안 프롬프트를 표시합니다. OneCommander는 이 동작을 제어할 수 없습니다. 이를 처리하는 방법을 선택하세요.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
+          <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
+          <target state="new">팁: OneCommander에 내장된 미리보기(스페이스바)를 사용하거나 다른 기본 이미지 뷰어를 설정하여 이 메시지를 완전히 피하세요.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
+          <source>Open this file only</source>
+          <target state="new">이미지만 열어보세요</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation in Photos will not work</source>
+          <target state="new">← → 사진의 탐색 화살표가 작동하지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
+          <source>Remove the security mark and open</source>
+          <target state="new">웹 플래그를 제거하고 엽니다.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation will work normally</source>
+          <target state="new">← → 탐색 화살표가 정상적으로 작동합니다.</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
@@ -3845,13 +4467,17 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">템플릿 이름</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
-          <source>To add new line press Ctrl + Enter</source>
-          <target state="translated">새 줄을 추가하려면 Ctrl + Enter 키</target>
+          <source>To add new line press Shift + Enter</source>
+          <target state="needs-review-translation">새 줄을 추가하려면 Ctrl + Enter 키</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
           <target state="translated">메모 / ToDo 작업</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
+        </trans-unit>
+        <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
+          <source>Download and preview</source>
+          <target state="new">다운로드 및 미리보기</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -3910,6 +4536,10 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Recycle Bin</source>
           <target state="translated" state-qualifier="mt-suggestion">휴지통</target>
         </trans-unit>
+        <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
+          <source>Remember my choice and don't ask again</source>
+          <target state="new">내 선택을 기억하고 다시 묻지 마세요.</target>
+        </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
           <target state="translated" state-qualifier="mt-suggestion">F2</target>
@@ -3918,6 +4548,14 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Rename</source>
           <target state="translated" state-qualifier="mt-suggestion">이름 바꾸기</target>
         </trans-unit>
+        <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
+          <source>Report a problem to the developer</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
+          <source>Saved windows</source>
+          <target state="new">저장된 창</target>
+          <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Search</source>
           <target state="translated" state-qualifier="mt-suggestion">검색</target>
@@ -3939,13 +4577,29 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Search files starting from currently opened folder</source>
           <target state="translated">현재 열린 폴더 내 검색된 첫 파일</target>
         </trans-unit>
+        <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
+          <source>Some session windows were restored to other virtual desktops</source>
+          <target state="new">일부 세션 창이 다른 가상 데스크톱으로 복원되었습니다.</target>
+        </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
           <target state="translated" state-qualifier="mt-suggestion">프로그램 설정</target>
         </trans-unit>
+        <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
+          <source>Show only undoable operations</source>
+          <target state="new">실행 취소할 수 있는 작업만 표시</target>
+          <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
+        <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
+          <source>File operations running. Closing risks data loss.</source>
+          <target state="new">파일 작업이 진행 중입니다. 닫으면 데이터가 손실될 수 있습니다.</target>
+          <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
+        <trans-unit id="Signature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">서명</target>
+          <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
-          <source>DATE</source>
-          <target state="translated" state-qualifier="mt-suggestion">날짜</target>
+          <source>Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">날짜</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
@@ -3956,8 +4610,8 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">수정 일자 오래된 순으로 정렬</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
-          <source>NAME</source>
-          <target state="translated" state-qualifier="mt-suggestion">이름</target>
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이름</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
@@ -3968,26 +4622,26 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">이름 내림차순 정렬</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
-          <source>SIZE</source>
-          <target state="translated" state-qualifier="mt-suggestion">크기</target>
+          <source>Size</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">크기</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">크기 큰 순으로 정렬 (폴더 제외)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">크기 작은 순으로 정렬 (폴더 제외)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
-          <source>TYPE</source>
-          <target state="translated">유형</target>
+          <source>Type</source>
+          <target state="needs-review-translation">유형</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
@@ -3998,8 +4652,16 @@ Folders can't be sorted</source>
           <target state="translated">유형 내림차순 정렬</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders above files (On/Off)</source>
-          <target state="translated">폴더를 파일 위에 표시 (켜짐/꺼짐)</target>
+          <source>Keep folders above files</source>
+          <target state="needs-review-translation">폴더를 파일 위에 표시 (켜짐/꺼짐)</target>
+        </trans-unit>
+        <trans-unit id="SortLive" translate="yes" xml:space="preserve">
+          <source>Live sorting</source>
+          <target state="new">실시간 정렬</target>
+          <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
+        <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
+          <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
+          <target state="new">활성화되면 이름이 변경된 파일이 다른 파일과 함께 정렬되고 새 정렬 위치로 이동됩니다. 기본값은 꺼져 있습니다</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -4034,9 +4696,26 @@ Folders can't be sorted</source>
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
           <target state="translated">팁: 빈 공간에서 중간 마우스를 클릭하면서 선택 영역을 그릴 수 있습니다.</target>
         </trans-unit>
+        <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
+          <source>Open Taskmaster to view and manage file operation jobs</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark theme</source>
+          <target state="new">다크 테마</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light theme</source>
+          <target state="new">라이트 테마</target>
+        </trans-unit>
+        <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
+          <source>Ctrl± ｜ Ctrl☸</source>
+          <target state="new">Ctrl± ｜ Ctrl☸</target>
+        </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
           <target state="translated" state-qualifier="mt-suggestion">잠금 해제</target>
+          <note from="MultilingualBuild">Button in bitlocker drives</note>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
@@ -4047,6 +4726,10 @@ Folders can't be sorted</source>
           <source>Updating...</source>
           <target state="translated">업데이트 중...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
+        </trans-unit>
+        <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
+          <source>Waiting for {0} to respond...</source>
+          <target state="new">{0}의 응답을 기다리는 중...</target>
         </trans-unit>
         <trans-unit id="Warning" translate="yes" xml:space="preserve">
           <source>Warning!</source>
@@ -4275,7 +4958,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
-          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <source>Make Taskmaster default file operations manager to enable undo</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows는 탐색기 외부에서 파일 작업 실행 취소를 지원하지 않습니다.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
@@ -4285,7 +4968,7 @@ Folders can't be sorted</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
-          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <source>Give this window a name so it can persist layout and tabs across sessions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">다음에 필요할 때 레이아웃, 위치 및 탭을 저장할 수 있도록 새 창에 이름을 지정하십시오.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
@@ -4390,7 +5073,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">파일이 {0}.&lt;br/&gt;({1})&lt;br/&gt;재시도 작업에서 사용 중입니다.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
@@ -4542,7 +5225,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
           <target state="translated">리눅스 배포판 검색 중...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL</note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
@@ -4930,7 +5613,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
           <target state="new">Undo</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Operation History and in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -4968,7 +5651,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
           <target state="new">Resolution</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo</note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
@@ -5119,6 +5802,16 @@ Some programs won't be able to open this file</source>
           <source>Attributes</source>
           <target state="new">Attributes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">다음</target>
+          <note from="MultilingualBuild">Wizard next step</note>
+        </trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">시작</target>
+          <note from="MultilingualBuild">Wizard step start the program</note>
         </trans-unit>
       </group>
     </body>

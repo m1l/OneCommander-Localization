@@ -18,6 +18,10 @@
           <source>If you are using Thumbnail, make it the same height</source>
           <target state="translated">Als u een Thumbnail gebruikt, maak het op dezelfde hoogte</target>
         </trans-unit>
+        <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Assigning custom views to folders requires a Pro license.</source>
+          <target state="new">Voor het toewijzen van aangepaste weergaven aan mappen is een Pro-licentie vereist.</target>
+          <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
           <target state="translated" state-qualifier="mt-suggestion">Bewerkte weergave:</target>
@@ -55,6 +59,10 @@
           <source>Load</source>
           <target state="translated" state-qualifier="tm-suggestion">Laden</target>
         </trans-unit>
+        <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
+          <source>Metadata block</source>
+          <target state="new">Metagegevens blok</target>
+          <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
           <target state="translated" state-qualifier="mt-suggestion">Min.Breedte</target>
@@ -397,7 +405,7 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow</note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
@@ -882,6 +890,31 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
           <target state="translated">Accentkleur kan niet worden gewijzigd omdat dit specifieke thema een bepaalde accentkleur afdwingt</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
+          <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
+          <target state="new">De kleur van de accenttekst is aangepast aan het WCAG AA-contrast ten opzichte van de thema-achtergrond. Andere accentkleuren behouden de oorspronkelijke kleur.</target>
+        </trans-unit>
+        <trans-unit id="AccentText" translate="yes" xml:space="preserve">
+          <source>Accent text (WCAG AA)</source>
+          <target state="new">Tekst met accent (WCAG AA)</target>
+        </trans-unit>
+        <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
+          <source>Accessibility</source>
+          <target state="new">Toegankelijkheid</target>
+        </trans-unit>
+        <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
+          <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
+          <target state="new">Acryleffect kan de leesbaarheid verminderen, afhankelijk van wat zich achter het raam bevindt. Voeg een effen achtergrondkleur toe en verhoog de dekking voor een beter contrast.</target>
+        </trans-unit>
+        <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
+          <source>Add to Toolbar</source>
+          <target state="new">Toevoegen aan werkbalk</target>
+        </trans-unit>
+        <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
+          <source>Add Toolbar</source>
+          <target state="new">Werkbalk toevoegen</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -901,6 +934,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <target state="translated" state-qualifier="tm-suggestion">Rechts</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
+        <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
+          <source>Always ask</source>
+          <target state="new">Vraag het altijd.</target>
+          <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
           <target state="translated" state-qualifier="mt-suggestion">Animatieduur (ms)</target>
@@ -908,6 +945,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
           <target state="translated" state-qualifier="mt-suggestion">Klik om de duur van de animatie te testen</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
+          <source>Extracting archive files downloaded from the internet</source>
+          <target state="new">Archiefbestanden extraheren die van het internet zijn gedownload</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -918,6 +959,46 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Programma zal een eerste paar bestanden in een map controleren en als de meeste afbeeldingen of video's zijn, laadt het de miniatuurweergave. Weergaven die al zijn opgeslagen, worden niet beïnvloed</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
+          <source>Available Buttons</source>
+          <target state="new">Beschikbare knoppen</target>
+        </trans-unit>
+        <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
+          <source>Acrylic</source>
+          <target state="new">Acryl</target>
+          <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
+        <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
+          <source>No effect</source>
+          <target state="new">Geen effect</target>
+          <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
+        <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
+          <source>Window background effect</source>
+          <target state="new">Vensterachtergrondeffect</target>
+        </trans-unit>
+        <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
+          <source>Active pane border thickness</source>
+          <target state="new">Actieve ruitranddikte</target>
+          <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
+        <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
+          <source>Controls how thick the highlight border is around the pane you are working in</source>
+          <target state="new">Bepaalt hoe dik de markeringsrand is rond het deelvenster waarin u werkt</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
+          <source>Inactive pane dimming</source>
+          <target state="new">Inactieve ruitdimming</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
+          <target state="new">Maakt het inactieve venster donkerder of lichter, zodat het actieve venster gemakkelijker te identificeren is</target>
+        </trans-unit>
+        <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="new">Controleer op updates</target>
+        </trans-unit>
+        <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
+          <source>Choose image</source>
+          <target state="new">Kies afbeelding</target>
+          <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClipboardCheckText" translate="yes" xml:space="preserve">
           <source>Check and notify when there is text on clipboard</source>
           <target state="translated" state-qualifier="mt-suggestion">Controleer en waarschuw wanneer er tekst op het klembord staat</target>
@@ -925,6 +1006,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
           <target state="translated" state-qualifier="mt-suggestion">Toont meldingen die aanbieden om een bestand van tekst te maken door op Ctrl+V te drukken</target>
+        </trans-unit>
+        <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
+          <source>Close window when last tab is closed</source>
+          <target state="new">Sluit venster wanneer het laatste tabblad is gesloten</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -1095,6 +1180,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <source>Date shown in list of files</source>
           <target state="translated" state-qualifier="mt-suggestion">Datum weergegeven in lijst met bestanden</target>
         </trans-unit>
+        <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
+          <source>Open folders in a new tab (otherwise use the current tab)</source>
+          <target state="new">Mappen openen in een nieuw tabblad (gebruik anders het huidige tabblad).</target>
+        </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
           <target state="translated">Registreer als standaard bestandsbeheerder app</target>
@@ -1126,6 +1215,10 @@ De licentie is geldig voor maximaal 10 computers die worden gebruikt met hetzelf
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
+        <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
+          <source>Default location</source>
+          <target state="new">Standaardlocatie</target>
+          <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
           <source>Open in default program</source>
           <target state="translated" state-qualifier="mt-suggestion">Openen in standaardprogramma</target>
@@ -1160,13 +1253,41 @@ Slepen verplaatst als hetzelfde station, anders kopieën. Ctrl+Slepen om te kopi
           <source>Drag and Drop behavior:</source>
           <target state="translated">Slepen en neerzetten (Drag/Drop) gedrag:</target>
         </trans-unit>
+        <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
+          <source>Dual-pane focus indicators</source>
+          <target state="new">Focusindicatoren met twee panelen</target>
+        </trans-unit>
         <trans-unit id="EnableAnimations" translate="yes" xml:space="preserve">
           <source>Enable Animations</source>
           <target state="translated" state-qualifier="mt-suggestion">Animaties inschakelen</target>
         </trans-unit>
+        <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
+          <source>Entered color</source>
+          <target state="new">Ingevoerde kleur</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
+          <source>Even row shading</source>
+          <target state="new">Gelijkmatige rijarcering</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
+          <target state="new">Transparantie van afwisselende rijen in bestandslijsten. Stel in op 0% om arcering uit te schakelen. De rasterweergave blijft ongewijzigd.</target>
+        </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
           <target state="translated">Voorbeeld</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
+          <source>Folder database exclusions</source>
+          <target state="new">Uitsluitingen van mapdatabases</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
+          <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
+          <target state="new">Trefwoorden of padfragmenten. Hoofdletterongevoelige subtekenreeksovereenkomst met volledig pad (voorbeelden: \AppData\, thumbcache, $RECYCLE.BIN)</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
+          <source>Thumbnail database exclusions</source>
+          <target state="new">Uitsluitingen van miniatuurdatabases</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -1200,6 +1321,10 @@ Slepen verplaatst als hetzelfde station, anders kopieën. Ctrl+Slepen om te kopi
           <source>File Item Selected Mouse Over</source>
           <target state="translated" state-qualifier="mt-suggestion">Bestandsitem met de muis over geselecteerd</target>
         </trans-unit>
+        <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
+          <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
+          <target state="new">Windows weigerde OneCommander deze sneltoets ({0}) toe te wijzen omdat deze al door een andere toepassing is gereserveerd.</target>
+        </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
           <target state="translated" state-qualifier="mt-suggestion">Pakket met bestandspictogrammen</target>
@@ -1209,10 +1334,22 @@ Slepen verplaatst als hetzelfde station, anders kopieën. Ctrl+Slepen om te kopi
           <target state="translated" state-qualifier="mt-suggestion">Handler voor bestandsbewerkingen</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Keuze tussen standaard of TeraCopy (moet al geïnstalleerd zijn)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
+        </trans-unit>
+        <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
+          <source>Size units</source>
+          <target state="new">Grootte-eenheden</target>
+          <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
+        <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
+          <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
+          <target state="new">Decimaal (megabyte) — MB, GB (1MB = 1000 KB = 1000000 bytes)</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
+          <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
+          <target state="new">Binair (Mebibyte) — MiB, GiB (1MiB = 1024KiB = 1048576bytes)</target>
         </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
@@ -1221,6 +1358,14 @@ Slepen verplaatst als hetzelfde station, anders kopieën. Ctrl+Slepen om te kopi
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
           <target state="translated" state-qualifier="mt-suggestion">Miniatuur bestandsweergave</target>
+        </trans-unit>
+        <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
+          <source>Preparing settings and resources…</source>
+          <target state="new">Omgeving en middelen voorbereiden…</target>
+        </trans-unit>
+        <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
+          <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
+          <target state="new">De benodigde resources konden niet worden voorbereid. Controleer of de programmamap beschrijfbaar is en of alle programmabestanden aanwezig zijn, en probeer het vervolgens opnieuw.</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
@@ -1245,6 +1390,10 @@ Slepen verplaatst als hetzelfde station, anders kopieën. Ctrl+Slepen om te kopi
         <trans-unit id="Font" translate="yes" xml:space="preserve">
           <source>Font</source>
           <target state="translated" state-qualifier="tm-suggestion">Lettertype</target>
+        </trans-unit>
+        <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="new">Lettertype gewicht</target>
         </trans-unit>
         <trans-unit id="GetProLicense" translate="yes" xml:space="preserve">
           <source>Get PRO license</source>
@@ -1341,6 +1490,14 @@ Programma opnieuw opstarten vereist</target>
           <source>Icon packs contribute to program's overall memory use</source>
           <target state="translated" state-qualifier="mt-suggestion">Pictogrampakketten dragen bij aan het algehele geheugengebruik van het programma</target>
         </trans-unit>
+        <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+          <note from="MultilingualBuild">Background as image</note></trans-unit>
+        <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
+          <source>Stretch mode</source>
+          <target state="new">Stretch-modus</target>
+          <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
           <target state="translated" state-qualifier="mt-suggestion">Favorieten importeren uit V2</target>
@@ -1360,12 +1517,21 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="tm-suggestion">Taal</target>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
-          <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
-          <target state="translated">Opnieuw opstarten vereist! Sommige talen worden automatisch vertaald met Microsoft Translator. Als u wilt bijdragen aan het vertalen naar uw taal, mail dan naar support@onecommander.com</target>
+          <source>Restart required to apply the selected language.
+Some translations may include machine-translated text. Community improvements are welcome.</source>
+          <target state="needs-review-translation">Opnieuw opstarten vereist! Sommige talen worden automatisch vertaald met Microsoft Translator. Als u wilt bijdragen aan het vertalen naar uw taal, mail dan naar support@onecommander.com</target>
+        </trans-unit>
+        <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
+          <source>This version was built {0} day(s) ago</source>
+          <target state="new">Deze versie is {0} dag(en) geleden gebouwd</target>
+        </trans-unit>
+        <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
+          <source>Media playback engine</source>
+          <target state="new">Media-afspeelmotor</target>
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
-          <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tekstfragmenten voor deze bestandstypen weergeven (bestandsweergave Thumbs+Details)</target>
+          <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tekstfragmenten voor deze bestandstypen weergeven (bestandsweergave Rich)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
@@ -1377,13 +1543,22 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>NEW</source>
           <target state="translated" state-qualifier="tm-suggestion">Nieuw</target>
         </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Naam geven</target>
+          <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
-          <source>Duplicate current</source>
-          <target state="translated">Dupliceer huidige</target>
+          <source>Duplicate current tab</source>
+          <target state="needs-review-translation">Dupliceer huidige</target>
+        </trans-unit>
+        <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
+          <source>Open default location</source>
+          <target state="new">Standaardlocatie openen</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
           <target state="translated" state-qualifier="mt-suggestion">Open pad:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
@@ -1399,31 +1574,48 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
-          <source>Creating a new tab should:</source>
-          <target state="translated" state-qualifier="mt-suggestion">Het maken van een nieuw tabblad moet:</target>
+          <source>New tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Het maken van een nieuw tabblad moet:</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
-          <source>Path to OneDrive folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">Pad naar OneDrive-map</target>
+        <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
+          <source>No updates found</source>
+          <target state="new">Geen updates gevonden</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
-          <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="translated" state-qualifier="mt-suggestion">Indien buiten C:\Users\UWNAAM\OneDrive; nodig voor extra synchronisatiestatuspictogrammen</target>
+        <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
+          <source>On startup</source>
+          <target state="new">Bij het opstarten</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open a new window</source>
+          <target state="new">Open een nieuw venster</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
+          <source>Restore previous windows</source>
+          <target state="new">Herstel eerdere vensters</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Open pad:</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
           <target state="translated" state-qualifier="mt-suggestion">Bij aanvang:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tabbladen van vorige sessie herstellen</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Opacity" translate="yes" xml:space="preserve">
+          <source>Opacity</source>
+          <target state="new">Dekking</target>
+          <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
           <target state="translated" state-qualifier="mt-suggestion">Dubbelklik op geopende items (één klik om te selecteren)</target>
@@ -1452,6 +1644,10 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Padding</source>
           <target state="translated" state-qualifier="tm-suggestion">Opvulling</target>
         </trans-unit>
+        <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
+          <source>Path separator symbol (address bar only)</source>
+          <target state="new">Padscheidingsteken (alleen adresbalk)</target>
+        </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
           <target state="translated" state-qualifier="tm-suggestion">Bing Kaarten</target>
@@ -1463,6 +1659,14 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
           <target state="translated" state-qualifier="mt-suggestion">De knop Fotolocatie opent de webbrowser met:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
+          <source>Opening internet-downloaded images in Microsoft Photos</source>
+          <target state="new">Internet-gedownloade afbeeldingen openen in Microsoft Foto's</target>
+        </trans-unit>
+        <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
+          <source>Preload thumbnails in background</source>
+          <target state="new">Miniaturen vooraf op de achtergrond laden</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1493,6 +1697,22 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Program restart required</source>
           <target state="translated" state-qualifier="mt-suggestion">Programma opnieuw opstarten vereist</target>
         </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
+          <source>Refresh folder sizes after the app was closed for over an hour</source>
+          <target state="new">Vernieuw de mapgroottes nadat de app langer dan een uur gesloten is geweest.</target>
+        </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
+          <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
+          <target state="new">Als de app langer dan een uur gesloten is, worden de groottes van de in de cache opgeslagen mappen opnieuw berekend wanneer hierom wordt gevraagd. Dit kan het CPU- en schijfgebruik verhogen.</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
+          <source>Reload pack</source>
+          <target state="new">Herlaadpakket</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
+          <source>Reload this icon pack after changing its files</source>
+          <target state="new">Herlaad dit iconenpakket nadat je de bestanden hebt gewijzigd.</target>
+        </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
           <target state="translated" state-qualifier="mt-suggestion">De naam van items wijzigen door opnieuw te klikken zonder de cursor te verplaatsen</target>
@@ -1517,6 +1737,34 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Restore to default</source>
           <target state="translated" state-qualifier="tm-suggestion">Herstellen naar standaardinstellingen</target>
         </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
+          <source>Create a blank window on the current desktop</source>
+          <target state="new">Maak een leeg venster aan op het huidige bureaublad</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
+          <source>Do nothing</source>
+          <target state="new">Doe niets</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
+          <source>Bring the restored windows to the current desktop</source>
+          <target state="new">Breng de herstelde vensters naar het huidige bureaublad</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
+          <source>When restored windows belong to another virtual desktop:</source>
+          <target state="new">Wanneer ze worden hersteld, behoren de vensters tot een ander virtueel bureaublad:</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
+          <source>Switch to the virtual desktop containing the restored windows</source>
+          <target state="new">Schakel over naar het virtuele bureaublad met de herstelde vensters</target>
+        </trans-unit>
+        <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
+          <source>These settings revert on next start in free version</source>
+          <target state="new">Deze instellingen worden bij de volgende opstart in de gratis versie teruggezet.</target>
+        </trans-unit>
+        <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
+          <source>Save untitled windows</source>
+          <target state="new">Bewaar naamloze vensters</target>
+        </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
           <target state="translated" state-qualifier="mt-suggestion">Schuifbalk, stijl</target>
@@ -1532,6 +1780,90 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
         <trans-unit id="ScrollingBehaviorPixel" translate="yes" xml:space="preserve">
           <source>Pixel (smooth)</source>
           <target state="translated" state-qualifier="mt-suggestion">Pixel (vloeiend)</target>
+        </trans-unit>
+        <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
+          <source>Selected Toolbar</source>
+          <target state="new">Geselecteerde werkbalk</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
+          <source>Cancelling backup…</source>
+          <target state="new">Back-up annuleren…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
+          <source>Your settings and user resources have been backed up.</source>
+          <target state="new">Je instellingen en gebruikersgegevens zijn geback-upt.</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Backup complete</source>
+          <target state="new">Back-up voltooid</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
+          <source>Back up OneCommander settings</source>
+          <target state="new">Maak een back-up van de OneCommander-instellingen</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
+          <source>Backup failed</source>
+          <target state="new">Back-up mislukt</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
+          <source>Backup settings…</source>
+          <target state="new">Back-upinstellingen…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
+          <source>Preparing backup…</source>
+          <target state="new">Back-up voorbereiden…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
+          <source>Backup / restore</source>
+          <target state="new">Back-up / herstel</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
+          <source>Saving open windows and tabs…</source>
+          <target state="new">Openstaande vensters en tabbladen opslaan…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
+          <source>Back up settings</source>
+          <target state="new">Back-upinstellingen</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
+          <source>Import failed</source>
+          <target state="new">Importeren mislukt</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
+          <source>Import from v3…</source>
+          <target state="new">Importeren vanuit v3…</target>
+        </trans-unit>
+        <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
+          <source>No settings matched your search</source>
+          <target state="new">Geen enkele instelling kwam overeen met je zoekopdracht</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
+          <source>Reset all settings to defaults…</source>
+          <target state="new">Alle instellingen terugzetten naar de standaardwaarden…</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
+          <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
+          <target state="new">Alle instellingen zijn teruggezet naar de standaardwaarden. Start OneCommander opnieuw op om de reset toe te passen.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
+          <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
+          <target state="new">Alle OneCommander-instellingen terugzetten naar de standaardwaarden? Uw licentie en activering blijven behouden.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
+          <source>Reset failed</source>
+          <target state="new">Reset mislukt</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
+          <source>Settings reset</source>
+          <target state="new">Instellingen resetten</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
+          <source>Restore backup…</source>
+          <target state="new">Back-up herstellen…</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
+          <source>Restore failed</source>
+          <target state="new">Herstel mislukt</target>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1576,18 +1908,14 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated">Bij crash wordt een venster weergegeven waar u stappen kunt beschrijven om de crash te reproduceren, zodat deze in de volgende update kan worden opgelost</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
-        <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
-          <source>Show file attributes and synchronization state icons</source>
-          <target state="translated" state-qualifier="mt-suggestion">Bestandskenmerken en synchronisatiestatuspictogrammen weergeven</target>
-        </trans-unit>
-        <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
-          <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="translated">Vereist om OneDrive-statuspictogrammen weer te geven wanneer Bestanden op aanvraag is ingeschakeld. Toont ook geencrypte en reparse pictogrammen. Betere prestaties wanneer uitgeschakeld.</target>
-        </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
           <source>Show file extensions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Toon bestandsextensie</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">Werkbalkknoppen voor bestandsweergave weergeven</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -1598,22 +1926,26 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="mt-suggestion">Als een map een bestand met de naam map bevat.jpg, omslag.jpg, achtergrond.jpg of front.jpg, wordt het geladen als achtergrondafbeelding. Handig voor muziekalbums en filmposters</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder sizes</source>
+          <source>Calculate folder sizes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapgrootte weergeven</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gebruikt Windows Shell om mapgrootte te krijgen en is niet altijd nauwkeurig, maar het is snel. Formaat kan niet worden gewijzigd; Het sorteren van mappen op grootte wordt niet ondersteund</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source></source>
+          <target state="new">Gebruikt Windows Shell om mapgrootte te krijgen en is niet altijd nauwkeurig, maar het is snel. Formaat kan niet worden gewijzigd; Het sorteren van mappen op grootte wordt niet ondersteund</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
-          <source>Show Folder size on network folders</source>
-          <target state="translated" state-qualifier="mt-suggestion">Mapgrootte weergeven in netwerkmappen</target>
+          <source>Calculate folder sizes on network folders</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mapgrootte weergeven in netwerkmappen</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated" state-qualifier="mt-suggestion">Standaard uitgeschakeld omdat het bladeren door netwerkmappen langzamer wordt</target>
+        </trans-unit>
+        <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
+          <source>Show folder name in background</source>
+          <target state="new">Toon mapnaam op de achtergrond</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -1624,6 +1956,10 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <target state="translated" state-qualifier="mt-suggestion">Globale sneltoets: Ctrl+H</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
+          <source>Show main toolbar</source>
+          <target state="new">Toon hoofdwerkbalk</target>
+          <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="translated" state-qualifier="mt-suggestion">Metagegevens weergeven in netwerkbestanden</target>
@@ -1632,10 +1968,18 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated" state-qualifier="mt-suggestion">Standaard uitgeschakeld omdat het bladeren door netwerkmappen langzamer wordt</target>
         </trans-unit>
+        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">Knop Scripts weergeven</target>
+        </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Systeembestanden en mappen weergeven</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
+          <source>Requires "Show hidden files" to be enabled</source>
+          <target state="new">Vereist dat 'Verborgen bestanden weergeven' is ingeschakeld</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -1658,6 +2002,10 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
           <target state="translated">Gebruik dit alleen als u weet dat u cyclische reparsepunten hebt die zouden resulteren in een nooit eindigende zoekopdracht. Als u dit afvinkt, wordt het zoeken naar cloudschijven onderbroken, omdat die afhankelijk zijn van reparsepunten</target>
         </trans-unit>
+        <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
+          <source>Solid color</source>
+          <target state="new">Effen kleur</target>
+          <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
           <target state="translated" state-qualifier="tm-suggestion">Oplopend</target>
@@ -1697,12 +2045,12 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
-          <source>Sort folders by name always</source>
-          <target state="translated" state-qualifier="mt-suggestion">Sorteer mappen altijd op naam</target>
+          <source>Always sort folders by name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sorteer mappen altijd op naam</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
-          <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
-          <target state="translated" state-qualifier="mt-suggestion">Indien ingeschakeld: zelfs als u bestanden op datum sorteert, blijven mappen gesorteerd op naam</target>
+          <source>Folders remain alphabetized, even when files are sorted by date or size</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indien ingeschakeld: zelfs als u bestanden op datum sorteert, blijven mappen gesorteerd op naam</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
@@ -1716,6 +2064,26 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Keep folders above files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Houd mappen bovenaan</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
+          <source>Stretch to fill</source>
+          <target state="new">Rek uit om te vullen</target>
+        </trans-unit>
+        <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="new">Oorspronkelijke grootte</target>
+        </trans-unit>
+        <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
+          <source>Tile</source>
+          <target state="new">Tegel</target>
+        </trans-unit>
+        <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
+          <source>Fit (no crop)</source>
+          <target state="new">Pasvorm (geen crop)</target>
+        </trans-unit>
+        <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (crop extra)</source>
+          <target state="new">Vullen (extra bijsnijden)</target>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -1762,10 +2130,40 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <source>Window</source>
           <target state="translated" state-qualifier="tm-suggestion">Venster</target>
         </trans-unit>
+        <trans-unit id="TeraCopyLimitations" translate="yes" xml:space="preserve">
+          <source>Limited OneCommander integration
+No Undo support
+No color tag preservation on move
+No folder/thumbnail database updates</source>
+          <target state="new">Beperkte OneCommander-integratie
+Geen ongedaan maken ondersteuning
+Geen kleurplaatje behouden tijdens het verplaatsen
+Geen updates van de map/thumbnail database</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
+          <source>The quick brown fox jumps over lazy dog 1234567890</source>
+          <target state="new">De snelle bruine vos springt over de luie hond 1234567890</target>
+        </trans-unit>
+        <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
+          <source>Theme author</source>
+          <target state="new">Thema auteur</target>
+        </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Een aangepast thema maken: maak een kopie van een thema vanuit de map \Themes en bewerk waarden in het .xaml-bestand</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
+          <source>Theme defined</source>
+          <target state="new">Thema gedefinieerd</target>
+          <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
+        <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
+          <source>ThemeDescription</source>
+          <target state="new">Themabeschrijving</target>
+        </trans-unit>
+        <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
+          <source>Suggested accent color</source>
+          <target state="new">Voorgestelde accentkleur</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -1782,6 +2180,58 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
         <trans-unit id="TimeFormat12h" translate="yes" xml:space="preserve">
           <source>12h with AM/PM</source>
           <target state="translated" state-qualifier="mt-suggestion">12u met AM/PM</target>
+        </trans-unit>
+        <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
+          <source>Toolbar editor</source>
+          <target state="new">Werkbalk-editor</target>
+        </trans-unit>
+        <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
+          <source>Toolbars</source>
+          <target state="new">Werkbalken</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
+          <source>Translation authors:</source>
+          <target state="new">Vertaling auteur</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
+          <source>Machine translated using Microsoft Translator</source>
+          <target state="new">Frits Hogewoning</target>
+          <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
+        <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
+          <source>Help improve translations</source>
+          <target state="new">Leer om geen bijdrage te leveren aan de vertaling</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="new">Dagelijks</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
+          <source>Every 6 hours</source>
+          <target state="new">Elke 6 uur</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
+          <source>Update check frequency</source>
+          <target state="new">Controlefrequentie bijwerken</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <target state="new">Nooit</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
+          <source>On start</source>
+          <target state="new">Aan het begin</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="new">Wekelijks</target>
+        </trans-unit>
+        <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
+          <source>Update found. Do you want to update to version {0} now?</source>
+          <target state="new">Update gevonden. Wilt u nu updaten naar versie {0}?</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in dialogs</source>
+          <target state="new">Gebruik acryleffect in dialogen</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -1817,18 +2267,16 @@ Dit moet worden ingeschakeld als het programma is ingesteld als de standaard Ver
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oude definitie van Megabyte gebruiken</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
-        </trans-unit>
+          <source></source>
+          <target state="new">Oude definitie van Megabyte gebruiken</target>
+          <note from="MultilingualBuild">NOT USED</note>
+          <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source>Turn ON if you prefer using Mebibytes instead of Megabytes
-1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
-1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI standard)</source>
-          <target state="translated" state-qualifier="mt-suggestion">Schakel IN als u liever Mebibytes gebruikt in plaats van Megabytes
+          <source></source>
+          <target state="new">Schakel IN als u liever Mebibytes gebruikt in plaats van Megabytes
 1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
 1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI-standaard)</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -1842,10 +2290,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
+          <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
+          <target state="new">Gebruik verouderde labels in Windows-stijl (mebibytes weergeven als MB)</target>
+          <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
         <trans-unit id="UsePDFThumbs" translate="yes" xml:space="preserve">
           <source>Custom .pdf and .ai thumbnail extraction</source>
           <target state="translated" state-qualifier="mt-suggestion">Aangepaste .pdf en .ai miniatuurextractie</target>
         </trans-unit>
+        <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
+          <source>Background type</source>
+          <target state="new">Achtergrondtype</target>
+          <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
           <target state="translated" state-qualifier="tm-suggestion">Windows-standaard</target>
@@ -1925,10 +2381,6 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Register 3ds Max thumbnail handler</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Registreer 3ds Max thumbnail handler</target>
         </trans-unit>
-        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Werkbalkknoppen voor bestandsweergave weergeven</target>
-        </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mica-venstereffect gebruiken</target>
@@ -1986,8 +2438,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Open paden van externe bron in:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab with the same path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestaand tabblad</target>
+          <source>Existing tab with the same path, otherwise new tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestaand tabblad met hetzelfde pad, anders nieuw tabblad</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
@@ -2232,18 +2684,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open Office files through Explorer</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Office-bestanden openen via Verkenner</target>
         </trans-unit>
-        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source>Show Scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Knop Scripts weergeven</target>
-        </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Zie de map \Resources\Scripts\ voor voorbeelden. PRO-gebruikers kunnen meer dan 8 scripts hebben.</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED; Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ken de scripts die u uitvoert! Veiligheidsrisico!</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -2315,7 +2764,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Conflict met</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict</note>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -2390,7 +2839,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
-          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lettergrootte groter dan 18pt wordt niet officieel ondersteund en sommige tekst kan geknipt of verkeerd uitgelijnd lijken. Schaal wijzigen in Windows-weergave-instellingen is de voorkeursmanier om de gebruikersinterface te vergroten</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
@@ -2555,7 +3004,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Wereldwijde sneltoets om programma te openen</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
-          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u het programma wilt openen, zelfs als het niet actief is, maakt u het vast als het eerste item op de taakbalk en gebruikt u Win + 1 om te openen</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
@@ -2654,7 +3103,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
-          <source>Run on Windows startup without a creating a window</source>
+          <source>Run on Windows startup</source>
           <target state="new">Run on Windows startup without a creating a window</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
@@ -2669,7 +3118,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
           <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name</note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
@@ -2719,8 +3168,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
-          <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <source>Choose the clearest text rendering for your screen</source>
+          <target state="new">Kies de meest heldere tekstweergave voor uw scherm.</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -2797,6 +3246,28 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="tm-suggestion">Deze pc</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Alias in Favorites</note>
         </trans-unit>
+        <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
+          <source>This archive was downloaded from the internet. Windows marks these files for security. 
+Choose how to extract them:</source>
+          <target state="new">Dit archief is van het internet gedownload. Windows markeert deze bestanden voor beveiliging. 
+Kies hoe je ze extraheert:</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
+          <source>Keep internet security marks</source>
+          <target state="new">Houd internetbeveiligingsmarkeringen</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
+          <source>Windows and other programs may show safety warnings when you open these files</source>
+          <target state="new">Windows en andere programma's kunnen veiligheidswaarschuwingen tonen wanneer je deze bestanden opent</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
+          <source>Remove internet security marks</source>
+          <target state="new">Verwijder internetbeveiligingsmarkeringen</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
+          <source>Choose this only if you completely trust this archive and its contents</source>
+          <target state="new">Kies dit alleen als je dit archief en de inhoud volledig vertrouwt</target>
+        </trans-unit>
         <trans-unit id="Archive_CancellingExtraction" translate="yes" xml:space="preserve">
           <source>Cancelling task...</source>
           <target state="translated" state-qualifier="mt-suggestion">Taak annuleren...</target>
@@ -2834,6 +3305,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Yes</source>
           <target state="translated">Ja</target>
         </trans-unit>
+        <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled in settings</source>
+          <target state="new">Uitgeschakeld in instellingen</target>
+          <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
           <target state="translated" state-qualifier="mt-suggestion">Bestandsweergave wijzigen</target>
@@ -2890,6 +3365,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">houd CTRL ingedrukt om te kopiëren</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor drag text showing as part afer Move: Move | hold CTRL to Copy</note>
         </trans-unit>
+        <trans-unit id="Customize" translate="yes" xml:space="preserve">
+          <source>Customize</source>
+          <target state="new">Pas aan</target>
+          <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
+        <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
+          <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
+          <target state="new">Sommige operaties zijn nog in uitvoering. Wacht tot de bewerkingen zijn voltooid of annuleer ze voordat u sluit om gegevensverlies te voorkomen.</target>
+        </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
           <target state="translated" state-qualifier="tm-suggestion">Del</target>
@@ -2913,6 +3396,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DetailsFileSystem" translate="yes" xml:space="preserve">
           <source>File system</source>
           <target state="translated" state-qualifier="tm-suggestion">Bestandssysteem</target>
+        </trans-unit>
+        <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
+          <source>Total files</source>
+          <target state="new">Totaal bestanden</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -2990,7 +3477,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="DLG_HowToCloseProgram" translate="yes" xml:space="preserve">
           <source>To close OneCommander completely, [BOLDSTART]hold CTRL while clicking the close button[BOLDEND], or right-click the OneCommander icon in System Tray (next to clock), and select [BOLDSTART]Exit[BOLDEND]</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u OneCommander volledig wilt sluiten, &lt;bpt id="1"&gt;&lt;B&gt;&lt;/bpt&gt; CTRL ingedrukt terwijl u op de knop sluiten klikt&lt;ept id="1"&gt;&lt;/B&gt;&lt;/ept&gt;, of klik met de rechtermuisknop op het pictogram OneCommander in het systeemvak (naast de klok) en selecteer &lt;bpt id="2"&gt;&lt;i&gt;&lt;/bpt&gt;Exit&lt;ept id="2"&gt;&lt;/i&gt;&lt;/ept&gt;</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u OneCommander volledig wilt sluiten, [BOLDSTART] CTRL ingedrukt terwijl u op de knop sluiten klikt[BOLDEND], of klik met de rechtermuisknop op het pictogram OneCommander in het systeemvak (naast de klok) en selecteer [BOLDSTART]Exit[BOLDEND]</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="DLG_PreviewDisabledWhenFiltering" translate="yes" xml:space="preserve">
@@ -3103,6 +3590,51 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Starts with:</source>
           <target state="translated" state-qualifier="mt-suggestion">Begint met:</target>
         </trans-unit>
+        <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
+          <source>Choose a default layout</source>
+          <target state="new">Kies een standaard lay-out</target>
+        </trans-unit>
+        <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
+          <source>Choose a theme</source>
+          <target state="new">Kies een thema</target>
+        </trans-unit>
+        <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
+          <source>Read the terms until the end before continuing.</source>
+          <target state="new">Lees de voorwaarden volledig door voordat u verdergaat.</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
+          <source>Size format</source>
+          <target state="new">Formaatformaat</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
+          <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
+          <target state="new">Voor eventuele problemen kunt u contact opnemen met de programmaontwikkelaar via het dialoogvenster ⓘ Over.</target>
+        </trans-unit>
+        <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
+          <source>Higher CPU use until all folder sizes are calculated in the current view</source>
+          <target state="new">Hoger CPU-gebruik totdat alle mapgroottes in de huidige weergave zijn berekend.</target>
+        </trans-unit>
+        <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
+          <source>Folders are sorted only if total size has been calculated</source>
+          <target state="new">Mappen worden alleen gesorteerd als de totale grootte is berekend</target>
+        </trans-unit>
+        <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
+          <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
+          <target state="new">Volledige vernieuwing. Forceert controles op nieuwe items en herberekent alle mapgroottes</target>
+          <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
+        <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
+          <source>Global settings</source>
+          <target state="new">Globale instellingen</target>
+          <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
+        <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
+          <source>Initializing video engine (FFmpeg)...</source>
+          <target state="new">De video-engine (FFmpeg) wordt geïnitialiseerd...</target>
+          <note from="MultilingualBuild">First time preview loads a video</note>
+        </trans-unit>
+        <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
+          <source>Instant Search</source>
+          <target state="new">Direct zoeken</target>
+        </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
           <target state="translated" state-qualifier="tm-suggestion">geselecteerd</target>
@@ -3134,8 +3666,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">In jumplist (right click on OC in taskbar</note>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
-          <source>Switch between Standard and Columns layouts</source>
-          <target state="translated">Schakelen tussen de Standaard en de Kolommen indeling</target>
+          <source>Switch between window layouts</source>
+          <target state="needs-review-translation">Schakelen tussen de Standaard en de Kolommen indeling</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
           <source>Locate item</source>
@@ -3149,6 +3681,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Login as...</source>
           <target state="translated" state-qualifier="mt-suggestion">Inloggen als...</target>
         </trans-unit>
+        <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
+          <source>Disk not responding</source>
+          <target state="new">Schijf reageert niet</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
+        <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
+          <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
+          <target state="new">Taskmaster wordt gepauzeerd. Deze bewerking wordt verwerkt wanneer je hem openzet</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
+          <source>Waking disk (attempt {0}/{1})</source>
+          <target state="new">Activeringsschijf (poging {0}/{1})</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
           <target state="translated">Te koppelen stationsletter (bijv. 'K')</target>
@@ -3156,6 +3700,16 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
           <target state="translated" state-qualifier="mt-suggestion">Netwerkpad (bijv. \\computernaam\share)</target>
+        </trans-unit>
+        <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
+          <source>Mebibyte</source>
+          <target state="new">Mebibyte</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
+        </trans-unit>
+        <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
+          <source>Megabyte</source>
+          <target state="new">Megabyte</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
@@ -3180,7 +3734,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="translated" state-qualifier="tm-suggestion">Kopiëren</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
@@ -3266,6 +3820,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nieuw venster (binnenkort)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
+          <source>Open Location</source>
+          <target state="new">Open locatie</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
+          <source>Open Location in new tab</source>
+          <target state="new">Locatie openen in een nieuw tabblad</target>
+        </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
           <target state="translated" state-qualifier="mt-suggestion">Alles vernieuwen</target>
@@ -3305,6 +3867,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_SortByDate_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Oldest first)</source>
           <target state="translated" state-qualifier="mt-suggestion">Datum gewijzigd (Oudste eerst)</target>
+        </trans-unit>
+        <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
+          <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
+          <target state="new">Kan tijdelijk vastlopen op grote mappen; vereist om metadata van alle bestanden te extraheren</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -3725,6 +4291,22 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>File with this name already exists. Do you want to replace it?</source>
           <target state="translated">Een bestand met deze naam bestaat al. Wil je het vervangen?</target>
         </trans-unit>
+        <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
+          <source>Authors</source>
+          <target state="new">Auteurs</target>
+        </trans-unit>
+        <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
+          <source>Signature check</source>
+          <target state="new">Handtekeningcontrole</target>
+        </trans-unit>
+        <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Handtekening</target>
+        </trans-unit>
+        <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
+          <source>This file was downloaded from the internet</source>
+          <target state="new">Dit bestand is gedownload van internet</target>
+          <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
           <target state="translated" state-qualifier="mt-suggestion">Alt + pijl-links</target>
@@ -3815,6 +4397,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open new or saved window</source>
           <target state="translated" state-qualifier="mt-suggestion">Nieuw of opgeslagen venster openen</target>
         </trans-unit>
+        <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
+          <source>No recent operations</source>
+          <target state="new">Geen recente operaties</target>
+        </trans-unit>
+        <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
+          <source>No digital signature</source>
+          <target state="new">Geen digitale handtekening</target>
+          <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
           <target state="translated" state-qualifier="mt-suggestion">ESC sluit | ~ te openen</target>
@@ -3823,6 +4413,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Minimizes Notification Pane</source>
           <target state="translated" state-qualifier="mt-suggestion">Minimaliseert het meldingsvenster</target>
         </trans-unit>
+        <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
+          <source>Operation history</source>
+          <target state="new">Operatie geschiedenis</target>
+          <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
           <target state="translated" state-qualifier="tm-suggestion">Samenvouwen</target>
@@ -3844,6 +4438,32 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
 Some programs won't be able to open/save files from this folder</source>
           <target state="translated" state-qualifier="mt-suggestion">Pad langer dan Windows ondersteund (260 tekens)
 Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWarningMessage" translate="yes" xml:space="preserve">
+          <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
+OneCommander cannot bypass this behavior. 
+Choose how to proceed:</source>
+          <target state="new">Windows heeft dit bestand gemarkeerd als gedownload van internet. Vanwege deze tag geeft Microsoft Photos bij elke opening een beveiligingsprompt weer. OneCommander heeft geen controle over dit gedrag. Kies hoe u dit wilt aanpakken:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
+          <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
+          <target state="new">Tip: Gebruik het ingebouwde voorbeeld van OneCommander (spatiebalk) of stel een andere standaard afbeeldingsviewer in om deze prompt volledig te vermijden.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
+          <source>Open this file only</source>
+          <target state="new">Open de afbeelding alleen</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation in Photos will not work</source>
+          <target state="new">← → navigatiepijlen in Foto's werken niet</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
+          <source>Remove the security mark and open</source>
+          <target state="new">Verwijder de webvlag en open</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation will work normally</source>
+          <target state="new">← → navigatiepijlen werken normaal</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
@@ -3924,13 +4544,17 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <target state="translated" state-qualifier="mt-suggestion">Geef deze sjabloon een naam</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
-          <source>To add new line press Ctrl + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Als u een nieuwe regel wilt toevoegen, drukt u op Ctrl + Enter</target>
+          <source>To add new line press Shift + Enter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Als u een nieuwe regel wilt toevoegen, drukt u op Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
           <target state="translated" state-qualifier="mt-suggestion">Opmerking / ToDo-taak</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
+        </trans-unit>
+        <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
+          <source>Download and preview</source>
+          <target state="new">Downloaden en bekijken</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -3989,6 +4613,10 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <source>Recycle Bin</source>
           <target state="translated" state-qualifier="tm-suggestion">prullenbak</target>
         </trans-unit>
+        <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
+          <source>Remember my choice and don't ask again</source>
+          <target state="new">Onthoud mijn keuze en vraag het niet nog een keer</target>
+        </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
           <target state="translated" state-qualifier="tm-suggestion">F2</target>
@@ -3997,6 +4625,14 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <source>Rename</source>
           <target state="translated" state-qualifier="tm-suggestion">Naam wijzigen</target>
         </trans-unit>
+        <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
+          <source>Report a problem to the developer</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
+          <source>Saved windows</source>
+          <target state="new">Opgeslagen vensters</target>
+          <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Search</source>
           <target state="translated" state-qualifier="tm-suggestion">Zoeken</target>
@@ -4018,18 +4654,34 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <source>Search files starting from currently opened folder</source>
           <target state="translated">Bestanden zoeken vanuit de huidige geopende map</target>
         </trans-unit>
+        <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
+          <source>Some session windows were restored to other virtual desktops</source>
+          <target state="new">Sommige sessievensters zijn hersteld naar andere virtuele desktops</target>
+        </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
           <target state="translated" state-qualifier="mt-suggestion">Programma-instellingen</target>
         </trans-unit>
+        <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
+          <source>Show only undoable operations</source>
+          <target state="new">Toon alleen ongedaan te maken bewerkingen</target>
+          <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
           <target state="translated">Instellingen opslaan voor het sluiten...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
+        <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
+          <source>File operations running. Closing risks data loss.</source>
+          <target state="new">Bestandsbewerkingen bezig. Sluiten kan gegevensverlies veroorzaken.</target>
+          <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
+        <trans-unit id="Signature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Handtekening</target>
+          <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
-          <source>DATE</source>
-          <target state="translated" state-qualifier="tm-suggestion">DATUM</target>
+          <source>Date</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">DATUM</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
@@ -4040,8 +4692,8 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <target state="translated" state-qualifier="mt-suggestion">Sorteert items op wijzigingsdatum (oudste eerst)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
-          <source>NAME</source>
-          <target state="translated" state-qualifier="tm-suggestion">naam</target>
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">naam</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
@@ -4052,26 +4704,26 @@ Sommige programma's kunnen geen bestanden uit deze map openen / opslaan</target>
           <target state="translated" state-qualifier="mt-suggestion">Sorteert items op naam (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
-          <source>SIZE</source>
-          <target state="translated" state-qualifier="tm-suggestion">GROOTTE</target>
+          <source>Size</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">GROOTTE</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sorteert bestanden op grootte (grootste eerst); Mappen worden niet gesorteerd</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sorteert bestanden op grootte (kleinste eerst); Mappen worden niet gesorteerd</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
-          <source>TYPE</source>
-          <target state="translated" state-qualifier="tm-suggestion">TYPE</target>
+          <source>Type</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">TYPE</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
@@ -4082,9 +4734,17 @@ Folders can't be sorted</source>
           <target state="translated" state-qualifier="mt-suggestion">Sorteert items op type (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders above files (On/Off)</source>
+          <source>Keep folders above files</source>
           <target state="needs-review-translation">Houd mappen bovenaan schakelaar</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="SortLive" translate="yes" xml:space="preserve">
+          <source>Live sorting</source>
+          <target state="new">Live sorteren</target>
+          <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
+        <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
+          <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
+          <target state="new">Indien ingeschakeld, wordt het hernoemde bestand gesorteerd met andere bestanden en naar de nieuwe sorteerlocatie gesprongen. Standaard is uitgeschakeld</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -4119,9 +4779,26 @@ Folders can't be sorted</source>
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
           <target state="translated" state-qualifier="mt-suggestion">TIP: U kunt een selectievenster tekenen door de middelste muisknop ingedrukt te houden zonder lege ruimte te hoeven gebruiken</target>
         </trans-unit>
+        <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
+          <source>Open Taskmaster to view and manage file operation jobs</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark theme</source>
+          <target state="new">Donker thema</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light theme</source>
+          <target state="new">Licht thema</target>
+        </trans-unit>
+        <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
+          <source>Ctrl± ｜ Ctrl☸</source>
+          <target state="new">Ctrl±｜Ctrl☸</target>
+        </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
           <target state="translated" state-qualifier="tm-suggestion">Ontgrendelen</target>
+          <note from="MultilingualBuild">Button in bitlocker drives</note>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
@@ -4132,6 +4809,10 @@ Folders can't be sorted</source>
           <source>Updating...</source>
           <target state="translated" state-qualifier="tm-suggestion">Wordt bijgewerkt...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
+        </trans-unit>
+        <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
+          <source>Waiting for {0} to respond...</source>
+          <target state="new">Wachten tot {0} reageert...</target>
         </trans-unit>
         <trans-unit id="Warning" translate="yes" xml:space="preserve">
           <source>Warning!</source>
@@ -4306,7 +4987,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
-          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <source>Make Taskmaster default file operations manager to enable undo</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows biedt geen ondersteuning voor het ongedaan maken van bestandsbewerkingen buiten Verkenner</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
@@ -4316,7 +4997,7 @@ Folders can't be sorted</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
-          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <source>Give this window a name so it can persist layout and tabs across sessions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Geef nieuw venster een naam om de lay-out, positie en tabbladen op te slaan voor de volgende keer dat u het nodig hebt</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
@@ -4421,7 +5102,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestand is in gebruik door {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry operatie?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
@@ -4506,7 +5187,7 @@ Folders can't be sorted</source>
         </trans-unit>
         <trans-unit id="DLG_ProgramRunningInBackground" translate="yes" xml:space="preserve">
           <source>OneCommander will keep running in the background so it can open instantly the next time [NEWLINE](this can be changed in Settings 🡢 Window)</source>
-          <target state="needs-review-translation">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend &lt;br/&gt; (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
+          <target state="needs-review-translation">OneCommander blijft op de achtergrond draaien, zodat het de volgende keer direct kan worden geopend [NEWLINE] (dit kan worden gewijzigd in Instellingen ❯ venster)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Keep the arrow/angle bracket symbol and translate around it because it is unicode symbol. OneCommander can be written together here (left it for auto-translation purpose)</note>
         </trans-unit>
@@ -4572,7 +5253,7 @@ Sommige programma's kunnen dit bestand niet openen</target>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Op zoek naar Linux distro's...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL</note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
@@ -4961,7 +5642,7 @@ Sommige programma's kunnen dit bestand niet openen</target>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
           <target state="new">Undo</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Operation History and in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -4999,7 +5680,7 @@ Sommige programma's kunnen dit bestand niet openen</target>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
           <target state="new">Resolution</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo</note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
@@ -5150,6 +5831,16 @@ Sommige programma's kunnen dit bestand niet openen</target>
           <source>Attributes</source>
           <target state="new">Attributes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">Volgende</target>
+          <note from="MultilingualBuild">Wizard next step</note>
+        </trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">Begin</target>
+          <note from="MultilingualBuild">Wizard step start the program</note>
         </trans-unit>
       </group>
     </body>

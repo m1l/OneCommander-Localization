@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ko" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX">
+    <body>
+      <group id="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">정보</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollJobs" translate="yes" xml:space="preserve">
+          <source>Auto-scroll jobs</source>
+          <target state="new">자동 스크롤</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollPaused" translate="yes" xml:space="preserve">
+          <source>Cursor inside. Auto-scroll paused</source>
+          <target state="new">커서 안쪽. 자동 스크롤 일시 정지</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollTasks" translate="yes" xml:space="preserve">
+          <source>Auto-scroll job's tasks</source>
+          <target state="new">자동 스크롤 작업의 작업</target>
+        </trans-unit>
+        <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">취소</target>
+        </trans-unit>
+        <trans-unit id="BTN_CancelAll" translate="yes" xml:space="preserve">
+          <source>Cancel all</source>
+          <target state="new">모두 취소</target>
+        </trans-unit>
+        <trans-unit id="BTN_Overwrite" translate="yes" xml:space="preserve">
+          <source>Overwrite</source>
+          <target state="new">덮어쓰기</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAll" translate="yes" xml:space="preserve">
+          <source>Overwrite all</source>
+          <target state="new">모두 덮어쓰기</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
+          <source>Overwrite all older</source>
+          <target state="new">이전 항목 모두 덮어쓰기</target>
+        </trans-unit>
+        <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">이름 바꾸기</target>
+        </trans-unit>
+        <trans-unit id="BTN_RenameAll" translate="yes" xml:space="preserve">
+          <source>Rename all</source>
+          <target state="new">모두 이름 바꾸기</target>
+        </trans-unit>
+        <trans-unit id="BTN_Skip" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target state="new">건너뛰다</target>
+        </trans-unit>
+        <trans-unit id="BTN_SkipAll" translate="yes" xml:space="preserve">
+          <source>Skip all</source>
+          <target state="new">모두 건너뛰기</target>
+        </trans-unit>
+        <trans-unit id="ClearCompleted" translate="yes" xml:space="preserve">
+          <source>Clear completed</source>
+          <target state="new">클리어 완료</target>
+        </trans-unit>
+        <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
+          <source>Clear completed jobs</source>
+          <target state="new">완료된 작업 지우기</target>
+        </trans-unit>
+        <trans-unit id="CloseOnComplete" translate="yes" xml:space="preserve">
+          <source>Close on complete</source>
+          <target state="new">완료되면 종료</target>
+        </trans-unit>
+        <trans-unit id="ConcurrentJobs" translate="yes" xml:space="preserve">
+          <source>Concurrent jobs</source>
+          <target state="new">동시 작업</target>
+        </trans-unit>
+        <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+          <target state="new">갈등 해결</target>
+        </trans-unit>
+        <trans-unit id="DataProgress" translate="yes" xml:space="preserve">
+          <source>Data progress</source>
+          <target state="new">데이터 진행 상황</target>
+        </trans-unit>
+        <trans-unit id="Destination" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target state="new">에게</target>
+        </trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHours" translate="yes" xml:space="preserve">
+          <source>~{0} hours</source>
+          <target state="new">~{0}시간</target>
+          <note from="MultilingualBuild">Estimated time remaining when six or more hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHoursMinutes" translate="yes" xml:space="preserve">
+          <source>~{0} h {1} min</source>
+          <target state="new">~{0} {1}분</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one hour but less than six hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingMinutesSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} min {1} s</source>
+          <target state="new">~{0}분 {1} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one minute but less than one hour remains</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} s</source>
+          <target state="new">~{0}</target>
+          <note from="MultilingualBuild">Estimated time remaining when less than one minute remains</note></trans-unit>
+        <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target state="new">이름</target>
+        </trans-unit>
+        <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
+          <source>Full name final</source>
+          <target state="new">이름 최종</target>
+        </trans-unit>
+        <trans-unit id="FileName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">이름</target>
+        </trans-unit>
+        <trans-unit id="FileOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">작업</target>
+        </trans-unit>
+        <trans-unit id="FileSize" translate="yes" xml:space="preserve">
+          <source>Size</source>
+          <target state="new">크기</target>
+        </trans-unit>
+        <trans-unit id="FilesProgress" translate="yes" xml:space="preserve">
+          <source>Files progress</source>
+          <target state="new">파일 진행 상황</target>
+        </trans-unit>
+        <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
+          <source>Hide on close</source>
+          <target state="new">닫을 때 숨기기</target>
+        </trans-unit>
+        <trans-unit id="JobName" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="new">직업</target>
+        </trans-unit>
+        <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
+          <source>{0} items</source>
+          <target state="new">{0}개 ​​항목</target>
+        </trans-unit>
+        <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
+          <source>Jobs completed</source>
+          <target state="new">완료된 작업</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
+          <source>Jobs failed</source>
+          <target state="new">작업 실패</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
+          <source>Jobs pending</source>
+          <target state="new">대기 중인 채용 정보</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="KeepFileDates" translate="yes" xml:space="preserve">
+          <source>Keep file dates</source>
+          <target state="new">파일 날짜 유지</target>
+        </trans-unit>
+        <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
+          <source>Delegated to Explorer due to error:</source>
+          <target state="new">오류로 인해 Explorer에 위임됨:</target>
+          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+        <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
+          <source>Doesn't exist</source>
+          <target state="new">존재하지 않습니다</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorDirectoryExists" translate="yes" xml:space="preserve">
+          <source>Folder with this name already exists</source>
+          <target state="new">이 이름의 폴더는 이미 존재합니다.</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorFileExists" translate="yes" xml:space="preserve">
+          <source>File with this name already exists</source>
+          <target state="new">이 이름의 파일은 이미 존재합니다.</target>
+        </trans-unit>
+        <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
+          <source>Explorer reported error</source>
+          <target state="new">Explorer가 오류를 보고했습니다.</target>
+          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+        <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
+          <source>Handled by Explorer</source>
+          <target state="new">Explorer가 처리함</target>
+          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+        <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
+          <source>Item already exists</source>
+          <target state="new">항목이 이미 존재합니다.</target>
+        </trans-unit>
+        <trans-unit id="MSG_SkippedSame" translate="yes" xml:space="preserve">
+          <source>Item already exists - same date</source>
+          <target state="new">항목이 이미 존재합니다 - 동일한 날짜</target>
+        </trans-unit>
+        <trans-unit id="OperationCopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="new">복사</target>
+        </trans-unit>
+        <trans-unit id="OperationCreateDir" translate="yes" xml:space="preserve">
+          <source>Create folder</source>
+          <target state="new">폴더 생성</target>
+        </trans-unit>
+        <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">삭제</target>
+        </trans-unit>
+        <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">이동</target>
+        </trans-unit>
+        <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
+          <source>Recycle</source>
+          <target state="new">재활용</target>
+        </trans-unit>
+        <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">이름 바꾸기</target>
+        </trans-unit>
+        <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
+          <source>Reverse job</source>
+          <target state="new">역직</target>
+        </trans-unit>
+        <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
+          <source>Ask/Prompt</source>
+          <target state="new">질문/프롬프트</target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="new">정지시키다</target>
+        </trans-unit>
+        <trans-unit id="PercentDone" translate="yes" xml:space="preserve">
+          <source>Progress</source>
+          <target state="new">진행 상황</target>
+        </trans-unit>
+        <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="new">이름이 변경됨</target>
+        </trans-unit>
+        <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
+          <source>Replaced</source>
+          <target state="new">교체됨</target>
+        </trans-unit>
+        <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
+          <source>Skipped</source>
+          <target state="new">건너뛰었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">완전한</target>
+        </trans-unit>
+        <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
+          <source>Retrieving files</source>
+          <target state="new">파일 검색 중</target>
+        </trans-unit>
+        <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="new">실패한</target>
+        </trans-unit>
+        <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <target state="new">처리</target>
+        </trans-unit>
+        <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
+          <source>Queued</source>
+          <target state="new">대기 중</target>
+        </trans-unit>
+        <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
+          <source>Stopped/Cancelled</source>
+          <target state="new">중지/취소됨</target>
+        </trans-unit>
+        <trans-unit id="ResetToDefault" translate="yes" xml:space="preserve">
+          <source>Reset to default</source>
+          <target state="new">기본값으로 재설정</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="Source" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target state="new">에서</target>
+        </trans-unit>
+        <trans-unit id="Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">상태</target>
+        </trans-unit>
+        <trans-unit id="TXT_Conflict" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <target state="new">갈등</target>
+        </trans-unit>
+        <trans-unit id="TaskMessage" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">메시지</target>
+        </trans-unit>
+        <trans-unit id="TimeRemaining" translate="yes" xml:space="preserve">
+          <source>Time remaining</source>
+          <target state="new">남은 시간</target>
+        </trans-unit>
+        <trans-unit id="TotalTime" translate="yes" xml:space="preserve">
+          <source>Total time</source>
+          <target state="new">총 시간</target>
+        </trans-unit>
+        <trans-unit id="TransferRate" translate="yes" xml:space="preserve">
+          <source>Transfer rate</source>
+          <target state="new">전송률</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
