@@ -18,6 +18,10 @@
           <source>If you are using Thumbnail, make it the same height</source>
           <target state="translated">Ha miniatűrt használ, állítsa be azonos magasságúvá</target>
         </trans-unit>
+        <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Assigning custom views to folders requires a Pro license.</source>
+          <target state="new">Egyéni nézetek mappákhoz rendeléséhez Pro licenc szükséges.</target>
+          <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
           <target state="translated">Szerkesztett nézet:</target>
@@ -54,6 +58,10 @@
           <source>Load</source>
           <target state="translated">Betöltés</target>
         </trans-unit>
+        <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
+          <source>Metadata block</source>
+          <target state="new">Metaadat blokk</target>
+          <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Min.Szélesség</target>
@@ -391,7 +399,7 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow</note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
@@ -876,6 +884,31 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A kiemelő színe nem módosítható, mert ez a téma egy bizonyos kiemelőszínt kényszerít ki</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
+          <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
+          <target state="new">A hangsúlyos szöveg színét a WCAG AA kontrasztnak megfelelően módosították a téma hátterével. Más hangsúlyos szövegek megtartják az eredeti színt.</target>
+        </trans-unit>
+        <trans-unit id="AccentText" translate="yes" xml:space="preserve">
+          <source>Accent text (WCAG AA)</source>
+          <target state="new">Ékezetes szöveg (WCAG AA)</target>
+        </trans-unit>
+        <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
+          <source>Accessibility</source>
+          <target state="new">Megközelíthetőség</target>
+        </trans-unit>
+        <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
+          <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
+          <target state="new">Az akril hatás csökkentheti az olvashatóságot attól függően, hogy mi van az ablak mögött. Adjon hozzá egyszínű háttérszínt, és növelje az átlátszatlanságot a jobb kontraszt érdekében.</target>
+        </trans-unit>
+        <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
+          <source>Add to Toolbar</source>
+          <target state="new">Hozzáadás az Eszköztárhoz</target>
+        </trans-unit>
+        <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
+          <source>Add Toolbar</source>
+          <target state="new">Eszköztár hozzáadása</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -895,6 +928,10 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Jobbra</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
+        <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
+          <source>Always ask</source>
+          <target state="new">Mindig kérdezz</target>
+          <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Animáció időtartama (ms)</target>
@@ -902,6 +939,10 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kattintson az animáció időtartamának teszteléséhez</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
+          <source>Extracting archive files downloaded from the internet</source>
+          <target state="new">Az internetről letöltött archív fájlok kibontása</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -911,11 +952,51 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A program ellenőrzi a mappában lévő első néhány fájlt, és ha a legtöbb kép vagy videó, akkor betölti a miniatűr nézetet. A már mentett nézeteket ez nem érinti</target>
         </trans-unit>
+        <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
+          <source>Available Buttons</source>
+          <target state="new">Elérhető gombok</target>
+        </trans-unit>
+        <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
+          <source>Acrylic</source>
+          <target state="new">Akril</target>
+          <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
+        <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
+          <source>No effect</source>
+          <target state="new">Nincs hatás</target>
+          <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
+        <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
+          <source>Window background effect</source>
+          <target state="new">Ablak háttér hatása</target>
+        </trans-unit>
+        <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
+          <source>Active pane border thickness</source>
+          <target state="new">Aktív ablakszegély vastagsága</target>
+          <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
+        <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
+          <source>Controls how thick the highlight border is around the pane you are working in</source>
+          <target state="new">Azt szabályozza, hogy milyen vastag legyen a kiemelési szegély azon a panelen, amelyben dolgozik</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
+          <source>Inactive pane dimming</source>
+          <target state="new">Inaktív ablaktábla elsötétítése</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
+          <target state="new">Sötétíti vagy világosítja az inaktív ablaktáblát, így az aktív panel könnyebben azonosítható</target>
+        </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Változtatott</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
         </trans-unit>
+        <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="new">Ellenőrizze a frissítéseket</target>
+        </trans-unit>
+        <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
+          <source>Choose image</source>
+          <target state="new">Válasszon képet</target>
+          <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Előzmények törlése bezáráskor</target>
@@ -936,6 +1017,10 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megjeleníti azokat az értesítéseket, amelyek felajánlják, hogy a Ctrl+V billentyűkombináció lenyomásával hozzanak létre fájlt szövegből</target>
+        </trans-unit>
+        <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
+          <source>Close window when last tab is closed</source>
+          <target state="new">Az ablak bezárása az utolsó lap bezárásakor</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -1147,6 +1232,10 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <source>Date shown in list of files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A fájlok listájában feltüntetett dátum</target>
         </trans-unit>
+        <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
+          <source>Open folders in a new tab (otherwise use the current tab)</source>
+          <target state="new">Mappák megnyitása új lapon (egyébként az aktuális lap használata)</target>
+        </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Regisztráljon alapértelmezett fájlkezelőként</target>
@@ -1155,6 +1244,10 @@ A licenc legfeljebb 10 számítógépre érvényes, amelyeket ugyanazzal a Micro
           <source>Unregister</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Regisztráció törlése</target>
         </trans-unit>
+        <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
+          <source>Default location</source>
+          <target state="new">Alapértelmezett hely</target>
+          <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="translated">Leírás</target>
@@ -1244,6 +1337,10 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A Drive ablaktábla címének megjelenítése</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
+        <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
+          <source>Dual-pane focus indicators</source>
+          <target state="new">Kéttáblás fókuszjelzők</target>
+        </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">E-mail elnevezési formátum (húzás az Outlookból)</target>
@@ -1261,9 +1358,33 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ez lehetővé teszi a Microsoft Office és néhány további formátum előnézetét az előnézeti ablakban (szóközzel megnyitva), de az Office-fájlok Explorer előnézetének biztonsági rése miatt ez alapértelmezés szerint ki van kapcsolva. Engedélyezze saját felelősségére! Újraindítás szükséges.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
+          <source>Entered color</source>
+          <target state="new">Beírt szín</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
+          <source>Even row shading</source>
+          <target state="new">Páros sorárnyékolás</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
+          <target state="new">A fájllisták váltakozó sorainak átlátszósága. 0%-ra állítva kikapcsolhatja az árnyékolást. A rácsnézet nem változik.</target>
+        </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Példa</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
+          <source>Folder database exclusions</source>
+          <target state="new">Mappaadatbázis-kizárások</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
+          <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
+          <target state="new">Kulcsszavak vagy útvonaltöredékek. A kis- és nagybetűket nem érző részkarakterlánc egyezik a teljes elérési úttal (példák: \AppData\, thumbcache, $RECYCLE.BIN)</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
+          <source>Thumbnail database exclusions</source>
+          <target state="new">Miniatűr adatbázisok kizárása</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -1296,6 +1417,10 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
         <trans-unit id="ExFileItemMouseSelectedMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Selected Mouse Over</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlelem kijelölt egérmutatója</target>
+        </trans-unit>
+        <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
+          <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
+          <target state="new">A Windows nem volt hajlandó megadni a OneCommandernek ezt a gyorsbillentyűt ({0}), mert azt már lefoglalta egy másik alkalmazás.</target>
         </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
@@ -1334,7 +1459,7 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlműveletek kezelője</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Választás az alapértelmezett vagy a TeraCopy között (már telepítve kell lennie)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
@@ -1344,6 +1469,18 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A méret csak MB-ban jelenik meg, de az MB szöveg nem jelenik meg</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
+        <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
+          <source>Size units</source>
+          <target state="new">Méretegységek</target>
+          <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
+        <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
+          <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
+          <target state="new">Tizedes (megabájt) – MB, GB (1 MB = 1000 KB = 1 000 000 bájt)</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
+          <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
+          <target state="new">Bináris (Mebibyte) – MiB, GiB (1 MB = 1024 KiB = 1048576 bájt)</target>
+        </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Alapértelmezett fájlok nézet</target>
@@ -1351,6 +1488,14 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Miniatűrfájl-nézet</target>
+        </trans-unit>
+        <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
+          <source>Preparing settings and resources…</source>
+          <target state="new">Beállítások és erőforrások előkészítése…</target>
+        </trans-unit>
+        <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
+          <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
+          <target state="new">Az erőforrásokat nem sikerült előkészíteni. Ellenőrizze, hogy a programmappa írható-e, és hogy minden programfájl megtalálható-e, majd próbálja újra.</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
@@ -1404,6 +1549,10 @@ A húzza a mozgatáshoz, ha ugyanaz a meghajtó, különben másol. Ctrl+Húzás
           <source>Semi Expanded</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Félig kibontott</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="new">Betűsúly</target>
         </trans-unit>
         <trans-unit id="GetProLicense" translate="yes" xml:space="preserve">
           <source>Get PRO license</source>
@@ -1531,6 +1680,10 @@ A program újraindítása szükséges</target>
           <source>Icon packs contribute to program's overall memory use</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Az ikoncsomagok hozzájárulnak a program általános memóriahasználatához</target>
         </trans-unit>
+        <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+          <note from="MultilingualBuild">Background as image</note></trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Az előnézeti ablaktáblához igazítva</target>
@@ -1543,6 +1696,10 @@ A program újraindítása szükséges</target>
           <source>Display small images</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kis képek megjelenítése</target>
         </trans-unit>
+        <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
+          <source>Stretch mode</source>
+          <target state="new">Stretch mód</target>
+          <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kedvencek importálása a V2-ből</target>
@@ -1579,8 +1736,13 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyelv</target>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
-          <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
+          <source>Restart required to apply the selected language.
+Some translations may include machine-translated text. Community improvements are welcome.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Újraindítás szükséges! Egyes nyelveket a rendszer automatikusan lefordít a Microsoft Translator segítségével. Ha szeretne hozzájárulni a saját nyelvére történő fordításhoz, kérjük, írjon a support@onecommander.com</target>
+        </trans-unit>
+        <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
+          <source>This version was built {0} day(s) ago</source>
+          <target state="new">Ez a verzió {0} napja készült</target>
         </trans-unit>
         <trans-unit id="LogDetailedMessages" translate="yes" xml:space="preserve">
           <source>Log detailed messages</source>
@@ -1590,8 +1752,12 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>For debugging purposes only. Program runs slower if enabled</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Csak hibakeresési célokra. A program lassabban fut, ha engedélyezve van</target>
         </trans-unit>
+        <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
+          <source>Media playback engine</source>
+          <target state="new">Médialejátszó motor</target>
+        </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
-          <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
+          <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
           <target state="translated">Alkalmazás az aktuális mappaablakra és bezárás (mentés nélkül)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
@@ -1611,13 +1777,22 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>NEW</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Új</target>
         </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Név</target>
+          <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
-          <source>Duplicate current</source>
+          <source>Duplicate current tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ismétlődő áram</target>
+        </trans-unit>
+        <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
+          <source>Open default location</source>
+          <target state="new">Nyissa meg az alapértelmezett helyet</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
           <target state="translated">Útvonal megnyitása:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
@@ -1632,7 +1807,7 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ha egy mappára kattint középen, megnyílik egy új lap:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
-          <source>Creating a new tab should:</source>
+          <source>New tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Új lap létrehozása:</target>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
@@ -1640,34 +1815,51 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A fájl helyi menüjét legalább egyszer meg kell nyitni</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
-          <source>Path to OneDrive folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A OneDrive mappa elérési útja</target>
+        <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
+          <source>No updates found</source>
+          <target state="new">Nem találhatók frissítések</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
-          <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ha a C: \ Users \ YOURNAME \ OneDrive; További szinkronizálási állapotikonokhoz szükséges</target>
+        <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
+          <source>On startup</source>
+          <target state="new">Indításkor</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open a new window</source>
+          <target state="new">Nyisson meg egy új ablakot</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
+          <source>Restore previous windows</source>
+          <target state="new">Korábbi ablakok visszaállítása</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hozzon létre egyetlen lapot, és nyissa meg az elérési utat:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Indításkor:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lapok visszaállítása az előző munkamenetből</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Opacity" translate="yes" xml:space="preserve">
+          <source>Opacity</source>
+          <target state="new">Átlátszatlanság</target>
+          <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyissa meg a külső forrásból származó elérési utakat a következőben:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab with the same path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meglévő lap</target>
+          <source>Existing tab with the same path, otherwise new tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Azonos útvonalú meglévő lap, különben új lap</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
@@ -1733,6 +1925,10 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Név</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Name as disk-drive partition name</note>
         </trans-unit>
+        <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
+          <source>Path separator symbol (address bar only)</source>
+          <target state="new">Útvonal-elválasztó szimbólum (csak címsor)</target>
+        </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bing térképek</target>
@@ -1744,6 +1940,14 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A Fénykép helye gomb a következő böngészővel nyílik meg:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
+          <source>Opening internet-downloaded images in Microsoft Photos</source>
+          <target state="new">Az internetről letöltött képek megnyitása a Microsoft Photos-ban</target>
+        </trans-unit>
+        <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
+          <source>Preload thumbnails in background</source>
+          <target state="new">Bélyegképek előtöltése a háttérben</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1786,6 +1990,14 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Program restart required</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A program újraindítása szükséges</target>
         </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
+          <source>Refresh folder sizes after the app was closed for over an hour</source>
+          <target state="new">Mappaméretek frissítése az alkalmazás több mint egy órás bezárása után</target>
+        </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
+          <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
+          <target state="new">Ha az alkalmazás több mint egy órára bezárva volt, a rendszer a kérésnek megfelelően újraszámítja a gyorsítótárazott mappák méretét. Ez növelheti a CPU- és lemezhasználatot.</target>
+        </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A 3ds Max bélyegképkezelő regisztrálása</target>
@@ -1798,6 +2010,14 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Open in {0}</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megnyitás {0}</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Entry in Context Menu - Open in OneCommander or in File Explorer</note>
+        </trans-unit>
+        <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
+          <source>Reload pack</source>
+          <target state="new">Csomag újratöltése</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
+          <source>Reload this icon pack after changing its files</source>
+          <target state="new">Ikoncsomag újratöltése a fájlok módosítása után</target>
         </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
@@ -1835,10 +2055,38 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Restore to default</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Visszaállítás alapértelmezettre</target>
         </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
+          <source>Create a blank window on the current desktop</source>
+          <target state="new">Hozz létre egy üres ablakot a jelenlegi asztalon</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
+          <source>Do nothing</source>
+          <target state="new">Ne csinálj semmit</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
+          <source>Bring the restored windows to the current desktop</source>
+          <target state="new">Hozd a helyreállított ablakokat a jelenlegi asztalra</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
+          <source>When restored windows belong to another virtual desktop:</source>
+          <target state="new">Amikor a helyreállított ablakok egy másik virtuális asztalhoz tartoznak:</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
+          <source>Switch to the virtual desktop containing the restored windows</source>
+          <target state="new">Váltás a virtuális asztalra, amely a helyreállított ablakokat tartalmazza</target>
+        </trans-unit>
+        <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
+          <source>These settings revert on next start in free version</source>
+          <target state="new">Ezek a beállítások a következő indításkor visszaállnak az ingyenes verzióban</target>
+        </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
           <target state="translated">Futtatás most</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
+        </trans-unit>
+        <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
+          <source>Save untitled windows</source>
+          <target state="new">Mentse el a névtelen ablakokat</target>
         </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
@@ -1856,10 +2104,94 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Pixel (smooth)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Képpont (sima)</target>
         </trans-unit>
+        <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
+          <source>Selected Toolbar</source>
+          <target state="new">Kiválasztott eszköztár</target>
+        </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">$SentOn dátum helyébe a következő formátumban lép:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
+          <source>Cancelling backup…</source>
+          <target state="new">Biztonsági mentés megszakítása…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
+          <source>Your settings and user resources have been backed up.</source>
+          <target state="new">A beállításaidról és a felhasználói erőforrásokról biztonsági másolat készült.</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Backup complete</source>
+          <target state="new">A biztonsági mentés kész</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
+          <source>Back up OneCommander settings</source>
+          <target state="new">OneCommander beállítások biztonsági mentése</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
+          <source>Backup failed</source>
+          <target state="new">A biztonsági mentés sikertelen volt</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
+          <source>Backup settings…</source>
+          <target state="new">Biztonsági mentési beállítások…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
+          <source>Preparing backup…</source>
+          <target state="new">Biztonsági mentés előkészítése…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
+          <source>Backup / restore</source>
+          <target state="new">Biztonsági mentés / visszaállítás</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
+          <source>Saving open windows and tabs…</source>
+          <target state="new">Megnyitott ablakok és lapok mentése…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
+          <source>Back up settings</source>
+          <target state="new">Biztonsági mentési beállítások</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
+          <source>Import failed</source>
+          <target state="new">Importálás sikertelen</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
+          <source>Import from v3…</source>
+          <target state="new">Importálás a v3-ból…</target>
+        </trans-unit>
+        <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
+          <source>No settings matched your search</source>
+          <target state="new">Egyetlen beállítás sem egyezett a kereséseddel</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
+          <source>Reset all settings to defaults…</source>
+          <target state="new">Minden beállítás visszaállítása az alapértelmezett értékre…</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
+          <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
+          <target state="new">Minden beállítás visszaállt az alapértelmezett értékre. Indítsa újra a OneCommander alkalmazást a visszaállítás életbe léptetéséhez.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
+          <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
+          <target state="new">Visszaállítja az összes OneCommander beállítást az alapértelmezett értékre? A licence és az aktiválás megmarad.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
+          <source>Reset failed</source>
+          <target state="new">A visszaállítás sikertelen</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
+          <source>Settings reset</source>
+          <target state="new">Beállítások visszaállítása</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
+          <source>Restore backup…</source>
+          <target state="new">Biztonsági mentés visszaállítása…</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
+          <source>Restore failed</source>
+          <target state="new">A visszaállítás sikertelen</target>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1906,7 +2238,7 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Konfliktus a</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict</note>
         </trans-unit>
         <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
           <source>Original</source>
@@ -1945,21 +2277,13 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Shows color indicator on files from current and last week</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Színjelző az aktuális és az előző heti fájlokon</target>
         </trans-unit>
-        <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
-          <source>Show file attributes and synchronization state icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlattribútumok és szinkronizálási állapotikonok megjelenítése</target>
-        </trans-unit>
-        <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
-          <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A OneDrive állapotikonjainak megjelenítéséhez szükséges, ha az Igény szerinti fájlok engedélyezve van. A titkosított és újraelemzett ikonokat is megjeleníti. Jobb teljesítmény, ha ki van kapcsolva.</target>
-        </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
           <source>Show file extensions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlkiterjesztések megjelenítése</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">A Fájlok nézet eszköztárgombjainak megjelenítése</target>
+          <source></source>
+          <target state="new">A Fájlok nézet eszköztárgombjainak megjelenítése</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -1970,20 +2294,25 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ha egy mappa tartalmaz egy mappa.jpg, borító.jpg, háttér vagy előlap.jpg nevű fájlt.jpg, akkor háttérképként töltődik be. Hasznos zenei albumokhoz és filmplakátokhoz</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder sizes</source>
+          <source>Calculate folder sizes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mappa méretének megjelenítése</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows-rendszerhéjat használ a mappa méretének lekéréséhez. Nem 100% -ban pontos, de gyors. A méretformátum nem módosítható. A mappák méret szerinti rendezése nem lehetséges. Magasabb CPU-használat</target>
+          <source></source>
+          <target state="new">Windows-rendszerhéjat használ a mappa méretének lekéréséhez. Nem 100% -ban pontos, de gyors. A méretformátum nem módosítható. A mappák méret szerinti rendezése nem lehetséges. Magasabb CPU-használat</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
-          <source>Show Folder size on network folders</source>
+          <source>Calculate folder sizes on network folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mappa méretének megjelenítése hálózati mappákban</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Alapértelmezés szerint ki van kapcsolva, mivel lassabbá teszi a hálózati mappák böngészését</target>
+        </trans-unit>
+        <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
+          <source>Show folder name in background</source>
+          <target state="new">Mappanév megjelenítése a háttérben</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -1998,6 +2327,10 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Show History pane in sidebar</source>
           <target state="translated">Az Előzmények panel megjelenítése az oldalsávon</target>
         </trans-unit>
+        <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
+          <source>Show main toolbar</source>
+          <target state="new">Fő eszköztár megjelenítése</target>
+          <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Metaadatok megjelenítése hálózati fájlokon</target>
@@ -2025,22 +2358,27 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Párbeszédpanel megjelenítése a futó szkript megerősítéséhez</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source>Show Scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parancsfájlok gomb megjelenítése</target>
+          <source></source>
+          <target state="new">Parancsfájlok gomb megjelenítése</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Példákért lásd: \Resources\Scripts\ mappa. A PRO felhasználók több mint 8 szkripttel rendelkezhetnek.</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED; Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ismerje meg a futtatott szkripteket! Biztonsági kockázat!</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Rendszerfájlok és mappák megjelenítése</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
+          <source>Requires "Show hidden files" to be enabled</source>
+          <target state="new">A "Rejtett fájlok megjelenítése" engedélyezése szükséges</target>
         </trans-unit>
         <trans-unit id="ShowWarningOnExtensionChange" translate="yes" xml:space="preserve">
           <source>Show warning dialog when changing extension during rename</source>
@@ -2067,6 +2405,10 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
           <target state="translated">Ezt csak akkor használja, ha tudja, hogy ciklikus újraelemzési pontjai vannak, amelyek soha véget nem érő keresést eredményeznének. Ennek ellenőrzése megszakítja a keresési felhőmeghajtókat, mivel azok újraelemzési pontokra támaszkodnak</target>
         </trans-unit>
+        <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
+          <source>Solid color</source>
+          <target state="new">Egyszínű</target>
+          <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Növekvő</target>
@@ -2106,11 +2448,11 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
-          <source>Sort folders by name always</source>
-          <target state="translated">A mappák rendezése név szerint mindig</target>
+          <source>Always sort folders by name</source>
+          <target state="needs-review-translation">A mappák rendezése név szerint mindig</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
-          <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
+          <source>Folders remain alphabetized, even when files are sorted by date or size</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ha BE van kapcsolva: Még ha dátum szerint rendezi is a fájlokat, a mappák név szerint lesznek rendezve</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
@@ -2124,6 +2466,26 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mappák megtartása a fájlok felett</target>
+        </trans-unit>
+        <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
+          <source>Stretch to fill</source>
+          <target state="new">Nyújtsa ki a kitöltéshez</target>
+        </trans-unit>
+        <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="new">Eredeti méret</target>
+        </trans-unit>
+        <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
+          <source>Tile</source>
+          <target state="new">Csempe</target>
+        </trans-unit>
+        <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
+          <source>Fit (no crop)</source>
+          <target state="new">Fit (nincs vágás)</target>
+        </trans-unit>
+        <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (crop extra)</source>
+          <target state="new">Töltés (extra kivágás)</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
@@ -2174,6 +2536,24 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Window</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ablak</target>
         </trans-unit>
+        <trans-unit id="TeraCopyLimitations" translate="yes" xml:space="preserve">
+          <source>Limited OneCommander integration
+No Undo support
+No color tag preservation on move
+No folder/thumbnail database updates</source>
+          <target state="new">Korlátozott OneCommander integráció
+No Undo támogatás
+Mozgás közben nincs színcímke megőrzése
+Nincs mappa- vagy thumbnail adatbázis frissítés</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
+          <source>The quick brown fox jumps over lazy dog 1234567890</source>
+          <target state="new">A gyors barna róka átugrik egy lusta kutyán 1234567890</target>
+        </trans-unit>
+        <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
+          <source>Theme author</source>
+          <target state="new">A téma szerzője</target>
+        </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Egyéni téma létrehozása: készítsen másolatot egy témáról a \Témák mappából, és szerkessze az értékeket az .xaml fájlban</target>
@@ -2183,9 +2563,21 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <source>Dark</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sötét</target>
         </trans-unit>
+        <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
+          <source>Theme defined</source>
+          <target state="new">Téma meghatározott</target>
+          <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
+        <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
+          <source>ThemeDescription</source>
+          <target state="new">ThemeDescription</target>
+        </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
           <target state="translated">Fényes</target>
+        </trans-unit>
+        <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
+          <source>Suggested accent color</source>
+          <target state="new">Javasolt kiemelő szín</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2202,6 +2594,58 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
         <trans-unit id="TimeFormat12h" translate="yes" xml:space="preserve">
           <source>12h with AM/PM</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">12 óra AM/PM funkcióval</target>
+        </trans-unit>
+        <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
+          <source>Toolbar editor</source>
+          <target state="new">Eszköztár szerkesztő</target>
+        </trans-unit>
+        <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
+          <source>Toolbars</source>
+          <target state="new">Eszköztárak</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
+          <source>Translation authors:</source>
+          <target state="new">Fordítás szerzője</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
+          <source>Machine translated using Microsoft Translator</source>
+          <target state="new">Laszlo Ferdinand Kazsmer</target>
+          <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
+        <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
+          <source>Help improve translations</source>
+          <target state="new">Tanuld meg, hogy ne járulj hozzá a fordításhoz</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="new">Napi</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
+          <source>Every 6 hours</source>
+          <target state="new">6 óránként</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
+          <source>Update check frequency</source>
+          <target state="new">Frissítse az ellenőrzés gyakoriságát</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <target state="new">Soha</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
+          <source>On start</source>
+          <target state="new">Kezdéskor</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="new">Heti</target>
+        </trans-unit>
+        <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
+          <source>Update found. Do you want to update to version {0} now?</source>
+          <target state="new">Frissítés található. Szeretne most frissíteni a(z) {0} verzióra?</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in dialogs</source>
+          <target state="new">Használj akril effektet a párbeszédekben</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -2244,17 +2688,16 @@ Ezt engedélyezni kell, ha a program alapértelmezett fájlkezelőként van beá
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Használjon Csillám ablak effektust</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="translated">A megabájt régi definíciójának használata (mint a Windows Intézőben)</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
-        </trans-unit>
+          <source></source>
+          <target state="new">A megabájt régi definíciójának használata (mint a Windows Intézőben)</target>
+          <note from="MultilingualBuild">NOT USED</note>
+          <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source>Turn ON if you prefer using Mebibytes instead of Megabytes
-1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
-1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI standard)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kapcsolja BE, ha megabájt helyett inkább Mebibyte-okat szeretne használni
+          <source></source>
+          <target state="new">Kapcsolja BE, ha megabájt helyett inkább Mebibyte-okat szeretne használni
 1 Mebibyte = 2^20 bájt = 1048576 bájt (IEC)
 1 megabájt (MB) = 10^6 bájt = 1000000 bájt (SI szabvány)</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -2268,6 +2711,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
+          <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
+          <target state="new">Windows-stílusú örökölt címkék használata (a Mebibytes megjelenítése MB-ként)</target>
+          <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Külső OneCommander frissítőprogram használata PowerShell-szkript helyett</target>
@@ -2292,6 +2739,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Monitor for Windows theme changes to switch to a different theme</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A Windows-téma változásainak figyelése másik témára váltáshoz</target>
         </trans-unit>
+        <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
+          <source>Background type</source>
+          <target state="new">Háttér típusa</target>
+          <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows alapértelmezett</target>
@@ -2367,7 +2818,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
-          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
           <target state="new">Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
@@ -2530,7 +2981,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Global hotkey to open program</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
-          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
@@ -2629,7 +3080,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
-          <source>Run on Windows startup without a creating a window</source>
+          <source>Run on Windows startup</source>
           <target state="new">Run on Windows startup without a creating a window</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
@@ -2644,7 +3095,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
           <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name</note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
@@ -2694,8 +3145,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
-          <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <source>Choose the clearest text rendering for your screen</source>
+          <target state="new">Válassza ki a képernyőhöz legtisztább szövegmegjelenítést</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -2781,6 +3232,28 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Beállítások alkalmazása. Várj, kérlek...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
+        <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
+          <source>This archive was downloaded from the internet. Windows marks these files for security. 
+Choose how to extract them:</source>
+          <target state="new">Ez az archívum az internetről lett letöltve. A Windows biztonsági szempontból jelöli meg ezeket a fájlokat. 
+Válaszd ki, hogyan nyered ki őket:</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
+          <source>Keep internet security marks</source>
+          <target state="new">Tartsd meg az internetes biztonsági jelzéseket</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
+          <source>Windows and other programs may show safety warnings when you open these files</source>
+          <target state="new">A Windows és más programok biztonsági figyelmeztetéseket mutathatnak, amikor megnyitod ezeket a fájlokat</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
+          <source>Remove internet security marks</source>
+          <target state="new">Távolítsd el az internetes biztonsági jeleket</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
+          <source>Choose this only if you completely trust this archive and its contents</source>
+          <target state="new">Csak akkor válaszd ezt, ha teljesen megbízol ebben az archívumban és annak tartalmában</target>
+        </trans-unit>
         <trans-unit id="Archive_CancellingExtraction" translate="yes" xml:space="preserve">
           <source>Cancelling task...</source>
           <target state="translated">Feladat megszakítása...</target>
@@ -2823,6 +3296,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Számítás...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
+        <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled in settings</source>
+          <target state="new">Letiltva a beállításokban</target>
+          <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlok nézet módosítása</target>
@@ -2908,6 +3385,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megnyitás új ablakban</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
+        <trans-unit id="Customize" translate="yes" xml:space="preserve">
+          <source>Customize</source>
+          <target state="new">Testreszabás</target>
+          <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
+        <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
+          <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
+          <target state="new">Néhány művelet még folyamatban van. Kérjük, várja meg, amíg a műveletek befejeződnek, vagy törölje azokat a bezárás előtt, hogy elkerülje az adatvesztést.</target>
+        </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
           <target state="translated">Törlés</target>
@@ -2931,6 +3416,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DetailsFileSystem" translate="yes" xml:space="preserve">
           <source>File system</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Fájlrendszer</target>
+        </trans-unit>
+        <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
+          <source>Total files</source>
+          <target state="new">Összes fájl</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -3051,7 +3540,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Ez a funkció csak Pro verzióban érhető el. [NEWLINE]Szerezze be most a Pro verziót? </target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A fájlt a {0}.&lt;br/&gt;({1})&lt;br/&gt;Újrapróbálkozási művelet használja?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
@@ -3154,15 +3643,60 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Finishing setup...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A beállítás befejezése...</target>
         </trans-unit>
+        <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
+          <source>Choose a default layout</source>
+          <target state="new">Válasszon alapértelmezett elrendezést</target>
+        </trans-unit>
+        <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
+          <source>Choose a theme</source>
+          <target state="new">Válasszon egy témát</target>
+        </trans-unit>
+        <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
+          <source>Read the terms until the end before continuing.</source>
+          <target state="new">Olvasd el a feltételeket a végéig, mielőtt folytatod.</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
+          <source>Size format</source>
+          <target state="new">Méretformátum</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
+          <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
+          <target state="new">Bármilyen probléma esetén a program fejlesztője egy kattintásnyira van a ⓘ Névjegy párbeszédpanelen.</target>
+        </trans-unit>
+        <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
+          <source>Higher CPU use until all folder sizes are calculated in the current view</source>
+          <target state="new">Magasabb CPU-használat, amíg az összes mappaméret kiszámításra nem kerül az aktuális nézetben</target>
+        </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A mappaméret csak olyan mappákhoz számítható ki, amelyek a mappák és fájlok teljes fáját tartalmazzák, és a Windows indexelte őket</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
+          <source>Folders are sorted only if total size has been calculated</source>
+          <target state="new">A mappák csak akkor vannak rendezve, ha a teljes méret kiszámításra került</target>
+        </trans-unit>
+        <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
+          <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
+          <target state="new">Teljes frissítés. Kényszer ellenőrzi az új elemeket, és újraszámolja az összes mappaméretet</target>
+          <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
+        <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
+          <source>Global settings</source>
+          <target state="new">Globális beállítások</target>
+          <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
           <target state="translated">Előzmények</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
+        </trans-unit>
+        <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
+          <source>Initializing video engine (FFmpeg)...</source>
+          <target state="new">Videómotor inicializálása (FFmpeg)...</target>
+          <note from="MultilingualBuild">First time preview loads a video</note>
+        </trans-unit>
+        <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
+          <source>Instant Search</source>
+          <target state="new">Azonnali keresés</target>
         </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
@@ -3207,7 +3741,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Shift</target>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
-          <source>Switch between Standard and Columns layouts</source>
+          <source>Switch between window layouts</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Váltás a Normál és az Oszlopok elrendezés között</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
@@ -3234,6 +3768,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Login as...</source>
           <target state="translated">Bejelentkezés mint...</target>
         </trans-unit>
+        <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
+          <source>Disk not responding</source>
+          <target state="new">A lemez nem válaszol</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
+        <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
+          <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
+          <target state="new">Taskmaster megáll. Ezt a műveletet akkor dolgozzák fel, amikor kikapcsolod</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
+          <source>Waking disk (attempt {0}/{1})</source>
+          <target state="new">Ébresztőlemez (kísérlet: {0}/{1})</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Meghajtóbetűjel a rögzítéshez (pl. "K")</target>
@@ -3241,6 +3787,16 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hálózati elérési út (pl. \\számítógépnév\megosztás)</target>
+        </trans-unit>
+        <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
+          <source>Mebibyte</source>
+          <target state="new">Mebibájt</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
+        </trans-unit>
+        <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
+          <source>Megabyte</source>
+          <target state="new">Megabájt</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
@@ -3270,7 +3826,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Másolat</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
@@ -3370,6 +3926,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyissa meg a parancsikon célját</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
+        <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
+          <source>Open Location</source>
+          <target state="new">Helyszín megnyitása</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
+          <source>Open Location in new tab</source>
+          <target state="new">Helyszín megnyitása új lapon</target>
+        </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Frissítsen mindent</target>
@@ -3429,6 +3993,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Media duration</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Média időtartama</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
+        </trans-unit>
+        <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
+          <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
+          <target state="new">Nagy mappákon pillanatnyilag lefagyhat; szükséges az összes fájl metaadatainak kibontásához</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -3879,7 +4447,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Letöltött témaforrások</target>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
-          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <source>Make Taskmaster default file operations manager to enable undo</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A Windows nem támogatja a fájlműveletek visszavonását az Intézőn kívül</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
@@ -3905,6 +4473,22 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>File with this name already exists. Do you want to replace it?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Az ilyen nevű fájl már létezik. Szeretné kicserélni?</target>
         </trans-unit>
+        <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
+          <source>Authors</source>
+          <target state="new">Szerzői</target>
+        </trans-unit>
+        <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
+          <source>Signature check</source>
+          <target state="new">Aláírás ellenőrzése</target>
+        </trans-unit>
+        <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Aláírás</target>
+        </trans-unit>
+        <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
+          <source>This file was downloaded from the internet</source>
+          <target state="new">Ezt a fájlt az internetről töltötték le</target>
+          <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt + Balra nyíl</target>
@@ -3983,7 +4567,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New Window dialog to create the new window</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
-          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <source>Give this window a name so it can persist layout and tabs across sessions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Adjon nevet az új ablaknak, hogy elmentse az elrendezését, pozícióját és lapjait a következő alkalommal, amikor szüksége van rá</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
@@ -4010,6 +4594,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open new or saved window</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Új vagy mentett ablak megnyitása</target>
         </trans-unit>
+        <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
+          <source>No recent operations</source>
+          <target state="new">Nincsenek legutóbbi műveletek</target>
+        </trans-unit>
+        <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
+          <source>No digital signature</source>
+          <target state="new">Nincs digitális aláírás</target>
+          <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Az ESC lezárja a | ~ megnyitni</target>
@@ -4018,6 +4610,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Minimizes Notification Pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kis méretűre állítja az értesítési ablakot</target>
         </trans-unit>
+        <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
+          <source>Operation history</source>
+          <target state="new">Működési előzmények</target>
+          <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Összeomlás</target>
@@ -4044,6 +4640,32 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
 Some programs won't be able to open/save files from this folder</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A támogatottnál hosszabb elérési út a Windowsnál (260 karakter)
 Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWarningMessage" translate="yes" xml:space="preserve">
+          <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
+OneCommander cannot bypass this behavior. 
+Choose how to proceed:</source>
+          <target state="new">A Windows ezt a fájlt az internetről letöltöttként jelölte meg. Ennek a címkének köszönhetően a Microsoft Photos minden megnyitáskor biztonsági figyelmeztetést jelenít meg. A OneCommandernek nincs befolyása erre a viselkedésre. Válassza ki, hogyan kezelje ezt:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
+          <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
+          <target state="new">Tipp: Használja a OneCommander beépített előnézetét (szóköz), vagy állítson be egy másik alapértelmezett képnézegetőt, hogy elkerülje ezt a felszólítást.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
+          <source>Open this file only</source>
+          <target state="new">Nyissa meg a képet egyedül</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation in Photos will not work</source>
+          <target state="new">← → a Photos navigációs nyilak nem működnek</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
+          <source>Remove the security mark and open</source>
+          <target state="new">Távolítsa el a webjelzőt, és nyissa meg</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation will work normally</source>
+          <target state="new">← → a navigációs nyilak normálisan működnek</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
@@ -4129,13 +4751,17 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="needs-review-translation" state-qualifier="mt-suggestion">A sablon elnevezése</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
-          <source>To add new line press Ctrl + Enter</source>
+          <source>To add new line press Shift + Enter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Új sor hozzáadásához nyomja meg a Ctrl + Enter billentyűkombinációt</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Megjegyzés / ToDo feladat</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
+        </trans-unit>
+        <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
+          <source>Download and preview</source>
+          <target state="new">Letöltés és előnézet</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -4209,6 +4835,10 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tartalom frissítése (az ilyen típusú mappák nem frissíthetők automatikusan)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
+        <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
+          <source>Remember my choice and don't ask again</source>
+          <target state="new">Emlékezz a választásomra, és ne kérdezz többet</target>
+        </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">F2</target>
@@ -4217,6 +4847,14 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <source>Rename</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Átnevez</target>
         </trans-unit>
+        <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
+          <source>Report a problem to the developer</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
+          <source>Saved windows</source>
+          <target state="new">Mentett ablakok</target>
+          <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Parancsfájlok</target>
@@ -4253,6 +4891,10 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <source>Search files starting from currently opened folder</source>
           <target state="translated">Fájlok keresése az aktuálisan megnyitott mappából kiindulva</target>
         </trans-unit>
+        <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
+          <source>Some session windows were restored to other virtual desktops</source>
+          <target state="new">Néhány munkamenet-ablakot visszaállítottak más virtuális asztalokra</target>
+        </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Program beállítások</target>
@@ -4272,13 +4914,25 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="translated">Parancsikon (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
+        <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
+          <source>Show only undoable operations</source>
+          <target state="new">Csak visszavonhatatlan műveletek megjelenítése</target>
+          <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Beállítások mentése zárás előtt...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
+        <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
+          <source>File operations running. Closing risks data loss.</source>
+          <target state="new">Fájlműveletek vannak folyamatban. A bezárás adatvesztést okozhat.</target>
+          <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
+        <trans-unit id="Signature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Aláírás</target>
+          <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
-          <source>DATE</source>
+          <source>Date</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">DÁTUM</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
@@ -4290,7 +4944,7 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Elemek rendezése a módosítás dátuma szerint (először a legrégebbi)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
-          <source>NAME</source>
+          <source>Name</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">NÉV</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
@@ -4302,25 +4956,25 @@ Egyes programok nem tudják megnyitni/menteni a fájlokat ebből a mappából</t
           <target state="translated">Elemek rendezése név szerint (Z-től A-ig)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
-          <source>SIZE</source>
+          <source>Size</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">MÉRET</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">A fájlokat méret szerint rendezi (először a legnagyobb); A mappák nem lesznek rendezve</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">A fájlokat méret szerint rendezi (először a legkisebb); A mappák nem lesznek rendezve</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
-          <source>TYPE</source>
+          <source>Type</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">TÍPUS</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
@@ -4332,8 +4986,16 @@ Folders can't be sorted</source>
           <target state="translated">Elemek rendezése típus szerint (Z-től A-ig)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders above files (On/Off)</source>
-          <target state="translated">Mappák megtartása a fájlok felett (Be/Ki)</target>
+          <source>Keep folders above files</source>
+          <target state="needs-review-translation">Mappák megtartása a fájlok felett (Be/Ki)</target>
+        </trans-unit>
+        <trans-unit id="SortLive" translate="yes" xml:space="preserve">
+          <source>Live sorting</source>
+          <target state="new">Élő válogatás</target>
+          <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
+        <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
+          <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
+          <target state="new">Ha engedélyezve van, az átnevezett fájl a többi fájlhoz kerül, és az új rendezési helyre ugrik. Az alapértelmezett ki van kapcsolva</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -4383,9 +5045,26 @@ Folders can't be sorted</source>
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
           <target state="translated">TIPP: A középső egérgomb nyomva tartásával kijelölő ablakot rajzolhat anélkül, hogy üres helyet kellene használnia.</target>
         </trans-unit>
+        <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
+          <source>Open Taskmaster to view and manage file operation jobs</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark theme</source>
+          <target state="new">Sötét téma</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light theme</source>
+          <target state="new">Világos téma</target>
+        </trans-unit>
+        <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
+          <source>Ctrl± ｜ Ctrl☸</source>
+          <target state="new">Ctrl± ｜ Ctrl☸</target>
+        </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kinyit</target>
+          <note from="MultilingualBuild">Button in bitlocker drives</note>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
@@ -4396,6 +5075,10 @@ Folders can't be sorted</source>
           <source>Updating...</source>
           <target state="translated">Frissítés...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
+        </trans-unit>
+        <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
+          <source>Waiting for {0} to respond...</source>
+          <target state="new">Várakozás {0} válaszára...</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
@@ -4532,7 +5215,7 @@ Some programs won't be able to open this file</target>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
           <target state="new">Searching for Linux distros...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL</note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
@@ -4920,7 +5603,7 @@ Some programs won't be able to open this file</target>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
           <target state="new">Undo</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Operation History and in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -4958,7 +5641,7 @@ Some programs won't be able to open this file</target>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
           <target state="new">Resolution</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo</note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
@@ -5109,6 +5792,16 @@ Some programs won't be able to open this file</target>
           <source>Attributes</source>
           <target state="new">Attributes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">Következő</target>
+          <note from="MultilingualBuild">Wizard next step</note>
+        </trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">Indul</target>
+          <note from="MultilingualBuild">Wizard step start the program</note>
         </trans-unit>
       </group>
     </body>

@@ -130,7 +130,7 @@
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow</note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
@@ -171,6 +171,10 @@
           <source>If you are using Thumbnail, make it the same height</source>
           <target state="translated">Nếu bạn đang sử dụng Hình thu nhỏ, hãy để cùng chiều cao</target>
         </trans-unit>
+        <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Assigning custom views to folders requires a Pro license.</source>
+          <target state="new">Việc gán chế độ xem tùy chỉnh cho thư mục yêu cầu giấy phép Pro.</target>
+          <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chế độ xem đã chỉnh sửa:</target>
@@ -207,6 +211,10 @@
           <source>Load</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tải</target>
         </trans-unit>
+        <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
+          <source>Metadata block</source>
+          <target state="new">Khối siêu dữ liệu</target>
+          <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chiều rộng tối thiểu</target>
@@ -876,6 +884,23 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
           <target state="translated">Không thể thay đổi màu chủ đề vì chủ đề này đã mặc định một màu nhất định</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
+          <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
+          <target state="new">Màu chữ nhấn đã được điều chỉnh để đáp ứng tiêu chuẩn tương phản WCAG AA so với nền chủ đề. Các phần chữ nhấn khác vẫn giữ nguyên màu gốc.</target>
+        </trans-unit>
+        <trans-unit id="AccentText" translate="yes" xml:space="preserve">
+          <source>Accent text (WCAG AA)</source>
+          <target state="new">Văn bản có dấu nhấn (WCAG AA)</target>
+        </trans-unit>
+        <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
+          <source>Accessibility</source>
+          <target state="new">Khả năng tiếp cận</target>
+        </trans-unit>
+        <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
+          <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
+          <target state="new">Hiệu ứng acrylic có thể làm giảm khả năng đọc tùy thuộc vào nội dung đằng sau cửa sổ. Thêm màu nền đồng nhất và tăng độ mờ để có độ tương phản tốt hơn.</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
@@ -886,6 +911,14 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
           <source>Adds program path to PATH Environment Variable (user) so it can be started from anywhere in command line</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thêm đường dẫn chương trình vào Biến môi trường PATH (người dùng) để nó có thể được bắt đầu từ bất cứ đâu trong dòng lệnh</target>
           <note from="MultilingualBuild" annotates="source" priority="2">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note>
+        </trans-unit>
+        <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
+          <source>Add to Toolbar</source>
+          <target state="new">Thêm vào Thanh công cụ</target>
+        </trans-unit>
+        <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
+          <source>Add Toolbar</source>
+          <target state="new">Thêm thanh công cụ</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -905,6 +938,10 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bên phải</target>
           <note from="MultilingualBuild" annotates="source" priority="2">As in Alignment Right</note>
         </trans-unit>
+        <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
+          <source>Always ask</source>
+          <target state="new">Luôn hỏi</target>
+          <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
           <target state="translated">Thời gian chuyển cảnh (ms)</target>
@@ -912,6 +949,10 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
           <target state="translated">Nhấp để kiểm tra thời gian chuyển cảnh</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
+          <source>Extracting archive files downloaded from the internet</source>
+          <target state="new">Giải nén các tệp lưu trữ được tải xuống từ internet</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -921,11 +962,51 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
           <source>Program will check the first few files in a folder and if most are images or videos it will load thumbnail view. Views that are already saved won't be affected</source>
           <target state="translated">Phần mềm sẽ kiểm tra một vài tệp đầu tiên trong một thư mục và nếu hầu hết là hình ảnh hoặc video, nó sẽ tải chế độ xem hình thu nhỏ. Các chế độ xem đã được lưu sẽ không bị ảnh hưởng</target>
         </trans-unit>
+        <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
+          <source>Available Buttons</source>
+          <target state="new">Các nút có sẵn</target>
+        </trans-unit>
+        <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
+          <source>Acrylic</source>
+          <target state="new">Acrylic</target>
+          <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
+        <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
+          <source>No effect</source>
+          <target state="new">Không có hiệu lực</target>
+          <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
+        <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
+          <source>Window background effect</source>
+          <target state="new">Hiệu ứng nền cửa sổ</target>
+        </trans-unit>
+        <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
+          <source>Active pane border thickness</source>
+          <target state="new">Độ dày đường viền khung hoạt động</target>
+          <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
+        <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
+          <source>Controls how thick the highlight border is around the pane you are working in</source>
+          <target state="new">Kiểm soát độ dày của đường viền nổi bật xung quanh khung bạn đang làm việc</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
+          <source>Inactive pane dimming</source>
+          <target state="new">Làm mờ khung không hoạt động</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
+          <target state="new">Làm tối hoặc làm sáng khung không hoạt động để khung hoạt động dễ xác định hơn</target>
+        </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thay đổi</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Column header to show changed shortcut</note>
         </trans-unit>
+        <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="new">Kiểm tra các bản cập nhật</target>
+        </trans-unit>
+        <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
+          <source>Choose image</source>
+          <target state="new">Chọn hình ảnh</target>
+          <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
           <target state="translated">Xóa lịch sử khi đóng</target>
@@ -946,6 +1027,10 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị thông báo đề xuất tạo tệp từ văn bản bằng cách nhấn Ctrl+V</target>
+        </trans-unit>
+        <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
+          <source>Close window when last tab is closed</source>
+          <target state="new">Đóng cửa sổ khi tab cuối cùng được đóng</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -1157,6 +1242,10 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
           <source>Date shown in list of files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ngày hiển thị trong danh sách tệp</target>
         </trans-unit>
+        <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
+          <source>Open folders in a new tab (otherwise use the current tab)</source>
+          <target state="new">Mở thư mục trong một tab mới (nếu không, hãy sử dụng tab hiện tại).</target>
+        </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đăng ký làm trình quản lý tệp mặc định</target>
@@ -1165,6 +1254,10 @@ Giấy phép sẽ có hiệu lực cho tối đa 10 máy tính được sử d�
           <source>Unregister</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hủy đăng ký</target>
         </trans-unit>
+        <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
+          <source>Default location</source>
+          <target state="new">Vị trí mặc định</target>
+          <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mô tả:__________</target>
@@ -1272,6 +1365,10 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị tiêu đề ngăn ổ đĩa</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Drive as in disk-drive</note>
         </trans-unit>
+        <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
+          <source>Dual-pane focus indicators</source>
+          <target state="new">Chỉ báo tiêu điểm khung kép</target>
+        </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Định dạng đặt tên email (kéo từ Outlook)</target>
@@ -1289,9 +1386,33 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Điều này cho phép xem trước Microsoft Office và một số định dạng bổ sung trong cửa sổ xem trước (mở bằng phím cách) nhưng do lỗ hổng bảo mật của Explorer Preview of Office Files, điều này bị tắt theo mặc định. Kích hoạt rủi ro của riêng bạn! Yêu cầu khởi động lại.</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
+          <source>Entered color</source>
+          <target state="new">Màu đã nhập</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
+          <source>Even row shading</source>
+          <target state="new">Tô bóng hàng đều</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
+          <target state="new">Độ mờ của các hàng xen kẽ trong danh sách tệp. Đặt thành 0% để tắt hiệu ứng đổ bóng. Chế độ xem dạng lưới không bị ảnh hưởng.</target>
+        </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ví dụ</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
+          <source>Folder database exclusions</source>
+          <target state="new">Loại trừ cơ sở dữ liệu thư mục</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
+          <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
+          <target state="new">Từ khóa hoặc đoạn đường dẫn. Chuỗi con không phân biệt chữ hoa chữ thường khớp với đường dẫn đầy đủ (ví dụ: \AppData\, Thumbcache, $RECYCLE.BIN)</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
+          <source>Thumbnail database exclusions</source>
+          <target state="new">Loại trừ cơ sở dữ liệu hình thu nhỏ</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -1324,6 +1445,10 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         <trans-unit id="ExFileItemMouseSelectedMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Selected Mouse Over</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mục tệp đã chọn Di chuột qua</target>
+        </trans-unit>
+        <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
+          <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
+          <target state="new">Windows từ chối cấp cho OneCommander phím tắt này ({0}) vì nó đã được một ứng dụng khác dành riêng.</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
@@ -1366,7 +1491,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Trình xử lý hoạt động tệp</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lựa chọn giữa mặc định hoặc TeraCopy (phải được cài đặt)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
@@ -1376,6 +1501,18 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kích thước chỉ hiển thị bằng MB, nhưng văn bản MB không được hiển thị</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown when mouse over MB file size option</note>
         </trans-unit>
+        <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
+          <source>Size units</source>
+          <target state="new">Đơn vị kích thước</target>
+          <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
+        <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
+          <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
+          <target state="new">Thập phân (Megabyte) - MB, GB (1MB = 1000KB = 1000000byte)</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
+          <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
+          <target state="new">Nhị phân (Mebibyte) - MiB, GiB (1MiB = 1024KiB = 1048576byte)</target>
+        </trans-unit>
         <trans-unit id="FilesViewDefault" translate="yes" xml:space="preserve">
           <source>Default files view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chế độ xem tệp mặc định</target>
@@ -1383,6 +1520,14 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
         <trans-unit id="FilesViewThumbnails" translate="yes" xml:space="preserve">
           <source>Thumbnail file view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chế độ xem tệp hình thu nhỏ</target>
+        </trans-unit>
+        <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
+          <source>Preparing settings and resources…</source>
+          <target state="new">Chuẩn bị môi trường và nguồn lực…</target>
+        </trans-unit>
+        <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
+          <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
+          <target state="new">Không thể chuẩn bị tài nguyên. Hãy kiểm tra xem thư mục chương trình có thể ghi được và tất cả các tệp chương trình có đầy đủ hay không, sau đó thử lại.</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
@@ -1417,7 +1562,7 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cỡ chữ</target>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
-          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kích thước phông chữ lớn hơn 18pt không được hỗ trợ chính thức và một số văn bản có thể bị cắt hoặc lệch. Thay đổi tỷ lệ trong Cài đặt hiển thị Windows là cách ưa thích để phóng to giao diện người dùng</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
@@ -1448,6 +1593,10 @@ Kéo di chuyển nếu cùng một ổ đĩa, nếu không thì sao chép. Ctrl+
           <source>Semi Expanded</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bán mở rộng</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Font stretch dropdown</note>
+        </trans-unit>
+        <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="new">Độ dày phông chữ</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
@@ -1587,6 +1736,10 @@ Yêu cầu khởi động lại chương trình</target>
           <source>Icon packs contribute to program's overall memory use</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Gói biểu tượng góp phần vào việc sử dụng bộ nhớ tổng thể của chương trình</target>
         </trans-unit>
+        <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+          <note from="MultilingualBuild">Background as image</note></trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thu nhỏ để vừa với ngăn xem trước</target>
@@ -1599,6 +1752,10 @@ Yêu cầu khởi động lại chương trình</target>
           <source>Display small images</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị hình ảnh nhỏ</target>
         </trans-unit>
+        <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
+          <source>Stretch mode</source>
+          <target state="new">Chế độ kéo dài</target>
+          <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhập mục yêu thích từ V2</target>
@@ -1635,8 +1792,13 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ngôn ngữ</target>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
-          <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
+          <source>Restart required to apply the selected language.
+Some translations may include machine-translated text. Community improvements are welcome.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Yêu cầu khởi động lại! Một số ngôn ngữ được dịch tự động bằng Microsoft Translator. Nếu bạn muốn đóng góp vào việc dịch sang ngôn ngữ của mình, vui lòng viết thư cho support@onecommander.com</target>
+        </trans-unit>
+        <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
+          <source>This version was built {0} day(s) ago</source>
+          <target state="new">Phiên bản này được xây dựng cách đây {0} ngày</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
@@ -1683,8 +1845,12 @@ This should be enabled if program is set as a default file manager</source>
           <source>Left and Right arrow control for media playback</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Điều khiển mũi tên trái và phải để phát lại phương tiện</target>
         </trans-unit>
+        <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
+          <source>Media playback engine</source>
+          <target state="new">Công cụ phát lại phương tiện</target>
+        </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
-          <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
+          <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị đoạn trích văn bản cho các loại tệp này (chế độ xem tệp Thích ứng và Thumbs + Chi tiết)</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
@@ -1710,13 +1876,22 @@ This should be enabled if program is set as a default file manager</source>
           <source>NEW</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">MỚI</target>
         </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Tên</target>
+          <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
-          <source>Duplicate current</source>
+          <source>Duplicate current tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Dòng điện trùng lặp</target>
+        </trans-unit>
+        <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
+          <source>Open default location</source>
+          <target state="new">Mở vị trí mặc định</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đường dẫn mở:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
@@ -1731,7 +1906,7 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấp chuột giữa vào một thư mục sẽ mở ra một tab mới:</target>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
-          <source>Creating a new tab should:</source>
+          <source>New tab</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tạo tab mới nên:</target>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
@@ -1739,27 +1914,44 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Menu ngữ cảnh tệp cần được mở ít nhất một lần</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message if context menu is empty</note>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
-          <source>Path to OneDrive folder</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Đường dẫn đến thư mục OneDrive</target>
+        <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
+          <source>No updates found</source>
+          <target state="new">Không tìm thấy bản cập nhật nào</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
-          <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nếu bên ngoài C:\Users\YOURNAME\OneDrive; Cần thiết cho các biểu tượng trạng thái đồng bộ hóa bổ sung</target>
+        <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
+          <source>On startup</source>
+          <target state="new">Khi khởi động</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open a new window</source>
+          <target state="new">Mở một cửa sổ mới</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
+          <source>Restore previous windows</source>
+          <target state="new">Khôi phục các cửa sổ trước đó</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tạo một tab duy nhất và đường dẫn mở:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Khi bắt đầu:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Khôi phục các tab từ phiên trước</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Opacity" translate="yes" xml:space="preserve">
+          <source>Opacity</source>
+          <target state="new">Độ mờ</target>
+          <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở đường dẫn từ nguồn bên ngoài trong:</target>
@@ -1769,8 +1961,8 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tab hiện tại</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab with the same path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tab hiện có có cùng đường dẫn</target>
+          <source>Existing tab with the same path, otherwise new tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tab hiện có cùng đường dẫn, nếu không có thì mở tab mới</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -1843,6 +2035,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Pressing Ctrl+V will create Text/Image with Clipboard content as file with current date</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhấn Ctrl + V sẽ tạo Văn bản / Hình ảnh với nội dung Bảng tạm dưới dạng tệp có ngày hiện tại</target>
         </trans-unit>
+        <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
+          <source>Path separator symbol (address bar only)</source>
+          <target state="new">Ký hiệu phân cách đường dẫn (chỉ thanh địa chỉ)</target>
+        </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bản đồ Bing</target>
@@ -1854,6 +2050,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nút vị trí ảnh mở trình duyệt web với:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
+          <source>Opening internet-downloaded images in Microsoft Photos</source>
+          <target state="new">Mở hình ảnh đã tải xuống trên internet trong Microsoft Photos</target>
+        </trans-unit>
+        <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
+          <source>Preload thumbnails in background</source>
+          <target state="new">Tải trước hình thu nhỏ trong nền</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1900,6 +2104,14 @@ This should be enabled if program is set as a default file manager</source>
           <source>Program restart required</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Yêu cầu khởi động lại chương trình</target>
         </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
+          <source>Refresh folder sizes after the app was closed for over an hour</source>
+          <target state="new">Làm mới kích thước thư mục sau khi ứng dụng đã đóng hơn một giờ.</target>
+        </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
+          <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
+          <target state="new">Khi ứng dụng bị đóng trong hơn một giờ, hãy tính toán lại kích thước thư mục được lưu trong bộ nhớ cache khi có yêu cầu. Điều này có thể làm tăng mức sử dụng CPU và ổ đĩa.</target>
+        </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đăng ký trình xử lý hình thu nhỏ 3ds Max</target>
@@ -1925,6 +2137,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="Reinstall" translate="yes" xml:space="preserve">
           <source>Reinstall</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cài đặt lại</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
+          <source>Reload pack</source>
+          <target state="new">Gói nạp lại</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
+          <source>Reload this icon pack after changing its files</source>
+          <target state="new">Hãy tải lại gói biểu tượng này sau khi thay đổi các tệp của nó.</target>
         </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
@@ -1962,10 +2182,38 @@ This should be enabled if program is set as a default file manager</source>
           <source>Restore to default</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Khôi phục về mặc định</target>
         </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
+          <source>Create a blank window on the current desktop</source>
+          <target state="new">Tạo một cửa sổ trống trên màn hình nền hiện tại</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
+          <source>Do nothing</source>
+          <target state="new">Không làm gì cả</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
+          <source>Bring the restored windows to the current desktop</source>
+          <target state="new">Đưa các cửa sổ đã phục hồi về màn hình desktop hiện tại</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
+          <source>When restored windows belong to another virtual desktop:</source>
+          <target state="new">Khi Windows được khôi phục thuộc về một màn hình nền ảo khác:</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
+          <source>Switch to the virtual desktop containing the restored windows</source>
+          <target state="new">Chuyển sang desktop ảo chứa các cửa sổ đã phục hồi</target>
+        </trans-unit>
+        <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
+          <source>These settings revert on next start in free version</source>
+          <target state="new">Các thiết lập này sẽ được khôi phục khi khởi động lại phiên bản miễn phí.</target>
+        </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chạy ngay bây giờ</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Button for connector</note>
+        </trans-unit>
+        <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
+          <source>Save untitled windows</source>
+          <target state="new">Lưu các cửa sổ không có tiêu đề</target>
         </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
@@ -1983,10 +2231,94 @@ This should be enabled if program is set as a default file manager</source>
           <source>Pixel (smooth)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Pixel (mượt mà)</target>
         </trans-unit>
+        <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
+          <source>Selected Toolbar</source>
+          <target state="new">Thanh công cụ đã chọn</target>
+        </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">$SentOn sẽ được thay thế bằng ngày ở định dạng này:</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
+          <source>Cancelling backup…</source>
+          <target state="new">Đang hủy sao lưu…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
+          <source>Your settings and user resources have been backed up.</source>
+          <target state="new">Cài đặt và tài nguyên người dùng của bạn đã được sao lưu.</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Backup complete</source>
+          <target state="new">Quá trình sao lưu hoàn tất</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
+          <source>Back up OneCommander settings</source>
+          <target state="new">Sao lưu cài đặt OneCommander</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
+          <source>Backup failed</source>
+          <target state="new">Sao lưu thất bại</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
+          <source>Backup settings…</source>
+          <target state="new">Sao lưu cài đặt…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
+          <source>Preparing backup…</source>
+          <target state="new">Đang chuẩn bị sao lưu…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
+          <source>Backup / restore</source>
+          <target state="new">Sao lưu / khôi phục</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
+          <source>Saving open windows and tabs…</source>
+          <target state="new">Lưu các cửa sổ và tab đang mở…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
+          <source>Back up settings</source>
+          <target state="new">Sao lưu cài đặt</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
+          <source>Import failed</source>
+          <target state="new">Nhập khẩu thất bại</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
+          <source>Import from v3…</source>
+          <target state="new">Nhập từ v3…</target>
+        </trans-unit>
+        <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
+          <source>No settings matched your search</source>
+          <target state="new">Không có cài đặt nào phù hợp với tìm kiếm của bạn</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
+          <source>Reset all settings to defaults…</source>
+          <target state="new">Khôi phục tất cả cài đặt về mặc định…</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
+          <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
+          <target state="new">Tất cả các cài đặt đã được đặt lại về mặc định. Khởi động lại OneCommander để áp dụng các thiết lập lại.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
+          <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
+          <target state="new">Bạn muốn đặt lại tất cả cài đặt OneCommander về mặc định? Giấy phép và kích hoạt của bạn sẽ được giữ nguyên.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
+          <source>Reset failed</source>
+          <target state="new">Đặt lại không thành công</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
+          <source>Settings reset</source>
+          <target state="new">Đặt lại cài đặt</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
+          <source>Restore backup…</source>
+          <target state="new">Khôi phục bản sao lưu…</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
+          <source>Restore failed</source>
+          <target state="new">Khôi phục thất bại</target>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -2033,7 +2365,7 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Xung đột với</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict</note>
         </trans-unit>
         <trans-unit id="ShortcutDefault" translate="yes" xml:space="preserve">
           <source>Original</source>
@@ -2072,21 +2404,13 @@ This should be enabled if program is set as a default file manager</source>
           <source>Shows color indicator on files from current and last week</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị chỉ báo màu trên các tệp từ hiện tại và tuần trước</target>
         </trans-unit>
-        <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
-          <source>Show file attributes and synchronization state icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị thuộc tính tệp và biểu tượng trạng thái đồng bộ hóa</target>
-        </trans-unit>
-        <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
-          <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bắt buộc để hiển thị biểu tượng trạng thái OneDrive khi Tệp theo Yêu cầu được bật. Hiển thị cũng mã hóa và phân tích các biểu tượng. Hiệu suất tốt hơn khi tắt.</target>
-        </trans-unit>
         <trans-unit id="ShowFileExtension" translate="yes" xml:space="preserve">
           <source>Show file extensions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị phần mở rộng tệp</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị các nút trên thanh công cụ Chế độ xem Tệp</target>
+          <source></source>
+          <target state="new">Hiển thị các nút trên thanh công cụ Chế độ xem Tệp</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -2097,20 +2421,25 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nếu một thư mục chứa một tệp có tên thư mục.jpg, bìa.jpg, nền.jpg hoặc phía trước.jpg, nó sẽ được tải dưới dạng hình nền của nó. Hữu ích cho album nhạc và áp phích phim</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder sizes</source>
+          <source>Calculate folder sizes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị kích thước thư mục</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng Windows Shell để lấy Kích thước Thư mục. Nó không chính xác 100% nhưng nó nhanh. Không thể thay đổi định dạng kích thước. Sắp xếp các thư mục theo kích thước là không thể. Sử dụng CPU cao hơn</target>
+          <source></source>
+          <target state="new">Sử dụng Windows Shell để lấy Kích thước Thư mục. Nó không chính xác 100% nhưng nó nhanh. Không thể thay đổi định dạng kích thước. Sắp xếp các thư mục theo kích thước là không thể. Sử dụng CPU cao hơn</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
-          <source>Show Folder size on network folders</source>
+          <source>Calculate folder sizes on network folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị kích thước Thư mục trên các thư mục mạng</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tắt theo mặc định vì nó làm cho việc duyệt các thư mục mạng chậm hơn</target>
+        </trans-unit>
+        <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
+          <source>Show folder name in background</source>
+          <target state="new">Hiển thị tên thư mục ở chế độ nền</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -2125,6 +2454,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Show History pane in sidebar</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị ngăn Lịch sử trong thanh bên</target>
         </trans-unit>
+        <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
+          <source>Show main toolbar</source>
+          <target state="new">Hiển thị thanh công cụ chính</target>
+          <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị siêu dữ liệu trên các tệp mạng</target>
@@ -2156,22 +2489,27 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị hộp thoại để xác nhận tập lệnh đang chạy</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source>Show Scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nút Hiện Tập lệnh</target>
+          <source></source>
+          <target state="new">Nút Hiện Tập lệnh</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Xem thư mục \Resources\Scripts\ để biết ví dụ. Người dùng PRO có thể có hơn 8 tập lệnh.</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED; Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Biết các kịch bản bạn đang chạy! Rủi ro bảo mật!</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hiển thị tệp và thư mục hệ thống</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
+          <source>Requires "Show hidden files" to be enabled</source>
+          <target state="new">Yêu cầu bật "Hiển thị tệp ẩn"</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
@@ -2208,6 +2546,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chỉ sử dụng điều này nếu bạn biết bạn có các điểm phân tích theo chu kỳ sẽ dẫn đến tìm kiếm không bao giờ kết thúc. Kiểm tra điều này sẽ phá vỡ tìm kiếm ổ đĩa đám mây vì chúng dựa vào các điểm phân tích</target>
         </trans-unit>
+        <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
+          <source>Solid color</source>
+          <target state="new">Màu đặc</target>
+          <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tăng dần</target>
@@ -2247,11 +2589,11 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Files sorting option</note>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
-          <source>Sort folders by name always</source>
+          <source>Always sort folders by name</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Luôn sắp xếp thư mục theo tên</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
-          <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
+          <source>Folders remain alphabetized, even when files are sorted by date or size</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nếu BẬT: Ngay cả khi bạn sắp xếp tệp theo ngày, các thư mục sẽ vẫn được sắp xếp theo tên</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
@@ -2265,6 +2607,26 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="SortKeepFoldersOnTop" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Giữ các thư mục phía trên các tệp</target>
+        </trans-unit>
+        <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
+          <source>Stretch to fill</source>
+          <target state="new">Kéo dài để lấp đầy</target>
+        </trans-unit>
+        <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="new">Kích thước ban đầu</target>
+        </trans-unit>
+        <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
+          <source>Tile</source>
+          <target state="new">Ngói</target>
+        </trans-unit>
+        <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
+          <source>Fit (no crop)</source>
+          <target state="new">Vừa vặn (không cắt)</target>
+        </trans-unit>
+        <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (crop extra)</source>
+          <target state="new">Điền (cắt thêm)</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
@@ -2315,6 +2677,24 @@ This should be enabled if program is set as a default file manager</source>
           <source>Window</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cửa sổ</target>
         </trans-unit>
+        <trans-unit id="TeraCopyLimitations" translate="yes" xml:space="preserve">
+          <source>Limited OneCommander integration
+No Undo support
+No color tag preservation on move
+No folder/thumbnail database updates</source>
+          <target state="new">Tích hợp Limited OneCommander
+Không hỗ trợ Hoàn tác
+Không bảo tồn thẻ màu khi di chuyển
+Không cập nhật cơ sở dữ liệu thư mục/hình thu nhỏ</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
+          <source>The quick brown fox jumps over lazy dog 1234567890</source>
+          <target state="new">Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng 1234567890</target>
+        </trans-unit>
+        <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
+          <source>Theme author</source>
+          <target state="new">Tác giả chủ đề</target>
+        </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Để tạo chủ đề tùy chỉnh: tạo một bản sao của chủ đề từ thư mục \Themes và chỉnh sửa các giá trị trong tệp .xaml</target>
@@ -2324,9 +2704,21 @@ This should be enabled if program is set as a default file manager</source>
           <source>Dark</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tối</target>
         </trans-unit>
+        <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
+          <source>Theme defined</source>
+          <target state="new">Chủ đề được xác định</target>
+          <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
+        <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
+          <source>ThemeDescription</source>
+          <target state="new">Chủ đềMô tả</target>
+        </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ánh sáng</target>
+        </trans-unit>
+        <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
+          <source>Suggested accent color</source>
+          <target state="new">Màu nhấn được đề xuất</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -2344,6 +2736,26 @@ This should be enabled if program is set as a default file manager</source>
           <source>12h with AM/PM</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">12h với AM / PM</target>
         </trans-unit>
+        <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
+          <source>Toolbar editor</source>
+          <target state="new">Trình chỉnh sửa thanh công cụ</target>
+        </trans-unit>
+        <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
+          <source>Toolbars</source>
+          <target state="new">Thanh công cụ</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
+          <source>Translation authors:</source>
+          <target state="new">Tác giả dịch</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
+          <source>Machine translated using Microsoft Translator</source>
+          <target state="new">Máy dịch bằng Microsoft Translator</target>
+          <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
+        <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
+          <source>Help improve translations</source>
+          <target state="new">Học cách không đóng góp vào việc dịch thuật</target>
+        </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Để sử dụng tùy chọn này, hãy bật Hiệu ứng trong suốt trong Cài đặt / Cá nhân hóa / Màu sắc của Windows</target>
@@ -2352,6 +2764,38 @@ This should be enabled if program is set as a default file manager</source>
           <source>Files starting with dot</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Coi các tệp bắt đầu bằng dấu chấm là ẩn</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="new">Hằng ngày</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
+          <source>Every 6 hours</source>
+          <target state="new">Cứ sau 6 giờ</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
+          <source>Update check frequency</source>
+          <target state="new">Tần suất kiểm tra cập nhật</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <target state="new">Không bao giờ</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
+          <source>On start</source>
+          <target state="new">Khi bắt đầu</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="new">hàng tuần</target>
+        </trans-unit>
+        <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
+          <source>Update found. Do you want to update to version {0} now?</source>
+          <target state="new">Đã tìm thấy bản cập nhật. Bạn có muốn cập nhật lên phiên bản {0} ngay bây giờ không?</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in dialogs</source>
+          <target state="new">Sử dụng hiệu ứng acrylic trong hộp thoại</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -2412,17 +2856,16 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng hiệu ứng cửa sổ Mica</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng định nghĩa cũ của Megabyte (như trong Windows Explorer)</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
-        </trans-unit>
+          <source></source>
+          <target state="new">Sử dụng định nghĩa cũ của Megabyte (như trong Windows Explorer)</target>
+          <note from="MultilingualBuild">NOT USED</note>
+          <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source>Turn ON if you prefer using Mebibytes instead of Megabytes
-1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
-1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI standard)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">BẬT nếu bạn thích sử dụng Mebibyte thay vì Megabyte
+          <source></source>
+          <target state="new">BẬT nếu bạn thích sử dụng Mebibyte thay vì Megabyte
 1 Mebibyte = 2^20 byte = 1048576 byte (IEC)
 1 Megabyte (MB) = 10^6 byte = 10000000 byte (tiêu chuẩn SI)</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -2436,6 +2879,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
 Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hãy sử dụng Kết hợp các tệp từ menu ngữ cảnh.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
+          <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
+          <target state="new">Sử dụng nhãn kế thừa kiểu Windows (Hiển thị Mebibytes dưới dạng MB)</target>
+          <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sử dụng chương trình cập nhật OneCommander bên ngoài thay vì tập lệnh PowerShell</target>
@@ -2469,6 +2916,10 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bình chọn cho nhóm UserVoice for Acrobat để khắc phục điều này</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
+          <source>Background type</source>
+          <target state="new">Loại nền</target>
+          <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowsDefault" translate="yes" xml:space="preserve">
           <source>Windows default</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows mặc định</target>
@@ -2534,7 +2985,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="new">Global hotkey to open program</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
-          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
@@ -2633,7 +3084,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="new">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
-          <source>Run on Windows startup without a creating a window</source>
+          <source>Run on Windows startup</source>
           <target state="new">Run on Windows startup without a creating a window</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
@@ -2648,7 +3099,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
           <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name</note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
@@ -2698,8 +3149,8 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
-          <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <source>Choose the clearest text rendering for your screen</source>
+          <target state="new">Chọn chế độ hiển thị văn bản rõ nét nhất cho màn hình của bạn.</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -2825,6 +3276,28 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Áp dụng cài đặt. Hãy chờ...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown in dialog when settings have changed and window is being closed</note>
         </trans-unit>
+        <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
+          <source>This archive was downloaded from the internet. Windows marks these files for security. 
+Choose how to extract them:</source>
+          <target state="new">Kho lưu trữ này đã được tải xuống từ internet. Windows đánh dấu các tệp này để bảo mật. 
+Chọn cách trích xuất chúng:</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
+          <source>Keep internet security marks</source>
+          <target state="new">Giữ dấu bảo mật internet</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
+          <source>Windows and other programs may show safety warnings when you open these files</source>
+          <target state="new">Windows và các chương trình khác có thể hiển thị cảnh báo an toàn khi bạn mở các tệp này</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
+          <source>Remove internet security marks</source>
+          <target state="new">Xóa dấu bảo mật internet</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
+          <source>Choose this only if you completely trust this archive and its contents</source>
+          <target state="new">Chỉ chọn tùy chọn này nếu bạn hoàn toàn tin tưởng kho lưu trữ này và nội dung của nó</target>
+        </trans-unit>
         <trans-unit id="Archive_BuildingFilesList" translate="yes" xml:space="preserve">
           <source>Building files list...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Xây dựng danh sách tập tin...</target>
@@ -2881,6 +3354,10 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tính toán...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Should be short, possibly one word - shown in file details pane under size</note>
         </trans-unit>
+        <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled in settings</source>
+          <target state="new">Đã tắt trong cài đặt</target>
+          <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thay đổi dạng xem tệp</target>
@@ -2966,6 +3443,14 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở trong cửa sổ mới</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Cursor message to show when dragging a tab or favorite outside of window</note>
         </trans-unit>
+        <trans-unit id="Customize" translate="yes" xml:space="preserve">
+          <source>Customize</source>
+          <target state="new">Tùy chỉnh</target>
+          <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
+        <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
+          <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
+          <target state="new">Một số hoạt động vẫn đang được tiến hành. Vui lòng đợi cho đến khi thao tác kết thúc hoặc hủy chúng trước khi đóng để tránh mất dữ liệu.</target>
+        </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Del</target>
@@ -2989,6 +3474,10 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="DetailsFileSystem" translate="yes" xml:space="preserve">
           <source>File system</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hệ thống tập tin</target>
+        </trans-unit>
+        <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
+          <source>Total files</source>
+          <target state="new">Tổng số tập tin</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -3128,7 +3617,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="translated">Tính năng này chỉ khả dụng trong phiên bản Pro. [NEWLINE] Tải phiên bản Pro ngay bây giờ?</target>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tệp đang được sử dụng bởi thao tác {0}.&lt;br/&gt;({1})&lt;br/&gt;Retry?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
@@ -3235,15 +3724,60 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>Finishing setup...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hoàn tất thiết lập...</target>
         </trans-unit>
+        <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
+          <source>Choose a default layout</source>
+          <target state="new">Chọn bố cục mặc định</target>
+        </trans-unit>
+        <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
+          <source>Choose a theme</source>
+          <target state="new">Chọn một chủ đề</target>
+        </trans-unit>
+        <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
+          <source>Read the terms until the end before continuing.</source>
+          <target state="new">Vui lòng đọc kỹ các điều khoản trước khi tiếp tục.</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
+          <source>Size format</source>
+          <target state="new">Định dạng kích thước</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
+          <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
+          <target state="new">Nếu có bất kỳ vấn đề gì, bạn chỉ cần nhấp chuột vào hộp thoại Giới thiệu (ⓘ) để liên hệ với nhà phát triển chương trình.</target>
+        </trans-unit>
+        <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
+          <source>Higher CPU use until all folder sizes are calculated in the current view</source>
+          <target state="new">Mức sử dụng CPU cao hơn cho đến khi tất cả kích thước thư mục được tính toán trong chế độ xem hiện tại.</target>
+        </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kích thước thư mục chỉ có thể được tính cho các thư mục có toàn bộ cây thư mục và tệp có thể truy cập được và Windows đã lập chỉ mục chúng</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
+          <source>Folders are sorted only if total size has been calculated</source>
+          <target state="new">Các thư mục chỉ được sắp xếp nếu tổng kích thước đã được tính toán</target>
+        </trans-unit>
+        <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
+          <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
+          <target state="new">Làm mới đầy đủ. Buộc kiểm tra các mục mới và tính toán lại tất cả kích thước thư mục</target>
+          <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
+        <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
+          <source>Global settings</source>
+          <target state="new">Cài đặt chung</target>
+          <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lịch sử</target>
           <note from="MultilingualBuild" annotates="source" priority="2">History pane title in sidebar</note>
+        </trans-unit>
+        <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
+          <source>Initializing video engine (FFmpeg)...</source>
+          <target state="new">Khởi tạo công cụ xử lý video (FFmpeg)...</target>
+          <note from="MultilingualBuild">First time preview loads a video</note>
+        </trans-unit>
+        <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
+          <source>Instant Search</source>
+          <target state="new">Tìm kiếm tức thì</target>
         </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
@@ -3288,7 +3822,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chuyển</target>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
-          <source>Switch between Standard and Columns layouts</source>
+          <source>Switch between window layouts</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chuyển đổi giữa bố trí Tiêu chuẩn và Cột</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
@@ -3315,6 +3849,18 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>Login as...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đăng nhập dưới dạng...</target>
         </trans-unit>
+        <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
+          <source>Disk not responding</source>
+          <target state="new">Đĩa không phản hồi</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
+        <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
+          <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
+          <target state="new">Taskmaster bị tạm dừng. Hoạt động này sẽ được xử lý khi bạn bỏ tạm dừng</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
+          <source>Waking disk (attempt {0}/{1})</source>
+          <target state="new">Đang đánh thức đĩa (thử {0}/{1})</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lái xe ký tự để gắn (ví dụ: 'K')</target>
@@ -3322,6 +3868,16 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đường dẫn mạng (ví dụ: \\computername\share)</target>
+        </trans-unit>
+        <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
+          <source>Mebibyte</source>
+          <target state="new">Mebibyte</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
+        </trans-unit>
+        <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
+          <source>Megabyte</source>
+          <target state="new">Megabyte</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
           <source>Compress (zip)</source>
@@ -3363,7 +3919,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bản sao</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
@@ -3473,6 +4029,14 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở đích lối tắt</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Menu option when right-clicking lnk file</note>
         </trans-unit>
+        <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
+          <source>Open Location</source>
+          <target state="new">Địa điểm mở</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
+          <source>Open Location in new tab</source>
+          <target state="new">Mở vị trí trong tab mới</target>
+        </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Làm mới mọi thứ</target>
@@ -3549,6 +4113,10 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>Media duration</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thời lượng truyền thông</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Duration/length of video/audio files</note>
+        </trans-unit>
+        <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
+          <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
+          <target state="new">Có thể đóng băng trong giây lát trên các thư mục lớn; cần thiết để trích xuất siêu dữ liệu của tất cả các tệp</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -4020,7 +4588,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tài nguyên chủ đề đã tải xuống</target>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
-          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <source>Make Taskmaster default file operations manager to enable undo</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows không hỗ trợ hoàn tác các thao tác tệp bên ngoài Explorer</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
@@ -4046,6 +4614,22 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>File with this name already exists. Do you want to replace it?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tệp có tên này đã tồn tại. Bạn có muốn thay thế nó?</target>
         </trans-unit>
+        <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
+          <source>Authors</source>
+          <target state="new">tác giả</target>
+        </trans-unit>
+        <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
+          <source>Signature check</source>
+          <target state="new">Kiểm tra chữ ký</target>
+        </trans-unit>
+        <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Chữ ký</target>
+        </trans-unit>
+        <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
+          <source>This file was downloaded from the internet</source>
+          <target state="new">Tệp này đã được tải xuống từ internet</target>
+          <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Alt + Mũi tên trái</target>
@@ -4129,7 +4713,7 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <note from="MultilingualBuild" annotates="source" priority="2">Button in New Window dialog to create the new window</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
-          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <source>Give this window a name so it can persist layout and tabs across sessions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đặt tên cho cửa sổ mới để lưu bố cục, vị trí và tab của nó cho lần tiếp theo bạn cần</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
@@ -4156,6 +4740,14 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>Open new or saved window</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở cửa sổ mới hoặc cửa sổ đã lưu</target>
         </trans-unit>
+        <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
+          <source>No recent operations</source>
+          <target state="new">Không có hoạt động gần đây</target>
+        </trans-unit>
+        <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
+          <source>No digital signature</source>
+          <target state="new">Không có chữ ký số</target>
+          <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ESC để đóng | ~ để mở</target>
@@ -4164,6 +4756,10 @@ Chèn trang Adobe Acrobat cũng không hoạt động với. Thay vào đó, hã
           <source>Minimizes Notification Pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Thu nhỏ ngăn thông báo</target>
         </trans-unit>
+        <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
+          <source>Operation history</source>
+          <target state="new">Lịch sử hoạt động</target>
+          <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sụp đổ</target>
@@ -4196,6 +4792,32 @@ Một số chương trình sẽ không thể mở tệp này</target>
 Some programs won't be able to open/save files from this folder</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đường dẫn dài hơn Windows được hỗ trợ (260 ký tự)
 Một số chương trình sẽ không thể mở / lưu tệp từ thư mục này</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWarningMessage" translate="yes" xml:space="preserve">
+          <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
+OneCommander cannot bypass this behavior. 
+Choose how to proceed:</source>
+          <target state="new">Windows đã gắn cờ tệp này là được tải xuống từ web. Do thẻ này, Microsoft Photos sẽ hiển thị lời nhắc bảo mật mỗi lần mở. OneCommander không kiểm soát được hành vi này. Chọn cách xử lý việc này:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
+          <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
+          <target state="new">Mẹo: Sử dụng bản xem trước tích hợp của OneCommander (Phím cách) hoặc đặt trình xem hình ảnh mặc định khác để tránh hoàn toàn lời nhắc này.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
+          <source>Open this file only</source>
+          <target state="new">Mở hình ảnh một mình</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation in Photos will not work</source>
+          <target state="new">← → mũi tên điều hướng trong Ảnh sẽ không hoạt động</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
+          <source>Remove the security mark and open</source>
+          <target state="new">Xóa cờ web và mở</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation will work normally</source>
+          <target state="new">← → mũi tên điều hướng sẽ hoạt động bình thường</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
@@ -4281,13 +4903,17 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đặt tên cho mẫu này</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
-          <source>To add new line press Ctrl + Enter</source>
+          <source>To add new line press Shift + Enter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Để thêm dòng mới, hãy nhấn Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lưu ý / Nhiệm vụ cần làm</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
+        </trans-unit>
+        <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
+          <source>Download and preview</source>
+          <target state="new">Tải xuống và xem trước</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -4365,6 +4991,10 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Làm mới nội dung (không thể tự động làm mới loại thư mục này)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip for refresh button for recycle bin and changes pane</note>
         </trans-unit>
+        <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
+          <source>Remember my choice and don't ask again</source>
+          <target state="new">Hãy nhớ lựa chọn của tôi và đừng hỏi lại</target>
+        </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">F2</target>
@@ -4373,6 +5003,14 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <source>Rename</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Rename</target>
         </trans-unit>
+        <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
+          <source>Report a problem to the developer</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
+          <source>Saved windows</source>
+          <target state="new">Cửa sổ đã lưu</target>
+          <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kịch bản</target>
@@ -4409,6 +5047,10 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <source>Search files starting from currently opened folder</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tìm kiếm tệp bắt đầu từ thư mục hiện đang mở</target>
         </trans-unit>
+        <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
+          <source>Some session windows were restored to other virtual desktops</source>
+          <target state="new">Một số cửa sổ phiên đã được khôi phục sang các máy tính để bàn ảo khác</target>
+        </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cài đặt chương trình</target>
@@ -4428,13 +5070,25 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Phím tắt (.lnk)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Option in advanced shortcut creation options</note>
         </trans-unit>
+        <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
+          <source>Show only undoable operations</source>
+          <target state="new">Chỉ hiển thị các thao tác có thể hoàn tác</target>
+          <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Lưu cài đặt trước khi đóng...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on shutdown screen - blocking to save settings</note>
         </trans-unit>
+        <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
+          <source>File operations running. Closing risks data loss.</source>
+          <target state="new">Đang xử lý tệp. Đóng ứng dụng có thể làm mất dữ liệu.</target>
+          <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
+        <trans-unit id="Signature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Chữ ký</target>
+          <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
-          <source>DATE</source>
+          <source>Date</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">NGÀY</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
@@ -4446,7 +5100,7 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sắp xếp các mục theo ngày sửa đổi (Cũ nhất đầu tiên)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
-          <source>NAME</source>
+          <source>Name</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">TÊN</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
@@ -4458,25 +5112,25 @@ Một số chương trình sẽ không thể mở / lưu tệp từ thư mục n
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sắp xếp các mục theo tên (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
-          <source>SIZE</source>
+          <source>Size</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kích thước</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sắp xếp tệp theo kích thước (Lớn nhất đầu tiên)
 Không thể sắp xếp thư mục</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sắp xếp tệp theo kích thước (Nhỏ nhất trước tiên)
 Không thể sắp xếp thư mục</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
-          <source>TYPE</source>
+          <source>Type</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">KIỂU</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
@@ -4488,8 +5142,16 @@ Không thể sắp xếp thư mục</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sắp xếp các mục theo loại (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders above files (On/Off)</source>
+          <source>Keep folders above files</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Giữ các thư mục phía trên các tệp (Bật / Tắt)</target>
+        </trans-unit>
+        <trans-unit id="SortLive" translate="yes" xml:space="preserve">
+          <source>Live sorting</source>
+          <target state="new">Sắp xếp trực tiếp</target>
+          <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
+        <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
+          <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
+          <target state="new">Khi được bật, tệp đã đổi tên sẽ được sắp xếp cùng với các tệp khác và sẽ chuyển đến vị trí sắp xếp mới. Mặc định là tắt</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -4539,9 +5201,26 @@ Không thể sắp xếp thư mục</target>
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">MẸO: Bạn có thể vẽ cửa sổ lựa chọn bằng cách giữ Nút chuột giữa mà không cần sử dụng không gian trống</target>
         </trans-unit>
+        <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
+          <source>Open Taskmaster to view and manage file operation jobs</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark theme</source>
+          <target state="new">Chủ đề tối</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light theme</source>
+          <target state="new">Chủ đề sáng</target>
+        </trans-unit>
+        <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
+          <source>Ctrl± ｜ Ctrl☸</source>
+          <target state="new">Ctrl± ｜ Ctrl☸</target>
+        </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở khóa</target>
+          <note from="MultilingualBuild">Button in bitlocker drives</note>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
@@ -4552,6 +5231,10 @@ Không thể sắp xếp thư mục</target>
           <source>Updating...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cập nhật...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
+        </trans-unit>
+        <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
+          <source>Waiting for {0} to respond...</source>
+          <target state="new">Đang chờ {0} phản hồi...</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
@@ -4611,7 +5294,7 @@ Không thể sắp xếp thư mục</target>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tìm kiếm các bản phân phối Linux...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL</note>
         </trans-unit>
         <trans-unit id="Watermark_SearchingShares" translate="yes" xml:space="preserve">
           <source>Searching shares...</source>
@@ -4925,7 +5608,7 @@ Không thể sắp xếp thư mục</target>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
           <target state="new">Undo</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Operation History and in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -4963,7 +5646,7 @@ Không thể sắp xếp thư mục</target>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
           <target state="new">Resolution</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo</note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
@@ -5114,6 +5797,16 @@ Không thể sắp xếp thư mục</target>
           <source>Attributes</source>
           <target state="new">Attributes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">Kế tiếp</target>
+          <note from="MultilingualBuild">Wizard next step</note>
+        </trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">Bắt đầu</target>
+          <note from="MultilingualBuild">Wizard step start the program</note>
         </trans-unit>
       </group>
     </body>

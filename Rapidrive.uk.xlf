@@ -21,11 +21,40 @@
         <trans-unit id="AccentColorLocked" translate="yes" xml:space="preserve">
           <source>Accent color can't be changed because this particular theme forces a certain accent color</source>
           <target state="translated">Колір акценту не можна змінити, оскільки саме ця тема налаштовує примусово певний колір акценту</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
+          <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
+          <target state="new">Колір акцентного тексту було скориговано відповідно до стандарту WCAG AA на тлі теми. Інші акцентні варіанти використання зберігають оригінальний колір.</target>
+        </trans-unit>
+        <trans-unit id="AccentText" translate="yes" xml:space="preserve">
+          <source>Accent text (WCAG AA)</source>
+          <target state="new">Акцентний текст (WCAG AA)</target>
+        </trans-unit>
+        <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
+          <source>Accessibility</source>
+          <target state="new">Доступність</target>
+        </trans-unit>
+        <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
+          <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
+          <target state="new">Ефект акрилу може погіршити читабельність залежно від того, що знаходиться за вікном. Додайте суцільний фоновий колір і збільште непрозорість для кращого контрасту.</target>
+        </trans-unit>
+        <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
+          <source>Add to Toolbar</source>
+          <target state="new">Додати на панель інструментів</target>
+        </trans-unit>
+        <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
+          <source>Add Toolbar</source>
+          <target state="new">Додати панель інструментів</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
           <target state="translated">Рідко потрібні налаштування. Змінюйте лише, якщо це абсолютно необхідно!</target>
         </trans-unit>
+        <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
+          <source>Always ask</source>
+          <target state="new">Завжди питай</target>
+          <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
           <target state="translated" state-qualifier="mt-suggestion">Тривалість анімації (мс)</target>
@@ -33,6 +62,10 @@
         <trans-unit id="AnimationDurationTest" translate="yes" xml:space="preserve">
           <source>Click to test animation duration</source>
           <target state="translated" state-qualifier="mt-suggestion">Клацніть, щоб перевірити тривалість анімації</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
+          <source>Extracting archive files downloaded from the internet</source>
+          <target state="new">Витягування архівних файлів, завантажених з інтернету</target>
         </trans-unit>
         <trans-unit id="AutoSwitchToThumbView" translate="yes" xml:space="preserve">
           <source>Auto-switch to thumbnail view</source>
@@ -43,6 +76,46 @@
           <target state="needs-review-translation">Програма перевірить перші кілька файлів у папці, і якщо більшість з них є зображеннями або відео, вона завантажить перегляд мініатюр. Не впливає на подання, які вже збережено</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
+          <source>Available Buttons</source>
+          <target state="new">Доступні кнопки</target>
+        </trans-unit>
+        <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
+          <source>Acrylic</source>
+          <target state="new">Акрилові</target>
+          <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
+        <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
+          <source>No effect</source>
+          <target state="new">Жодного ефекту</target>
+          <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
+        <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
+          <source>Window background effect</source>
+          <target state="new">Ефект фону вікна</target>
+        </trans-unit>
+        <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
+          <source>Active pane border thickness</source>
+          <target state="new">Товщина межі активної панелі</target>
+          <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
+        <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
+          <source>Controls how thick the highlight border is around the pane you are working in</source>
+          <target state="new">Контролює товщину межі виділення навколо панелі, у якій ви працюєте</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
+          <source>Inactive pane dimming</source>
+          <target state="new">Неактивне затемнення панелі</target>
+        </trans-unit>
+        <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
+          <target state="new">Затемнює або освітлює неактивну панель, щоб активну панель було легше ідентифікувати</target>
+        </trans-unit>
+        <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
+          <source>Check for updates</source>
+          <target state="new">Перевірте наявність оновлень</target>
+        </trans-unit>
+        <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
+          <source>Choose image</source>
+          <target state="new">Виберіть зображення</target>
+          <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClipboardCheckText" translate="yes" xml:space="preserve">
           <source>Check and notify when there is text on clipboard</source>
           <target state="translated">Перевірка та сповіщення про те, коли в буфері обміну є текст</target>
@@ -50,6 +123,10 @@
         <trans-unit id="ClipboardCheckTextInfo" translate="yes" xml:space="preserve">
           <source>Shows notifications offering to create a file from text by pressing Ctrl+V</source>
           <target state="translated" state-qualifier="mt-suggestion">Показує сповіщення, які пропонують створити файл із тексту, натиснувши клавіші Ctrl+V</target>
+        </trans-unit>
+        <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
+          <source>Close window when last tab is closed</source>
+          <target state="new">Закрити вікно, коли закрито останню вкладку</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -204,6 +281,10 @@
           <source>Date format</source>
           <target state="translated" state-qualifier="tm-suggestion">Формат дати</target>
         </trans-unit>
+        <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
+          <source>Open folders in a new tab (otherwise use the current tab)</source>
+          <target state="new">Відкривати папки в новій вкладці (інакше використовувати поточну вкладку)</target>
+        </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
           <target state="translated">Зареєструвати як файловий менеджер за замовчуванням</target>
@@ -235,6 +316,10 @@
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Message after clicking register Win+E shortcut button in settings</note>
         </trans-unit>
+        <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
+          <source>Default location</source>
+          <target state="new">Розташування за умовчанням</target>
+          <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="DoubleClickArchiveOpensDefault" translate="yes" xml:space="preserve">
           <source>Open in default program</source>
           <target state="translated">Відкрити програму за замовчуванням</target>
@@ -269,13 +354,41 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <source>Drag and Drop behavior:</source>
           <target state="translated" state-qualifier="mt-suggestion">Поведінка перетягування:</target>
         </trans-unit>
+        <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
+          <source>Dual-pane focus indicators</source>
+          <target state="new">Двопанельні індикатори фокусування</target>
+        </trans-unit>
         <trans-unit id="EnableAnimations" translate="yes" xml:space="preserve">
           <source>Enable Animations</source>
           <target state="translated" state-qualifier="mt-suggestion">Увімкнути анімацію</target>
         </trans-unit>
+        <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
+          <source>Entered color</source>
+          <target state="new">Введений колір</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
+          <source>Even row shading</source>
+          <target state="new">Рівномірне затінення рядків</target>
+        </trans-unit>
+        <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
+          <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
+          <target state="new">Непрозорість рядків, що чергуються, у списках файлів. Встановіть значення 0%, щоб вимкнути затінення. Режим сітки залишається незмінним.</target>
+        </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
           <target state="translated" state-qualifier="tm-suggestion">Приклад</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
+          <source>Folder database exclusions</source>
+          <target state="new">Виключення з бази даних папок</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
+          <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
+          <target state="new">Ключові слова або фрагменти шляху. Підрядок без урахування регістру відповідає повному шляху (приклади: \AppData\, thumbcache, $RECYCLE.BIN)</target>
+        </trans-unit>
+        <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
+          <source>Thumbnail database exclusions</source>
+          <target state="new">Виключення з бази даних мініатюр</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -309,9 +422,33 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <source>File Item Selected Mouse Over</source>
           <target state="translated">Елемент файлу вибраний вказівником миші</target>
         </trans-unit>
+        <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
+          <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
+          <target state="new">Windows відмовилася надати OneCommander цю гарячу клавішу ({0}), оскільки вона вже зарезервована іншою програмою</target>
+        </trans-unit>
         <trans-unit id="FileIconsPack" translate="yes" xml:space="preserve">
           <source>File icons pack</source>
           <target state="translated" state-qualifier="mt-suggestion">Пакет піктограм файлів</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
+          <source>Size units</source>
+          <target state="new">Одиниці розміру</target>
+          <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
+        <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
+          <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
+          <target state="new">Десятковий (мегабайт) — МБ, ГБ (1 МБ = 1000 КБ = 1000000 байт)</target>
+        </trans-unit>
+        <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
+          <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
+          <target state="new">Двійковий (мебібайт) — MiB, GiB (1MiB = 1024KiB = 1048576bytes)</target>
+        </trans-unit>
+        <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
+          <source>Preparing settings and resources…</source>
+          <target state="new">Підготовка налаштувань та ресурсів…</target>
+        </trans-unit>
+        <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
+          <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
+          <target state="new">Не вдалося підготувати ресурси. Перевірте, чи папка програми доступна для запису та чи всі файли програми присутні, а потім повторіть спробу.</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
@@ -336,6 +473,10 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="Font" translate="yes" xml:space="preserve">
           <source>Font</source>
           <target state="translated" state-qualifier="tm-suggestion">Шрифт</target>
+        </trans-unit>
+        <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="new">Товщина шрифту</target>
         </trans-unit>
         <trans-unit id="GetProLicense" translate="yes" xml:space="preserve">
           <source>Get PRO license</source>
@@ -432,6 +573,14 @@ Program restart required</source>
           <source>Icon packs contribute to program's overall memory use</source>
           <target state="translated" state-qualifier="mt-suggestion">Пакети піктограм сприяють загальному використанню пам'яті програмою</target>
         </trans-unit>
+        <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
+          <source>Image</source>
+          <target state="new">Image</target>
+          <note from="MultilingualBuild">Background as image</note></trans-unit>
+        <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
+          <source>Stretch mode</source>
+          <target state="new">Режим розтяжки</target>
+          <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
           <target state="translated" state-qualifier="mt-suggestion">Імпорт уподобань з V2</target>
@@ -451,11 +600,20 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">Мова</target>
         </trans-unit>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
-          <source>Restart required! Some languages are auto-translated using Microsoft Translator. If you would like to contribute to translating to your language, please write to support@onecommander.com</source>
-          <target state="translated">Потрібне перезавантаження! Автоматичний переклад за допомогою перекладача Microsoft. Якщо ви хочете додати свій внесок у переклад на вашу мову, будь ласка, напишіть support@onecommander.com</target>
+          <source>Restart required to apply the selected language.
+Some translations may include machine-translated text. Community improvements are welcome.</source>
+          <target state="needs-review-translation">Потрібне перезавантаження! Автоматичний переклад за допомогою перекладача Microsoft. Якщо ви хочете додати свій внесок у переклад на вашу мову, будь ласка, напишіть support@onecommander.com</target>
+        </trans-unit>
+        <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
+          <source>This version was built {0} day(s) ago</source>
+          <target state="new">Цю версію створено {0} днів тому</target>
+        </trans-unit>
+        <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
+          <source>Media playback engine</source>
+          <target state="new">Двигун відтворення медіа</target>
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
-          <source>Show text excerpts for these file types (Adaptive and Thumbs+Details file views)</source>
+          <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
           <target state="needs-review-translation">Показати витяги тексту для цих типів файлів (Передперегляди + Подання файлів відомостей)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
@@ -468,13 +626,22 @@ This should be enabled if program is set as a default file manager</source>
           <source>NEW</source>
           <target state="translated">Нове</target>
         </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Ім’я</target>
+          <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
-          <source>Duplicate current</source>
-          <target state="translated">Дублювати поточний</target>
+          <source>Duplicate current tab</source>
+          <target state="needs-review-translation">Дублювати поточний</target>
+        </trans-unit>
+        <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
+          <source>Open default location</source>
+          <target state="new">Відкрити розташування за умовчанням</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
           <target state="translated">Шлях відкриття:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="NewTabPlacementAfterCurrent" translate="yes" xml:space="preserve">
           <source>After current</source>
@@ -490,31 +657,48 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
-          <source>Creating a new tab should:</source>
-          <target state="translated" state-qualifier="mt-suggestion">Створення нової вкладки має:</target>
+          <source>New tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Створення нової вкладки має:</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPath" translate="yes" xml:space="preserve">
-          <source>Path to OneDrive folder</source>
-          <target state="translated" state-qualifier="mt-suggestion">Шлях до папки OneDrive</target>
+        <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
+          <source>No updates found</source>
+          <target state="new">Оновлень не знайдено</target>
         </trans-unit>
-        <trans-unit id="OneDriveFolderPathInfo" translate="yes" xml:space="preserve">
-          <source>If outside of C:\Users\YOURNAME\OneDrive; needed for additional synchronization status icons</source>
-          <target state="translated" state-qualifier="mt-suggestion">Якщо за межами C:\Users\YOURNAME\OneDrive; потрібні для додаткових піктограм стану синхронізації</target>
+        <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
+          <source>On startup</source>
+          <target state="new">При запуску</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
+          <source>Open a new window</source>
+          <target state="new">Відкрийте нове вікно</target>
+          <note from="MultilingualBuild">NOT USED</note>
+        </trans-unit>
+        <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
+          <source>Restore previous windows</source>
+          <target state="new">Відновити попередні вікна</target>
         </trans-unit>
         <trans-unit id="OnStartOpenPath" translate="yes" xml:space="preserve">
           <source>Create a single tab and open path:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкрити шлях:</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OnStartQuestion" translate="yes" xml:space="preserve">
           <source>On start:</source>
           <target state="translated" state-qualifier="mt-suggestion">На початку:</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartRestoreTabs" translate="yes" xml:space="preserve">
           <source>Restore last used tabs</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Відновлення вкладок з попереднього сеансу</target>
+          <note from="MultilingualBuild">NOT USED</note>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Opacity" translate="yes" xml:space="preserve">
+          <source>Opacity</source>
+          <target state="new">Непрозорість</target>
+          <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
           <target state="translated">Подвійний клік відкриває елементи (один клік, щоб вибрати)</target>
@@ -543,6 +727,10 @@ This should be enabled if program is set as a default file manager</source>
           <source>Padding</source>
           <target state="translated" state-qualifier="tm-suggestion">Заповнення</target>
         </trans-unit>
+        <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
+          <source>Path separator symbol (address bar only)</source>
+          <target state="new">Символ роздільника шляху (лише адресний рядок)</target>
+        </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
           <target state="translated" state-qualifier="tm-suggestion">Карти Bing</target>
@@ -554,6 +742,14 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="PhotoLocationQuestion" translate="yes" xml:space="preserve">
           <source>Photo location button opens web browser with:</source>
           <target state="translated" state-qualifier="mt-suggestion">Кнопка розташування фотографії відкриває веб-браузер з:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
+          <source>Opening internet-downloaded images in Microsoft Photos</source>
+          <target state="new">Відкриття зображень, завантажених з інтернету в Microsoft Photos</target>
+        </trans-unit>
+        <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
+          <source>Preload thumbnails in background</source>
+          <target state="new">Попереднє завантаження мініатюр у фоновому режимі</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -584,6 +780,22 @@ This should be enabled if program is set as a default file manager</source>
           <source>Program restart required</source>
           <target state="translated" state-qualifier="mt-suggestion">Потрібне перезавантаження програми</target>
         </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
+          <source>Refresh folder sizes after the app was closed for over an hour</source>
+          <target state="new">Оновити розміри папок після того, як програма була закрита більше години</target>
+        </trans-unit>
+        <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
+          <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
+          <target state="new">Якщо програма була закрита більше години, перераховувати розміри кешованих папок за запитом. Це може збільшити використання процесора та диска.</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
+          <source>Reload pack</source>
+          <target state="new">Перезавантажити пакет</target>
+        </trans-unit>
+        <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
+          <source>Reload this icon pack after changing its files</source>
+          <target state="new">Перезавантажте цей пакет значків після зміни його файлів</target>
+        </trans-unit>
         <trans-unit id="RenameItemsOnSecondClick" translate="yes" xml:space="preserve">
           <source>Rename items by clicking again without moving cursor</source>
           <target state="translated" state-qualifier="mt-suggestion">Перейменуйте елементи, клацнувши знову, не переміщуючи курсор</target>
@@ -604,6 +816,34 @@ This should be enabled if program is set as a default file manager</source>
           <source>Software</source>
           <target state="translated" state-qualifier="tm-suggestion">Програмне забезпечення</target>
         </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
+          <source>Create a blank window on the current desktop</source>
+          <target state="new">Створіть порожнє вікно на поточному робочому столі</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
+          <source>Do nothing</source>
+          <target state="new">Нічого не робіть</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
+          <source>Bring the restored windows to the current desktop</source>
+          <target state="new">Перенесіть відновлені вікна на поточний робочий стіл</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
+          <source>When restored windows belong to another virtual desktop:</source>
+          <target state="new">Після відновлення вікон належать іншому віртуальному робочому столу:</target>
+        </trans-unit>
+        <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
+          <source>Switch to the virtual desktop containing the restored windows</source>
+          <target state="new">Переключитися на віртуальний робочий стіл, що містить відновлені вікна</target>
+        </trans-unit>
+        <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
+          <source>These settings revert on next start in free version</source>
+          <target state="new">Ці налаштування відновлюються під час наступного запуску безкоштовної версії</target>
+        </trans-unit>
+        <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
+          <source>Save untitled windows</source>
+          <target state="new">Зберегти вікна без назви</target>
+        </trans-unit>
         <trans-unit id="ScrollingBehavior" translate="yes" xml:space="preserve">
           <source>Scrolling behavior:</source>
           <target state="translated" state-qualifier="mt-suggestion">Поведінка прокрутки:</target>
@@ -615,6 +855,90 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="ScrollingBehaviorPixel" translate="yes" xml:space="preserve">
           <source>Pixel (smooth)</source>
           <target state="translated" state-qualifier="mt-suggestion">Піксель (гладкий)</target>
+        </trans-unit>
+        <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
+          <source>Selected Toolbar</source>
+          <target state="new">Вибрана панель інструментів</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
+          <source>Cancelling backup…</source>
+          <target state="new">Скасування резервного копіювання…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
+          <source>Your settings and user resources have been backed up.</source>
+          <target state="new">Резервні копії ваших налаштувань та ресурсів користувача створено.</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
+          <source>Backup complete</source>
+          <target state="new">Резервне копіювання завершено</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
+          <source>Back up OneCommander settings</source>
+          <target state="new">Резервне копіювання налаштувань OneCommander</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
+          <source>Backup failed</source>
+          <target state="new">Не вдалося створити резервну копію</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
+          <source>Backup settings…</source>
+          <target state="new">Налаштування резервного копіювання…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
+          <source>Preparing backup…</source>
+          <target state="new">Підготовка резервної копії…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
+          <source>Backup / restore</source>
+          <target state="new">Резервне копіювання / відновлення</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
+          <source>Saving open windows and tabs…</source>
+          <target state="new">Збереження відкритих вікон і вкладок…</target>
+        </trans-unit>
+        <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
+          <source>Back up settings</source>
+          <target state="new">Налаштування резервного копіювання</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
+          <source>Import failed</source>
+          <target state="new">Імпорт не вдалося</target>
+        </trans-unit>
+        <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
+          <source>Import from v3…</source>
+          <target state="new">Імпорт з версії 3…</target>
+        </trans-unit>
+        <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
+          <source>No settings matched your search</source>
+          <target state="new">Жодні налаштування не відповідали вашому пошуку</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
+          <source>Reset all settings to defaults…</source>
+          <target state="new">Скинути всі налаштування до заводських значень…</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
+          <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
+          <target state="new">Усі налаштування скинуто до значень за замовчуванням. Перезапустіть OneCommander, щоб застосувати скидання.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
+          <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
+          <target state="new">Скинути всі налаштування OneCommander до значень за замовчуванням? Ваша ліцензія та активація будуть збережені.</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
+          <source>Reset failed</source>
+          <target state="new">Скидання не вдалося</target>
+        </trans-unit>
+        <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
+          <source>Settings reset</source>
+          <target state="new">Скидання налаштувань</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
+          <source>Restore backup…</source>
+          <target state="new">Відновити резервну копію…</target>
+        </trans-unit>
+        <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
+          <source>Restore failed</source>
+          <target state="new">Відновлення не вдалося</target>
         </trans-unit>
         <trans-unit id="ShortcutClickOpt1" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -660,6 +984,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="needs-review-translation">Показувати розширення файлу</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">Показати кнопки панелі інструментів "Перегляд файлів"</target>
+        </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
           <target state="translated">Показувати фонове зображення папки</target>
@@ -669,22 +997,26 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated">Якщо папка містить файл з іменем folder.jpg, cover.jpg, background.jpg or front.jpg, вона буде завантажена як фонове зображення. Корисно для музичних альбомів і кінопостерів</target>
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
-          <source>Show folder sizes</source>
+          <source>Calculate folder sizes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати розмір папки</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source>Uses Windows Shell to get Folder Size. It is not 100% accurate but it is fast. Size format cannot be changed. Sorting folders by size is not possible. Higher CPU use</source>
-          <target state="needs-review-translation">Використовує оболонку Windows, щоб отримати розмір папки і не завжди є точним, але швидким. Формат розміру змінити не можна; Сортування папок за розміром не підтримується</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <source></source>
+          <target state="new">Використовує оболонку Windows, щоб отримати розмір папки і не завжди є точним, але швидким. Формат розміру змінити не можна; Сортування папок за розміром не підтримується</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
-          <source>Show Folder size on network folders</source>
-          <target state="translated">Показати розмір папки в мережевих папках</target>
+          <source>Calculate folder sizes on network folders</source>
+          <target state="needs-review-translation">Показати розмір папки в мережевих папках</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated">Вимкнено за замовчуванням, оскільки це робить перегляд мережевих папок повільнішим</target>
+        </trans-unit>
+        <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
+          <source>Show folder name in background</source>
+          <target state="new">Показати назву папки у фоновому режимі</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -695,6 +1027,10 @@ This should be enabled if program is set as a default file manager</source>
           <target state="translated" state-qualifier="mt-suggestion">Глобальне сполучення клавіш: Ctrl+H</target>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
+          <source>Show main toolbar</source>
+          <target state="new">Показати головну панель інструментів</target>
+          <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="translated">Показати метадані в мережевих файлах</target>
@@ -703,10 +1039,18 @@ This should be enabled if program is set as a default file manager</source>
           <source>Off by default as it makes browsing network folders slower</source>
           <target state="translated">Вимкнено за замовчуванням, оскільки це робить перегляд мережевих папок повільнішим</target>
         </trans-unit>
+        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="new">Кнопка "Показати сценарії"</target>
+        </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
           <source>Show protected system files and folders</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати системні файли та папки</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
+          <source>Requires "Show hidden files" to be enabled</source>
+          <target state="new">Потрібно ввімкнути «Показувати приховані файли».</target>
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePoints" translate="yes" xml:space="preserve">
           <source>Skip searching within reparse points</source>
@@ -716,17 +1060,21 @@ This should be enabled if program is set as a default file manager</source>
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
           <target state="translated">Використовуйте це, тільки якщо ви знаєте, що у вас є циклічні повторні точки, які приведуть до нескінченного пошуку. Перевірка цього зламає пошук хмарних дисків, оскільки вони покладаються на повторні точки</target>
         </trans-unit>
+        <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
+          <source>Solid color</source>
+          <target state="new">Однотонний колір</target>
+          <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirection" translate="yes" xml:space="preserve">
           <source>Sort direction</source>
           <target state="translated" state-qualifier="mt-suggestion">Напрямок сортування</target>
         </trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
-          <source>Sort folders by name always</source>
-          <target state="translated" state-qualifier="mt-suggestion">Завжди сортувати папки за іменами</target>
+          <source>Always sort folders by name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завжди сортувати папки за іменами</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
-          <source>If ON: Even if you sort files by date, folders will remain sorted by name</source>
-          <target state="translated">Якщо ВВІМКНЕНО: Навіть якщо ви сортуєте файли за датою, папки залишаться відсортовані за назвою</target>
+          <source>Folders remain alphabetized, even when files are sorted by date or size</source>
+          <target state="needs-review-translation">Якщо ВВІМКНЕНО: Навіть якщо ви сортуєте файли за датою, папки залишаться відсортовані за назвою</target>
         </trans-unit>
         <trans-unit id="SortingInfo" translate="yes" xml:space="preserve">
           <source>These settings won't affect folders that already have sorting saved</source>
@@ -740,6 +1088,26 @@ This should be enabled if program is set as a default file manager</source>
           <source>Keep folders above files</source>
           <target state="needs-review-translation">Тримати папки зверху</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
+          <source>Stretch to fill</source>
+          <target state="new">Розтягніть, щоб заповнити</target>
+        </trans-unit>
+        <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="new">Вихідний розмір</target>
+        </trans-unit>
+        <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
+          <source>Tile</source>
+          <target state="new">Плитка</target>
+        </trans-unit>
+        <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
+          <source>Fit (no crop)</source>
+          <target state="new">Fit (без кадрування)</target>
+        </trans-unit>
+        <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (crop extra)</source>
+          <target state="new">Заповнити (обрізати додатково)</target>
         </trans-unit>
         <trans-unit id="TabAdvanced" translate="yes" xml:space="preserve">
           <source>Advanced</source>
@@ -786,10 +1154,40 @@ This should be enabled if program is set as a default file manager</source>
           <source>Window</source>
           <target state="translated" state-qualifier="tm-suggestion">Вікно</target>
         </trans-unit>
+        <trans-unit id="TeraCopyLimitations" translate="yes" xml:space="preserve">
+          <source>Limited OneCommander integration
+No Undo support
+No color tag preservation on move
+No folder/thumbnail database updates</source>
+          <target state="new">Обмежена інтеграція з OneCommander
+Підтримка Undo без
+Не зберігається кольорова бірка під час руху
+Жодних оновлень бази даних папок чи мініатюр</target>
+        </trans-unit>
+        <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
+          <source>The quick brown fox jumps over lazy dog 1234567890</source>
+          <target state="new">Швидка коричнева лисиця перестрибує через лінивого собаку 1234567890</target>
+        </trans-unit>
+        <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
+          <source>Theme author</source>
+          <target state="new">Автор теми</target>
+        </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Щоб створити настроювану тему: створіть копію теми з папки \Themes і відредагуйте значення у файлі .xaml</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
+          <source>Theme defined</source>
+          <target state="new">Тема визначена</target>
+          <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
+        <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
+          <source>ThemeDescription</source>
+          <target state="new">Опис теми</target>
+        </trans-unit>
+        <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
+          <source>Suggested accent color</source>
+          <target state="new">Рекомендований колір акценту</target>
         </trans-unit>
         <trans-unit id="ThumbnailExcludedExtensions" translate="yes" xml:space="preserve">
           <source>File extensions to exclude thumbnails</source>
@@ -806,6 +1204,58 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="TimeFormat12h" translate="yes" xml:space="preserve">
           <source>12h with AM/PM</source>
           <target state="translated">12г з AM/PM</target>
+        </trans-unit>
+        <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
+          <source>Toolbar editor</source>
+          <target state="new">Редактор панелі інструментів</target>
+        </trans-unit>
+        <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
+          <source>Toolbars</source>
+          <target state="new">Панелі інструментів</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
+          <source>Translation authors:</source>
+          <target state="new">Автор перекладу</target>
+        </trans-unit>
+        <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
+          <source>Machine translated using Microsoft Translator</source>
+          <target state="new">Olexander Saksonik</target>
+          <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
+        <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
+          <source>Help improve translations</source>
+          <target state="new">Навчіться не сприяти перекладу</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
+          <source>Daily</source>
+          <target state="new">Щодня</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
+          <source>Every 6 hours</source>
+          <target state="new">Кожні 6 годин</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
+          <source>Update check frequency</source>
+          <target state="new">Частота перевірки оновлень</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
+          <source>Never</source>
+          <target state="new">Ніколи</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
+          <source>On start</source>
+          <target state="new">На старті</target>
+        </trans-unit>
+        <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
+          <source>Weekly</source>
+          <target state="new">Щотижня</target>
+        </trans-unit>
+        <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
+          <source>Update found. Do you want to update to version {0} now?</source>
+          <target state="new">Оновлення знайдено. Ви хочете оновити до версії {0} зараз?</target>
+        </trans-unit>
+        <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
+          <source>Use acrylic effect in dialogs</source>
+          <target state="new">Використовуйте акриловий ефект у діалогах</target>
         </trans-unit>
         <trans-unit id="UseAcrylicWindow" translate="yes" xml:space="preserve">
           <source>Use Acrylic window</source>
@@ -841,18 +1291,16 @@ This should be enabled if program is set as a default file manager</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source>Use old definition of Megabyte (as in Windows Explorer)</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використання старого визначення мегабайта</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Windows Explorer</note>
-        </trans-unit>
+          <source></source>
+          <target state="new">Використання старого визначення мегабайта</target>
+          <note from="MultilingualBuild">NOT USED</note>
+          <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source>Turn ON if you prefer using Mebibytes instead of Megabytes
-1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
-1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI standard)</source>
-          <target state="translated">Увімкніть, якщо ви віддаєте перевагу використовувати Мебібайтів замість Мегабайтів
+          <source></source>
+          <target state="new">Увімкніть, якщо ви віддаєте перевагу використовувати Мебібайтів замість Мегабайтів
 1 Мебібайт = 2^20 байт = 1048576 байт (IEC)
 1 Мегабайт (МБ) = 10^6 байт = 1000000 байтів (стандарт СІ)</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -866,6 +1314,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">NOT USED</note>
         </trans-unit>
+        <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
+          <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
+          <target state="new">Використовуйте застарілі мітки у стилі Windows (Показувати мебібайти як МБ)</target>
+          <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
+        <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
+          <source>Background type</source>
+          <target state="new">Тип фону</target>
+          <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
           <target state="translated">Параметри OneCommander</target>
@@ -932,7 +1388,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated" state-qualifier="mt-suggestion">Обробник операцій з файлами</target>
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
-          <source>Choice between default (Explorer), TeraCopy (must be already installed), and Taskmaster (New)</source>
+          <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
           <target state="needs-review-translation">Вибір між типовим значенням або TeraCopy (повинен бути вже інстальований)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Taskmaster is the name of new OC file operations manager; don't translate</note>
@@ -1012,14 +1468,6 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Windows default</source>
           <target state="translated" state-qualifier="tm-suggestion">Windows за замовчуванням</target>
         </trans-unit>
-        <trans-unit id="ShowFileAttributes" translate="yes" xml:space="preserve">
-          <source>Show file attributes and synchronization state icons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відображення атрибутів файлів і піктограм стану синхронізації</target>
-        </trans-unit>
-        <trans-unit id="ShowFileAttributesInfo" translate="yes" xml:space="preserve">
-          <source>Required to show OneDrive status icons when Files on Demand is enabled. Shows also encrypted and reparse icons. Better performance when off.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Потрібно відображати піктограми стану OneDrive, якщо ввімкнуто функцію "Файли на вимогу". Також відображає зашифровані та репаровані піктограми. Краща продуктивність при вимкнені.</target>
-        </trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Масштабований відповідно до області попереднього перегляду</target>
@@ -1063,10 +1511,6 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Реєстрація обробника ескізів 3ds Max</target>
-        </trans-unit>
-        <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source>Show Files View toolbar buttons</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати кнопки панелі інструментів "Перегляд файлів"</target>
         </trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
@@ -1125,8 +1569,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкрити контури із зовнішнього джерела в:</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
-          <source>Existing tab with the same path</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Наявна вкладка</target>
+          <source>Existing tab with the same path, otherwise new tab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Наявна вкладка з тим самим шляхом, інакше нова вкладка</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
@@ -1371,18 +1815,15 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open Office files through Explorer</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Відкриття файлів Office у Провіднику</target>
         </trans-unit>
-        <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source>Show Scripts button</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Кнопка "Показати сценарії"</target>
-        </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Наприклад, перегляньте папку \Ресурси\Сценарії\. У PRO-користувачів може бути більше 8 скриптів.</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Keep \Resources\Scripts\ as is</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">NOT USED; Keep \Resources\Scripts\ as is</note>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo2" translate="yes" xml:space="preserve">
           <source>Know the scripts you are running! Security risk!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Знайте сценарії, які ви запускаєте! Ризик для безпеки!</target>
+          <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -1454,7 +1895,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ShortcutConflictWith" translate="yes" xml:space="preserve">
           <source>Conflict with</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Конфлікт з</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Column header - listing other shortcuts with which the current one is in conflict</note>
         </trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -1529,7 +1970,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Copy-paste the arrow</note>
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
-          <source>Font size larger than 18pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
+          <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Розмір шрифту, більший за 18pt, офіційно не підтримується, і деякий текст може виглядати обрізаним або неузгодженим. Зміна масштабу в настройках дисплея Windows є кращим способом збільшення інтерфейсу користувача</target>
         </trans-unit>
         <trans-unit id="HowToOpenFullShellContextMenuInfo" translate="yes" xml:space="preserve">
@@ -1693,7 +2134,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Global hotkey to open program</target>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
-          <source>To open program even when not running, pin as the first item on taskbar and use Win+1 to open</source>
+          <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
           <target state="new">To open program even when not running, pin as the first item on taskbar and use Win+1 to open</target>
         </trans-unit>
         <trans-unit id="HiddenFilesExtList" translate="yes" xml:space="preserve">
@@ -1792,7 +2233,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Autostart</target>
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
-          <source>Run on Windows startup without a creating a window</source>
+          <source>Run on Windows startup</source>
           <target state="new">Run on Windows startup without a creating a window</target>
         </trans-unit>
         <trans-unit id="DLG_UncheckBeforeUninstall" translate="yes" xml:space="preserve">
@@ -1807,7 +2248,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DLG_YN_GetUnity" translate="yes" xml:space="preserve">
           <source>Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</source>
           <target state="new">Detected [BOLDSTART]Unity[BOLDEND] installation.[NEWLINE]Would you like to open Unity Asset Store to show the Unity integration for OneCommander?</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Don't translate Unity, Asset Store, and Unity Integration for OneCommander is also an addon name</note>
         </trans-unit>
         <trans-unit id="CreatePSAlias" translate="yes" xml:space="preserve">
           <source>Create PowerShell alias 'oc'</source>
@@ -1857,8 +2298,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="new">Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
-          <source>Select the best looking text option</source>
-          <target state="new">Select the best looking text option</target>
+          <source>Choose the clearest text rendering for your screen</source>
+          <target state="new">Оберіть найчіткіший варіант відображення тексту для вашого екрана</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -1920,6 +2361,28 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="translated">Р</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File age - short for year (ex: 1 y)</note>
         </trans-unit>
+        <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
+          <source>This archive was downloaded from the internet. Windows marks these files for security. 
+Choose how to extract them:</source>
+          <target state="new">Цей архів було завантажено з інтернету. Windows позначає ці файли для безпеки. 
+Виберіть спосіб їх вилучення:</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
+          <source>Keep internet security marks</source>
+          <target state="new">Зберігайте марки безпеки в інтернеті</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
+          <source>Windows and other programs may show safety warnings when you open these files</source>
+          <target state="new">Windows та інші програми можуть показувати попередження про безпеку при відкритті цих файлів</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
+          <source>Remove internet security marks</source>
+          <target state="new">Видалити марки безпеки в інтернеті</target>
+        </trans-unit>
+        <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
+          <source>Choose this only if you completely trust this archive and its contents</source>
+          <target state="new">Обирайте це лише якщо повністю довіряєте цьому архіву та його вмісту</target>
+        </trans-unit>
         <trans-unit id="Archive_CancellingExtraction" translate="yes" xml:space="preserve">
           <source>Cancelling task...</source>
           <target state="translated" state-qualifier="mt-suggestion">Скасування завдання...</target>
@@ -1957,6 +2420,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Yes</source>
           <target state="translated" state-qualifier="tm-suggestion">Так</target>
         </trans-unit>
+        <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled in settings</source>
+          <target state="new">Вимкнено в налаштуваннях</target>
+          <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
           <target state="translated" state-qualifier="mt-suggestion">Змінення подання файлів</target>
@@ -1998,6 +2465,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Copy path to clipboard</source>
           <target state="translated" state-qualifier="tm-suggestion">Копіювати шлях до буфера обміну</target>
         </trans-unit>
+        <trans-unit id="Customize" translate="yes" xml:space="preserve">
+          <source>Customize</source>
+          <target state="new">Налаштувати</target>
+          <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
+        <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
+          <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
+          <target state="new">Деякі операції ще тривають. Будь ласка, дочекайтеся завершення операцій або скасуйте їх перед закриттям, щоб запобігти втраті даних.</target>
+        </trans-unit>
         <trans-unit id="Delete_S" translate="yes" xml:space="preserve">
           <source>Del</source>
           <target state="translated" state-qualifier="tm-suggestion">Del</target>
@@ -2021,6 +2496,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="DetailsFileSystem" translate="yes" xml:space="preserve">
           <source>File system</source>
           <target state="translated" state-qualifier="mt-suggestion">Файлова система</target>
+        </trans-unit>
+        <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
+          <source>Total files</source>
+          <target state="new">Всього файлів</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -2201,6 +2680,51 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Starts with:</source>
           <target state="translated" state-qualifier="mt-suggestion">Почнемо з:</target>
         </trans-unit>
+        <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
+          <source>Choose a default layout</source>
+          <target state="new">Виберіть макет за замовчуванням</target>
+        </trans-unit>
+        <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
+          <source>Choose a theme</source>
+          <target state="new">Виберіть тему</target>
+        </trans-unit>
+        <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
+          <source>Read the terms until the end before continuing.</source>
+          <target state="new">Прочитайте умови до кінця, перш ніж продовжувати.</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
+          <source>Size format</source>
+          <target state="new">Формат розміру</target>
+        </trans-unit>
+        <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
+          <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
+          <target state="new">З будь-яких питань розробник програми знаходиться за один клік від діалогового вікна ⓘ Про нас</target>
+        </trans-unit>
+        <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
+          <source>Higher CPU use until all folder sizes are calculated in the current view</source>
+          <target state="new">Більше використання процесора, доки не будуть обчислені розміри всіх папок у поточному поданні</target>
+        </trans-unit>
+        <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
+          <source>Folders are sorted only if total size has been calculated</source>
+          <target state="new">Папки сортуються, лише якщо було обчислено загальний розмір</target>
+        </trans-unit>
+        <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
+          <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
+          <target state="new">Повне оновлення. Примусово перевіряє наявність нових елементів і перераховує розміри всіх папок</target>
+          <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
+        <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
+          <source>Global settings</source>
+          <target state="new">Глобальні налаштування</target>
+          <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
+        <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
+          <source>Initializing video engine (FFmpeg)...</source>
+          <target state="new">Ініціалізація відеодвигуна (FFmpeg)...</target>
+          <note from="MultilingualBuild">First time preview loads a video</note>
+        </trans-unit>
+        <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
+          <source>Instant Search</source>
+          <target state="new">Миттєвий пошук</target>
+        </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
           <target state="translated" state-qualifier="tm-suggestion">вибрані</target>
@@ -2212,8 +2736,8 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <note from="MultilingualBuild" annotates="source" priority="2">Shows number of items in status bar as X items</note>
         </trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
-          <source>Switch between Standard and Columns layouts</source>
-          <target state="translated">Переключення між вертикальною і горизонтальною розкладкою</target>
+          <source>Switch between window layouts</source>
+          <target state="needs-review-translation">Переключення між вертикальною і горизонтальною розкладкою</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
           <source>Locate item</source>
@@ -2227,6 +2751,18 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Login as...</source>
           <target state="translated" state-qualifier="mt-suggestion">Увійти як...</target>
         </trans-unit>
+        <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
+          <source>Disk not responding</source>
+          <target state="new">Диск не відповідає</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
+        <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
+          <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
+          <target state="new">Таскмастер завмирає. Ця операція буде оброблена, коли ви її знімете на паузу</target>
+        </trans-unit>
+        <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
+          <source>Waking disk (attempt {0}/{1})</source>
+          <target state="new">Диск у режимі сну (спроба {0}/{1})</target>
+          <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MapNetDrive_Letter" translate="yes" xml:space="preserve">
           <source>Drive letter to mount (e.g. 'K')</source>
           <target state="translated" state-qualifier="mt-suggestion">Буква диска для монтування (наприклад, "K")</target>
@@ -2234,6 +2770,16 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
           <target state="translated">Мережевий шлях (наприклад, \\ім'я_комп'ютера\спільний_доступ)</target>
+        </trans-unit>
+        <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
+          <source>Mebibyte</source>
+          <target state="new">Мебібайт</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
+        </trans-unit>
+        <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
+          <source>Megabyte</source>
+          <target state="new">Мегабайт</target>
+          <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractHere" translate="yes" xml:space="preserve">
           <source>Extract here</source>
@@ -2258,7 +2804,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_Copy" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="translated" state-qualifier="tm-suggestion">Копіювати</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Button under Menu_CopyMoveToRecent</note>
         </trans-unit>
         <trans-unit id="Menu_CopyAsPath" translate="yes" xml:space="preserve">
           <source>Copy as path</source>
@@ -2344,6 +2890,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Нове вікно (незабаром)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
+        <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
+          <source>Open Location</source>
+          <target state="new">Відкрити розташування</target>
+        </trans-unit>
+        <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
+          <source>Open Location in new tab</source>
+          <target state="new">Відкрити місцезнаходження в новій вкладці</target>
+        </trans-unit>
         <trans-unit id="Menu_Refresh" translate="yes" xml:space="preserve">
           <source>Refresh everything</source>
           <target state="translated" state-qualifier="mt-suggestion">Оновити все</target>
@@ -2375,6 +2929,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="Menu_SortByDate_OldestFirst" translate="yes" xml:space="preserve">
           <source>Date modified (Oldest first)</source>
           <target state="translated" state-qualifier="mt-suggestion">Дата (спочатку найстаріша)</target>
+        </trans-unit>
+        <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
+          <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
+          <target state="new">Може на мить замерзнути на великих папках; необхідні для вилучення метаданих усіх файлів</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -2783,6 +3341,22 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Downloading latest version from OneCommander.com...</source>
           <target state="translated" state-qualifier="mt-suggestion">Завантаження останньої версії з OneCommander.com...</target>
         </trans-unit>
+        <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
+          <source>Authors</source>
+          <target state="new">Автори</target>
+        </trans-unit>
+        <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
+          <source>Signature check</source>
+          <target state="new">Перевірка підпису</target>
+        </trans-unit>
+        <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Підпис</target>
+        </trans-unit>
+        <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
+          <source>This file was downloaded from the internet</source>
+          <target state="new">Цей файл було завантажено з Інтернету</target>
+          <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
           <target state="translated">Alt + стрілка Вліво</target>
@@ -2859,6 +3433,14 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Open new or saved window</source>
           <target state="translated" state-qualifier="mt-suggestion">Відкриття нового або збереженого вікна</target>
         </trans-unit>
+        <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
+          <source>No recent operations</source>
+          <target state="new">Немає останніх операцій</target>
+        </trans-unit>
+        <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
+          <source>No digital signature</source>
+          <target state="new">Немає цифрового підпису</target>
+          <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
           <target state="translated" state-qualifier="mt-suggestion">ESC, щоб закрити | ~ щоб відкрити</target>
@@ -2867,6 +3449,10 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
           <source>Minimizes Notification Pane</source>
           <target state="translated" state-qualifier="mt-suggestion">Згортання області сповіщень</target>
         </trans-unit>
+        <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
+          <source>Operation history</source>
+          <target state="new">Історія операції</target>
+          <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
           <target state="translated" state-qualifier="tm-suggestion">Згорнути</target>
@@ -2888,6 +3474,32 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
 Some programs won't be able to open/save files from this folder</source>
           <target state="translated" state-qualifier="mt-suggestion">Шлях довше, ніж підтримується Windows (260 символів)
 Деякі програми не зможуть відкривати або зберігати файли з цієї папки</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWarningMessage" translate="yes" xml:space="preserve">
+          <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
+OneCommander cannot bypass this behavior. 
+Choose how to proceed:</source>
+          <target state="new">Windows позначила цей файл як завантажений з Інтернету. Завдяки цьому тегу Microsoft Photos відображатиме запит безпеки під час кожного відкриття. OneCommander не контролює цю поведінку. Виберіть, як це зробити:</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
+          <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
+          <target state="new">Порада: скористайтеся вбудованою функцією попереднього перегляду OneCommander (пробіл) або встановіть інший засіб перегляду зображень за замовчуванням, щоб повністю уникнути цього запиту.</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
+          <source>Open this file only</source>
+          <target state="new">Відкрийте зображення окремо</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation in Photos will not work</source>
+          <target state="new">← → стрілки навігації у Фото не працюватимуть</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
+          <source>Remove the security mark and open</source>
+          <target state="new">Зніміть веб-прапор і відкрийте</target>
+        </trans-unit>
+        <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
+          <source>← → Arrow navigation will work normally</source>
+          <target state="new">← → стрілки навігації працюватимуть нормально</target>
         </trans-unit>
         <trans-unit id="Popup_LaunchWithParams_Title" translate="yes" xml:space="preserve">
           <source>Launch arguments</source>
@@ -2959,13 +3571,17 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated" state-qualifier="mt-suggestion">Ім'я цього шаблону</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
-          <source>To add new line press Ctrl + Enter</source>
-          <target state="translated" state-qualifier="mt-suggestion">Щоб додати новий рядок, натисніть Ctrl + Enter</target>
+          <source>To add new line press Shift + Enter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Щоб додати новий рядок, натисніть Ctrl + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
           <target state="translated">Нотатки / Завдання</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title of the New Note dialog</note>
+        </trans-unit>
+        <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
+          <source>Download and preview</source>
+          <target state="new">Завантажити та переглянути</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -3024,6 +3640,10 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Recycle Bin</source>
           <target state="translated">Кошик</target>
         </trans-unit>
+        <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
+          <source>Remember my choice and don't ask again</source>
+          <target state="new">Запам'ятайте мій вибір і більше не питайте</target>
+        </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
           <target state="translated" state-qualifier="tm-suggestion">F2</target>
@@ -3032,6 +3652,14 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Rename</source>
           <target state="translated" state-qualifier="tm-suggestion">Перейменувати</target>
         </trans-unit>
+        <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
+          <source>Report a problem to the developer</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
+          <source>Saved windows</source>
+          <target state="new">Збережені вікна</target>
+          <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Search" translate="yes" xml:space="preserve">
           <source>Search</source>
           <target state="translated" state-qualifier="tm-suggestion">Пошук</target>
@@ -3053,13 +3681,29 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Search files starting from currently opened folder</source>
           <target state="translated" state-qualifier="mt-suggestion">Пошук файлів, починаючи з поточної відкритої папки</target>
         </trans-unit>
+        <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
+          <source>Some session windows were restored to other virtual desktops</source>
+          <target state="new">Деякі вікна сеансу було відновлено на інших віртуальних робочих столах</target>
+        </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
           <target state="translated" state-qualifier="mt-suggestion">Параметри програми</target>
         </trans-unit>
+        <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
+          <source>Show only undoable operations</source>
+          <target state="new">Показувати лише нездійсненні операції</target>
+          <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
+        <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
+          <source>File operations running. Closing risks data loss.</source>
+          <target state="new">Виконуються файлові операції. Закриття може призвести до втрати даних.</target>
+          <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
+        <trans-unit id="Signature" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="new">Підпис</target>
+          <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
-          <source>DATE</source>
-          <target state="translated" state-qualifier="tm-suggestion">ДАТА</target>
+          <source>Date</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ДАТА</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
@@ -3070,8 +3714,8 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated">Сортування елементів за датою (спочатку найстаріші)</target>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
-          <source>NAME</source>
-          <target state="translated" state-qualifier="tm-suggestion">ІМ`Я</target>
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ІМ`Я</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
@@ -3082,26 +3726,26 @@ Some programs won't be able to open/save files from this folder</source>
           <target state="translated" state-qualifier="mt-suggestion">Сортування елементів за назвою (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
-          <source>SIZE</source>
-          <target state="translated" state-qualifier="tm-suggestion">РОЗМІР</target>
+          <source>Size</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">РОЗМІР</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">Сортування файлів за розміром (перший найбільший); Папки не сортуються</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
-Folders can't be sorted</source>
+Folders are sorted only if total size has been calculated</source>
           <target state="needs-review-translation">Сортує файли за розміром (спочатку найменший); Папки не сортуються</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Added newline</note>
         </trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
-          <source>TYPE</source>
-          <target state="translated" state-qualifier="tm-suggestion">ТИП</target>
+          <source>Type</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ТИП</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
@@ -3112,9 +3756,17 @@ Folders can't be sorted</source>
           <target state="translated" state-qualifier="mt-suggestion">Сортування елементів за типом (Z-A)</target>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
-          <source>Keep folders above files (On/Off)</source>
+          <source>Keep folders above files</source>
           <target state="needs-review-translation">Перемикач "Тримати папки зверху"</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="SortLive" translate="yes" xml:space="preserve">
+          <source>Live sorting</source>
+          <target state="new">Живе сортування</target>
+          <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
+        <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
+          <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
+          <target state="new">Якщо ввімкнено, перейменований файл буде відсортовано разом з іншими файлами та перейде до нового місця сортування. За замовчуванням вимкнено</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -3149,9 +3801,26 @@ Folders can't be sorted</source>
           <source>TIP: You can draw selection-window by holding Middle-Mouse-Button without needing to use empty space</source>
           <target state="translated" state-qualifier="mt-suggestion">ПОРАДА: Ви можете намалювати вікно вибору, утримуючи середню кнопку миші без необхідності використовувати порожній простір</target>
         </trans-unit>
+        <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
+          <source>Open Taskmaster to view and manage file operation jobs</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
+          <source>Dark theme</source>
+          <target state="new">Темна тема</target>
+        </trans-unit>
+        <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
+          <source>Light theme</source>
+          <target state="new">Світла тема</target>
+        </trans-unit>
+        <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
+          <source>Ctrl± ｜ Ctrl☸</source>
+          <target state="new">Ctrl± ｜ Ctrl☸</target>
+        </trans-unit>
         <trans-unit id="Unlock" translate="yes" xml:space="preserve">
           <source>Unlock</source>
           <target state="translated" state-qualifier="tm-suggestion">Розблокувати</target>
+          <note from="MultilingualBuild">Button in bitlocker drives</note>
         </trans-unit>
         <trans-unit id="Update_TT" translate="yes" xml:space="preserve">
           <source>Install latest update</source>
@@ -3162,6 +3831,10 @@ Folders can't be sorted</source>
           <source>Updating...</source>
           <target state="translated" state-qualifier="tm-suggestion">Оновлення…</target>
           <note from="MultilingualBuild" annotates="source" priority="2">On splashscreen</note>
+        </trans-unit>
+        <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
+          <source>Waiting for {0} to respond...</source>
+          <target state="new">Очікування відповіді від {0}...</target>
         </trans-unit>
         <trans-unit id="Warning" translate="yes" xml:space="preserve">
           <source>Warning!</source>
@@ -3443,7 +4116,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Warning message showing in Store version when browsing AppData</note>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
-          <source>Windows doesn't support undoing file operations outside Explorer</source>
+          <source>Make Taskmaster default file operations manager to enable undo</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Windows не підтримує скасування операцій із файлами за межами Провідника</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Message on CtrlZ</note>
         </trans-unit>
@@ -3453,7 +4126,7 @@ Folders can't be sorted</source>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
-          <source>Give new window a name to save its layout, position and tabs for the next time you need it</source>
+          <source>Give this window a name so it can persist layout and tabs across sessions</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Дайте новому вікні ім'я, щоб зберегти його макет, розташування та вкладки для наступного разу, коли вам це знадобиться</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Tooltip shown on New window dialog if there are no saved windows</note>
         </trans-unit>
@@ -3558,7 +4231,7 @@ Folders can't be sorted</source>
           <note from="MultilingualBuild" annotates="source" priority="2">Previewing file as text (tab in preview window)</note>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
-          <source>File is in use by {0}.[NEWLINE]({1})[NEWLINE]Retry operation?</source>
+          <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Файл використовується операцією {0}.&lt;br/&gt;({1})&lt;br/&gt;Повторна спроба?</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note>
@@ -3709,7 +4382,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="Watermark_SearchingForLinux" translate="yes" xml:space="preserve">
           <source>Searching for Linux distros...</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Пошук дистрибутивів Linux...</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">When searching for WSL</note>
         </trans-unit>
         <trans-unit id="MSG_E_ErrorOpeningWSLPath" translate="yes" xml:space="preserve">
           <source>Folder {0} not available (distro may not be running)</source>
@@ -4097,7 +4770,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
           <target state="new">Undo</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Currently in path edit of single-pane layout right click menu text box</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">In Operation History and in path edit of single-pane layout right click menu text box</note>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -4135,7 +4808,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="MetadataResolution" translate="yes" xml:space="preserve">
           <source>Resolution</source>
           <target state="new">Resolution</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Metadata for video or photo</note>
         </trans-unit>
         <trans-unit id="MetadataAperture" translate="yes" xml:space="preserve">
           <source>Aperture</source>
@@ -4287,6 +4960,16 @@ Some programs won't be able to open this file</source>
           <target state="new">Attributes</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">Далі</target>
+          <note from="MultilingualBuild">Wizard next step</note>
+        </trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">Початок</target>
+          <note from="MultilingualBuild">Wizard step start the program</note>
+        </trans-unit>
       </group>
     </body>
   </file>
@@ -4420,7 +5103,7 @@ Some programs won't be able to open this file</source>
         <trans-unit id="TipShortcutEditor" translate="yes" xml:space="preserve">
           <source>See Shortcuts Editor in Settings 🡢 Advanced</source>
           <target state="new">See Shortcuts Editor in Settings 🡢 Advanced</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow </note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy this arrow</note>
         </trans-unit>
         <trans-unit id="UpgradeToUserBasedLicense" translate="yes" xml:space="preserve">
           <source>Upgrade to User-based license</source>
@@ -4608,6 +5291,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>If you are using Thumbnail, make it the same height</source>
           <target state="translated">Якщо використовується ескіз, зробіть його однакової висоти</target>
         </trans-unit>
+        <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
+          <source>Assigning custom views to folders requires a Pro license.</source>
+          <target state="new">Для призначення користувацьких подань папкам потрібна ліцензія Pro.</target>
+          <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
           <target state="translated" state-qualifier="mt-suggestion">Відредаговано подання:</target>
@@ -4644,6 +5331,10 @@ The license will be valid for up to 10 computers used with the same Microsoft Ac
           <source>Load</source>
           <target state="translated" state-qualifier="tm-suggestion">Завантажити</target>
         </trans-unit>
+        <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
+          <source>Metadata block</source>
+          <target state="new">Блок метаданих</target>
+          <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
           <target state="translated" state-qualifier="mt-suggestion">Мін.Ширина</target>
