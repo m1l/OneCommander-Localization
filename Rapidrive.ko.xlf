@@ -2,7 +2,7 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESFVD.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFVD.RESX" datatype="resx">
@@ -128,7 +128,7 @@
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESABOUT.RESX" datatype="resx">
@@ -281,7 +281,7 @@
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESLICENSING.RESX" datatype="resx">
@@ -424,7 +424,7 @@ Microsoft Store 정책에 따라 같은 Microsoft 계정을 사용하는 컴퓨�
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESFILEAUTOMATOR.RESX" datatype="resx">
@@ -865,7 +865,7 @@ Microsoft Store 정책에 따라 같은 Microsoft 계정을 사용하는 컴퓨�
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESSETTINGS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSETTINGS.RESX" datatype="resx">
@@ -1878,7 +1878,7 @@ Some translations may include machine-translated text. Community improvements ar
           <target state="translated">파일 확장자 표시</target>
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
-          <source/>
+          <source />
           <target state="translated">파일 보기 도구 모음 단추 표시</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
@@ -1894,7 +1894,7 @@ Some translations may include machine-translated text. Community improvements ar
           <target state="translated">폴더 크기 계산</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
-          <source/>
+          <source />
           <target state="translated">Windows Shell을 사용하여 폴더 크기를 얻습니다. 100% 정확하지는 않지만 빠릅니다. 크기 형식은 변경할 수 없습니다. 크기별로 폴더를 정렬할 수 없습니다. CPU를 더 많이 사용합니다.</target>
           <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
@@ -1923,6 +1923,14 @@ Some translations may include machine-translated text. Community improvements ar
           <source>Show main toolbar</source>
           <target state="translated">기본 도구 모음 표시</target>
           <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
+        <trans-unit id="ShowMetadataInPreview" translate="yes" xml:space="preserve">
+          <source>Show metadata in preview</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="ShowMetadataInPreviewInfo" translate="yes" xml:space="preserve">
+          <source>Shows file attributes, synchronization state, encrypted, and reparse information in the preview.</source>
+          <target state="new"></target>
+        </trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
           <target state="translated">네트워크 파일의 메타데이터 표시</target>
@@ -1932,7 +1940,7 @@ Some translations may include machine-translated text. Community improvements ar
           <target state="translated">네트워크 폴더를 탐색하는 속도가 느려질 수 있어 기본적으로 꺼져 있습니다.</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
-          <source/>
+          <source />
           <target state="translated">스크립트 보기 단추</target>
         </trans-unit>
         <trans-unit id="ShowSystem" translate="yes" xml:space="preserve">
@@ -2219,12 +2227,12 @@ No folder/thumbnail database updates</source>
           <target state="translated">고해상도가 아닌 화면에서 선이 더 선명해집니다. 표시 배율이 100%일 때만 필요합니다. 끄면 프로그램이 더 안정적으로 동작하지만 아이콘과 선이 덜 선명할 수 있습니다. 기본값은 켜짐입니다.</target>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
-          <source/>
+          <source />
           <target state="translated">메가바이트의 이전 정의 사용 (Windows 탐색기와 같은 방식)</target>
           <note from="MultilingualBuild">NOT USED</note>
           <note from="resx">Don't translate Windows Explorer</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
-          <source/>
+          <source />
           <target state="translated">Megabytes 대신 Mebibytes를 사용하는 것을 선호하는 경우 켜세요.
 1 메비바이트 = 2^20바이트 = 1048576 바이트 (IEC)
 1 메가바이트 (MB) = 10^6 바이트 = 1000000 바이트 (SI 표준)</target>
@@ -3189,7 +3197,7 @@ Adobe Acrobat에서 끌어서 페이지를 삽입하는 기능은 두 방식 모
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6919.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCES.RESX" datatype="resx">
@@ -5824,7 +5832,7 @@ Some programs won't be able to open this file</source>
   </file>
   <file datatype="xml" source-language="en-US" target-language="ko" original="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6921.0" tool-company="Microsoft"/>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6921.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="RAPIDRIVE/PROPERTIES/RESOURCESSHORTCUTS.RESX" datatype="resx">

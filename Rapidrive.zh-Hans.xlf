@@ -2597,7 +2597,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
           <source>Attributes</source>
-          <target state="new">Attributes</target>
+          <target state="new">属性</target>
           <note from="MultilingualBuild">File attributes for Details section</note></trans-unit>
         <trans-unit id="DetailsCreated" translate="yes" xml:space="preserve">
           <source>Created</source>
@@ -4388,6 +4388,10 @@ Choose how to proceed:</source>
           <source>Attributes</source>
           <target state="translated">属性</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
+        </trans-unit>
+        <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
+          <source>Sorts items by date modified (Newest first)</source>
+          <target state="new">按修改日期排序（新在前）</target>
         </trans-unit>
         <trans-unit id="SortByDate_OldestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Oldest first)</source>

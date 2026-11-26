@@ -2689,7 +2689,7 @@ Zvolte způsob, jak je extrahovat:</target>
         </trans-unit>
         <trans-unit id="DetailsAttributes" translate="yes" xml:space="preserve">
           <source>Attributes</source>
-          <target state="new">Attributes</target>
+          <target state="new">Atributy</target>
           <note from="MultilingualBuild">File attributes for Details section</note></trans-unit>
         <trans-unit id="DetailsCreated" translate="yes" xml:space="preserve">
           <source>Created</source>
@@ -4701,6 +4701,22 @@ Složky nelze řadit</target>
           <target state="final">Atributy</target>
           <note from="MultilingualBuild" annotates="source" priority="2">File attributes for Details section</note>
         </trans-unit>
+        <trans-unit id="Watermark_WSLEmpty" translate="yes" xml:space="preserve">
+          <source>No WSL distros found. Make sure they are running</source>
+          <target state="new">Nebyly nalezeny žádné distribuce WSL. Ujistěte se, zda běží</target>
+        </trans-unit>
+        <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
+          <source>Window layout</source>
+          <target state="new">Rozvržení okna</target>
+          <note from="MultilingualBuild">Tooltip for layout button and window menu item</note></trans-unit>
+        <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="new">Další</target>
+          <note from="MultilingualBuild">Wizard next step</note></trans-unit>
+        <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="new">Start</target>
+          <note from="MultilingualBuild">Wizard step start the program</note></trans-unit>
       </group>
     </body>
   </file>
