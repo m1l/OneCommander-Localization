@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="vi" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX">
+    <body>
+      <group id="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">Giới thiệu</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollJobs" translate="yes" xml:space="preserve">
+          <source>Auto-scroll jobs</source>
+          <target state="new">Tự động cuộn</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollPaused" translate="yes" xml:space="preserve">
+          <source>Cursor inside. Auto-scroll paused</source>
+          <target state="new">Con trỏ bên trong. Tự động cuộn tạm dừng</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollTasks" translate="yes" xml:space="preserve">
+          <source>Auto-scroll job's tasks</source>
+          <target state="new">Tự động cuộn các tác vụ của công việc</target>
+        </trans-unit>
+        <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Hủy</target>
+        </trans-unit>
+        <trans-unit id="BTN_CancelAll" translate="yes" xml:space="preserve">
+          <source>Cancel all</source>
+          <target state="new">Hủy tất cả</target>
+        </trans-unit>
+        <trans-unit id="BTN_Overwrite" translate="yes" xml:space="preserve">
+          <source>Overwrite</source>
+          <target state="new">Ghi đè</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAll" translate="yes" xml:space="preserve">
+          <source>Overwrite all</source>
+          <target state="new">Ghi đè tất cả</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
+          <source>Overwrite all older</source>
+          <target state="new">Ghi đè tất cả cũ hơn</target>
+        </trans-unit>
+        <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Rename</target>
+        </trans-unit>
+        <trans-unit id="BTN_RenameAll" translate="yes" xml:space="preserve">
+          <source>Rename all</source>
+          <target state="new">Đổi tên tất cả</target>
+        </trans-unit>
+        <trans-unit id="BTN_Skip" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target state="new">Nhảy</target>
+        </trans-unit>
+        <trans-unit id="BTN_SkipAll" translate="yes" xml:space="preserve">
+          <source>Skip all</source>
+          <target state="new">Bỏ qua tất cả</target>
+        </trans-unit>
+        <trans-unit id="ClearCompleted" translate="yes" xml:space="preserve">
+          <source>Clear completed</source>
+          <target state="new">Xóa hoàn thành</target>
+        </trans-unit>
+        <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
+          <source>Clear completed jobs</source>
+          <target state="new">Xóa công việc đã hoàn thành</target>
+        </trans-unit>
+        <trans-unit id="CloseOnComplete" translate="yes" xml:space="preserve">
+          <source>Close on complete</source>
+          <target state="new">Đóng hoàn tất</target>
+        </trans-unit>
+        <trans-unit id="ConcurrentJobs" translate="yes" xml:space="preserve">
+          <source>Concurrent jobs</source>
+          <target state="new">Công việc đồng thời</target>
+        </trans-unit>
+        <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+          <target state="new">giải quyết xung đột</target>
+        </trans-unit>
+        <trans-unit id="DataProgress" translate="yes" xml:space="preserve">
+          <source>Data progress</source>
+          <target state="new">Tiến độ dữ liệu</target>
+        </trans-unit>
+        <trans-unit id="Destination" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target state="new">ĐẾN</target>
+        </trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHours" translate="yes" xml:space="preserve">
+          <source>~{0} hours</source>
+          <target state="new">~{0} giờ</target>
+          <note from="MultilingualBuild">Estimated time remaining when six or more hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHoursMinutes" translate="yes" xml:space="preserve">
+          <source>~{0} h {1} min</source>
+          <target state="new">~{0} h {1} phút</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one hour but less than six hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingMinutesSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} min {1} s</source>
+          <target state="new">~{0} phút {1} giây</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one minute but less than one hour remains</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} s</source>
+          <target state="new">~{0} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when less than one minute remains</note></trans-unit>
+        <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target state="new">Tên đầy đủ</target>
+        </trans-unit>
+        <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
+          <source>Full name final</source>
+          <target state="new">Tên đầy đủ cuối cùng</target>
+        </trans-unit>
+        <trans-unit id="FileName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Tên</target>
+        </trans-unit>
+        <trans-unit id="FileOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Hoạt động</target>
+        </trans-unit>
+        <trans-unit id="FileSize" translate="yes" xml:space="preserve">
+          <source>Size</source>
+          <target state="new">Kích thước</target>
+        </trans-unit>
+        <trans-unit id="FilesProgress" translate="yes" xml:space="preserve">
+          <source>Files progress</source>
+          <target state="new">Tiến trình tập tin</target>
+        </trans-unit>
+        <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
+          <source>Hide on close</source>
+          <target state="new">Ẩn khi đóng</target>
+        </trans-unit>
+        <trans-unit id="JobName" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="new">Công việc</target>
+        </trans-unit>
+        <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
+          <source>{0} items</source>
+          <target state="new">{0} mục</target>
+        </trans-unit>
+        <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
+          <source>Jobs completed</source>
+          <target state="new">Công việc đã hoàn thành</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
+          <source>Jobs failed</source>
+          <target state="new">Công việc thất bại</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
+          <source>Jobs pending</source>
+          <target state="new">Việc làm đang chờ xử lý</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="KeepFileDates" translate="yes" xml:space="preserve">
+          <source>Keep file dates</source>
+          <target state="new">Giữ ngày tập tin</target>
+        </trans-unit>
+        <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
+          <source>Delegated to Explorer due to error:</source>
+          <target state="new">Được ủy quyền cho Explorer do lỗi:</target>
+          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+        <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
+          <source>Doesn't exist</source>
+          <target state="new">Không tồn tại</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorDirectoryExists" translate="yes" xml:space="preserve">
+          <source>Folder with this name already exists</source>
+          <target state="new">Thư mục có tên này đã tồn tại</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorFileExists" translate="yes" xml:space="preserve">
+          <source>File with this name already exists</source>
+          <target state="new">Tệp có tên này đã tồn tại</target>
+        </trans-unit>
+        <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
+          <source>Explorer reported error</source>
+          <target state="new">Explorer đã báo lỗi</target>
+          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+        <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
+          <source>Handled by Explorer</source>
+          <target state="new">Được xử lý bởi Explorer</target>
+          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+        <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
+          <source>Item already exists</source>
+          <target state="new">Mục đã tồn tại</target>
+        </trans-unit>
+        <trans-unit id="MSG_SkippedSame" translate="yes" xml:space="preserve">
+          <source>Item already exists - same date</source>
+          <target state="new">Mục đã tồn tại - cùng ngày</target>
+        </trans-unit>
+        <trans-unit id="OperationCopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="new">Bản sao</target>
+        </trans-unit>
+        <trans-unit id="OperationCreateDir" translate="yes" xml:space="preserve">
+          <source>Create folder</source>
+          <target state="new">Tạo thư mục</target>
+        </trans-unit>
+        <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Xóa bỏ</target>
+        </trans-unit>
+        <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">Chuyển</target>
+        </trans-unit>
+        <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
+          <source>Recycle</source>
+          <target state="new">Tái chế</target>
+        </trans-unit>
+        <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Rename</target>
+        </trans-unit>
+        <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
+          <source>Reverse job</source>
+          <target state="new">Đảo ngược công việc</target>
+        </trans-unit>
+        <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
+          <source>Ask/Prompt</source>
+          <target state="new">Hỏi/Nhắc</target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="new">Tạm dừng</target>
+        </trans-unit>
+        <trans-unit id="PercentDone" translate="yes" xml:space="preserve">
+          <source>Progress</source>
+          <target state="new">Tiến bộ</target>
+        </trans-unit>
+        <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="new">Đã đổi tên</target>
+        </trans-unit>
+        <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
+          <source>Replaced</source>
+          <target state="new">Đã thay thế</target>
+        </trans-unit>
+        <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
+          <source>Skipped</source>
+          <target state="new">Đã bỏ qua</target>
+        </trans-unit>
+        <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">Hoàn thành</target>
+        </trans-unit>
+        <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
+          <source>Retrieving files</source>
+          <target state="new">Truy xuất tập tin</target>
+        </trans-unit>
+        <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="new">Thất bại</target>
+        </trans-unit>
+        <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <target state="new">Xử lý</target>
+        </trans-unit>
+        <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
+          <source>Queued</source>
+          <target state="new">Đã xếp hàng</target>
+        </trans-unit>
+        <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
+          <source>Stopped/Cancelled</source>
+          <target state="new">Đã dừng/Đã hủy</target>
+        </trans-unit>
+        <trans-unit id="ResetToDefault" translate="yes" xml:space="preserve">
+          <source>Reset to default</source>
+          <target state="new">Đặt lại về mặc định</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="Source" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target state="new">Từ</target>
+        </trans-unit>
+        <trans-unit id="Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">Tình trạng</target>
+        </trans-unit>
+        <trans-unit id="TXT_Conflict" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <target state="new">Xung đột</target>
+        </trans-unit>
+        <trans-unit id="TaskMessage" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Tin nhắn</target>
+        </trans-unit>
+        <trans-unit id="TimeRemaining" translate="yes" xml:space="preserve">
+          <source>Time remaining</source>
+          <target state="new">Thời gian còn lại</target>
+        </trans-unit>
+        <trans-unit id="TotalTime" translate="yes" xml:space="preserve">
+          <source>Total time</source>
+          <target state="new">Tổng thời gian</target>
+        </trans-unit>
+        <trans-unit id="TransferRate" translate="yes" xml:space="preserve">
+          <source>Transfer rate</source>
+          <target state="new">Tốc độ truyền tải</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

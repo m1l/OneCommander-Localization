@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX">
+    <body>
+      <group id="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">Acerca de</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollJobs" translate="yes" xml:space="preserve">
+          <source>Auto-scroll jobs</source>
+          <target state="new">Desplazamiento automático</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollPaused" translate="yes" xml:space="preserve">
+          <source>Cursor inside. Auto-scroll paused</source>
+          <target state="new">Cursor dentro. El desplazamiento automático se pausó</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollTasks" translate="yes" xml:space="preserve">
+          <source>Auto-scroll job's tasks</source>
+          <target state="new">Tareas del trabajo de desplazamiento automático</target>
+        </trans-unit>
+        <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancelar</target>
+        </trans-unit>
+        <trans-unit id="BTN_CancelAll" translate="yes" xml:space="preserve">
+          <source>Cancel all</source>
+          <target state="new">Cancelar todo</target>
+        </trans-unit>
+        <trans-unit id="BTN_Overwrite" translate="yes" xml:space="preserve">
+          <source>Overwrite</source>
+          <target state="new">Exagerar</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAll" translate="yes" xml:space="preserve">
+          <source>Overwrite all</source>
+          <target state="new">Sobrescribir todo</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
+          <source>Overwrite all older</source>
+          <target state="new">Sobrescribir todos los anteriores</target>
+        </trans-unit>
+        <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Renombrar</target>
+        </trans-unit>
+        <trans-unit id="BTN_RenameAll" translate="yes" xml:space="preserve">
+          <source>Rename all</source>
+          <target state="new">Cambiar nombre a todo</target>
+        </trans-unit>
+        <trans-unit id="BTN_Skip" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target state="new">Saltar</target>
+        </trans-unit>
+        <trans-unit id="BTN_SkipAll" translate="yes" xml:space="preserve">
+          <source>Skip all</source>
+          <target state="new">Saltar todo</target>
+        </trans-unit>
+        <trans-unit id="ClearCompleted" translate="yes" xml:space="preserve">
+          <source>Clear completed</source>
+          <target state="new">Borrar completado</target>
+        </trans-unit>
+        <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
+          <source>Clear completed jobs</source>
+          <target state="new">Borrar trabajos completados</target>
+        </trans-unit>
+        <trans-unit id="CloseOnComplete" translate="yes" xml:space="preserve">
+          <source>Close on complete</source>
+          <target state="new">Cerrar al completar</target>
+        </trans-unit>
+        <trans-unit id="ConcurrentJobs" translate="yes" xml:space="preserve">
+          <source>Concurrent jobs</source>
+          <target state="new">Trabajos simultáneos</target>
+        </trans-unit>
+        <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+          <target state="new">Resolución de conflictos</target>
+        </trans-unit>
+        <trans-unit id="DataProgress" translate="yes" xml:space="preserve">
+          <source>Data progress</source>
+          <target state="new">Progreso de los datos</target>
+        </trans-unit>
+        <trans-unit id="Destination" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target state="new">A</target>
+        </trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHours" translate="yes" xml:space="preserve">
+          <source>~{0} hours</source>
+          <target state="new">~{0} horas</target>
+          <note from="MultilingualBuild">Estimated time remaining when six or more hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHoursMinutes" translate="yes" xml:space="preserve">
+          <source>~{0} h {1} min</source>
+          <target state="new">~{0} h {1} min</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one hour but less than six hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingMinutesSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} min {1} s</source>
+          <target state="new">~{0} min {1} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one minute but less than one hour remains</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} s</source>
+          <target state="new">~{0} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when less than one minute remains</note></trans-unit>
+        <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target state="new">nombre completo</target>
+        </trans-unit>
+        <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
+          <source>Full name final</source>
+          <target state="new">Nombre completo final</target>
+        </trans-unit>
+        <trans-unit id="FileName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Nombre</target>
+        </trans-unit>
+        <trans-unit id="FileOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Operación</target>
+        </trans-unit>
+        <trans-unit id="FileSize" translate="yes" xml:space="preserve">
+          <source>Size</source>
+          <target state="new">Tamaño</target>
+        </trans-unit>
+        <trans-unit id="FilesProgress" translate="yes" xml:space="preserve">
+          <source>Files progress</source>
+          <target state="new">Progreso de los archivos</target>
+        </trans-unit>
+        <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
+          <source>Hide on close</source>
+          <target state="new">Ocultar al cerrar</target>
+        </trans-unit>
+        <trans-unit id="JobName" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="new">Trabajo</target>
+        </trans-unit>
+        <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
+          <source>{0} items</source>
+          <target state="new">{0} artículos</target>
+        </trans-unit>
+        <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
+          <source>Jobs completed</source>
+          <target state="new">Trabajos completados</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
+          <source>Jobs failed</source>
+          <target state="new">Trabajos fallidos</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
+          <source>Jobs pending</source>
+          <target state="new">Trabajos pendientes</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="KeepFileDates" translate="yes" xml:space="preserve">
+          <source>Keep file dates</source>
+          <target state="new">Mantener las fechas del archivo</target>
+        </trans-unit>
+        <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
+          <source>Delegated to Explorer due to error:</source>
+          <target state="new">Delegado a Explorer debido a error:</target>
+          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+        <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
+          <source>Doesn't exist</source>
+          <target state="new">no existe</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorDirectoryExists" translate="yes" xml:space="preserve">
+          <source>Folder with this name already exists</source>
+          <target state="new">La carpeta con este nombre ya existe</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorFileExists" translate="yes" xml:space="preserve">
+          <source>File with this name already exists</source>
+          <target state="new">El archivo con este nombre ya existe</target>
+        </trans-unit>
+        <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
+          <source>Explorer reported error</source>
+          <target state="new">Error informado por el explorador</target>
+          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+        <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
+          <source>Handled by Explorer</source>
+          <target state="new">Manejado por el Explorador</target>
+          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+        <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
+          <source>Item already exists</source>
+          <target state="new">El artículo ya existe</target>
+        </trans-unit>
+        <trans-unit id="MSG_SkippedSame" translate="yes" xml:space="preserve">
+          <source>Item already exists - same date</source>
+          <target state="new">El artículo ya existe - misma fecha</target>
+        </trans-unit>
+        <trans-unit id="OperationCopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="new">Copiar</target>
+        </trans-unit>
+        <trans-unit id="OperationCreateDir" translate="yes" xml:space="preserve">
+          <source>Create folder</source>
+          <target state="new">Crear carpeta</target>
+        </trans-unit>
+        <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Borrar</target>
+        </trans-unit>
+        <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">Mover</target>
+        </trans-unit>
+        <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
+          <source>Recycle</source>
+          <target state="new">Reciclar</target>
+        </trans-unit>
+        <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Renombrar</target>
+        </trans-unit>
+        <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
+          <source>Reverse job</source>
+          <target state="new">Trabajo inverso</target>
+        </trans-unit>
+        <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
+          <source>Ask/Prompt</source>
+          <target state="new">Preguntar/Preguntar</target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="new">Pausa</target>
+        </trans-unit>
+        <trans-unit id="PercentDone" translate="yes" xml:space="preserve">
+          <source>Progress</source>
+          <target state="new">Progreso</target>
+        </trans-unit>
+        <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="new">Renombrado</target>
+        </trans-unit>
+        <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
+          <source>Replaced</source>
+          <target state="new">Reemplazado</target>
+        </trans-unit>
+        <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
+          <source>Skipped</source>
+          <target state="new">Saltado</target>
+        </trans-unit>
+        <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">Terminado</target>
+        </trans-unit>
+        <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
+          <source>Retrieving files</source>
+          <target state="new">Recuperando archivos</target>
+        </trans-unit>
+        <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="new">Fallido</target>
+        </trans-unit>
+        <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <target state="new">Tratamiento</target>
+        </trans-unit>
+        <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
+          <source>Queued</source>
+          <target state="new">En cola</target>
+        </trans-unit>
+        <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
+          <source>Stopped/Cancelled</source>
+          <target state="new">Detenido/Cancelado</target>
+        </trans-unit>
+        <trans-unit id="ResetToDefault" translate="yes" xml:space="preserve">
+          <source>Reset to default</source>
+          <target state="new">Restablecer los valores predeterminados</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="Source" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target state="new">De</target>
+        </trans-unit>
+        <trans-unit id="Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">Estado</target>
+        </trans-unit>
+        <trans-unit id="TXT_Conflict" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <target state="new">Conflicto</target>
+        </trans-unit>
+        <trans-unit id="TaskMessage" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Mensaje</target>
+        </trans-unit>
+        <trans-unit id="TimeRemaining" translate="yes" xml:space="preserve">
+          <source>Time remaining</source>
+          <target state="new">Tiempo restante</target>
+        </trans-unit>
+        <trans-unit id="TotalTime" translate="yes" xml:space="preserve">
+          <source>Total time</source>
+          <target state="new">Tiempo total</target>
+        </trans-unit>
+        <trans-unit id="TransferRate" translate="yes" xml:space="preserve">
+          <source>Transfer rate</source>
+          <target state="new">Tasa de transferencia</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="sr-Latn-RS" original="OCTASKMASTER/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Otkaži</target>
+        </trans-unit>
+        <trans-unit id="BTN_CancelAll" translate="yes" xml:space="preserve">
+          <source>Cancel all</source>
+          <target state="new">Otkaži sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_Overwrite" translate="yes" xml:space="preserve">
+          <source>Overwrite</source>
+          <target state="new">Zamenite</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAll" translate="yes" xml:space="preserve">
+          <source>Overwrite all</source>
+          <target state="new">Prepiši sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
+          <source>Overwrite all older</source>
+          <target state="new">Prepiši sve starije</target>
+        </trans-unit>
+        <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Preimenujete</target>
+        </trans-unit>
+        <trans-unit id="BTN_RenameAll" translate="yes" xml:space="preserve">
+          <source>Rename all</source>
+          <target state="new">Preimenuj sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_Skip" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target state="new">Preskoči</target>
+        </trans-unit>
+        <trans-unit id="BTN_SkipAll" translate="yes" xml:space="preserve">
+          <source>Skip all</source>
+          <target state="new">Preskoči sve</target>
+        </trans-unit>
+        <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
+          <source>Clear completed jobs</source>
+          <target state="new">Obrišite završene poslove</target>
+        </trans-unit>
+        <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+          <target state="new">Rešavanje sukoba</target>
+        </trans-unit>
+        <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target state="new">Puno ime</target>
+        </trans-unit>
+        <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
+          <source>Full name final</source>
+          <target state="new">Puno ime finalno</target>
+        </trans-unit>
+        <trans-unit id="FileName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Ime</target>
+        </trans-unit>
+        <trans-unit id="FileOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Operacija</target>
+        </trans-unit>
+        <trans-unit id="FileSize" translate="yes" xml:space="preserve">
+          <source>Size</source>
+          <target state="new">Veličina</target>
+        </trans-unit>
+        <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
+          <source>Hide on close</source>
+          <target state="new">Sakrij se na zatvaranju</target>
+        </trans-unit>
+        <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
+          <source>{0} items</source>
+          <target state="new">{0} predmeti</target>
+        </trans-unit>
+        <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
+          <source>Jobs completed</source>
+          <target state="new">Obavljeni poslovi</target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
+        <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
+          <source>Jobs failed</source>
+          <target state="translated">Losi poslovi</target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
+        <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
+          <source>Jobs pending</source>
+          <target state="new"></target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
+        <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
+          <source>Delegated to Explorer due to error:</source>
+          <target state="new"></target>
+          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+        <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
+          <source>Doesn't exist</source>
+          <target state="new">Ne postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorDirectoryExists" translate="yes" xml:space="preserve">
+          <source>Folder with this name already exists</source>
+          <target state="new">Folder sa ovim imenom već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorFileExists" translate="yes" xml:space="preserve">
+          <source>File with this name already exists</source>
+          <target state="new">Datoteka sa ovim imenom već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
+          <source>Explorer reported error</source>
+          <target state="new"></target>
+          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+        <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
+          <source>Handled by Explorer</source>
+          <target state="new"></target>
+          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+        <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
+          <source>Item already exists</source>
+          <target state="new">Stavka već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_SkippedSame" translate="yes" xml:space="preserve">
+          <source>Item already exists - same date</source>
+          <target state="new">Stavka već postoji - isti datum</target>
+        </trans-unit>
+        <trans-unit id="OperationCopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="new">Kopiranja</target>
+        </trans-unit>
+        <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Izbrišete</target>
+        </trans-unit>
+        <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">Premestite</target>
+        </trans-unit>
+        <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
+          <source>Recycle</source>
+          <target state="new">Reciklira</target>
+        </trans-unit>
+        <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
+          <source>Reverse job</source>
+          <target state="new">Obrnuti posao</target>
+        </trans-unit>
+        <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
+          <source>Ask/Prompt</source>
+          <target state="new"></target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="new">Pauziraj</target>
+        </trans-unit>
+        <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="new">Preimenovana</target>
+        </trans-unit>
+        <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
+          <source>Replaced</source>
+          <target state="new">Zamenio</target>
+        </trans-unit>
+        <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
+          <source>Skipped</source>
+          <target state="new">Preskoиio</target>
+        </trans-unit>
+        <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">Dovršeno</target>
+        </trans-unit>
+        <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
+          <source>Retrieving files</source>
+          <target state="new">Pronalaženje fajlova</target>
+        </trans-unit>
+        <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="new">Nije uspelo</target>
+        </trans-unit>
+        <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <target state="new">Obrada</target>
+        </trans-unit>
+        <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
+          <source>Queued</source>
+          <target state="new">U redu čekanja</target>
+        </trans-unit>
+        <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
+          <source>Stopped/Cancelled</source>
+          <target state="new">Zaustavljeno / Otkazano</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="TXT_Conflict" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <target state="new">Sukob</target>
+        </trans-unit>
+        <trans-unit id="TXT_Destination" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target state="new">Da</target>
+        </trans-unit>
+        <trans-unit id="TXT_Source" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target state="new">Iz</target>
+        </trans-unit>
+        <trans-unit id="TaskMessage" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Poruka</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="sr-Latn-RS" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX">
+    <body>
+      <group id="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">Абоут</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollJobs" translate="yes" xml:space="preserve">
+          <source>Auto-scroll jobs</source>
+          <target state="new">Аутоматско померање</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollPaused" translate="yes" xml:space="preserve">
+          <source>Cursor inside. Auto-scroll paused</source>
+          <target state="new">Kursor unutra. Automatsko skrolovanje pauzirano</target>
+        </trans-unit>
+        <trans-unit id="AutoScrollTasks" translate="yes" xml:space="preserve">
+          <source>Auto-scroll job's tasks</source>
+          <target state="new">Zadaci automatskog pomeranja posla</target>
+        </trans-unit>
+        <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Otkaži</target>
+        </trans-unit>
+        <trans-unit id="BTN_CancelAll" translate="yes" xml:space="preserve">
+          <source>Cancel all</source>
+          <target state="new">Otkaži sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_Overwrite" translate="yes" xml:space="preserve">
+          <source>Overwrite</source>
+          <target state="new">Zamenite</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAll" translate="yes" xml:space="preserve">
+          <source>Overwrite all</source>
+          <target state="new">Prepiši sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
+          <source>Overwrite all older</source>
+          <target state="new">Prepiši sve starije</target>
+        </trans-unit>
+        <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Preimenujete</target>
+        </trans-unit>
+        <trans-unit id="BTN_RenameAll" translate="yes" xml:space="preserve">
+          <source>Rename all</source>
+          <target state="new">Preimenuj sve</target>
+        </trans-unit>
+        <trans-unit id="BTN_Skip" translate="yes" xml:space="preserve">
+          <source>Skip</source>
+          <target state="new">Preskoči</target>
+        </trans-unit>
+        <trans-unit id="BTN_SkipAll" translate="yes" xml:space="preserve">
+          <source>Skip all</source>
+          <target state="new">Preskoči sve</target>
+        </trans-unit>
+        <trans-unit id="ClearCompleted" translate="yes" xml:space="preserve">
+          <source>Clear completed</source>
+          <target state="new">Брисање је завршено</target>
+        </trans-unit>
+        <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
+          <source>Clear completed jobs</source>
+          <target state="new">Obrišite završene poslove</target>
+        </trans-unit>
+        <trans-unit id="CloseOnComplete" translate="yes" xml:space="preserve">
+          <source>Close on complete</source>
+          <target state="new">Затворите након завршетка</target>
+        </trans-unit>
+        <trans-unit id="ConcurrentJobs" translate="yes" xml:space="preserve">
+          <source>Concurrent jobs</source>
+          <target state="new">Истовремени послови</target>
+        </trans-unit>
+        <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+          <target state="new">Rešavanje sukoba</target>
+        </trans-unit>
+        <trans-unit id="DataProgress" translate="yes" xml:space="preserve">
+          <source>Data progress</source>
+          <target state="new">Napredak podataka</target>
+        </trans-unit>
+        <trans-unit id="Destination" translate="yes" xml:space="preserve">
+          <source>To</source>
+          <target state="new">Da</target>
+        </trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHours" translate="yes" xml:space="preserve">
+          <source>~{0} hours</source>
+          <target state="new">~ {0} sati</target>
+          <note from="MultilingualBuild">Estimated time remaining when six or more hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingHoursMinutes" translate="yes" xml:space="preserve">
+          <source>~{0} h {1} min</source>
+          <target state="new">~{0} h {1} min</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one hour but less than six hours remain</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingMinutesSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} min {1} s</source>
+          <target state="new">~{0} min {1} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when at least one minute but less than one hour remains</note></trans-unit>
+        <trans-unit id="EstimatedTimeRemainingSeconds" translate="yes" xml:space="preserve">
+          <source>~{0} s</source>
+          <target state="new">~{0} s</target>
+          <note from="MultilingualBuild">Estimated time remaining when less than one minute remains</note></trans-unit>
+        <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
+          <source>Full name</source>
+          <target state="new">Puno ime</target>
+        </trans-unit>
+        <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
+          <source>Full name final</source>
+          <target state="new">Puno ime finalno</target>
+        </trans-unit>
+        <trans-unit id="FileName" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Ime</target>
+        </trans-unit>
+        <trans-unit id="FileOperation" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <target state="new">Operacija</target>
+        </trans-unit>
+        <trans-unit id="FileSize" translate="yes" xml:space="preserve">
+          <source>Size</source>
+          <target state="new">Veličina</target>
+        </trans-unit>
+        <trans-unit id="FilesProgress" translate="yes" xml:space="preserve">
+          <source>Files progress</source>
+          <target state="new">Napredak fajlova</target>
+        </trans-unit>
+        <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
+          <source>Hide on close</source>
+          <target state="new">Sakrij se na zatvaranju</target>
+        </trans-unit>
+        <trans-unit id="JobName" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="new">Posao</target>
+        </trans-unit>
+        <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
+          <source>{0} items</source>
+          <target state="new">{0} predmeti</target>
+        </trans-unit>
+        <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
+          <source>Jobs completed</source>
+          <target state="new">Obavljeni poslovi</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
+          <source>Jobs failed</source>
+          <target state="new">Losi poslovi</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
+          <source>Jobs pending</source>
+          <target state="new">Послови на чекању</target>
+          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+        <trans-unit id="KeepFileDates" translate="yes" xml:space="preserve">
+          <source>Keep file dates</source>
+          <target state="new">Задржите датуме датотеке</target>
+        </trans-unit>
+        <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
+          <source>Delegated to Explorer due to error:</source>
+          <target state="new">Делегирано у Екплорер због грешке:</target>
+          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+        <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
+          <source>Doesn't exist</source>
+          <target state="new">Ne postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorDirectoryExists" translate="yes" xml:space="preserve">
+          <source>Folder with this name already exists</source>
+          <target state="new">Folder sa ovim imenom već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ErrorFileExists" translate="yes" xml:space="preserve">
+          <source>File with this name already exists</source>
+          <target state="new">Datoteka sa ovim imenom već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
+          <source>Explorer reported error</source>
+          <target state="new">Екплорер је пријавио грешку</target>
+          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+        <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
+          <source>Handled by Explorer</source>
+          <target state="new">Руковао Екплорер</target>
+          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+        <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
+          <source>Item already exists</source>
+          <target state="new">Stavka već postoji</target>
+        </trans-unit>
+        <trans-unit id="MSG_SkippedSame" translate="yes" xml:space="preserve">
+          <source>Item already exists - same date</source>
+          <target state="new">Stavka već postoji - isti datum</target>
+        </trans-unit>
+        <trans-unit id="OperationCopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="new">Kopiranja</target>
+        </trans-unit>
+        <trans-unit id="OperationCreateDir" translate="yes" xml:space="preserve">
+          <source>Create folder</source>
+          <target state="new">Креирајте фасциклу</target>
+        </trans-unit>
+        <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Izbrišete</target>
+        </trans-unit>
+        <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">Premestite</target>
+        </trans-unit>
+        <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
+          <source>Recycle</source>
+          <target state="new">Reciklira</target>
+        </trans-unit>
+        <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="new">Preimenujete</target>
+        </trans-unit>
+        <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
+          <source>Reverse job</source>
+          <target state="new">Obrnuti posao</target>
+        </trans-unit>
+        <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
+          <source>Ask/Prompt</source>
+          <target state="new">Питај/упитај</target>
+        </trans-unit>
+        <trans-unit id="Pause" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="new">Pauziraj</target>
+        </trans-unit>
+        <trans-unit id="PercentDone" translate="yes" xml:space="preserve">
+          <source>Progress</source>
+          <target state="new">Napredak</target>
+        </trans-unit>
+        <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="new">Preimenovana</target>
+        </trans-unit>
+        <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
+          <source>Replaced</source>
+          <target state="new">Zamenio</target>
+        </trans-unit>
+        <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
+          <source>Skipped</source>
+          <target state="new">Preskoиio</target>
+        </trans-unit>
+        <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">Dovršeno</target>
+        </trans-unit>
+        <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
+          <source>Retrieving files</source>
+          <target state="new">Pronalaženje fajlova</target>
+        </trans-unit>
+        <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="new">Nije uspelo</target>
+        </trans-unit>
+        <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <target state="new">Obrada</target>
+        </trans-unit>
+        <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
+          <source>Queued</source>
+          <target state="new">U redu čekanja</target>
+        </trans-unit>
+        <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
+          <source>Stopped/Cancelled</source>
+          <target state="new">Zaustavljeno / Otkazano</target>
+        </trans-unit>
+        <trans-unit id="ResetToDefault" translate="yes" xml:space="preserve">
+          <source>Reset to default</source>
+          <target state="new">Ресетујте на подразумеване вредности</target>
+        </trans-unit>
+        <trans-unit id="SizeMB" translate="yes" xml:space="preserve">
+          <source>MB</source>
+          <target state="new">MB</target>
+        </trans-unit>
+        <trans-unit id="SizeMiB" translate="yes" xml:space="preserve">
+          <source>MiB</source>
+          <target state="new">MiB</target>
+        </trans-unit>
+        <trans-unit id="Source" translate="yes" xml:space="preserve">
+          <source>From</source>
+          <target state="new">Iz</target>
+        </trans-unit>
+        <trans-unit id="Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">Статус</target>
+        </trans-unit>
+        <trans-unit id="TXT_Conflict" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <target state="new">Sukob</target>
+        </trans-unit>
+        <trans-unit id="TaskMessage" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Poruka</target>
+        </trans-unit>
+        <trans-unit id="TimeRemaining" translate="yes" xml:space="preserve">
+          <source>Time remaining</source>
+          <target state="new">Preostalo vreme</target>
+        </trans-unit>
+        <trans-unit id="TotalTime" translate="yes" xml:space="preserve">
+          <source>Total time</source>
+          <target state="new">Ukupno vreme</target>
+        </trans-unit>
+        <trans-unit id="TransferRate" translate="yes" xml:space="preserve">
+          <source>Transfer rate</source>
+          <target state="new">Brzina prenosa</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
