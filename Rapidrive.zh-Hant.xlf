@@ -21,19 +21,19 @@
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="AccentContrastNotice" translate="yes" xml:space="preserve">
           <source>The accent text color was adjusted to meet WCAG AA contrast against the theme background. Other accent uses keep the original color.</source>
-          <target state="new">文字強調色已調整為符合 WCAG AA 級對比標準，與主題背景形成對比。其他強調色保持原色。</target>
+          <target state="translated">文字輔色已自動調整，以符合與主題背景之間的 WCAG AA 對比度標準。其他使用輔色的項目仍保留原本色彩。</target>
         </trans-unit>
         <trans-unit id="AccentText" translate="yes" xml:space="preserve">
           <source>Accent text (WCAG AA)</source>
-          <target state="new">強調文（WCAG AA）</target>
+          <target state="translated">輔色文字（WCAG AA）</target>
         </trans-unit>
         <trans-unit id="Accessibility" translate="yes" xml:space="preserve">
           <source>Accessibility</source>
-          <target state="new">無障礙</target>
+          <target state="translated">協助工具</target>
         </trans-unit>
         <trans-unit id="AcrylicBackdropWarning" translate="yes" xml:space="preserve">
           <source>Acrylic effect may reduce readability depending on what is behind the window. Add a solid background color and increase opacity for better contrast.</source>
-          <target state="new">亞克力效果可能會降低可讀性，這取決於視窗後面的內容。添加純色背景色並增加不透明度以獲得更好的對比。</target>
+          <target state="translated">壓克力效果的可讀性會受到視窗後方內容影響。建議加入純色背景並提高不透明度，以獲得更佳的對比度。</target>
         </trans-unit>
         <trans-unit id="AddToEnvironmentPath" translate="yes" xml:space="preserve">
           <source>Add to user PATH variable</source>
@@ -45,11 +45,11 @@
           <note from="MultilingualBuild">PATH is Windows variable so it should stay untranslated (or keep in brackets)</note></trans-unit>
         <trans-unit id="AddToToolbar" translate="yes" xml:space="preserve">
           <source>Add to Toolbar</source>
-          <target state="new">新增到工具列</target>
+          <target state="translated">新增至工具列</target>
         </trans-unit>
         <trans-unit id="AddToolbar" translate="yes" xml:space="preserve">
           <source>Add Toolbar</source>
-          <target state="new">新增工具列</target>
+          <target state="translated">新增工具列</target>
         </trans-unit>
         <trans-unit id="AdvancedInfo" translate="yes" xml:space="preserve">
           <source>Rarely needed settings. Don't change unless absolutely necessary!</source>
@@ -77,7 +77,7 @@
           <note from="MultilingualBuild">Alignment of element</note></trans-unit>
         <trans-unit id="AlwaysAsk" translate="yes" xml:space="preserve">
           <source>Always ask</source>
-          <target state="new">一定要問清楚</target>
+          <target state="translated">一律詢問</target>
           <note from="MultilingualBuild">Option for 3-choice questions like Archive extraction or Photos workaround options</note></trans-unit>
         <trans-unit id="AnimationDuration" translate="yes" xml:space="preserve">
           <source>Animation duration (ms)</source>
@@ -89,7 +89,7 @@
         </trans-unit>
         <trans-unit id="ArchiveMotW" translate="yes" xml:space="preserve">
           <source>Extracting archive files downloaded from the internet</source>
-          <target state="new">從網路下載的壓縮檔檔案解壓</target>
+          <target state="translated">解壓縮從網路下載的壓縮檔</target>
         </trans-unit>
         <trans-unit id="AudioDownloadParameters" translate="yes" xml:space="preserve">
           <source>Download Audio by pasting URL using following parameters</source>
@@ -109,39 +109,39 @@
         </trans-unit>
         <trans-unit id="AutostartInfo" translate="yes" xml:space="preserve">
           <source>Run on Windows startup</source>
-          <target state="new">隨 Windows 啟動，不會建立視窗</target>
+          <target state="translated">隨 Windows 啟動時執行</target>
         </trans-unit>
         <trans-unit id="AvailableButtons" translate="yes" xml:space="preserve">
           <source>Available Buttons</source>
-          <target state="new">可用按鈕</target>
+          <target state="translated">可用按鈕</target>
         </trans-unit>
         <trans-unit id="BackdropAcrylic" translate="yes" xml:space="preserve">
           <source>Acrylic</source>
-          <target state="new">丙烯酸纖維</target>
+          <target state="translated">壓克力</target>
           <note from="MultilingualBuild">Windows backdrop effect imitating translucent acrylic material</note></trans-unit>
         <trans-unit id="BackdropNoEffect" translate="yes" xml:space="preserve">
           <source>No effect</source>
-          <target state="new">沒有效果</target>
+          <target state="translated">無效果</target>
           <note from="MultilingualBuild">Dropdown for background effect that turns it off</note></trans-unit>
         <trans-unit id="BackdropType" translate="yes" xml:space="preserve">
           <source>Window background effect</source>
-          <target state="new">視窗背景效果</target>
+          <target state="translated">視窗背景效果</target>
         </trans-unit>
         <trans-unit id="BrowserActiveOutline" translate="yes" xml:space="preserve">
           <source>Active pane border thickness</source>
-          <target state="new">活動窗格邊框厚度</target>
+          <target state="translated">作用中窗格邊框粗細</target>
           <note from="MultilingualBuild">In dual-pane active browser can have outline</note></trans-unit>
         <trans-unit id="BrowserActiveOutlineInfo" translate="yes" xml:space="preserve">
           <source>Controls how thick the highlight border is around the pane you are working in</source>
-          <target state="new">控制您正在使用的窗格周圍突出顯示邊框的粗細</target>
+          <target state="translated">控制目前作用中窗格周圍醒目提示邊框的粗細</target>
         </trans-unit>
         <trans-unit id="BrowserInactiveOverlayOpacity" translate="yes" xml:space="preserve">
           <source>Inactive pane dimming</source>
-          <target state="new">非活動窗格調暗</target>
+          <target state="translated">非作用中窗格淡化</target>
         </trans-unit>
         <trans-unit id="BrowserInactiveOverlayOpacityInfo" translate="yes" xml:space="preserve">
           <source>Darkens or lightens the inactive pane so the active pane is easier to identify</source>
-          <target state="new">使非活動窗格變暗或變亮，以便更容易識別活動窗格</target>
+          <target state="translated">調暗或調亮非作用中的窗格，讓作用中窗格更容易辨識</target>
         </trans-unit>
         <trans-unit id="Changed" translate="yes" xml:space="preserve">
           <source>Changed</source>
@@ -149,11 +149,11 @@
           <note from="MultilingualBuild">Column header to show changed shortcut</note></trans-unit>
         <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
           <source>Check for updates</source>
-          <target state="new">檢查更新</target>
+          <target state="translated">檢查更新</target>
         </trans-unit>
         <trans-unit id="ChooseImage" translate="yes" xml:space="preserve">
           <source>Choose image</source>
-          <target state="new">選擇圖片</target>
+          <target state="translated">選擇圖片</target>
           <note from="MultilingualBuild">Window background image</note></trans-unit>
         <trans-unit id="ClearHistoryOnClose" translate="yes" xml:space="preserve">
           <source>Clear History on close</source>
@@ -181,7 +181,7 @@
         </trans-unit>
         <trans-unit id="CloseOnLastTabClose" translate="yes" xml:space="preserve">
           <source>Close window when last tab is closed</source>
-          <target state="new">最後一個選項卡關閉時關閉視窗</target>
+          <target state="translated">關閉最後一個分頁時關閉視窗</target>
         </trans-unit>
         <trans-unit id="ColorFileAge" translate="yes" xml:space="preserve">
           <source>Color</source>
@@ -233,7 +233,7 @@
         </trans-unit>
         <trans-unit id="ColumnAlignColumnsLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Columns Layout</source>
-          <target state="translated">欄位配置中的欄位窗格對齊</target>
+          <target state="translated">欄式版面配置中的欄位窗格對齊</target>
         </trans-unit>
         <trans-unit id="ColumnAlignDefaultLeft" translate="yes" xml:space="preserve">
           <source>Default Left</source>
@@ -245,15 +245,15 @@
         </trans-unit>
         <trans-unit id="ColumnAlignStandardLayout" translate="yes" xml:space="preserve">
           <source>Column Pane alignment in Standard Layout</source>
-          <target state="translated">標準配置中的欄位窗格對齊</target>
+          <target state="translated">標準版面配置中的欄位窗格對齊</target>
         </trans-unit>
         <trans-unit id="ColumnAutoExpandColumnsLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Columns layout)</source>
-          <target state="translated">當游標進入時展開欄位（欄位配置）</target>
+          <target state="translated">當游標進入時展開欄位（欄式版面配置）</target>
         </trans-unit>
         <trans-unit id="ColumnAutoExpandStandardLayout" translate="yes" xml:space="preserve">
           <source>Expand Column when cursor enters it (Standard layout)</source>
-          <target state="translated">當游標進入時展開欄位（標準配置）</target>
+          <target state="translated">當游標進入時展開欄位（標準版面配置）</target>
         </trans-unit>
         <trans-unit id="ColumnMinimumWidth" translate="yes" xml:space="preserve">
           <source>Columns minimum width</source>
@@ -277,11 +277,11 @@
           <note from="MultilingualBuild">In Columns - Advanced</note></trans-unit>
         <trans-unit id="ColumnWidthCurrentColumnsLayout" translate="yes" xml:space="preserve">
           <source>Current (rightmost) column pane width in Columns layout</source>
-          <target state="translated">欄位配置中目前（最右側）欄位窗格的寬度</target>
+          <target state="translated">欄式版面配置中目前（最右側）欄位窗格的寬度</target>
         </trans-unit>
         <trans-unit id="ColumnWidthCurrentStandardLayout" translate="yes" xml:space="preserve">
           <source>Current (rightmost) column pane width in Standard layout</source>
-          <target state="translated">標準配置中目前（最右側）欄位窗格的寬度</target>
+          <target state="translated">標準版面配置中目前（最右側）欄位窗格的寬度</target>
         </trans-unit>
         <trans-unit id="ColumnWidthMinimumInfo" translate="yes" xml:space="preserve">
           <source>Columns smaller than the above value will collapse to this width:</source>
@@ -453,7 +453,7 @@
           <note from="MultilingualBuild">One of NotificationLevel</note></trans-unit>
         <trans-unit id="DefaultFileManagerOpenInNewTab" translate="yes" xml:space="preserve">
           <source>Open folders in a new tab (otherwise use the current tab)</source>
-          <target state="new">在新標籤頁中開啟資料夾（否則請使用目前標籤頁）</target>
+          <target state="translated">在新分頁中開啟資料夾（否則使用目前分頁）</target>
         </trans-unit>
         <trans-unit id="DefaultFileManagerRegister" translate="yes" xml:space="preserve">
           <source>Register as a default file manager</source>
@@ -465,7 +465,7 @@
         </trans-unit>
         <trans-unit id="DefaultLocation" translate="yes" xml:space="preserve">
           <source>Default location</source>
-          <target state="new">預設位置</target>
+          <target state="translated">預設位置</target>
           <note from="MultilingualBuild">On new window location to open, like list of drives or home folder</note></trans-unit>
         <trans-unit id="Description" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -489,7 +489,7 @@
         </trans-unit>
         <trans-unit id="DoubleClickArchiveQuestion" translate="yes" xml:space="preserve">
           <source>Double-click on an archive should:</source>
-          <target state="translated">雙擊封存檔應：</target>
+          <target state="translated">連按兩下封存檔時應：</target>
         </trans-unit>
         <trans-unit id="DoubleClickArchiveShowPopup" translate="yes" xml:space="preserve">
           <source>Show popup asking to extract or open in a default program</source>
@@ -514,7 +514,8 @@
         <trans-unit id="DragDropBehaviorInconsistent" translate="yes" xml:space="preserve">
           <source>Inconsistent File Explorer way
 Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same drive. Shift+Drag to move to another drive.</source>
-          <target state="translated">不一致的檔案總管方式[NEWLINE]若是相同磁碟機，拖曳為移動，否則為複製。相同磁碟機 Ctrl+拖曳為複製。Shift+拖曳為移動到另一個磁碟機。</target>
+          <target state="translated">不一致的檔案總管方式
+若是相同磁碟機，拖曳為移動，否則為複製。相同磁碟機 Ctrl+拖曳為複製。Shift+拖曳為移動到另一個磁碟機。</target>
         </trans-unit>
         <trans-unit id="DragDropBehaviorQuestion" translate="yes" xml:space="preserve">
           <source>Drag and Drop behavior:</source>
@@ -530,7 +531,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild">In dropdown for default path (showing list of drives/disks)</note></trans-unit>
         <trans-unit id="DualPaneFocusIndicators" translate="yes" xml:space="preserve">
           <source>Dual-pane focus indicators</source>
-          <target state="new">雙窗格焦點指示器</target>
+          <target state="translated">雙窗格焦點指示器</target>
         </trans-unit>
         <trans-unit id="EmailNamingFormat" translate="yes" xml:space="preserve">
           <source>Email naming format (drag from Outlook)</source>
@@ -550,7 +551,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="EnteredColor" translate="yes" xml:space="preserve">
           <source>Entered color</source>
-          <target state="new">輸入色彩</target>
+          <target state="translated">輸入的色彩</target>
         </trans-unit>
         <trans-unit id="ErrorsOnly" translate="yes" xml:space="preserve">
           <source>Errors only</source>
@@ -558,11 +559,11 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild">One of NotificationLevel</note></trans-unit>
         <trans-unit id="EvenRowOpacity" translate="yes" xml:space="preserve">
           <source>Even row shading</source>
-          <target state="new">均勻的行陰影</target>
+          <target state="translated">偶數列陰影</target>
         </trans-unit>
         <trans-unit id="EvenRowOpacityInfo" translate="yes" xml:space="preserve">
           <source>Opacity of alternating rows in file lists. Set to 0% to turn off shading. Grid view is unaffected.</source>
-          <target state="new">文件清單中隔行的透明度。設定為 0% 可關閉陰影效果。網格視圖不受影響。</target>
+          <target state="translated">檔案清單中交替列的透明度。設為 0% 可關閉陰影效果。網格檢視不受影響。</target>
         </trans-unit>
         <trans-unit id="ExFileItemDefault" translate="yes" xml:space="preserve">
           <source>File Item Default</source>
@@ -570,7 +571,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExFileItemMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Mouse Over</source>
-          <target state="translated">檔案項目滑鼠懸停</target>
+          <target state="translated">滑鼠移過檔案項目</target>
         </trans-unit>
         <trans-unit id="ExFileItemMouseSelected" translate="yes" xml:space="preserve">
           <source>File Item Selected</source>
@@ -578,7 +579,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExFileItemMouseSelectedMouseOver" translate="yes" xml:space="preserve">
           <source>File Item Selected Mouse Over</source>
-          <target state="translated">檔案項目已選取滑鼠懸停</target>
+          <target state="translated">滑鼠移過已選取的檔案項目</target>
         </trans-unit>
         <trans-unit id="Example" translate="yes" xml:space="preserve">
           <source>Example</source>
@@ -586,15 +587,15 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="ExcludedFragmentsFolderDB" translate="yes" xml:space="preserve">
           <source>Folder database exclusions</source>
-          <target state="new">資料夾資料庫排除</target>
+          <target state="translated">資料夾資料庫排除項目</target>
         </trans-unit>
         <trans-unit id="ExcludedFragmentsInfo" translate="yes" xml:space="preserve">
           <source>Keywords or path fragments. Case-insensitive substring match against full path (examples: \AppData\, thumbcache, $RECYCLE.BIN)</source>
-          <target state="new">關鍵字或路徑片段。不區分大小寫的子字串與完整路徑匹配（範例：\AppData\、thumbcache、$RECYCLE.BIN）</target>
+          <target state="translated">關鍵字或路徑片段。對完整路徑進行不區分大小寫的子字串比對（例如：\AppData\、thumbcache、$RECYCLE.BIN）</target>
         </trans-unit>
         <trans-unit id="ExcludedFragmentsThumbnailDB" translate="yes" xml:space="preserve">
           <source>Thumbnail database exclusions</source>
-          <target state="new">縮圖資料庫排除</target>
+          <target state="translated">縮圖資料庫排除項目</target>
         </trans-unit>
         <trans-unit id="ExcludedShellContextMenuItems" translate="yes" xml:space="preserve">
           <source>Excluded Shell Context Menu items</source>
@@ -634,7 +635,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FailedToRegisterHotkey" translate="yes" xml:space="preserve">
           <source>Windows refused to give OneCommander this hotkey ({0}) because it is already reserved by another application</source>
-          <target state="new">Windows 拒絕將這個熱鍵 ({0}) 指派給 OneCommander，因為它已被另一個應用程式佔用。</target>
+          <target state="translated">Windows 拒絕將此快速鍵（{0}）指派給 OneCommander，因為它已被其他應用程式保留</target>
         </trans-unit>
         <trans-unit id="FileAge" translate="yes" xml:space="preserve">
           <source>File age / relative date</source>
@@ -674,7 +675,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FileOperationsHandlerInfo" translate="yes" xml:space="preserve">
           <source>Choice between Explorer, TeraCopy (must be already installed), and Taskmaster (default)</source>
-          <target state="new">在檔案總管（系統預設）、TeraCopy（須另外安裝）和 Taskmaster（新）之間進行選擇</target>
+          <target state="translated">可選擇檔案總管、TeraCopy（必須已安裝）或 Taskmaster（預設）</target>
           <note from="MultilingualBuild">Taskmaster is the name of new OC file operations manager; don't translate</note></trans-unit>
         <trans-unit id="FileSizeMB_TT" translate="yes" xml:space="preserve">
           <source>Size shown in MB only, but MB text is not displayed</source>
@@ -682,15 +683,15 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild">Tooltip shown when mouse over MB file size option</note></trans-unit>
         <trans-unit id="FileSizeUnits" translate="yes" xml:space="preserve">
           <source>Size units</source>
-          <target state="new">尺寸單位</target>
+          <target state="translated">大小單位</target>
           <note from="MultilingualBuild">Megabyte or Mebibyte</note></trans-unit>
         <trans-unit id="FileSizeUnitsMB" translate="yes" xml:space="preserve">
           <source>Decimal (Megabyte) — MB, GB (1 MB = 1 000 KB = 1 000 000 bytes)</source>
-          <target state="new">十進位（兆位元組）— MB、GB（1MB = 1000KB = 1000000 位元組）</target>
+          <target state="translated">十進位（Megabyte）— MB、GB（1 MB = 1 000 KB = 1 000 000 位元組）</target>
         </trans-unit>
         <trans-unit id="FileSizeUnitsMiB" translate="yes" xml:space="preserve">
           <source>Binary (Mebibyte) — MiB, GiB (1 MiB = 1 024 KiB = 1 048 576 bytes)</source>
-          <target state="new">二進位 (Mebibyte) — MiB、GiB (1MiB = 1024KiB = 1048576bytes)</target>
+          <target state="translated">二進位（Mebibyte）— MiB、GiB（1 MiB = 1 024 KiB = 1 048 576 位元組）</target>
         </trans-unit>
         <trans-unit id="FilesToTreatAsHidden" translate="yes" xml:space="preserve">
           <source>Files to treat as hidden:</source>
@@ -710,19 +711,19 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FirstRunPreparingResources" translate="yes" xml:space="preserve">
           <source>Preparing settings and resources…</source>
-          <target state="new">準備場地和資源…</target>
+          <target state="translated">正在準備設定與資源…</target>
         </trans-unit>
         <trans-unit id="FirstRunResourceSetupFailed" translate="yes" xml:space="preserve">
           <source>Resources could not be prepared. Check that the program folder is writable and all program files are present, then try again.</source>
-          <target state="new">資源準備失敗。請檢查程式資料夾是否可寫入以及所有程式檔案是否齊全，然後重試。</target>
+          <target state="translated">無法準備資源。請檢查程式資料夾是否可寫入，且所有程式檔案皆已存在，然後再試一次。</target>
         </trans-unit>
         <trans-unit id="FixStylusLag" translate="yes" xml:space="preserve">
           <source>Fix Stylus lag (breaks touchscreen double-tap to open)</source>
-          <target state="translated">修正觸控筆延遲（破壞觸控螢幕雙擊開啟）</target>
+          <target state="translated">修正觸控筆延遲（會停用觸控螢幕連按兩下開啟）</target>
         </trans-unit>
         <trans-unit id="FixStylusLagInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. If ON there will be no lag with graphic tablets, Wacom or Microsoft Surface stylus, but it will also disable double-tap (touchscreen) to open files (you would then need to use Single Click to Open folders option, and to open files by long-tap and Open from context menu). This is due to a bug in Microsoft WPF. Program restart required</source>
-          <target state="translated">預設為關閉。如果開啟，繪圖板、Wacom 或 Microsoft Surface 觸控筆將沒有延遲，但也會停用雙擊（觸控螢幕）開啟檔案（您需要使用單擊開啟資料夾選項，並透過長按和內容功能表中的開啟來開啟檔案）。這是由於 Microsoft WPF 中的錯誤。需要重新啟動程式</target>
+          <target state="translated">預設為關閉。如果開啟，繪圖板、Wacom 或 Microsoft Surface 觸控筆將沒有延遲，但也會停用觸控螢幕連按兩下開啟檔案（您需要使用按一下開啟資料夾選項，並透過長按和內容功能表中的開啟來開啟檔案）。這是由於 Microsoft WPF 中的錯誤。需要重新啟動程式</target>
         </trans-unit>
         <trans-unit id="FocusedElementStyle" translate="yes" xml:space="preserve">
           <source>Keyboard-focused element display style</source>
@@ -758,7 +759,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         </trans-unit>
         <trans-unit id="FontSizeTooLarge" translate="yes" xml:space="preserve">
           <source>Font size larger than 16pt is not officially supported and some text may appear clipped or misaligned. Changing Scale in Windows Display Settings is the preferred way to enlarge the user interface</source>
-          <target state="new">官方不支援大於 18pt 的字形大小，某些文本可能會出現剪裁或未對齊。在 Windows 顯示設定中更改縮放比例是放大介面的首選方法</target>
+          <target state="translated">字型大小大於 16pt 不受官方支援，部分文字可能會被裁切或未對齊。在 Windows 顯示設定中變更縮放比例是放大使用者介面的首選方式</target>
         </trans-unit>
         <trans-unit id="FontStretch" translate="yes" xml:space="preserve">
           <source>Font stretch</source>
@@ -786,7 +787,7 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
           <note from="MultilingualBuild">Font stretch dropdown</note></trans-unit>
         <trans-unit id="FontWeight" translate="yes" xml:space="preserve">
           <source>Font weight</source>
-          <target state="new">字體粗細</target>
+          <target state="translated">字型粗細</target>
         </trans-unit>
         <trans-unit id="GetCloudThumbs" translate="yes" xml:space="preserve">
           <source>Get thumbnails of cloud files</source>
@@ -915,7 +916,8 @@ Drag moves if the same drive, otherwise copies. Ctrl+Drag to copy if the same dr
         <trans-unit id="HotkeyInfo" translate="yes" xml:space="preserve">
           <source>Program must be running for above hotkeys to work
 Program restart required</source>
-          <target state="translated">程式必須正在執行，上述快速鍵才能運作[NEWLINE]需要重新啟動程式</target>
+          <target state="translated">程式必須正在執行，上述快速鍵才能運作
+需要重新啟動程式</target>
         </trans-unit>
         <trans-unit id="HotkeyQuestion" translate="yes" xml:space="preserve">
           <source>Hotkey action</source>
@@ -923,7 +925,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="HotkeySuggestion" translate="yes" xml:space="preserve">
           <source>Win+1  Launches or opens OneCommander if it's pinned as first icon on the taskbar</source>
-          <target state="new">若需要在程式未執行時開啟程序，請將其固定為工作列上的第一項，隨後使用 Win+1 開啟</target>
+          <target state="translated">Win+1  若將 OneCommander 釘選在工作列的第一個圖示，即可啟動或開啟</target>
         </trans-unit>
         <trans-unit id="HotkeyVizor" translate="yes" xml:space="preserve">
           <source>Use global hotkey Ctrl+` to show docked program window</source>
@@ -947,7 +949,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="ImageBrush" translate="yes" xml:space="preserve">
           <source>Image</source>
-          <target state="new">圖像</target>
+          <target state="translated">圖片</target>
           <note from="MultilingualBuild">Background as image</note></trans-unit>
         <trans-unit id="ImageScaleFit" translate="yes" xml:space="preserve">
           <source>Scaled to fit preview pane</source>
@@ -963,7 +965,7 @@ Program restart required</source>
         </trans-unit>
         <trans-unit id="ImageStretchMode" translate="yes" xml:space="preserve">
           <source>Stretch mode</source>
-          <target state="new">拉伸模式</target>
+          <target state="translated">延展模式</target>
           <note from="MultilingualBuild">Image stretching mode</note></trans-unit>
         <trans-unit id="ImportFavoritesFromV2" translate="yes" xml:space="preserve">
           <source>Import Favorites from V2</source>
@@ -992,7 +994,8 @@ Program restart required</source>
         <trans-unit id="KeepRunningInBackgroundInfo" translate="yes" xml:space="preserve">
           <source>If On, program will stay in System Tray for faster next start.
 This should be enabled if program is set as a default file manager</source>
-          <target state="translated">如果開啟，程式將留在系統匣中以加快下次啟動速度。[NEWLINE]如果程式設定為預設檔案管理員，則應啟用此選項</target>
+          <target state="translated">如果開啟，程式將留在系統匣中以加快下次啟動速度。
+如果程式設定為預設檔案管理員，則應啟用此選項</target>
         </trans-unit>
         <trans-unit id="Language" translate="yes" xml:space="preserve">
           <source>Language</source>
@@ -1001,11 +1004,12 @@ This should be enabled if program is set as a default file manager</source>
         <trans-unit id="LanguageInfo" translate="yes" xml:space="preserve">
           <source>Restart required to apply the selected language.
 Some translations may include machine-translated text. Community improvements are welcome.</source>
-          <target state="new">需要重新啟動！某些語言是使用微軟翻譯自動翻譯的。如果您想為翻譯成您的語言做出貢獻，請寫信給 support@onecommander.com</target>
+          <target state="translated">需要重新啟動才能套用選取的語言。
+部分譯文可能包含機器翻譯內容，歡迎社群協助改善。</target>
         </trans-unit>
         <trans-unit id="LastUpdateXDays" translate="yes" xml:space="preserve">
           <source>This version was built {0} day(s) ago</source>
-          <target state="new">此版本是 {0} 天前建構的</target>
+          <target state="translated">此版本建置於 {0} 天前</target>
         </trans-unit>
         <trans-unit id="LimitFileNameLength" translate="yes" xml:space="preserve">
           <source>Limit file name length for maximum compatibility with other software (Windows' 260 character full path limit)</source>
@@ -1073,11 +1077,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="MediaPlaybackEngine" translate="yes" xml:space="preserve">
           <source>Media playback engine</source>
-          <target state="new">媒體播放引擎</target>
+          <target state="translated">媒體播放引擎</target>
         </trans-unit>
         <trans-unit id="MetadataExcerpts" translate="yes" xml:space="preserve">
           <source>Show text excerpts for these file types (Adaptive and Rich file views)</source>
-          <target state="new">顯示這些檔案類型的内容摘錄（自適應及縮圖+詳細信息）</target>
+          <target state="translated">為這些檔案類型顯示文字摘要（自適應與豐富檔案檢視）</target>
         </trans-unit>
         <trans-unit id="MetadataExcerptsInfo" translate="yes" xml:space="preserve">
           <source>Comma separated; no '.'; example: txt,bat,md; Content as Plain-Text only</source>
@@ -1089,7 +1093,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="MouseDebounceTime" translate="yes" xml:space="preserve">
           <source>Double-Click threshold (ms)</source>
-          <target state="translated">雙擊閾值 (ms)</target>
+          <target state="translated">連按兩下閾值 (ms)</target>
         </trans-unit>
         <trans-unit id="MouseDebounceTimeInfo" translate="yes" xml:space="preserve">
           <source>Reduces mouse button noise by setting a delay (in milliseconds) to ignore rapid, unintended clicks</source>
@@ -1105,15 +1109,15 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="Name" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">名稱</target>
+          <target state="translated">名稱</target>
           <note from="MultilingualBuild">Name for toolbar; more uses in future</note></trans-unit>
         <trans-unit id="NewTabDuplicateCurrent" translate="yes" xml:space="preserve">
           <source>Duplicate current tab</source>
-          <target state="new">複製當前</target>
+          <target state="translated">複製目前分頁</target>
         </trans-unit>
         <trans-unit id="NewTabOpenDefaultLocation" translate="yes" xml:space="preserve">
           <source>Open default location</source>
-          <target state="new">開啟預設位置</target>
+          <target state="translated">開啟預設位置</target>
         </trans-unit>
         <trans-unit id="NewTabOpenPath" translate="yes" xml:space="preserve">
           <source>Open path:</source>
@@ -1133,7 +1137,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="NewTabQuestion" translate="yes" xml:space="preserve">
           <source>New tab</source>
-          <target state="new">新增索引標簽應：</target>
+          <target state="translated">新分頁</target>
         </trans-unit>
         <trans-unit id="NoRecentMenuItems" translate="yes" xml:space="preserve">
           <source>File context menu needs to be opened at least once</source>
@@ -1141,7 +1145,7 @@ Some translations may include machine-translated text. Community improvements ar
           <note from="MultilingualBuild">Message if context menu is empty</note></trans-unit>
         <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
           <source>No updates found</source>
-          <target state="new">沒有找到更新</target>
+          <target state="translated">找不到更新</target>
         </trans-unit>
         <trans-unit id="NotificationLevel" translate="yes" xml:space="preserve">
           <source>Notification level</source>
@@ -1164,21 +1168,21 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="OnStartup" translate="yes" xml:space="preserve">
           <source>On startup</source>
-          <target state="new">啟動時</target>
+          <target state="translated">啟動時</target>
           <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartup_NewWindow" translate="yes" xml:space="preserve">
           <source>Open a new window</source>
-          <target state="new">打開一個新視窗</target>
+          <target state="translated">開啟新視窗</target>
           <note from="MultilingualBuild">NOT USED</note>
         </trans-unit>
         <trans-unit id="OnStartup_RestoreSession" translate="yes" xml:space="preserve">
           <source>Restore previous windows</source>
-          <target state="new">恢復以前的視窗</target>
+          <target state="translated">還原先前視窗</target>
         </trans-unit>
         <trans-unit id="Opacity" translate="yes" xml:space="preserve">
           <source>Opacity</source>
-          <target state="new">不透明度</target>
+          <target state="translated">不透明度</target>
           <note from="MultilingualBuild">Opacity, for background but may be used in other places</note></trans-unit>
         <trans-unit id="OpenArgsPathQuestion" translate="yes" xml:space="preserve">
           <source>Open paths from external source in:</source>
@@ -1190,7 +1194,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionExistingTab" translate="yes" xml:space="preserve">
           <source>Existing tab with the same path, otherwise new tab</source>
-          <target state="new">具有相同路徑的現有索引標籤，否則新索引標籤</target>
+          <target state="translated">使用相同路徑的現有分頁，否則開啟新分頁</target>
         </trans-unit>
         <trans-unit id="OpenArgsPathQuestionNewTab" translate="yes" xml:space="preserve">
           <source>New tab</source>
@@ -1214,7 +1218,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="OpeningItemsDoubleClick" translate="yes" xml:space="preserve">
           <source>Double-click opens items (single-click to select)</source>
-          <target state="translated">雙擊開啟項目（單擊選取）</target>
+          <target state="translated">連按兩下開啟項目（按一下選取）</target>
         </trans-unit>
         <trans-unit id="OpeningItemsQuestion" translate="yes" xml:space="preserve">
           <source>Opening items:</source>
@@ -1222,11 +1226,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="OpeningItemsSingleClickFiles" translate="yes" xml:space="preserve">
           <source>Single click also opens files</source>
-          <target state="translated">單擊也開啟檔案</target>
+          <target state="translated">按一下也開啟檔案</target>
         </trans-unit>
         <trans-unit id="OpeningItemsSingleClickFolders" translate="yes" xml:space="preserve">
           <source>Single click opens folders (Ctrl+click to select)</source>
-          <target state="translated">單擊開啟資料夾（Ctrl+點擊選取）</target>
+          <target state="translated">按一下開啟資料夾（Ctrl+按一下選取）</target>
         </trans-unit>
         <trans-unit id="OptUseThinScrollbar" translate="yes" xml:space="preserve">
           <source>Use thin scrollbar</source>
@@ -1262,7 +1266,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="PathSeparatorInBreadcrumbs" translate="yes" xml:space="preserve">
           <source>Path separator symbol (address bar only)</source>
-          <target state="new">路徑分隔符號（僅限網址列）</target>
+          <target state="translated">路徑分隔符號（僅限網址列）</target>
         </trans-unit>
         <trans-unit id="PhotoLocationOptBing" translate="yes" xml:space="preserve">
           <source>Bing Maps</source>
@@ -1278,11 +1282,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="PhotosAppWorkaround" translate="yes" xml:space="preserve">
           <source>Opening internet-downloaded images in Microsoft Photos</source>
-          <target state="new">在 Microsoft Photos 中開啟網路下載的圖片</target>
+          <target state="translated">在 Microsoft 相片中開啟從網路下載的圖片</target>
         </trans-unit>
         <trans-unit id="PreloadThumbs" translate="yes" xml:space="preserve">
           <source>Preload thumbnails in background</source>
-          <target state="new">在後台預載縮圖</target>
+          <target state="translated">在背景預先載入縮圖</target>
         </trans-unit>
         <trans-unit id="PreviewAutoplay" translate="yes" xml:space="preserve">
           <source>Autoplay video/audio files in preview window</source>
@@ -1338,11 +1342,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="RefreshFolderSizesAfterHourClosed" translate="yes" xml:space="preserve">
           <source>Refresh folder sizes after the app was closed for over an hour</source>
-          <target state="new">應用程式關閉超過一小時後刷新資料夾大小</target>
+          <target state="translated">應用程式關閉超過一小時後重新整理資料夾大小</target>
         </trans-unit>
         <trans-unit id="RefreshFolderSizesAfterHourClosedInfo" translate="yes" xml:space="preserve">
           <source>When the app was closed for more than one hour, recalculate cached folder sizes as they are requested. This can increase CPU and disk use.</source>
-          <target state="new">如果應用程式關閉超過一小時，則需要根據請求重新計算快取資料夾的大小。這可能會增加 CPU 和磁碟使用率。</target>
+          <target state="translated">當應用程式關閉超過一小時後，在需要時重新計算快取的資料夾大小。這可能會增加 CPU 與磁碟使用量。</target>
         </trans-unit>
         <trans-unit id="RegisterMaxThumbs" translate="yes" xml:space="preserve">
           <source>Register 3ds Max thumbnail handler</source>
@@ -1370,11 +1374,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ReloadIconPack" translate="yes" xml:space="preserve">
           <source>Reload pack</source>
-          <target state="new">重新裝填包</target>
+          <target state="translated">重新載入圖示包</target>
         </trans-unit>
         <trans-unit id="ReloadIconPackInfo" translate="yes" xml:space="preserve">
           <source>Reload this icon pack after changing its files</source>
-          <target state="new">更改檔案後，請重新載入此圖示包</target>
+          <target state="translated">變更此圖示包的檔案後重新載入</target>
         </trans-unit>
         <trans-unit id="RemoveDuplicatesFromTabsHistory" translate="yes" xml:space="preserve">
           <source>Remove duplicates from tab's path history </source>
@@ -1418,27 +1422,27 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="RestoreSessionWindowsActionCreateBlank" translate="yes" xml:space="preserve">
           <source>Create a blank window on the current desktop</source>
-          <target state="new">在目前桌面上建立一個空白視窗</target>
+          <target state="translated">在目前的桌面上建立空白視窗</target>
         </trans-unit>
         <trans-unit id="RestoreSessionWindowsActionDoNothing" translate="yes" xml:space="preserve">
           <source>Do nothing</source>
-          <target state="new">什麼都別做</target>
+          <target state="translated">不做任何事</target>
         </trans-unit>
         <trans-unit id="RestoreSessionWindowsActionMoveCurrent" translate="yes" xml:space="preserve">
           <source>Bring the restored windows to the current desktop</source>
-          <target state="new">把還原的視窗帶到目前的桌面</target>
+          <target state="translated">將還原的視窗帶至目前的桌面</target>
         </trans-unit>
         <trans-unit id="RestoreSessionWindowsActionQuestion" translate="yes" xml:space="preserve">
           <source>When restored windows belong to another virtual desktop:</source>
-          <target state="new">當還原的 Windows 屬於另一個虛擬桌面時：</target>
+          <target state="translated">當還原的視窗屬於另一個虛擬桌面時：</target>
         </trans-unit>
         <trans-unit id="RestoreSessionWindowsActionSwitchDesktop" translate="yes" xml:space="preserve">
           <source>Switch to the virtual desktop containing the restored windows</source>
-          <target state="new">切換到包含還原視窗的虛擬桌面</target>
+          <target state="translated">切換至包含還原視窗的虛擬桌面</target>
         </trans-unit>
         <trans-unit id="RevertsOnNextStart" translate="yes" xml:space="preserve">
           <source>These settings revert on next start in free version</source>
-          <target state="new">這些設定在下次啟動免費版時會恢復原狀。</target>
+          <target state="translated">在免費版中，這些設定會在下次啟動時恢復預設值</target>
         </trans-unit>
         <trans-unit id="RunNow" translate="yes" xml:space="preserve">
           <source>Run now</source>
@@ -1446,7 +1450,7 @@ Some translations may include machine-translated text. Community improvements ar
           <note from="MultilingualBuild">Button for connector</note></trans-unit>
         <trans-unit id="SaveUntitledWindows" translate="yes" xml:space="preserve">
           <source>Save untitled windows</source>
-          <target state="new">儲存無標題的視窗</target>
+          <target state="translated">儲存未命名的視窗</target>
         </trans-unit>
         <trans-unit id="ScrollbarStyle" translate="yes" xml:space="preserve">
           <source>Scrollbar style</source>
@@ -1466,7 +1470,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="SelectedToolbar" translate="yes" xml:space="preserve">
           <source>Selected Toolbar</source>
-          <target state="new">選定的工具列</target>
+          <target state="translated">選取的工具列</target>
         </trans-unit>
         <trans-unit id="SentOnDateFormat" translate="yes" xml:space="preserve">
           <source>$SentOn will be replaced by date in this format:</source>
@@ -1474,83 +1478,83 @@ Some translations may include machine-translated text. Community improvements ar
           <note from="MultilingualBuild">When email is dropped this will be the format used for adding the sent date in the name. Keep $SentOn</note></trans-unit>
         <trans-unit id="SettingsBackupCancelling" translate="yes" xml:space="preserve">
           <source>Cancelling backup…</source>
-          <target state="new">正在取消備份…</target>
+          <target state="translated">正在取消備份…</target>
         </trans-unit>
         <trans-unit id="SettingsBackupComplete" translate="yes" xml:space="preserve">
           <source>Your settings and user resources have been backed up.</source>
-          <target state="new">您的設定和使用者資源已備份。</target>
+          <target state="translated">您的設定與使用者資源已備份。</target>
         </trans-unit>
         <trans-unit id="SettingsBackupCompleteTitle" translate="yes" xml:space="preserve">
           <source>Backup complete</source>
-          <target state="new">備份完成</target>
+          <target state="translated">備份完成</target>
         </trans-unit>
         <trans-unit id="SettingsBackupDialogTitle" translate="yes" xml:space="preserve">
           <source>Back up OneCommander settings</source>
-          <target state="new">備份 OneCommander 設定</target>
+          <target state="translated">備份 OneCommander 設定</target>
         </trans-unit>
         <trans-unit id="SettingsBackupFailed" translate="yes" xml:space="preserve">
           <source>Backup failed</source>
-          <target state="new">備份失敗</target>
+          <target state="translated">備份失敗</target>
         </trans-unit>
         <trans-unit id="SettingsBackupMenu" translate="yes" xml:space="preserve">
           <source>Backup settings…</source>
-          <target state="new">備份設定…</target>
+          <target state="translated">備份設定…</target>
         </trans-unit>
         <trans-unit id="SettingsBackupPreparing" translate="yes" xml:space="preserve">
           <source>Preparing backup…</source>
-          <target state="new">正在準備備份…</target>
+          <target state="translated">正在準備備份…</target>
         </trans-unit>
         <trans-unit id="SettingsBackupRestoreMenu" translate="yes" xml:space="preserve">
           <source>Backup / restore</source>
-          <target state="new">備份/恢復</target>
+          <target state="translated">備份／還原</target>
         </trans-unit>
         <trans-unit id="SettingsBackupSavingWindows" translate="yes" xml:space="preserve">
           <source>Saving open windows and tabs…</source>
-          <target state="new">儲存開啟的視窗和標籤頁…</target>
+          <target state="translated">正在儲存開啟的視窗與分頁…</target>
         </trans-unit>
         <trans-unit id="SettingsBackupTitle" translate="yes" xml:space="preserve">
           <source>Back up settings</source>
-          <target state="new">備份設定</target>
+          <target state="translated">備份設定</target>
         </trans-unit>
         <trans-unit id="SettingsImportFailed" translate="yes" xml:space="preserve">
           <source>Import failed</source>
-          <target state="new">導入失敗</target>
+          <target state="translated">匯入失敗</target>
         </trans-unit>
         <trans-unit id="SettingsImportV3Menu" translate="yes" xml:space="preserve">
           <source>Import from v3…</source>
-          <target state="new">從 v3 導入…</target>
+          <target state="translated">從 v3 匯入…</target>
         </trans-unit>
         <trans-unit id="SettingsNoSearchResults" translate="yes" xml:space="preserve">
           <source>No settings matched your search</source>
-          <target state="new">沒有任何設定符合你的搜尋結果</target>
+          <target state="translated">找不到符合搜尋條件的設定</target>
         </trans-unit>
         <trans-unit id="SettingsResetAllMenu" translate="yes" xml:space="preserve">
           <source>Reset all settings to defaults…</source>
-          <target state="new">將所有設定重設為預設值…</target>
+          <target state="translated">將所有設定重設為預設值…</target>
         </trans-unit>
         <trans-unit id="SettingsResetComplete" translate="yes" xml:space="preserve">
           <source>All settings were reset to their defaults. Restart OneCommander to apply the reset.</source>
-          <target state="new">所有設定已重設為預設值。請重新啟動 OneCommander 以套用重設。</target>
+          <target state="translated">所有設定已重設為預設值。請重新啟動 OneCommander 以套用重設。</target>
         </trans-unit>
         <trans-unit id="SettingsResetConfirm" translate="yes" xml:space="preserve">
           <source>Reset all OneCommander settings to their defaults? Your license and activation will be kept.</source>
-          <target state="new">將所有 OneCommander 設定重設為預設值？您的許可證和啟動資訊將保留。</target>
+          <target state="translated">確定要將所有 OneCommander 設定重設為預設值嗎？您的授權與啟用狀態將會保留。</target>
         </trans-unit>
         <trans-unit id="SettingsResetFailed" translate="yes" xml:space="preserve">
           <source>Reset failed</source>
-          <target state="new">重置失敗</target>
+          <target state="translated">重設失敗</target>
         </trans-unit>
         <trans-unit id="SettingsResetTitle" translate="yes" xml:space="preserve">
           <source>Settings reset</source>
-          <target state="new">設定重置</target>
+          <target state="translated">重設設定</target>
         </trans-unit>
         <trans-unit id="SettingsRestoreBackupMenu" translate="yes" xml:space="preserve">
           <source>Restore backup…</source>
-          <target state="new">恢復備份…</target>
+          <target state="translated">還原備份…</target>
         </trans-unit>
         <trans-unit id="SettingsRestoreFailed" translate="yes" xml:space="preserve">
           <source>Restore failed</source>
-          <target state="new">恢復失敗</target>
+          <target state="translated">還原失敗</target>
         </trans-unit>
         <trans-unit id="SettingsWindowTitle" translate="yes" xml:space="preserve">
           <source>Settings</source>
@@ -1578,7 +1582,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShortcutClickQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should:</source>
-          <target state="translated">如果程式已開啟視窗，雙擊捷徑應：</target>
+          <target state="translated">如果程式已開啟視窗，連按兩下捷徑應：</target>
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowCreate" translate="yes" xml:space="preserve">
           <source>Prompt to create another window</source>
@@ -1586,7 +1590,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowQuestion" translate="yes" xml:space="preserve">
           <source>If program has a window open, double-clicking its shortcut should</source>
-          <target state="new">在程式視窗已開啟情況下按兩下快捷方式將會：</target>
+          <target state="translated">若程式已有開啟的視窗，連按兩下捷徑時應</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="ShortcutClickWithExistingWindowSwitch" translate="yes" xml:space="preserve">
           <source>Switch to the existing window</source>
@@ -1618,11 +1622,11 @@ Some translations may include machine-translated text. Community improvements ar
           <note from="MultilingualBuild">Subst is shell command, it should remain untranslated</note></trans-unit>
         <trans-unit id="ShowErrorReportDialog" translate="yes" xml:space="preserve">
           <source>Show error report dialog on crash</source>
-          <target state="new">崩潰時顯示錯誤報告對話框</target>
+          <target state="translated">發生當機時顯示錯誤回報對話方塊</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="ShowErrorReportDialogInfo" translate="yes" xml:space="preserve">
           <source>On crash a window will show where you can write steps to reproduce the crash so it can be fixed in the next update</source>
-          <target state="new">崩潰時將會顯示錯誤報告視窗，供您填寫重現錯誤的步驟，以便在下次更新中修復錯誤</target>
+          <target state="translated">發生當機時將會顯示一個視窗，讓您填寫重現當機的步驟，以便在下次更新中修正</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="ShowFileAgeIndicator" translate="yes" xml:space="preserve">
           <source>Mark recent files</source>
@@ -1638,7 +1642,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowFilesViewToolbar" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="new">在工具列顯示「檔案視圖」按鈕</target>
+          <target state="translated">顯示檔案檢視工具列按鈕</target>
         </trans-unit>
         <trans-unit id="ShowFolderBackgroundImage" translate="yes" xml:space="preserve">
           <source>Show folder background image</source>
@@ -1650,15 +1654,15 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowFolderSize" translate="yes" xml:space="preserve">
           <source>Calculate folder sizes</source>
-          <target state="new">顯示資料夾大小</target>
+          <target state="translated">計算資料夾大小</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeInfo" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="new">使用 Windows Shell 取得資料夾大小。它并不完全準確，但速度較快。無法更改顯示格式。無法按大小對資料夾進行排序。更高的 CPU 使用率</target>
+          <target state="translated">使用 Windows Shell 取得資料夾大小。並非 100% 準確但速度快。無法變更大小格式。無法依大小排序資料夾。CPU 使用率較高</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="ShowFolderSizeOnNetwork" translate="yes" xml:space="preserve">
           <source>Calculate folder sizes on network folders</source>
-          <target state="new">顯示網路資料夾大小</target>
+          <target state="translated">計算網路資料夾的大小</target>
         </trans-unit>
         <trans-unit id="ShowFolderSizeOnNetworkInfo" translate="yes" xml:space="preserve">
           <source>Off by default as it makes browsing network folders slower</source>
@@ -1666,7 +1670,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowFolderWatemark" translate="yes" xml:space="preserve">
           <source>Show folder name in background</source>
-          <target state="new">在背景顯示資料夾名稱</target>
+          <target state="translated">在背景顯示資料夾名稱</target>
         </trans-unit>
         <trans-unit id="ShowHidden" translate="yes" xml:space="preserve">
           <source>Show hidden files and folders</source>
@@ -1686,7 +1690,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowMainToolbar" translate="yes" xml:space="preserve">
           <source>Show main toolbar</source>
-          <target state="new">顯示主工具列</target>
+          <target state="translated">顯示主工具列</target>
           <note from="MultilingualBuild">Toolbar in sidebar, bottom-left</note></trans-unit>
         <trans-unit id="ShowMetadataOnNetwork" translate="yes" xml:space="preserve">
           <source>Show Metadata on network files</source>
@@ -1706,7 +1710,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowOverlayOnShellContextMenuInfo" translate="yes" xml:space="preserve">
           <source>Prevents accidental interaction when dismissing context menu. It is needed if any of the above single-click interactions are enabled</source>
-          <target state="translated">防止在關閉內容功能表時發生意外互動。如果啟用了上述任何單擊互動，則需要此選項</target>
+          <target state="translated">防止在關閉內容功能表時發生意外互動。如果啟用了上述任何按一下互動，則需要此選項</target>
           <note from="MultilingualBuild">Meaning, if menu is opened, it will eat the first click so senection is not changed or nothing is accidentally open</note></trans-unit>
         <trans-unit id="ShowRenameSuggestions" translate="yes" xml:space="preserve">
           <source>Show rename suggestions popup</source>
@@ -1718,7 +1722,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowScriptsButton" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="new">顯示「脚本」按鈕</target>
+          <target state="translated">顯示指令碼按鈕</target>
         </trans-unit>
         <trans-unit id="ShowScriptsButtonInfo" translate="yes" xml:space="preserve">
           <source>See \Resources\Scripts\ folder for examples. PRO users can have more than 8 scripts.</source>
@@ -1735,7 +1739,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="ShowSystemInfo" translate="yes" xml:space="preserve">
           <source>Requires "Show hidden files" to be enabled</source>
-          <target state="new">需要啟用“顯示隱藏檔案”</target>
+          <target state="translated">需要先啟用「顯示隱藏檔案」</target>
         </trans-unit>
         <trans-unit id="ShowTemporary" translate="yes" xml:space="preserve">
           <source>Show temporary files</source>
@@ -1759,11 +1763,11 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="SizeFormatFolderSizeInfo" translate="yes" xml:space="preserve">
           <source>This will not affect folder size display (it is provided by Windows)</source>
-          <target state="new">這不會影響資料夾大小的顯示（由 Windows 控制）</target>
+          <target state="translated">這不會影響資料夾大小的顯示（由 Windows 提供）</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="SkipSearchingReparsePoints" translate="yes" xml:space="preserve">
           <source>Skip searching within reparse points</source>
-          <target state="translated">跳過在重新解析點內搜尋</target>
+          <target state="translated">略過在重新解析點內搜尋</target>
         </trans-unit>
         <trans-unit id="SkipSearchingReparsePointsInfo" translate="yes" xml:space="preserve">
           <source>Use this only if you know you have cyclical reparse points that would result in never-ending search. Checking this will break searching cloud drives as those rely on reparse points</source>
@@ -1771,7 +1775,7 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="SolidColor" translate="yes" xml:space="preserve">
           <source>Solid color</source>
-          <target state="new">純色</target>
+          <target state="translated">純色</target>
           <note from="MultilingualBuild">Background color, solid</note></trans-unit>
         <trans-unit id="SortDirAscending" translate="yes" xml:space="preserve">
           <source>Ascending</source>
@@ -1807,11 +1811,11 @@ Some translations may include machine-translated text. Community improvements ar
           <note from="MultilingualBuild">Files sorting option</note></trans-unit>
         <trans-unit id="SortFoldersByName" translate="yes" xml:space="preserve">
           <source>Always sort folders by name</source>
-          <target state="new">始終按名稱對資料夾進行排序</target>
+          <target state="translated">一律依名稱排序資料夾</target>
         </trans-unit>
         <trans-unit id="SortFoldersByNameInfo" translate="yes" xml:space="preserve">
           <source>Folders remain alphabetized, even when files are sorted by date or size</source>
-          <target state="new">啟用時，即便您按日期對檔案進行排序，資料夾仍然按名稱排序</target>
+          <target state="translated">即使檔案依日期或大小排序，資料夾仍會保持依字母順序排列</target>
         </trans-unit>
         <trans-unit id="SortItemsBy" translate="yes" xml:space="preserve">
           <source>Sort items by</source>
@@ -1827,23 +1831,23 @@ Some translations may include machine-translated text. Community improvements ar
         </trans-unit>
         <trans-unit id="StretchFill" translate="yes" xml:space="preserve">
           <source>Stretch to fill</source>
-          <target state="new">拉伸以填充</target>
+          <target state="translated">填滿（延展）</target>
         </trans-unit>
         <trans-unit id="StretchNone" translate="yes" xml:space="preserve">
           <source>Original size</source>
-          <target state="new">原始大小</target>
+          <target state="translated">原始大小</target>
         </trans-unit>
         <trans-unit id="StretchTile" translate="yes" xml:space="preserve">
           <source>Tile</source>
-          <target state="new">瓦</target>
+          <target state="translated">並排</target>
         </trans-unit>
         <trans-unit id="StretchUniform" translate="yes" xml:space="preserve">
           <source>Fit (no crop)</source>
-          <target state="new">適合（無裁剪）</target>
+          <target state="translated">符合（不裁切）</target>
         </trans-unit>
         <trans-unit id="StretchUniformToFill" translate="yes" xml:space="preserve">
           <source>Fill (crop extra)</source>
-          <target state="new">填充（裁剪額外）</target>
+          <target state="translated">填滿（裁切多餘部分）</target>
         </trans-unit>
         <trans-unit id="SwitchToNewTab" translate="yes" xml:space="preserve">
           <source>Switch to newly created tab on middle-click on folder</source>
@@ -1898,10 +1902,10 @@ Some translations may include machine-translated text. Community improvements ar
 No Undo support
 No color tag preservation on move
 No folder/thumbnail database updates</source>
-          <target state="new">有限的 OneCommander 整合
-沒有復原支援
-移動時不會保留顏色標籤
-沒有資料夾或縮圖資料庫更新</target>
+          <target state="translated">有限的 OneCommander 整合
+不支援復原
+移動時不會保留色彩標籤
+不更新資料夾／縮圖資料庫</target>
         </trans-unit>
         <trans-unit id="TextRendering" translate="yes" xml:space="preserve">
           <source>Text rendering</source>
@@ -1909,19 +1913,19 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="TextRenderingInfo" translate="yes" xml:space="preserve">
           <source>Affects only text in files list. If you have mutiple screens it may look different on each if they have different Windows Display Scale or Pixel Layouts, so calibrate to the lowest-quality screen. Changing program font size will affect this. Windows ClearType option affects this.</source>
-          <target state="translated">僅影響檔案清單中的文字。如果您有多個螢幕，且具有不同的 Windows 顯示比例或像素配置，則在每個螢幕上看起來可能會有所不同，因此請校準至最低品質的螢幕。變更程式字型大小會影響此設定。Windows ClearType 選項會影響此設定。</target>
+          <target state="translated">僅影響檔案清單中的文字。如果您有多個螢幕，且具有不同的 Windows 顯示比例或像素版面配置，則在每個螢幕上看起來可能會有所不同，因此請校準至最低品質的螢幕。變更程式字型大小會影響此設定。Windows ClearType 選項會影響此設定。</target>
         </trans-unit>
         <trans-unit id="TextRenderingSample" translate="yes" xml:space="preserve">
           <source>The quick brown fox jumps over lazy dog 1234567890</source>
-          <target state="new">敏捷的棕色狐狸跳過了懶狗 1234567890</target>
+          <target state="translated">敏捷的棕色狐狸跳過懶狗 ABCabc 1234567890</target>
         </trans-unit>
         <trans-unit id="TextRenderingSelect" translate="yes" xml:space="preserve">
           <source>Choose the clearest text rendering for your screen</source>
-          <target state="new">選擇螢幕最清晰的文字渲染效果</target>
+          <target state="translated">選擇最適合您螢幕的清晰文字渲染效果</target>
         </trans-unit>
         <trans-unit id="ThemeAuthor" translate="yes" xml:space="preserve">
           <source>Theme author</source>
-          <target state="new">主題作者</target>
+          <target state="translated">主題作者</target>
         </trans-unit>
         <trans-unit id="ThemeCreationTip" translate="yes" xml:space="preserve">
           <source>To create a custom theme: make a copy of a theme from Themes folder and edit values in .xaml file</source>
@@ -1933,11 +1937,11 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="ThemeDefined" translate="yes" xml:space="preserve">
           <source>Theme defined</source>
-          <target state="new">主題定義</target>
+          <target state="translated">由主題定義</target>
           <note from="MultilingualBuild">Background from theme itself</note></trans-unit>
         <trans-unit id="ThemeDescription" translate="yes" xml:space="preserve">
           <source>ThemeDescription</source>
-          <target state="new">主題描述</target>
+          <target state="translated">主題說明</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light</source>
@@ -1945,7 +1949,7 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="ThemeSuggestedAccent" translate="yes" xml:space="preserve">
           <source>Suggested accent color</source>
-          <target state="new">建議的強調色</target>
+          <target state="translated">建議的輔色</target>
         </trans-unit>
         <trans-unit id="ThirdPartyNotice" translate="yes" xml:space="preserve">
           <source>Important: Use of these third-party programs and scripts is at the user's own risk and discretion!</source>
@@ -1969,23 +1973,23 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="ToolbarEditor" translate="yes" xml:space="preserve">
           <source>Toolbar editor</source>
-          <target state="new">工具列編輯器</target>
+          <target state="translated">工具列編輯器</target>
         </trans-unit>
         <trans-unit id="Toolbars" translate="yes" xml:space="preserve">
           <source>Toolbars</source>
-          <target state="new">工具列</target>
+          <target state="translated">工具列</target>
         </trans-unit>
         <trans-unit id="TranslationAuthors" translate="yes" xml:space="preserve">
           <source>Translation authors:</source>
-          <target state="new">翻譯作者</target>
+          <target state="translated">翻譯作者：</target>
         </trans-unit>
         <trans-unit id="TranslationAuthorsNames" translate="yes" xml:space="preserve">
           <source>Machine translated using Microsoft Translator</source>
-          <target state="new">Sunxyw</target>
+          <target state="translated">Sunxyw</target>
           <note from="MultilingualBuild">Add your self; Don't translate</note></trans-unit>
         <trans-unit id="TranslationContribute" translate="yes" xml:space="preserve">
           <source>Help improve translations</source>
-          <target state="new">幫助改進翻譯</target>
+          <target state="translated">協助改善翻譯</target>
         </trans-unit>
         <trans-unit id="TransparencyEffectsDisabled" translate="yes" xml:space="preserve">
           <source>To use this option enable Transparency Effects in Windows' Settings/Personalization/Colors</source>
@@ -1997,31 +2001,31 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_Daily" translate="yes" xml:space="preserve">
           <source>Daily</source>
-          <target state="new">日常的</target>
+          <target state="translated">每天</target>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_Every6Hours" translate="yes" xml:space="preserve">
           <source>Every 6 hours</source>
-          <target state="new">每 6 小時</target>
+          <target state="translated">每 6 小時</target>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_Label" translate="yes" xml:space="preserve">
           <source>Update check frequency</source>
-          <target state="new">更新檢查頻率</target>
+          <target state="translated">更新檢查頻率</target>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_Never" translate="yes" xml:space="preserve">
           <source>Never</source>
-          <target state="new">絕不</target>
+          <target state="translated">永不</target>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_StartupOnly" translate="yes" xml:space="preserve">
           <source>On start</source>
-          <target state="new">啟動時</target>
+          <target state="translated">啟動時</target>
         </trans-unit>
         <trans-unit id="UpdateCheckFrequency_Weekly" translate="yes" xml:space="preserve">
           <source>Weekly</source>
-          <target state="new">每週</target>
+          <target state="translated">每週</target>
         </trans-unit>
         <trans-unit id="UpdatePrompt" translate="yes" xml:space="preserve">
           <source>Update found. Do you want to update to version {0} now?</source>
-          <target state="new">發現更新。您想立即更新到版本 {0} 嗎？</target>
+          <target state="translated">發現更新。是否立即更新至版本 {0}？</target>
         </trans-unit>
         <trans-unit id="UpdateToVersionAhead" translate="yes" xml:space="preserve">
           <source>Update to version ahead (less stable)</source>
@@ -2029,7 +2033,7 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="UseAcrylicDialogs" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in dialogs</source>
-          <target state="new">在對話中使用壓克力效果</target>
+          <target state="translated">在對話方塊中使用壓克力效果</target>
         </trans-unit>
         <trans-unit id="UseAcrylicMenu" translate="yes" xml:space="preserve">
           <source>Use acrylic effect in menu</source>
@@ -2069,7 +2073,7 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="UseLayoutRounding" translate="yes" xml:space="preserve">
           <source>Pixel-perfect layout</source>
-          <target state="translated">像素完美配置</target>
+          <target state="translated">像素完美版面配置</target>
         </trans-unit>
         <trans-unit id="UseLayoutRoundingInfo" translate="yes" xml:space="preserve">
           <source>Makes lines sharper on non-HDPI screens. Necessary only for 100% display scale. Program is more stable when Off, but icons and lines may not be as sharp. Default ON.</source>
@@ -2081,7 +2085,7 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="UseLocalThumbsDbInfo" translate="yes" xml:space="preserve">
           <source>Creates database file in Settings folder instead of using Windows thumbnail cache for storing file preview images. File will be large. Overrides default folder thumbnails and disables using custom folder icons</source>
-          <target state="translated">在設定資料夾中建立資料庫檔案，而不是使用 Windows 縮圖快取來儲存檔案預覽影像。檔案會很大。覆寫預設資料夾縮圖並停用使用自訂資料夾圖示</target>
+          <target state="translated">在 Settings 資料夾中建立資料庫檔案，而非使用 Windows 縮圖快取來儲存檔案預覽影像。檔案將會很大。會覆寫預設資料夾縮圖並停用自訂資料夾圖示</target>
           <note from="MultilingualBuild">Don't translate Settings or Windows</note></trans-unit>
         <trans-unit id="UseMicaWindow" translate="yes" xml:space="preserve">
           <source>Use Mica window effect</source>
@@ -2089,14 +2093,14 @@ No folder/thumbnail database updates</source>
         </trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyte" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="new">使用 MB 的舊定義（與 Windows 檔案總管一致）</target>
+          <target state="translated">使用舊的 Megabyte 定義（如 Windows Explorer）</target>
           <note from="resx">Don't translate Windows Explorer</note>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="UseOldDefinitionOfMegabyteInfo" translate="yes" xml:space="preserve">
           <source></source>
-          <target state="new">如果您相較於 Megabytes（MB） 更喜愛 Mebibytes（MiB），請啟用此選項
-1 MiB = 2^20 Byte = 1048576 Byte（國際電工委員會 IEC 標準）
-1 MB = 10^6 Byte = 1000000 Byte （國際單位制 SI 標準）</target>
+          <target state="translated">如果您偏好使用 Mebibytes 而非 Megabytes，請開啟
+1 Mebibyte = 2^20 bytes = 1048576 bytes (IEC)
+1 Megabyte (MB) = 10^6 bytes = 1000000 bytes (SI 標準)</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="UseOldDragAndDropSystem" translate="yes" xml:space="preserve">
           <source>Use old Drag&amp;Drop system</source>
@@ -2105,11 +2109,12 @@ No folder/thumbnail database updates</source>
         <trans-unit id="UseOldDragAndDropSystemInfo" translate="yes" xml:space="preserve">
           <source>Default OFF. This is for dragging from OneCommander to other programs. 
 Adobe Acrobat page-insert doesn't work with either. Use Combine Files from context menu instead.</source>
-          <target state="translated">預設關閉。這是用於從 OneCommander 拖曳至其他程式。[NEWLINE]Adobe Acrobat 頁面插入在這兩種情況下都無法運作。請改用內容功能表中的合併檔案。</target>
+          <target state="translated">預設關閉。這是用於從 OneCommander 拖曳至其他程式。
+Adobe Acrobat 頁面插入在這兩種情況下都無法運作。請改用內容功能表中的合併檔案。</target>
           <note from="MultilingualBuild">NOT USED</note></trans-unit>
         <trans-unit id="UseOldMegabyteDefinition" translate="yes" xml:space="preserve">
           <source>Use Windows-style legacy labels (Show Mebibytes as MB)</source>
-          <target state="new">使用 Windows 風格的舊標籤（將 Mebibytes 顯示為 MB）</target>
+          <target state="translated">使用 Windows 風格的舊式標籤（將 Mebibytes 顯示為 MB）</target>
           <note from="MultilingualBuild">Mebibytes is not a typo</note></trans-unit>
         <trans-unit id="UseOneCommanderUpdater" translate="yes" xml:space="preserve">
           <source>Use external OneCommander updater program instead of PowerShell script</source>
@@ -2189,7 +2194,7 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         </trans-unit>
         <trans-unit id="WindowBackgroundType" translate="yes" xml:space="preserve">
           <source>Background type</source>
-          <target state="new">背景類型</target>
+          <target state="translated">背景類型</target>
           <note from="MultilingualBuild">In Theme, options are None, Solid color, image...</note></trans-unit>
         <trans-unit id="WindowSettings" translate="yes" xml:space="preserve">
           <source>OneCommander Settings</source>
@@ -2280,24 +2285,24 @@ Adobe Acrobat page-insert doesn't work with either. Use Combine Files from conte
         <trans-unit id="ArchiveMotWWarningMessage" translate="yes" xml:space="preserve">
           <source>This archive was downloaded from the internet. Windows marks these files for security. 
 Choose how to extract them:</source>
-          <target state="new">本檔案是從網路下載的。Windows 會標記這些檔案以保障安全。
-選擇如何提取：</target>
+          <target state="translated">此壓縮檔是從網路下載的。Windows 會標記這些檔案以確保安全。
+請選擇解壓縮方式：</target>
         </trans-unit>
         <trans-unit id="ArchiveMotW_Propagate" translate="yes" xml:space="preserve">
           <source>Keep internet security marks</source>
-          <target state="new">保留網路安全標誌</target>
+          <target state="translated">保留網路安全標記</target>
         </trans-unit>
         <trans-unit id="ArchiveMotW_PropagateInfo" translate="yes" xml:space="preserve">
           <source>Windows and other programs may show safety warnings when you open these files</source>
-          <target state="new">Windows 和其他程式在你打開這些檔案時可能會顯示安全警告</target>
+          <target state="translated">開啟這些檔案時，Windows 與其他程式可能會顯示安全性警告</target>
         </trans-unit>
         <trans-unit id="ArchiveMotW_Remove" translate="yes" xml:space="preserve">
           <source>Remove internet security marks</source>
-          <target state="new">移除網路安全標誌</target>
+          <target state="translated">移除網路安全標記</target>
         </trans-unit>
         <trans-unit id="ArchiveMotW_RemoveWarning" translate="yes" xml:space="preserve">
           <source>Choose this only if you completely trust this archive and its contents</source>
-          <target state="new">只有在你完全信任這個檔案庫及其內容時，才會選擇這個</target>
+          <target state="translated">僅在您完全信任此壓縮檔及其內容時選擇此項</target>
         </trans-unit>
         <trans-unit id="ArchiveReadError" translate="yes" xml:space="preserve">
           <source>An error occurred while trying to read contents of the archive file</source>
@@ -2369,7 +2374,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Should be short, possibly one word - shown in file details pane under size</note></trans-unit>
         <trans-unit id="CalculatingFolderSizeDisabled" translate="yes" xml:space="preserve">
           <source>Disabled in settings</source>
-          <target state="new">在設定中停用</target>
+          <target state="translated">已在設定中停用</target>
           <note from="MultilingualBuild">In details pane for network folders</note></trans-unit>
         <trans-unit id="ChangeFilesView_TT" translate="yes" xml:space="preserve">
           <source>Change files view</source>
@@ -2405,7 +2410,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="ColumnsToggle_S" translate="yes" xml:space="preserve">
           <source>` (under ESC key)</source>
-          <target state="translated">` (under ESC key)</target>
+          <target state="translated">`（ESC 鍵下方）</target>
         </trans-unit>
         <trans-unit id="ColumnsToggle_TT" translate="yes" xml:space="preserve">
           <source>Toggle columns navigation</source>
@@ -2461,7 +2466,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Cursor message to show when dragging a tab or favorite outside of window</note></trans-unit>
         <trans-unit id="Customize" translate="yes" xml:space="preserve">
           <source>Customize</source>
-          <target state="new">客製化</target>
+          <target state="translated">自訂</target>
           <note from="MultilingualBuild">Menu option on RMB on toolbar for now</note></trans-unit>
         <trans-unit id="DLG_DiskFull_RetrySavingSettings" translate="yes" xml:space="preserve">
           <source>Disk is full so settings cannot be saved. Clear at least a few KB of space or empty Recycle Bin. [NEWLINE]Retry saving settings?</source>
@@ -2481,7 +2486,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="DLG_E_OperationsInProgress" translate="yes" xml:space="preserve">
           <source>Some operations are still in progress. Please wait until operations are finished, or cancel them before closing to prevent data loss.</source>
-          <target state="new">一些操作仍在進行中。請等待操作完成，或在關閉前取消操作，以防止資料遺失。</target>
+          <target state="translated">部分作業仍在進行中。請等待作業完成，或在關閉前先取消作業，以免資料遺失。</target>
         </trans-unit>
         <trans-unit id="DLG_E_RunningFromProgramFiles" translate="yes" xml:space="preserve">
           <source>Portable programs need a write access in their own folders so they cannot run from "Program Files" folder or other system folders. Please close the program and move the entire folder to a [BOLDSTART]non-system folder[BOLDEND] and run it again</source>
@@ -2549,11 +2554,11 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="DLG_YN_FileInUseByKnownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by [BOLD]{0}[/BOLD].[NEWLINE]({1})[NEWLINE]Retry operation?</source>
-          <target state="new">檔案正被 {0} 使用。[NEWLINE]（{1}）[NEWLINE]重試操作？</target>
+          <target state="translated">檔案正被 [BOLD]{0}[/BOLD] 使用中。[NEWLINE]({1})[NEWLINE]是否重試作業？</target>
           <note from="MultilingualBuild">Shown when renaming fails. 0 is replaced with process name and 1 with exe path</note></trans-unit>
         <trans-unit id="DLG_YN_FileInUseByUnknownProcess_Retry" translate="yes" xml:space="preserve">
           <source>File is in use by another process.[NEWLINE]Retry operation?</source>
-          <target state="translated">檔案正由另一個程序使用。[NEWLINE]重試操作？</target>
+          <target state="translated">檔案正由另一個處理程序使用。[NEWLINE]是否重試作業？</target>
           <note from="MultilingualBuild">Shown when renaming fails.</note></trans-unit>
         <trans-unit id="DLG_YN_GetAllThumnails" translate="yes" xml:space="preserve">
           <source>Extract thumbnails of all files within?[NEWLINE]This may take hours so it is best to do overnight.</source>
@@ -2569,7 +2574,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="DLG_YN_RestartAsAdmin" translate="yes" xml:space="preserve">
           <source>Restart program as Admin? This will [BOLDSTART]cancel all ongoing file transfers[BOLDEND] and other processes running through OneCommander</source>
-          <target state="translated">以管理員身分重新啟動程式？這將 [BOLDSTART]取消所有進行中的檔案傳輸[BOLDEND] 和其他透過 OneCommander 執行的程序</target>
+          <target state="translated">以系統管理員身分重新啟動程式？這將 [BOLDSTART]取消所有進行中的檔案傳輸[BOLDEND] 和其他透過 OneCommander 執行的處理程序</target>
         </trans-unit>
         <trans-unit id="DLG_YN_UndoOperationTaskmaster" translate="yes" xml:space="preserve">
           <source>Program is set to use Taskmaster for file operations and can't undo directly. [NEWLINE]You can open Taskmaster, right-click on a job and undo from there. [NEWLINE]Do you want to open Taskmaster?</source>
@@ -2605,7 +2610,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="DetailsFilesTotal" translate="yes" xml:space="preserve">
           <source>Total files</source>
-          <target state="new">文件總數</target>
+          <target state="translated">檔案總數</target>
         </trans-unit>
         <trans-unit id="DetailsFreeSpace" translate="yes" xml:space="preserve">
           <source>Free space</source>
@@ -2781,23 +2786,23 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="FirstRunChooseDefaultLayout" translate="yes" xml:space="preserve">
           <source>Choose a default layout</source>
-          <target state="new">選擇預設佈局</target>
+          <target state="translated">選擇預設版面配置</target>
         </trans-unit>
         <trans-unit id="FirstRunChooseTheme" translate="yes" xml:space="preserve">
           <source>Choose a theme</source>
-          <target state="new">選擇一個主題</target>
+          <target state="translated">選擇主題</target>
         </trans-unit>
         <trans-unit id="FirstRunReadTermsToEnd" translate="yes" xml:space="preserve">
           <source>Read the terms until the end before continuing.</source>
-          <target state="new">請仔細閱讀條款全文後再繼續。</target>
+          <target state="translated">繼續前請先完整閱讀條款。</target>
         </trans-unit>
         <trans-unit id="FirstRunSizeFormat" translate="yes" xml:space="preserve">
           <source>Size format</source>
-          <target state="new">尺寸格式</target>
+          <target state="translated">大小格式</target>
         </trans-unit>
         <trans-unit id="FirstRunSupportNote" translate="yes" xml:space="preserve">
           <source>For any issues, the program developer is a click away from the ⓘ About dialog</source>
-          <target state="new">如有任何問題，只需點擊「關於」對話方塊即可聯絡程式開發者。</target>
+          <target state="translated">如有任何問題，只需在 ⓘ「關於」對話方塊中按一下即可聯絡程式開發者</target>
         </trans-unit>
         <trans-unit id="FolderNameEndsWithSpace_TT" translate="yes" xml:space="preserve">
           <source>This folder name ends with a space character ' '. This is not supported in Windows so some operations will not work and programs may fail to open or save files within this folder. It can also result in creating a duplicate folder without space character at the end. Please open parent folder and rename this folder.</source>
@@ -2805,7 +2810,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="FolderSizeCpuNote" translate="yes" xml:space="preserve">
           <source>Higher CPU use until all folder sizes are calculated in the current view</source>
-          <target state="new">在目前視圖中計算所有資料夾大小之前，CPU 使用率會較高。</target>
+          <target state="translated">在目前檢視中計算完所有資料夾大小之前，CPU 使用率會較高</target>
         </trans-unit>
         <trans-unit id="FolderSizeNoAccess_TT" translate="yes" xml:space="preserve">
           <source>Folder size can be calculated only for folders that have the entire tree of folders and files within accessible and Windows has indexed them</source>
@@ -2813,15 +2818,15 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="FoldersSorting_TT" translate="yes" xml:space="preserve">
           <source>Folders are sorted only if total size has been calculated</source>
-          <target state="new">僅當計算出總大小時才會對資料夾進行排序</target>
+          <target state="translated">僅在已計算總大小時才會排序資料夾</target>
         </trans-unit>
         <trans-unit id="ForceFullRefresh_TT" translate="yes" xml:space="preserve">
           <source>Full refresh. Force-checks for new items and recalculates all folder sizes</source>
-          <target state="new">全面刷新。強制檢查新項目並重新計算所有資料夾大小</target>
+          <target state="translated">完整重新整理。強制檢查新項目並重新計算所有資料夾大小</target>
           <note from="MultilingualBuild">tooltip on refresh in UI. \ n makes new line</note></trans-unit>
         <trans-unit id="GlobalSettings" translate="yes" xml:space="preserve">
           <source>Global settings</source>
-          <target state="new">全域設定</target>
+          <target state="translated">全域設定</target>
           <note from="MultilingualBuild">in menus, header for options affecting everything and not only current folder</note></trans-unit>
         <trans-unit id="History" translate="yes" xml:space="preserve">
           <source>History</source>
@@ -2829,12 +2834,12 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">History pane title in sidebar</note></trans-unit>
         <trans-unit id="InitializingVideoEngine" translate="yes" xml:space="preserve">
           <source>Initializing video engine (FFmpeg)...</source>
-          <target state="new">正在初始化視訊引擎（FFmpeg）...</target>
+          <target state="translated">正在初始化視訊引擎（FFmpeg）...</target>
           <note from="MultilingualBuild">First time preview loads a video</note>
         </trans-unit>
         <trans-unit id="InstantSearch" translate="yes" xml:space="preserve">
           <source>Instant Search</source>
-          <target state="new">即時搜尋</target>
+          <target state="translated">即時搜尋</target>
         </trans-unit>
         <trans-unit id="ItemsSelected" translate="yes" xml:space="preserve">
           <source>selected</source>
@@ -2886,7 +2891,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Layout name in NewWindow dialog, make short</note></trans-unit>
         <trans-unit id="LayoutSwitch_TT" translate="yes" xml:space="preserve">
           <source>Switch between window layouts</source>
-          <target state="new">在「標準佈局」和「欄式佈局」間切換</target>
+          <target state="translated">在視窗版面配置之間切換</target>
         </trans-unit>
         <trans-unit id="LocateItem_TT" translate="yes" xml:space="preserve">
           <source>Locate item</source>
@@ -2966,7 +2971,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_E_DiskNotResponding" translate="yes" xml:space="preserve">
           <source>Disk not responding</source>
-          <target state="new">磁碟沒有回應</target>
+          <target state="translated">磁碟沒有回應</target>
           <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MSG_E_DiskSleepingRetrying" translate="yes" xml:space="preserve">
           <source>Disk is in sleep mode. Waking it up and retrying operation...</source>
@@ -3114,11 +3119,11 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsNfs" translate="yes" xml:space="preserve">
           <source>Enter \\hostname\</source>
-          <target state="new">輸入 \\hostname\</target>
+          <target state="translated">輸入 \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PathContainsSmb" translate="yes" xml:space="preserve">
           <source>Windows already uses SMB. Enter \\hostname\</source>
-          <target state="new">Windows 已經使用 SMB。輸入 \\hostname\</target>
+          <target state="translated">Windows 已使用 SMB。請輸入 \\hostname\</target>
         </trans-unit>
         <trans-unit id="MSG_E_PreventedDeletionOfTempFolder" translate="yes" xml:space="preserve">
           <source>This folder will be automatically removed when operation completes</source>
@@ -3162,7 +3167,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_E_SubstDeleteFailed" translate="yes" xml:space="preserve">
           <source>Failed to unmount folder</source>
-          <target state="translated">無法卸載資料夾</target>
+          <target state="translated">無法卸除資料夾</target>
         </trans-unit>
         <trans-unit id="MSG_E_SubstFailed" translate="yes" xml:space="preserve">
           <source>Failed to mount folder</source>
@@ -3310,7 +3315,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_I_NoteCreated" translate="yes" xml:space="preserve">
           <source>Note created</source>
-          <target state="new">筆記已建立</target>
+          <target state="translated">已建立備忘</target>
         </trans-unit>
         <trans-unit id="MSG_I_PathCopiedToClipboard" translate="yes" xml:space="preserve">
           <source>Path(s) copied to Clipboard</source>
@@ -3354,7 +3359,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">{0} is drive letter like O:</note></trans-unit>
         <trans-unit id="MSG_I_TaskmasterPaused" translate="yes" xml:space="preserve">
           <source>Taskmaster is paused. This operation will be processed when you unpause it</source>
-          <target state="new">任務大師暫停了。當你解除暫停時，這個操作就會被處理</target>
+          <target state="translated">Taskmaster 已暫停。取消暫停後將會處理此作業</target>
         </trans-unit>
         <trans-unit id="MSG_I_TemplateCreated" translate="yes" xml:space="preserve">
           <source>Template created. Press Ctrl+N anytime to clone it to current folder</source>
@@ -3366,7 +3371,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_I_Undo" translate="yes" xml:space="preserve">
           <source>Make Taskmaster default file operations manager to enable undo</source>
-          <target state="new">Windows 不支援在檔案總管外部撤消檔案操作</target>
+          <target state="translated">將 Taskmaster 設為預設檔案作業管理員即可啟用復原功能</target>
           <note from="MultilingualBuild">Message on CtrlZ</note></trans-unit>
         <trans-unit id="MSG_I_UpdateAvailableForPortableVersion" translate="yes" xml:space="preserve">
           <source>New version is available. Press UPDATE button in the top-right corner</source>
@@ -3382,7 +3387,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MSG_I_WakingDiskAttempt" translate="yes" xml:space="preserve">
           <source>Waking disk (attempt {0}/{1})</source>
-          <target state="new">喚醒磁碟（嘗試 {0}/{1}）</target>
+          <target state="translated">正在喚醒磁碟（第 {0}/{1} 次嘗試）</target>
           <note from="MultilingualBuild">Shown during rename</note></trans-unit>
         <trans-unit id="MSG_NewWindow_ConfirmDeleting" translate="yes" xml:space="preserve">
           <source>Delete window {0}?</source>
@@ -3398,16 +3403,16 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="MapNetDrive_Path" translate="yes" xml:space="preserve">
           <source>Network path (e.g. \\computername\share)</source>
-          <target state="new">網路路徑（例如 \\computername\share）</target>
+          <target state="translated">網路路徑（例如 \\computername\share）</target>
         </trans-unit>
         <trans-unit id="Mebibyte" translate="yes" xml:space="preserve">
           <source>Mebibyte</source>
-          <target state="new">百萬位元組</target>
+          <target state="translated">Mebibyte</target>
           <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Megabyte" translate="yes" xml:space="preserve">
           <source>Megabyte</source>
-          <target state="new">百萬位元組</target>
+          <target state="translated">Megabyte</target>
           <note from="MultilingualBuild">Size format; in onboarding dialog only for now</note>
         </trans-unit>
         <trans-unit id="Menu_ArchiveCompress" translate="yes" xml:space="preserve">
@@ -3420,7 +3425,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="Menu_ArchiveExtractToFolder" translate="yes" xml:space="preserve">
           <source>Extract to "{0}\"</source>
-          <target state="new">解壓縮至「{0}\」</target>
+          <target state="translated">解壓縮至「{0}\」</target>
         </trans-unit>
         <trans-unit id="Menu_ArchiveOpen" translate="yes" xml:space="preserve">
           <source>Open external</source>
@@ -3576,11 +3581,11 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Menu option when right-clicking lnk file</note></trans-unit>
         <trans-unit id="Menu_OpenLocation" translate="yes" xml:space="preserve">
           <source>Open Location</source>
-          <target state="new">開放地點</target>
+          <target state="translated">開啟位置</target>
         </trans-unit>
         <trans-unit id="Menu_OpenLocationInNewTab" translate="yes" xml:space="preserve">
           <source>Open Location in new tab</source>
-          <target state="new">在新分頁中開啟位置</target>
+          <target state="translated">在新分頁中開啟位置</target>
         </trans-unit>
         <trans-unit id="Menu_OpenMTP" translate="yes" xml:space="preserve">
           <source>Browse phone</source>
@@ -3676,7 +3681,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Duration/length of video/audio files</note></trans-unit>
         <trans-unit id="Menu_SortByMetadata_TT" translate="yes" xml:space="preserve">
           <source>May momentarily freeze on large folders; required to extract metadata of all files</source>
-          <target state="new">可能會暫時凍結大資料夾；需要提取所有檔案的元資料</target>
+          <target state="translated">在大型資料夾中可能會短暫凍結；需要擷取所有檔案的中繼資料</target>
         </trans-unit>
         <trans-unit id="Menu_SortByName_Ascending" translate="yes" xml:space="preserve">
           <source>Name (A-Z)</source>
@@ -3732,7 +3737,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Metadata document author</note></trans-unit>
         <trans-unit id="MetadataAuthors" translate="yes" xml:space="preserve">
           <source>Authors</source>
-          <target state="new">作者</target>
+          <target state="translated">作者</target>
         </trans-unit>
         <trans-unit id="MetadataBitrate" translate="yes" xml:space="preserve">
           <source>Bit rate</source>
@@ -3796,7 +3801,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Metadata photo</note></trans-unit>
         <trans-unit id="MetadataIsSigned" translate="yes" xml:space="preserve">
           <source>Signature check</source>
-          <target state="new">簽名檢查</target>
+          <target state="translated">簽章檢查</target>
         </trans-unit>
         <trans-unit id="MetadataLinkTarget" translate="yes" xml:space="preserve">
           <source>Link target</source>
@@ -3840,7 +3845,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Metadata photo</note></trans-unit>
         <trans-unit id="MetadataSignature" translate="yes" xml:space="preserve">
           <source>Signature</source>
-          <target state="new">簽名</target>
+          <target state="translated">簽章</target>
         </trans-unit>
         <trans-unit id="MetadataTitle" translate="yes" xml:space="preserve">
           <source>Title</source>
@@ -3856,7 +3861,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">In context menu for new-new tab, and maybe other places in future</note></trans-unit>
         <trans-unit id="MoWWarning" translate="yes" xml:space="preserve">
           <source>This file was downloaded from the internet</source>
-          <target state="new">該文件是從互聯網下載的</target>
+          <target state="translated">此檔案是從網路下載的</target>
           <note from="MultilingualBuild">In Photos workaround dialog and soon more places</note></trans-unit>
         <trans-unit id="NavigateBackward_S" translate="yes" xml:space="preserve">
           <source>Alt + Left arrow</source>
@@ -3936,7 +3941,7 @@ Choose how to extract them:</source>
           <note from="MultilingualBuild">Button in New Window dialog to create the new window</note></trans-unit>
         <trans-unit id="NewWindowName_TT" translate="yes" xml:space="preserve">
           <source>Give this window a name so it can persist layout and tabs across sessions</source>
-          <target state="new">為新視窗命名以儲存其佈局、位置和索引標簽以供下次使用</target>
+          <target state="translated">為此視窗命名，以便在每次工作階段間保留其版面配置與分頁</target>
           <note from="MultilingualBuild">Tooltip shown on New window dialog if there are no saved windows</note></trans-unit>
         <trans-unit id="NewWindowTitle" translate="yes" xml:space="preserve">
           <source>New window</source>
@@ -3960,11 +3965,11 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="NoRecentOperations" translate="yes" xml:space="preserve">
           <source>No recent operations</source>
-          <target state="new">最近沒有操作</target>
+          <target state="translated">最近沒有作業</target>
         </trans-unit>
         <trans-unit id="NotSigned" translate="yes" xml:space="preserve">
           <source>No digital signature</source>
-          <target state="new">沒有數位簽名</target>
+          <target state="translated">無數位簽章</target>
           <note from="MultilingualBuild">file doesn't have digital signature, details of exe</note></trans-unit>
         <trans-unit id="Notifications_Minimize_S" translate="yes" xml:space="preserve">
           <source>ESC to close | ~ to open</source>
@@ -3976,7 +3981,7 @@ Choose how to extract them:</source>
         </trans-unit>
         <trans-unit id="OperationHistory" translate="yes" xml:space="preserve">
           <source>Operation history</source>
-          <target state="new">操作歷史</target>
+          <target state="translated">作業歷程記錄</target>
           <note from="MultilingualBuild">Popup title on ctrl+z</note></trans-unit>
         <trans-unit id="OverlayContracting" translate="yes" xml:space="preserve">
           <source>Collapse</source>
@@ -4029,14 +4034,14 @@ Choose how to extract them:</source>
         <trans-unit id="PathTooLongFile_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open this file</source>
-          <target state="new">路徑長度超過 Windows 支援的長度（260 個字元）
-某些程式無法開啟此檔案</target>
+          <target state="translated">路徑長度超過 Windows 支援上限（260 個字元）
+部分程式將無法開啟此檔案</target>
         </trans-unit>
         <trans-unit id="PathTooLong_TT" translate="yes" xml:space="preserve">
           <source>Path longer than Windows supported (260 characters)
 Some programs won't be able to open/save files from this folder</source>
-          <target state="new">路徑長度超過 Windows 支援的長度（260 個字元）
-某些程式將無法存取此資料夾中的檔案</target>
+          <target state="translated">路徑長度超過 Windows 支援上限（260 個字元）
+部分程式將無法開啟／儲存此資料夾中的檔案</target>
         </trans-unit>
         <trans-unit id="PathsGroupTitleClipboard" translate="yes" xml:space="preserve">
           <source>Clipboard</source>
@@ -4054,27 +4059,29 @@ Some programs won't be able to open/save files from this folder</source>
           <source>Windows marked this image as a web download. Because of this, Microsoft Photos will show a security prompt every time it is opened. 
 OneCommander cannot bypass this behavior. 
 Choose how to proceed:</source>
-          <target state="new">Windows 將此檔案標記為從網路下載。由於此標籤，Microsoft Photos 將在每次開啟時顯示安全性提示。 OneCommander 無法控制此行為。選擇如何處理此問題：</target>
+          <target state="translated">Windows 已將此圖片標記為網路下載檔案。因此，每次開啟時 Microsoft 相片都會顯示安全性提示。
+OneCommander 無法略過此行為。
+請選擇處理方式：</target>
         </trans-unit>
         <trans-unit id="PhotosAppWorkaroundTip" translate="yes" xml:space="preserve">
           <source>Tip: Use OneCommander's built-in preview (Spacebar) or set a different default image viewer to avoid this prompt entirely.</source>
-          <target state="new">提示：使用 OneCommander 的內建預覽（空白鍵）或設定不同的預設影像檢視器來完全避免此提示。</target>
+          <target state="translated">提示：使用 OneCommander 內建預覽（空白鍵）或設定其他預設圖片檢視器，即可完全避免此提示。</target>
         </trans-unit>
         <trans-unit id="PhotosAppWorkaround_Open" translate="yes" xml:space="preserve">
           <source>Open this file only</source>
-          <target state="new">單獨打開圖片</target>
+          <target state="translated">僅開啟此檔案</target>
         </trans-unit>
         <trans-unit id="PhotosAppWorkaround_OpenInfo" translate="yes" xml:space="preserve">
           <source>← → Arrow navigation in Photos will not work</source>
-          <target state="new">← → 照片中的導覽箭頭將無法運作</target>
+          <target state="translated">← → 相片中的方向鍵瀏覽將無法運作</target>
         </trans-unit>
         <trans-unit id="PhotosAppWorkaround_RemoveMoW" translate="yes" xml:space="preserve">
           <source>Remove the security mark and open</source>
-          <target state="new">去掉web標誌並打開</target>
+          <target state="translated">移除安全標記並開啟</target>
         </trans-unit>
         <trans-unit id="PhotosAppWorkaround_RemoveMoWInfo" translate="yes" xml:space="preserve">
           <source>← → Arrow navigation will work normally</source>
-          <target state="new">← → 導覽箭頭將正常運作</target>
+          <target state="translated">← → 方向鍵瀏覽將可正常運作</target>
         </trans-unit>
         <trans-unit id="Popup_FileName" translate="yes" xml:space="preserve">
           <source>File name</source>
@@ -4162,7 +4169,7 @@ Choose how to proceed:</source>
         </trans-unit>
         <trans-unit id="Popup_Note_Text_TT" translate="yes" xml:space="preserve">
           <source>To add new line press Shift + Enter</source>
-          <target state="new">若要添加新行，請按 Ctrl + Enter</target>
+          <target state="translated">若要換行，請按 Shift + Enter</target>
         </trans-unit>
         <trans-unit id="Popup_Note_Title" translate="yes" xml:space="preserve">
           <source>Note / ToDo Task</source>
@@ -4170,7 +4177,7 @@ Choose how to proceed:</source>
           <note from="MultilingualBuild">Title of the New Note dialog</note></trans-unit>
         <trans-unit id="Preview_DownloadAndPreview" translate="yes" xml:space="preserve">
           <source>Download and preview</source>
-          <target state="new">下載並預覽</target>
+          <target state="translated">下載並預覽</target>
         </trans-unit>
         <trans-unit id="Preview_EmptyFile" translate="yes" xml:space="preserve">
           <source>Empty file</source>
@@ -4246,7 +4253,7 @@ Choose how to proceed:</source>
           <note from="MultilingualBuild">Tooltip for refresh button for recycle bin and changes pane</note></trans-unit>
         <trans-unit id="RememberChoice" translate="yes" xml:space="preserve">
           <source>Remember my choice and don't ask again</source>
-          <target state="new">記住我的選擇，不要再問</target>
+          <target state="translated">記住我的選擇，不再詢問</target>
         </trans-unit>
         <trans-unit id="Rename_S" translate="yes" xml:space="preserve">
           <source>F2</source>
@@ -4258,11 +4265,11 @@ Choose how to proceed:</source>
         </trans-unit>
         <trans-unit id="ReportIssue_TT" translate="yes" xml:space="preserve">
           <source>Report a problem to the developer</source>
-          <target state="new"></target>
+          <target state="translated">向開發者回報問題</target>
         </trans-unit>
         <trans-unit id="SavedWindows" translate="yes" xml:space="preserve">
           <source>Saved windows</source>
-          <target state="new">已保存的視窗</target>
+          <target state="translated">已儲存的視窗</target>
           <note from="MultilingualBuild">In window popup above saved windows list</note></trans-unit>
         <trans-unit id="Scripts_TT" translate="yes" xml:space="preserve">
           <source>Scripts</source>
@@ -4306,7 +4313,7 @@ Choose how to proceed:</source>
           <note from="MultilingualBuild">Currently in path edit of single-pane layout right click menu text box</note></trans-unit>
         <trans-unit id="SessionWindowsRestoredNotification" translate="yes" xml:space="preserve">
           <source>Some session windows were restored to other virtual desktops</source>
-          <target state="new">某些會話視窗已恢復到其他虛擬桌面</target>
+          <target state="translated">部分工作階段視窗已還原至其他虛擬桌面</target>
         </trans-unit>
         <trans-unit id="Settings_TT" translate="yes" xml:space="preserve">
           <source>Program settings</source>
@@ -4326,7 +4333,7 @@ Choose how to proceed:</source>
           <note from="MultilingualBuild">Option in advanced shortcut creation options</note></trans-unit>
         <trans-unit id="ShowOnlyUndoable" translate="yes" xml:space="preserve">
           <source>Show only undoable operations</source>
-          <target state="new">僅顯示可撤銷的操作</target>
+          <target state="translated">僅顯示可復原的作業</target>
           <note from="MultilingualBuild">Checkbox in operationhistory popup</note></trans-unit>
         <trans-unit id="ShutdownMessage" translate="yes" xml:space="preserve">
           <source>Saving settings before closing...</source>
@@ -4334,11 +4341,11 @@ Choose how to proceed:</source>
           <note from="MultilingualBuild">Message on shutdown screen - blocking to save settings</note></trans-unit>
         <trans-unit id="ShutdownTaskmasterMessage" translate="yes" xml:space="preserve">
           <source>File operations running. Closing risks data loss.</source>
-          <target state="new">檔案作業進行中。關閉可能導致資料遺失。</target>
+          <target state="translated">檔案作業正在進行中。關閉可能會導致資料遺失。</target>
           <note from="MultilingualBuild">Message on shutdown screen while Taskmaster has queued or active file operations</note></trans-unit>
         <trans-unit id="Signature" translate="yes" xml:space="preserve">
           <source>Signature</source>
-          <target state="new">簽名</target>
+          <target state="translated">簽章</target>
           <note from="MultilingualBuild">as in digital signature - for exe files</note></trans-unit>
         <trans-unit id="SizeB" translate="yes" xml:space="preserve">
           <source>B</source>
@@ -4378,7 +4385,7 @@ Choose how to proceed:</source>
         </trans-unit>
         <trans-unit id="SortByDate" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <target state="new">日期</target>
+          <target state="translated">日期</target>
         </trans-unit>
         <trans-unit id="SortByDate_NewestFirst_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by date modified (Newest first)</source>
@@ -4390,7 +4397,7 @@ Choose how to proceed:</source>
         </trans-unit>
         <trans-unit id="SortByName" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">名稱</target>
+          <target state="translated">名稱</target>
         </trans-unit>
         <trans-unit id="SortByName_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by name (A-Z)</source>
@@ -4402,23 +4409,23 @@ Choose how to proceed:</source>
         </trans-unit>
         <trans-unit id="SortBySize" translate="yes" xml:space="preserve">
           <source>Size</source>
-          <target state="new">大小</target>
+          <target state="translated">大小</target>
         </trans-unit>
         <trans-unit id="SortBySize_LargestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Largest first)
 Folders are sorted only if total size has been calculated</source>
-          <target state="new">按大小排序（大在前）
-資料夾無法被排序</target>
+          <target state="translated">依大小排序檔案（由大到小）
+僅在已計算總大小時才會排序資料夾</target>
           <note from="MultilingualBuild">Added newline</note></trans-unit>
         <trans-unit id="SortBySize_SmallestFirst" translate="yes" xml:space="preserve">
           <source>Sorts files by size (Smallest first)
 Folders are sorted only if total size has been calculated</source>
-          <target state="new">按大小排序（小在前）
-資料夾無法被排序</target>
+          <target state="translated">依大小排序檔案（由小到大）
+僅在已計算總大小時才會排序資料夾</target>
           <note from="MultilingualBuild">Added newline</note></trans-unit>
         <trans-unit id="SortByType" translate="yes" xml:space="preserve">
           <source>Type</source>
-          <target state="new">類型</target>
+          <target state="translated">類型</target>
         </trans-unit>
         <trans-unit id="SortByType_Ascending_TT" translate="yes" xml:space="preserve">
           <source>Sorts items by type (A-Z)</source>
@@ -4430,15 +4437,15 @@ Folders are sorted only if total size has been calculated</source>
         </trans-unit>
         <trans-unit id="SortFoldersOnTop_TT" translate="yes" xml:space="preserve">
           <source>Keep folders above files</source>
-          <target state="new">將資料夾置於檔案上方（切換）</target>
+          <target state="translated">將資料夾保持在檔案上方</target>
         </trans-unit>
         <trans-unit id="SortLive" translate="yes" xml:space="preserve">
           <source>Live sorting</source>
-          <target state="new">即時分類</target>
+          <target state="translated">即時排序</target>
           <note from="MultilingualBuild">Sorting after rename instead of keeping item in place</note></trans-unit>
         <trans-unit id="SortLive_TT" translate="yes" xml:space="preserve">
           <source>When enabled, renamed file will be sorted with other files and will jump to new sort location. Default is off</source>
-          <target state="new">啟用後，重新命名的檔案將與其他檔案一起排序，並跳到新的排序位置。預設關閉</target>
+          <target state="translated">啟用後，重新命名的檔案將會與其他檔案一起排序，並移動至新的排序位置。預設為關閉</target>
         </trans-unit>
         <trans-unit id="Sort_TT" translate="yes" xml:space="preserve">
           <source>Sort files</source>
@@ -4494,7 +4501,7 @@ Folders are sorted only if total size has been calculated</source>
           <note from="MultilingualBuild">Shorcut dialog - shortcut target</note></trans-unit>
         <trans-unit id="Taskmaster_TT" translate="yes" xml:space="preserve">
           <source>Open Taskmaster to view and manage file operation jobs</source>
-          <target state="new"></target>
+          <target state="translated">開啟 Taskmaster 以檢視及管理檔案作業工作</target>
         </trans-unit>
         <trans-unit id="Template_BlankFile" translate="yes" xml:space="preserve">
           <source>Blank file</source>
@@ -4502,15 +4509,15 @@ Folders are sorted only if total size has been calculated</source>
           <note from="MultilingualBuild">Option in New File dialog to create blank file</note></trans-unit>
         <trans-unit id="ThemeDark" translate="yes" xml:space="preserve">
           <source>Dark theme</source>
-          <target state="new">深色主題</target>
+          <target state="translated">深色主題</target>
         </trans-unit>
         <trans-unit id="ThemeLight" translate="yes" xml:space="preserve">
           <source>Light theme</source>
-          <target state="new">淺色主題</target>
+          <target state="translated">淺色主題</target>
         </trans-unit>
         <trans-unit id="ThumbSize_TT" translate="yes" xml:space="preserve">
           <source>Ctrl± ｜ Ctrl☸</source>
-          <target state="new">Ctrl± ｜ Ctrl☸</target>
+          <target state="translated">Ctrl± ｜ Ctrl☸</target>
         </trans-unit>
         <trans-unit id="Undo" translate="yes" xml:space="preserve">
           <source>Undo</source>
@@ -4534,7 +4541,7 @@ Folders are sorted only if total size has been calculated</source>
           <note from="MultilingualBuild">WSL is Windows Subsystem for Linux, and should remain untranslated; also keep ReadDirectoryChangesW. It is obscure but if someone is using WSL shouldn't mind technical reason</note></trans-unit>
         <trans-unit id="WaitingDeviceResponse" translate="yes" xml:space="preserve">
           <source>Waiting for {0} to respond...</source>
-          <target state="new">正在等待{0}回覆...</target>
+          <target state="translated">正在等待 {0} 回應…</target>
         </trans-unit>
         <trans-unit id="WakingDiskUp" translate="yes" xml:space="preserve">
           <source>Waking disk up...</source>
@@ -4606,16 +4613,16 @@ Folders are sorted only if total size has been calculated</source>
         </trans-unit>
         <trans-unit id="WindowLayout" translate="yes" xml:space="preserve">
           <source>Window layout</source>
-          <target state="translated">視窗配置</target>
+          <target state="translated">視窗版面配置</target>
           <note from="MultilingualBuild">Tooltip for layout button and window menu item</note></trans-unit>
         <trans-unit id="WizardStepNext" translate="yes" xml:space="preserve">
           <source>Next</source>
-          <target state="new">下一個</target>
+          <target state="translated">下一步</target>
           <note from="MultilingualBuild">Wizard next step</note>
         </trans-unit>
         <trans-unit id="WizardStepStart" translate="yes" xml:space="preserve">
           <source>Start</source>
-          <target state="new">開始</target>
+          <target state="translated">開始</target>
           <note from="MultilingualBuild">Wizard step start the program</note>
         </trans-unit>
       </group>
@@ -4638,7 +4645,7 @@ Folders are sorted only if total size has been calculated</source>
         </trans-unit>
         <trans-unit id="CustomViewAssignmentLicenseNotice" translate="yes" xml:space="preserve">
           <source>Assigning custom views to folders requires a Pro license.</source>
-          <target state="new">將自訂檢視指派給資料夾需要專業版許可證。</target>
+          <target state="translated">將自訂檢視指派給資料夾需要 Pro 授權。</target>
           <note from="MultilingualBuild">License notice in the file view designer, shown only to users without a Pro license.</note></trans-unit>
         <trans-unit id="EditedView" translate="yes" xml:space="preserve">
           <source>Edited view:</source>
@@ -4678,7 +4685,7 @@ Folders are sorted only if total size has been calculated</source>
         </trans-unit>
         <trans-unit id="MetadataBlock" translate="yes" xml:space="preserve">
           <source>Metadata block</source>
-          <target state="new">元資料區塊</target>
+          <target state="translated">中繼資料區塊</target>
           <note from="MultilingualBuild">Block as element</note></trans-unit>
         <trans-unit id="MinWidth" translate="yes" xml:space="preserve">
           <source>Min.Width</source>
@@ -4710,7 +4717,7 @@ Folders are sorted only if total size has been calculated</source>
         </trans-unit>
         <trans-unit id="SaveNotice" translate="yes" xml:space="preserve">
           <source>Save as a custom View name to prevent restoring default views when program updates</source>
-          <target state="translated">另存為自訂檢視名稱，以防止程式更新時還原預設檢視</target>
+          <target state="translated">儲存為自訂檢視名稱，以免程式更新時還原為預設檢視</target>
         </trans-unit>
         <trans-unit id="SomeElementsAreHidden" translate="yes" xml:space="preserve">
           <source>Some elements are hidden due to available size (according to Removal Order)</source>
