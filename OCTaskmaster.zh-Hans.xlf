@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
     <body>
       <group id="../TASKMASTERLIBRARY/OCTASKMASTER/PROPERTIES/RESOURCES.RESX" datatype="resx">
         <trans-unit id="About" translate="yes" xml:space="preserve">
@@ -9,15 +12,15 @@
         </trans-unit>
         <trans-unit id="AutoScrollJobs" translate="yes" xml:space="preserve">
           <source>Auto-scroll jobs</source>
-          <target state="new">自动滚动</target>
+          <target state="translated">自动滚动任务列表</target>
         </trans-unit>
         <trans-unit id="AutoScrollPaused" translate="yes" xml:space="preserve">
           <source>Cursor inside. Auto-scroll paused</source>
-          <target state="new">光标在里面。自动滚动暂停</target>
+          <target state="translated">鼠标指针已移入，自动滚动已暂停</target>
         </trans-unit>
         <trans-unit id="AutoScrollTasks" translate="yes" xml:space="preserve">
           <source>Auto-scroll job's tasks</source>
-          <target state="new">自动滚动作业的任务</target>
+          <target state="translated">自动滚动任务明细</target>
         </trans-unit>
         <trans-unit id="BTN_Cancel" translate="yes" xml:space="preserve">
           <source>Cancel</source>
@@ -37,7 +40,7 @@
         </trans-unit>
         <trans-unit id="BTN_OverwriteAllOlder" translate="yes" xml:space="preserve">
           <source>Overwrite all older</source>
-          <target state="new">覆盖所有旧的</target>
+          <target state="translated">覆盖所有较旧的目标文件</target>
         </trans-unit>
         <trans-unit id="BTN_Rename" translate="yes" xml:space="preserve">
           <source>Rename</source>
@@ -57,11 +60,11 @@
         </trans-unit>
         <trans-unit id="ClearCompleted" translate="yes" xml:space="preserve">
           <source>Clear completed</source>
-          <target state="new">清除完成</target>
+          <target state="translated">清除已完成</target>
         </trans-unit>
         <trans-unit id="ClearCompletedJobs_TT" translate="yes" xml:space="preserve">
           <source>Clear completed jobs</source>
-          <target state="new">清除已完成的作业</target>
+          <target state="translated">清除已完成的任务</target>
         </trans-unit>
         <trans-unit id="CloseOnComplete" translate="yes" xml:space="preserve">
           <source>Close on complete</source>
@@ -69,7 +72,7 @@
         </trans-unit>
         <trans-unit id="ConcurrentJobs" translate="yes" xml:space="preserve">
           <source>Concurrent jobs</source>
-          <target state="new">并发职位</target>
+          <target state="translated">并发任务数</target>
         </trans-unit>
         <trans-unit id="ConflictResolution" translate="yes" xml:space="preserve">
           <source>Conflict resolution</source>
@@ -77,35 +80,39 @@
         </trans-unit>
         <trans-unit id="DataProgress" translate="yes" xml:space="preserve">
           <source>Data progress</source>
-          <target state="new">数据进展</target>
+          <target state="translated">数据传输进度</target>
         </trans-unit>
         <trans-unit id="Destination" translate="yes" xml:space="preserve">
           <source>To</source>
-          <target state="new">到</target>
+          <target state="translated">目标</target>
         </trans-unit>
         <trans-unit id="EstimatedTimeRemainingHours" translate="yes" xml:space="preserve">
           <source>~{0} hours</source>
-          <target state="new">~{0}小时</target>
-          <note from="MultilingualBuild">Estimated time remaining when six or more hours remain</note></trans-unit>
+          <target state="translated">~{0}时</target>
+          <note from="MultilingualBuild" priority="2">Estimated time remaining when six or more hours remain</note>
+        </trans-unit>
         <trans-unit id="EstimatedTimeRemainingHoursMinutes" translate="yes" xml:space="preserve">
           <source>~{0} h {1} min</source>
-          <target state="new">~{0}小时{1}分钟</target>
-          <note from="MultilingualBuild">Estimated time remaining when at least one hour but less than six hours remain</note></trans-unit>
+          <target state="translated">~{0}时{1}分</target>
+          <note from="MultilingualBuild" priority="2">Estimated time remaining when at least one hour but less than six hours remain</note>
+        </trans-unit>
         <trans-unit id="EstimatedTimeRemainingMinutesSeconds" translate="yes" xml:space="preserve">
           <source>~{0} min {1} s</source>
-          <target state="new">~{0}分钟{1}</target>
-          <note from="MultilingualBuild">Estimated time remaining when at least one minute but less than one hour remains</note></trans-unit>
+          <target state="translated">~{0}分{1}秒</target>
+          <note from="MultilingualBuild" priority="2">Estimated time remaining when at least one minute but less than one hour remains</note>
+        </trans-unit>
         <trans-unit id="EstimatedTimeRemainingSeconds" translate="yes" xml:space="preserve">
           <source>~{0} s</source>
-          <target state="new">~{0}</target>
-          <note from="MultilingualBuild">Estimated time remaining when less than one minute remains</note></trans-unit>
+          <target state="translated">~{0}秒</target>
+          <note from="MultilingualBuild" priority="2">Estimated time remaining when less than one minute remains</note>
+        </trans-unit>
         <trans-unit id="FileFullName" translate="yes" xml:space="preserve">
           <source>Full name</source>
-          <target state="new">姓名</target>
+          <target state="translated">完整文件名</target>
         </trans-unit>
         <trans-unit id="FileFullNameFinal" translate="yes" xml:space="preserve">
           <source>Full name final</source>
-          <target state="new">最终全名</target>
+          <target state="translated">最终文件名</target>
         </trans-unit>
         <trans-unit id="FileName" translate="yes" xml:space="preserve">
           <source>Name</source>
@@ -121,7 +128,7 @@
         </trans-unit>
         <trans-unit id="FilesProgress" translate="yes" xml:space="preserve">
           <source>Files progress</source>
-          <target state="new">档案进展</target>
+          <target state="translated">文件处理进度</target>
         </trans-unit>
         <trans-unit id="HideOnClose" translate="yes" xml:space="preserve">
           <source>Hide on close</source>
@@ -129,7 +136,7 @@
         </trans-unit>
         <trans-unit id="JobName" translate="yes" xml:space="preserve">
           <source>Job</source>
-          <target state="new">工作</target>
+          <target state="translated">任务</target>
         </trans-unit>
         <trans-unit id="JobNameMultipleItems" translate="yes" xml:space="preserve">
           <source>{0} items</source>
@@ -137,24 +144,28 @@
         </trans-unit>
         <trans-unit id="JobsCompleted" translate="yes" xml:space="preserve">
           <source>Jobs completed</source>
-          <target state="new">已完成的工作</target>
-          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+          <target state="translated">已完成任务</target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
         <trans-unit id="JobsFailed" translate="yes" xml:space="preserve">
           <source>Jobs failed</source>
-          <target state="new">作业失败</target>
-          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+          <target state="translated">失败任务</target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
         <trans-unit id="JobsPending" translate="yes" xml:space="preserve">
           <source>Jobs pending</source>
-          <target state="new">职位待定</target>
-          <note from="MultilingualBuild">Tooltip</note></trans-unit>
+          <target state="translated">待处理任务</target>
+          <note from="MultilingualBuild" priority="2">Tooltip</note>
+        </trans-unit>
         <trans-unit id="KeepFileDates" translate="yes" xml:space="preserve">
           <source>Keep file dates</source>
           <target state="new">保留文件日期</target>
         </trans-unit>
         <trans-unit id="MSG_DelegatedToExplorer" translate="yes" xml:space="preserve">
           <source>Delegated to Explorer due to error:</source>
-          <target state="new">由于错误而委托给资源管​​理器：</target>
-          <note from="MultilingualBuild">Error when permissions are lacking so Explorer can elevate and handle it</note></trans-unit>
+          <target state="translated">发生错误，已转交至资源管理器处理：</target>
+          <note from="MultilingualBuild" priority="2">Error when permissions are lacking so Explorer can elevate and handle it</note>
+        </trans-unit>
         <trans-unit id="MSG_DoesNotExist" translate="yes" xml:space="preserve">
           <source>Doesn't exist</source>
           <target state="new">不存在</target>
@@ -170,11 +181,13 @@
         <trans-unit id="MSG_ExplorerError" translate="yes" xml:space="preserve">
           <source>Explorer reported error</source>
           <target state="new">资源管理器报告错误</target>
-          <note from="MultilingualBuild">If Windows File Explorer fails this message is shown</note></trans-unit>
+          <note from="MultilingualBuild" priority="2">If Windows File Explorer fails this message is shown</note>
+        </trans-unit>
         <trans-unit id="MSG_HandledByExplorer" translate="yes" xml:space="preserve">
           <source>Handled by Explorer</source>
           <target state="new">由资源管理器处理</target>
-          <note from="MultilingualBuild">If operation is delegated to File Explorer, then this is message on success</note></trans-unit>
+          <note from="MultilingualBuild" priority="2">If operation is delegated to File Explorer, then this is message on success</note>
+        </trans-unit>
         <trans-unit id="MSG_SkippedExists" translate="yes" xml:space="preserve">
           <source>Item already exists</source>
           <target state="new">项目已存在</target>
@@ -193,7 +206,7 @@
         </trans-unit>
         <trans-unit id="OperationDeletePerm" translate="yes" xml:space="preserve">
           <source>Delete</source>
-          <target state="new">删除</target>
+          <target state="translated">永久删除</target>
         </trans-unit>
         <trans-unit id="OperationMove" translate="yes" xml:space="preserve">
           <source>Move</source>
@@ -201,7 +214,7 @@
         </trans-unit>
         <trans-unit id="OperationRecycle" translate="yes" xml:space="preserve">
           <source>Recycle</source>
-          <target state="new">回收</target>
+          <target state="translated">移入回收站</target>
         </trans-unit>
         <trans-unit id="OperationRename" translate="yes" xml:space="preserve">
           <source>Rename</source>
@@ -209,7 +222,7 @@
         </trans-unit>
         <trans-unit id="OperationReverse" translate="yes" xml:space="preserve">
           <source>Reverse job</source>
-          <target state="new">逆向工作</target>
+          <target state="translated">撤消任务</target>
         </trans-unit>
         <trans-unit id="Option_Ask" translate="yes" xml:space="preserve">
           <source>Ask/Prompt</source>
@@ -221,43 +234,43 @@
         </trans-unit>
         <trans-unit id="PercentDone" translate="yes" xml:space="preserve">
           <source>Progress</source>
-          <target state="new">进展</target>
+          <target state="translated">进度</target>
         </trans-unit>
         <trans-unit id="ResRenamed" translate="yes" xml:space="preserve">
           <source>Renamed</source>
-          <target state="new">更名</target>
+          <target state="translated">已重命名</target>
         </trans-unit>
         <trans-unit id="ResReplaced" translate="yes" xml:space="preserve">
           <source>Replaced</source>
-          <target state="new">已更换</target>
+          <target state="translated">已替换</target>
         </trans-unit>
         <trans-unit id="ResSkipped" translate="yes" xml:space="preserve">
           <source>Skipped</source>
-          <target state="new">跳过</target>
+          <target state="translated">已跳过</target>
         </trans-unit>
         <trans-unit id="Res_Completed" translate="yes" xml:space="preserve">
           <source>Completed</source>
-          <target state="new">完全的</target>
+          <target state="translated">已完成</target>
         </trans-unit>
         <trans-unit id="Res_Enumerating" translate="yes" xml:space="preserve">
           <source>Retrieving files</source>
-          <target state="new">检索文件</target>
+          <target state="translated">正在列出文件</target>
         </trans-unit>
         <trans-unit id="Res_Failed" translate="yes" xml:space="preserve">
           <source>Failed</source>
-          <target state="new">失败的</target>
+          <target state="translated">失败</target>
         </trans-unit>
         <trans-unit id="Res_Processing" translate="yes" xml:space="preserve">
           <source>Processing</source>
-          <target state="new">加工</target>
+          <target state="translated">正在处理</target>
         </trans-unit>
         <trans-unit id="Res_Queued" translate="yes" xml:space="preserve">
           <source>Queued</source>
-          <target state="new">排队</target>
+          <target state="translated">已排队</target>
         </trans-unit>
         <trans-unit id="Res_Stopped" translate="yes" xml:space="preserve">
           <source>Stopped/Cancelled</source>
-          <target state="new">停止/取消</target>
+          <target state="translated">已停止／已取消</target>
         </trans-unit>
         <trans-unit id="ResetToDefault" translate="yes" xml:space="preserve">
           <source>Reset to default</source>
@@ -273,7 +286,7 @@
         </trans-unit>
         <trans-unit id="Source" translate="yes" xml:space="preserve">
           <source>From</source>
-          <target state="new">从</target>
+          <target state="translated">来源</target>
         </trans-unit>
         <trans-unit id="Status" translate="yes" xml:space="preserve">
           <source>Status</source>
